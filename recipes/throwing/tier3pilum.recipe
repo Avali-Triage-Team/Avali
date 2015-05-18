@@ -5,5 +5,5 @@
     { "item" : "money", "count" : 1000 }
   ],
   "output" : { "item" : "avalitier3pilum", "count" : 3 },
-  "groups" : [ "anvil", "weapons", "all" ]
+  "groups" : [ "metalworkstation", "anvil", "roboticcraftingtable", "ironcraftingtable", "weapons", "all" ]
 }
