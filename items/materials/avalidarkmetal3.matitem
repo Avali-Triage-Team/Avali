@@ -1,0 +1,12 @@
+{
+  "itemName" : "avalidarkmetal3",
+  "rarity" : "Common",
+  "inventoryIcon" : "avalidarkmetal3.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Metal, darkly.",
+  "shortdescription" : "Dark Metal Beam",
+
+  
+  
+  "materialId" : 12507
+}

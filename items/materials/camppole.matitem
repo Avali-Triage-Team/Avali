@@ -1,0 +1,12 @@
+{
+  "itemName" : "camppole",
+  "rarity" : "Common",
+  "inventoryIcon" : "camppole.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "A lightweight tent support.",
+  "shortdescription" : "Nanofibre Pole",
+
+  
+  
+  "materialId" : 12513
+}

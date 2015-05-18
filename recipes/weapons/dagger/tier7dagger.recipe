@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "ceruliumcompound", "count" : 8 }
+  ],
+  "output" : { "item" : "avalitier7dagger", "count" : 1 },
+  "groups" : [ "manipulatortable", "weapons", "all" ]
+}

@@ -1,0 +1,12 @@
+{
+  "itemName" : "avalidarkmetal",
+  "rarity" : "Common",
+  "inventoryIcon" : "avalidarkmetal.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Metal, darkly.",
+  "shortdescription" : "Dark Metal Support",
+
+  
+  
+  "materialId" : 12505
+}

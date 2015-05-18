@@ -1,0 +1,40 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "switchState" : {
+        "default" : "off",
+        "states" : {
+          "off" : {
+            "frames" : 1
+          },
+          "on" : {
+            "frames" : 4,
+            "cycle" : 0.5,
+            "mode" : "loop"
+          }
+        }
+      }
+    },
+    "parts" : {
+      "switch" : {
+        "properties" : {
+          "centered" : false
+        },
+        "partStates" : {
+          "switchState" : {
+            "off" : {
+              "properties" : {
+                "image" : "spawner_avali.png"
+              }
+            },
+            "on" : {
+              "properties" : {
+                "image" : "spawner_avali.png"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "graphene", "count" : 6 },
+    { "item" : "avalitier1pilum", "count" : 3 },
+    { "item" : "refinedrubium", "count" : 1 }
+  ],
+  "output" : { "item" : "avalitier2pilum", "count" : 3 },
+  "groups" : [ "anvil", "weapons", "all" ]
+}

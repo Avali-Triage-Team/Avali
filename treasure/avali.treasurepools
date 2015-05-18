@@ -1,0 +1,43 @@
+{
+  "avaliTemporaryLoot" : [
+    [1, {
+        "pool" : [
+          {"weight" : 0.80, "pool" : "money"},
+          {"weight" : 0.20, "item" : [ "avalitoken", 1 ]}
+        ],
+        "poolRounds" : [
+          [0.20, 0],
+          [0.80, 1]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+  "avaliEncounterLoot" : [
+    [0, {
+        "fill" : [
+          {"item" : [ "avalitoken", 1]}
+         ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+    } ]
+  ],
+  "avaliCodexLoot" : [
+    [1, {
+        "pool" : [
+          {"weight" : 0.36, "item" : [ "money", 10]},
+          {"weight" : 0.26, "item" : [ "money", 25]},
+          {"weight" : 0.20, "item" : [ "money", 50]},
+          {"weight" : 0.18, "item" : [ "money", 100 ]}
+        ],
+        "poolRounds" : [
+          [1.0, 1]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ]
+}
+
+
+

@@ -1,0 +1,11 @@
+{
+	"name" : "Avali",
+  "includes" : [ "FrackinUniverse" ],
+	"metadata" : {
+    "displayName" : "Avali Race Mod",
+		"author" : "RyuujinZero",
+		"description" : "The only fluffy nomadic space raptors!",
+		"support_url" : "http://community.playstarbound.com/resources/avali-triage.2852/",
+		"thanks": "Mackinz, Devani, Thakyz, Sparrows, Gatosardina"
+	}
+}

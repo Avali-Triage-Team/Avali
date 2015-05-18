@@ -1,0 +1,37 @@
+{
+  "objectName" : "avalidisplayapparatus",
+  "rarity" : "Common",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/avalidisplayapparatus.config",
+    "filter" : [ "avalidisplayapparatus" ]
+  },
+  "printable" : true,
+  "description" : "A machine that makes a display of almost anything!",
+  "shortdescription" : "Avali Display Apparatus",
+  "race" : "avali",
+  "category" : "crafting",
+  "price" : 100,
+
+  "apexDescription" : "What an eclectic mix of old know-how and modern technology.",
+  "avianDescription" : "A displayer, I used something like this to create my banana trophy.",
+  "floranDescription" : "It goesssssss back and forth, back and forth, back and forth....",
+  "glitchDescription" : "Reflective. In a previous time, I served as a weaver for a cycle.",
+  "humanDescription" : "Warp or weft... which is it that runs lengthways?",
+  "hylotlDescription" : "Oh my, I have got to get one of these for my house.",
+
+  "inventoryIcon" : "avalidisplayapparatusicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "avalidisplayapparatus.png:<color>.<frame>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 6,
+      "animationCycle" : 1,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

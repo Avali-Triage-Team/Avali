@@ -1,0 +1,15 @@
+[
+	{"op" : "add"
+	,"path" : "/speciesText/avali"
+	, "value" : {
+      "buttonText" : "Dreadwing",
+      "repeatButtonText" : "Rechallenge Dreadwing",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "The penguin on the outpost wants me to take down the mighty pirate Dreadwing.",
+          "speedModifier" : 1.0
+        }
+      ]
+    }}
+]

@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "refinedviolium", "count" : 8 }
+  ],
+  "output" : { "item" : "avalitier8dagger", "count" : 1 },
+  "groups" : [ "separatortable", "weapons", "all" ]
+}

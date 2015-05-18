@@ -1,0 +1,56 @@
+{
+  "itemName" : "avaliracial2chest",
+  "inventoryIcon" : "icons.png:chest",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "A jewelled shoulder wrap, the crystal chimes jingle as you move.",
+  "shortdescription" : "Chimed Shoulder Wrap",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : {
+    "body" : "chestm.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "femaleFrames" : {
+    "body" : "chestm.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "statusEffects" : [
+    {
+      "stat" : "protection",
+      "amount" : 0
+    }
+  ],
+
+  "colorOptions" : [
+    /* GREY */
+    { "ffca8a" : "b5b5b5", "668AA8" : "808080", "465371" : "555555", "262539" : "303030" },
+    /* BLACK */
+    { "ffca8a" : "838383", "668AA8" : "555555", "465371" : "383838", "262539" : "151515" },
+    /* GREY */
+    { "ffca8a" : "b5b5b5", "668AA8" : "808080", "465371" : "555555", "262539" : "303030" },
+    /* WHITE */
+    { "ffca8a" : "e6e6e6", "668AA8" : "b6b6b6", "465371" : "7b7b7b", "262539" : "373737" },
+    /* RED */
+    { "ffca8a" : "f4988c", "668AA8" : "d93a3a", "465371" : "932625", "262539" : "601119" },
+    /* ORANGE */
+    { "ffca8a" : "ffd495", "668AA8" : "ea9931", "465371" : "af4e00", "262539" : "6e2900" },
+    /* YELLOW */
+    { "ffca8a" : "ffffa7", "668AA8" : "e2c344", "465371" : "a46e06", "262539" : "642f00" },
+    /* GREEN */
+    { "ffca8a" : "b2e89d", "668AA8" : "51bd3b", "465371" : "247824", "262539" : "144216" },
+    /* BLUE */
+    { "ffca8a" : "96cbe7", "668AA8" : "5588d4", "465371" : "344495", "262539" : "1a1c51" },
+    /* PURPLE */
+    { "ffca8a" : "d29ce7", "668AA8" : "a451c4", "465371" : "6a2284", "262539" : "320c40" },
+    /* PINK */
+    { "ffca8a" : "eab3db", "668AA8" : "d35eae", "465371" : "97276d", "262539" : "59163f" },
+    /* BROWN */
+    { "ffca8a" : "ccae7c", "668AA8" : "a47844", "465371" : "754c23", "262539" : "472b13" }
+  ]
+}

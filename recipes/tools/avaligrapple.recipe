@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "durasteelbar", "count" : 20 },
+    { "item" : "climbingrope", "count" : 4 },
+{ "item" : "aerogel", "count" : 10 },
+{ "item" : "graphene", "count" : 10}
+  ],
+  "output" : { "item" : "avaligrapple", "count" : 1 },
+  "groups" : [ "avalilathe", "tools", "all" ]
+}

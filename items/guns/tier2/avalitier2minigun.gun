@@ -1,0 +1,30 @@
+{
+  "itemName" : "avalitier2minigun",
+  "inventoryIcon" : "avaliminigun.png",
+  "rarity" : "uncommon",
+  "description" : "The primary Avali suppressive fire and support weapon.",
+  "shortdescription" : "MG2 Hailstorm",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "level" : 2,
+  "inspectionKind" : "gun",
+  "image" : "avaliminigun.png",
+  "recoilTime" : 0.1,
+  "handPosition" : [-4.0, 4],
+  "firePosition" : [18, -3],
+
+  "fireTime" : 0.10,
+  "twoHanded" : true,
+
+  "projectileType" : "railgun1",
+  "projectile" : {
+	"power" : 1.0,
+	"speed" : 70,
+    "color" : [10, 255, 10]
+  },
+
+  "muzzleEffect" : {
+    "animation" : "/animations/muzzleflash/electromuzzle/electromuzzle.animation",    
+    "fireSound" : [ { "file" : "/sfx/gun/plasma_ar1.wav" } ]
+  }
+}

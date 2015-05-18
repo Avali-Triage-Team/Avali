@@ -1,0 +1,28 @@
+[
+	{"op" : "add"
+	,"path" : "/speciesText/avali"
+	, "value" : {
+      "buttonText" : "Enable Matter Manipulator",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Your matter manipulator is an awesome way of interacting with the world! I can try to enable it for you!",
+          "speedModifier" : 1.0
+        }
+      ],
+      "successSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "It worked! ^green;The matter manipulator enables you to pick up, move and collect objects and materials.",
+          "speedModifier" : 1.0
+        }
+      ],
+      "failSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Failure",
+          "speedModifier" : 1.0
+        }
+      ]
+    }}
+]

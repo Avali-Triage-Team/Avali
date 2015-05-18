@@ -1,0 +1,38 @@
+{
+  "objectName" : "avalibench",
+  "rarity" : "Common",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/avalibench.config",
+    "filter" : [ "avalibench" ]
+  },
+  "printable" : true,
+  "description" : "A specialised, hybrid 3D printer used for bulk manufacturing.",
+  "shortdescription" : "Weapon Workbench",
+  "race" : "avali",
+  "category" : "crafting",
+  "price" : 250,
+
+  "apexDescription" : "These tools appear to be the sort one might use to tune a weapon.",
+  "avianDescription" : "Some kind of high technology workbench.",
+  "floranDescription" : "A metal bench with lots of ssssstabby tools on it.",
+  "glitchDescription" : "Reflective. These are certainly not blacksmithing tools.",
+  "humanDescription" : "I think I recognise some of these tools.",
+  "hylotlDescription" : "I haven't a clue what these tools are for, doing electronics is below my station.",
+  "avaliDescription" : "It's a weapon workbench, I could use these tools to upgrade my equipment with the right parts.",
+
+  "inventoryIcon" : "avalibenchicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "avalibench.png:<color>.<frame>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 6,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

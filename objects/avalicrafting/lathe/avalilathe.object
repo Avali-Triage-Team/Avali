@@ -1,0 +1,38 @@
+{
+  "objectName" : "avalilathe",
+  "rarity" : "Common",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/avalilathe.config",
+    "filter" : [ "avalilathe" ]
+  },
+  "printable" : true,
+  "description" : "A specialised, hybrid 3D printer used for bulk manufacturing.",
+  "shortdescription" : "Avali Nanolathe",
+  "race" : "avali",
+  "category" : "crafting",
+  "price" : 250,
+
+  "apexDescription" : "Oh my! I absolutely must study this some time.",
+  "avianDescription" : "I've never seen anything like it!",
+  "floranDescription" : "Floaty brick is floaty.",
+  "glitchDescription" : "Observation. By using a mixture of prefabricated feedstock and pixels this printer is 900% more efficient.",
+  "humanDescription" : "Well, the Avali certainly didn't get this technology from us...",
+  "hylotlDescription" : "Well, it does save one getting their hands dirty, I suppose.",
+  "avaliDescription" : "Whereas a 3D printer creates an object using nanites, a nanolathe uses nanites to break down a feedstock material, making it much faster.",
+
+  "inventoryIcon" : "avalilatheicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "avalilathe.png:<color>.<frame>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 6,
+      "animationCycle" : 0.8,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

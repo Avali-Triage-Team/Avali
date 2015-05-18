@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "avalitier1sniper", "count" : 1 },
+    { "item" : "aerogel", "count" : 1 }	
+  ],
+  "output" : { "item" : "avaligundisplay2", "count" : 1 },
+  "groups" : [ "objects", "avalilathe", "all" ]
+}

@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "ironblock", "count" : 6  },
+    { "item" : "circuitboard", "count" : 1  }	
+  ],
+  "output" : { "item" : "avalidarkdoor", "count" : 1 },
+  "groups" : [ "objects", "avalilathe", "all" ]
+}

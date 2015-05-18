@@ -1,0 +1,12 @@
+{
+  "itemName" : "avaliplain",
+  "rarity" : "Common",
+  "inventoryIcon" : "avaliplain.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Plain paneling, because sometimes less is more.",
+  "shortdescription" : "Plain Panels",
+
+  
+  
+  "materialId" : 12504
+}

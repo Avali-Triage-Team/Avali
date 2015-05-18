@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "steelbar", "count" : 16 }
+  ],
+  "output" : { "item" : "avalitier2hammer", "count" : 1 },
+  "groups" : [ "metalworkstation", "weapons", "all" ]
+}

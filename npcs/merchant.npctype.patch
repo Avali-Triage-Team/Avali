@@ -1,0 +1,154 @@
+[
+{ "op" : "add", "path" : "/scriptConfig/merchant/dialog/start/avali",
+"value" : {
+		  "default" : [
+				"Come, stay a while.",
+				"Would you like to browse our supplies?",
+				"We only accept pixels.",
+				"Here's what we have in stock.",
+				"I guess we can part with some equipment."
+		  ]
+		}
+},
+{ "op" : "add", "path" : "/scriptConfig/merchant/dialog/end/avali",
+"value" : {
+		  "default" : [
+				"Come again soon!",
+				"Our pleasure!",
+				"Don't hesitate to come by again.",
+				"Next time you need to destroy something, think of us!",
+				"Tell the rest of your pack!"
+		  ]
+		}
+},
+{ "op" : "add", "path" : "/scriptConfig/merchant/items/avaliweapons",
+"value" : [
+			[ 0, [
+			  { "item": { "name": "avalitier1hammer-recipe" }, "cost": 500, "rarity": 1.0 },
+			  { "item": { "name": "avalitier1shortsword-recipe" }, "cost": 200, "rarity": 1.0 },
+			  { "item": { "name": "avalitier1broadsword-recipe" }, "cost": 300, "rarity": 1.0 },
+			  { "item": { "name": "avalitier1spear-recipe" }, "cost": 200, "rarity": 1.0 },
+			  { "item": { "name": "avalitier1dagger-recipe" }, "cost": 150, "rarity": 1.0 },
+			  { "item": { "name": "avalitier1pistol" }, "cost": 250, "rarity": 1.0 },
+			  { "item": { "name": "avalitier1rifle" }, "cost": 350, "rarity": 1.0 },
+			  { "item": { "name": "avalitier1sniper" }, "cost": 500, "rarity": 1.0 },
+			  { "item": { "name": "avalitier1minigun" }, "cost": 450, "rarity": 1.0 }
+			] ],
+			[ 2, [
+			  { "item": { "name": "avalitier2hammer-recipe" }, "cost": 500, "rarity": 1.0 },
+			  { "item": { "name": "avalitier2shortsword-recipe" }, "cost": 200, "rarity": 1.0 },
+			  { "item": { "name": "avalitier2broadsword-recipe" }, "cost": 300, "rarity": 1.0 },
+			  { "item": { "name": "avalitier2spear-recipe" }, "cost": 200, "rarity": 1.0 },
+			  { "item": { "name": "avalitier2dagger-recipe" }, "cost": 150, "rarity": 1.0 },
+			  { "item": { "name": "avalitier2pistol" }, "cost": 350, "rarity": 1.0 },
+			  { "item": { "name": "avalitier2rifle" }, "cost": 450, "rarity": 1.0 },
+			  { "item": { "name": "avalitier2sniper" }, "cost": 600, "rarity": 1.0 },
+			  { "item": { "name": "avalitier2minigun" }, "cost": 650, "rarity": 1.0 }
+			] ],
+			[ 3, [
+			  { "item": { "name": "avalitier3hammer-recipe" }, "cost": 500, "rarity": 1.0 },
+			  { "item": { "name": "avalitier3shortsword-recipe" }, "cost": 200, "rarity": 1.0 },
+			  { "item": { "name": "avalitier3broadsword-recipe" }, "cost": 300, "rarity": 1.0 },
+			  { "item": { "name": "avalitier3spear-recipe" }, "cost": 200, "rarity": 1.0 },
+			  { "item": { "name": "avalitier3dagger-recipe" }, "cost": 150, "rarity": 1.0 },
+			  { "item": { "name": "avalitier3pistol" }, "cost": 450, "rarity": 1.0 },
+			  { "item": { "name": "avalitier3rifle" }, "cost": 550, "rarity": 1.0 },
+			  { "item": { "name": "avalitier3sniper" }, "cost": 700, "rarity": 1.0 },
+			  { "item": { "name": "avalitier3minigun" }, "cost": 750, "rarity": 1.0 }
+			] ],	
+			[ 4, [
+			  { "item": { "name": "avalitier4hammer-recipe" }, "cost": 500, "rarity": 1.0 },
+			  { "item": { "name": "avalitier4shortsword-recipe" }, "cost": 200, "rarity": 1.0 },
+			  { "item": { "name": "avalitier4broadsword-recipe" }, "cost": 300, "rarity": 1.0 },
+			  { "item": { "name": "avalitier4spear-recipe" }, "cost": 200, "rarity": 1.0 },
+			  { "item": { "name": "avalitier4dagger-recipe" }, "cost": 150, "rarity": 1.0 },
+			  { "item": { "name": "avalitier4pistol" }, "cost": 550, "rarity": 1.0 },
+			  { "item": { "name": "avalitier4rifle" }, "cost": 650, "rarity": 1.0 },
+			  { "item": { "name": "avalitier4sniper" }, "cost": 800, "rarity": 1.0 },
+			  { "item": { "name": "avalitier4minigun" }, "cost": 850, "rarity": 1.0 }
+			] ]					
+]
+},
+{ "op" : "add", "path" : "/scriptConfig/merchant/items/avalifarmer",
+"value" : [
+			[ 0, [
+			  { "item": { "name": "avaliproduce1" }, "cost": 5 },
+			  { "item": { "name": "avaliproduce2" }, "cost": 5 },
+			  { "item": { "name": "avaliproduce3" }, "cost": 5 },
+			  { "item": { "name": "avaliflour" }, "cost": 10 },
+			  { "item": { "name": "avaliplant1" }, "cost": 5 },
+			  { "item": { "name": "avaliplant2" }, "cost": 5 },
+			  { "item": { "name": "avaliplant3" }, "cost": 5 }
+			] ]					
+]
+},
+{ "op" : "add", "path" : "/scriptConfig/merchant/items/avaliinstruments",
+"value" : [
+			[ 0, [
+			  { "item" : { "name" : "accordion" }, "cost" : 500 },
+			  { "item" : { "name" : "acousticguitar" }, "cost" : 350 },
+			  { "item" : { "name" : "banjo" }, "cost" : 350 },
+			  { "item" : { "name" : "bassguitar" }, "cost" : 350 },
+			  { "item" : { "name" : "bones" }, "cost" : 350 },
+			  { "item" : { "name" : "clarinet" }, "cost" : 500 },
+			  { "item" : { "name" : "drumkit" }, "cost" : 500 },
+			  { "item" : { "name" : "dulcimer" }, "cost" : 500 },
+			  { "item" : { "name" : "electricbass" }, "cost" : 500 },
+			  { "item" : { "name" : "flute" }, "cost" : 450 },
+			  { "item" : { "name" : "harmonica" }, "cost" : 350 },
+			  { "item" : { "name" : "harp" }, "cost" : 600 },
+			  { "item" : { "name" : "koto" }, "cost" : 500 },
+			  { "item" : { "name" : "leadguitar" }, "cost" : 600 },
+			  { "item" : { "name" : "microphone" }, "cost" : 400 },
+			  { "item" : { "name" : "microphonefem" }, "cost" : 400 },
+			  { "item" : { "name" : "musicbox" }, "cost" : 450 },
+			  { "item" : { "name" : "nylonguitar" }, "cost" : 350 },
+			  { "item" : { "name" : "oboe" }, "cost" : 600 },
+			  { "item" : { "name" : "ocarina" }, "cost" : 500 },
+			  { "item" : { "name" : "overdriveguitar" }, "cost" : 600 },
+			  { "item" : { "name" : "piano" }, "cost" : 600 },
+			  { "item" : { "name" : "reedorgan" }, "cost" : 350 },
+			  { "item" : { "name" : "rockorgan" }, "cost" : 450 },
+			  { "item" : { "name" : "saxophone" }, "cost" : 500 },
+			  { "item" : { "name" : "steeldrum" }, "cost" : 450 },
+			  { "item" : { "name" : "trumpet" }, "cost" : 600 },
+			  { "item" : { "name" : "violin" }, "cost" : 600 }
+			] ]					
+]
+},
+{ "op" : "add", "path" : "/items/avali",
+"value" : [
+			[0, [
+				{
+					"chest" : [
+						{ "name" : "avaliset1chest", "data" : { "colorIndex" : 1 } },					
+						{ "name" : "avaliset1bchest", "data" : { "colorIndex" : 1 } },
+						{ "name" : "avaliset1cchest", "data" : { "colorIndex" : 1 } },						
+						{ "name" : "avaliset5chest", "data" : { "colorIndex" : 1 } },
+						{ "name" : "avaliset5bchest", "data" : { "colorIndex" : 1 } },
+						{ "name" : "avaliset5cchest", "data" : { "colorIndex" : 1 } },					
+						{ "name" : "avaliracial1chest", "data" : { "colorIndex" : 1 } },
+						{ "name" : "avaliracial2chest", "data" : { "colorIndex" : 1 } },
+						{ "name" : "maskchest", "data" : { "colorIndex" : 1 } }
+					],
+					"legs" : [
+						{ "name" : "avaliracial1pants", "data" : { "colorIndex" : 1 } },
+						{ "name" : "avaliracial2pants", "data" : { "colorIndex" : 1 } },
+						{ "name" : "avaliset1pants", "data" : { "colorIndex" : 1 } },
+						{ "name" : "avaliset5pants", "data" : { "colorIndex" : 1 } },	
+						{ "name" : "avaliset1bpants", "data" : { "colorIndex" : 1 } },
+						{ "name" : "avaliset5bpants", "data" : { "colorIndex" : 1 } },	
+						{ "name" : "avaliset1cpants", "data" : { "colorIndex" : 1 } },
+						{ "name" : "avaliset5cpants", "data" : { "colorIndex" : 1 } },							
+						{ "name" : "maskpants", "data" : { "colorIndex" : 1 } }
+					],
+					"head" : [
+						{ "name" : "avaliracial1head", "data" : { "colorIndex" : 1 } },
+						{ "name" : "avaliracial2head", "data" : { "colorIndex" : 1 } },
+						{ "name" : "maskhead", "data" : { "colorIndex" : 1 } }
+					]
+				}
+			]   ]
+]
+}
+]

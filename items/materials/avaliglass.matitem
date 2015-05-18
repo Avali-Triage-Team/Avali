@@ -1,0 +1,12 @@
+{
+  "itemName" : "avaliglass",
+  "rarity" : "Common",
+  "inventoryIcon" : "avaliglass.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "These tubes transport a nutrient aerosol for growing plants indoors.",
+  "shortdescription" : "Avali Glass",
+
+  
+  
+  "materialId" : 12501
+}

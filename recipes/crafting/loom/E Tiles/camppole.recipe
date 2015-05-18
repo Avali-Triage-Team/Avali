@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "campcanvas", "count" : 1 },
+	{ "item" : "darkwoodmaterial", "count" : 1 }
+  ],
+  "output" : { "item" : "camppole", "count" : 1 },
+  "groups" : [ "materials", "avaliloom", "all" ]
+}

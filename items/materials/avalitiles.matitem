@@ -1,0 +1,12 @@
+{
+  "itemName" : "avalitiles",
+  "rarity" : "Common",
+  "inventoryIcon" : "avalitiles.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Easy wipe-clean tiles... perfect for places prone to mess.",
+  "shortdescription" : "Composite Tiles",
+
+  
+  
+  "materialId" : 12510
+}

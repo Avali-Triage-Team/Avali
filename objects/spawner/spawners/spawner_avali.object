@@ -1,0 +1,65 @@
+{
+  "objectName" : "spawneravali",
+  "rarity" : "Common",
+  "description" : "Spawn your very own Avali citizen!",
+  "shortdescription" : "Avali Spawner",
+  "race" : "avali",
+  "printable" : false,
+  "category" : "spawner",
+  "price" : 300,
+
+  "apexDescription" : "I could spawn some Avali friends.",
+  "avianDescription" : "This transporter could bring in some feathered cousins.",
+  "floranDescription" : "Floran bring space-chicken to Floran!",
+  "glitchDescription" : "Apprehensive. Will an Avali shackle my AI too?",
+  "humanDescription" : "I always wanted a pet raptor.",
+  "hylotlDescription" : "Ugh, Avali. For such an advanced race they have such a primitive lifestyle.",
+  "avaliDescription" : "Let's bring in the rest of the pack!",
+  
+  "inventoryIcon" : "defaulticon.png",
+  "orientations" : [
+    {
+      "image" : "spawner_avali.png",
+      "imagePosition" : [-8, 0],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/spawner/spawners/spawner.lua" ],
+  "scriptDelta" : 1,
+
+  "animation" : "/objects/spawner/spawners/avali.animation",
+
+  "animationParts" : {
+    "switch" : "spawner_avali.png"
+  },
+  "animationPosition" : [-8, 0],
+
+  "inboundNodes" : [ ],
+  "outboundNodes" : [ ],
+
+  "spawner" : {
+    "searchRadius" : 32.0,
+    "npcSpeciesOptions" : [ "avali" ],
+    "npcTypeOptions" : [ "villager" ],
+    "npcParameterOptions" : [
+      {
+        "dropPools" : [ ],
+		"items" : {
+			"default" : [
+			[0, [
+			{
+				"head" : [ { "name" : "maskhead" }, { "name" : "avalitier1head" }, { "name" : "avaliracial1head" } , { "name" : "avaliracial2head" }  ],
+				"chest" : [ { "name" : "maskchest" }, { "name" : "avalitier2chest" }, { "name" : "avaliracial1chest" } , { "name" : "avaliracial2chest" }  ],
+				"legs" : [ { "name" : "maskpants" }, { "name" : "avaliracial1pants" }, { "name" : "avaliracial1pants" } , { "name" : "avaliracial2pants" }  ]
+			}
+			] ]
+		]
+		}			
+      }
+    ]
+  }
+}

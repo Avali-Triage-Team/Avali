@@ -1,0 +1,36 @@
+{
+  "objectName" : "avalitechstation",
+  "rarity" : "Common",
+
+  "interactAction" : "OpenAiInterface",
+
+  "category" : "decorative",
+  "price" : 2500,
+  "lightColor" : [102, 61, 61],
+  "lightPosition" : [-1, 0],
+
+  "description" : "This tech station allows me to communicate with S.A.I.L and enable tech!",
+  "shortdescription" : "Tech Station",
+  "race" : "avali",
+
+  "apexDescription" : "A tech station. I can enable tech and talk to S.A.I.L through this.",
+  "avianDescription" : "I can use this station to enable tech and talk to S.A.I.L.",
+  "floranDescription" : "Floran use thisss for magiccc and talk to sshhip S.A.I.L!",
+  "glitchDescription" : "Informative. This tech station allows me to choose tech and talk to S.A.I.L.",
+  "humanDescription" : "A tech station. Allows me to communicate with S.A.I.L and enable tech!",
+  "hylotlDescription" : "This tech station enables tech and allows me to communicate with S.A.I.L.",
+
+  "inventoryIcon" : "apexrecordplayericon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "avalitechstation.png:<color>.<frame>", "fullbright" : true }, { "image" : "avalitechstationlit.png:<color>.<frame>" } ],
+      "imagePosition" : [-16, -8],
+      "frames" : 8,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "itemName" : "camptapestry1",
+  "rarity" : "Common",
+  "inventoryIcon" : "camptapestry1.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "A luxurious soft fabric for wall hangings or carpets",
+  "shortdescription" : "Soft Tapestry",
+
+  
+  
+  "materialId" : 12516
+}

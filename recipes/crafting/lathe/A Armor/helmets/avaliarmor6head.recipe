@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "titaniumbar", "count" : 5  },
+	{ "item" : "laserdiode", "count" : 1 },
+	{ "item" : "circuitboard", "count" : 1 }
+  ],
+  "output" : { "item" : "avaliarmor6head", "count" : 1 },
+  "groups" : [ "armors", "avalilathe", "all" ]
+}

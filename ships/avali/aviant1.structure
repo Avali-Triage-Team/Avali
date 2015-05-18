@@ -1,0 +1,23 @@
+{
+  "config" : {
+    "shipUpgrades" : {
+      "capabilities" : [],
+      "maxFuel" : 1000
+    }
+  },
+
+  "backgroundOverlays" : [
+    {
+      "image" : "avianT1.png",
+      "position" : [7, 3],
+      "fullbright" : true
+    },
+    {
+      "image" : "avianT1lit.png",
+      "position" : [7, 3]
+    }
+  ],
+
+  "blockKey" : "blockKey.config:blockKey",
+  "blockImage" : "avianT1blocks.png"
+}

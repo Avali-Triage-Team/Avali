@@ -1,0 +1,30 @@
+{
+  "itemName" : "avalitier5pistol",
+  "inventoryIcon" : "avalipistol.png",
+  "rarity" : "rare",
+  "description" : "The basic Avali military grade sidearm.",
+  "shortdescription" : "PD5 Frostbite",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "level" : 5,
+  "inspectionKind" : "gun",
+  "image" : "avalipistol.png",
+  "recoilTime" : 0.1,
+  "handPosition" : [0, 3],
+  "firePosition" : [8, 5],
+
+  "fireTime" : 0.4,
+  "twoHanded" : false,
+
+  "projectileType" : "railgun1",
+  "projectile" : {
+	"power" : 0.8,
+	"speed" : 70,
+    "color" : [10, 255, 10]
+  },
+
+  "muzzleEffect" : {
+    "animation" : "/animations/muzzleflash/electromuzzle/electromuzzle.animation",    
+    "fireSound" : [ { "file" : "/sfx/gun/plasma_shotgun4.wav" } ]
+  }
+}

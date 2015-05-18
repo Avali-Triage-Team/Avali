@@ -1,0 +1,59 @@
+{
+  "objectName" : "avalidarkverticaldoor",
+  "printable" : false,
+  "rarity" : "Common",
+
+  "category" : "door",
+  "price" : 500,
+  "description" : "A vertical hatch doorway.",
+  "shortdescription" : "Avali Dark Vertical Hatch",
+  "race" : "human",
+
+  "apexDescription" : "A vertical door.",
+  "avianDescription" : "A engineered hatch.",
+  "floranDescription" : "Door goesss up and down...",
+  "glitchDescription" : "Observant. This hatch is for vertical access.",
+  "humanDescription" : "A hatch for when going horizontal just isn't enough.",
+  "hylotlDescription" : "A hatchway, made with function in mind.",
+
+  "inventoryIcon" : "avalidarkverticaldooricon.png",
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/door.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "open" : [ "/sfx/objects/apexcooldoor_open.wav" ],
+      "close" : [ "/sfx/objects/apexcooldoor_close.wav" ]
+    }
+  },
+  "animationParts" : {
+    "door" : "avalidarkverticaldoor.png"
+  },
+  
+  "orientations" : [
+    {
+      "image" : "avalidarkverticaldoor.png:default",
+      "imagePosition" : [-16, -6],
+      "animationPosition" : [-16, -6],
+      "flipImages" : true,
+      "direction" : "left",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left", "right" ]
+    },
+    {
+      "image" : "avalidarkverticaldoor.png:default",
+      "imagePosition" : [-16, -6],
+      "animationPosition" : [-16, -6],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left", "right" ]
+    }
+  ],
+
+  "inboundNodes" : [ [-2, 0] ],
+  "outboundNodes" : [ [2, -1] ]
+}

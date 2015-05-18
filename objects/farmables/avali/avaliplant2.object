@@ -1,0 +1,49 @@
+{
+  "objectName" : "avaliplant2",
+  "rarity" : "Common",
+  "category" : "farmable",
+  "description" : "A biolumiscent ovoid, eventually this'll grow into a colony.",
+  "shortdescription" : "Nakati Ovoid",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 300,
+
+  "apexDescription" : "I wonder what give it it's bioluminescence.",
+  "avianDescription" : "This'd make an interesting nest.",
+  "floranDescription" : "Floran wants glow in dark leavesss too.",
+  "glitchDescription" : "Concern. Is this plant irradiated?",
+  "humanDescription" : "If you made these into a dandelion ring, it'd look like a raver's neckband.",
+  "hylotlDescription" : "It's lit up like a Hylotl city!",
+  "avaliDescription" : "The glow comes from symbiotic bacteria that live in the ovoid microbial colony.",
+
+  "lightColor" : [64, 128, 128],
+  "flickerDistance" : 0.05,
+  "flickerStrength" : 0.0,
+  
+  "inventoryIcon" : "avaliplant2icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "avaliplant2.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [0, 0], [0, 1], [0, 2], [1, 0], [1, 1], [1, 2] ],
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  
+  "stages" : [
+    {
+      "duration" : [240, 300]
+    },
+    {
+      "duration" : [240, 300]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "nakatiHarvest"
+    }
+  ]
+}

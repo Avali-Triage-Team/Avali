@@ -1,0 +1,12 @@
+{
+  "itemName" : "avalidisplay",
+  "rarity" : "Common",
+  "inventoryIcon" : "avalidisplay.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "These LED displays are a thin adhesive film that can be stuck on any surface.",
+  "shortdescription" : "LED Display",
+
+  
+  
+  "materialId" : 12503
+}

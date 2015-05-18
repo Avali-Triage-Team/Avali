@@ -1,0 +1,50 @@
+{
+  "objectName" : "avalicaptainschair",
+  "rarity" : "Common",
+  "objectType" : "loungeable",
+
+  "description" : "ENGAGE!",
+  "shortdescription" : "Avali Captain's Chair",
+  "race" : "avali",
+  "category" : "furniture",
+
+  "apexDescription" : "Ahh freedom...",
+  "avianDescription" : "Bless my beak, such a comfortable captain's chair.",
+  "floranDescription" : "SSsmells of Apex butt.",
+  "glitchDescription" : "Anticipation. Where to next?",
+  "humanDescription" : "A pretty cool chair.",
+  "hylotlDescription" : "Elegant.",
+
+  "inventoryIcon" : "captainschairicon.png",
+  "orientations" : [
+    {
+      "image" : "avalicaptainschair.png:<color>",
+      "imagePosition" : [-12, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "flipImages" : true,
+      "direction" : "left",
+      "sitPosition" : [1.6, 22.5]
+    },
+    {
+      "image" : "avalicaptainschair.png:<color>",
+      "imagePosition" : [-12, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "right",
+      "sitPosition" : [1.6, 22.5]
+    }
+  ],
+
+  "interactAction" : "openCockpitInterface",
+
+  "sitFlipDirection" : false,
+  "soundEffect" : "/sfx/objects/shipengine.wav",
+  "soundEffectRadius" : 1000
+}

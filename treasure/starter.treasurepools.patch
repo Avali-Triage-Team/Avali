@@ -1,0 +1,13 @@
+[
+{ "op": "add", "path": "/avaliStarterTreasure", "value": 
+	[ [0, 
+	  { "fill" : [ {
+		"pool" : "starterTreasure" },
+		{ "item" : [ "avalistarter", 1]},
+		{ "item" : [ "maskback", 1]},
+		{ "item" : [ "maskhead", 1]}
+		]
+	  } ]
+	]
+}
+]

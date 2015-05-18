@@ -1,0 +1,25 @@
+{
+  "itemName" : "avaliproduce2",
+  "rarity" : "Common",
+  "inventoryIcon" : "avaliproduce2.png",
+  "description" : "The spicy bark of the Nakati plant. Usually ground up before use.",
+  "shortdescription" : "Nakati Bark",
+  "effects" : [ [
+    {
+        "effect" : "foodheal10",
+        "duration" : 45
+    },
+    {
+        "effect" : "glow",
+        "duration" : 30
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 75
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : []
+}

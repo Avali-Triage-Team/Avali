@@ -1,0 +1,52 @@
+[
+{ "op" : "add", "path" : "/scriptConfig/guard/dialog/hail/avali",
+"value" : {
+		  "default" : [
+			"Perimeter secure.",
+			"*Hums to self*",
+			"I'm overworked, I'm starting to think the birds are out to get me.",
+			"When are we going to see some action?",
+			"Huh, what, sorry. I was checking my messages."
+		  ]
+		}
+},
+{ "op" : "add", "path" : "/items/avali",
+"value" : [
+            [0, [
+            {
+            "chest" : [
+			  { "name" : "avaliset1bchest", "data" : { "colorIndex" : 1 } },
+			  { "name" : "avaliset5chest", "data" : { "colorIndex" : 1 } },
+			  { "name" : "avaliset5bchest", "data" : { "colorIndex" : 1 } },
+			  { "name" : "avaliset5cchest", "data" : { "colorIndex" : 1 } },                    
+			  { "name" : "maskchest", "data" : { "colorIndex" : 1 } }
+            ],
+            "legs" : [
+			  { "name" : "avaliarmor3pants", "data" : { "colorIndex" : 1 } },
+			  { "name" : "avaliarmor2pants", "data" : { "colorIndex" : 1 } }
+            ],
+            "head" : [
+			  { "name" : "avaliarmor1head", "data" : { "colorIndex" : 1 } },
+			  { "name" : "avaliarmor2head", "data" : { "colorIndex" : 1 } },                         
+			  { "name" : "avaliarmor3head", "data" : { "colorIndex" : 1 } },
+			  { "name" : "maskhead", "data" : { "colorIndex" : 1 } },
+			  { "name" : "avaliracial1head", "data" : { "colorIndex" : 1 } },
+			  { "name" : "avaliracial2head", "data" : { "colorIndex" : 1 } }
+            ],
+            "primary" : [
+			  { "name" : "avalitier4minigun", "data" : { "colorIndex" : 1 } },
+			  { "name" : "avalitier4rifle", "data" : { "colorIndex" : 1 } },
+			  { "name" : "avalitier4pistol", "data" : { "colorIndex" : 1 } }
+            ],
+            "sheathedprimary" : [
+			  { "name" : "avalitier4shortsword", "data" : { "colorIndex" : 1 } }
+            ],
+            "alt" : [
+			  { "name" : "avalitier4pistol", "data" : { "colorIndex" : 1 } },
+			  { "name" : "generatedshield", "data" : { "definition" : "avalitier4barrier" } }
+            ]
+            }
+            ] ]
+]
+}
+]

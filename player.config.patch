@@ -1,0 +1,35 @@
+[
+{ "op" : "add", "path" : "/species/-",
+"value" : "avali"
+},
+{ "op" : "add", "path" : "/defaultBlueprints/tier1/-",
+"value" : { "item" : "avalitier1riflebounce" }
+},
+{ "op" : "add", "path" : "/defaultBlueprints/tier1/-",
+"value" : { "item" : "avalitier1rifleexplosive" }
+},
+{ "op" : "add", "path" : "/defaultBlueprints/tier1/-",
+"value" : { "item" : "avalitier2riflebounce" }
+},
+{ "op" : "add", "path" : "/defaultBlueprints/tier1/-",
+"value" : { "item" : "avalitier2rifleexplosive" }
+},
+{ "op" : "add", "path" : "/defaultBlueprints/tier1/-",
+"value" : { "item" : "avalitier3riflebounce" }
+},
+{ "op" : "add", "path" : "/defaultBlueprints/tier1/-",
+"value" : { "item" : "avalitier3rifleexplosive" }
+},
+{ "op" : "add", "path" : "/defaultBlueprints/tier1/-",
+"value" : { "item" : "avalitier4riflebounce" }
+},
+{ "op" : "add", "path" : "/defaultBlueprints/tier1/-",
+"value" : { "item" : "avalitier4rifleexplosive" }
+},
+{ "op" : "add", "path" : "/defaultBlueprints/tier1/-",
+"value" : { "item" : "spawneravali" }
+},
+{ "op" : "add", "path" : "/defaultBlueprints/tier1/-",
+"value" : { "item" : "spawneravaliguard" }
+}
+]

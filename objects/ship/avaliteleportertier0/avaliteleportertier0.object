@@ -1,0 +1,33 @@
+{
+  "objectName" : "avaliteleporterTier0",
+  "rarity" : "Common",
+  "objectType" : "noisy",
+  "category" : "decorative",
+  "description" : "Trusty teleporter, what would I do without you? Of Avali design.",
+  "shortdescription" : "Teleporter",
+  "race" : "avali",
+
+  "apexDescription" : "Teleporting feels like riding a rollercoaster at the speed of light.",
+  "avianDescription" : "Teleporting feels like flying. It's off.",
+  "floranDescription" : "Floran feel confusssed during teleport.",
+  "glitchDescription" : "Educate. I set myself to sleep during the teleport process.",
+  "humanDescription" : "Teleporting is a huge rush.",
+  "hylotlDescription" : "Teleporting feels like diving into the ocean from a mountain top.",
+
+  "inventoryIcon" : "teleportericonTier0.png",
+  "orientations" : [
+    {
+      "image" : "avaliteleporterTier0.png:<color>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "solid"
+    }
+  ],
+  
+  "sounds" : [ "/sfx/interface/ship_error1.wav" ]
+  
+}

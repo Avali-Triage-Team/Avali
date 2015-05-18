@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "ironblock", "count" : 1 }
+  ],
+  "output" : { "item" : "avalidarkmetal3", "count" : 1 },
+  "groups" : [ "materials", "avalilathe", "all" ]
+}

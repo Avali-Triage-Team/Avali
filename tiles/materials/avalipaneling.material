@@ -1,0 +1,23 @@
+{
+  "materialId" : 12508,
+  "materialName" : "avalipaneling",
+  "particleColor" : [110, 110, 110, 255],
+  "itemDrop" : "avalipaneling",
+  "description" : "Like paneling, but darker.",
+  "shortdescription" : "Dark Paneling",
+
+
+  "footstepSound" : "/sfx/blocks/footstep_sand.wav",
+  "health" : 1,
+  "category": "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "avalipaneling.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 0
+  }
+}

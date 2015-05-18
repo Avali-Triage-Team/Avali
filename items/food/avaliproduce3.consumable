@@ -1,0 +1,21 @@
+{
+  "itemName" : "avaliproduce3",
+  "rarity" : "Common",
+  "inventoryIcon" : "avaliproduce3.png",
+  "description" : "A long, fibrous frond from a Piru barnacle.",
+  "shortdescription" : "Piru Frond",
+  "effects" : [ [
+    {
+        "effect" : "foodheal10",
+        "duration" : 60
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 75
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : []
+}

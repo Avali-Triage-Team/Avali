@@ -1,0 +1,8 @@
+{
+  "itemName" : "avaliflour",
+  "rarity" : "Common",
+  "inventoryIcon" : "avaliflour.png",
+  "description" : "Piru frond, ground down into a versatile flour-like substance. Not exactly edible.",
+  "shortdescription" : "Piru Flour",
+  "learnBlueprintsOnPickup" : []
+}

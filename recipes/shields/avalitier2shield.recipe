@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "steelbar", "count" : 10 },
+    { "item" : "money", "count" : 75 }
+  ],
+  "output" : { "item" : "generatedshield", "count" : 1, "data" : { "definition" : "avalitier2barrier", "level" : 1 } },
+  "groups" : [ "metalworkstation", "all", "armors"]
+}

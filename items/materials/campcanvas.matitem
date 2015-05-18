@@ -1,0 +1,12 @@
+{
+  "itemName" : "campcanvas",
+  "rarity" : "Common",
+  "inventoryIcon" : "campcanvas.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Ultra light yet ultra strong. Avali tents can stop bullets!",
+  "shortdescription" : "Nanocanvas",
+
+  
+  
+  "materialId" : 12515
+}

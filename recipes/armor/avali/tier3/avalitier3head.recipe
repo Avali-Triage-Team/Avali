@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "titaniumbar", "count" : 6 }
+  ],
+  "output" : { "item" : "avalitier3head", "count" : 1 },
+  "groups" : [ "metalworkstation", "armors", "all" ]
+}

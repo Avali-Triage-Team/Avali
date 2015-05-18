@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "titaniumbar", "count" : 16 },
+	{ "item" : "money", "count" : 150}
+  ],
+  "output" : { "item" : "avalitier3minigun", "count" : 1 },
+  "groups" : [ "avalibench", "weapons", "all" ]
+}

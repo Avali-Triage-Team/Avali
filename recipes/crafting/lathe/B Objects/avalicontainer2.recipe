@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "mediummetal", "count" : 25 },
+    { "item" : "circuitboard", "count" : 1 },
+    { "item" : "laserdiode", "count" : 1 }
+  ],
+  "output" : { "item" : "avalicontainer2", "count" : 1 },
+  "groups" : [ "objects", "avalilathe", "all" ]
+}

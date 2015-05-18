@@ -1,0 +1,5 @@
+[
+	{ "op" : "add"
+	,"path" : "/initialcodex/avali"
+	,"value" : [ "controls", "avaliprologue", "avaliorigins", "avaliflavour", "survivalguide" ] }
+]

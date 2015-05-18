@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "coalore", "count" : 1 }
+  ],
+  "output" : { "item" : "graphene", "count" : 10 },
+  "groups" : [ "other", "avalilathe", "all"]
+}

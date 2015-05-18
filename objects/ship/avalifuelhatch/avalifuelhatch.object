@@ -1,0 +1,40 @@
+{
+  "objectName" : "avalifuelhatch",
+  "rarity" : "Common",
+  "objectType" : "container",
+  "description" : "Accepts a bunch of different kinds of fuel. Avali design.",
+  "shortdescription" : "Fuel Hatch",
+  "race" : "avali",
+  "price" : 1000,
+  "lightColor" : [102, 61, 61],
+
+  "apexDescription" : "Converts fuel into freedom.",
+  "avianDescription" : "Let's load it up and take to the stars!",
+  "floranDescription" : "Let'ss get going!",
+  "glitchDescription" : "Excited. Once filled, we may visit another planet.",
+  "humanDescription" : "A fuel panel. We can fill this up and explore.",
+  "hylotlDescription" : "Fuel is the lifeblood of exploration.",
+
+  "inventoryIcon" : "fuelhatchicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "avalifuelhatch.png:<color>.<frame>", "fullbright" : true }, { "image" : "avalifuelhatchlit.png:<color>.<frame>" } ],
+
+      "imagePosition" : [-8, -16],
+      "frames" : 4,
+      "animationCycle" : 0.7,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "hasWindowIcon" : false,
+  "recipeGroup" : "fuel",
+  "slotCount" : 6,
+  "uiConfig" : "/interface/fuel/fuel.config",
+  "autoCloseCooldown" : 3600,
+  "frameCooldown" : 5,
+  
+  "triggerKeys" : [ "newfuelhatch" ]
+}

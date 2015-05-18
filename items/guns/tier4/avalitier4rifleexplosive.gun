@@ -1,0 +1,30 @@
+{
+  "itemName" : "avalitier4rifleexplosive",
+  "inventoryIcon" : "avalirifle.png",
+  "rarity" : "rare",
+  "description" : "The standard Avali infantry weapon.",
+  "shortdescription" : "AR4-HE Blizzard",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "level" : 4,
+  "inspectionKind" : "gun",
+  "image" : "avalirifle.png",
+  "recoilTime" : 0.1,
+  "handPosition" : [0, 5],
+  "firePosition" : [13, 8],
+
+  "fireTime" : 0.3,
+  "twoHanded" : true,
+
+  "projectileType" : "railgunexp",
+  "projectile" : {
+	"power" : 2.7,
+	"speed" : 90,
+    "color" : [10, 255, 10]
+  },
+
+  "muzzleEffect" : {
+    "animation" : "/animations/muzzleflash/electromuzzle/electromuzzle.animation",    
+    "fireSound" : [ { "file" : "/sfx/gun/plasma_ar1.wav" } ]
+  }
+}

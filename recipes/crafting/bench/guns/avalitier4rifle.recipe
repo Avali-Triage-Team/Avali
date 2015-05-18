@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "durasteelbar", "count" : 12 },
+	{ "item" : "money", "count" : 200 }
+  ],
+  "output" : { "item" : "avalitier4rifle", "count" : 1 },
+  "groups" : [ "avalibench", "weapons", "all" ]
+}

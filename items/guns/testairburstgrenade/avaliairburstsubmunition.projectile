@@ -1,0 +1,24 @@
+{
+  "projectileName" : "avaliairburstsubmunition",
+  "physics" : "grenade",
+  "frames" : "avaliairburstsubmunition.png",
+  "animationCycle" : 0.25,
+  "level" : 3,
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "fallSpeed" : 0,
+  "lightColor" : [200, 150, 50],
+  "pointLight" : true,
+  "speed" : 20,
+  "bounces" : -1,
+  "timeToLive" : 5, 
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/regularexplosion2/regularexplosion2.config"
+    }
+  ],
+  "power" : 10.0,
+  "damageType" : "hitTest",
+  "damageKind" : "default"
+}

@@ -1,0 +1,55 @@
+{
+  "objectName" : "spawneravaliguard",
+  "rarity" : "Common",
+  "description" : "Spawn your very own guardian Avali!",
+  "shortdescription" : "Avali Guard Spawner",
+  "race" : "avali",
+  "printable" : false,
+  "category" : "spawner",
+  "price" : 300,
+
+  "apexDescription" : "I could do with some extra protection from the Miniknog.",
+  "avianDescription" : "With a guard, Kluex wouldn't dare touch me.",
+  "floranDescription" : "Floran can guard ssself! But more guard not hurt.",
+  "glitchDescription" : "Content. There is strength in numbers.",
+  "humanDescription" : "I've always wanted an entourage.",
+  "hylotlDescription" : "Guards could help me spread peace.",
+  "avaliDescription" : "Let's bring in the rest of the pack!",
+
+  "inventoryIcon" : "defaulticon.png",
+  "orientations" : [
+    {
+      "image" : "spawner_guard.png",
+      "imagePosition" : [-8, 0],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/spawner/spawners/spawner.lua" ],
+  "scriptDelta" : 1,
+  //6000,
+
+  "animation" : "/objects/spawner/spawners/guard.animation",
+
+  "animationParts" : {
+    "switch" : "spawner_guard.png"
+  },
+  "animationPosition" : [-8, 0],
+
+  "inboundNodes" : [ ],
+  "outboundNodes" : [ ],
+
+  "spawner" : {
+    "searchRadius" : 32.0,
+    "npcSpeciesOptions" : [ "avali" ],
+    "npcTypeOptions" : [ "friendlyguard" ],
+    "npcParameterOptions" : [
+      {
+        "dropPools" : [ ]
+      }
+    ]
+  }
+}

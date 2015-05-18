@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "campcanvas", "count" : 10 }
+  ],
+  "output" : { "item" : "camplargeentry2", "count" : 1 },
+  "groups" : [ "objects", "avaliloom", "all" ]
+}

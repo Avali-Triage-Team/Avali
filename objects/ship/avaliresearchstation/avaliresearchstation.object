@@ -1,0 +1,64 @@
+{
+  "objectName" : "avaliresearchstation",
+  "printable" : false,
+  "rarity" : "legendary",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/researchstation.config",
+    "filter" : [ "researchstation" ]
+  },
+  "description" : "Develop ^orange;specialized equipment^white;!",
+  "shortdescription" : "^orange;Research Station^white;",
+  "race" : "avali",
+  "category" : "crafting",
+  
+  "lightColor" : [77, 103, 128],
+
+  "flickerPeriod" : 0.2,
+  "flickerMinIntensity" : 0.68,
+  "flickerMaxIntensity" : 0.7,
+  "flickerPeriodVariance" : 0.0,
+  "flickerIntensityVariance" : 0.0,
+
+  "apexDescription" : "I can create specialized stations and devices with this.",
+  "avianDescription" : "A research table.",
+  "floranDescription" : "Floran once get in fight with table like this.",
+  "glitchDescription" : "Observation. This table is well-suited to research and development of new items.",
+  "humanDescription" : "I can craft specialized items here!",
+  "hylotlDescription" : "This table seems well equipped for the development of new technologies.",
+
+  "inventoryIcon" : "avaliresearchstationicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "avaliresearchstation.png:<color>.<frame>", "fullbright" : true }, { "image" : "avaliresearchstationlit.png:<color>.<frame>" } ],
+
+      "imagePosition" : [-16, 0],
+      "frames" : 8,
+      "animationCycle" : 1.0,
+      
+      "direction" : "left",
+      "flipImages" : true,
+      
+      "lightPosition" : [ -1, 2],
+
+      "spaceScan" : 0.1,
+      "bgAnchors" : [ [-2, 0], [-1, 0], [0, 0], [1, 0] ]
+
+    },
+    {
+      "imageLayers" : [ { "image" : "avaliresearchstation.png:<color>.<frame>", "fullbright" : true }, { "image" : "avaliresearchstationlit.png:<color>.<frame>" } ],
+
+      "imagePosition" : [-16, 0],
+      "frames" : 8,
+      "animationCycle" : 1.0,
+      
+      "direction" : "right",
+      
+      "lightPosition" : [ 0, 2],
+
+      "spaceScan" : 0.1,
+      "bgAnchors" : [ [-2, 0], [-1, 0], [0, 0], [1, 0] ]
+
+    }
+  ]
+}

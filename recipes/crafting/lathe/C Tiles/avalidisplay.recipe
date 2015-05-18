@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "aerogel", "count" : 10 },
+    { "item" : "circuitboard", "count" : 1 }
+  ],
+  "output" : { "item" : "avalidisplay", "count" : 10 },
+  "groups" : [ "materials", "avalilathe", "all" ]
+}

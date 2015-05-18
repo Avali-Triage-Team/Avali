@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "glassmaterial", "count" : 2  },
+	{ "item" : "futurelight", "count" : 1 }
+  ],
+  "output" : { "item" : "avalistriplight", "count" : 1 },
+  "groups" : [ "lights", "avalilathe", "all" ]
+}

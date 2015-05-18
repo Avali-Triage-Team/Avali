@@ -1,0 +1,15 @@
+[
+	{"op" : "add"
+	,"path" : "/speciesText/avali"
+	, "value" : {
+      "buttonText" : "Weapon Testing Site",
+      "repeatButtonText" : "Revisit Weapon Testing Site",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "The penguin on the outpost asked me to help his friend test out some sort of weapon here...",
+          "speedModifier" : 1.0
+        }
+      ]
+    }}
+]

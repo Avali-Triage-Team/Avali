@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "mediummetal", "count" : 3  },
+    { "item" : "aerogel", "count" : 3  },
+    { "item" : "slime", "count" : 10  }	
+  ],
+  "output" : { "item" : "avalisample2", "count" : 1 },
+  "groups" : [ "objects", "avalilathe", "all" ]
+}

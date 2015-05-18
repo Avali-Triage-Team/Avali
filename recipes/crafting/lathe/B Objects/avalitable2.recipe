@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "mediummetal", "count" : 5 }
+  ],
+  "output" : { "item" : "avalitable2", "count" : 1 },
+  "groups" : [ "objects", "avalilathe", "all" ]
+}

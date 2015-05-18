@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 2 },
+	{ "item" : "graphene", "count" : 1 }
+  ],
+  "output" : { "item" : "campbigpole", "count" : 1 },
+  "groups" : [ "materials", "avaliloom", "all" ]
+}

@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 10 },
+    { "item" : "fabric", "count" : 5 },	
+	{ "item" : "graphene", "count" : 10 }
+  ],
+  "output" : { "item" : "avalihammock2", "count" : 1 },
+  "groups" : [ "object", "avaliloom", "all" ]
+}

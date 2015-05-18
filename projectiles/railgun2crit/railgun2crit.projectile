@@ -1,0 +1,24 @@
+{
+  "projectileName" : "railgun2crit",
+  "frames" : "railgun2crit.png",
+
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "pointLight" : true,
+  "lightColor" : [255, 200, 120],
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
+    }
+  ],
+  "power" : 3.0,
+  "speed" : 0,
+  "damageKind" : "bow",
+  "fallSpeed" : 0,
+  "damagePoly" : [ [-36, 0], [-24, -24], [0, -36], [24, -24], [36, 0], [24, 24], [0, 36], [-24, 24] ],
+  "animationLoops" : false,
+  "flippable" : true,
+  "universalDamage" : false,
+  "piercing" : true
+}

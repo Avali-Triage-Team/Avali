@@ -1,0 +1,15 @@
+[
+	{"op" : "add"
+	,"path" : "/speciesText/avali"
+	, "value" : {
+      "buttonText" : "Erchius Mining Facility",
+      "repeatButtonText" : "Repeat Erchius Mining Facility",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "We've received a distress signal from a lunar outpost identifying itself as the EMF (Erchius Mining Facility). Erchius Ore is used to build and repair FTL drives. I think we should investigate. I recommend you craft steel equipment before setting out.",
+          "speedModifier" : 1.0
+        }
+      ]
+    }}
+]

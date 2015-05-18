@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "avalitier2pilum", "count" : 3 },
+    { "item" : "imperviumcompound", "count" : 3 },
+    { "item" : "money", "count" : 1000 }
+  ],
+  "output" : { "item" : "avalitier3pilum", "count" : 3 },
+  "groups" : [ "anvil", "weapons", "all" ]
+}

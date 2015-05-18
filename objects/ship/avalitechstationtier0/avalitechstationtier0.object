@@ -1,0 +1,40 @@
+{
+  "objectName" : "avalitechstationTier0",
+  "rarity" : "Common",
+
+  "interactAction" : "OpenAiInterface",
+
+  "category" : "decorative",
+  "price" : 2500,
+  "lightColor" : [128, 77, 77],
+  "lightPosition" : [-1, 0],
+  
+  "flickerDistance" : 1.0,
+  "flickerStrength" : 0.05,
+  "flickerTiming" : 8,
+
+  "description" : "A tech station. For creating awesome tech!",
+  "shortdescription" : "Tech Station",
+  "race" : "avali",
+
+  "apexDescription" : "A tech station. Useful.",
+  "avianDescription" : "I can use this tech station to make things, when it's not off.",
+  "floranDescription" : "Floran create magic bang bangs!",
+  "glitchDescription" : "Admiration. An extremely advanced tech station.",
+  "humanDescription" : "A tech station. I can create awesome stuff here!",
+  "hylotlDescription" : "This tech station looks decent enough.",
+
+  "inventoryIcon" : "avalitechstationTier0icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "avalitechstationTier0.png:<color>.<frame>", "fullbright" : true }, { "image" : "avalitechstationlitTier0.png:<color>.<frame>" } ],
+      "imagePosition" : [-16, -8],
+      "frames" : 8,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

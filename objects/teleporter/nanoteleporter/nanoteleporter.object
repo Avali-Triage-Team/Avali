@@ -1,0 +1,46 @@
+{
+  "objectName" : "nanoteleporter",
+  "objectType" : "teleporter",
+  "rarity" : "Legendary",
+  "description" : "This will let me teleport from anywhere! \n^red;Destroyed when broken.",
+  "shortdescription" : "Avali Nano Teleporter",
+  "price" : 3000,
+  "printable" : false,
+
+  "apexDescription" : "This elegant teleporter will shine your shoes and press your suit during the transfer.",
+  "avianDescription" : "This elegant teleporter will shine your shoes and press your suit during the transfer.",
+  "floranDescription" : "This elegant teleporter will shine your shoes and press your suit during the transfer.",
+  "glitchDescription" : "This elegant teleporter will shine your shoes and press your suit during the transfer.",
+  "humanDescription" : "This elegant teleporter will shine your shoes and press your suit during the transfer.",
+  "hylotlDescription" : "This elegant teleporter will shine your shoes and press your suit during the transfer.",
+  "novakidDescription" : "This elegant teleporter will shine your shoes and press your suit during the transfer.",
+
+  "category" : "teleporter",
+  "lightColor" : [40, 80, 100],
+  "lightPosition" : [0, 1],
+
+  "interactAction" : "OpenTeleportDialog",
+  "interactData" : "/interface/warping/remoteteleporter.config",
+
+  "inventoryIcon" : "nanoteleportericon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "nanoteleporter.png:<color>", "fullbright" : true }, { "image" : "nanoteleporterlit.png:<color>" } ],
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "solid",
+      "collisionSpaces" : [ [-2, 0], [-1, 0], [0, 0], [1, 0] ]
+    }
+  ],
+
+  "health" : 20,
+
+  "breakDropPool" : "remoteteleporter",
+  
+  "teleporterFootPosition" : [0, 1]
+}

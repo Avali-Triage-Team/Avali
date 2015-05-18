@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "durasteelbar", "count" : 10 }
+  ],
+  "output" : { "item" : "avalitier4chest", "count" : 1 },
+  "groups" : [ "scifianvil", "armors", "all" ]
+}

@@ -1,0 +1,46 @@
+{
+  "objectName" : "avalishipdoor",
+  "rarity" : "Common",
+
+  "category" : "door",
+  "price" : 2000,
+  "description" : "A door. Possibly suitable for a spaceship.",
+  "shortdescription" : "Avali Ship Door",
+  "race" : "avali",
+
+  "apexDescription" : "We use these doors on our ships... wait no we don't.",
+  "avianDescription" : "A door.",
+  "floranDescription" : "Door!",
+  "glitchDescription" : "Statement. A door.",
+  "humanDescription" : "Cool door.",
+  "hylotlDescription" : "A basic door.",
+
+  "inventoryIcon" : "avalishipdooricon.png",
+  "orientations" : [
+    {
+      "dualImage" : "avalishipdoor.png:default",
+      "imagePosition" : [-20, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/door.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "open" : [ "/sfx/objects/apexcooldoor_open.wav" ],
+      "close" : [ "/sfx/objects/apexcooldoor_close.wav" ]
+    }
+  },
+  "animationParts" : {
+    "door" : "avalishipdoor.png"
+  },
+  "animationPosition" : [-20, 0],
+
+  "inboundNodes" : [ [-1, 4] ],
+  "outboundNodes" : [ [0, 0] ]
+}

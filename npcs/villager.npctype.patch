@@ -1,0 +1,197 @@
+[
+{ "op" : "add", "path" : "/scriptConfig/converse/dialog/apex/avali",
+"value" : [
+			"Greetings, my plumed pal.",
+			"Please don't distract me, they'll dock my pay or worse.",
+			"No offence, but the smell is sort've distracting.",
+			"Hmm, Avali, taxonomic designation lubati sapiens?",
+			"The vivisection lab is downstairs on the left.",
+			"Are you crazy, the Miniknog will come for you being here!"
+]
+},
+{ "op" : "add", "path" : "/scriptConfig/converse/dialog/floran/avali",
+"value" : [
+			"Not sssstab, yet.",
+			"Not-bird-men make good fertilissser, watch yourself.",
+			"Are you edible?",
+			"Floran hear of Nexusss, is it like Floran collective?",
+			"Do you like hunting too?",
+			"We make music with bone, is that how birds-raptors do it too?"
+]
+},
+{ "op" : "add", "path" : "/scriptConfig/converse/dialog/human/avali",
+"value" : [
+			"You're not welcome here, turkey.",
+			"If you overlook the treaty so will I, so watch it...",
+			"Ugh, savages.",
+			"Keep your distance, turkey.",
+			"Keep walking...",
+			"Ugh, you smell like a walking bowl of disinfectant.",
+			"Oh no, the invasion's begun!",
+			"I'm sorry for what my ancestors did, please don't judge us all for that."
+]
+},
+{ "op" : "add", "path" : "/scriptConfig/converse/dialog/glitch/avali",
+"value" : [
+			"Cordial. Well met.",
+			"Cordial. Greetings alien.",
+			"Bothered. Please refrain from molting your feathers in public.",
+			"Absent-Minded. Please return to the chicken pen.",
+			"Curt. This is a no-hunting area, it is unlikely anything here is edible for your kind.",
+			"Disgusted. Olfactory sensors detect elevated ammonia levels. Simply put, you smell.",
+			"Delighted. What wonderous plumage, may I obtain some?"						
+]
+},
+{ "op" : "add", "path" : "/scriptConfig/converse/dialog/hylotl/avali",
+"value" : [
+			"Always a pleasure to meet a more sophisticated race.",
+			"Welcome, traveller. Please marvel at our exquisite building designs.",
+			"I don't blame you for coming here, it must be a far cry from your tent-hovel.",
+			"You should learn from us, and use the knowledge to help civilise your own people.",
+			"Is it true the Avali still eat meat?",
+			"*pinches nose* Whelcum to our hnumble abod- *gag* it's no good, the smell!",
+			"I say, your feathers looks exquisite, can I take them off you?"						
+]
+},
+{ "op" : "add", "path" : "/scriptConfig/converse/dialog/avian/avali",
+"value" : [
+			"Greetings Avali, welcome to our settlement!",
+			"Your wings! Are you an emissary of Kluex?",
+			"I bring you the song of our people *Squawks loudly* Why are you cowering, I thought you liked music?",
+			"I wish my feathers were that long...",
+			"First rule of the grounded, you don't talk about the grounded.",
+			"Is it true your race sleeps on the floor instead of in a nest? How strange."
+]
+},
+{ "op" : "add", "path" : "/scriptConfig/converse/dialog/avali",
+"value" : {
+			"default" : [
+				"Hi~",
+				"*hums to self*"
+			],
+			"human" : [
+				"Hello... oh, a human.",
+				"I thought something smelled bad.",
+				"I understand, it wasn't your fault. But some of my kin might not be so understanding.",
+				"You have Impervium gonads coming here, human.",
+				"So, are you still into bombarding fledgling races on first contact?",
+				"How's that whole civil war working out, oh right, tentacle beast stopped it.",
+				"What's the weather like on Earth lately, violent with a chance of tentacles?",
+				"Now where'd I put my tiny violin..."
+			],
+			"apex" : [
+				"Hello, Apex.",
+				"How goes the rebellion?",
+				"Are you a Miniknog spy?",
+				"What's a banana?",
+				"Is it true Apex actually clone their dead?",
+				"That's a lot of fur, are you from a non-CHZ world too?",
+				"A shame the Miniknog censor the media, you'd make good use of a Nexus system."
+			],
+			"avian" : [
+				"Hello, Avian.",
+				"If you speak to a geneticist we could give you wings too, you know.",
+				"Are you grounded, or... the other ones?",
+				"How come your feathers are so much less interesting than ours?",
+				"How do you tell your males and females apart? You have the same markings.",
+				"Do you have any good songs to share from Avos?",
+				"Want to trade crest feathers as a souvenir?",
+				"Religion? No, the Oracle isn't our god..."
+			],
+			"floran" : [
+				"Hello, Floran.",
+				"...er, just to remind you, we're inedible.",
+				"What do you mean, we smell like miracle-gro?",
+				"No, that's not for stabbi- WHOA, ok, apparently it can also be used for stabbing. Learn something new every day.",
+				"Want to join us on a hunt later? We heard florans are amazing hunters.",
+				"Why do Florans need to hunt for meat if you can photosynthesise?",
+				"Mind explaining to me what 'drysap' is?"
+			],
+			"glitch" : [
+				"Hello, Glitch.",
+				"Friendly. Greetings! I've been studying your mode of speech.",
+				"Do you mind if I have a look at your neural architecture?",
+				"If Glitch are able to self reproduce and upgrade, why haven't you undergone singularity yet?",
+				"Have you thought about getting a tune up from the drone techs?",
+				"Is that a tin can used in your construction?"
+			],
+			"hylotl" : [
+				"Hello, Hylotl.",
+				"Can I interest you in some tapestries?",
+				"I hear the Hylotl civilisation has some amazing music and culture, want to share some with us?",
+				"If Hylotl cities are aquatic, does that mean you don't have water features in your gardens?",
+				"Is it true Hylotl breed through amplexus?",
+				"No, my feathers are not for trade!"
+			],	
+			"avali" : [
+				"Find anything interesting out there?",
+				"Hello, hunter.",
+				"Did you catch that news flash for the local network?",
+				"Hmm? Sorry, I was checking my messages.",
+				"I'm developing a new sim if you want to help me test it.",
+				"Are you in the right tent?... am I?",
+				"Got any interesting tales from your travels?",
+				"Kill anything big lately?",
+				"My pack's come up with a new routine, wanna watch later?",
+				"Can I get your opinion on this song I'm writi- wait, where are you going?"
+			]
+		}
+},
+{ "op" : "add", "path" : "/scriptConfig/flee/dialog/helpme/avali",
+"value" : [
+			"I need an assist!",
+			"Back me up!",
+			"Requesting drone support!",
+			"Get it off me!"
+]
+},
+{ "op" : "add", "path" : "/scriptConfig/flee/dialog/helpthem/avali",
+"value" : [
+			"Leave <name> alone!",
+			"Help us!",
+			"We need a medic here!",
+			"Monster!"
+]
+},
+{ "op" : "add", "path" : "/scriptConfig/flee/dialog/encourage/avali",
+"value" : [
+			"Flank it!",
+			"Take 'em out!"
+]
+},
+{ "op" : "add", "path" : "/items/avali",
+"value" : [
+			[0, [
+				{
+					"chest" : [
+						{ "name" : "avaliset1chest", "data" : { "colorIndex" : 1 } },					
+						{ "name" : "avaliset1bchest", "data" : { "colorIndex" : 1 } },
+						{ "name" : "avaliset1cchest", "data" : { "colorIndex" : 1 } },						
+						{ "name" : "avaliset5chest", "data" : { "colorIndex" : 1 } },
+						{ "name" : "avaliset5bchest", "data" : { "colorIndex" : 1 } },
+						{ "name" : "avaliset5cchest", "data" : { "colorIndex" : 1 } },					
+						{ "name" : "avaliracial1chest", "data" : { "colorIndex" : 1 } },
+						{ "name" : "avaliracial2chest", "data" : { "colorIndex" : 1 } },
+						{ "name" : "maskchest", "data" : { "colorIndex" : 1 } }
+					],
+					"legs" : [
+						{ "name" : "avaliracial1pants", "data" : { "colorIndex" : 1 } },
+						{ "name" : "avaliracial2pants", "data" : { "colorIndex" : 1 } },
+						{ "name" : "avaliset1pants", "data" : { "colorIndex" : 1 } },
+						{ "name" : "avaliset5pants", "data" : { "colorIndex" : 1 } },	
+						{ "name" : "avaliset1bpants", "data" : { "colorIndex" : 1 } },
+						{ "name" : "avaliset5bpants", "data" : { "colorIndex" : 1 } },	
+						{ "name" : "avaliset1cpants", "data" : { "colorIndex" : 1 } },
+						{ "name" : "avaliset5cpants", "data" : { "colorIndex" : 1 } },							
+						{ "name" : "maskpants", "data" : { "colorIndex" : 1 } }
+					],
+					"head" : [
+						{ "name" : "avaliracial1head", "data" : { "colorIndex" : 1 } },
+						{ "name" : "avaliracial2head", "data" : { "colorIndex" : 1 } },
+						{ "name" : "maskhead", "data" : { "colorIndex" : 1 } }
+					]
+				}
+			]   ]
+]
+}
+]

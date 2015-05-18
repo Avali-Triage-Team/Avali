@@ -1,0 +1,38 @@
+{
+  "objectName" : "avalishiplocker",
+  "rarity" : "Common",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+
+  "category" : "storage",
+  "description" : "Store some stuff, why don't you?",
+  "shortdescription" : "Shiplocker",
+  "race" : "avali",
+  "lightColor" : [102, 61, 61],
+
+  "apexDescription" : "Avali storage locker.",
+  "avianDescription" : "For storing lots of useful items.",
+  "floranDescription" : "Ssssstorage.",
+  "glitchDescription" : "Indifferent. Avian storage locker.",
+  "humanDescription" : "An Avali storage hatch.",
+  "hylotlDescription" : "Storage.",
+
+  "inventoryIcon" : "shiplockericon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "avalishiplocker.png:<color>.<frame>", "fullbright" : true }, { "image" : "avalishiplockerlit.png:<color>.<frame>" } ],
+      "imagePosition" : [-16, -8],
+      "frames" : 8,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/chest_small_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/chest_small_close.wav" ],
+  "slotCount" : 64,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 11,
+  "autoCloseCooldown" : 3600
+}

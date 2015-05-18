@@ -1,0 +1,208 @@
+[
+{ "op" : "add", "path" : "/scriptConfig/guard/dialog/hail/avali",
+"value" : {
+			"default": [
+				"Hi there stranger~",
+				"*Hums to themself*",						
+				"Welcome to our town, traveller.",
+				"Perimeter secure."						
+			],
+			"human": [	
+				"Give me a reason, I dare you.",
+				"The Overseers are watching you.",
+				"I don't recommend acting out surrounded by predators, human."
+			],
+			"avian": [
+				"Salutations.",
+				"Damned birds are always out to get me... not you, sorry.",
+				"Hello, my feathered friend!"
+			],
+			"floran": [
+				"Salutations.",
+				"Just a polite reminder, no stabbing.",
+				"You should try the local cuisine, Florans seem to like it."
+			],
+			"apex": [
+				"Salutations.",
+				"Evening, my simian friend.",
+				"How goes the rebellion?",
+				"Don't worry, we sweep for Miniknog bugs."						
+			],
+			"hylotl": [
+				"You should stop by the markets, sir.",
+				"I'm sure they'd be quite impressed with some of the local crafts.",
+				"I recommend avoiding the hunters, they might offend your... sensibilities."
+			],
+			"glitch": [
+				"Jovial. Hello Glitch, I've been learning your mode of speech!",
+				"Stop by the repair bay, they can fix that squeaky joint.",
+				"Ever thought about getting a tune up while you're here?"
+			],
+			"avali": [
+				"Hi there~",
+				"Don't forget this is a weapons-safe zone, hunter.",
+				"The birds have been murder this cycle.",
+				"I can't wait 'til they fix the guard drones.",
+				"Got any good music feeds to share? - I'm bored.",
+				"Damn sticky actuator...",
+				"I used to be an adventurer like you... but then I retired."
+			]
+		}
+},
+{ "op" : "add", "path" : "/scriptConfig/guard/dialog/hail/human/avali",
+"value" : [
+				"If you overlook the treaty so will I, so watch it...",
+				"Ugh, savages.",
+				"Keep your distance, turkey.",
+				"Keep walking...",
+				"Control, got one of 'them' here... ok, all clear. Right.",
+				"Ugh, you smell like a walking bowl of disinfectant."
+]
+},
+{ "op" : "add", "path" : "/scriptConfig/guard/dialog/hail/floran/avali",
+"value" : [
+				"Not-bird-men make good fertilissser, watch yourself.",
+				"Are you edible?",
+				"Keep your sssstabbys in their sheathes.",
+				"Floran hear of Nexusss, is it like Floran collective?",
+				"Do you like hunting too?"
+]
+},
+{ "op" : "add", "path" : "/scriptConfig/guard/dialog/hail/hylotl/avali",
+"value" : [
+				"Welcome, traveller. Please marvel at our exquisite building designs.",
+				"I don't blame you for coming here, it must be a far cry from your tent-hovel.",
+				"You should learn from us, and use the knowledge to help civilise your own people.",
+				"Is it true the Avali still eat meat?",
+				"*pinches nose* Whelcum to our hnumble abod- *gag* it's no good, the smell!",
+				"I say, your feathers looks exquisite, can I take them off you?"
+]
+},
+{ "op" : "add", "path" : "/scriptConfig/guard/dialog/hail/glitch/avali",
+"value" : [
+				"Cordial. Greetings, alien.",
+				"Bothered. Please refrain from molting your feathers in public.",
+				"Absent-Minded. Please return to the chicken pen.",
+				"Curt. This is a no-hunting area, it is unlikely anything here is edible for your kind.",
+				"Disgusted. Olfactory sensors detect elevated ammonia levels. Simply put, you smell.",
+				"Delighted. What wonderous plumage, may I obtain some?"
+]
+},
+{ "op" : "add", "path" : "/scriptConfig/guard/dialog/hail/avian/avali",
+"value" : [
+				"Greetings Avali, welcome to our settlement!",
+				"Your wings! Are you an emissary of Kluex?",
+				"I bring you the song of our people *Squawks loudly* Why are you cowering, I thought you liked music?",
+				"I wish my feathers were that long...",
+				"First rule of the grounded, you don't talk about the grounded.",
+				"Is it true your race sleeps on the floor instead of in a nest? How strange."
+]
+},
+{
+"op" : "add",
+"path" : "/scriptConfig/hound/dialog/warnings/0/sword/avali",
+"value" : { 
+			"default" : [
+				"Ugh, not in public. Put it away."
+] }
+},
+{
+"op" : "add",
+"path" : "/scriptConfig/hound/dialog/warnings/0/gun/avali",
+"value" : { 
+			"default" : [ 
+				"Holster the gun, please."
+] }
+},
+{
+"op" : "add",
+"path" : "/scriptConfig/hound/dialog/warnings/1/sword/avali",
+"value" : {
+			"default" : [
+				"Put the weapon away already."
+] }
+},
+{
+"op" : "add",
+"path" : "/scriptConfig/hound/dialog/warnings/1/gun/avali",
+"value" : {
+			"default" : [
+				"I don't care what your world's constitution says. No guns in public."
+] }
+},
+{
+"op" : "add",
+"path" : "/scriptConfig/hound/dialog/warnings/2/sword/avali",
+"value" : {
+			"default" : [ 
+				"Sheath the weapon now, or I'll sheath it up your cloaca!"
+] }
+},
+{
+"op" : "add",
+"path" : "/scriptConfig/hound/dialog/warnings/2/gun/avali",
+"value" : {
+			"default" : [ 
+				"Last warning or I shoot!"
+] }
+},
+{
+"op" : "add",
+"path" : "/scriptConfig/hound/dialog/weaponSheathed/avali",
+"value" : {
+			"default" : [ 
+				"That's better.",
+				"Appreciated.",
+				"Carry on."
+] }
+},
+{
+"op" : "add",
+"path" : "/scriptConfig/hound/dialog/comeBack/avali",
+"value" : {
+			"default" : [ 
+				"I'm talking to you.",
+				"Get back here.",
+				"Your hearing isn't that inferior, pay attention!"
+] }
+},
+{ "op" : "add", "path" : "/items/avali",
+"value" : [
+			[0, [
+				{
+				"chest" : [
+					{ "name" : "avaliset1bchest", "data" : { "colorIndex" : 1 } },
+					{ "name" : "avaliset5chest", "data" : { "colorIndex" : 1 } },
+					{ "name" : "avaliset5bchest", "data" : { "colorIndex" : 1 } },
+					{ "name" : "avaliset5cchest", "data" : { "colorIndex" : 1 } },						
+					{ "name" : "maskchest", "data" : { "colorIndex" : 1 } }
+				],
+				"legs" : [
+					{ "name" : "avaliarmor3pants", "data" : { "colorIndex" : 1 } },
+					{ "name" : "avaliarmor2pants", "data" : { "colorIndex" : 1 } }
+				],
+				"head" : [
+					{ "name" : "avaliarmor1head", "data" : { "colorIndex" : 1 } },
+					{ "name" : "avaliarmor2head", "data" : { "colorIndex" : 1 } },							
+					{ "name" : "avaliarmor3head", "data" : { "colorIndex" : 1 } },
+					{ "name" : "maskhead", "data" : { "colorIndex" : 1 } },
+					{ "name" : "avaliracial1head", "data" : { "colorIndex" : 1 } },
+					{ "name" : "avaliracial2head", "data" : { "colorIndex" : 1 } }
+				],
+				"primary" : [
+					{ "name" : "avalitier2minigun", "data" : { "colorIndex" : 1 } },
+					{ "name" : "avalitier2rifle", "data" : { "colorIndex" : 1 } },
+					{ "name" : "avalitier2pistol", "data" : { "colorIndex" : 1 } }
+				],
+				"sheathedprimary" : [
+					{ "name" : "avalitier2shortsword", "data" : { "colorIndex" : 1 } }
+				],
+				"alt" : [
+					{ "name" : "avalitier2pistol", "data" : { "colorIndex" : 1 } },
+					{ "name" : "generatedshield", "data" : { "definition" : "avalitier4barrier" } }
+				]
+				}
+			]   ]
+]
+}
+]

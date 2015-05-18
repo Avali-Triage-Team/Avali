@@ -1,0 +1,44 @@
+{
+  "objectName" : "avaliplant1",
+  "rarity" : "Common",
+  "category" : "farmable",
+  "description" : "The fruiting body of a subterranean slime mold. This one has already begun sporing though.",
+  "shortdescription" : "Sporing Kiri Fruit",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 300,
+
+  "apexDescription" : "This reminds me a strawberry protein shake.",
+  "avianDescription" : "Even if I wanted to, I doubt I could eat this with a beak.",
+  "floranDescription" : "Reminds Floran of Agaran nemesisssss.",
+  "glitchDescription" : "Musing. Given this plant is a culture of millions of microbes, does that make each mouthful genocide?",
+  "humanDescription" : "It's like school dinners all over again.",
+  "hylotlDescription" : "Don't tell me this is some sort've alien delicacy.",
+  "avaliDescription" : "On Avalon, the bulk of the colony lives underground, and you harvest the fruiting bodies when they emerge.",
+
+  "inventoryIcon" : "avaliplant1icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "avaliplant1.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "stages" : [
+    {
+      "duration" : [240, 300]
+    },
+    {
+      "duration" : [240, 300]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "kiriHarvest"
+    }
+  ]
+}

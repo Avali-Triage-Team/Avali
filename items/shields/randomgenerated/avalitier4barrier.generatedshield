@@ -1,0 +1,35 @@
+{
+  "name" : "avalitier4barrier",
+  "kind" : "avalitier4",
+  "description" : "Protects the user from a programmed amount of damage.",
+
+  
+  "rarity" : "uncommon",
+  "palette" : [
+    { }
+  ],
+
+  "hitSound" : "/sfx/melee/shield_block_metal2.wav",
+  "perfectHitSound" : "/sfx/melee/shield_block_metal_perfect.wav",
+  "breakSound" : "/sfx/melee/shield_break_metal.wav",
+  "perfectBlockParticle" : "shieldspark",
+  "breakParticle" : "guardbrokenmessage",
+
+  "baseline" : {
+    "recoilTime" : 0.2,
+    "knockbackPower" : 10,
+    "knockbackDamageKind" : "",
+    "statusEffects" : [
+	  {
+		"stat" : "encumberance",
+		"amount" : 1.0
+	  }
+	],
+    "shieldPoly" : [ [-8, 0], [-8, 12], [8, 20], [8, -24], [-8, -12] ],
+    "damagePoly" : [ [-8, 0], [8, 18], [8, -18] ]
+  },
+  "nameGenerator" : "avalitier4names.config:nameGen",
+  "tooltipKind" : "shield",
+  "health" : 250.0,
+  "healthRegen" : 0.10
+}

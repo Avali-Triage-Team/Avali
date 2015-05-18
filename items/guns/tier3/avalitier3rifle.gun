@@ -1,0 +1,30 @@
+{
+  "itemName" : "avalitier3rifle",
+  "inventoryIcon" : "avalirifle.png",
+  "rarity" : "rare",
+  "description" : "The standard Avali infantry weapon.",
+  "shortdescription" : "AR3 Blizzard",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "level" : 3,
+  "inspectionKind" : "gun",
+  "image" : "avalirifle.png",
+  "recoilTime" : 0.1,
+  "handPosition" : [-3, 3],
+  "firePosition" : [13, 8],
+
+  "fireTime" : 0.3,
+  "twoHanded" : true,
+
+  "projectileType" : "railgun1",
+  "projectile" : {
+	"power" : 2.7,
+	"speed" : 90,
+    "color" : [10, 255, 10]
+  },
+
+  "muzzleEffect" : {
+    "animation" : "/animations/muzzleflash/electromuzzle/electromuzzle.animation",      
+    "fireSound" : [ { "file" : "/sfx/gun/plasma_ar1.wav" } ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "itemName" : "avalitaco",
+  "rarity" : "Common",
+  "inventoryIcon" : "avalitaco.png",
+  "description" : "Super-hot Nakati-spiced taco; sometimes eaten on a dare by non-Avali.",
+  "shortdescription" : "Avalon-Style Taco",
+  "handPosition" : [0, 4],
+  "effects" : [ [
+    {
+        "effect" : "foodheal50",
+        "duration" : 60
+    },
+    {
+        "effect" : "glow",
+        "duration" : 30
+    },
+    {
+        "effect" : "energyregen96",
+        "duration" : 30
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 105
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : []
+}

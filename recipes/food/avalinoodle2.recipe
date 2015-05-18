@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "avalinoodle", "count" : 1 },
+    { "item" : "avalimeat", "count" : 1 },
+    { "item" : "avaliproduce1", "count" : 1 }	
+  ],
+  "output" : { "item" : "avalinoodle2", "count" : 1 },
+  "groups" : [ "kitchen", "consumables" ]
+}

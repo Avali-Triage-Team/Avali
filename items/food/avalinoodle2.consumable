@@ -1,0 +1,30 @@
+{
+  "itemName" : "avalinoodle2",
+  "rarity" : "Common",
+  "inventoryIcon" : "avalinoodle2.png",
+  "description" : "Spicy meat noodles with a rich Kiri sauce.",
+  "shortdescription" : "Kiri Curry",
+  "handPosition" : [0, 4],
+  "effects" : [ [
+    {
+        "effect" : "foodheal145",
+        "duration" : 60
+    },
+    {
+        "effect" : "glow",
+        "duration" : 30
+    },
+    {
+        "effect" : "energyregen192",
+        "duration" : 30
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 120
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : []
+}

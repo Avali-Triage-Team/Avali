@@ -1,0 +1,35 @@
+{
+  "objectName" : "brokenavalifuelhatchTier0",
+  "rarity" : "Common",
+  "description" : "A broken fuel hatch. This won't do!",
+  "shortdescription" : "Broken Fuel Hatch",
+  "race" : "avali",
+  "lightColor" : [77, 46, 46],
+
+  "apexDescription" : "Converts fuel into freedom.",
+  "avianDescription" : "Let's load it up and take to the stars!",
+  "floranDescription" : "Let'ss get going!",
+  "glitchDescription" : "Excited. Once filled, we may visit another planet.",
+  "humanDescription" : "A fuel panel. We can fill this up and explore.",
+  "hylotlDescription" : "Fuel is the lifeblood of exploration.",
+  
+  "breakDropOptions" : [],
+
+  "inventoryIcon" : "fuelhatchicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "brokenavalifuelhatchTier0.png:<color>.<frame>", "fullbright" : true }, { "image" : "brokenavalifuelhatchlitTier0.png:<color>.<frame>" } ],
+
+      "imagePosition" : [-8, -16],
+      "frames" : 12,
+      "animationCycle" : 1,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+  
+  "soundEffect" : "/sfx/objects/brokenfuelhatch.wav",
+  "soundEffectRadius" : 15
+  
+}

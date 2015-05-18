@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "feroziumcompound", "count" : 8 }
+  ],
+  "output" : { "item" : "avalitier6pistol", "count" : 1 },
+  "groups" : [ "avalibench", "weapons", "all" ]
+}

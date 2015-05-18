@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "steelbar", "count" : 20 }
+  ],
+  "output" : {
+    "item" : "spawneravali",
+    "count" : 1
+  },
+  "groups" : [ "spawnerstation", "objects", "all", "other" ]
+}

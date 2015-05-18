@@ -1,0 +1,21 @@
+{
+  "itemName" : "avaliproduce1",
+  "rarity" : "Common",
+  "inventoryIcon" : "avaliproduce1.png",
+  "description" : "The fruiting body of a subterranean slime mold... delicious, I guess?",
+  "shortdescription" : "Kiri Fruit",
+  "effects" : [ [
+    {
+        "effect" : "foodheal10",
+        "duration" : 60
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 75
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : []
+}

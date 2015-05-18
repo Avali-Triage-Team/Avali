@@ -1,0 +1,5 @@
+{
+	"input" : [ { "item" : "money", "count" : 300 } ],
+	"output" : { "item" : "avaliplant2", "count" : 1 },
+	"groups" : [ "terramart" ]
+}

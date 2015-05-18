@@ -1,0 +1,14 @@
+{
+  "projectileName" : "avalidaggerswoosh",
+  "frames" : "avalidaggerswoosh.png",
+  "animationCycle" : 0.07,
+  "level" : 1,
+  "frameNumber" : 3,
+  "speed" : 0,
+  "orientationLocked" : true,
+  "damagePoly" : [ [-20, 9.5], [9, 9.5], [16, 2.5], [16, -3.5], [12, -7.5], [4, -10.5], [-20, -9.5] ],
+  "animationLoops" : false,
+  "piercing" : true,
+  "flippable" : true,
+  "damageKind" : "aerotech"
+}

@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "mediummetal", "count" : 5  },
+    { "item" : "woodencookingtable", "count" : 1  }	
+  ],
+  "output" : { "item" : "avalicuttingboard", "count" : 1 },
+  "groups" : [ "objects", "avalilathe", "all" ]
+}

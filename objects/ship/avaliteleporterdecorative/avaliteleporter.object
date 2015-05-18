@@ -1,0 +1,36 @@
+{
+  "objectName" : "avaliteleporterdecorative",
+  "rarity" : "Common",
+  "description" : "A teleporter of Avali design! Pity this one won't work for me.",
+  "shortdescription" : "Unusable Teleporter",
+  "race" : "avali",
+  "printable" : false,
+
+  "apexDescription" : "It appears this teleporter is hard-coded to only work for specific people.",
+  "avianDescription" : "This is just like the teleporter on my ship, but it looks like this one's been locked.",
+  "floranDescription" : "Teleport not work for Floran.",
+  "glitchDescription" : "Analysis. This teleporter will not function for anyone other than the intended user.",
+  "humanDescription" : "Rats, it looks like this teleporter won't work for me. I wonder where it leads.",
+  "hylotlDescription" : "Locked. It doesn't look like I'll be using this teleporter anytime soon.",
+
+  "category" : "light",
+  "lightColor" : [99, 132, 153],
+  "flickerDistance" : 0.2,
+  "flickerStrength" : 0.05,
+  "flickerTiming" : 4,
+
+  "inventoryIcon" : "teleportericon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "avaliteleporter.png:<color>", "fullbright" : true }, { "image" : "avaliteleporterlit.png:<color>" } ],
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "solid"
+    }
+  ]
+}

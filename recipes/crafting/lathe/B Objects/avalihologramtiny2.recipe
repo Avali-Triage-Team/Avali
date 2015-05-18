@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 15  }	
+  ],
+  "output" : { "item" : "avalihologramtiny2", "count" : 1 },
+  "groups" : [ "objects", "avalilathe", "all" ]
+}

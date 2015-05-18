@@ -1,0 +1,24 @@
+{
+  "projectileName" : "avalipilum3",
+  "frames" : "avalipilum3.png",
+  "animationCycle" : 0.25,
+  "level" : 10,
+  "piercing" : true,
+  "physics" : "grenadezbomb",
+  "frameNumber" : 1,
+  "pointLight" : false,
+  "speed" : 140,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
+    }
+  ],
+  "power" : 400.0,
+  "damageKind" : "aerotech",
+  "damageType" : "ignoresdef",
+  "emitters" : [ "daggerblue" ],
+  "statusEffects" : [
+    "weakpoison"
+    ]
+}

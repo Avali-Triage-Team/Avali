@@ -1,0 +1,9 @@
+{
+  "itemName" : "avalielitecert",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "certificate.png",
+  "image" : "certificate.png",
+  "description" : "An avali elite certificate. Grants access to the most advanced avali weaponry",
+  "shortdescription" : "AEC",
+  "learnBlueprintsOnPickup" : [ "avalitier3pilum" ]
+}

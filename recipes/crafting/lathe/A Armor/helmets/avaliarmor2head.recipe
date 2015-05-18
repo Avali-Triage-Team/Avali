@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "steelbar", "count" : 2  },
+    { "item" : "aerogel", "count" : 2  },
+	{ "item" : "laserdiode", "count" : 1 }
+  ],
+  "output" : { "item" : "avaliarmor2head", "count" : 1 },
+  "groups" : [ "armors", "avalilathe", "all" ]
+}
