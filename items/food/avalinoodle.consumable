@@ -4,6 +4,7 @@
   "inventoryIcon" : "avalinoodle.png",
   "description" : "Sweet noodles made from Piru frond flour, a staple of Avali students.",
   "shortdescription" : "Piru Noodle",
+  "handPosition" : [-7, 7],
   "effects" : [ [
     {
         "effect" : "foodheal95",
