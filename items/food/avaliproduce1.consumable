@@ -4,6 +4,7 @@
   "inventoryIcon" : "avaliproduce1.png",
   "description" : "The fruiting body of a subterranean slime mold... delicious, I guess?",
   "shortdescription" : "Kiri Fruit",
+  "handPosition" : [7, 0],
   "effects" : [ [
     {
         "effect" : "foodheal10",
