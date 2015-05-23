@@ -7,7 +7,7 @@
   "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
   "maxStack" : 1,
   "level" : 6,
-  "inspectionKind" : "gun",
+  "tooltipKind" : "gun",
   "image" : "avalipistol.png",
   "recoilTime" : 0.1,
   "handPosition" : [0, 3],
