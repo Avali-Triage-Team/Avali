@@ -36,11 +36,16 @@
   "animationParts" : {
     "door" : "avalitechdoor.png"
   },
+  "animationCustom":
+  {
+    "sounds":
+    {
+      "open": [ "/sfx/objects/apexcooldoor_open.wav" ],
+      "close": [ "/sfx/objects/apexcooldoor_close.wav" ]
+    }
+  },
   "animationPosition" : [-8, 0],
 
   "inboundNodes" : [ [-1, 4] ],
-  "outboundNodes" : [ [1, 0] ],
-  
-  "openSounds" : [ "/sfx/objects/apexcooldoor_open.wav" ],
-  "closeSounds" : [ "/sfx/objects/apexcooldoor_close.wav" ]
+  "outboundNodes" : [ [1, 0] ]
 }
