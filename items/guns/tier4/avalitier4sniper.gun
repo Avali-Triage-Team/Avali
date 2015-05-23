@@ -4,6 +4,8 @@
   "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
   "maxStack" : 1,
   "rarity" : "rare",
+  "tooltipKind" : "bow",
+  "weaponType" : "Bow",
   "description" : "An anti-materiel rifle more frequently used for hunting armoured vehicles than wildlife.",
   "shortdescription" : "AM4 Firelance",
   "image" : "avalisniperfull.png:<frame>",
