@@ -18,5 +18,5 @@
   "blockingEffects" : [
     "wellfed"
   ],
-  "learnBlueprintsOnPickup" : []
+  "learnBlueprintsOnPickup" : [ "avaliflour" ]
 }
