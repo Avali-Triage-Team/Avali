@@ -31,12 +31,13 @@
   "animationParts" : {
     "door" : "avalidarkverticaldoor.png"
   },
+  "animationPosition" : [-16, 0],
   
   "orientations" : [
     {
       "image" : "avalidarkverticaldoor.png:default",
-      "imagePosition" : [-16, -6],
-      "animationPosition" : [-16, -6],
+      "imagePosition" : [-16, 0],
+      "animationPosition" : [-16, 0],
       "flipImages" : true,
       "direction" : "left",
 
@@ -45,8 +46,8 @@
     },
     {
       "image" : "avalidarkverticaldoor.png:default",
-      "imagePosition" : [-16, -6],
-      "animationPosition" : [-16, -6],
+      "imagePosition" : [-16, 0],
+      "animationPosition" : [-16, 0],
       "direction" : "right",
 
       "spaceScan" : 0.1,

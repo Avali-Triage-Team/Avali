@@ -1,7 +1,7 @@
 {
 
   "frameGrid" : {
-    "size" : [40, 14],
+    "size" : [40, 8],
     "dimensions" : [6, 1],
     "names" : [
       [ "closed", "halfLeft", "left", null, "halfRight", "right" ]
