@@ -1,0 +1,12 @@
+[
+	{"op":"add","path":"/surfacePlaceables/items/-","value":{
+			"mode" : "floor",
+			"priority" : 3.0,
+			"variants" : 5,
+			"distribution" : "/biomes/distributions.config:randomEncounter",
+
+			"type" : "microdungeon",
+			"microdungeons" : [ "avalirandom" ]
+		} 
+	}
+]
