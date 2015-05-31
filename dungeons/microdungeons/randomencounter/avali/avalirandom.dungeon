@@ -1,0 +1,3232 @@
+{
+  "metadata": {
+    "name": "avalirandom",
+    "species": "dummy",
+    "rules": [],
+    "maxRadius": 2000,
+    "maxParts": 5,
+    "anchor": [
+      "avali1",
+      "avali2",
+      "avali3",
+      "avali4",
+      "avali5"
+    ]
+  },
+  "tiles": [
+    {
+      "value": [
+        255,
+        0,
+        220,
+        255
+      ],
+      "comment": "magic pinkppp, a no-op value",
+      "connector": false
+    },
+    {
+      "value": [
+        0,
+        0,
+        0,
+        255
+      ],
+      "comment": "anchor, must contain air",
+      "brush": [
+        [
+          "clear"
+        ]
+      ],
+      "rules": [
+        [
+          "worldGenMustContainAirBackground"
+        ],
+        [
+          "allowOverdrawing"
+        ]
+      ],
+      "connector": false
+    },
+    {
+      "value": [
+        255,
+        255,
+        255,
+        255
+      ],
+      "comment": "anchor, must contain solid",
+      "brush": [
+        [
+          "surface",
+          {
+            "variant": 0
+          }
+        ]
+      ],
+      "rules": [
+        [
+          "worldGenMustContainSolidBackground"
+        ],
+        [
+          "allowOverdrawing"
+        ]
+      ],
+      "connector": false
+    },
+    {
+      "value": [
+        0,
+        38,
+        255,
+        255
+      ],
+      "comment": "coupler, bright blue",
+      "connector": true
+    },
+    {
+      "value": [
+        0,
+        255,
+        186,
+        255
+      ],
+      "comment": "coupler, aqua",
+      "connector": true
+    },
+    {
+      "value": [
+        240,
+        255,
+        0,
+        255
+      ],
+      "comment": "coupler, yellow",
+      "connector": true
+    },
+    {
+      "value": [
+        32,
+        32,
+        32,
+        255
+      ],
+      "comment": "Empty hole",
+      "brush": [
+        [
+          "clear"
+        ]
+      ],
+      "connector": false
+    },
+    {
+      "value": [
+        128,
+        128,
+        128,
+        255
+      ],
+      "comment": "Biome tile brush",
+      "brush": [
+        [
+          "surface"
+        ]
+      ],
+      "rules": [
+        [
+          "allowOverdrawing"
+        ]
+      ],
+      "connector": false
+    },
+    {
+      "value": [
+        100,
+        100,
+        100,
+        255
+      ],
+      "comment": "Biome tile brush non-overwritable",
+      "brush": [
+        [
+          "surface"
+        ]
+      ],
+      "connector": false
+    },
+    {
+      "value": [
+        200,
+        200,
+        200,
+        255
+      ],
+      "comment": "Biome tile background brush",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "surfacebackground"
+        ]
+      ],
+      "connector": false
+    },
+    {
+      "value": [
+        54,
+        63,
+        105,
+        255
+      ],
+      "comment": "water pool foreground",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "liquid",
+          "water"
+        ]
+      ],
+      "connector": false
+    },
+    {
+      "value": [
+        26,
+        77,
+        0,
+        255
+      ],
+      "comment": "biome tree",
+      "brush": [
+        [
+          "biometree"
+        ]
+      ],
+      "rules": [
+        [
+          "allowOverdrawing"
+        ]
+      ],
+      "connector": false
+    },
+    {
+      "value": [
+        34,
+        102,
+        0,
+        255
+      ],
+      "comment": "biome flora",
+      "brush": [
+        [
+          "biomeitems"
+        ]
+      ],
+      "rules": [
+        [
+          "allowOverdrawing"
+        ]
+      ],
+      "connector": false
+    },
+    {
+      "value": [
+        128,
+        110,
+        128,
+        255
+      ],
+      "comment": "canvas, background",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "back",
+          "campcanvas"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        180,
+        120,
+        180,
+        255
+      ],
+      "comment": "canvas, foreground",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "back",
+          "campcanvas"
+        ],
+        [
+          "front",
+          "campcanvas"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        200,
+        150,
+        30,
+        255
+      ],
+      "comment": "trim, background",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "back",
+          "camptapestry2"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        250,
+        190,
+        80,
+        255
+      ],
+      "comment": "trim, foreground",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "back",
+          "camptapestry2"
+        ],
+        [
+          "front",
+          "camptapestry2"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        200,
+        120,
+        0,
+        255
+      ],
+      "comment": "tapestry, background",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "back",
+          "camptapestry1"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        250,
+        120,
+        0,
+        255
+      ],
+      "comment": "tapestry, foreground",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "back",
+          "camptapestry1"
+        ],
+        [
+          "front",
+          "camptapestry1"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        80,
+        80,
+        90,
+        255
+      ],
+      "comment": "pole, background",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "back",
+          "camppole"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        110,
+        110,
+        120,
+        255
+      ],
+      "comment": "pole, foreground",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "back",
+          "camppole"
+        ],
+        [
+          "front",
+          "camppole"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        220,
+        64,
+        0,
+        255
+      ],
+      "comment": "avali platform",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "front",
+          "avaliplatform"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        100,
+        120,
+        120,
+        255
+      ],
+      "comment": "apex panels, background",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "back",
+          "apexshipwall"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        160,
+        180,
+        180,
+        255
+      ],
+      "comment": "apex panels, foreground",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "back",
+          "apexshipwall"
+        ],
+        [
+          "front",
+          "apexshipwall"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        80,
+        80,
+        100,
+        255
+      ],
+      "comment": "steel, background",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "back",
+          "pressurizedsteel"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        120,
+        120,
+        160,
+        255
+      ],
+      "comment": "steel, foreground",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "back",
+          "pressurizedsteel"
+        ],
+        [
+          "front",
+          "pressurizedsteel"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        185,
+        205,
+        205,
+        255
+      ],
+      "comment": "apex platform",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "front",
+          "modernplatform"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        181,
+        181,
+        181,
+        255
+      ],
+      "comment": "pipe fence",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "object",
+          "prisonpipefence"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        253,
+        64,
+        201,
+        255
+      ],
+      "comment": "glass fence",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "object",
+          "glasspanel"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        30,
+        40,
+        40,
+        255
+      ],
+      "comment": "apex beam, background",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "back",
+          "apexshipdetails"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        40,
+        50,
+        50,
+        255
+      ],
+      "comment": "apex beam, foreground",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "back",
+          "apexshipdetails"
+        ],
+        [
+          "front",
+          "apexshipdetails"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        45,
+        55,
+        55,
+        255
+      ],
+      "comment": "apex support, background",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "back",
+          "apexshipsupport"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        65,
+        75,
+        75,
+        255
+      ],
+      "comment": "apex support, foreground",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "back",
+          "apexshipsupport"
+        ],
+        [
+          "front",
+          "apexshipsupport"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        100,
+        200,
+        100,
+        255
+      ],
+      "comment": "leaves, background",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "back",
+          "plantmatter"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        150,
+        250,
+        150,
+        255
+      ],
+      "comment": "leaves, foreground",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "back",
+          "plantmatter"
+        ],
+        [
+          "front",
+          "plantmatter"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        100,
+        200,
+        150,
+        255
+      ],
+      "comment": "vine, background",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "back",
+          "vine"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        150,
+        250,
+        200,
+        255
+      ],
+      "comment": "vine, foreground",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "back",
+          "vine"
+        ],
+        [
+          "front",
+          "vine"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        77,
+        118,
+        136,
+        255
+      ],
+      "comment": "avali panel, background",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "back",
+          "avalipaneling"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        54,
+        38,
+        137,
+        255
+      ],
+      "comment": "avali panel, foreground",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "back",
+          "avalipaneling"
+        ],
+        [
+          "front",
+          "avalipaneling"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        160,
+        155,
+        160,
+        255
+      ],
+      "comment": "Avali panel, background",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "back",
+          "avalitechpanel"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        210,
+        205,
+        210,
+        255
+      ],
+      "comment": "avali panel, foreground",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "back",
+          "avalitechpanel"
+        ],
+        [
+          "front",
+          "avalitechpanel"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        200,
+        200,
+        150,
+        255
+      ],
+      "comment": "glass, background",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "back",
+          "glass"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        220,
+        220,
+        180,
+        255
+      ],
+      "comment": "glass, foreground",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "back",
+          "glass"
+        ],
+        [
+          "front",
+          "glass"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        250,
+        205,
+        85,
+        255
+      ],
+      "comment": "aeroponics",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "front",
+          "avaliaeroponics",
+          "avalitilled"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        55,
+        14,
+        206,
+        255
+      ],
+      "comment": "aeroponics, no roots",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "front",
+          "avaliaeroponics"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        64,
+        48,
+        12,
+        255
+      ],
+      "comment": "display, background",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "back",
+          "avalidisplay"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        72,
+        58,
+        20,
+        255
+      ],
+      "comment": "display, foreground",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "front",
+          "avalidisplay"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        38,
+        32,
+        20,
+        255
+      ],
+      "comment": "dark support, background",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "back",
+          "avalidarkmetal"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        48,
+        32,
+        20,
+        255
+      ],
+      "comment": "dark support, foreground",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "back",
+          "avalidarkmetal"
+        ],
+        [
+          "front",
+          "avalidarkmetal"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        25,
+        20,
+        16,
+        255
+      ],
+      "comment": "dark panels, background",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "back",
+          "avalidarkmetal2"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        32,
+        24,
+        16,
+        255
+      ],
+      "comment": "dark panels, foreground",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "back",
+          "avalidarkmetal2"
+        ],
+        [
+          "front",
+          "avalidarkmetal2"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        36,
+        18,
+        9,
+        255
+      ],
+      "comment": "dark beam, background",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "back",
+          "avalidarkmetal3"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        42,
+        24,
+        12,
+        255
+      ],
+      "comment": "dark beam, foreground",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "back",
+          "avalidarkmetal3"
+        ],
+        [
+          "front",
+          "avalidarkmetal3"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        64,
+        60,
+        20,
+        255
+      ],
+      "comment": "main pole, background",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "back",
+          "campbigpole"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        214,
+        81,
+        157,
+        255
+      ],
+      "comment": "main pole, foreground",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "back",
+          "campbigpole"
+        ],
+        [
+          "front",
+          "campbigpole"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        2,
+        68,
+        15,
+        255
+      ],
+      "comment": "bones, foreground",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "back",
+          "bonematerial"
+        ],
+        [
+          "front",
+          "bonematerial"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        0,
+        48,
+        0,
+        255
+      ],
+      "comment": "bones, background",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "back",
+          "bonematerial"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        177,
+        7,
+        87,
+        255
+      ],
+      "comment": "canvas slope, left",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "object",
+          "campslope2",
+          {
+            "direction": "left"
+          }
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        76,
+        246,
+        23,
+        255
+      ],
+      "comment": "canvas slope, right",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "object",
+          "campslope2",
+          {
+            "direction": "right"
+          }
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        144,
+        237,
+        193,
+        255
+      ],
+      "comment": "fancy slope, left",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "object",
+          "campslope1",
+          {
+            "direction": "left"
+          }
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        239,
+        130,
+        102,
+        255
+      ],
+      "comment": "fancy slope, right",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "object",
+          "campslope1",
+          {
+            "direction": "right"
+          }
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        42,
+        106,
+        151,
+        255
+      ],
+      "comment": "canvas corner, left",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "object",
+          "campsmallwall2",
+          {
+            "direction": "left"
+          }
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        52,
+        33,
+        242,
+        255
+      ],
+      "comment": "canvas corner, right",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "object",
+          "campsmallwall2",
+          {
+            "direction": "right"
+          }
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        197,
+        179,
+        150,
+        255
+      ],
+      "comment": "fancy corner, left",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "object",
+          "campsmallwall1",
+          {
+            "direction": "left"
+          }
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        69,
+        112,
+        193,
+        255
+      ],
+      "comment": "fancy corner, right",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "object",
+          "campsmallwall1",
+          {
+            "direction": "right"
+          }
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        17,
+        199,
+        228,
+        255
+      ],
+      "comment": "canvas awning, left",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "object",
+          "campsmallentry2",
+          {
+            "direction": "left"
+          }
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        25,
+        211,
+        67,
+        255
+      ],
+      "comment": "canvas awning, right",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "object",
+          "campsmallentry2",
+          {
+            "direction": "right"
+          }
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        18,
+        237,
+        56,
+        255
+      ],
+      "comment": "fancy awning, left",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "object",
+          "campsmallentry1",
+          {
+            "direction": "left"
+          }
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        215,
+        244,
+        70,
+        255
+      ],
+      "comment": "fancy awning, right",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "object",
+          "campsmallentry1",
+          {
+            "direction": "right"
+          }
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        227,
+        175,
+        33,
+        255
+      ],
+      "comment": "canvas entrance, left",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "object",
+          "camplargeentry2",
+          {
+            "direction": "left"
+          }
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        144,
+        213,
+        121,
+        255
+      ],
+      "comment": "canvas entrance, right",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "object",
+          "camplargeentry2",
+          {
+            "direction": "right"
+          }
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        209,
+        191,
+        130,
+        255
+      ],
+      "comment": "fancy entrance, left",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "object",
+          "camplargeentry1",
+          {
+            "direction": "left"
+          }
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        149,
+        45,
+        249,
+        255
+      ],
+      "comment": "fancy entrance, right",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "object",
+          "camplargeentry1",
+          {
+            "direction": "right"
+          }
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        50,
+        84,
+        71,
+        255
+      ],
+      "comment": "canvas sheet, left",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "object",
+          "camplargewall2",
+          {
+            "direction": "left"
+          }
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        167,
+        81,
+        55,
+        255
+      ],
+      "comment": "canvas sheet, right",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "object",
+          "camplargewall2",
+          {
+            "direction": "right"
+          }
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        90,
+        85,
+        186,
+        255
+      ],
+      "comment": "fancy sheet, left",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "object",
+          "camplargewall1",
+          {
+            "direction": "left"
+          }
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        231,
+        50,
+        95,
+        255
+      ],
+      "comment": "fancy sheet, right",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "object",
+          "camplargewall1",
+          {
+            "direction": "right"
+          }
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        151,
+        54,
+        24,
+        255
+      ],
+      "comment": "cushion, left",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "object",
+          "avalicushion1",
+          {
+            "direction": "left"
+          }
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        184,
+        89,
+        62,
+        255
+      ],
+      "comment": "cushion, right",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "object",
+          "avalicushion1",
+          {
+            "direction": "right"
+          }
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        152,
+        109,
+        175,
+        255
+      ],
+      "comment": "pillow, left",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "object",
+          "avalicushion2",
+          {
+            "direction": "left"
+          }
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        198,
+        154,
+        106,
+        255
+      ],
+      "comment": "pillow, right",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "object",
+          "avalicushion2",
+          {
+            "direction": "right"
+          }
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        111,
+        143,
+        41,
+        255
+      ],
+      "comment": "crystal bowl",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "object",
+          "avalicrystal1"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        153,
+        217,
+        243,
+        255
+      ],
+      "comment": "dreamcatcher",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "object",
+          "avalidreamcatcher1"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        106,
+        117,
+        171,
+        255
+      ],
+      "comment": "bottle",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "object",
+          "avalibottle1"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        215,
+        134,
+        236,
+        255
+      ],
+      "comment": "fountain",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "object",
+          "fountain1"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        85,
+        112,
+        49,
+        255
+      ],
+      "comment": "display, rifle",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "object",
+          "avaligundisplay1",
+          {
+            "direction": "right"
+          }
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        164,
+        7,
+        235,
+        255
+      ],
+      "comment": "display, sniper",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "object",
+          "avaligundisplay2",
+          {
+            "direction": "right"
+          }
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        219,
+        215,
+        54,
+        255
+      ],
+      "comment": "display, spear",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "object",
+          "avaliweapondisplay1",
+          {
+            "direction": "right"
+          }
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        106,
+        251,
+        224,
+        255
+      ],
+      "comment": "terminal, command chair, left",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "object",
+          "avaliterminal1",
+          {
+            "direction": "left"
+          }
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        249,
+        253,
+        84,
+        255
+      ],
+      "comment": "terminal, command chair, right",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "object",
+          "avaliterminal1",
+          {
+            "direction": "right"
+          }
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        64,
+        72,
+        88,
+        255
+      ],
+      "comment": "terminal, console, left",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "object",
+          "avaliterminal2",
+          {
+            "direction": "left"
+          }
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        137,
+        9,
+        199,
+        255
+      ],
+      "comment": "terminal, console, right",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "object",
+          "avaliterminal2",
+          {
+            "direction": "right"
+          }
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        18,
+        195,
+        5,
+        255
+      ],
+      "comment": "terminal, codex",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "object",
+          "avaliterminal3",
+          {
+            "parameters": {
+              "treasurePools": [
+                "avaliCodexLoot"
+              ]
+            }
+          }
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        102,
+        4,
+        59,
+        255
+      ],
+      "comment": "avaliemblem, small",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "object",
+          "avaliemblem"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        94,
+        203,
+        145,
+        255
+      ],
+      "comment": "ribbon, tapestrystyle",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "object",
+          "avaliribbon2",
+          {
+            "direction": "right"
+          }
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        94,
+        194,
+        177,
+        255
+      ],
+      "comment": "ribbon, trimstyle",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "object",
+          "avaliribbon1",
+          {
+            "direction": "right"
+          }
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        244,
+        20,
+        177,
+        255
+      ],
+      "comment": "door, canvas, right",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "object",
+          "campdoor",
+          {
+            "direction": "right"
+          }
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        102,
+        220,
+        146,
+        255
+      ],
+      "comment": "door, canvas, left",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "object",
+          "campdoor"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        179,
+        126,
+        30,
+        255
+      ],
+      "comment": "door, impervium",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "object",
+          "tier10door"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        72,
+        179,
+        85,
+        255
+      ],
+      "comment": "cylinder, basic loot",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "object",
+          "avalichest1",
+          {
+            "parameters": {
+              "treasurePools": [
+                "avaliTemporaryLoot"
+              ]
+            }
+          }
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        110,
+        35,
+        49,
+        255
+      ],
+      "comment": "footlocker, left, basic loot",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "object",
+          "avalichest2",
+          {
+            "direction": "left",
+            "parameters": {
+              "treasurePools": [
+                "avaliTemporaryLoot"
+              ]
+            }
+          }
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        58,
+        104,
+        15,
+        255
+      ],
+      "comment": "footlocker, right, basic loot",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "object",
+          "avalichest2",
+          {
+            "direction": "right",
+            "parameters": {
+              "treasurePools": [
+                "avaliTemporaryLoot"
+              ]
+            }
+          }
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        170,
+        44,
+        69,
+        255
+      ],
+      "comment": "crate, left, basic loot",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "object",
+          "bunkercrate",
+          {
+            "direction": "left",
+            "parameters": {
+              "treasurePools": [
+                "avaliTemporaryLoot"
+              ]
+            }
+          }
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        56,
+        149,
+        33,
+        255
+      ],
+      "comment": "crate, right, basic loot",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "object",
+          "bunkercrate",
+          {
+            "direction": "right",
+            "parameters": {
+              "treasurePools": [
+                "avaliTemporaryLoot"
+              ]
+            }
+          }
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        92,
+        179,
+        85,
+        255
+      ],
+      "comment": "cylinder, encounter loot",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "object",
+          "avalichest1",
+          {
+            "parameters": {
+              "treasurePools": [
+                "avaliEncounterLoot"
+              ]
+            }
+          }
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        130,
+        35,
+        49,
+        255
+      ],
+      "comment": "footlocker, left, encounter loot",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "object",
+          "avalichest2",
+          {
+            "direction": "left",
+            "parameters": {
+              "treasurePools": [
+                "avaliEncounterLoot"
+              ]
+            }
+          }
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        78,
+        104,
+        15,
+        255
+      ],
+      "comment": "footlocker, right, encounter loot",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "object",
+          "avalichest2",
+          {
+            "direction": "right",
+            "parameters": {
+              "treasurePools": [
+                "avaliEncounterLoot"
+              ]
+            }
+          }
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        27,
+        33,
+        245,
+        255
+      ],
+      "comment": "striplight, directional",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "object",
+          "avalistriplight"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        1,
+        95,
+        209,
+        255
+      ],
+      "comment": "light, small strip",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "object",
+          "apexshiplight"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        136,
+        68,
+        38,
+        255
+      ],
+      "comment": "light, spotlight",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "object",
+          "eventlight"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        16,
+        217,
+        61,
+        255
+      ],
+      "comment": "light, spotlight",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "object",
+          "prisonfloodlight"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        255,
+        2,
+        25,
+        255
+      ],
+      "comment": "crop type 1",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "object",
+          "avaliplant1",
+          {
+            "direction": "right",
+            "parameters": {
+              "startingStage": 2
+            }
+          }
+        ]
+      ],
+      "connector": false
+    },
+    {
+      "value": [
+        255,
+        2,
+        17,
+        255
+      ],
+      "comment": "crop type 2",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "object",
+          "avaliplant2",
+          {
+            "direction": "right",
+            "parameters": {
+              "startingStage": 2
+            }
+          }
+        ]
+      ],
+      "connector": false
+    },
+    {
+      "value": [
+        255,
+        2,
+        8,
+        255
+      ],
+      "comment": "crop type 3",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "object",
+          "avaliplant3",
+          {
+            "direction": "right",
+            "parameters": {
+              "startingStage": 2
+            }
+          }
+        ]
+      ],
+      "connector": false
+    },
+    {
+      "value": [
+        62,
+        196,
+        230,
+        255
+      ],
+      "comment": "floodlight, left",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "object",
+          "floodlights",
+          {
+            "direction": "left"
+          }
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        35,
+        248,
+        212,
+        255
+      ],
+      "comment": "table, basic, left",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "object",
+          "avalitable1",
+          {
+            "direction": "left"
+          }
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        165,
+        116,
+        232,
+        255
+      ],
+      "comment": "table, drawer, left",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "object",
+          "avalitable2",
+          {
+            "direction": "left"
+          }
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        219,
+        103,
+        196,
+        255
+      ],
+      "comment": "table, aerogel, left",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "object",
+          "avalitable3",
+          {
+            "direction": "left"
+          }
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        168,
+        130,
+        17,
+        255
+      ],
+      "comment": "table, basic, right",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "object",
+          "avalitable1",
+          {
+            "direction": "right"
+          }
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        241,
+        68,
+        128,
+        255
+      ],
+      "comment": "table, drawer, right",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "object",
+          "avalitable2",
+          {
+            "direction": "right"
+          }
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        70,
+        58,
+        21,
+        255
+      ],
+      "comment": "table, aerogel, right",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "object",
+          "avalitable3",
+          {
+            "direction": "right"
+          }
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        92,
+        248,
+        63,
+        255
+      ],
+      "comment": "bench, weapon modification",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "object",
+          "avalibench"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        207,
+        123,
+        45,
+        255
+      ],
+      "comment": "nanolathe",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "object",
+          "avalilathe"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        148,
+        199,
+        120,
+        255
+      ],
+      "comment": "stove",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "object",
+          "nanostove"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        167,
+        129,
+        89,
+        255
+      ],
+      "comment": "nanoloom",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "object",
+          "avaliloom"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        255,
+        180,
+        24,
+        255
+      ],
+      "comment": "avali villager npc",
+      "brush": [
+        [
+          "npc",
+          {
+            "kind": "npc",
+            "species": "avali",
+            "typeName": "villager"
+          }
+        ]
+      ],
+      "connector": false
+    },
+    {
+      "value": [
+        255,
+        180,
+        56,
+        255
+      ],
+      "comment": "avali guard npc",
+      "brush": [
+        [
+          "npc",
+          {
+            "kind": "npc",
+            "species": "avali",
+            "typeName": "villageguard"
+          }
+        ]
+      ],
+      "connector": false
+    },
+    {
+      "value": [
+        255,
+        180,
+        40,
+        255
+      ],
+      "comment": "avali hermit npc",
+      "brush": [
+        [
+          "npc",
+          {
+            "kind": "npc",
+            "species": "avali",
+            "typeName": "crazyhermit"
+          }
+        ]
+      ],
+      "connector": false
+    },
+    {
+      "value": [
+        255,
+        180,
+        48,
+        255
+      ],
+      "comment": "avali hunter npc",
+      "brush": [
+        [
+          "npc",
+          {
+            "kind": "npc",
+            "species": "avali",
+            "typeName": "wildhunter"
+          }
+        ]
+      ],
+      "connector": false
+    },
+    {
+      "value": [
+        255,
+        180,
+        32,
+        255
+      ],
+      "comment": "avali weapon merchant npc",
+      "brush": [
+        [
+          "npc",
+          {
+            "kind": "npc",
+            "species": "avali",
+            "typeName": "merchant",
+            "parameters": {
+              "scriptConfig": {
+                "noticePlayersRadius": 20.0,
+                "merchant": {
+                  "storeRadius": 2,
+                  "categories": [
+                    "avaliweapons"
+                  ],
+                  "priceVarianceRange": [
+                    0.8,
+                    1.2
+                  ],
+                  "numItems": 9
+                },
+                "sit": {
+                  "searchRadius": 8
+                }
+              }
+            }
+          }
+        ]
+      ],
+      "connector": false
+    },
+    {
+      "value": [
+        255,
+        180,
+        16,
+        255
+      ],
+      "comment": "avali instrument merchant npc",
+      "brush": [
+        [
+          "npc",
+          {
+            "kind": "npc",
+            "species": "avali",
+            "typeName": "merchant",
+            "parameters": {
+              "scriptConfig": {
+                "noticePlayersRadius": 20.0,
+                "merchant": {
+                  "storeRadius": 2,
+                  "categories": [
+                    "avaliinstruments"
+                  ],
+                  "priceVarianceRange": [
+                    0.8,
+                    1.2
+                  ],
+                  "numItems": 9
+                },
+                "sit": {
+                  "searchRadius": 8
+                }
+              }
+            }
+          }
+        ]
+      ],
+      "connector": false
+    },
+    {
+      "value": [
+        255,
+        180,
+        8,
+        255
+      ],
+      "comment": "avali food merchant npc",
+      "brush": [
+        [
+          "npc",
+          {
+            "kind": "npc",
+            "species": "avali",
+            "typeName": "merchant",
+            "parameters": {
+              "scriptConfig": {
+                "noticePlayersRadius": 20.0,
+                "merchant": {
+                  "storeRadius": 2,
+                  "categories": [
+                    "avalifarmer"
+                  ],
+                  "priceVarianceRange": [
+                    0.8,
+                    1.2
+                  ],
+                  "numItems": 9
+                },
+                "sit": {
+                  "searchRadius": 8
+                }
+              }
+            }
+          }
+        ]
+      ],
+      "connector": false
+    },
+    {
+      "value": [
+        202,
+        175,
+        206,
+        255
+      ],
+      "comment": "hologram, big 1",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "object",
+          "avalihologram1"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        17,
+        21,
+        4,
+        255
+      ],
+      "comment": "hologram, big 2",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "object",
+          "avalihologram2"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        23,
+        126,
+        101,
+        255
+      ],
+      "comment": "hologram, small 1",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "object",
+          "avalihologramsml1"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        111,
+        175,
+        141,
+        255
+      ],
+      "comment": "hologram, small 2",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "object",
+          "avalihologramsml2"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        188,
+        14,
+        207,
+        255
+      ],
+      "comment": "hologram, small 3",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "object",
+          "avalihologramsml3"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        247,
+        96,
+        234,
+        255
+      ],
+      "comment": "hologram, tiny 1",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "object",
+          "avalihologramtiny1"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        220,
+        46,
+        219,
+        255
+      ],
+      "comment": "hologram, tiny 2",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "object",
+          "avalihologramtiny2"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        232,
+        222,
+        32,
+        255
+      ],
+      "comment": "avali glass, background",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "back",
+          "avaliglass"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        252,
+        200,
+        32,
+        255
+      ],
+      "comment": "avali glass, foreground",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "back",
+          "avaliglass"
+        ],
+        [
+          "front",
+          "avaliglass"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        193,
+        66,
+        86,
+        255
+      ],
+      "comment": "avali lightblock",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "object",
+          "avalilightblock"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        252,
+        232,
+        32,
+        255
+      ],
+      "comment": "avali glass, foreground ONLY",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "front",
+          "avaliglass"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    }
+  ],
+  "parts": [
+    {
+      "def": [
+        "image",
+        [
+          "avali1.png",
+          "avali1a.png"
+        ]
+      ],
+      "rules": [],
+      "name": "avali1"
+    },
+    {
+      "def": [
+        "image",
+        [
+          "avali2.png",
+          "avali2a.png"
+        ]
+      ],
+      "rules": [],
+      "name": "avali2"
+    },
+    {
+      "def": [
+        "image",
+        [
+          "avali3.png",
+          "avali3a.png"
+        ]
+      ],
+      "rules": [],
+      "name": "avali3"
+    },
+    {
+      "def": [
+        "image",
+        [
+          "avali4.png",
+          "avali4a.png"
+        ]
+      ],
+      "rules": [],
+      "name": "avali4"
+    },
+    {
+      "def": [
+        "image",
+        [
+          "avali5.png",
+          "avali5a.png"
+        ]
+      ],
+      "rules": [],
+      "name": "avali5"
+    }
+  ]
+}
