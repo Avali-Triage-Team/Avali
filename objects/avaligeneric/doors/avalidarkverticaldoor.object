@@ -41,7 +41,7 @@
       "flipImages" : true,
       "direction" : "left",
 
-      "spaceScan" : 0.01,
+      "spaceScan" : 0.1,
       "anchors" : [ "left", "right" ]
     },
     {
@@ -50,7 +50,7 @@
       "animationPosition" : [-16, 0],
       "direction" : "right",
 
-      "spaceScan" : 0.01,
+      "spaceScan" : 0.1,
       "anchors" : [ "left", "right" ]
     }
   ],

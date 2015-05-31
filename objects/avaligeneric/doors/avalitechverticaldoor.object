@@ -35,8 +35,8 @@
   "orientations" : [
     {
       "image" : "avalitechverticaldoor.png:default",
-      "imagePosition" : [-16, -6],
-      "animationPosition" : [-17, -6],
+      "imagePosition" : [-16, 0],
+      "animationPosition" : [-16, 0],
       "flipImages" : true,
       "direction" : "left",
 
@@ -45,8 +45,8 @@
     },
     {
       "image" : "avalitechverticaldoor.png:default",
-      "imagePosition" : [-16, -6],
-      "animationPosition" : [-16, -6],
+      "imagePosition" : [-16, 0],
+      "animationPosition" : [-16, 0],
       "direction" : "right",
 
       "spaceScan" : 0.1,

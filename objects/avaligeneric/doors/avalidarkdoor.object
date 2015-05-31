@@ -24,7 +24,7 @@
       "dualImage" : "avalidarkdoor.png:default",
       "imagePosition" : [0, 0],
 
-      "spaceScan" : 0.01,
+      "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
     }
   ],
@@ -46,6 +46,6 @@
   },
   "animationPosition" : [0, 0],
 
-  "inboundNodes" : [ [0, 4] ],
-  "outboundNodes" : [ [0, 0] ]
+  "inboundNodes" : [ [-1, 4] ],
+  "outboundNodes" : [ [1, 0] ]
 }
