@@ -3,6 +3,7 @@
 	,"path" : "/species/avali"
 	,"value" : {
       "aiFrames" : "avaliai.png",
+      "portraitFrames" : "avaliportrait.png",
       "staticFrames" : "staticavali.png",
       "openSpeech" : {
         "0" : [ {
