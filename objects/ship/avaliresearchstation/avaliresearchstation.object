@@ -4,7 +4,17 @@
   "rarity" : "legendary",
   "interactAction" : "OpenCraftingInterface",
   "interactData" : {
-    "config" : "/interface/windowconfig/researchstation.config",
+    "config" : "/interface/windowconfig/craftingnocategories.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "  RESEARCH STATION",
+        "subtitle" : "  Develop specialized technologies!",
+        "icon" : {
+          "file" : "/interface/crafting/researchstation.png"
+        }
+      }
+    },
+    "requiresBlueprint" : false,
     "filter" : [ "researchstation" ]
   },
   "description" : "Develop ^orange;specialized equipment^white;!",
