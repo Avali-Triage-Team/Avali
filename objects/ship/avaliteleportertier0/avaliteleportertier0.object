@@ -1,7 +1,8 @@
 {
   "objectName" : "avaliteleporterTier0",
+  "printable" : false,
   "rarity" : "Common",
-  "objectType" : "noisy",
+
   "category" : "decorative",
   "description" : "Trusty teleporter, what would I do without you? Of Avali design.",
   "shortdescription" : "Teleporter",
@@ -27,6 +28,13 @@
       "collision" : "solid"
     }
   ],
+
+  "animation" : "/objects/noisy/noisy.animation",
+
+  "scripts" : [
+    "/objects/noisy/noisy.lua"
+  ],
+
   
   "sounds" : [ "/sfx/interface/ship_error1.wav" ]
   

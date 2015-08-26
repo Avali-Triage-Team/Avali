@@ -1,9 +1,9 @@
 {
   "objectName" : "avalishipdoorBroken",
+  "printable" : false,
   "rarity" : "Common",
-  "objectType" : "noisy",
+
   "category" : "decorative",
-  "price" : 2000,
   "description" : "A door. Possibly suitable for a spaceship.",
   "shortdescription" : "Avali Ship Door",
   "race" : "avali",
@@ -27,6 +27,12 @@
       "collisionSpaces" : [ [-1, 0], [0, 0], [-1, 1], [0, 1], [-1, 2], [0, 2], [-1, 3], [0, 3], [-1, 4], [0, 4] ]
     }
   ],
-  
+
+  "animation" : "/objects/noisy/noisy.animation",
+
+  "scripts" : [
+    "/objects/noisy/noisy.lua"
+  ],
+
   "sounds" : [ "/sfx/interface/ship_error1.wav" ]
 }
