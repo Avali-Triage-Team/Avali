@@ -1,7 +1,7 @@
 {
   "objectName" : "brokenavalifuelhatch",
+  "printable" : false,
   "rarity" : "Common",
-  "objectType" : "noisy",
   "description" : "A broken fuel hatch. This won't do!",
   "shortdescription" : "Broken Fuel Hatch",
   "race" : "avali",

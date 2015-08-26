@@ -1,7 +1,8 @@
 {
   "objectName" : "avalishiplockerTier0",
+  "printable" : false,
   "rarity" : "Common",
-  "objectType" : "noisy",
+
   "category" : "decorative",
   "description" : "Store some stuff, why don't you?",
   "shortdescription" : "Shiplocker",
@@ -45,6 +46,12 @@
       "spaceScan" : 0.1,
       "anchors" : [ "background" ]
     }
+  ],
+
+  "animation" : "/objects/noisy/noisy.animation",
+
+  "scripts" : [
+    "/objects/noisy/noisy.lua"
   ],
   
   "sounds" : [ "/sfx/interface/ship_error1.wav" ]
