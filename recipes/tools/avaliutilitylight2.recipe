@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 50 },
+    { "item" : "graphene", "count" : 5 },
+	{ "item" : "aerogel", "count" : 1 }
+
+  ],
+  "output" : {
+    "item" : "avaliutilitylight2",
+    "count" : 1
+  },
+  "groups" : [ "avalilathe", "objects", "all", "tools" ]
+}
