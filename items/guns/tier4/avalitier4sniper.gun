@@ -14,6 +14,7 @@
   "firePosition" : [8, -2],
   "level" : 4,
   "fireTime" : 1.8,
+  "inaccuracy" : 0.01,
   "twoHanded" : true,
   
   "fireOnRelease" : true,
@@ -22,11 +23,11 @@
   "projectileType" : "railgun2",
   "powerProjectileType" : "railgun2crit",
   "powerProjectileTime" : [1.8, 2.1],
+  "drawSpeedCurve" : "drawTimeMultiplier",
+  "drawPowerCurve" : "drawTimeMultiplier",
   "projectile" : {
     "speed" : 240,
-    "power" : 11,
-    "powerCurve" : "drawTimeMultiplier",
-    "color" : [10, 255, 10]
+    "power" : 11
   },
 
   "muzzleEffect" : {
