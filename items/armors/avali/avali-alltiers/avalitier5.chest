@@ -35,7 +35,7 @@
     }
   ],
 
-  "triggerKeys" : [ "tier5armor" ],
+  "questTags" : [ "tier5armor" ],
 
   "colorOptions" : [
     /* RED */

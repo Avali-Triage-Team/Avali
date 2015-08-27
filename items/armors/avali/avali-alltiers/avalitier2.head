@@ -27,7 +27,7 @@
     }
   ],
 
-  "triggerKeys" : [ "steelarmor" ],
+  "questTags" : [ "steelarmor" ],
   
   "colorOptions" : [
     /* LIGHT GREY */

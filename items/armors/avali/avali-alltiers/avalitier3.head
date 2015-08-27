@@ -27,7 +27,7 @@
     }
   ],
 
-  "triggerKeys" : [ "titaniumarmor" ],
+  "questTags" : [ "titaniumarmor" ],
   
   "colorOptions" : [
     /* WHITE */

@@ -27,7 +27,7 @@
     }
   ],
 
-  "triggerKeys" : [ "durasteelarmor" ],
+  "questTags" : [ "durasteelarmor" ],
 
   "colorOptions" : [
     /* GREY BLUE */
