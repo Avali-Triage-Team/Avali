@@ -8,6 +8,7 @@ Download ZIP file and extract into Starbound - Unstable/giraffe_storage/mods. Fi
 mods
 -avali
 |-avali.modinfo
+
 Always remember to delete the previous verison before installing any new one!
 
 # Making a feature suggestion
