@@ -1,17 +1,18 @@
 {
   "objectName" : "avalicuttingboard",
+  "tags" : ["cooking","cooking"],
   "printable" : false,
+  "price" : 55,
   "rarity" : "Common",
   "interactAction" : "OpenCraftingInterface",
   "interactData" : {
-    "config" : "/interface/windowconfig/kitchen.config",
+    "config" : "/interface/windowconfig/craftingfood.config",
     "filter" : [ "kitchen" ]
   },
   "description" : "This workstation has everything; cutting board, knife sharpening, waste disposal and tap!",
   "shortdescription" : "Culinary Station",
   "race" : "generic",
   "category" : "crafting",
-  "retainObjectParametersInItem" : true, 
 
   "apexDescription" : "Wait, does that food preparation station has it's own fume hood?",
   "avianDescription" : "It's like a stainless steel canvas of cooking possibilities!",
@@ -33,5 +34,7 @@
       "anchors" : [ "bottom" ]
 
     }
-  ]
+  ],
+
+  "npcToy" : {}
 }
