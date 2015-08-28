@@ -1,5 +1,6 @@
 {
   "objectName" : "avalihologramsml1",
+  "tags" : [ "avali", "avalicamp" ], 
   "rarity" : "Common",
   "printable" : false,
   "description" : "Small window with text in it.",

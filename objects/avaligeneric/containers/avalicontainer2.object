@@ -1,5 +1,6 @@
 {
   "objectName" : "avalicontainer2",
+  "tags" : [ "avali", "avalicamp" ], 
   "printable" : false,
   "rarity" : "Common",
   "objectType" : "container",

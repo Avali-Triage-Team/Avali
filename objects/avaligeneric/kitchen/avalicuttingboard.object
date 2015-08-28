@@ -1,5 +1,6 @@
 {
   "objectName" : "avalicuttingboard",
+  "tags" : [ "avali", "avalicamp" ], 
   "tags" : ["cooking","cooking"],
   "printable" : false,
   "price" : 55,

@@ -1,5 +1,6 @@
 {
   "objectName" : "avalikitchendrawers",
+  "tags" : [ "avali", "avalicamp" ], 
   "printable" : false,
   "rarity" : "Common",
   "objectType" : "container",

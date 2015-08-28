@@ -1,0 +1,29 @@
+{
+	"name": "guardT2_avali",
+	"priority": 6,
+
+	"tagCriteria": {
+		"light": 1,
+		"door": 1,
+		"avali": 8,
+		"combat": 8,
+		"tier2": 12
+	},
+
+	"tenants": [
+		{
+			"spawn": "npc",
+			"species": "avali",
+			"level": 2,
+			"type": "friendlyguard",
+			"overrides": {
+				"damageTeamType" : "friendly"
+			 }
+		 }
+	 ],
+
+	"rent": {
+		"periodRange": [900.0, 1800.0],
+		"pool": "villagerGift"
+	}
+}
