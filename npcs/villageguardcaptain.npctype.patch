@@ -25,10 +25,10 @@
             { "name" : "avaliarmor2pants", "data" : { "colorIndex" : [7] } }
           ],
           "primary" : [
-            { "name" : "avalitier4shotgun" } }
+            { "name" : "avalitier4shotgun" }
           ],
           "sheathedprimary" : [
-            { "name" : "avalitier4spear"  } }
+            { "name" : "avalitier4spear" }
           ]
           }
         ]

@@ -26,15 +26,15 @@
             { "name" : "avaliarmor2pants", "data" : { "colorIndex" : [1] } }
           ],
           "primary" : [
-            { "name" : "avalitier4minigun" } },
-            { "name" : "avalitier4rifle" } },
-            { "name" : "avalitier4pistol"  } }
+            { "name" : "avalitier4minigun" },
+            { "name" : "avalitier4rifle" },
+            { "name" : "avalitier4pistol" }
           ],
           "sheathedprimary" : [
-            { "name" : "avalitier4shortsword"  } }
+            { "name" : "avalitier4shortsword" }
           ],
           "alt" : [
-            { "name" : "avalitier4pistol" } },
+            { "name" : "avalitier4pistol" },
             { "name" : "generatedshield", "data" : { "definition" : "avalitier4barrier" } }
           ]
         }
