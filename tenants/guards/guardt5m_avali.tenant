@@ -1,0 +1,29 @@
+{
+	"name": "guardT5M_avali",
+	"priority": 12,
+
+	"tagCriteria": {
+		"light": 1,
+		"door": 1,
+		"avali": 8,
+		"combat": 8,
+		"tier9": 12
+	},
+
+	"tenants": [
+		{
+			"spawn": "npc",
+			"species": "avali",
+			"level": 5,
+			"type": "friendlyguard_manipulator",
+			"overrides": {
+				"damageTeamType" : "friendly"
+			 }
+		 }
+	 ],
+
+	"rent": {
+		"periodRange": [900.0, 1800.0],
+		"pool": "villagerGift"
+	}
+}

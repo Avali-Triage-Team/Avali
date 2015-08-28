@@ -1,0 +1,28 @@
+{
+	"name": "guardT6M_avali2",
+	"priority": 13,
+
+	"tagCriteria": {
+		"light": 1,
+		"door": 1,
+		"combat": 8,
+		"tier7": 12
+	},
+
+	"tenants": [
+		{
+			"spawn": "npc",
+			"species": "avali",
+			"level": 6,
+			"type": "friendlyguard_manipulator",
+			"overrides": {
+				"damageTeamType" : "friendly"
+			 }
+		 }
+	 ],
+
+	"rent": {
+		"periodRange": [1200.0, 1800.0],
+		"pool": "villagerGift"
+	}
+}

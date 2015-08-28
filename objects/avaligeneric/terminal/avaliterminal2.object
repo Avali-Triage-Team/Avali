@@ -1,5 +1,6 @@
 {
   "objectName" : "avaliterminal2",
+  "tags" : [ "avali", "avalicamp" ], 
   "rarity" : "Common",
 
   "category" : "wire",

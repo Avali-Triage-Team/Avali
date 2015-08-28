@@ -1,5 +1,6 @@
 {
   "objectName" : "avalihologram1",
+  "tags" : [ "avali", "avalicamp" ], 
   "rarity" : "Common",
   "printable" : false,
   "description" : "A hologram with planetary information",

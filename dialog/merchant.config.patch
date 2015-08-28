@@ -1,0 +1,69 @@
+[
+	{
+		"op": "add",
+		"path": "/merchantStart/avali",
+		"value": {
+			"default": [
+				"Come, stay a while.",
+				"Would you like to browse our supplies?",
+				"We only accept pixels.",
+				"Here's what we have in stock.",
+				"I guess we can part with some equipment."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/merchantEnd/avali",
+		"value": {
+			"default": [
+				"Come again soon!",
+				"Our pleasure!",
+				"Don't hesitate to come by again.",
+				"Next time you need to destroy something, think of us!",
+				"Tell the rest of your pack!"
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/follow/avali",
+		"value": {
+			"default": [
+				"Follow me to my store, please.",
+				"The best prices around, just if you please to come with me.",
+				"I can show the merchandise in my store."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/welcome/avali",
+		"value": {
+			"default": [
+				"Does anything catch your eyes?",
+				"What you wish to buy? If you wish to buy...",
+				"I got everything that can help you in anything."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/tout/avali",
+		"value": {
+			"default" : [
+				"I got the best goods!",
+				"If you can't find it here... it's not for sale here.",
+				"Best deals around!",
+				"Interested in brand new goods?"
+			],
+			"avali" : [
+				"I got the best goods!",
+				"If you can't find it here... it's not for sale here.",
+				"Interested in brand new goods?",
+				"Need some help in your hunt?",
+				"Anything I can help with, Hunter?"
+			]
+		}
+	}
+]

@@ -1,5 +1,6 @@
 {
   "objectName" : "avalihologram2",
+  "tags" : [ "avali", "avalicamp" ], 
   "rarity" : "Common",
   "printable" : false,
   "description" : "Seems to be some kind of waveform analysis software.",

@@ -1,5 +1,6 @@
 {
   "objectName" : "testribbon",
+  "tags" : [ "avali", "avalicamp" ], 
   "rarity" : "Common",
   "printable" : true,
   "description" : "It's a ribbon, being tested",

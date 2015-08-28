@@ -1,5 +1,6 @@
 {
   "objectName" : "avaliplant2",
+  "tags" : [ "nature" ], 
   "rarity" : "Common",
   "category" : "farmable",
   "description" : "A biolumiscent ovoid, eventually this'll grow into a colony.",
