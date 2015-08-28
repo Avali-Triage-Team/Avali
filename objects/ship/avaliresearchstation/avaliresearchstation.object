@@ -1,5 +1,6 @@
 {
   "objectName" : "avaliresearchstation",
+  "tags" : ["avali"],
   "printable" : false,
   "rarity" : "legendary",
   "interactAction" : "OpenCraftingInterface",

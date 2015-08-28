@@ -1,5 +1,6 @@
 {
   "objectName" : "avalitechstationTier0",
+  "tags" : ["avali"],
   "rarity" : "Common",
 
   "interactAction" : "OpenAiInterface",

@@ -1,5 +1,6 @@
 {
   "objectName" : "avalifuelhatch",
+  "tags" : ["avali"],
   "rarity" : "Common",
   "objectType" : "container",
   "description" : "Accepts a bunch of different kinds of fuel. Avali design.",
