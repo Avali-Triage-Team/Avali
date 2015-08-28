@@ -1,5 +1,6 @@
 {
   "objectName" : "avalilathe",
+  "tags" : [ "avali", "avalicamp" ], 
   "rarity" : "Common",
   "interactAction" : "OpenCraftingInterface",
   "interactData" : {

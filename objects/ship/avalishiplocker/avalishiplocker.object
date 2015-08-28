@@ -1,5 +1,6 @@
 {
   "objectName" : "avalishiplocker",
+  "tags" : ["avali","storage"],
   "rarity" : "Common",
   "objectType" : "container",
   "tooltipKind" : "container",

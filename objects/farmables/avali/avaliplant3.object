@@ -1,5 +1,6 @@
 {
   "objectName" : "avaliplant3",
+  "tags" : [ "nature" ], 
   "rarity" : "Common",
   "category" : "farmable",
   "description" : "Small, barnacle-like colonies which grow long frond-like feeding filaments.",

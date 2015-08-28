@@ -1,5 +1,6 @@
 {
   "objectName" : "spawneravali",
+  "tags" : ["misc"],
   "rarity" : "Common",
   "description" : "Spawn your very own Avali citizen!",
   "shortdescription" : "Avali Spawner",

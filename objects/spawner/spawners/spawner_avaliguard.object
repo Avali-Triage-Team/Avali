@@ -1,5 +1,6 @@
 {
   "objectName" : "spawneravaliguard",
+  "tags" : ["misc"],
   "rarity" : "Common",
   "description" : "Spawn your very own guardian Avali!",
   "shortdescription" : "Avali Guard Spawner",
