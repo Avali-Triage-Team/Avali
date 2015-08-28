@@ -1,8 +1,10 @@
 {
   "objectName" : "flagavali",
+  "tags" : ["avali"],
+  "printable" : false,
   "rarity" : "Common",
-
-  "category" : "crafting",
+  "objectType" : "teleporter",
+  "category" : "decorative",
   "price" : 100,
 
   "description" : "A holoprojector with the tri-feather emblem of the Avali.",
@@ -17,6 +19,8 @@
   "hylotlDescription" : "The Avali's three-feather symbol reminds me of the three-eye symbol our flag displays.",
   "avaliDescription" : "Our modern flag represents the civilian, exploratory and military fleets above our homeworld.",
 
+  "interactAction" : "OpenTeleportDialog",
+  "interactData" : "/interface/warping/destinationonly.config",
 
   "inventoryIcon" : "flagavaliicon.png",
   "orientations" : [
