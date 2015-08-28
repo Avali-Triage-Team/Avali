@@ -1,44 +1,44 @@
 [
-	{ "op" : "add",
-		"path" : "/scriptConfig/dialog/hail",
-		"value" : "/dialog/avali.config:friendlyguard_hail"
-	},
-	{ "op" : "add",
-		"path" : "/items",
-		"value" : { "avali" : [
-			[0, [
-				{
-					"head" : [ 
-						{ "name" : "avaliarmor1head", "data" : { "colorIndex" : [1] } },
-						{ "name" : "avaliarmor2head", "data" : { "colorIndex" : [1] } },
-						{ "name" : "avaliarmor3head", "data" : { "colorIndex" : [1] } },
-						{ "name" : "avaliracial1head", "data" : { "colorIndex" : [1] } },
-						{ "name" : "avaliracial2head", "data" : { "colorIndex" : [1] } }
-					],
-					"chest" : [
-						{ "name" : "avaliset1bchest", "data" : { "colorIndex" : [1] } },
-						{ "name" : "avaliset5chest", "data" : { "colorIndex" : [1] } },
-						{ "name" : "avaliset5bchest", "data" : { "colorIndex" : [1] } },
-						{ "name" : "avaliset5cchest", "data" : { "colorIndex" : [1] } }
-					],
-					"legs" : [
-						{ "name" : "avaliarmor3pants", "data" : { "colorIndex" : [1] } },
-						{ "name" : "avaliarmor2pants", "data" : { "colorIndex" : [1] } }
-					],
-					"primary" : [
-						{ "name" : "avalitier4minigun" } },
-						{ "name" : "avalitier4rifle" } },
-						{ "name" : "avalitier4pistol"  } }
-					],
-					"sheathedprimary" : [
-						{ "name" : "avalitier4shortsword"  } }
-					],
-					"alt" : [
-						{ "name" : "avalitier4pistol" } },
-						{ "name" : "generatedshield", "data" : { "definition" : "avalitier4barrier" } }
-					]
-				}
-			] ]
-		] }
-	}
+  { "op" : "add",
+    "path" : "/scriptConfig/dialog/hail",
+    "value" : "/dialog/avali.config:friendlyguard_hail"
+  },
+  { "op" : "add",
+    "path" : "/items",
+    "value" : { "avali" : [
+      [0, [
+        {
+          "head" : [ 
+            { "name" : "avaliarmor1head", "data" : { "colorIndex" : [1] } },
+            { "name" : "avaliarmor2head", "data" : { "colorIndex" : [1] } },
+            { "name" : "avaliarmor3head", "data" : { "colorIndex" : [1] } },
+            { "name" : "avaliracial1head", "data" : { "colorIndex" : [1] } },
+            { "name" : "avaliracial2head", "data" : { "colorIndex" : [1] } }
+          ],
+          "chest" : [
+            { "name" : "avaliset1bchest", "data" : { "colorIndex" : [1] } },
+            { "name" : "avaliset5chest", "data" : { "colorIndex" : [1] } },
+            { "name" : "avaliset5bchest", "data" : { "colorIndex" : [1] } },
+            { "name" : "avaliset5cchest", "data" : { "colorIndex" : [1] } }
+          ],
+          "legs" : [
+            { "name" : "avaliarmor3pants", "data" : { "colorIndex" : [1] } },
+            { "name" : "avaliarmor2pants", "data" : { "colorIndex" : [1] } }
+          ],
+          "primary" : [
+            { "name" : "avalitier4minigun" },
+            { "name" : "avalitier4rifle" },
+            { "name" : "avalitier4pistol" }
+          ],
+          "sheathedprimary" : [
+            { "name" : "avalitier4shortsword" }
+          ],
+          "alt" : [
+            { "name" : "avalitier4pistol" },
+            { "name" : "generatedshield", "data" : { "definition" : "avalitier4barrier" } }
+          ]
+        }
+      ] ]
+    ] }
+  }
 ]
