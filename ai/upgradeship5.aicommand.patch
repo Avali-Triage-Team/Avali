@@ -6,7 +6,7 @@
       "selectSpeech" : [
         {
           "animation" : "talk",
-          "text" : "I see you got your Kestrel license! ^green;Now we can upgrade your ship. If you bring me ^orange;20 uranium rods and 10 Durasteel bars ^green;I'll initiate the upgrade procedure.",
+          "text" : "I see you got your Kestrel license! ^green;Now we can upgrade your ship. If you bring me ^orange;4 upgrade modules, ^green;I'll initiate the upgrade procedure.",
           "speedModifier" : 1.0
         }
       ],
