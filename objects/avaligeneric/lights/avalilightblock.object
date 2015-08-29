@@ -1,6 +1,6 @@
 {
   "objectName" : "avalilightblock",
-  "tags" : [ "avali", "avalicamp" ], 
+  "tags" : [ "avali", "avalicamp", "light" ], 
   "printable" : false,
   "rarity" : "Common",
   "category" : "light",
