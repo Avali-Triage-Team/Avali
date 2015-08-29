@@ -9,6 +9,8 @@ mods
 -avali
 |-avali.modinfo
 
+Always remember to delete the previous verison before installing any new one!
+
 # Making a feature suggestion
 If you have the know-how to code everything yourself, feel free to make a Fork, make your changes, then make a Pull Request. Chances are I'll take a glance over what you added then just plop it in.
 Please test your additions before you make the pull request.
