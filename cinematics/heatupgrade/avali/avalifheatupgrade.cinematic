@@ -75,7 +75,7 @@
     {
       "drawables" : [
         {
-          "image" : "/cinematics/heatupgrade/novakid/novakidmale.png:{frame}"
+          "image" : "/cinematics/heatupgrade/avali/avalifemale.png:{frame}"
         }
       ],
       "animationFrames" : 49,
@@ -184,11 +184,11 @@
   "audio" : [
     {
       "timecode" : 0.65,
-      "resource" : "/sfx/cinematics/tech_acquired_event.ogg"
+      "resource" : "/sfx/interface/quest_event.ogg"
     },
     {
-      "timecode" : 5.0,
-      "resource" : "/sfx/interface/item_holster.wav"
+      "timecode" : 5.2,
+      "resource" : "/sfx/interface/item_equip.wav"
     }
   ]
 }

@@ -75,7 +75,7 @@
     {
       "drawables" : [
         {
-          "image" : "/cinematics/coldupgrade/novakid/novakidmale.png:{frame}"
+          "image" : "/cinematics/radiationupgrade/avali/avalifemale.png:{frame}"
         }
       ],
       "animationFrames" : 49,
@@ -117,7 +117,7 @@
    {
       "drawables" : [
         {
-          "image" : "/cinematics/coldupgrade/coldupgrade.png"
+          "image" : "/cinematics/radiationupgrade/radiationupgrade.png"
         }
       ],
       "keyframes" : [
@@ -150,7 +150,7 @@
    {
       "drawables" : [
         {
-          "image" : "/cinematics/coldupgrade/coldness.png"
+          "image" : "/cinematics/radiationupgrade/radioness.png"
         }
       ],
       "keyframes" : [
@@ -184,11 +184,11 @@
   "audio" : [
     {
       "timecode" : 0.65,
-      "resource" : "/sfx/cinematics/tech_acquired_event.ogg"
+      "resource" : "/sfx/interface/quest_event.ogg"
     },
     {
-      "timecode" : 5.0,
-      "resource" : "/sfx/interface/item_holster.wav"
+      "timecode" : 5.2,
+      "resource" : "/sfx/interface/item_equip.wav"
     }
   ]
 }
