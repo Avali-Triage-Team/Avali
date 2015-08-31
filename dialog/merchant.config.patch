@@ -49,6 +49,51 @@
   },
   {  
     "op":"add",
+    "path":"/helpme/avali",
+    "value":{  
+      "default":[  
+	    "Time to flee!",
+	    "Help! I'm being attacked!",
+	    "I'm under attack!"
+      ]
+    }
+  },
+  {  
+    "op":"add",
+    "path":"/helpthem/avali",
+    "value":{  
+      "default":[  
+	    "Help! They're being attacked!",
+	    "Someone help them!"
+      ]
+    }
+  },
+  {  
+    "op":"add",
+    "path":"/encourage/avali",
+    "value":{  
+      "default":[  
+	    "Get 'em!",
+	    "Avenge me!",
+	    "Stick 'em once for me!",
+	    "Don't let 'em get away!"
+      ]
+    }
+  },
+  {  
+    "op":"add",
+    "path":"/safe/avali",
+    "value":{  
+      "default":[  
+	    "I think I got away.",
+	    "Phew!",
+	    "A close call!",
+	    "That was close..."
+      ]
+    }
+  },
+  {  
+    "op":"add",
     "path":"/tout/avali",
     "value":{  
       "default":[  
@@ -63,6 +108,83 @@
         "Interested in brand new goods?",
         "Need some help in your hunt?",
         "Anything I can help with, Hunter?"
+      ]
+    }
+  },
+  {  
+    "op":"add",
+    "path":"/tagCriteria/avali",
+    "value":{  
+      "default":[  
+        "The arrangement of my store is not the same...",
+        "Something is unsettlingly different in here.",
+        "Can you restore my store to its original arrangement for me?"
+      ]
+    }
+  },
+  {  
+    "op":"add",
+    "path":"/enclosedArea/avali",
+    "value":{  
+      "default":[  
+        "The damage to my store is causing much concern to me...",
+        "I would appreciate if you could repair the damages to my home.",
+        "Hmm, there appears to be a broken wall in my home. Can you fix it?"
+      ]
+    }
+  },
+  {  
+    "op":"add",
+    "path":"/otherDeed/avali",
+    "value":{  
+      "default":[  
+        "Why is someone else attempting to move into my store?",
+        "Did you put my shop up for rent? This must be a mistake...",
+        "There is another deed in my shop - Surely this isn't intentional."
+      ]
+    }
+  },
+  {  
+    "op":"add",
+    "path":"/severe/avali",
+    "value":{  
+      "default":[  
+        "This has gone too far, I am greatly discontent with these conditions.",
+        "I don't wish to work in these conditions.",
+        "Why is my store in the state that it is in?!"
+      ]
+    }
+  },
+  {  
+    "op":"add",
+    "path":"/final/avali",
+    "value":{  
+      "default":[  
+        "A merchant like myself deserves better. Enough is enough.",
+        "It is time I found a better shop.",
+        "This store is not how it was when I moved in. It's time I left to find another."
+      ]
+    }
+  },
+  {  
+    "op":"add",
+    "path":"/beacon/avali",
+    "value":{  
+      "default":[  
+        "Did you wish to do business?",
+        "Hello again, friend! Do you have need of me?",
+        "I am always glad to see a friendly face."
+      ]
+    }
+  },
+  {  
+    "op":"add",
+    "path":"/rent/avali",
+    "value":{  
+      "default":[  
+        "Here is a token of my gratitude for your help.",
+        "I have brought you a gift.",
+        "I hope this offering brings you happiness."
       ]
     }
   }

@@ -59,19 +59,7 @@
         "Traveller, put your gun away.",
         "It's all fun and games, traveller.",
         "Holster the gun.",
-        "I don't care what your world's constitution says. No guns in public."
-      ]
-    }
-  },
-  {  
-    "op":"add",
-    "path":"/swordwarning2/avali",
-    "value":{  
-      "default":[  
-        "Second warning, stranger - put the weapon down.",
-        "I said sheathe it!",
-        "Don't test me, friend.",
-        "Sheath the weapon now, or I'll sheath it up your cloaca!"
+        "I don't care what your world's laws are. No guns in public."
       ]
     }
   },
@@ -88,23 +76,46 @@
   },
   {  
     "op":"add",
+    "path":"/gunwarning3/avali",
+    "value":{  
+      "default":[  
+        "If you don't holster your gun, I'll have to get rough.",
+        "Last warning or I shoot.",
+        "I'm coming for you if you don't comply!",
+        "Don't make me come and take the gun and your LIFE!"
+      ]
+    }
+  },
+   {  
+    "op":"add",
+    "path":"/swordwarning1/avali",
+    "value":{  
+      "default":[  
+        "First warning, stranger - sheath the weapon.",
+        "Sheath it...now",
+        "Don't test me, friend.",
+      ]
+    }
+  },
+  {  
+    "op":"add",
+    "path":"/swordwarning2/avali",
+    "value":{  
+      "default":[  
+        "Second warning, stranger - put the weapon down.",
+        "I said sheathe it!",
+        "Sheath the weapon now, or I'll sheath it up your cloaca!"
+      ]
+    }
+  },
+  {  
+    "op":"add",
     "path":"/swordwarning3/avali",
     "value":{  
       "default":[  
         "You are sorely tempting me, friend.",
         "Your weapon. Put it away, now.",
         "Final warning - drop the weapon."
-      ]
-    }
-  },
-  {  
-    "op":"add",
-    "path":"/gunwarning3/avali",
-    "value":{  
-      "default":[  
-        "If you don't holster your gun, I'll have to get rough.",
-        "I'm coming for you if you don't comply!",
-        "Don't make me come and take the gun and your LIFE!"
       ]
     }
   },

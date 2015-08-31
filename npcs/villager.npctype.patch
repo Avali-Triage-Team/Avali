@@ -1,10 +1,4 @@
 [
-  /*
-  { "op" : "replace",
-    "path" : "/levelVariance",
-    "value" : [ 0, 0 ]
-  },
-  */
   { "op" : "add",
     "path" : "/items/avali",
     "value" : [

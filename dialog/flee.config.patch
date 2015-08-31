@@ -33,5 +33,17 @@
         "Take 'em out!"
       ]
     }
+  },
+  {  
+    "op":"add",
+    "path":"/safe/avali",
+    "value":{  
+      "default":[  
+        "That was an ordeal.",
+        "Well, at least I'm safe now.",
+        "That left a chill that ran right up my feathers.",
+        "That was scary!"
+      ]
+    }
   }
 ]
