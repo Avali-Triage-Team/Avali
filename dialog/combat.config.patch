@@ -12,11 +12,44 @@
   },
   {  
     "op":"add",
-    "path":"/killedTarget/avali",
+    "path":"/reattack/avali",
     "value":{  
       "default":[  
-        "Target neutralized.",
-        "Shoot first, ask questions later..."
+        "Back for more?",
+        "You won't escape this time",
+        "If at first you don't succeed..."
+      ]
+    }
+  },
+  {  
+    "op":"add",
+    "path":"/cheerOn/avali",
+    "value":{  
+      "default":[  
+		"Flank it!",
+		"Take 'em out!"
+      ]
+    }
+  },
+  {  
+    "op":"add",
+    "path":"/outOfSight/avali",
+    "value":{  
+      "default":[  
+        "Where did you go?",
+        "I can't see you!",
+        "How did this happen?"
+      ]
+    }
+  },
+  {  
+    "op":"add",
+    "path":"/cantReach/avali",
+    "value":{  
+      "default":[  
+        "Get over here!",
+        "If I could afford the blink tech I would get you!",
+        "How did you get over there?"
       ]
     }
   },
