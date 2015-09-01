@@ -9,21 +9,21 @@
       [0, [
         {
           "head" : [ 
-            { "name" : "avaliarmor1head", "data" : { "colorIndex" : [1] } },
-            { "name" : "avaliarmor2head", "data" : { "colorIndex" : [1] } },
-            { "name" : "avaliarmor3head", "data" : { "colorIndex" : [1] } },
-            { "name" : "avaliracial1head", "data" : { "colorIndex" : [1] } },
-            { "name" : "avaliracial2head", "data" : { "colorIndex" : [1] } }
+            { "name" : "avaliarmor1head", "data" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11] } },
+            { "name" : "avaliarmor2head", "data" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11] } },
+            { "name" : "avaliarmor3head", "data" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11] } },
+            { "name" : "avaliracial1head", "data" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11] } },
+            { "name" : "avaliracial2head", "data" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11] } }
           ],
           "chest" : [
-            { "name" : "avaliset1bchest", "data" : { "colorIndex" : [1] } },
-            { "name" : "avaliset5chest", "data" : { "colorIndex" : [1] } },
-            { "name" : "avaliset5bchest", "data" : { "colorIndex" : [1] } },
-            { "name" : "avaliset5cchest", "data" : { "colorIndex" : [1] } }
+            { "name" : "avaliset1bchest", "data" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11] } },
+            { "name" : "avaliset5chest", "data" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11] } },
+            { "name" : "avaliset5bchest", "data" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11] } },
+            { "name" : "avaliset5cchest", "data" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11] } }
           ],
           "legs" : [
-            { "name" : "avaliarmor3pants", "data" : { "colorIndex" : [1] } },
-            { "name" : "avaliarmor2pants", "data" : { "colorIndex" : [1] } }
+            { "name" : "avaliarmor3pants", "data" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11] } },
+            { "name" : "avaliarmor2pants", "data" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11] } }
           ],
           "primary" : [
             { "name" : "avalitier4minigun" },
