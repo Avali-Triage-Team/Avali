@@ -7,9 +7,7 @@
           "head" : [ 
             { "name" : "avaliarmor1head", "data" : { "colorIndex" : [4] } },
             { "name" : "avaliarmor2head", "data" : { "colorIndex" : [4] } },
-            { "name" : "avaliarmor3head", "data" : { "colorIndex" : [4] } },
-            { "name" : "avaliracial1head", "data" : { "colorIndex" : [4] } },
-            { "name" : "avaliracial2head", "data" : { "colorIndex" : [4] } }
+            { "name" : "avaliarmor3head", "data" : { "colorIndex" : [4] } }
           ],
           "chest" : [
             { "name" : "avaliset1bchest", "data" : { "colorIndex" : [4] } },
@@ -38,9 +36,7 @@
           "head" : [ 
             { "name" : "avaliarmor1head", "data" : { "colorIndex" : [5] } },
             { "name" : "avaliarmor2head", "data" : { "colorIndex" : [5] } },
-            { "name" : "avaliarmor3head", "data" : { "colorIndex" : [5] } },
-            { "name" : "avaliracial1head", "data" : { "colorIndex" : [5] } },
-            { "name" : "avaliracial2head", "data" : { "colorIndex" : [5] } }
+            { "name" : "avaliarmor3head", "data" : { "colorIndex" : [5] } }
           ],
           "chest" : [
             { "name" : "avaliset1bchest", "data" : { "colorIndex" : [5] } },
