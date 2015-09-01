@@ -10,9 +10,7 @@
           "head" : [ 
             { "name" : "avaliarmor1head", "data" : { "colorIndex" : [1] } },
             { "name" : "avaliarmor2head", "data" : { "colorIndex" : [1] } },
-            { "name" : "avaliarmor3head", "data" : { "colorIndex" : [1] } },
-            { "name" : "avaliracial1head", "data" : { "colorIndex" : [1] } },
-            { "name" : "avaliracial2head", "data" : { "colorIndex" : [1] } }
+            { "name" : "avaliarmor3head", "data" : { "colorIndex" : [1] } }
           ],
           "chest" : [
             { "name" : "avaliset1bchest", "data" : { "colorIndex" : [1] } },
