@@ -1,0 +1,264 @@
+{
+  "panels" : [
+    {
+      "drawables" : [
+        {
+          "image" : "/cinematics/respawn/black.png"
+        }
+      ],
+      "keyframes" : [
+        {
+          "timecode" : 0.01,
+          "zoom" : 500,
+          "alpha" : 0,
+          "position" : [480, 270]
+        },
+        {
+          "timecode" : 0.3,
+          "zoom" : 500,
+          "alpha" : 0.80,
+          "position" : [480, 270]
+        },
+        {
+          "timecode" : 11,
+          "zoom" : 500,
+          "alpha" : 0.80,
+          "position" : [480, 270]
+        },
+        {
+          "timecode" : 12,
+          "zoom" : 500,
+          "alpha" : 0.0,
+          "position" : [480, 270]
+        }
+      ]
+    },
+    {
+      "drawables" : [
+        {
+          "image" : "/cinematics/screen.png"
+        }
+      ],
+      "keyframes" : [
+        {
+          "timecode" : 0.01,
+          "zoom" : 0,
+          "alpha" : 0,
+          "position" : [360, 330]
+        },
+        {
+          "timecode" : 0.1,
+          "zoom" : 0,
+          "alpha" : 1,
+          "position" : [360, 330]
+        },
+        {
+          "timecode" : 0.6,
+          "zoom" : 1,
+          "alpha" : 1,
+          "position" : [479, 280]
+        },
+        {
+          "timecode" : 11.4,
+          "zoom" : 1,
+          "alpha" : 1,
+          "position" : [479, 280]
+        },
+        {
+          "timecode" : 11.8,
+          "zoom" : 1,
+          "alpha" : 0,
+          "position" : [479, 280]
+        }
+      ]
+    },
+    {
+      "drawables" : [
+        {
+          "image" : "/cinematics/coordinates.png"
+        }
+      ],
+      "keyframes" : [
+        {
+          "timecode" : 0.6,
+          "zoom" : 2,
+          "alpha" : 0,
+          "position" : [479, 280]
+        },
+        {
+          "timecode" : 1.1,
+          "zoom" : 2,
+          "alpha" : 1,
+          "position" : [479, 280]
+        },
+        {
+          "timecode" : 5,
+          "zoom" : 2,
+          "alpha" : 1,
+          "position" : [479, 280]
+        },
+        {
+          "timecode" : 5.4,
+          "zoom" : 0.5,
+          "alpha" : 0,
+          "position" : [479, 280]
+        }
+      ]
+    },
+   {
+      "drawables" : [
+        {
+          "image" : "/cinematics/missionobtained.png"
+        }
+      ],
+      "keyframes" : [
+        {
+          "timecode" : 0.01,
+          "zoom" : 1,
+          "alpha" : 0,
+          "position" : [480, 210]
+        },
+        {
+          "timecode" : 1.1,
+          "zoom" : 1,
+          "alpha" : 1,
+          "position" : [480, 210]
+        },
+        {
+          "timecode" : 4,
+          "zoom" : 1,
+          "alpha" : 1,
+          "position" : [480, 210]
+        },
+        {
+          "timecode" : 5,
+          "zoom" : 1,
+          "alpha" : 0.0,
+          "position" : [480, 210]
+        }
+      ]
+    },
+        {
+      "drawables" : [
+        {
+          "image" : "/cinematics/airupgrade/avali/avalifemale.png:{frame}"
+        }
+      ],
+      "animationFrames" : 49,
+      "keyframes" : [
+        {
+          "timecode" : 5.6,
+          "zoom" : 1.05,
+          "alpha" : 0,
+          "position" : [479, 280],
+          "frame" : 0
+        },
+        {
+          "timecode" : 5.8,
+          "zoom" : 1.05,
+          "alpha" : 1,
+          "position" : [479, 280]
+        },
+        {
+          "timecode" : 10.8,
+          "zoom" : 1.05,
+          "alpha" : 1,
+          "position" : [479, 280]
+        },
+        {
+          "timecode" : 10.9,
+          "zoom" : 1.05,
+          "alpha" : 1,
+          "position" : [479, 280]
+        },
+        {
+          "timecode" : 11.4,
+          "zoom" : 1.05,
+          "alpha" : 0,
+          "frame" : 49,
+          "position" : [479, 280]
+        }
+      ]
+    },
+   {
+      "drawables" : [
+        {
+          "image" : "/cinematics/airupgrade/respiratoryupgrade.png"
+        }
+      ],
+      "keyframes" : [
+        {
+          "timecode" : 5.51,
+          "zoom" : 1.05,
+          "alpha" : 0,
+          "position" : [480, 210]
+        },
+        {
+          "timecode" : 6.6,
+          "zoom" : 1.05,
+          "alpha" : 1,
+          "position" : [480, 210]
+        },
+        {
+          "timecode" : 7.7,
+          "zoom" : 1.05,
+          "alpha" : 1,
+          "position" : [480, 210]
+        },
+        {
+          "timecode" : 8.5,
+          "zoom" : 1.05,
+          "alpha" : 0.0,
+          "position" : [480, 210]
+        }
+      ]
+    },
+   {
+      "drawables" : [
+        {
+          "image" : "/cinematics/airupgrade/airless.png"
+        }
+      ],
+      "keyframes" : [
+        {
+          "timecode" : 5.01,
+          "zoom" : 1.05,
+          "alpha" : 0,
+          "position" : [480, 210]
+        },
+        {
+          "timecode" : 8.5,
+          "zoom" : 1.05,
+          "alpha" : 0,
+          "position" : [480, 210]
+        },
+        {
+          "timecode" : 11.4,
+          "zoom" : 1.05,
+          "alpha" : 1,
+          "position" : [480, 210]
+        },
+        {
+          "timecode" : 11.8,
+          "zoom" : 1.05,
+          "alpha" : 0.0,
+          "position" : [480, 210]
+        }
+      ]
+    }
+  ],
+  "audio" : [
+    {
+      "timecode" : 0.65,
+      "resource" : "/sfx/interface/quest_event.ogg"
+    },
+    {
+      "timecode" : 5.2,
+      "resource" : "/sfx/interface/item_equip.wav"
+    },
+    {
+      "timecode" : 5.1,
+      "resource" : "/sfx/interface/quest_event.ogg"
+    }
+  ]
+}
