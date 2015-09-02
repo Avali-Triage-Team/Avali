@@ -1,0 +1,37 @@
+[  
+  {  
+    "op":"add",
+    "path":"/helpme/avali",
+    "value":{  
+      "default":[  
+        "I need an assist!",
+        "Back me up!",
+        "Requesting drone support!",
+        "Get it off me!"
+      ]
+    }
+  },
+  {  
+    "op":"add",
+    "path":"/helpthem/avali",
+    "value":{  
+      "default":[  
+        "Leave <name> alone!",
+        "Help us!",
+        "We need a medic here!",
+        "Monster!"
+      ]
+    }
+  },
+  {  
+    "op":"add",
+    "path":"/encourage/avali",
+    "value":{  
+      "default":[  
+        "Flank it!",
+        "Tactical positions!",
+        "Take 'em out!"
+      ]
+    }
+  }
+]

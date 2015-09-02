@@ -1,5 +1,6 @@
 {
   "objectName" : "avalibench",
+  "tags" : [ "avali", "avalicamp", "combat", "crafting" ], 
   "rarity" : "Common",
   "interactAction" : "OpenCraftingInterface",
   "interactData" : {

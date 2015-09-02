@@ -1,0 +1,50 @@
+[  
+  {  
+    "op":"add",
+    "path":"/tagCriteria/avali",
+    "value":{  
+      "default":[  
+        "This place... I don't like this feeling."
+      ]
+    }
+  },
+  {  
+    "op":"add",
+    "path":"/enclosedArea/avali",
+    "value":{  
+      "default":[  
+        "This place could use some maintenance."
+      ]
+    }
+  },
+  {  
+    "op":"add",
+    "path":"/otherDeed/avali",
+    "value":{  
+      "default":[  
+        "Oh come on! I thought this place was for me?",
+        "Look, I'm not averse to sharing but why this way?"
+      ]
+    }
+  },
+  {  
+    "op":"add",
+    "path":"/severe/avali",
+    "value":{  
+      "default":[  
+        "Well, I'm not gonna take this sitting down.",
+        "Where do I go to complain about these things?"
+      ]
+    }
+  },
+  {  
+    "op":"add",
+    "path":"/final/avali",
+    "value":{  
+      "default":[  
+        "Okay, that's it. I'm getting outta here.",
+        "Screw you guys, I'm going somewhere else!"
+      ]
+    }
+  }
+]

@@ -1,0 +1,165 @@
+[  
+  {  
+    "op":"add",
+    "path":"/converse/avali",
+    "value":{  
+      "default":[  
+        "Hi~!",
+        "Hi. I'm <selfname>. Who're you?",
+        "Like it around?",
+        "You came this far to visit our humble village?",
+        "*hums to self*"
+      ],
+      "apex":[  
+        "Hello, Apex.",
+        "How goes the rebellion?",
+        "Are you a Miniknog spy?",
+        "What's a banana?",
+        "Is it true Apex actually clone their dead?",
+        "That's a lot of fur, are you from a non-CHZ world too?",
+        "A shame the Miniknog censor the media, you'd make good use of a Nexus system."
+      ],
+      "avian":[  
+        "Hello, Avian.",
+        "If you speak to a geneticist we could give you wings too, you know.",
+        "Are you grounded, or... the other ones?",
+        "How come your feathers are so much less interesting than ours?",
+        "How do you tell your males and females apart? You have the same markings.",
+        "Do you have any good songs to share from Avos?",
+        "Want to trade crest feathers as a souvenir?",
+        "Religion? No, the Oracle isn't our god..."
+      ],
+      "floran":[  
+        "Hello, Floran.",
+        "...er, just to remind you, we're inedible.",
+        "What do you mean, we smell like miracle-gro?",
+        "No, that's not for stabbi- WHOA, ok, apparently it can also be used for stabbing. Learn something new every day.",
+        "Want to join us on a hunt later? We heard florans are amazing hunters.",
+        "Why do Florans need to hunt for meat if you can photosynthesise?",
+        "Mind explaining to me what 'drysap' is?"
+      ],
+      "human":[  
+        "Hello... oh, a human.",
+        "I thought something smelled bad.",
+        "I understand, it wasn't your fault. But some of my kin might not be so understanding.",
+        "You have Impervium gonads coming here, human.",
+        "So, are you still into bombarding fledgling races on first contact?",
+        "How's that whole civil war working out, oh right, tentacle beast stopped it.",
+        "What's the weather like on Earth lately, violent with a chance of tentacles?",
+        "Now where'd I put my tiny violin..."
+      ],
+      "hylotl":[  
+        "Hello, Hylotl.",
+        "Can I interest you in some tapestries?",
+        "I hear the Hylotl civilisation has some amazing music and culture, want to share some with us?",
+        "If Hylotl cities are aquatic, does that mean you don't have water features in your gardens?",
+        "Is it true Hylotl breed through amplexus?",
+        "No, my feathers are not for trade!"
+      ],
+      "avali":[  
+        "Find anything interesting out there?",
+        "Hello, hunter.",
+        "Did you catch that news flash for the local network?",
+        "Hmm? Sorry, I was checking my messages.",
+        "I'm developing a new sim if you want to help me test it.",
+        "Are you in the right tent?... am I?",
+        "Got any interesting tales from your travels?",
+        "Kill anything big lately?",
+        "My pack's come up with a new routine, wanna watch later?",
+        "Can I get your opinion on this song I'm writi- wait, where are you going?"
+      ],
+      "glitch":[  
+        "Hello, Glitch.",
+        "Friendly. Greetings! I've been studying your mode of speech.",
+        "Do you mind if I have a look at your neural architecture?",
+        "If Glitch are able to self reproduce and upgrade, why haven't you undergone singularity yet?",
+        "Have you thought about getting a tune up from the drone techs?",
+        "Is that a tin can used in your construction?"
+      ]
+    }
+  },
+  {  
+    "op":"add",
+    "path":"/converse/apex/avali",
+    "value":[  
+      "You are as hairy as the best of us.",
+      "Perhaps you could assist me, avali.",
+      "Do not come too close to me. I have fleas.",
+      "Would you care for a banana? I suppose not.",
+      "Could you build me a tent, avali?",
+      "Don't sneak too much, raptor. Miniknog is watching.",
+      "I stroke your feathers, you stroke my fur?",
+      "I don't suppose you would hunt a Miniknog guard for me?"
+    ]
+  },
+  {  
+    "op":"add",
+    "path":"/converse/floran/avali",
+    "value":[  
+      "Raptor friend.",
+      "Floran not sssstab raptor friend.",
+      "Floran fight raptor, but play it sssafe.",
+      "Raptor friend great hunter, like floran.",
+      "Floran pet raptor friend. Pet pet pet.",
+      "Hissss! Floran ssspeak raptor. Or not.",
+      "Raptor friend body feels funny.",
+      "Raptor friend look ssscary. Floran not impressed."
+    ]
+  },
+  {  
+    "op":"add",
+    "path":"/converse/human/avali",
+    "value":[  
+      "Oh hello, lizard-bird.",
+      "Why do you avalis make me feel so warm?",
+      "Please don't come too close, I think I might be allergic.",
+      "When raptors attack...",
+      "So how do you feel about electric fences?",
+      "How do you make graphene again?",
+      "I saw a rodent of unusual size the other day.",
+      "Nice feathers. Can I stroke them?"
+    ]
+  },
+  {  
+    "op":"add",
+    "path":"/converse/glitch/avali",
+    "value":[  
+      "Curious. Are you related to the Apex?",
+      "Flirtatious. I have some objects of value if you want.",
+      "Frightened. Please do not grin at me like that.",
+      "Careful. May I stroke your feathers?",
+      "Teasing. Jurassic Park is frightening in the dark...",
+      "Annoyed. You smell of fish.",
+      "Curious. Why the propensity towards flaunting?",
+      "Flirtatious. How much for a full go again?"
+    ]
+  },
+  {  
+    "op":"add",
+    "path":"/converse/hylotl/avali",
+    "value":[  
+      "Ah, a Hunter. I do hope I'm not a target.",
+      "Greetings, my avali friend.",
+      "Would you like to learn about our architecture?",
+      "Have you and your kind improved your art lately?",
+      "I... I'll admit. The feathers looks good on you.",
+      "What is it, Hunter?",
+      "I saw a floran the other day. How can you stand them?",
+      "Good day to you, Hunter."
+    ]
+  },
+  {  
+    "op":"add",
+    "path":"/converse/avian/avali",
+    "value":[  
+      "Greetings, Hunter.",
+      "Please don't hurt me.",
+      "I have a great idea for a beam rifle if you want it.",
+      "Wouldn't you rather chase prey?",
+      "You're not so bad, aren't you?",
+      "How do you feel about religion, Hunter?",
+      "I have to ask, what is 'fluffy' anyway?",
+      "Teeth!"
+    ]
+  }
+]

@@ -1,5 +1,6 @@
 {
   "objectName" : "avalishipdoor",
+  "tags" : ["avali", "door"],
   "rarity" : "Common",
 
   "category" : "door",

@@ -14,20 +14,27 @@
 
   "statusEffects" : [
     {
-      "stat" : "protection",
-      "amount" : 25
+      "stat" : "powerMultiplier",
+      "basePercentage" : 0.45
     },
+
+    {
+      "stat" : "protection",
+      "amount" : 8
+    },
+
     {
       "stat" : "maxEnergy",
-      "amount" : 25
+      "amount" : 24
     },
+
     {
       "stat" : "maxHealth",
-      "amount" : 10
+      "amount" : 6
     }
   ],
 
-  "triggerKeys" : [ "steelarmor" ],
+  "questTags" : [ "steelarmor" ],
   
   "colorOptions" : [
     /* LIGHT GREY */

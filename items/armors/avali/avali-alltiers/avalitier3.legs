@@ -13,20 +13,27 @@
 
   "statusEffects" : [
     {
-      "stat" : "protection",
-      "amount" : 25
+      "stat" : "powerMultiplier",
+      "basePercentage" : 0.4
     },
+
+    {
+      "stat" : "protection",
+      "amount" : 9
+    },
+
     {
       "stat" : "maxEnergy",
-      "amount" : 30
+      "amount" : 24
     },
+
     {
       "stat" : "maxHealth",
-      "amount" : 15
+      "amount" : 6
     }
   ],
 
-  "triggerKeys" : [ "titaniumarmor" ],
+  "questTags" : [ "titaniumarmor" ],
   
   "colorOptions" : [
     /* WHITE */

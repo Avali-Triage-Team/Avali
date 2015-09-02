@@ -1,5 +1,6 @@
 {
   "objectName" : "avaliloom",
+  "tags" : [ "avali", "avalicamp", "crafting" ], 
   "rarity" : "Common",
   "interactAction" : "OpenCraftingInterface",
   "interactData" : {

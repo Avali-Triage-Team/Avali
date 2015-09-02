@@ -22,18 +22,23 @@
 
   "statusEffects" : [
     {
+      "stat" : "powerMultiplier",
+      "basePercentage" : 0.5
+    },
+    {
       "stat" : "protection",
-      "amount" : 15
+      "amount" : 5
     },
     {
       "stat" : "maxEnergy",
-      "amount" : 10
+      "amount" : 20
     },
     {
       "stat" : "maxHealth",
-      "amount" : 8
+      "amount" : 5
     }
   ],
+
 
   "colorOptions" : [
     /* GREY */

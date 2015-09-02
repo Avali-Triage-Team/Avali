@@ -1,5 +1,6 @@
 {
   "objectName" : "brokenavalifuelhatchTier0",
+  "tags" : ["avali"],
   "printable" : false,
   "rarity" : "Common",
   "description" : "A broken fuel hatch. This won't do!",

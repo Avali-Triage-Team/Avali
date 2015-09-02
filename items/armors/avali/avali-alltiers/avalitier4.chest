@@ -22,20 +22,24 @@
 
   "statusEffects" : [
     {
+      "stat" : "powerMultiplier",
+      "basePercentage" : 1.25
+    },
+    {
       "stat" : "protection",
-      "amount" : 85
+      "amount" : 30
     },
     {
       "stat" : "maxEnergy",
-      "amount" : 100
+      "amount" : 80
     },
     {
       "stat" : "maxHealth",
-      "amount" : 50
+      "amount" : 20
     }
   ],
 
-  "triggerKeys" : [ "durasteelarmor" ],
+  "questTags" : [ "durasteelarmor" ],
 
   "colorOptions" : [
     /* GREY BLUE */

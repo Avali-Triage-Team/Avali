@@ -1,5 +1,6 @@
 {
   "objectName" : "avalistriplight",
+  "tags" : [ "avali", "avalicamp", "light" ], 
   "rarity" : "Common",
   "category" : "light",
   "price" : 100,

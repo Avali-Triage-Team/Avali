@@ -1,0 +1,24 @@
+{
+  "modId" : 11999,
+  "modName" : "avalitilleddry",
+  "Description" : "hydroponically specialized soil",
+  "footstepSound" : "/sfx/blocks/footstep_composite.wav",
+  "tilled" : true,
+  "health" : 0,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "avalitilleddry.png",
+    "variants" : 1,
+    "multiColored" : true,
+    "zLevel" : 0
+  },
+  "liquidInteractions" : [
+    {
+      "liquidId" : 1,
+      "consumeLiquid" : 0,
+      "transformModId" : 12000,
+      "topOnly" : false
+    }
+  ]
+}

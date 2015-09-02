@@ -1,0 +1,32 @@
+[  
+  {  
+    "op":"add",
+    "path":"/attack/avali",
+    "value":{  
+      "default":[  
+        "Run, coward!",
+        "Take no prisoners!",
+        "Move move move!"
+      ]
+    }
+  },
+  {  
+    "op":"add",
+    "path":"/killedTarget/avali",
+    "value":{  
+      "default":[  
+        "Target neutralized.",
+        "Shoot first, ask questions later..."
+      ]
+    }
+  },
+  {  
+    "op":"add",
+    "path":"/lostTarget/avali",
+    "value":{  
+      "default":[  
+        "Lost the target. Such a shame."
+      ]
+    }
+  }
+]

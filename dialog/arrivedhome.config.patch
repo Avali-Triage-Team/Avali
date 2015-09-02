@@ -1,0 +1,23 @@
+[  
+  {  
+    "op":"add",
+    "path":"/beacon/avali",
+    "value":{  
+      "default":[  
+        "May I help you?",
+        "What is it?",
+        "Yeeeesss?"
+      ]
+    }
+  },
+  {  
+    "op":"add",
+    "path":"/rent/avali",
+    "value":{  
+      "default":[  
+        "This should cover it.",
+        "Happy to be a productive member of society."
+      ]
+    }
+  }
+]

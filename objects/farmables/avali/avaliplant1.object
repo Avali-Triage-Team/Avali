@@ -1,5 +1,6 @@
 {
   "objectName" : "avaliplant1",
+  "tags" : [ "nature" ], 
   "rarity" : "Common",
   "category" : "farmable",
   "description" : "The fruiting body of a subterranean slime mold. This one has already begun sporing though.",

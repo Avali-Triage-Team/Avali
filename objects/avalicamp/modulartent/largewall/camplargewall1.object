@@ -1,5 +1,6 @@
 {
   "objectName" : "camplargewall1",
+  "tags" : [ "avali", "avalicamp" ], 
   "rarity" : "Common",
   "description" : "A set of decorative sheets for building a tent.",
   "shortdescription" : "Decorative Wall Sheet",

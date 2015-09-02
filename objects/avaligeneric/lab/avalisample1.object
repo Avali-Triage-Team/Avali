@@ -1,5 +1,6 @@
 {
   "objectName" : "avalisample1",
+  "tags" : [ "avali", "avalicamp", "science" ], 
   "rarity" : "Common",
   "category" : "furniture",
   "price" : 125,

@@ -13,20 +13,27 @@
 
   "statusEffects" : [
     {
-      "stat" : "protection",
-      "amount" : 40
+      "stat" : "powerMultiplier",
+      "basePercentage" : 0.8
     },
+
+    {
+      "stat" : "protection",
+      "amount" : 12
+    },
+
     {
       "stat" : "maxEnergy",
-      "amount" : 125
+      "amount" : 40
     },
+
     {
       "stat" : "maxHealth",
-      "amount" : 20
+      "amount" : 6
     }
   ],
 
-  "triggerKeys" : [ "tier5armor" ],
+  "questTags" : [ "tier5armor" ],
 
   "colorOptions" : [
     /* RED */
