@@ -1,7 +1,7 @@
 # Avali
 Avali mod with community additions
 
-This Unstable fork will try to keep up to date with the Unstable version of Starbound. Be aware that this may lag quite a bit behind UNstable, and much like Unstable may be, well, unstable. Please report issues promptly, using the Issues button to the right of the files. 
+Please report issues promptly, using the Issues button to the right of the files. 
 
 # Installation instructions
 Download most recent release's ZIP file from https://github.com/Fevix/Avali/releases and extract into Starbound - Unstable/giraffe_storage/mods. Files should look like this: 
