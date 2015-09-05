@@ -1,7 +1,7 @@
 {
   "itemName" : "avalitier1rifle",
   "inventoryIcon" : "avalirifle.png",
-  "rarity" : "uncommon",
+  "rarity" : "common",
   "description" : "The standard Avali infantry weapon.",
   "shortdescription" : "AR1 Blizzard",
   "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
@@ -19,7 +19,7 @@
   "projectileType" : "railgun1",
   "projectile" : {
 	"power" : 2.7,
-	"speed" : 90,
+	"speed" : 150,
     "color" : [10, 255, 10]
   },
 
