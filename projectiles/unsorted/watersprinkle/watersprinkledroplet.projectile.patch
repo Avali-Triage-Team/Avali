@@ -1,0 +1,12 @@
+[
+  {
+    "op": "add",
+    "path": "/actionOnReap/-",
+    "value": {
+      "action": "applySurfaceMod",
+      "previousMod": "avalitilleddry",
+      "newMod": "avalitilled",
+      "radius": 1
+    }
+  }
+]
