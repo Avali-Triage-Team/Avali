@@ -19,7 +19,7 @@
   "projectileType" : "railgun1",
   "projectile" : {
 	"power" : 2.7,
-	"speed" : 90,
+	"speed" : 150,
     "color" : [10, 255, 10]
   },
 
