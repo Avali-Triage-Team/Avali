@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "mediummetal", "count" : 4  },
+    { "item" : "camptapestry1", "count" : 2  },
+    { "item" : "ironblock", "count" : 1  }	
+  ],
+  "output" : { "item" : "avalichair2", "count" : 1 },
+  "groups" : [ "objects", "avalilathe", "all" ]
+}

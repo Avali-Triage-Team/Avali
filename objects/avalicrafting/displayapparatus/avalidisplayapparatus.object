@@ -1,6 +1,6 @@
 {
   "objectName" : "avalidisplayapparatus",
-  "tags" : [ "avali", "avalicamp" ], 
+  "tags" : [ "avali", "avalicamp", "elctronic" ], 
   "rarity" : "Common",
   "interactAction" : "OpenCraftingInterface",
   "interactData" : {

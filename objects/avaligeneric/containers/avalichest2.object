@@ -1,6 +1,6 @@
 {
   "objectName" : "avalichest2",
-  "tags" : [ "avali", "avalicamp" ], 
+  "tags" : [ "avali", "avalicamp", "storage" ], 
   "rarity" : "Uncommon",
   "objectType" : "container",
 
@@ -10,7 +10,7 @@
   "description" : "A sturdy, armoured equipment case.",
   "shortdescription" : "Avali Footlocker",
   "race" : "avali",
-  "retainObjectParametersInItem" : true,   
+  "retainObjectParametersInItem" : false,   
 
   "apexDescription" : "This looks rather over-engineered.",
   "avianDescription" : "I bet I could drop this off an ascension tower without damaging the contents.",

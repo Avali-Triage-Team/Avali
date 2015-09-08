@@ -1,6 +1,6 @@
 {
   "objectName" : "avalistoragelocker",
-  "tags" : [ "avali", "avalicamp" ], 
+  "tags" : [ "avali", "avalicamp", "storage" ], 
   "rarity" : "Rare",
   "price" : 900,
   "printable" : false,
