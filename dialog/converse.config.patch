@@ -4,10 +4,10 @@
     "path":"/converse/avali",
     "value":{  
       "default":[  
-        "Hi~!",
+        "Hello.",
         "Hi. I'm <selfname>. Who're you?",
         "Like it around?",
-        "You came this far to visit our humble village?",
+        "You came this far to visit our settlement?",
         "*hums to self*"
       ],
       "apex":[  
@@ -82,13 +82,16 @@
     "op":"add",
     "path":"/converse/apex/avali",
     "value":[  
-      "You are as hairy as the best of us.",
-      "Perhaps you could assist me, avali.",
-      "Do not come too close to me. I have fleas.",
+      "Greetings, my plumed pal.",
+      "Please don't distract me, they'll dock my pay or worse.",
+      "No offence, but the smell is sort've distracting.",
+      "The vivisection lab is downstairs on the left.",
+      "Are you crazy, the Miniknog will come for you being here!",
+      "Perhaps you could assist me, Avali.",
+      "Do not come too close to me...",
       "Would you care for a banana? I suppose not.",
-      "Could you build me a tent, avali?",
+      "Could you build me a tent, Avali?",
       "Don't sneak too much, raptor. Miniknog is watching.",
-      "I stroke your feathers, you stroke my fur?",
       "I don't suppose you would hunt a Miniknog guard for me?"
     ]
   },
@@ -96,12 +99,18 @@
     "op":"add",
     "path":"/converse/floran/avali",
     "value":[  
+      "Not sssstab, yet.",
+      "Not-bird-men make good fertilissser, watch yourself.",
+      "Are you edible?",
+      "Floran hear of Nexusss, is it like Floran collective?",
+      "Do you like hunting too?",
+      "We make music with bone, is that how bird-raptorsss do it too?",
       "Raptor friend.",
       "Floran not sssstab raptor friend.",
       "Floran fight raptor, but play it sssafe.",
       "Raptor friend great hunter, like floran.",
       "Floran pet raptor friend. Pet pet pet.",
-      "Hissss! Floran ssspeak raptor. Or not.",
+      "Screeeeee! Floran ssspeak raptor. Or not.",
       "Raptor friend body feels funny.",
       "Raptor friend look ssscary. Floran not impressed."
     ]
@@ -110,13 +119,19 @@
     "op":"add",
     "path":"/converse/human/avali",
     "value":[  
-      "Oh hello, lizard-bird.",
-      "Why do you avalis make me feel so warm?",
+      "You're not welcome here, turkey.",
+      "If you overlook the treaty so will I, so watch it...",
+      "Ugh, savages.",
+      "Keep your distance, turkey.",
+      "Keep walking...",
+      "Ugh, you smell like a walking bowl of disinfectant.",
+      "Oh no, the invasion's begun!",
+      "I'm sorry for what my ancestors did, please don't judge us all for that.",
+      "Oh hello, turkey...er, raptor.",
+      "Why do you raptors make me feel so uneasy?",
       "Please don't come too close, I think I might be allergic.",
-      "When raptors attack...",
-      "So how do you feel about electric fences?",
-      "How do you make graphene again?",
-      "I saw a rodent of unusual size the other day.",
+      "Here turkey turkey~",
+      "So how do you feel about Thanksgiving? Umm, nevermind.",
       "Nice feathers. Can I stroke them?"
     ]
   },
@@ -124,25 +139,38 @@
     "op":"add",
     "path":"/converse/glitch/avali",
     "value":[  
-      "Curious. Are you related to the Apex?",
+      "Cordial. Well met.",
+      "Cordial. Greetings alien.",
+      "Bothered. Please refrain from molting your feathers in public.",
+      "Absent-Minded. Please return to the chicken pen.",
+      "Curt. This is a no-hunting area, it is unlikely anything here is edible for your kind.",
+      "Disgusted. Olfactory sensors detect elevated ammonia levels. Simply put, you smell.",
+      "Delighted. What wonderous plumage, may I obtain some?",
+      "Curious. Are you related to the Avian?",
       "Flirtatious. I have some objects of value if you want.",
       "Frightened. Please do not grin at me like that.",
       "Careful. May I stroke your feathers?",
-      "Teasing. Jurassic Park is frightening in the dark...",
+      "Teasing. Here bird-thing.",
       "Annoyed. You smell of fish.",
-      "Curious. Why the propensity towards flaunting?",
-      "Flirtatious. How much for a full go again?"
+      "Curious. Why the propensity towards hunting?"
     ]
   },
   {  
     "op":"add",
     "path":"/converse/hylotl/avali",
     "value":[  
+      "Always a pleasure to meet a more sophisticated race.",
+      "Welcome, traveller. Please marvel at our exquisite building designs.",
+      "I don't blame you for coming here, it must be a far cry from your tent-hovel.",
+      "You should learn from us, and use the knowledge to help civilise your own people.",
+      "Is it true the Avali still eat meat?",
+      "*pinches nose* Whelcum to our hnumble abod- *gag* it's no good, the smell!",
+      "I say, your feathers looks exquisite, can I take them off you?",
       "Ah, a Hunter. I do hope I'm not a target.",
-      "Greetings, my avali friend.",
+      "Greetings, my Avali friend.",
       "Would you like to learn about our architecture?",
       "Have you and your kind improved your art lately?",
-      "I... I'll admit. The feathers looks good on you.",
+      "I... I'll admit. The feathers look good on you.",
       "What is it, Hunter?",
       "I saw a floran the other day. How can you stand them?",
       "Good day to you, Hunter."
@@ -152,13 +180,18 @@
     "op":"add",
     "path":"/converse/avian/avali",
     "value":[  
+      "Greetings Avali, welcome to our settlement!",
+      "Your wings! Are you an emissary of Kluex?",
+      "I bring you the song of our people *Squawks loudly* Why are you cowering, I thought you liked music?",
+      "I wish my feathers were that long...",
+      "First rule of the grounded, you don't talk about the grounded.",
+      "Is it true your race sleeps on the floor instead of in a nest? How strange.",
       "Greetings, Hunter.",
       "Please don't hurt me.",
-      "I have a great idea for a beam rifle if you want it.",
-      "Wouldn't you rather chase prey?",
+      "I have a great idea for a tent if you want it.",
+      "Wouldn't you rather chase some prey?",
       "You're not so bad, aren't you?",
       "How do you feel about religion, Hunter?",
-      "I have to ask, what is 'fluffy' anyway?",
       "Teeth!"
     ]
   }

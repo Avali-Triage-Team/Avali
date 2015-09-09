@@ -1135,9 +1135,7 @@
                 "noticePlayersRadius": 20.0,
                 "merchant": {
                   "storeRadius": 2,
-                  "categories": [
-                    "avaliweapons"
-                  ],
+                  "categories" : { "default" : [ "avaliweapons" ] },
                   "priceVarianceRange": [
                     0.8,
                     1.2
@@ -1174,9 +1172,7 @@
                 "noticePlayersRadius": 20.0,
                 "merchant": {
                   "storeRadius": 2,
-                  "categories": [
-                    "avaliinstruments"
-                  ],
+                  "categories" : { "default" : [ "avaliinstruments" ] },
                   "priceVarianceRange": [
                     0.8,
                     1.2
@@ -1213,13 +1209,8 @@
                 "noticePlayersRadius": 20.0,
                 "merchant": {
                   "storeRadius": 2,
-                  "categories": [
-                    "avalifarmer"
-                  ],
-                  "priceVarianceRange": [
-                    0.8,
-                    1.2
-                  ],
+                  "categories" : { "default" : [ "avaliingredients" ] },
+                  "priceVarianceRange": [0.8, 1.2],
                   "numItems": 9
                 },
                 "sit": {
