@@ -32,7 +32,6 @@
 
       "spaceScan" : 0.01,
       "anchors" : [ "background" ],
-	  "collision" : "solid",
 	  "lightPosition" : [0, 0]
     }
  ],
