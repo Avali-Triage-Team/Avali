@@ -3,44 +3,24 @@
     "path" : "/avaliweapons",
     "value" : [
       [ 0, [
-        { "item": { "name": "avalitier1hammer-recipe" }, "cost": 500 },
-        { "item": { "name": "avalitier1shortsword-recipe" }, "cost": 200 },
-        { "item": { "name": "avalitier1broadsword-recipe" }, "cost": 300 },
-        { "item": { "name": "avalitier1spear-recipe" }, "cost": 200 },
-        { "item": { "name": "avalitier1dagger-recipe" }, "cost": 150 },
         { "item": { "name": "avalitier1pistol" }, "cost": 250 },
         { "item": { "name": "avalitier1rifle" }, "cost": 350 },
         { "item": { "name": "avalitier1sniper" }, "cost": 500 },
         { "item": { "name": "avalitier1minigun" }, "cost": 450 }
       ] ],
       [ 2, [
-        { "item": { "name": "avalitier2hammer-recipe" }, "cost": 500 },
-        { "item": { "name": "avalitier2shortsword-recipe" }, "cost": 200 },
-        { "item": { "name": "avalitier2broadsword-recipe" }, "cost": 300 },
-        { "item": { "name": "avalitier2spear-recipe" }, "cost": 200 },
-        { "item": { "name": "avalitier2dagger-recipe" }, "cost": 150 },
         { "item": { "name": "avalitier2pistol" }, "cost": 350 },
         { "item": { "name": "avalitier2rifle" }, "cost": 450 },
         { "item": { "name": "avalitier2sniper" }, "cost": 600 },
         { "item": { "name": "avalitier2minigun" }, "cost": 650 }
       ] ],
       [ 3, [
-        { "item": { "name": "avalitier3hammer-recipe" }, "cost": 500 },
-        { "item": { "name": "avalitier3shortsword-recipe" }, "cost": 200 },
-        { "item": { "name": "avalitier3broadsword-recipe" }, "cost": 300 },
-        { "item": { "name": "avalitier3spear-recipe" }, "cost": 200 },
-        { "item": { "name": "avalitier3dagger-recipe" }, "cost": 150 },
         { "item": { "name": "avalitier3pistol" }, "cost": 450 },
         { "item": { "name": "avalitier3rifle" }, "cost": 550 },
         { "item": { "name": "avalitier3sniper" }, "cost": 700 },
         { "item": { "name": "avalitier3minigun" }, "cost": 750 }
       ] ],  
       [ 4, [
-        { "item": { "name": "avalitier4hammer-recipe" }, "cost": 500 },
-        { "item": { "name": "avalitier4shortsword-recipe" }, "cost": 200 },
-        { "item": { "name": "avalitier4broadsword-recipe" }, "cost": 300 },
-        { "item": { "name": "avalitier4spear-recipe" }, "cost": 200 },
-        { "item": { "name": "avalitier4dagger-recipe" }, "cost": 150 },
         { "item": { "name": "avalitier4pistol" }, "cost": 550 },
         { "item": { "name": "avalitier4rifle" }, "cost": 650 },
         { "item": { "name": "avalitier4sniper" }, "cost": 800 },
