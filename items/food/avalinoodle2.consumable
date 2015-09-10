@@ -1,6 +1,7 @@
 {
   "itemName" : "avalinoodle2",
   "rarity" : "Common",
+  "price" : 550,
   "inventoryIcon" : "avalinoodle2.png",
   "description" : "Spicy meat noodles with a rich Kiri sauce.",
   "shortdescription" : "Kiri Curry",

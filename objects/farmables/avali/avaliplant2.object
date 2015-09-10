@@ -7,7 +7,7 @@
   "shortdescription" : "Nakati Ovoid",
   "objectType" : "farmable",
   "printable" : false,
-  "price" : 300,
+  "price" : 100,
 
   "apexDescription" : "I wonder what give it it's bioluminescence.",
   "avianDescription" : "This'd make an interesting nest.",
