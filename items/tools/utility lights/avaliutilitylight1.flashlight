@@ -3,6 +3,7 @@
   "price" : 100,
   "inventoryIcon" : "avaliutilitylight1icon.png",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "price" : 100,
   "rarity" : "Rare",
   "maxStack" : 1,
   "description" : "A bright light that never gets hot! This one admits a white glow.",

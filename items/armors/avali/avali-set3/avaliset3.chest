@@ -3,6 +3,7 @@
   "inventoryIcon" : "icons.png:chest",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
+  "price" : 100,
   "rarity" : "Common",
   "description" : "Wide, angular sleeves giving plenty of room for movement.",
   "shortdescription" : "Wide Sleeves",

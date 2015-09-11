@@ -3,6 +3,7 @@
   "level" : 1,
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
+  "price" : 180,
   "rarity" : "common",
   "description" : "VL1 Icicle",
   "shortdescription" : "VL1 Icicle",

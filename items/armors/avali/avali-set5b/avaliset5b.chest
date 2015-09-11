@@ -3,6 +3,7 @@
   "inventoryIcon" : "icons.png:chest",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
+  "price" : 100,
   "rarity" : "Common",
   "description" : "^green;Avali, Chest Slot. ^white; A cloak for the eternal nomad.",
   "shortdescription" : "Nomad's Cloak",

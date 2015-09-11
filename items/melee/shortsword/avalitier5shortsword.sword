@@ -3,6 +3,7 @@
   "level" : 5,
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
+  "price" : 150,
   "rarity" : "rare",
   "description" : "The 'Shard' class vibroblade is more popular among colonists, martial arts enthusiasts and comic-book nerds than actual soldiers and hunters.",
   "shortdescription" : "VBA1 Shard",

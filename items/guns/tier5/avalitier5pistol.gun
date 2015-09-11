@@ -1,6 +1,7 @@
 {
   "itemName" : "avalitier5pistol",
   "inventoryIcon" : "avalipistol.png",
+  "price" : 650,
   "rarity" : "rare",
   "description" : "The basic Avali military grade sidearm.",
   "shortdescription" : "PD5 Frostbite",

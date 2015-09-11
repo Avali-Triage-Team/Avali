@@ -1,6 +1,7 @@
 {
   "itemName" : "avalitier3riflebounce",
   "inventoryIcon" : "avalirifle.png",
+  "price" : 550,
   "rarity" : "uncommon",
   "description" : "The standard Avali infantry weapon.",
   "shortdescription" : "AR3-R Blizzard",

@@ -3,6 +3,7 @@
   "inventoryIcon" : "icons.png:pants",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
+  "price" : 100,
   "rarity" : "Common",
   "description" : "Yo dawg, herd you like skirts, so I got you a skirt to wear over your skirt...",
   "shortdescription" : "Trimmed Wrap",
