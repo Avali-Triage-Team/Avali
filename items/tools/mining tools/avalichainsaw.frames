@@ -1,0 +1,9 @@
+{
+  "frameGrid" : {
+    "size" : [30, 10],
+    "dimensions" : [5, 1]
+  },
+  "aliases" : {
+    "idle" : "0"
+  }
+}
