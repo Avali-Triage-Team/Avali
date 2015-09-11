@@ -6,25 +6,43 @@
         { "item": { "name": "avalitier1pistol" } },
         { "item": { "name": "avalitier1rifle" } },
         { "item": { "name": "avalitier1sniper" } },
-        { "item": { "name": "avalitier1minigun" } }
+        { "item": { "name": "avalitier1minigun" } },
+        { "item": { "name": "avalitier1shotgun" } }
       ] ],
       [ 2, [
         { "item": { "name": "avalitier2pistol" } },
         { "item": { "name": "avalitier2rifle" } },
         { "item": { "name": "avalitier2sniper" } },
-        { "item": { "name": "avalitier2minigun" } }
+        { "item": { "name": "avalitier2minigun" } },
+        { "item": { "name": "avalitier2shotgun" } }
       ] ],
       [ 3, [
         { "item": { "name": "avalitier3pistol" } },
         { "item": { "name": "avalitier3rifle" } },
         { "item": { "name": "avalitier3sniper" } },
-        { "item": { "name": "avalitier3minigun" } }
+        { "item": { "name": "avalitier3minigun" } },
+        { "item": { "name": "avalitier3shotgun" } }
       ] ],  
       [ 4, [
         { "item": { "name": "avalitier4pistol" } },
         { "item": { "name": "avalitier4rifle" } },
         { "item": { "name": "avalitier4sniper" } },
-        { "item": { "name": "avalitier4minigun" } }
+        { "item": { "name": "avalitier4minigun" } },
+        { "item": { "name": "avalitier4shotgun" } }
+      ] ],  
+      [ 5, [
+        { "item": { "name": "avalitier5pistol" } },
+        { "item": { "name": "avalitier5rifle" } },
+        { "item": { "name": "avalitier5sniper" } },
+        { "item": { "name": "avalitier5minigun" } },
+        { "item": { "name": "avalitier5shotgun" } }
+      ] ],  
+      [ 6, [
+        { "item": { "name": "avalitier6pistol" } },
+        { "item": { "name": "avalitier6rifle" } },
+        { "item": { "name": "avalitier6sniper" } },
+        { "item": { "name": "avalitier6minigun" } },
+        { "item": { "name": "avalitier6shotgun" } }
       ] ]
     ]
   },
