@@ -1,5 +1,6 @@
 {
   "itemName" : "avalinoodle",
+  "price" : 15,
   "rarity" : "Common",
   "inventoryIcon" : "avalinoodle.png",
   "description" : "Sweet noodles made from Piru frond flour, a staple of Avali students.",

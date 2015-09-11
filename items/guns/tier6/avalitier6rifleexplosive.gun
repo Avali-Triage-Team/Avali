@@ -1,6 +1,7 @@
 {
   "itemName" : "avalitier6rifleexplosive",
   "inventoryIcon" : "avalirifle.png",
+  "price" : 850,
   "rarity" : "legendary",
   "description" : "The standard Avali infantry weapon.",
   "shortdescription" : "AR6-HE Blizzard",

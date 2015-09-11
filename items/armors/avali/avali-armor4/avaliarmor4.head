@@ -3,6 +3,7 @@
   "inventoryIcon" : "icons.png:head",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
+  "price" : 100,
   "rarity" : "Common",
   "description" : "^green;Avali, Head Slot. ^white; A heavy durasteel helmet, for when you absolutely positively need to keep your head on.",
   "shortdescription" : "Assault Helmet",

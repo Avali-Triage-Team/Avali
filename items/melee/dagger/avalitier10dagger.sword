@@ -3,6 +3,7 @@
   "level" : 6,
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
+  "price" : 100,
   "rarity" : "legendary",
   "description" : "Stalkers and martial artists take great pride in their dexterous acrobatic use of hand-to-hand fighting weapons.",
   "shortdescription" : "HHS2 Frost",

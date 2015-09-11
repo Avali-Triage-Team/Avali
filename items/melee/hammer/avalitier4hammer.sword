@@ -3,6 +3,7 @@
   "level" : 4,
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
+  "price" : 180,
   "rarity" : "uncommon",
   "description" : "The glacier-type 'skeleton key' is used for breaking down doors, or sometimes walls, with it's on board rocket motor and guidance fins.",
   "shortdescription" : "SK4 Glacier",

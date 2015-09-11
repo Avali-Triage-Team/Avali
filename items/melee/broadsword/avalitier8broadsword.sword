@@ -3,6 +3,7 @@
   "level" : 5,
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
+  "price" : 180,
   "rarity" : "rare",
   "description" : "The 'Dire Shard' longblade is a rather impractical weapon, nonetheless the heavier variants can allegedly cleave a tank in two.",
   "shortdescription" : "VB-XLS1 Dire Shard",

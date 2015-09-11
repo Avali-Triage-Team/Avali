@@ -3,6 +3,7 @@
   "inventoryIcon" : "icons.png:chest",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
+  "price" : 125,
   "rarity" : "Common",
   "description" : "Armoured plates inserted into Avali armour. Equip these in your armour slots, and place your clothing or armour in the vanity slots.",
   "shortdescription" : "Iron Vest Insert",
