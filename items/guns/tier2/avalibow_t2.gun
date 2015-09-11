@@ -1,0 +1,36 @@
+{
+  "itemName" : "AvaliBow_t2",
+  "inventoryIcon" : "AvaliBowIcon_t2.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "price" : 200,
+  "rarity" : "Uncommon",
+  "description" : "A bow created utilizing Avali technology. It's unclear who designed it, since the Avali have never used bows.",
+  "shortdescription" : "CB2 Lancer",
+  "image" : "AvaliBowFull_t2.png:<frame>",
+  "imageFrameSelector" : "bowImageSelector",
+  "learnBlueprintsOnPickup" : [ "AvaliBowDisplay01_tier2" ],
+  "handPosition" : [3, 0],
+  "firePosition" : [20, 1.5],
+  "level" : 5,
+  "fireTime" : 0.3,
+  "twoHanded" : true,
+
+  "fireOnRelease" : true,
+  "walkWhileFiring" : true,
+  
+  "projectileType" : "AvaliArrow_t2",
+  "powerProjectileType" : "ChargedAvaliArrow_t2",
+  "powerProjectileTime" : [0.9, 1.1],
+  "projectile" : {
+    "speed" : 80,
+    "power" : 15,
+	"powerCurve" : "busterTimeMultiplier",
+    "color" : [10, 255, 10]
+  },
+
+  "muzzleEffect" : {
+    "animation" : "/animations/muzzleflash/avalielectromuzzle/avalielectromuzzle.animation",
+    "fireSound" : [ { "file" : "/sfx/gun/plasma_sniper3.wav" } ]
+  }
+}

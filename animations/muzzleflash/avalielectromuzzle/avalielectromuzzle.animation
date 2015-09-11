@@ -1,0 +1,7 @@
+{
+  "frames" : "avalielectromuzzle.png",
+  "variants" : 1,
+  "frameNumber" : 4,
+  "animationCycle" : 0.03,
+  "offset" : [8, 0]
+}
