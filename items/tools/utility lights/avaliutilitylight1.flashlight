@@ -1,6 +1,5 @@
 {
   "itemName" : "avaliutilitylight1",
-  "price" : 100,
   "inventoryIcon" : "avaliutilitylight1icon.png",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "price" : 100,
