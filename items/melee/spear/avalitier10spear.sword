@@ -3,6 +3,7 @@
   "level" : 6,
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
+  "price" : 180,
   "rarity" : "legendary",
   "description" : "VLS2 Icicle",
   "shortdescription" : "VLS2 Icicle",

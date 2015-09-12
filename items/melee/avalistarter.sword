@@ -3,6 +3,7 @@
   "level" : 0.5,
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
+  "price" : 100,
   "rarity" : "common",
   "description" : "This aerotech blade's nanite feed is broken. Just whack 'em with the hilt.",
   "shortdescription" : "Broken Shard",

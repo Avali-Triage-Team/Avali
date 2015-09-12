@@ -4,6 +4,7 @@
   "description" : "Protects the user from a programmed amount of damage.",
 
 
+  "price" : 100,
   "rarity" : "uncommon",
   "palette" : [
     { }

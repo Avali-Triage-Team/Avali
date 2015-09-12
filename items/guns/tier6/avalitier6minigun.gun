@@ -1,6 +1,7 @@
 {
   "itemName" : "avalitier6minigun",
   "inventoryIcon" : "avaliminigun.png",
+  "price" : 1050,
   "rarity" : "legendary",
   "description" : "The primary Avali suppressive fire and support weapon.",
   "shortdescription" : "MG6 Hailstorm",

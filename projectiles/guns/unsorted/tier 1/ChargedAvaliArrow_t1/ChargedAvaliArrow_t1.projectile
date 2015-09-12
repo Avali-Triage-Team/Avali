@@ -1,0 +1,22 @@
+{
+  "projectileName" : "ChargedAvaliArrow_t1",
+  "physics" : "laser",
+  "bounces" : 0,
+  "level" : 2,
+  "damageKindImage" : "icon.png",
+  "timeToLive" : 30,
+  "frames" : "ChargedAvaliArrow_t1.png",
+  "emitters" : [ "daggerblue" ],
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "power" : 40,
+  "supportsProcessing" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/smallregularexplosion/smallregularexplosion.config"
+    }
+  ],
+  "lightColor" : [159, 151, 7],
+  "damageKind" : "plasma"
+}

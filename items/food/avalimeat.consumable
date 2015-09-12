@@ -1,5 +1,6 @@
 {
   "itemName" : "avalimeat",
+  "price" : 10,
   "rarity" : "Common",
   "inventoryIcon" : "avalimeat.png",
   "description" : "Chunks of seasoned jerky, popular with hunters and explorers.",

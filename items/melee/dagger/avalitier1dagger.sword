@@ -3,6 +3,7 @@
   "level" : 1,
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
+  "price" : 100,
   "rarity" : "common",
   "description" : "Stalkers and martial artists take great pride in their dexterous acrobatic use of hand-to-hand fighting weapons.",
   "shortdescription" : "HH1 Frost",
