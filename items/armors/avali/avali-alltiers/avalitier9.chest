@@ -77,7 +77,10 @@
     { "e0975c" : "dda1dd", "a85636" : "9c5f99", "6f2919" : "663b5f" },
     { "e0975c" : "aaaaaa", "a85636" : "6f6f6f", "6f2919" : "494949" },
     { "e0975c" : "d8d8d8", "a85636" : "8d8d8d", "6f2919" : "636363" }
-*/
+	*/
+  ],
 
+  "learnBlueprintsOnPickup" : [
+    "avalitier10chest"
   ]
 }
