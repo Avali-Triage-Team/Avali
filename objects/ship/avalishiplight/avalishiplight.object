@@ -1,0 +1,57 @@
+{
+  "objectName" : "avalishiplight",
+  "tags" : ["avali", "light"],
+  "rarity" : "Common",
+  "category" : "light",
+  "lightColors" : {
+    "default" : [255, 228, 207],
+    "red" : [255, 127, 127],
+    "blue" : [71, 134, 255],
+    "green" : [88, 255, 0],
+    "yellow" : [255, 230, 127],
+    "orange" : [255, 179, 127],
+    "pink" : [255, 177, 255],
+    "black" : [100, 100, 100],
+    "white" : [255, 255, 255]
+  },
+  "price" : 60,
+  "description" : "A light.",
+  "shortdescription" : "Ship Light",
+  "race" : "avali",
+
+  "apexDescription" : "These lights are commonly used on ships.",
+  "avianDescription" : "A light.",
+  "floranDescription" : "Pretty light!",
+  "glitchDescription" : "Analysis. This light has a warm tone.",
+  "humanDescription" : "Warm toned light.",
+  "hylotlDescription" : "A passable light.",
+
+  "inventoryIcon" : "avalishiplighticon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "avalishiplight.png:<color>.<frame>", "fullbright" : true }, { "image" : "avalishiplightlit.png:<color>.<frame>" } ],
+      "imagePosition" : [-8, 0],
+
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/fluorescent_light_quiet.wav",
+
+  "animation" : "/objects/wired/light/lighttoggle.animation",
+  "animationParts" : {
+    "light" : "avalishiplight.png"
+  },
+  "animationPosition" : [-8, 0],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "interactive" : false,
+
+  "inboundNodes" : [ [0, 0] ]
+
+}
