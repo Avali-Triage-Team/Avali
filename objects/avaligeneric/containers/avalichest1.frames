@@ -14,8 +14,7 @@
       [ "white.0", "white.1", "white.2"]
     ]
   },
-
-  "aliases" : {
+"aliases" : {
     "default.default" : "default.0",
     "red.default" : "red.0",
     "blue.default" : "blue.0",
