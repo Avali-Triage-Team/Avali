@@ -39,8 +39,8 @@
 
       "spaceScan" : 0.01,
       "anchors" : [ "bottom", "background"],
-      "lightPosition" : [0, -1],
-      "pointAngle" : 90
+      "lightPosition" : [0, 0],
+      "beamAngle" : 90
     },
 	{
       "image" : "avalistriplight.png:<color>.<frame>",
@@ -50,8 +50,8 @@
 
       "spaceScan" : 0.01,
       "anchors" : [ "background" ],
-      "lightPosition" : [0, 1],
-      "pointAngle" : 270
+      "lightPosition" : [0, 0],
+      "beamAngle" : 270
     }
   ],
 "animation" : "/objects/wired/light/lighttoggle.animation",

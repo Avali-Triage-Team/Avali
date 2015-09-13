@@ -2,6 +2,7 @@
   "itemName" : "avaliutilitylight5",
   "inventoryIcon" : "avaliutilitylight5icon.png",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "price" : 100,
   "rarity" : "Rare",
   "maxStack" : 1,
   "description" : "A bright light that never gets hot! This one admits a ^blue;blue ^white;glow.",
@@ -12,6 +13,6 @@
   "handPosition" : [0, 0],
   "lightPosition" : [2, 0],
   "lightColor" : [0, 0, 255],
-  "beamWidth" : 0.1,
-  "ambientFactor" : 0.5
+  "beamLevel" : 5,
+  "beamAmbience" : 0.5
 }

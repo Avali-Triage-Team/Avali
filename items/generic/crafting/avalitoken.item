@@ -1,5 +1,6 @@
 {
   "itemName" : "avalitoken",
+  "price" : 100,
   "rarity" : "Common",
   "inventoryIcon" : "avalitoken.png",
   "description" : "An Avali data chit. This chit grants user access to restricted information that could be useful in upgrading your equipment",

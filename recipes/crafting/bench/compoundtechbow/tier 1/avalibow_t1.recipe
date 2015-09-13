@@ -1,0 +1,10 @@
+{
+  "input" : [
+	{ "item" : "aerogel", "count" : 10 },
+	{ "item" : "graphene", "count" : 15 },
+	{ "item" : "ironbar", "count" : 5 },
+	{ "item" : "money", "count" : 250}
+  ],
+  "output" : { "item" : "AvaliBow_t1", "count" : 1 },
+  "groups" : [ "avalibench", "weapons", "all" ]
+}

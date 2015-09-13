@@ -3,48 +3,46 @@
     "path" : "/avaliweapons",
     "value" : [
       [ 0, [
-        { "item": { "name": "avalitier1hammer-recipe" }, "cost": 500 },
-        { "item": { "name": "avalitier1shortsword-recipe" }, "cost": 200 },
-        { "item": { "name": "avalitier1broadsword-recipe" }, "cost": 300 },
-        { "item": { "name": "avalitier1spear-recipe" }, "cost": 200 },
-        { "item": { "name": "avalitier1dagger-recipe" }, "cost": 150 },
-        { "item": { "name": "avalitier1pistol" }, "cost": 250 },
-        { "item": { "name": "avalitier1rifle" }, "cost": 350 },
-        { "item": { "name": "avalitier1sniper" }, "cost": 500 },
-        { "item": { "name": "avalitier1minigun" }, "cost": 450 }
+        { "item": { "name": "avalitier1pistol" } },
+        { "item": { "name": "avalitier1rifle" } },
+        { "item": { "name": "avalitier1sniper" } },
+        { "item": { "name": "avalitier1minigun" } },
+        { "item": { "name": "avalitier1shotgun" } }
       ] ],
       [ 2, [
-        { "item": { "name": "avalitier2hammer-recipe" }, "cost": 500 },
-        { "item": { "name": "avalitier2shortsword-recipe" }, "cost": 200 },
-        { "item": { "name": "avalitier2broadsword-recipe" }, "cost": 300 },
-        { "item": { "name": "avalitier2spear-recipe" }, "cost": 200 },
-        { "item": { "name": "avalitier2dagger-recipe" }, "cost": 150 },
-        { "item": { "name": "avalitier2pistol" }, "cost": 350 },
-        { "item": { "name": "avalitier2rifle" }, "cost": 450 },
-        { "item": { "name": "avalitier2sniper" }, "cost": 600 },
-        { "item": { "name": "avalitier2minigun" }, "cost": 650 }
+        { "item": { "name": "avalitier2pistol" } },
+        { "item": { "name": "avalitier2rifle" } },
+        { "item": { "name": "avalitier2sniper" } },
+        { "item": { "name": "avalitier2minigun" } },
+        { "item": { "name": "avalitier2shotgun" } }
       ] ],
       [ 3, [
-        { "item": { "name": "avalitier3hammer-recipe" }, "cost": 500 },
-        { "item": { "name": "avalitier3shortsword-recipe" }, "cost": 200 },
-        { "item": { "name": "avalitier3broadsword-recipe" }, "cost": 300 },
-        { "item": { "name": "avalitier3spear-recipe" }, "cost": 200 },
-        { "item": { "name": "avalitier3dagger-recipe" }, "cost": 150 },
-        { "item": { "name": "avalitier3pistol" }, "cost": 450 },
-        { "item": { "name": "avalitier3rifle" }, "cost": 550 },
-        { "item": { "name": "avalitier3sniper" }, "cost": 700 },
-        { "item": { "name": "avalitier3minigun" }, "cost": 750 }
+        { "item": { "name": "avalitier3pistol" } },
+        { "item": { "name": "avalitier3rifle" } },
+        { "item": { "name": "avalitier3sniper" } },
+        { "item": { "name": "avalitier3minigun" } },
+        { "item": { "name": "avalitier3shotgun" } }
       ] ],  
       [ 4, [
-        { "item": { "name": "avalitier4hammer-recipe" }, "cost": 500 },
-        { "item": { "name": "avalitier4shortsword-recipe" }, "cost": 200 },
-        { "item": { "name": "avalitier4broadsword-recipe" }, "cost": 300 },
-        { "item": { "name": "avalitier4spear-recipe" }, "cost": 200 },
-        { "item": { "name": "avalitier4dagger-recipe" }, "cost": 150 },
-        { "item": { "name": "avalitier4pistol" }, "cost": 550 },
-        { "item": { "name": "avalitier4rifle" }, "cost": 650 },
-        { "item": { "name": "avalitier4sniper" }, "cost": 800 },
-        { "item": { "name": "avalitier4minigun" }, "cost": 850 }
+        { "item": { "name": "avalitier4pistol" } },
+        { "item": { "name": "avalitier4rifle" } },
+        { "item": { "name": "avalitier4sniper" } },
+        { "item": { "name": "avalitier4minigun" } },
+        { "item": { "name": "avalitier4shotgun" } }
+      ] ],  
+      [ 5, [
+        { "item": { "name": "avalitier5pistol" } },
+        { "item": { "name": "avalitier5rifle" } },
+        { "item": { "name": "avalitier5sniper" } },
+        { "item": { "name": "avalitier5minigun" } },
+        { "item": { "name": "avalitier5shotgun" } }
+      ] ],  
+      [ 6, [
+        { "item": { "name": "avalitier6pistol" } },
+        { "item": { "name": "avalitier6rifle" } },
+        { "item": { "name": "avalitier6sniper" } },
+        { "item": { "name": "avalitier6minigun" } },
+        { "item": { "name": "avalitier6shotgun" } }
       ] ]
     ]
   },
@@ -52,34 +50,34 @@
     "path" : "/avaliinstruments",
     "value" : [
       [ 0, [
-        { "item" : { "name" : "accordion" }, "cost" : 500 },
-        { "item" : { "name" : "acousticguitar" }, "cost" : 350 },
-        { "item" : { "name" : "banjo" }, "cost" : 350 },
-        { "item" : { "name" : "bassguitar" }, "cost" : 350 },
-        { "item" : { "name" : "bones" }, "cost" : 350 },
-        { "item" : { "name" : "clarinet" }, "cost" : 500 },
-        { "item" : { "name" : "drumkit" }, "cost" : 500 },
-        { "item" : { "name" : "dulcimer" }, "cost" : 500 },
-        { "item" : { "name" : "electricbass" }, "cost" : 500 },
-        { "item" : { "name" : "flute" }, "cost" : 450 },
-        { "item" : { "name" : "harmonica" }, "cost" : 350 },
-        { "item" : { "name" : "harp" }, "cost" : 600 },
-        { "item" : { "name" : "koto" }, "cost" : 500 },
-        { "item" : { "name" : "leadguitar" }, "cost" : 600 },
-        { "item" : { "name" : "microphone" }, "cost" : 400 },
-        { "item" : { "name" : "microphonefem" }, "cost" : 400 },
-        { "item" : { "name" : "musicbox" }, "cost" : 450 },
-        { "item" : { "name" : "nylonguitar" }, "cost" : 350 },
-        { "item" : { "name" : "oboe" }, "cost" : 600 },
-        { "item" : { "name" : "ocarina" }, "cost" : 500 },
-        { "item" : { "name" : "overdriveguitar" }, "cost" : 600 },
-        { "item" : { "name" : "piano" }, "cost" : 600 },
-        { "item" : { "name" : "reedorgan" }, "cost" : 350 },
-        { "item" : { "name" : "rockorgan" }, "cost" : 450 },
-        { "item" : { "name" : "saxophone" }, "cost" : 500 },
-        { "item" : { "name" : "steeldrum" }, "cost" : 450 },
-        { "item" : { "name" : "trumpet" }, "cost" : 600 },
-        { "item" : { "name" : "violin" }, "cost" : 600 }
+        { "item" : { "name" : "accordion" } },
+        { "item" : { "name" : "acousticguitar" } },
+        { "item" : { "name" : "banjo" } },
+        { "item" : { "name" : "bassguitar" } },
+        { "item" : { "name" : "bones" } },
+        { "item" : { "name" : "clarinet" } },
+        { "item" : { "name" : "drumkit" } },
+        { "item" : { "name" : "dulcimer" } },
+        { "item" : { "name" : "electricbass" } },
+        { "item" : { "name" : "flute" } },
+        { "item" : { "name" : "harmonica" } },
+        { "item" : { "name" : "harp" } },
+        { "item" : { "name" : "koto" } },
+        { "item" : { "name" : "leadguitar" } },
+        { "item" : { "name" : "microphone" } },
+        { "item" : { "name" : "microphonefem" } },
+        { "item" : { "name" : "musicbox" } },
+        { "item" : { "name" : "nylonguitar" } },
+        { "item" : { "name" : "oboe" } },
+        { "item" : { "name" : "ocarina" } },
+        { "item" : { "name" : "overdriveguitar" } },
+        { "item" : { "name" : "piano" } },
+        { "item" : { "name" : "reedorgan" } },
+        { "item" : { "name" : "rockorgan" } },
+        { "item" : { "name" : "saxophone" } },
+        { "item" : { "name" : "steeldrum" } },
+        { "item" : { "name" : "trumpet" } },
+        { "item" : { "name" : "violin" } }
       ] ]
     ]
   },
@@ -87,13 +85,17 @@
     "path" : "/avaliingredients",
     "value" : [
       [ 0, [
-        { "item": { "name": "avaliproduce1" }, "cost": 5 },
-        { "item": { "name": "avaliproduce2" }, "cost": 5 },
-        { "item": { "name": "avaliproduce3" }, "cost": 5 },
-        { "item": { "name": "avaliflour" }, "cost": 10 },
-        { "item": { "name": "avaliplant1" }, "cost": 5 },
-        { "item": { "name": "avaliplant2" }, "cost": 5 },
-        { "item": { "name": "avaliplant3" }, "cost": 5 }
+        { "item": { "name": "avaliproduce1" } },
+        { "item": { "name": "avaliproduce2" } },
+        { "item": { "name": "avaliproduce3" } },
+        { "item": { "name": "avaliflour" } },
+        { "item": { "name": "avalimeat" } },
+        { "item": { "name": "avalitaco" } },
+        { "item": { "name": "avalinoodle" } },
+        { "item": { "name": "avalinoodle2" } },
+        { "item": { "name": "avaliplant1" } },
+        { "item": { "name": "avaliplant2" } },
+        { "item": { "name": "avaliplant3" } }
       ] ]
     ]
   }

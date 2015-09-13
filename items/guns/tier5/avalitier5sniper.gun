@@ -3,6 +3,7 @@
   "inventoryIcon" : "avalisniper.png",
   "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
   "maxStack" : 1,
+  "price" : 900,
   "rarity" : "rare",
   "tooltipKind" : "bow",
   "weaponType" : "Bow",

@@ -3,6 +3,7 @@
   "inventoryIcon" : "avalilaserminericon.png",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
+  "price" : 1000,
   "rarity" : "Rare",
   "tooltipKind" : "tool",
   "description" : "Pickaxes are so last millennium! Lasers are the future. This one comes equipped with an avali focusing lens and improved lifetime",

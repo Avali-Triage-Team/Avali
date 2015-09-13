@@ -3,6 +3,7 @@
   "inventoryIcon" : "icons.png:head",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
+  "price" : 375,
   "rarity" : "Rare",
   "description" : "Armoured plates inserted into Avali armour. Equip these in your armour slots, and place your clothing or armour in the vanity slots.",
   "shortdescription" : "Rubium Helmet Insert",
@@ -15,22 +16,22 @@
   "statusEffects" : [
     {
       "stat" : "powerMultiplier",
-      "basePercentage" : 0.7
+      "basePercentage" : 1.2
     },
 
     {
       "stat" : "protection",
-      "amount" : 22
+      "amount" : 18
     },
 
     {
       "stat" : "maxEnergy",
-      "amount" : 36
+      "amount" : 60
     },
 
     {
       "stat" : "maxHealth",
-      "amount" : 21
+      "amount" : 9
     }
   ],
 
