@@ -1,7 +1,7 @@
 {
   "input" : [
-    { "item" : "imperviumcompound", "count" : 4 }
+    { "item" : "feroziumcompound", "count" : 4 }
   ],
-  "output" : { "item" : "avalitier8pants", "count" : 1 },
-  "groups" : [ "separatortable", "armors", "all" ]
+  "output" : { "item" : "avalitier8head", "count" : 1 },
+  "groups" : [ "acceleratortable", "armors", "all" ]
 }

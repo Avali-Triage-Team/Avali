@@ -1,12 +1,12 @@
 {
-  "itemName" : "avalitier9head",
+  "itemName" : "avalitier10head",
   "inventoryIcon" : "icons.png:head",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
-  "price" : 750,
+  "price" : 900,
   "rarity" : "Legendary",
   "description" : "Armoured plates inserted into Avali armour. Equip these in your armour slots, and place your clothing or armour in the vanity slots.",
-  "shortdescription" : "Ferozium Helmet Insert",
+  "shortdescription" : "Cerulium Helmet Insert",
   "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
@@ -16,12 +16,12 @@
   "statusEffects" : [
     {
       "stat" : "powerMultiplier",
-      "basePercentage" : 1.05
+      "basePercentage" : 1.5
     },
 
     {
       "stat" : "protection",
-      "amount" : 23
+      "amount" : 21
     },
 
     {
@@ -31,13 +31,13 @@
 
     {
       "stat" : "maxHealth",
-      "amount" : 18
+      "amount" : 12
     }
   ],
 
   "colorOptions" : [
-    /* TEAL */
-    { "ffca8a" : "a8e6e2", "e0975c" : "4facb2", "a85636" : "30636c", "6f2919" : "233c43" },
+    /* BLUE */
+    { "ffca8a" : "96cbe7", "e0975c" : "5588d4", "a85636" : "344495", "6f2919" : "1a1c51" },
     /* BLACK */
     { "ffca8a" : "838383", "e0975c" : "555555", "a85636" : "383838", "6f2919" : "151515" },
     /* GREY */
@@ -61,21 +61,15 @@
     /* BROWN */
     { "ffca8a" : "ccae7c", "e0975c" : "a47844", "a85636" : "754c23", "6f2919" : "472b13" }
     /*
-    { "e0975c" : "a96a44", "a85636" : "804424", "6f2919" : "532612" },
-    { "e0975c" : "757575", "a85636" : "515151", "6f2919" : "252525" },
-    { "e0975c" : "cf5b36", "a85636" : "a32c1a", "6f2919" : "721706" },
-    { "e0975c" : "358ec7", "a85636" : "1f5a91", "6f2919" : "112766" },
-    { "e0975c" : "dedb57", "a85636" : "968b32", "6f2919" : "6f6421" },
-    { "e0975c" : "815892", "a85636" : "5a3d65", "6f2919" : "291c2e" },
-    { "e0975c" : "83d358", "a85636" : "529634", "6f2919" : "306e23" },
-    { "e0975c" : "e3b21c", "a85636" : "9d7319", "6f2919" : "735212" },
-    { "e0975c" : "dda1dd", "a85636" : "9c5f99", "6f2919" : "663b5f" },
-    { "e0975c" : "aaaaaa", "a85636" : "6f6f6f", "6f2919" : "494949" },
-    { "e0975c" : "d8d8d8", "a85636" : "8d8d8d", "6f2919" : "636363" }
-	*/
-  ],
-
-  "learnBlueprintsOnPickup" : [
-    "avalitier10head"
+    { "ffca8a" : "d4c398", "e0975c" : "bda67a", "a85636" : "9c7f54", "6f2919" : "755937" },
+    { "ffca8a" : "d5595f", "e0975c" : "a32c2c", "a85636" : "71291b", "6f2919" : "4c1e10" },
+    { "ffca8a" : "46b3e8", "e0975c" : "1a7bb5", "a85636" : "0e427e", "6f2919" : "072655" },
+    { "ffca8a" : "b0e944", "e0975c" : "78b618", "a85636" : "3f7f0d", "6f2919" : "255606" },
+    { "ffca8a" : "eef055", "e0975c" : "d3bb1c", "a85636" : "9c8011", "6f2919" : "644807" },
+    { "ffca8a" : "fd8d30", "e0975c" : "ca6705", "a85636" : "8c5d00", "6f2919" : "5c4400" },
+    { "ffca8a" : "c260ff", "e0975c" : "931ad0", "a85636" : "710587", "6f2919" : "52015b" },
+    { "ffca8a" : "717171", "e0975c" : "505050", "a85636" : "363636", "6f2919" : "181818" },
+    { "ffca8a" : "e6e9ea", "e0975c" : "c6d2d4", "a85636" : "97abac", "6f2919" : "627677" }
+*/
   ]
 }

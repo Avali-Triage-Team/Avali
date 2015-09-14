@@ -1,12 +1,12 @@
 {
-  "itemName" : "avalitier10chest",
+  "itemName" : "avalitier8chest",
   "inventoryIcon" : "icons.png:chest",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
-  "price" : 1300,
+  "price" : 1025,
   "rarity" : "Legendary",
   "description" : "Armoured plates inserted into Avali armour. Equip these in your armour slots, and place your clothing or armour in the vanity slots.",
-  "shortdescription" : "Cerulium Vest Insert",
+  "shortdescription" : "Impervium Vest Insert",
   "tooltipKind" : "armor",
 
   "maleFrames" : {
@@ -24,25 +24,25 @@
   "statusEffects" : [
     {
       "stat" : "powerMultiplier",
-      "basePercentage" : 2.25
+      "basePercentage" : 1.35
     },
     {
       "stat" : "protection",
-      "amount" : 35
+      "amount" : 40
     },
     {
       "stat" : "maxEnergy",
-      "amount" : 120
+      "amount" : 80
     },
     {
       "stat" : "maxHealth",
-      "amount" : 20
+      "amount" : 40
     }
   ],
 
   "colorOptions" : [
-    /* BLUE */
-    { "ffca8a" : "96cbe7", "e0975c" : "5588d4", "a85636" : "344495", "6f2919" : "1a1c51" },
+    /* BLACK */
+    { "ffca8a" : "838383", "e0975c" : "555555", "a85636" : "383838", "6f2919" : "151515" },
     /* BLACK */
     { "ffca8a" : "838383", "e0975c" : "555555", "a85636" : "383838", "6f2919" : "151515" },
     /* GREY */
@@ -75,6 +75,10 @@
     { "ffca8a" : "c260ff", "e0975c" : "931ad0", "a85636" : "710587", "6f2919" : "52015b" },
     { "ffca8a" : "717171", "e0975c" : "505050", "a85636" : "363636", "6f2919" : "181818" },
     { "ffca8a" : "e6e9ea", "e0975c" : "c6d2d4", "a85636" : "97abac", "6f2919" : "627677" }
-*/
+	*/
+  ],
+
+  "learnBlueprintsOnPickup" : [
+    "avalitier9chest"
   ]
 }
