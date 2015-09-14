@@ -5,8 +5,8 @@
   "maxStack" : 1,
   "price" : 300,
   "rarity" : "Rare",
-  "description" : "Armoured plates inserted into Avali armour. Equip these in your armour slots, and place your clothing or armour in the vanity slots.",
-  "shortdescription" : "Aegisalt Leg Inserts",
+  "description" : "Armoured plates inserted into Avali armour, made at the Accelerator table. Equip these in your armour slots, and place your clothing or armour in the vanity slots.",
+  "shortdescription" : "Accelerator-Aegisalt Leg Inserts",
   "tooltipKind" : "armor",
 
   "maleFrames" : "pantsm.png",
@@ -77,6 +77,6 @@
   ],
 
   "learnBlueprintsOnPickup" : [
-    "avalitier7pants"
+    "avalitier8pants"
   ]
 }

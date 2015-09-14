@@ -5,8 +5,8 @@
   "maxStack" : 1,
   "price" : 950,
   "rarity" : "Rare",
-  "description" : "Armoured plates inserted into Avali armour. Equip these in your armour slots, and place your clothing or armour in the vanity slots.",
-  "shortdescription" : "Violium Vest Insert",
+  "description" : "Armoured plates inserted into Avali armour, made at the Seperator table. Equip these in your armour slots, and place your clothing or armour in the vanity slots.",
+  "shortdescription" : "Seperator-Violium Vest Insert",
   "tooltipKind" : "armor",
 
   "maleFrames" : {
@@ -81,6 +81,6 @@
   ],
 
   "learnBlueprintsOnPickup" : [
-    "avalitier8chest"
+    "avalitier10chest"
   ]
 }

@@ -5,8 +5,8 @@
   "maxStack" : 1,
   "price" : 375,
   "rarity" : "Rare",
-  "description" : "Armoured plates inserted into Avali armour. Equip these in your armour slots, and place your clothing or armour in the vanity slots.",
-  "shortdescription" : "Rubium Helmet Insert",
+  "description" : "Armoured plates inserted into Avali armour, made at the Manipulator table. Equip these in your armour slots, and place your clothing or armour in the vanity slots.",
+  "shortdescription" : "Manipulator-Rubium Helmet Insert",
   "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
@@ -76,6 +76,6 @@
   ],
 
   "learnBlueprintsOnPickup" : [
-    "avalitier6head"
+    "avalitier9head"
   ]
 }
