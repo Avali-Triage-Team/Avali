@@ -9,32 +9,32 @@
       [0, [
         {
           "chest" : [
-            { "name" : "avaliset1chest", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10] } },
-            { "name" : "avaliset1bchest", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10] } },
-            { "name" : "avaliset1cchest", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10] } },
-            { "name" : "avaliset5chest", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10] } },
-            { "name" : "avaliset5bchest", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10] } },
-            { "name" : "avaliset5cchest", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10] } },
-            { "name" : "avaliracial1chest", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10] } },
-            { "name" : "avaliracial2chest", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10] } }
+            { "name" : "avaliset1chest", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11] } },
+            { "name" : "avaliset1bchest", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11] } },
+            { "name" : "avaliset1cchest", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11] } },
+            { "name" : "avaliset5chest", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11] } },
+            { "name" : "avaliset5bchest", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11] } },
+            { "name" : "avaliset5cchest", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11] } },
+            { "name" : "avaliracial1chest", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11] } },
+            { "name" : "avaliracial2chest", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11] } }
           ],
           "legs" : [
-            { "name" : "avaliracial1pants", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10] } },
-            { "name" : "avaliracial2pants", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10] } },
-            { "name" : "avaliset1pants", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10] } },
-            { "name" : "avaliset5pants", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10] } },
-            { "name" : "avaliset1bpants", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10] } },
-            { "name" : "avaliset5bpants", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10] } },
-            { "name" : "avaliset1cpants", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10] } },
-            { "name" : "avaliset5cpants", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10] } }
+            { "name" : "avaliracial1pants", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11] } },
+            { "name" : "avaliracial2pants", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11] } },
+            { "name" : "avaliset1pants", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11] } },
+            { "name" : "avaliset5pants", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11] } },
+            { "name" : "avaliset1bpants", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11] } },
+            { "name" : "avaliset5bpants", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11] } },
+            { "name" : "avaliset1cpants", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11] } },
+            { "name" : "avaliset5cpants", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11] } }
           ],
           "head" : [
-            { "name" : "avaliracial1head", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10] } },
-            { "name" : "avaliracial2head", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10] } },
-            { "name" : "avalihat1", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10] } },
-            { "name" : "avalihat2", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10] } },
-            { "name" : "avalihat3", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10] } },
-            { "name" : "avalihat4", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10] } }
+            { "name" : "avaliracial1head", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11] } },
+            { "name" : "avaliracial2head", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11] } },
+            { "name" : "avalihat1", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11] } },
+            { "name" : "avalihat2", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11] } },
+            { "name" : "avalihat3", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11] } },
+            { "name" : "avalihat4", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11] } }
           ]
         }
       ] ]
