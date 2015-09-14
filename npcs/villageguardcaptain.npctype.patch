@@ -19,9 +19,9 @@
         2,
         [
           {
-            "head": [ { "name": "avaliarmor6head", "data" : { "colorIndex" : [12]  } ],
-            "chest": [ { "name": "avaliguardtier2chest", "data" : { "colorIndex" : [12]  } ],
-            "legs": [  { "name": "avaliarmor3pants", "data" : { "colorIndex" : [12]  } ],
+            "head": [ { "name": "avaliarmor6head", "data" : { "colorIndex" : [2]  } ],
+            "chest": [ { "name": "avaliguardtier2chest", "data" : { "colorIndex" : [2]  } ],
+            "legs": [  { "name": "avaliarmor3pants", "data" : { "colorIndex" : [2]  } ],
             "primary": [ { "name": "avalitier2shotgun" } ],
             "sheathedprimary": [ { "name": "avalitier2hammer" } ],
           }
@@ -31,9 +31,9 @@
         3,
         [
           {
-            "head": [ { "name": "avaliarmor6head", "data" : { "colorIndex" : [3]  } ],
-            "chest": [ { "name": "avaliguardtier3chest", "data" : { "colorIndex" : [3]  } ],
-            "legs": [  { "name": "avaliarmor3pants", "data" : { "colorIndex" : [3]  } ],
+            "head": [ { "name": "avaliarmor6head", "data" : { "colorIndex" : [2]  } ],
+            "chest": [ { "name": "avaliguardtier3chest", "data" : { "colorIndex" : [2]  } ],
+            "legs": [  { "name": "avaliarmor3pants", "data" : { "colorIndex" : [2]  } ],
             "primary": [ { "name": "avalitier3shotgun" } ],
             "sheathedprimary": [ { "name": "avalitier3hammer" } ],
           }
@@ -43,9 +43,9 @@
         4,
         [
           {
-            "head": [ { "name": "avaliarmor6head", "data" : { "colorIndex" : [13]  } ],
-            "chest": [ { "name": "avaliguardtier4chest", "data" : { "colorIndex" : [13]  } ],
-            "legs": [  { "name": "avaliarmor3pants", "data" : { "colorIndex" : [13]  } ],
+            "head": [ { "name": "avaliarmor6head", "data" : { "colorIndex" : [2]  } ],
+            "chest": [ { "name": "avaliguardtier4chest", "data" : { "colorIndex" : [2]  } ],
+            "legs": [  { "name": "avaliarmor3pants", "data" : { "colorIndex" : [2]  } ],
             "primary": [ { "name": "avalitier4shotgun" } ],
             "sheathedprimary": [ { "name": "avalitier4hammer" } ],
           }
