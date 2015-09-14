@@ -1,0 +1,21 @@
+{
+  "projectileName" : "AvaliArrow_t3",
+  "physics" : "laser",
+  "bounces" : 0,
+  "level" : 7,
+  "damageKindImage" : "icon.png",
+  "timeToLive" : 30,
+  "frames" : "AvaliArrow_t3.png",
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "power" : 800,
+  "supportsProcessing" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/smallregularexplosion/smallregularexplosion.config"
+    }
+  ],
+  "lightColor" : [159, 151, 7],
+  "damageKind" : "plasma"
+}
