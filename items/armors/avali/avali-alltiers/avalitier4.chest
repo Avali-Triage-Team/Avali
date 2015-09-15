@@ -81,6 +81,8 @@
   ],
 
   "learnBlueprintsOnPickup" : [
-    "avalitier5chest"
+    "avalitier5chest",
+    "avalitier6chest",
+    "avalitier7chest"
   ]
 }
