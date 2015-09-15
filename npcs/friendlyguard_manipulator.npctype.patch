@@ -4,7 +4,11 @@
     "value" : { "avali" : [
       [5, [
         {
-            "head": [ { "name": "avaliarmor4head", "data" : { "colorIndex" : [4] } } ],
+          "head" : [ 
+            { "name" : "avaliarmor4head", "data" : { "colorIndex" : [4] } },
+            { "name" : "avaliarmor5head", "data" : { "colorIndex" : [4] } },
+            { "name" : "avaliarmor6head", "data" : { "colorIndex" : [4] } }
+          ],
             "chest": [ { "name": "avaliguardtier5achest", "data" : { "colorIndex" : [4] } } ],
             "legs": [  { "name": "avaliarmor3pants", "data" : { "colorIndex" : [4] } } ],
             "primary": [ { "name": "avalitier5rifle" } ],
@@ -14,7 +18,11 @@
       ] ],
       [6, [
         {
-            "head": [ { "name": "avaliarmor5head", "data" : { "colorIndex" : [4] } } ],
+          "head" : [ 
+            { "name" : "avaliarmor4head", "data" : { "colorIndex" : [4] } },
+            { "name" : "avaliarmor5head", "data" : { "colorIndex" : [4] } },
+            { "name" : "avaliarmor6head", "data" : { "colorIndex" : [4] } }
+          ],
             "chest": [ { "name": "avaliguardtier6achest", "data" : { "colorIndex" : [4] } } ],
             "legs": [  { "name": "avaliarmor3pants", "data" : { "colorIndex" : [4] } } ],
             "primary": [ { "name": "avalitier6minigun" } ],
