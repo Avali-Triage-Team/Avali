@@ -7,9 +7,15 @@
         0,
         [
           {
-            "head": [ { "name": "avaliarmor2head", "data" : { "colorIndex" : [3] } } ],
+            "head" : [ 
+              { "name" : "avaliarmor1head", "data" : { "colorIndex" : [3] } },
+              { "name" : "avaliarmor2head", "data" : { "colorIndex" : [3] } }
+            ],
             "chest": [ { "name": "avaliguardtier1chest", "data" : { "colorIndex" : [3] } } ],
-            "legs": [  { "name": "avaliarmor2pants", "data" : { "colorIndex" : [3] } } ],
+            "legs" : [
+              { "name" : "avaliarmor1pants", "data" : { "colorIndex" : [3] } },
+              { "name" : "avaliarmor2pants", "data" : { "colorIndex" : [3] } }
+            ],
             "primary": [ { "name": "avalitier1pistol" } ],
             "sheathedprimary": [ { "name": "avalitier1dagger" } ]
           },
@@ -27,9 +33,15 @@
         2,
         [
           {
-            "head": [ { "name": "avaliarmor2head", "data" : { "colorIndex" : [3] } } ],
+            "head" : [ 
+              { "name" : "avaliarmor1head", "data" : { "colorIndex" : [3] } },
+              { "name" : "avaliarmor2head", "data" : { "colorIndex" : [3] } }
+            ],
             "chest": [ { "name": "avaliguardtier2chest", "data" : { "colorIndex" : [3] } } ],
-            "legs": [  { "name": "avaliarmor2pants", "data" : { "colorIndex" : [3] } } ],
+            "legs" : [
+              { "name" : "avaliarmor1pants", "data" : { "colorIndex" : [3] } },
+              { "name" : "avaliarmor2pants", "data" : { "colorIndex" : [3] } }
+            ],
             "primary": [ { "name": "avalitier2pistol" } ],
             "sheathedprimary": [ { "name": "avalitier2dagger" } ]
           },
@@ -47,9 +59,15 @@
         3,
         [
           {
-            "head": [ { "name": "avaliarmor2head", "data" : { "colorIndex" : [3] } } ],
+            "head" : [ 
+              { "name" : "avaliarmor1head", "data" : { "colorIndex" : [3] } },
+              { "name" : "avaliarmor2head", "data" : { "colorIndex" : [3] } }
+            ],
             "chest": [ { "name": "avaliguardtier3chest", "data" : { "colorIndex" : [3] } } ],
-            "legs": [  { "name": "avaliarmor2pants", "data" : { "colorIndex" : [3] } } ],
+            "legs" : [
+              { "name" : "avaliarmor1pants", "data" : { "colorIndex" : [3] } },
+              { "name" : "avaliarmor2pants", "data" : { "colorIndex" : [3] } }
+            ],
             "primary": [ { "name": "avalitier3pistol" } ],
             "sheathedprimary": [ { "name": "avalitier3dagger" } ]
           },
