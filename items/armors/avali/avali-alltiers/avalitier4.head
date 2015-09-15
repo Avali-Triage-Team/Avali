@@ -76,6 +76,8 @@
   ],
 
   "learnBlueprintsOnPickup" : [
-    "avalitier5head"
+    "avalitier5head",
+    "avalitier6head",
+    "avalitier7head"
   ]
 }
