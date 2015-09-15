@@ -28,5 +28,5 @@
     "animation" : "/animations/muzzleflash/electromuzzle/electromuzzle.animation",  
     "fireSound" : [ { "file" : "/sfx/gun/plasma_shotgun4.wav" } ]
   },
-  "learnBlueprintsOnPickup" : [ "avalitier2chest" ]
+  "learnBlueprintsOnPickup" : [ "avalitier2pistol" ]
 }
