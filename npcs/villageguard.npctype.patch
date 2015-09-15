@@ -7,26 +7,19 @@
         0,
         [
           {
-            "head": [ { "name": "avaliarmor1head", "data" : { "colorIndex" : [3]  } ],
-            "chest": [ { "name": "avaliguardtier1chest", "data" : { "colorIndex" : [3]  } ],
-            "legs": [  { "name": "avaliarmor1pants", "data" : { "colorIndex" : [3]  } ],
+            "head": [ { "name": "avaliarmor1head", "data" : { "colorIndex" : [3] } } ],
+            "chest": [ { "name": "avaliguardtier1chest", "data" : { "colorIndex" : [3] } } ],
+            "legs": [  { "name": "avaliarmor1pants", "data" : { "colorIndex" : [3] } } ],
             "primary": [ { "name": "avalitier1pistol" } ],
             "sheathedprimary": [ { "name": "avalitier1dagger" } ]
           },
           {
-            "head": [ { "name": "avaliarmor2head", "data" : { "colorIndex" : [3]  } ],
-            "chest": [ { "name": "avaliguardtier1chest", "data" : { "colorIndex" : [3]  } ],
-            "legs": [  { "name": "avaliarmor2pants", "data" : { "colorIndex" : [3]  } ],
+            "head": [ { "name": "avaliarmor2head", "data" : { "colorIndex" : [3] } } ],
+            "chest": [ { "name": "avaliguardtier1chest", "data" : { "colorIndex" : [3] } } ],
+            "legs": [  { "name": "avaliarmor2pants", "data" : { "colorIndex" : [3] } } ],
             "primary": [ { "name": "avalitier1rifle" } ],
             "sheathedprimary": [ { "name": "avalitier1shortsword" } ],
             "alt": [ { "name": "generatedshield", "data" : { "definition" : "avalitier1barrier" } } ]
-          },
-          {
-            "head": [ { "name": "avaliarmor3head", "data" : { "colorIndex" : [3]  } ],
-            "chest": [ { "name": "avaliguardtier1chest", "data" : { "colorIndex" : [3]  } ],
-            "legs": [  { "name": "avaliarmor3pants", "data" : { "colorIndex" : [3]  } ],
-            "primary": [ { "name": "avalitier1minigun" } ],
-            "sheathedprimary": [ { "name": "avalitier1spear" } ]
           }
         ]
       ],
@@ -34,27 +27,19 @@
         2,
         [
           {
-            "head": [ { "name": "avaliarmor1head", "data" : { "colorIndex" : [3]  } ],
-            "chest": [ { "name": "avaliguardtier2chest", "data" : { "colorIndex" : [3]  } ],
-            "legs": [  { "name": "avaliarmor1pants", "data" : { "colorIndex" : [3]  } ],
+            "head": [ { "name": "avaliarmor1head", "data" : { "colorIndex" : [3] } } ],
+            "chest": [ { "name": "avaliguardtier2chest", "data" : { "colorIndex" : [3] } } ],
+            "legs": [  { "name": "avaliarmor1pants", "data" : { "colorIndex" : [3] } } ],
             "primary": [ { "name": "avalitier2pistol" } ],
             "sheathedprimary": [ { "name": "avalitier2dagger" } ]
           },
           {
-            "head": [ { "name": "avaliarmor2head", "data" : { "colorIndex" : [3]  } ],
-            "chest": [ { "name": "avaliguardtier2chest", "data" : { "colorIndex" : [3]  } ],
-            "legs": [  { "name": "avaliarmor2pants", "data" : { "colorIndex" : [3]  } ],
+            "head": [ { "name": "avaliarmor2head", "data" : { "colorIndex" : [3] } } ],
+            "chest": [ { "name": "avaliguardtier2chest", "data" : { "colorIndex" : [3] } } ],
+            "legs": [  { "name": "avaliarmor2pants", "data" : { "colorIndex" : [3] } } ],
             "primary": [ { "name": "avalitier2rifle" } ],
             "sheathedprimary": [ { "name": "avalitier2shortsword" } ],
             "alt": [ { "name": "generatedshield", "data" : { "definition" : "avalitier2barrier" } } ]
-          },
-          {
-            "head": [ { "name": "avaliarmor3head", "data" : { "colorIndex" : [3]  } ],
-            "chest": [ { "name": "avaliguardtier2chest", "data" : { "colorIndex" : [3]  } ],
-            "legs": [  { "name": "avaliarmor3pants", "data" : { "colorIndex" : [3]  } ],
-            "primary": [ { "name": "avalitier2minigun" } ],
-            "sheathedprimary": [ { "name": "avalitier2spear" } ]
-            ]
           }
         ]
       ],
@@ -62,55 +47,19 @@
         3,
         [
           {
-            "head": [ { "name": "avaliarmor1head", "data" : { "colorIndex" : [3]  } ],
-            "chest": [ { "name": "avaliguardtier3chest", "data" : { "colorIndex" : [3]  } ],
-            "legs": [  { "name": "avaliarmor1pants", "data" : { "colorIndex" : [3]  } ],
+            "head": [ { "name": "avaliarmor1head", "data" : { "colorIndex" : [3] } } ],
+            "chest": [ { "name": "avaliguardtier3chest", "data" : { "colorIndex" : [3] } } ],
+            "legs": [  { "name": "avaliarmor1pants", "data" : { "colorIndex" : [3] } } ],
             "primary": [ { "name": "avalitier3pistol" } ],
             "sheathedprimary": [ { "name": "avalitier3dagger" } ]
           },
           {
-            "head": [ { "name": "avaliarmor2head", "data" : { "colorIndex" : [3]  } ],
-            "chest": [ { "name": "avaliguardtier3chest", "data" : { "colorIndex" : [3]  } ],
-            "legs": [  { "name": "avaliarmor2pants", "data" : { "colorIndex" : [3]  } ],
+            "head": [ { "name": "avaliarmor2head", "data" : { "colorIndex" : [3] } } ],
+            "chest": [ { "name": "avaliguardtier3chest", "data" : { "colorIndex" : [3] } } ],
+            "legs": [  { "name": "avaliarmor2pants", "data" : { "colorIndex" : [3] } } ],
             "primary": [ { "name": "avalitier3rifle" } ],
             "sheathedprimary": [ { "name": "avalitier3shortsword" } ],
             "alt": [ { "name": "generatedshield", "data" : { "definition" : "avalitier3barrier" } } ]
-          },
-          {
-            "head": [ { "name": "avaliarmor3head", "data" : { "colorIndex" : [3]  } ],
-            "chest": [ { "name": "avaliguardtier3chest", "data" : { "colorIndex" : [3]  } ],
-            "legs": [  { "name": "avaliarmor3pants", "data" : { "colorIndex" : [3]  } ],
-            "primary": [ { "name": "avalitier3minigun" } ],
-            "sheathedprimary": [ { "name": "avalitier3spear" } ]
-            ]
-          }
-        ]
-      ],
-      [
-        4,
-        [
-          {
-            "head": [ { "name": "avaliarmor1head", "data" : { "colorIndex" : [3]  } ],
-            "chest": [ { "name": "avaliguardtier4chest", "data" : { "colorIndex" : [3]  } ],
-            "legs": [  { "name": "avaliarmor1pants", "data" : { "colorIndex" : [3]  } ],
-            "primary": [ { "name": "avalitier4pistol" } ],
-            "sheathedprimary": [ { "name": "avalitier4dagger" } ]
-          },
-          {
-            "head": [ { "name": "avaliarmor2head", "data" : { "colorIndex" : [3]  } ],
-            "chest": [ { "name": "avaliguardtier4chest", "data" : { "colorIndex" : [3]  } ],
-            "legs": [  { "name": "avaliarmor2pants", "data" : { "colorIndex" : [3]  } ],
-            "primary": [ { "name": "avalitier4rifle" } ],
-            "sheathedprimary": [ { "name": "avalitier4shortsword" } ],
-            "alt": [ { "name": "generatedshield", "data" : { "definition" : "avalitier4barrier" } } ]
-          },
-          {
-            "head": [ { "name": "avaliarmor3head", "data" : { "colorIndex" : [3]  } ],
-            "chest": [ { "name": "avaliguardtier4chest", "data" : { "colorIndex" : [3]  } ],
-            "legs": [  { "name": "avaliarmor3pants", "data" : { "colorIndex" : [3]  } ],
-            "primary": [ { "name": "avalitier4minigun" } ],
-            "sheathedprimary": [ { "name": "avalitier4spear" } ]
-            ]
           }
         ]
       ]
