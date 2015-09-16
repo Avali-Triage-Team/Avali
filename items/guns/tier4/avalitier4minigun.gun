@@ -27,5 +27,8 @@
   "muzzleEffect" : {
     "animation" : "/animations/muzzleflash/electromuzzle/electromuzzle.animation",    
     "fireSound" : [ { "file" : "/sfx/gun/plasma_ar1.wav" } ]
-  }
+  },
+
+  "learnBlueprintsOnPickup" : [ "avalitier5minigun" ]
+}
 }
