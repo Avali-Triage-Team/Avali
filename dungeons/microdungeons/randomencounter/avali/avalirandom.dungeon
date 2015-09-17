@@ -2851,7 +2851,9 @@
                 "merchant": {
                   "storeRadius": 2,
                   "categories": [
-                    "avaliweapons"
+                    "avaliguns",
+                    "randomguns,
+                    "randomswords"
                   ],
                   "priceVarianceRange": [
                     0.8,
@@ -2876,7 +2878,7 @@
         16,
         255
       ],
-      "comment": "avali instrument merchant npc",
+      "comment": "avali general merchant npc",
       "brush": [
         [
           "npc",
@@ -2890,7 +2892,8 @@
                 "merchant": {
                   "storeRadius": 2,
                   "categories": [
-                    "avaliinstruments"
+                    "musicalinstruments",
+                    "basicmerchant"
                   ],
                   "priceVarianceRange": [
                     0.8,
@@ -2929,7 +2932,7 @@
                 "merchant": {
                   "storeRadius": 2,
                   "categories": [
-                    "avalifarmer"
+                    "avaliingredients"
                   ],
                   "priceVarianceRange": [
                     0.8,
