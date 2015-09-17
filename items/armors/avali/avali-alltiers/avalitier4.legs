@@ -8,6 +8,7 @@
   "description" : "Armoured plates inserted into Avali armour. Equip these in your armour slots, and place your clothing or armour in the vanity slots.",
   "shortdescription" : "Durasteel Leg Inserts",
   "tooltipKind" : "armor",
+  "learnBlueprintsOnPickup" : [ "avalitier5pants", "avalitier6pants", "avalitier7pants" ],
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",
@@ -73,10 +74,4 @@
     { "ffca8a" : "e6e9ea", "e0975c" : "c6d2d4", "a85636" : "97abac", "6f2919" : "627677" }
     */
   ],
-
-  "learnBlueprintsOnPickup" : [
-    "avalitier5pants",
-    "avalitier6pants",
-    "avalitier7pants"
-  ]
 }

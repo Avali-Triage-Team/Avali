@@ -13,6 +13,7 @@
   "recoilTime" : 0.1,
   "handPosition" : [-4.0, 4],
   "firePosition" : [18, -3],
+  "learnBlueprintsOnPickup" : [ "avalitier5minigun" ],
 
   "fireTime" : 0.10,
   "twoHanded" : true,
@@ -27,8 +28,5 @@
   "muzzleEffect" : {
     "animation" : "/animations/muzzleflash/electromuzzle/electromuzzle.animation",    
     "fireSound" : [ { "file" : "/sfx/gun/plasma_ar1.wav" } ]
-  },
-
-  "learnBlueprintsOnPickup" : [ "avalitier5minigun" ]
-}
+  }
 }

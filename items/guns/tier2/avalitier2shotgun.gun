@@ -19,6 +19,7 @@
   "fireTime" : 0.85,
   "twoHanded" : true,
   "walkWhileFiring" : false,
+  "learnBlueprintsOnPickup" : [ "avalitier3shotgun" ],
 
   "projectileType" : "railgun1",
   "projectile" : {
@@ -31,7 +32,5 @@
   "muzzleEffect" : {
     "animation" : "/animations/muzzleflash/electromuzzle/electromuzzle.animation",  
     "fireSound" : [ { "file" : "/sfx/gun/plasma_shotgun4.wav" } ]
-  },
-
-  "learnBlueprintsOnPickup" : [ "avalitier3shotgun" ]
+  }
 }

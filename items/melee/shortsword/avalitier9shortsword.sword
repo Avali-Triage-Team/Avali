@@ -9,6 +9,7 @@
   "shortdescription" : "VBM1 Shard",
   "tooltipKind" : "sword",
   "weaponType" : "Shortsword",
+  "learnBlueprintsOnPickup" : [ "avalitier10shortsword" ],
 
   "image" : "avalitier9shortsword.png",
   "firePosition" : [22, -2],

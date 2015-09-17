@@ -2,6 +2,7 @@
   "name" : "avalitier3barrier",
   "kind" : "avalitier3",
   "description" : "Protects the user from a programmed amount of damage.",
+  "learnBlueprintsOnPickup" : [ "avalitier4barrier" ],
 
 
   "price" : 100,
@@ -33,8 +34,4 @@
   "tooltipKind" : "shield",
   "health" : 200.0,
   "healthRegen" : 0.10
-  
-  "learnBlueprintsOnPickup" : [
-    "avalitier4barrier"
-  ]
 }

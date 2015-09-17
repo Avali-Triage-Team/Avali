@@ -9,6 +9,7 @@
   "shortdescription" : "SKM1 Glacier",
   "tooltipKind" : "sword",
   "weaponType" : "Hammer",
+  "learnBlueprintsOnPickup" : [ "avalitier10hammer" ],
 
   "image" : "avalitier9hammer.png",
   "firePosition" : [12.5, -3.5],

@@ -9,6 +9,7 @@
   "shortdescription" : "VLA1 Icicle",
   "tooltipKind" : "sword",
   "weaponType" : "Spear",
+  "learnBlueprintsOnPickup" : [ "avalitier6spear" ],
 
   "image" : "avalitier5spear.png",
   "firePosition" : [32.5, -8.5],

@@ -17,6 +17,7 @@
   "fireTime" : 1.8,
   "inaccuracy" : 0.01,
   "twoHanded" : true,
+  "learnBlueprintsOnPickup" : [ "avalitier2sniper" ],
   
   "fireOnRelease" : true,
   "walkWhileFiring" : true,
@@ -36,6 +37,5 @@
   "muzzleEffect" : {
     "animation" : "/animations/snipermuzzle/snipermuzzle.animation",  
     "fireSound" : [ { "file" : "/sfx/gun/plasma_sniper3.wav" } ]
-  },
-  "learnBlueprintsOnPickup" : [ "avalitier2sniper" ]
+  }
 }

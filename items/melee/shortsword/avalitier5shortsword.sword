@@ -9,6 +9,7 @@
   "shortdescription" : "VBA1 Shard",
   "tooltipKind" : "sword",
   "weaponType" : "Shortsword",
+  "learnBlueprintsOnPickup" : [ "avalitier6shortsword" ],
 
   "image" : "avalitier5shortsword.png",
   "firePosition" : [22, -2],

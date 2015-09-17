@@ -8,6 +8,7 @@
   "description" : "Armoured plates inserted into Avali armour, made at the Seperator table. Equip these in your armour slots, and place your clothing or armour in the vanity slots.",
   "shortdescription" : "Seperator-Violium Leg Inserts",
   "tooltipKind" : "armor",
+  "learnBlueprintsOnPickup" : [ "avalitier10pants" ],
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",
@@ -73,8 +74,4 @@
     { "ffca8a" : "e6e9ea", "e0975c" : "c6d2d4", "a85636" : "97abac", "6f2919" : "627677" }
     */
   ],
-
-  "learnBlueprintsOnPickup" : [
-    "avalitier10pants"
-  ]
 }
