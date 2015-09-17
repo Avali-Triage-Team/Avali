@@ -32,11 +32,7 @@
           ],
           "head" : [
             { "name" : "avaliracial1head", "data" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11] } },
-            { "name" : "avaliracial2head", "data" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11] } },
-            { "name" : "avalihat1", "data" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11] } },
-            { "name" : "avalihat2", "data" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11] } },
-            { "name" : "avalihat3", "data" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11] } },
-            { "name" : "avalihat4", "data" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11] } }
+            { "name" : "avaliracial2head", "data" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11] } }
           ]
         }
       ] ]

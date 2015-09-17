@@ -36,5 +36,7 @@
   "muzzleEffect" : {
     "animation" : "/animations/snipermuzzle/snipermuzzle.animation", 
     "fireSound" : [ { "file" : "/sfx/gun/plasma_sniper3.wav" } ]
-  }
+	},
+
+  "learnBlueprintsOnPickup" : [ "avalitier6sniper" ]
 }
