@@ -32,14 +32,14 @@
   "inventoryIcon" : "avalistriplighticon.png",
   "orientations" : [
 	{
-      "image" : "avalistriplight2.png:<color>.<frame>",
+      "image" : "avalistriplight.png:<color>.<frame>",
       "frames" : 1,
       "animationCycle" : 0.5,
       "imagePosition" : [0, 0],
 	  "direction" : "right",
 	  
 	  "animationParts" : {
-      "light" : "avalistriplight2.png"
+      "light" : "avalistriplight.png"
 	  },
 	  "animationPosition" : [0, 0],
 
@@ -49,14 +49,14 @@
       "beamAngle" : 0
     },
 	{
-      "image" : "avalistriplight2.png:<color>.<frame>",
+      "image" : "avalistriplight.png:<color>.<frame>",
       "frames" : 1,
       "animationCycle" : 0.5,
       "imagePosition" : [0, 0],
 	  "direction" : "right",
 	  
 	  "animationParts" : {
-      "light" : "avalistriplight2.png"
+      "light" : "avalistriplight.png"
 	  },
 	  "animationPosition" : [0, 0],
 
