@@ -22,19 +22,33 @@
   "inventoryIcon" : "avalicushion1icon.png",
   "orientations" : [
     {
-      "dualImage" : "avalicushion1.png:<color>",
+      "image" : "avalicushion1.png:<color>",
 
       "imagePosition" : [-8, 0],
+	  "flipImages" : true,
+      "direction" : "left",
       "frames" : 1,
       "animationCycle" : 1.0,
+	  "sitPosition" : [0, 24],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
 
+    },
+	 {
+      "image" : "avalicushion1.png:<color>",
+
+      "imagePosition" : [-8, 0],
+	  "direction" : "right",
+      "frames" : 1,
+      "animationCycle" : 1.0,
+	  "sitPosition" : [8, 24],
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
 
     }
   ],
 
-  "objectType" : "loungeable",
-  "sitPosition" : [3, 24]
+  "objectType" : "loungeable"
 
 }
+
