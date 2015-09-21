@@ -9,7 +9,6 @@
   "shortdescription" : "VL4 Icicle",
   "tooltipKind" : "sword",
   "weaponType" : "Spear",
-  "learnBlueprintsOnPickup" : [ "avalitier5spear" ],
 
   "image" : "avalitier4spear.png",
   "firePosition" : [32.5, -8.5],

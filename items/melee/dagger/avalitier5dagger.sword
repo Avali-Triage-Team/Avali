@@ -9,7 +9,6 @@
   "shortdescription" : "HHA1 Frost",
   "tooltipKind" : "sword",
   "weaponType" : "Fist Weapon",
-  "learnBlueprintsOnPickup" : [ "avalitier6dagger" ],
 
   "image" : "avalitier5dagger.png",
   "firePosition" : [13.5, -1.5],

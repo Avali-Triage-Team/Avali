@@ -13,7 +13,7 @@
   "recoilTime" : 0.1,
   "handPosition" : [-3, 3],
   "firePosition" : [13, 8],
-  "learnBlueprintsOnPickup" : [ "avalitier3rifle", "avalitier2riflebounce", "avalitier2rifleexplosive" ],
+  "learnBlueprintsOnPickup" : [ "avalitier2riflebounce", "avalitier2rifleexplosive" ],
 
   "fireTime" : 0.3,
   "twoHanded" : true,

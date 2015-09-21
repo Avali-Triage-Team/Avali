@@ -9,7 +9,6 @@
   "shortdescription" : "VB-XL4 Dire Shard",
   "tooltipKind" : "sword",
   "weaponType" : "Broadsword",
-  "learnBlueprintsOnPickup" : [ "avalitier5broadsword" ],
 
   "image" : "avalitier4broadsword.png",
   "firePosition" : [15.5, 4.5],

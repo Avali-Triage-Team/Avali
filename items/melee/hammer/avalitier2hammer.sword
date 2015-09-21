@@ -9,7 +9,6 @@
   "shortdescription" : "SK2 Glacier",
   "tooltipKind" : "sword",
   "weaponType" : "Hammer",
-  "learnBlueprintsOnPickup" : [ "avalitier3hammer" ],
 
   "image" : "avalitier2hammer.png",
   "firePosition" : [12.5, -3.5],

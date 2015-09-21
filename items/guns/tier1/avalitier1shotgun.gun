@@ -19,7 +19,6 @@
   "fireTime" : 0.85,
   "twoHanded" : true,
   "walkWhileFiring" : false,
-  "learnBlueprintsOnPickup" : [ "avalitier2shotgun" ],
 
   "projectileType" : "railgun1",
   "projectile" : {

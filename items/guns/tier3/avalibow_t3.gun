@@ -9,7 +9,7 @@
   "shortdescription" : "CB3 Lancer",
   "image" : "AvaliBowFull_t3.png:<frame>",
   "imageFrameSelector" : "bowImageSelector",
-  "learnBlueprintsOnPickup" : [ "AvaliBowDisplay01_tier3", "AvaliBow_t4" ],
+  "learnBlueprintsOnPickup" : [ "AvaliBowDisplay01_tier3" ],
   "handPosition" : [3, 0],
   "firePosition" : [20, 1.5],
   "level" : 7,

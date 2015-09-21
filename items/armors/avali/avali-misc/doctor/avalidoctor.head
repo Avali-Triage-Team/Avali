@@ -1,0 +1,21 @@
+{
+  "itemName" : "avalidoctorhead",
+  "inventoryIcon" : "icons.png:head",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "Keeps the germs out.",
+  "shortdescription" : "Surgical mask",
+  "inspectionstat" : "armor",
+
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+    "mask" : "mask.png",
+
+  "statusEffects" : [
+    {
+      "stat" : "protection",
+      "amount" : 0
+    }
+  ]
+}

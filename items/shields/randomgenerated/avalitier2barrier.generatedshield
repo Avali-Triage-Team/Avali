@@ -2,8 +2,7 @@
   "name" : "avalitier2barrier",
   "kind" : "avalitier2",
   "description" : "Protects the user from a programmed amount of damage.",
-  "learnBlueprintsOnPickup" : [ "avalitier3barrier" ],
-
+  "shortdescription" : "Avali shield",
 
   "price" : 100,
   "rarity" : "uncommon",

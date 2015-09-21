@@ -17,7 +17,6 @@
   "fireTime" : 1.8,
   "inaccuracy" : 0.01,
   "twoHanded" : true,
-  "learnBlueprintsOnPickup" : [ "avalitier2sniper" ],
   
   "fireOnRelease" : true,
   "walkWhileFiring" : true,

@@ -13,7 +13,6 @@
   "recoilTime" : 0.1,
   "handPosition" : [-4.0, 4],
   "firePosition" : [18, -3],
-  "learnBlueprintsOnPickup" : [ "avalitier4minigun" ],
 
   "fireTime" : 0.10,
   "twoHanded" : true,

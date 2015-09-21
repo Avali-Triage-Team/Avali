@@ -9,7 +9,6 @@
   "shortdescription" : "HH4 Frost",
   "tooltipKind" : "sword",
   "weaponType" : "Fist Weapon",
-  "learnBlueprintsOnPickup" : [ "avalitier5dagger" ],
 
   "image" : "avalitier4dagger.png",
   "firePosition" : [13.5, -1.5],
