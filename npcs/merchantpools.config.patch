@@ -46,24 +46,6 @@
       ] ]
     ]
   },
---	Use this section to add extra merchants pools  
---  { "op" : "add",
---    "path" : ".",
---    "value" : [
---      [ 0, [
---       { "item" : { "name" : "xxxxx" } },
---        { "item" : { "name" : "xxxxx" } },
---        { "item" : { "name" : "xxxxx" } },
---        { "item" : { "name" : "xxxxx" } },
---        { "item" : { "name" : "xxxxx" } },
---        { "item" : { "name" : "xxxxx" } },
---        { "item" : { "name" : "xxxxx" } },
---        { "item" : { "name" : "xxxxx" } },
---        { "item" : { "name" : "xxxxx" } },
---        { "item" : { "name" : "xxxxx" } }
---      ] ]
---    ]
-  },
   { "op" : "add",
     "path" : "/avaliingredients",
     "value" : [
