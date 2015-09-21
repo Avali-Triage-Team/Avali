@@ -1,0 +1,33 @@
+[
+  {
+    "op": "add",
+    "path": "/items/avali",
+    "value": [
+      [
+        0,
+        [
+          {
+            "head": [
+              "avaliscientisthead"
+            ],
+            "chest": [
+              "avaliscientistarms"
+            ],
+            "legs": [
+              "avaliscientistpants"
+            ],
+            "sheathedprimary": [
+              [
+                "generatedgun",
+                1,
+                {
+                  "definition": "commonplasmapistol"
+                }
+              ]
+            ]
+          }
+        ]
+      ]
+    ]
+  }
+]
