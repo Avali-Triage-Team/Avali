@@ -1,0 +1,33 @@
+[
+  {
+    "op": "add",
+    "path": "/items/avali",
+    "value": [
+      [
+        0,
+        [
+          {
+            "head": [
+              "avalichefhead"
+            ],
+            "chest": [
+              "avalichefchest"
+            ],
+            "legs": [
+              "avalichefpants"
+            ],
+            "sheathedprimary": [
+              [
+                "generatedsword",
+                1,
+                {
+                  "definition": "commondagger"
+                }
+              ]
+            ]
+          }
+        ]
+      ]
+    ]
+  }
+]
