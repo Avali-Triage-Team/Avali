@@ -10,7 +10,7 @@
   "footstepSound" : "/sfx/blocks/footstep_composite.wav",
   "tillableMod" : 12000,
   "soil" : true,
-  "health" : 1,
+  "health" : 8,
   "category": "materials",
 
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
@@ -18,7 +18,7 @@
     "texture" : "avaliaeroponics.png",
     "variants" : 1,
     "lightTransparent" : true,
-    "occludesBelow" : false,
+    "occludesBelow" : true,
     "multiColored" : true,
     "zLevel" : 0
   }
