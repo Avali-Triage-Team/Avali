@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "refinedaegisalt", "count" : 6 }
+  ],
+  "output" : { "item" : "avalitier5ahead", "count" : 1 },
+  "groups" : [ "acceleratortable", "armors", "all" ]
+}

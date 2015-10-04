@@ -1,27 +1,18 @@
 [
   {
     "op" : "add",
-    "path" : "/items/avali",
-    "value" : [
-      [0,
-        [
-          {
-            "head" : [
-              { "name" : "devhead", "parameters" : { "colorIndex" : 0 } },
-              { "name" : "mininghathead", "parameters" : { "colorIndex" : 0 } }
-            ],
-            "chest" : [
-              { "name" : "avaliracial2chest", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10] } }
-            ],
-            "legs" : [
-              { "name" : "avaliracial2pants", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10] } }
-            ],
-            "primary" : [
-              { "name" : "pickaxe" }
-            ]
-          }
-        ]
-      ]
+      "path" : "/items/avali",
+      "value" : [
+        [0,
+          [
+            {
+			"chest" : [ "avaliracial2chest" ],
+			"legs" : [ "avaliracial2pants" ],
+			"back" : [ "lanternstickback" ],
+			"primary" : [ { "name" : "pickaxe" } ]
+			}
+		 ]    
+	  ]
     ]
   }
 ]
