@@ -1,0 +1,33 @@
+[
+  {
+    "op": "add",
+    "path": "/items/avali",
+    "value": [
+      [
+        0,
+        [
+          {
+			"head": [ { "name": "avalieyemask", "data" : { "colorIndex" : [1] } } ],
+			"chest": [ { "name": "avaliguardtier1chest", "data" : { "colorIndex" : [1] } } ],
+			"legs": [  { "name": "avaliarmor2pants", "data" : { "colorIndex" : [1] } } ],
+            "primary" : [
+              [ "generatedsword", 1, { "definition" : "commondagger" } ],
+              [ "generatedsword", 1, { "definition" : "commonaxe" } ],
+              [ "generatedsword", 1, { "definition" : "commonshortsword" } ],
+              [ "generatedsword", 1, { "definition" : "commonbroadsword" } ],
+              [ "generatedsword", 1, { "definition" : "commonhammer" } ],
+              [ "generatedgun", 1, { "definition" : "commonassaultrifle" } ],
+              [ "generatedgun", 1, { "definition" : "commonpistol" } ],
+              [ "generatedgun", 1, { "definition" : "commonmachinepistol" } ],
+              [ "generatedgun", 1, { "definition" : "commonshotgun" } ],
+              [ "generatedgun", 1, { "definition" : "commonsniperrifle" } ]
+            ],
+            "alt" : [
+              { "name" : "flashlight" }
+            ]
+          }
+        ]
+      ]
+    ]
+  }
+]

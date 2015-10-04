@@ -14,7 +14,7 @@
               "avalidoctorarms"
             ],
             "legs": [
-              "avalidoctorpants"
+              { "name" : "avaliscientistpants", "parameters" : { "colorIndex" : [3] } }
             ],
             "sheathedprimary": [
               [

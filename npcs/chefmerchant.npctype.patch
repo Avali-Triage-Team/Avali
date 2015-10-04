@@ -8,13 +8,10 @@
         [
           {
             "head": [
-              "avalichefhead"
-            ],
-            "chest": [
-              "avalichefchest"
+              "chefhead"
             ],
             "legs": [
-              "avalichefpants"
+              "avaliscientistpants"
             ],
             "sheathedprimary": [
               [

@@ -8,13 +8,10 @@
         [
           {
             "head": [
-              "avaliscientisthead"
-            ],
-            "chest": [
-              "avaliscientistarms"
+              { "name" : "avaliscientisthead", "parameters" : { "colorIndex" : [4] } }
             ],
             "legs": [
-              "avaliscientistpants"
+              { "name" : "avaliscientistpants", "parameters" : { "colorIndex" : [2] } }
             ],
             "sheathedprimary": [
               [
