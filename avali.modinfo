@@ -1,6 +1,6 @@
 {
 	"name" : "Avali",
-  "includes" : [ "FrackinUniverse" ],
+	"includes" : [ "FrackinUniverse" ],
 	"metadata" : {
     "displayName" : "Avali Race Mod",
 		"author" : "RyuujinZero",

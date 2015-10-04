@@ -6,4 +6,11 @@
 	{ "op":"add", "path": "/planetTypes/jungle/layers/surface/dungeons/-", "value": "avalicamp" },
 	{ "op":"add", "path": "/planetTypes/tundra/layers/surface/dungeons/-", "value": "avalicamp" },
 	{ "op":"add", "path": "/planetTypes/snow/layers/surface/dungeons/-", "value": "avalicamp" }
+	
+//This section adds dungeon generation to certain Frackin Universe biomes
+	/*{ "op":"add", "path" : "/planetTypes/mountainous/layers/surface/dungeons/-", "value": "avalicamp" },
+    { "op":"add", "path" : "/planetTypes/frozenvolcanic/layers/surface/dungeons/-", "value": "avalicamp" },
+    { "op":"add", "path" : "/planetTypes/icewaste/layers/surface/dungeons/-", "value": "avalicamp" }*/
+	
 ]
+
