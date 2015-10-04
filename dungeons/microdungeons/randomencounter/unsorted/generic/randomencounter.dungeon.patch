@@ -69,7 +69,7 @@
           {
             "kind": "npc",
             "species": "avali",
-            "typeName": "bandit",
+            "typeName": "avalibandit",
             "parameters": {
               "persistent": true
             }

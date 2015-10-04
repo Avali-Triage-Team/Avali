@@ -1,11 +1,14 @@
-[
-  {
-    "op": "add",
-    "path": "/items/avali",
-    "value": [
-      [
-        0,
-        [
+{
+  "type" : "bandit",
+  "baseType" : "hostile",
+
+  "levelVariance" : [0, 0],
+
+  "dropPools" : [ "banditTreasure" ],
+  
+  "items" : {
+    "override" : [
+      [0, [
           {
 			"head": [ { "name": "avalieyemask", "data" : { "colorIndex" : [1] } } ],
 			"chest": [ { "name": "avaliguardtier1chest", "data" : { "colorIndex" : [1] } } ],
@@ -16,6 +19,7 @@
               [ "generatedsword", 1, { "definition" : "commonshortsword" } ],
               [ "generatedsword", 1, { "definition" : "commonbroadsword" } ],
               [ "generatedsword", 1, { "definition" : "commonhammer" } ],
+              [ "generatedsword", 1, { "definition" : "commonspear" } ],
               [ "generatedgun", 1, { "definition" : "commonassaultrifle" } ],
               [ "generatedgun", 1, { "definition" : "commonpistol" } ],
               [ "generatedgun", 1, { "definition" : "commonmachinepistol" } ],
@@ -26,8 +30,7 @@
               { "name" : "flashlight" }
             ]
           }
-        ]
-      ]
+        ] ]
     ]
   }
-]
+}
