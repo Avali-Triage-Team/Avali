@@ -1,5 +1,5 @@
 {
-  "type" : "bandit",
+  "type" : "avalibandit",
   "baseType" : "hostile",
 
   "levelVariance" : [0, 0],
