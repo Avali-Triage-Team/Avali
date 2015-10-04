@@ -36,8 +36,18 @@
         "levelVariance" : [0, 0],
         "allowDuplication" : false
       } ]
-  ]
+	],
+	"dragoontreasure" : [
+		[ 0, {
+			"pool" : [
+			        { "weight" : 0.60, "pool" : "money" },
+			        { "weight" : 0.20, "item" : [ "avalitoken", 1 ] }
+			],
+			"poolRounds" : [
+				[0.8, 1],
+				[0.2, 2]
+			]
+		} ]
+	]
 }
-
-
 

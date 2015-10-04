@@ -1,83 +1,48 @@
 [
   { "op" : "add",
-    "path" : "/avaliweapons",
+    "path" : "/avaliguns",
     "value" : [
       [ 0, [
-        { "item": { "name": "avalitier1pistol" } },
-        { "item": { "name": "avalitier1rifle" } },
-        { "item": { "name": "avalitier1sniper" } },
-        { "item": { "name": "avalitier1minigun" } },
-        { "item": { "name": "avalitier1shotgun" } }
+        { "item": { "name": "avalitier1pistol" }, "rarity" : 0.1 },
+        { "item": { "name": "avalitier1rifle" }, "rarity" : 0.1 },
+        { "item": { "name": "avalitier1sniper" }, "rarity" : 0.1 },
+        { "item": { "name": "avalitier1minigun" }, "rarity" : 0.1 },
+        { "item": { "name": "avalitier1shotgun" }, "rarity" : 0.1 }
       ] ],
       [ 2, [
-        { "item": { "name": "avalitier2pistol" } },
-        { "item": { "name": "avalitier2rifle" } },
-        { "item": { "name": "avalitier2sniper" } },
-        { "item": { "name": "avalitier2minigun" } },
-        { "item": { "name": "avalitier2shotgun" } }
+        { "item": { "name": "avalitier2pistol" }, "rarity" : 0.1 },
+        { "item": { "name": "avalitier2rifle" }, "rarity" : 0.1 },
+        { "item": { "name": "avalitier2sniper" }, "rarity" : 0.1 },
+        { "item": { "name": "avalitier2minigun" }, "rarity" : 0.1 },
+        { "item": { "name": "avalitier2shotgun" }, "rarity" : 0.1 }
       ] ],
       [ 3, [
-        { "item": { "name": "avalitier3pistol" } },
-        { "item": { "name": "avalitier3rifle" } },
-        { "item": { "name": "avalitier3sniper" } },
-        { "item": { "name": "avalitier3minigun" } },
-        { "item": { "name": "avalitier3shotgun" } }
+        { "item": { "name": "avalitier3pistol" }, "rarity" : 0.1 },
+        { "item": { "name": "avalitier3rifle" }, "rarity" : 0.1 },
+        { "item": { "name": "avalitier3sniper" }, "rarity" : 0.1 },
+        { "item": { "name": "avalitier3minigun" }, "rarity" : 0.1 },
+        { "item": { "name": "avalitier3shotgun" }, "rarity" : 0.1 }
       ] ],  
       [ 4, [
-        { "item": { "name": "avalitier4pistol" } },
-        { "item": { "name": "avalitier4rifle" } },
-        { "item": { "name": "avalitier4sniper" } },
-        { "item": { "name": "avalitier4minigun" } },
-        { "item": { "name": "avalitier4shotgun" } }
+        { "item": { "name": "avalitier4pistol" }, "rarity" : 0.1 },
+        { "item": { "name": "avalitier4rifle" }, "rarity" : 0.1 },
+        { "item": { "name": "avalitier4sniper" }, "rarity" : 0.1 },
+        { "item": { "name": "avalitier4minigun" }, "rarity" : 0.1 },
+        { "item": { "name": "avalitier4shotgun" }, "rarity" : 0.1 }
       ] ],  
       [ 5, [
-        { "item": { "name": "avalitier5pistol" } },
-        { "item": { "name": "avalitier5rifle" } },
-        { "item": { "name": "avalitier5sniper" } },
-        { "item": { "name": "avalitier5minigun" } },
-        { "item": { "name": "avalitier5shotgun" } }
+        { "item": { "name": "avalitier5pistol" }, "rarity" : 0.1 },
+        { "item": { "name": "avalitier5rifle" }, "rarity" : 0.1 },
+        { "item": { "name": "avalitier5sniper" }, "rarity" : 0.1 },
+        { "item": { "name": "avalitier5minigun" }, "rarity" : 0.1 },
+        { "item": { "name": "avalitier5shotgun" }, "rarity" : 0.1 }
       ] ],  
       [ 6, [
-        { "item": { "name": "avalitier6pistol" } },
-        { "item": { "name": "avalitier6rifle" } },
-        { "item": { "name": "avalitier6sniper" } },
-        { "item": { "name": "avalitier6minigun" } },
-        { "item": { "name": "avalitier6shotgun" } }
-      ] ]
-    ]
-  },
-  { "op" : "add",
-    "path" : "/avaliinstruments",
-    "value" : [
-      [ 0, [
-        { "item" : { "name" : "accordion" } },
-        { "item" : { "name" : "acousticguitar" } },
-        { "item" : { "name" : "banjo" } },
-        { "item" : { "name" : "bassguitar" } },
-        { "item" : { "name" : "bones" } },
-        { "item" : { "name" : "clarinet" } },
-        { "item" : { "name" : "drumkit" } },
-        { "item" : { "name" : "dulcimer" } },
-        { "item" : { "name" : "electricbass" } },
-        { "item" : { "name" : "flute" } },
-        { "item" : { "name" : "harmonica" } },
-        { "item" : { "name" : "harp" } },
-        { "item" : { "name" : "koto" } },
-        { "item" : { "name" : "leadguitar" } },
-        { "item" : { "name" : "microphone" } },
-        { "item" : { "name" : "microphonefem" } },
-        { "item" : { "name" : "musicbox" } },
-        { "item" : { "name" : "nylonguitar" } },
-        { "item" : { "name" : "oboe" } },
-        { "item" : { "name" : "ocarina" } },
-        { "item" : { "name" : "overdriveguitar" } },
-        { "item" : { "name" : "piano" } },
-        { "item" : { "name" : "reedorgan" } },
-        { "item" : { "name" : "rockorgan" } },
-        { "item" : { "name" : "saxophone" } },
-        { "item" : { "name" : "steeldrum" } },
-        { "item" : { "name" : "trumpet" } },
-        { "item" : { "name" : "violin" } }
+        { "item": { "name": "avalitier6pistol" }, "rarity" : 0.1 },
+        { "item": { "name": "avalitier6rifle" }, "rarity" : 0.1 },
+        { "item": { "name": "avalitier6sniper" }, "rarity" : 0.1 },
+        { "item": { "name": "avalitier6minigun" }, "rarity" : 0.1 },
+        { "item": { "name": "avalitier6shotgun" }, "rarity" : 0.1 }
       ] ]
     ]
   },
@@ -85,14 +50,14 @@
     "path" : "/avaliingredients",
     "value" : [
       [ 0, [
-        { "item": { "name": "avaliproduce1" } },
-        { "item": { "name": "avaliproduce2" } },
-        { "item": { "name": "avaliproduce3" } },
-        { "item": { "name": "avaliflour" } },
-        { "item": { "name": "avalimeat" } },
-        { "item": { "name": "avalitaco" } },
-        { "item": { "name": "avalinoodle" } },
-        { "item": { "name": "avalinoodle2" } },
+        { "item": { "name": "avaliproduce1" }, "rarity" : 0.05 },
+        { "item": { "name": "avaliproduce2" }, "rarity" : 0.05 },
+        { "item": { "name": "avaliproduce3" }, "rarity" : 0.05 },
+        { "item": { "name": "avaliflour" }, "rarity" : 0.05 },
+        { "item": { "name": "avalimeat" }, "rarity" : 0.05 },
+        { "item": { "name": "avalitaco" }, "rarity" : 0.05 },
+        { "item": { "name": "avalinoodle" }, "rarity" : 0.05 },
+        { "item": { "name": "avalinoodle2" }, "rarity" : 0.05 },
         { "item": { "name": "avaliplant1" } },
         { "item": { "name": "avaliplant2" } },
         { "item": { "name": "avaliplant3" } }
