@@ -4,7 +4,7 @@
     "species": "dummy",
     "rules": [],
     "maxRadius": 2000,
-    "maxParts": 5,
+    "maxParts": 7,
     "anchor": [
       "avali1",
       "avali2",
@@ -413,14 +413,14 @@
         0,
         255
       ],
-      "comment": "avali platform",
+      "comment": "avali stairs",
       "brush": [
         [
           "clear"
         ],
         [
           "front",
-          "avaliplatform"
+          "avalistairs"
         ]
       ],
       "rules": [],
