@@ -5,8 +5,8 @@
   "maxStack" : 1,
   "price" : 650,
   "rarity" : "Legendary",
-  "description" : "Cerulium armoured plates inserted into Avali armour, made at the Manipulator table. Equip these in your armour slots, and place your clothing or armour in the vanity slots.",
-  "shortdescription" : "Manipulator-Cerulium Leg Inserts",
+  "description" : "Cerulium armoured plates inserted into Avali armour. Equip these in your armour slots, and place your clothing or armour in the vanity slots.",
+  "shortdescription" : "Cerulium Leg Inserts",
   "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",

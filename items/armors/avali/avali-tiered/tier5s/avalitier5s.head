@@ -5,8 +5,8 @@
   "maxStack" : 1,
   "price" : 575,
   "rarity" : "Rare",
-  "description" : "Violium armoured plates inserted into Avali armour, made at the Seperator table. Equip these in your armour slots, and place your clothing or armour in the vanity slots.",
-  "shortdescription" : "Seperator-Violium Helmet Insert",
+  "description" : "Violium armoured plates inserted into Avali armour. Equip these in your armour slots, and place your clothing or armour in the vanity slots.",
+  "shortdescription" : "Violium Helmet Insert",
   "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",

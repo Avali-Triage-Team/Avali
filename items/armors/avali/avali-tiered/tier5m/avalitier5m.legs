@@ -5,8 +5,8 @@
   "maxStack" : 1,
   "price" : 250,
   "rarity" : "Rare",
-  "description" : "Rubium armoured plates inserted into Avali armour, made at the Manipulator table. Equip these in your armour slots, and place your clothing or armour in the vanity slots.",
-  "shortdescription" : "Manipulator-Rubium Leg Inserts",
+  "description" : "Rubium armoured plates inserted into Avali armour. Equip these in your armour slots, and place your clothing or armour in the vanity slots.",
+  "shortdescription" : "Rubium Leg Inserts",
   "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",

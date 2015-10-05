@@ -2,6 +2,6 @@
   "input" : [
     { "item" : "imperviumcompound", "count" : 4 }
   ],
-  "output" : { "item" : "avalitier6shead", "count" : 1 },
+  "output" : { "item" : "avalitier6spants", "count" : 1 },
   "groups" : [ "separatortable", "armors", "all" ]
 }
