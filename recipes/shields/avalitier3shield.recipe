@@ -4,5 +4,5 @@
     { "item" : "money", "count" : 100 }
   ],
   "output" : { "item" : "generatedshield", "count" : 1, "data" : { "definition" : "avalitier3barrier", "level" : 1 } },
-  "groups" : [ "anvil", "armors", "all"]
+  "groups" : [ "metalworkstation", "armors", "all"]
 }

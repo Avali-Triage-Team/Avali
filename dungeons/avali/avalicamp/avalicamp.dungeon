@@ -4,8 +4,10 @@
     "species": "dummy",
     "rules": [],
     "maxRadius": 2000,
-    "maxParts": 10,
-    "anchor": [ "core1" ]
+    "maxParts": 30,
+    "anchor": [
+      "core1"
+    ]
   },
   "tiles": [
     {
@@ -178,7 +180,8 @@
           "clear"
         ],
         [
-          "liquid", "water"
+          "liquid",
+          "water"
         ]
       ],
       "connector": false
@@ -366,14 +369,14 @@
         0,
         255
       ],
-      "comment": "avali platform",
+      "comment": "avali stairs",
       "brush": [
         [
           "clear"
         ],
         [
           "front",
-          "avaliplatform"
+          "avalistairs"
         ]
       ],
       "rules": [],
@@ -1117,6 +1120,26 @@
     },
     {
       "value": [
+        165,
+        166,
+        121,
+        255
+      ],
+      "comment": "avali guard captain npc",
+      "brush": [
+        [
+          "npc",
+          {
+            "kind": "npc",
+            "species": "avali",
+            "typeName": "villageguardcaptain"
+          }
+        ]
+      ],
+      "connector": false
+    },
+    {
+      "value": [
         175,
         0,
         0,
@@ -1135,7 +1158,13 @@
                 "noticePlayersRadius": 20.0,
                 "merchant": {
                   "storeRadius": 2,
-                  "categories" : { "default" : [ "avaliweapons" ] },
+                  "categories": {
+                    "default": [
+                      "avaliguns",
+                      "randomguns",
+                      "randomswords"
+                    ]
+                  },
                   "priceVarianceRange": [
                     0.8,
                     1.2
@@ -1159,7 +1188,7 @@
         0,
         255
       ],
-      "comment": "avali instrument merchant npc",
+      "comment": "avali general merchant npc",
       "brush": [
         [
           "npc",
@@ -1172,7 +1201,12 @@
                 "noticePlayersRadius": 20.0,
                 "merchant": {
                   "storeRadius": 2,
-                  "categories" : { "default" : [ "avaliinstruments" ] },
+                  "categories": {
+                    "default": [
+                      "basicmerchant",
+                      "musicalinstruments"
+                    ]
+                  },
                   "priceVarianceRange": [
                     0.8,
                     1.2
@@ -1209,8 +1243,15 @@
                 "noticePlayersRadius": 20.0,
                 "merchant": {
                   "storeRadius": 2,
-                  "categories" : { "default" : [ "avaliingredients" ] },
-                  "priceVarianceRange": [0.8, 1.2],
+                  "categories": {
+                    "default": [
+                      "avaliingredients"
+                    ]
+                  },
+                  "priceVarianceRange": [
+                    0.8,
+                    1.2
+                  ],
                   "numItems": 9
                 },
                 "sit": {
@@ -2353,7 +2394,8 @@
           "avalipaneling"
         ]
       ],
-      "rules": []
+      "rules": [],
+      "connector": false
     },
     {
       "value": [
@@ -2376,7 +2418,8 @@
           "avalipaneling"
         ]
       ],
-      "rules": []
+      "rules": [],
+      "connector": false
     }
   ],
   "parts": [

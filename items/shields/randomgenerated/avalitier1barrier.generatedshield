@@ -2,7 +2,7 @@
   "name" : "avalitier1barrier",
   "kind" : "avalitier1",
   "description" : "Protects the user from a programmed amount of damage.",
-
+  "shortdescription" : "Avali shield",
 
   "price" : 100,
   "rarity" : "uncommon",

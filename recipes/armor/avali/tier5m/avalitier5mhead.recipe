@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "refinedrubium", "count" : 6 }
+  ],
+  "output" : { "item" : "avalitier5mhead", "count" : 1 },
+  "groups" : [ "manipulatortable", "armors", "all" ]
+}

@@ -7,29 +7,56 @@
         0,
         [
           {
-          "head" : [ 
-            { "name" : "avaliarmor1head", "data" : { "colorIndex" : [7] } },
-            { "name" : "avaliarmor2head", "data" : { "colorIndex" : [7] } },
-            { "name" : "avaliarmor3head", "data" : { "colorIndex" : [7] } },
-            { "name" : "avaliracial1head", "data" : { "colorIndex" : [7] } },
-            { "name" : "avaliracial2head", "data" : { "colorIndex" : [7] } }
-          ],
-          "chest" : [
-            { "name" : "avaliset1bchest", "data" : { "colorIndex" : [7] } },
-            { "name" : "avaliset5chest", "data" : { "colorIndex" : [7] } },
-            { "name" : "avaliset5bchest", "data" : { "colorIndex" : [7] } },
-            { "name" : "avaliset5cchest", "data" : { "colorIndex" : [7] } }
-          ],
-          "legs" : [
-            { "name" : "avaliarmor3pants", "data" : { "colorIndex" : [7] } },
-            { "name" : "avaliarmor2pants", "data" : { "colorIndex" : [7] } }
-          ],
-          "primary" : [
-            { "name" : "avalitier4shotgun" }
-          ],
-          "sheathedprimary" : [
-            { "name" : "avalitier4spear" }
-          ]
+            "head": [ { "name": "avaliarmor5head", "data" : { "colorIndex" : [3] } } ],
+            "chest": [ { "name": "avaliguardtier1chest", "data" : { "colorIndex" : [3] } } ],
+            "legs": [  { "name": "avaliarmor3pants", "data" : { "colorIndex" : [3] } } ],
+            "primary": [ { "name": "avalitier1shotgun" } ],
+            "sheathedprimary": [ { "name": "avalitier1hammer" } ]
+          },
+          {
+            "head": [ { "name": "avaliarmor5head", "data" : { "colorIndex" : [3] } } ],
+            "chest": [ { "name": "avaliguardtier1chest", "data" : { "colorIndex" : [3] } } ],
+            "legs": [  { "name": "avaliarmor3pants", "data" : { "colorIndex" : [3] } } ],
+            "primary": [ { "name": "avalitier1minigun" } ],
+            "sheathedprimary": [ { "name": "avalitier1spear" } ]
+          }
+        ]
+      ],
+      [
+        2,
+        [
+          {
+            "head": [ { "name": "avaliarmor5head", "data" : { "colorIndex" : [3] } } ],
+            "chest": [ { "name": "avaliguardtier2chest", "data" : { "colorIndex" : [3] } } ],
+            "legs": [  { "name": "avaliarmor3pants", "data" : { "colorIndex" : [3] } } ],
+            "primary": [ { "name": "avalitier2shotgun" } ],
+            "sheathedprimary": [ { "name": "avalitier2hammer" } ]
+          },
+          {
+            "head": [ { "name": "avaliarmor5head", "data" : { "colorIndex" : [3] } } ],
+            "chest": [ { "name": "avaliguardtier2chest", "data" : { "colorIndex" : [3] } } ],
+            "legs": [  { "name": "avaliarmor3pants", "data" : { "colorIndex" : [3] } } ],
+            "primary": [ { "name": "avalitier2minigun" } ],
+            "sheathedprimary": [ { "name": "avalitier2spear" } ]
+          }
+        ]
+      ],
+      [
+        3,
+        [
+          {
+            "head": [ { "name": "avaliarmor5head", "data" : { "colorIndex" : [3] } } ],
+            "chest": [ { "name": "avaliguardtier3chest", "data" : { "colorIndex" : [3] } } ],
+            "legs": [  { "name": "avaliarmor3pants", "data" : { "colorIndex" : [3] } } ],
+            "primary": [ { "name": "avalitier3shotgun" } ],
+            "sheathedprimary": [ { "name": "avalitier3hammer" } ]
+          },
+          {
+            "head": [ { "name": "avaliarmor5head", "data" : { "colorIndex" : [3] } } ],
+            "chest": [ { "name": "avaliguardtier3chest", "data" : { "colorIndex" : [3] } } ],
+            "legs": [  { "name": "avaliarmor3pants", "data" : { "colorIndex" : [3] } } ],
+            "primary": [ { "name": "avalitier3minigin" } ],
+            "sheathedprimary": [ { "name": "avalitier3spear" } ]
           }
         ]
       ]
