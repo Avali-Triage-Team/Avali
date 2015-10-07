@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 5 },
+    { "item" : "aerogel", "count" : 10 },
+    { "item" : "graphene", "count" : 10}
+  ],
+  "output" : { "item" : "avalihoe", "count" : 1 },
+  "groups" : [ "avalilathe", "tools", "all" ]
+}
