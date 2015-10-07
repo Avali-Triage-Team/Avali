@@ -1,0 +1,21 @@
+{
+  "itemName" : "avalihoe",
+  "price" : 125,
+  "inventoryIcon" : "avalihoe.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "description" : "An Avali version of the classic hoe.",
+  "shortdescription" : "^orange;Avali Hoe^white;",
+  "tooltipKind" : "tool",
+  "largeImage" : "avalihoebig.png",
+  "image" : "avalihoe.png",
+  "handPosition" : [-7, -15],
+  "fireTime" : 0.25,
+  "blockRadius" : 7,
+  "altBlockRadius" : 1,
+  "twoHanded" : true,
+  "strikeSounds" : [ "/sfx/tools/pickaxe_hit.wav" ],
+
+  "pickupQuestTemplates" : [ "firstcrops.gearup" ]
+}
