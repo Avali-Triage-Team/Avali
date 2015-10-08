@@ -12,7 +12,7 @@
 
   "image" : "avalitier1spear.png",
   "firePosition" : [32.5, -8.5],
-  "fireTime" : 0.8,
+  "fireTime" : 0.95,
   "fireAfterWindup" : true,
   "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_spear.wav" } ] },
 
@@ -48,7 +48,7 @@
     "projectileType" : "avalispearswoosh",
     "projectile" : {
       "speed" : 0.1,
-      "power" : 7
+      "power" : 9.0
     },
     "idle" : {
       "twoHanded" : false,
@@ -62,14 +62,16 @@
       "armAngle" : -110,
       "swordAngle" : -90,
       "handPosition" : [1.5, 1.5],
-      "duration" : 0.2
+      "duration" : 0.05,
+      "statusEffects" : []
     },
     "cooldown" : {
       "twoHanded" : true,
       "armAngle" : -50,
       "swordAngle" : -90,
       "handPosition" : [1.5, -19.5],
-      "duration" : 0.2
+      "duration" : 0.2,
+      "statusEffects" : []
     }
   }
 }
