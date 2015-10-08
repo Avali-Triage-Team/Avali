@@ -12,7 +12,7 @@
 
   "image" : "avalitier10spear.png",
   "firePosition" : [32.5, -8.5],
-  "fireTime" : 0.95,
+  "fireTime" : 0.8222,
   "fireAfterWindup" : true,
   "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_spear.wav" } ] },
 
@@ -55,7 +55,6 @@
       "armAngle" : -90,
       "swordAngle" : -90,
       "handPosition" : [0.5, -3.5],
-      "armFrameOverride" : "idleMelee",
       "duration" : 0.1
     },
     "windup" : {

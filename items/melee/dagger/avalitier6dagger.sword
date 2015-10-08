@@ -48,7 +48,7 @@
     "projectileType" : "avalidaggerswoosh",
     "projectile" : {
       "speed" : 0.1,
-      "power" : 3.75
+      "power" : 2.5
     },
     "idle" : {
       "twoHanded" : false,
