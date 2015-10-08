@@ -12,7 +12,7 @@
 
   "image" : "avalitier2hammer.png",
   "firePosition" : [12.5, -3.5],
-  "fireTime" : 0.9,
+  "fireTime" : 1.18,
   "fireAfterWindup" : true,
   "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_hammer.wav" } ] },
 
@@ -47,14 +47,13 @@
     "projectileType" : "hammerswoosh1",
     "projectile" : {
       "speed" : 0.1,
-      "power" : 12
+      "power" : 12.4
     },
     "idle" : {
       "twoHanded" : false,
       "armAngle" : -90,
       "swordAngle" : -90,
       "handPosition" : [-2.7, -14.5],
-      "armFrameOverride" : "idleMelee",
       "duration" : 0.1
     },
     "windup" : {
@@ -62,7 +61,7 @@
       "armAngle" : 90,
       "swordAngle" : 90,
       "handPosition" : [-2.7, -14.5],
-      "duration" : 0.2
+      "duration" : 0.15
     },
     "cooldown" : {
       "twoHanded" : true,
