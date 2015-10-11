@@ -10,7 +10,7 @@
     { }
   ],
 
-  "hitSound" : "/sfx/melee/shield_block_metal2.wav",
+  "hitSound" : "/sfx/melee/shield_block_metal.wav",
   "perfectHitSound" : "/sfx/melee/shield_block_metal_perfect.wav",
   "breakSound" : "/sfx/melee/shield_break_metal.wav",
   "perfectBlockParticle" : "shieldspark",
