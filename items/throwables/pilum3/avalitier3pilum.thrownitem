@@ -15,7 +15,7 @@
   "projectileType" : "avalipilum3",
   "projectileConfig" : {
     "speed" : 70,
-    "power" : 550
+    "power" : 27.5
   },
   "colorOptions" : [
     /* WHITE */

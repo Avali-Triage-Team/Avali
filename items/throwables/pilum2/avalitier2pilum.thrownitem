@@ -1,22 +1,21 @@
 {
-  "itemName" : "avalitier1pilum",
-  "price" : 25,
-  "rarity" : "Common",
-  "inventoryIcon" : "avalitier1pilum.png",
-  "image" : "avalitier1pilum.png",
-  "shortdescription" : "P-1 Hail",
-  "description" : "A traditional hunting pilum, the shaft is designed to shatter inside the target.",
+  "itemName" : "avalitier2pilum",
+  "price" : 50,
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "avalitier2pilum.png",
+  "image" : "avalitier2pilum.png",
+  "shortdescription" : "P-2 Hail",
+  "description" : "A refined hunting pilum. The shaft penetrates deeper thanks to micro-engines that ignite when thrown and accelerates the pilum in air.",
 
   "ammoUsage" : 1,
 
   "edgeTrigger" : true,
   "windupTime" : 0.0,
   "cooldown" : 0.4,
-  "learnBlueprintsOnPickup" : [ "avalitier2pilum" ],
-  "projectileType" : "avalipilum",
+  "projectileType" : "avalipilum2",
   "projectileConfig" : {
-    "speed" : 45,
-    "power" : 60
+    "speed" : 60,
+    "power" : 22.5
   },
   "colorOptions" : [
     /* WHITE */
