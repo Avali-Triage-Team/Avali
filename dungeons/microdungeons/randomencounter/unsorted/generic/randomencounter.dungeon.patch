@@ -7,7 +7,7 @@
   {
     "op": "add",
     "path": "/metadata/anchor/-",
-    "value": "avalicamp"
+    "value": "avalicamp1"
   },
   {
     "op": "add",
@@ -123,12 +123,12 @@
     "op": "add",
     "path": "/parts/-",
     "value": {
-      "name": "avalicamp",
+      "name": "avalicamp1",
       "rules": [],
       "def": [
         "image",
         [
-          "avalicamp.png",
+          "avalicamp1.png",
           "avalicamp-objects.png"
         ]
       ]
@@ -143,7 +143,7 @@
       "def": [
         "image",
         [
-          "avalicamp.png",
+          "avalicamp1.png",
           "avalicamp-objects2.png"
         ]
       ]
