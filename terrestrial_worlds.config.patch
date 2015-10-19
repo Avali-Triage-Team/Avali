@@ -1,4 +1,5 @@
 [
+//This section adds dungeon generation for the Avali Camp into Vanilla Biomes 
 	{ "op":"add", "path": "/planetTypes/desert/layers/surface/dungeons/-", "value": "avalicamp" },
 	{ "op":"add", "path": "/planetTypes/forest/layers/surface/dungeons/-", "value": "avalicamp" },
 	{ "op":"add", "path": "/planetTypes/alien/layers/surface/dungeons/-", "value": "avalicamp" },
@@ -7,19 +8,21 @@
 	{ "op":"add", "path": "/planetTypes/tundra/layers/surface/dungeons/-", "value": "avalicamp" },
 	{ "op":"add", "path": "/planetTypes/snow/layers/surface/dungeons/-", "value": "avalicamp" }
 
-//This section adds dungeon generation for the Bunker to Vanilla Biomes
-	/*{ "op":"add", "path": "/planetTypes/desert/layers/surface/dungeons/-", "value": "avalibunker" },
-	{ "op":"add", "path": "/planetTypes/forest/layers/surface/dungeons/-", "value": "avalibunker" },
-	{ "op":"add", "path": "/planetTypes/alien/layers/surface/dungeons/-", "value": "avalibunker" },
-	{ "op":"add", "path": "/planetTypes/savannah/layers/surface/dungeons/-", "value": "avalibunker" },
-	{ "op":"add", "path": "/planetTypes/jungle/layers/surface/dungeons/-", "value": "avalibunker" },
-	{ "op":"add", "path": "/planetTypes/tundra/layers/surface/dungeons/-", "value": "avalibunker" },
-	{ "op":"add", "path": "/planetTypes/snow/layers/surface/dungeons/-", "value": "avalibunker" },
-
-	{ "op":"add", "path": "/planetTypes/garden/layers/surface/dungeons/-", "value": "avalibunker" }*/
-	
-//This section adds dungeon generation to certain Frackin Universe biomes
+//This section adds dungeon generation to certain Frackin Universe biomes, uncomment below lines and add comma to above line to enable
 	/*{ "op":"add", "path" : "/planetTypes/mountainous/layers/surface/dungeons/-", "value": "avalicamp" },
     { "op":"add", "path" : "/planetTypes/frozenvolcanic/layers/surface/dungeons/-", "value": "avalicamp" },
     { "op":"add", "path" : "/planetTypes/icewaste/layers/surface/dungeons/-", "value": "avalicamp" }*/
+	
+//This section adds dungeon generation for the INSERT CUSTOM DUNGEON HERE to Vanilla Biomes for TESTING purposes, DISABLED
+	//{ "op":"add", "path": "/planetTypes/desert/layers/surface/dungeons/-", "value": "avalibunker" },
+	//{ "op":"add", "path": "/planetTypes/forest/layers/surface/dungeons/-", "value": "avalibunker" },
+	//{ "op":"add", "path": "/planetTypes/alien/layers/surface/dungeons/-", "value": "avalibunker" },
+	//{ "op":"add", "path": "/planetTypes/savannah/layers/surface/dungeons/-", "value": "avalibunker" },
+	//{ "op":"add", "path": "/planetTypes/jungle/layers/surface/dungeons/-", "value": "avalibunker" },
+	//{ "op":"add", "path": "/planetTypes/tundra/layers/surface/dungeons/-", "value": "avalibunker" },
+	//{ "op":"add", "path": "/planetTypes/snow/layers/surface/dungeons/-", "value": "avalibunker" },
+	
+//This section adds dungeon generation to Garden Biomes for TESTING purposes, DISABLED
+	//{ "op":"add", "path": "/planetTypes/garden/layers/surface/dungeons/-", "value": "avalibunker" },
+	//{ "op":"add", "path": "/planetTypes/garden/layers/surface/dungeons/-", "value": "avalibunker" }
 ]
