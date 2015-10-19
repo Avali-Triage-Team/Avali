@@ -3,6 +3,7 @@
   "inventoryIcon" : "icons.png",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
+  "price" : 100,
   "rarity" : "Common",
   "description" : "Tired of bright lights decreasing your range? Try the new SniperEye!",
   "shortdescription" : "SniperEye",
@@ -20,7 +21,7 @@
 
     {
       "stat" : "energyincrease",
-      "amount" : 15
+      "amount" : 25
     }
   ],
 
