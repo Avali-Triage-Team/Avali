@@ -1,0 +1,56 @@
+[
+	{ "op" : "add", "path" : "/metadata/anchor/-", "value" : "avalitradingcaravan" },
+	{ "op" : "add", "path" : "/metadata/anchor/-", "value" : "avalibanditcamp" },
+	{ "op" : "add", "path" : "/tiles/-", "value" : {
+		"value" : [100, 40, 0, 255],
+		"comment" : "Avali merchant",
+		"brush" : [ [ "npc",
+			{
+				"kind" : "npc",
+				"species" : "avali",
+				"typeName" : "merchant",
+				"parameters" : {
+					"scriptConfig" : {
+						"merchant" : {
+							"storeRadius" : -1,
+							"categories" : { "default" : [ "basicmerchant", "randomguns", "randomswords" ] },
+							"numItems" : 10
+						}
+					}
+				}
+			}
+		] ]
+	} },
+	{ "op" : "add", "path" : "/tiles/-", "value" : {
+		"value" : [100, 50, 0, 255],
+		"comment" : "Avali bandit",
+		"brush" : [ [ "npc",
+			{
+				"kind" : "npc",
+				"species" : "avali",
+				"typeName" : "avalibandit",
+				"parameters" : { "persistent" : true }
+			}
+		] ]
+	} },
+	{ "op" : "add", "path" : "/tiles/-", "value" : {
+		"value" : [100, 60, 0, 255],
+		"comment" : "Avali dragoon",
+		"brush" : [ [ "npc",
+			{
+				"kind" : "npc",
+				"species" : "avali",
+				"typeName" : "avalidragoon",
+				"parameters" : { "persistent" : true }
+			}
+		] ]
+	} },
+	{ "op" : "add", "path" : "/parts/-", "value" : {
+		"name" : "avalitradingcaravan", "rules" : [ ],
+		"def" : [ "image", [ "avalitradingcaravan.png", "avalitradingcaravan-objects.png" ] ]
+	} },
+	{ "op" : "add", "path" : "/parts/-", "value" : {
+		"name" : "avalicamp", "rules" : [ ],
+		"def" : [ "image", [ "avalibanditcamp.png", "avalibanditcamp-objects.png" ] ]
+	} }
+]

@@ -3,6 +3,7 @@
   "inventoryIcon" : "icons.png",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
+  "price" : 100,
   "rarity" : "Common",
   "description" : "A helmet modeled after the legendary Highwind pack.",
   "shortdescription" : "Dragoon Helmet",
