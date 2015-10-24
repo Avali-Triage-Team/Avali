@@ -1,0 +1,5 @@
+[
+{ "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : ["avaliplant1", 3] } },
+{ "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : ["avaliplant2", 3] } },
+{ "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : ["avaliplant3", 3] } }
+]
