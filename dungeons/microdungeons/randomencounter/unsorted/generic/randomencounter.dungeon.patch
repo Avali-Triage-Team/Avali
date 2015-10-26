@@ -7,12 +7,7 @@
   {
     "op": "add",
     "path": "/metadata/anchor/-",
-    "value": "avalicamp"
-  },
-  {
-    "op": "add",
-    "path": "/metadata/anchor/-",
-    "value": "avalicamp2"
+    "value": "avalibanditcamp"
   },
   {
     "op": "add",
@@ -20,11 +15,11 @@
     "value": {
       "value": [
         100,
-        10,
+        40,
         0,
         255
       ],
-      "comment": "avali merchant",
+      "comment": "Avali merchant",
       "brush": [
         [
           "npc",
@@ -38,9 +33,9 @@
                   "storeRadius": -1,
                   "categories": {
                     "default": [
-                      "avaliclothes",
-                      "randomswords",
-                      "randomguns"
+                      "basicmerchant",
+                      "randomguns",
+                      "randomswords"
                     ]
                   },
                   "numItems": 10
@@ -58,11 +53,11 @@
     "value": {
       "value": [
         100,
-        20,
+        50,
         0,
         255
       ],
-      "comment": "avali bandit",
+      "comment": "Avali bandit",
       "brush": [
         [
           "npc",
@@ -84,11 +79,11 @@
     "value": {
       "value": [
         100,
-        30,
+        60,
         0,
         255
       ],
-      "comment": "avali dragoon",
+      "comment": "Avali dragoon",
       "brush": [
         [
           "npc",
@@ -128,23 +123,8 @@
       "def": [
         "image",
         [
-          "avalicamp.png",
-          "avalicamp-objects.png"
-        ]
-      ]
-    }
-  },
-  {
-    "op": "add",
-    "path": "/parts/-",
-    "value": {
-      "name": "avalicamp2",
-      "rules": [],
-      "def": [
-        "image",
-        [
-          "avalicamp.png",
-          "avalicamp-objects2.png"
+          "avalibanditcamp.png",
+          "avalibanditcamp-objects.png"
         ]
       ]
     }

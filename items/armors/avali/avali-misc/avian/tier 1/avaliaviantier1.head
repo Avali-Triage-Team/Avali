@@ -3,6 +3,7 @@
   "inventoryIcon" : "icons.png:head",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
+  "price" : 100,
   "rarity" : "Common",
   "description" : "A light iron circlet worn by Avian priesthood initiates...just blend in!",
   "shortdescription" : "Raptor-Hatchling's Circlet",

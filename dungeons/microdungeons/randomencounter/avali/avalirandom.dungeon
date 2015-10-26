@@ -3,16 +3,19 @@
     "name": "avalirandom",
     "species": "dummy",
     "rules": [],
-    "maxRadius": 2000,
-    "maxParts": 7,
     "anchor": [
       "avali1",
       "avali2",
       "avali3",
       "avali4",
-      "avali5"
-    ]
-  },
+      "avali5",
+      "avali6"
+    ],
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 100,
+    "protected" : false
+	},
   "tiles": [
     {
       "value": [
@@ -232,202 +235,6 @@
     },
     {
       "value": [
-        128,
-        110,
-        128,
-        255
-      ],
-      "comment": "canvas, background",
-      "brush": [
-        [
-          "clear"
-        ],
-        [
-          "back",
-          "campcanvas"
-        ]
-      ],
-      "rules": [],
-      "connector": false
-    },
-    {
-      "value": [
-        180,
-        120,
-        180,
-        255
-      ],
-      "comment": "canvas, foreground",
-      "brush": [
-        [
-          "clear"
-        ],
-        [
-          "back",
-          "campcanvas"
-        ],
-        [
-          "front",
-          "campcanvas"
-        ]
-      ],
-      "rules": [],
-      "connector": false
-    },
-    {
-      "value": [
-        200,
-        150,
-        30,
-        255
-      ],
-      "comment": "trim, background",
-      "brush": [
-        [
-          "clear"
-        ],
-        [
-          "back",
-          "camptapestry2"
-        ]
-      ],
-      "rules": [],
-      "connector": false
-    },
-    {
-      "value": [
-        250,
-        190,
-        80,
-        255
-      ],
-      "comment": "trim, foreground",
-      "brush": [
-        [
-          "clear"
-        ],
-        [
-          "back",
-          "camptapestry2"
-        ],
-        [
-          "front",
-          "camptapestry2"
-        ]
-      ],
-      "rules": [],
-      "connector": false
-    },
-    {
-      "value": [
-        200,
-        120,
-        0,
-        255
-      ],
-      "comment": "tapestry, background",
-      "brush": [
-        [
-          "clear"
-        ],
-        [
-          "back",
-          "camptapestry1"
-        ]
-      ],
-      "rules": [],
-      "connector": false
-    },
-    {
-      "value": [
-        250,
-        120,
-        0,
-        255
-      ],
-      "comment": "tapestry, foreground",
-      "brush": [
-        [
-          "clear"
-        ],
-        [
-          "back",
-          "camptapestry1"
-        ],
-        [
-          "front",
-          "camptapestry1"
-        ]
-      ],
-      "rules": [],
-      "connector": false
-    },
-    {
-      "value": [
-        80,
-        80,
-        90,
-        255
-      ],
-      "comment": "pole, background",
-      "brush": [
-        [
-          "clear"
-        ],
-        [
-          "back",
-          "camppole"
-        ]
-      ],
-      "rules": [],
-      "connector": false
-    },
-    {
-      "value": [
-        110,
-        110,
-        120,
-        255
-      ],
-      "comment": "pole, foreground",
-      "brush": [
-        [
-          "clear"
-        ],
-        [
-          "back",
-          "camppole"
-        ],
-        [
-          "front",
-          "camppole"
-        ]
-      ],
-      "rules": [],
-      "connector": false
-    },
-    {
-      "value": [
-        220,
-        64,
-        0,
-        255
-      ],
-      "comment": "avali stairs",
-      "brush": [
-        [
-          "clear"
-        ],
-        [
-          "front",
-          "avalistairs"
-        ]
-      ],
-      "rules": [],
-      "connector": false
-    },
-    {
-      "value": [
         100,
         120,
         120,
@@ -529,46 +336,6 @@
         [
           "front",
           "modernplatform"
-        ]
-      ],
-      "rules": [],
-      "connector": false
-    },
-    {
-      "value": [
-        181,
-        181,
-        181,
-        255
-      ],
-      "comment": "pipe fence",
-      "brush": [
-        [
-          "clear"
-        ],
-        [
-          "object",
-          "prisonpipefence"
-        ]
-      ],
-      "rules": [],
-      "connector": false
-    },
-    {
-      "value": [
-        253,
-        64,
-        201,
-        255
-      ],
-      "comment": "glass fence",
-      "brush": [
-        [
-          "clear"
-        ],
-        [
-          "object",
-          "glasspanel"
         ]
       ],
       "rules": [],
@@ -752,43 +519,23 @@
     },
     {
       "value": [
-        77,
-        118,
-        136,
+        2,
+        68,
+        15,
         255
       ],
-      "comment": "avali panel, background",
+      "comment": "bones, foreground",
       "brush": [
         [
           "clear"
         ],
         [
           "back",
-          "avalipaneling"
-        ]
-      ],
-      "rules": [],
-      "connector": false
-    },
-    {
-      "value": [
-        54,
-        38,
-        137,
-        255
-      ],
-      "comment": "avali panel, foreground",
-      "brush": [
-        [
-          "clear"
-        ],
-        [
-          "back",
-          "avalipaneling"
+          "bonematerial"
         ],
         [
           "front",
-          "avalipaneling"
+          "bonematerial"
         ]
       ],
       "rules": [],
@@ -796,43 +543,19 @@
     },
     {
       "value": [
-        160,
-        155,
-        160,
+        0,
+        48,
+        0,
         255
       ],
-      "comment": "Avali panel, background",
+      "comment": "bones, background",
       "brush": [
         [
           "clear"
         ],
         [
           "back",
-          "avalitechpanel"
-        ]
-      ],
-      "rules": [],
-      "connector": false
-    },
-    {
-      "value": [
-        210,
-        205,
-        210,
-        255
-      ],
-      "comment": "avali panel, foreground",
-      "brush": [
-        [
-          "clear"
-        ],
-        [
-          "back",
-          "avalitechpanel"
-        ],
-        [
-          "front",
-          "avalitechpanel"
+          "bonematerial"
         ]
       ],
       "rules": [],
@@ -877,6 +600,334 @@
         [
           "front",
           "glass"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        77,
+        118,
+        136,
+        255
+      ],
+      "comment": "nanocanvas, background",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "back",
+          "campcanvas"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        54,
+        38,
+        137,
+        255
+      ],
+      "comment": "nanocanvas, foreground",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "back",
+          "campcanvas"
+        ],
+        [
+          "front",
+          "campcanvas"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        200,
+        150,
+        30,
+        255
+      ],
+      "comment": "trim, background",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "back",
+          "camptapestry2"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        250,
+        190,
+        80,
+        255
+      ],
+      "comment": "trim, foreground",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "back",
+          "camptapestry2"
+        ],
+        [
+          "front",
+          "camptapestry2"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        200,
+        120,
+        0,
+        255
+      ],
+      "comment": "tapestry, background",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "back",
+          "camptapestry1"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        250,
+        120,
+        0,
+        255
+      ],
+      "comment": "tapestry, foreground",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "back",
+          "camptapestry1"
+        ],
+        [
+          "front",
+          "camptapestry1"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        80,
+        80,
+        90,
+        255
+      ],
+      "comment": "pole, background",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "back",
+          "camppole"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        110,
+        110,
+        120,
+        255
+      ],
+      "comment": "pole, foreground",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "back",
+          "camppole"
+        ],
+        [
+          "front",
+          "camppole"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        64,
+        60,
+        20,
+        255
+      ],
+      "comment": "main pole, background",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "back",
+          "campbigpole"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        214,
+        81,
+        157,
+        255
+      ],
+      "comment": "main pole, foreground",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "back",
+          "campbigpole"
+        ],
+        [
+          "front",
+          "campbigpole"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        220,
+        64,
+        0,
+        255
+      ],
+      "comment": "avali stairs",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "front",
+          "avalistairs"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        128,
+        110,
+        128,
+        255
+      ],
+      "comment": "avali horizontpanel, background",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "back",
+          "avalipaneling"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        180,
+        120,
+        180,
+        255
+      ],
+      "comment": "avali horizontpanel, foreground",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "back",
+          "avalipaneling"
+        ],
+        [
+          "front",
+          "avalipaneling"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        160,
+        155,
+        160,
+        255
+      ],
+      "comment": "avali techpanel, background",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "back",
+          "avalitechpanel"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        210,
+        205,
+        210,
+        255
+      ],
+      "comment": "avali techpanel, foreground",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "back",
+          "avalitechpanel"
+        ],
+        [
+          "front",
+          "avalitechpanel"
         ]
       ],
       "rules": [],
@@ -1097,19 +1148,19 @@
     },
     {
       "value": [
-        64,
-        60,
-        20,
+        232,
+        222,
+        32,
         255
       ],
-      "comment": "main pole, background",
+      "comment": "avali glass, background",
       "brush": [
         [
           "clear"
         ],
         [
           "back",
-          "campbigpole"
+          "avaliglass"
         ]
       ],
       "rules": [],
@@ -1117,23 +1168,23 @@
     },
     {
       "value": [
-        214,
-        81,
-        157,
+        252,
+        200,
+        32,
         255
       ],
-      "comment": "main pole, foreground",
+      "comment": "avali glass, foreground",
       "brush": [
         [
           "clear"
         ],
         [
           "back",
-          "campbigpole"
+          "avaliglass"
         ],
         [
           "front",
-          "campbigpole"
+          "avaliglass"
         ]
       ],
       "rules": [],
@@ -1141,43 +1192,19 @@
     },
     {
       "value": [
-        2,
-        68,
-        15,
+        252,
+        232,
+        32,
         255
       ],
-      "comment": "bones, foreground",
+      "comment": "avali glass, foreground ONLY",
       "brush": [
         [
           "clear"
-        ],
-        [
-          "back",
-          "bonematerial"
         ],
         [
           "front",
-          "bonematerial"
-        ]
-      ],
-      "rules": [],
-      "connector": false
-    },
-    {
-      "value": [
-        0,
-        48,
-        0,
-        255
-      ],
-      "comment": "bones, background",
-      "brush": [
-        [
-          "clear"
-        ],
-        [
-          "back",
-          "bonematerial"
+          "avaliglass"
         ]
       ],
       "rules": [],
@@ -2119,14 +2146,14 @@
         30,
         255
       ],
-      "comment": "door, impervium",
+      "comment": "door, tech",
       "brush": [
         [
           "clear"
         ],
         [
           "object",
-          "tier10door"
+          "avalitechdoor"
         ]
       ],
       "rules": [],
@@ -2534,6 +2561,26 @@
     },
     {
       "value": [
+        193,
+        66,
+        86,
+        255
+      ],
+      "comment": "avali lightblock",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "object",
+          "avalilightblock"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
         35,
         248,
         212,
@@ -2672,6 +2719,46 @@
     },
     {
       "value": [
+        181,
+        181,
+        181,
+        255
+      ],
+      "comment": "pipe fence",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "object",
+          "prisonpipefence"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        253,
+        64,
+        201,
+        255
+      ],
+      "comment": "glass fence",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "object",
+          "glasspanel"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
         92,
         248,
         63,
@@ -2748,206 +2835,6 @@
         ]
       ],
       "rules": [],
-      "connector": false
-    },
-    {
-      "value": [
-        255,
-        180,
-        24,
-        255
-      ],
-      "comment": "avali villager npc",
-      "brush": [
-        [
-          "npc",
-          {
-            "kind": "npc",
-            "species": "avali",
-            "typeName": "villager"
-          }
-        ]
-      ],
-      "connector": false
-    },
-    {
-      "value": [
-        255,
-        180,
-        56,
-        255
-      ],
-      "comment": "avali guard npc",
-      "brush": [
-        [
-          "npc",
-          {
-            "kind": "npc",
-            "species": "avali",
-            "typeName": "villageguard"
-          }
-        ]
-      ],
-      "connector": false
-    },
-    {
-      "value": [
-        255,
-        180,
-        40,
-        255
-      ],
-      "comment": "avali hermit npc",
-      "brush": [
-        [
-          "npc",
-          {
-            "kind": "npc",
-            "species": "avali",
-            "typeName": "crazyhermit"
-          }
-        ]
-      ],
-      "connector": false
-    },
-    {
-      "value": [
-        255,
-        180,
-        48,
-        255
-      ],
-      "comment": "avali hunter npc",
-      "brush": [
-        [
-          "npc",
-          {
-            "kind": "npc",
-            "species": "avali",
-            "typeName": "wildhunter"
-          }
-        ]
-      ],
-      "connector": false
-    },
-    {
-      "value": [
-        255,
-        180,
-        32,
-        255
-      ],
-      "comment": "avali weapon merchant npc",
-      "brush": [
-        [
-          "npc",
-          {
-            "kind": "npc",
-            "species": "avali",
-            "typeName": "merchant",
-            "parameters": {
-              "scriptConfig": {
-                "noticePlayersRadius": 20.0,
-                "merchant": {
-                  "storeRadius": 2,
-                  "categories": [
-                    "avaliguns",
-                    "randomguns",
-                    "randomswords"
-                  ],
-                  "priceVarianceRange": [
-                    0.8,
-                    1.2
-                  ],
-                  "numItems": 9
-                },
-                "sit": {
-                  "searchRadius": 8
-                }
-              }
-            }
-          }
-        ]
-      ],
-      "connector": false
-    },
-    {
-      "value": [
-        255,
-        180,
-        16,
-        255
-      ],
-      "comment": "avali general merchant npc",
-      "brush": [
-        [
-          "npc",
-          {
-            "kind": "npc",
-            "species": "avali",
-            "typeName": "merchant",
-            "parameters": {
-              "scriptConfig": {
-                "noticePlayersRadius": 20.0,
-                "merchant": {
-                  "storeRadius": 2,
-                  "categories": [
-                    "musicalinstruments",
-                    "basicmerchant"
-                  ],
-                  "priceVarianceRange": [
-                    0.8,
-                    1.2
-                  ],
-                  "numItems": 9
-                },
-                "sit": {
-                  "searchRadius": 8
-                }
-              }
-            }
-          }
-        ]
-      ],
-      "connector": false
-    },
-    {
-      "value": [
-        255,
-        180,
-        8,
-        255
-      ],
-      "comment": "avali food merchant npc",
-      "brush": [
-        [
-          "npc",
-          {
-            "kind": "npc",
-            "species": "avali",
-            "typeName": "merchant",
-            "parameters": {
-              "scriptConfig": {
-                "noticePlayersRadius": 20.0,
-                "merchant": {
-                  "storeRadius": 2,
-                  "categories": [
-                    "avaliingredients"
-                  ],
-                  "priceVarianceRange": [
-                    0.8,
-                    1.2
-                  ],
-                  "numItems": 9
-                },
-                "sit": {
-                  "searchRadius": 8
-                }
-              }
-            }
-          }
-        ]
-      ],
       "connector": false
     },
     {
@@ -3092,86 +2979,418 @@
     },
     {
       "value": [
-        232,
-        222,
-        32,
+        119,
+        182,
+        124,
         255
       ],
-      "comment": "avali glass, background",
-      "brush": [
-        [
-          "clear"
-        ],
-        [
-          "back",
-          "avaliglass"
-        ]
-      ],
-      "rules": [],
-      "connector": false
-    },
-    {
-      "value": [
-        252,
-        200,
-        32,
-        255
-      ],
-      "comment": "avali glass, foreground",
-      "brush": [
-        [
-          "clear"
-        ],
-        [
-          "back",
-          "avaliglass"
-        ],
-        [
-          "front",
-          "avaliglass"
-        ]
-      ],
-      "rules": [],
-      "connector": false
-    },
-    {
-      "value": [
-        193,
-        66,
-        86,
-        255
-      ],
-      "comment": "avali lightblock",
+      "comment": "bandittent1 facing left",
       "brush": [
         [
           "clear"
         ],
         [
           "object",
-          "avalilightblock"
+          "bandittent1",
+          {
+            "direction": "left"
+          }
         ]
       ],
-      "rules": [],
       "connector": false
     },
     {
       "value": [
-        252,
-        232,
-        32,
+        80,
+        149,
+        91,
         255
       ],
-      "comment": "avali glass, foreground ONLY",
+      "comment": "bandittent1 facing right",
       "brush": [
         [
           "clear"
         ],
         [
-          "front",
-          "avaliglass"
+          "object",
+          "bandittent1",
+          {
+            "direction": "right"
+          }
         ]
       ],
-      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        123,
+        181,
+        118,
+        255
+      ],
+      "comment": "bandittent2 facing left",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "object",
+          "bandittent2",
+          {
+            "direction": "left"
+          }
+        ]
+      ],
+      "connector": false
+    },
+    {
+      "value": [
+        80,
+        148,
+        80,
+        255
+      ],
+      "comment": "bandittent2 facing right",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "object",
+          "bandittent2",
+          {
+            "direction": "right"
+          }
+        ]
+      ],
+      "connector": false
+    },
+    {
+      "value": [
+        253,
+        143,
+        77,
+        255
+      ],
+      "comment": "campfire",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "object",
+          "campfire"
+        ]
+      ],
+      "connector": false
+    },
+    {
+      "value": [
+        255,
+        180,
+        24,
+        255
+      ],
+      "comment": "avali villager npc",
+      "brush": [
+        [
+          "npc",
+          {
+            "kind": "npc",
+            "species": "avali",
+            "typeName": "villager"
+          }
+        ]
+      ],
+      "connector": false
+    },
+    {
+      "value": [
+        255,
+        180,
+        56,
+        255
+      ],
+      "comment": "avali guard npc",
+      "brush": [
+        [
+          "npc",
+          {
+            "kind": "npc",
+            "species": "avali",
+            "typeName": "villageguard"
+          }
+        ]
+      ],
+      "connector": false
+    },
+	{
+      "value": [
+        165,
+        166,
+        121,
+        255
+      ],
+      "comment": "avali guard captain npc",
+      "brush": [
+        [
+          "npc",
+          {
+            "kind": "npc",
+            "species": "avali",
+            "typeName": "villageguardcaptain"
+          }
+        ]
+      ],
+      "connector": false
+    },
+    {
+      "value": [
+        175,
+        0,
+        0,
+        255
+      ],
+      "comment": "avali weapon merchant npc",
+      "brush": [
+        [
+          "npc",
+          {
+            "kind": "npc",
+            "species": "avali",
+            "typeName": "merchant",
+            "parameters": {
+              "scriptConfig": {
+                "noticePlayersRadius": 20.0,
+                "merchant": {
+                  "storeRadius": 2,
+                  "categories": {
+                    "default": [
+                      "avaliguns",
+                      "randomguns",
+                      "randomswords"
+                    ]
+                  },
+                  "priceVarianceRange": [
+                    0.8,
+                    1.2
+                  ],
+                  "numItems": 9
+                },
+                "sit": {
+                  "searchRadius": 8
+                }
+              }
+            }
+          }
+        ]
+      ],
+      "connector": false
+    },
+    {
+      "value": [
+        255,
+        180,
+        16,
+        255
+      ],
+      "comment": "avali general merchant npc",
+      "brush": [
+        [
+          "npc",
+          {
+            "kind": "npc",
+            "species": "avali",
+            "typeName": "merchant",
+            "parameters": {
+              "scriptConfig": {
+                "noticePlayersRadius": 20.0,
+                "merchant": {
+                  "storeRadius": 2,
+                  "categories": {
+                    "default": [
+                      "basicmerchant",
+                      "musicalinstruments"
+                    ]
+                  },
+                  "priceVarianceRange": [
+                    0.8,
+                    1.2
+                  ],
+                  "numItems": 9
+                },
+                "sit": {
+                  "searchRadius": 8
+                }
+              }
+            }
+          }
+        ]
+      ],
+      "connector": false
+    },
+    {
+      "value": [
+        255,
+        180,
+        8,
+        255
+      ],
+      "comment": "avali food merchant npc",
+      "brush": [
+        [
+          "npc",
+          {
+            "kind": "npc",
+            "species": "avali",
+            "typeName": "merchant",
+            "parameters": {
+              "scriptConfig": {
+                "noticePlayersRadius": 20.0,
+                "merchant": {
+                  "storeRadius": 2,
+                  "categories": {
+                    "default": [
+                      "avaliingredients"
+                    ]
+                  },
+                  "priceVarianceRange": [
+                    0.8,
+                    1.2
+                  ],
+                  "numItems": 9
+                },
+                "sit": {
+                  "searchRadius": 8
+                }
+              }
+            }
+          }
+        ]
+      ],
+      "connector": false
+    },
+	{
+      "value": [
+        255,
+        180,
+        40,
+        255
+      ],
+      "comment": "avali hermit npc",
+      "brush": [
+        [
+          "npc",
+          {
+            "kind": "npc",
+            "species": "avali",
+            "typeName": "crazyhermit"
+          }
+        ]
+      ],
+      "connector": false
+    },
+    {
+      "value": [
+        255,
+        180,
+        48,
+        255
+      ],
+      "comment": "avali hunter npc",
+      "brush": [
+        [
+          "npc",
+          {
+            "kind": "npc",
+            "species": "avali",
+            "typeName": "wildhunter"
+          }
+        ]
+      ],
+      "connector": false
+    },
+	{
+      "value": [
+        100,
+        30,
+        0,
+        255
+      ],
+      "comment": "avali dragoon",
+      "brush": [
+        [
+          "npc",
+          {
+            "kind": "npc",
+            "species": "avali",
+            "typeName": "avalidragoon"
+          }
+        ]
+      ],
+      "connector": false
+    },
+    {
+      "value": [
+        100,
+        20,
+        0,
+        255
+      ],
+      "comment": "avali bandit",
+      "brush": [
+        [
+          "npc",
+          {
+            "kind": "npc",
+            "species": "avali",
+            "typeName": "avalibandit"
+          }
+        ]
+      ],
+      "connector": false
+    },
+    {
+      "value": [
+        100,
+        10,
+        0,
+        255
+      ],
+      "comment": "avali caravan merchant",
+      "brush": [
+        [
+          "npc",
+          {
+            "kind": "npc",
+            "species": "avali",
+            "typeName": "merchant",
+            "parameters": {
+              "scriptConfig": {
+                "noticePlayersRadius": 20.0,
+                "merchant": {
+                  "storeRadius": -1,
+                  "categories": {
+                    "default": [
+                      "basicmerchant",
+                      "randomguns",
+                      "randomswords"
+                    ]
+                  },
+                  "priceVarianceRange": [
+                    0.8,
+                    1.2
+                  ],
+                  "numItems": 9
+                },
+                "sit": {
+                  "searchRadius": 8
+                }
+              }
+            }
+          }
+        ]
+      ],
       "connector": false
     }
   ],
@@ -3230,6 +3449,17 @@
       ],
       "rules": [],
       "name": "avali5"
+    },
+    {
+      "def": [
+        "image",
+        [
+          "avali6.png",
+          "avali6a.png"
+        ]
+      ],
+      "rules": [],
+      "name": "avali6"
     }
   ]
 }
