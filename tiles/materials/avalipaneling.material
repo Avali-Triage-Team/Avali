@@ -3,8 +3,8 @@
   "materialName" : "avalipaneling",
   "particleColor" : [110, 110, 110, 255],
   "itemDrop" : "avalipaneling",
-  "description" : "Like paneling, but darker.",
-  "shortdescription" : "Dark Paneling",
+  "description" : "Light and airy panels.",
+  "shortdescription" : "Horizontal Panels",
 
 
   "footstepSound" : "/sfx/blocks/footstep_sand.wav",
@@ -18,6 +18,6 @@
     "lightTransparent" : false,
     "occludesBelow" : true,
     "multiColored" : true,
-    "zLevel" : 0
+    "zLevel" : 2100
   }
 }
