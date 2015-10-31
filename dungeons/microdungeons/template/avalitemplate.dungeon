@@ -83,7 +83,7 @@
         255,
         255
       ],
-      "comment": "coupler, bright blue",
+      "comment": "bright blue, entrance coupler",
       "connector": true
     },
     {
@@ -93,17 +93,27 @@
         186,
         255
       ],
-      "comment": "coupler, aqua",
+      "comment": "bright aqua, alternate coupler",
       "connector": true
     },
     {
       "value": [
-        240,
+        168,
         255,
         0,
         255
       ],
-      "comment": "coupler, yellow",
+      "comment": "bright green, alternate coupler #2",
+      "connector": true
+    },
+    {
+      "value": [
+        255,
+        168,
+        0,
+        255
+      ],
+      "comment": "bright orange, alternate coupler #3",
       "connector": true
     },
     {
@@ -607,9 +617,9 @@
     },
     {
       "value": [
-        77,
-        118,
-        136,
+        128,
+        110,
+        128,
         255
       ],
       "comment": "nanocanvas, background",
@@ -627,9 +637,9 @@
     },
     {
       "value": [
-        54,
-        38,
-        137,
+        180,
+        120,
+        180,
         255
       ],
       "comment": "nanocanvas, foreground",
@@ -847,50 +857,6 @@
     },
     {
       "value": [
-        128,
-        110,
-        128,
-        255
-      ],
-      "comment": "avali horizontpanel, background",
-      "brush": [
-        [
-          "clear"
-        ],
-        [
-          "back",
-          "avalipaneling"
-        ]
-      ],
-      "rules": [],
-      "connector": false
-    },
-    {
-      "value": [
-        180,
-        120,
-        180,
-        255
-      ],
-      "comment": "avali horizontpanel, foreground",
-      "brush": [
-        [
-          "clear"
-        ],
-        [
-          "back",
-          "avalipaneling"
-        ],
-        [
-          "front",
-          "avalipaneling"
-        ]
-      ],
-      "rules": [],
-      "connector": false
-    },
-    {
-      "value": [
         160,
         155,
         160,
@@ -928,6 +894,182 @@
         [
           "front",
           "avalitechpanel"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        59,
+        77,
+        205,
+        255
+      ],
+      "comment": "avali plainpanel, background",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "back",
+          "avaliplain"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        69,
+        77,
+        205,
+        255
+      ],
+      "comment": "avali plainpanel, foreground",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "back",
+          "avaliplain"
+        ],
+        [
+          "front",
+          "avaliplain"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        111,
+        173,
+        8,
+        255
+      ],
+      "comment": "avali horizontalpanels, background",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "back",
+          "avalipaneling"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        121,
+        183,
+        8,
+        255
+      ],
+      "comment": "avali horizontalpanels, foreground",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "back",
+          "avalipaneling"
+        ],
+        [
+          "front",
+          "avalipaneling"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        77,
+        118,
+        136,
+        255
+      ],
+      "comment": "avali verticalpanels, background",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "back",
+          "avalipaneling2"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        54,
+        38,
+        137,
+        255
+      ],
+      "comment": "avali verticalpanels, foreground",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "back",
+          "avalipaneling2"
+        ],
+        [
+          "front",
+          "avalipaneling2"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        187,
+        47,
+        134,
+        255
+      ],
+      "comment": "avali compositetiles, background",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "back",
+          "avalitiles"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        197,
+        57,
+        134,
+        255
+      ],
+      "comment": "avali compositetiles, foreground",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "back",
+          "avalitiles"
+        ],
+        [
+          "front",
+          "avalitiles"
         ]
       ],
       "rules": [],
@@ -1009,6 +1151,50 @@
         [
           "front",
           "avalidisplay"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        3,
+        70,
+        132,
+        255
+      ],
+      "comment": "avali datachits, background",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "back",
+          "avalichits"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        3,
+        80,
+        132,
+        255
+      ],
+      "comment": "avali datachits, foreground",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "back",
+          "avalichits"
+        ],
+        [
+          "front",
+          "avalichits"
         ]
       ],
       "rules": [],
@@ -1141,6 +1327,50 @@
         [
           "front",
           "avalidarkmetal3"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        240,
+        218,
+        102,
+        255
+      ],
+      "comment": "avali hexagons, background",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "back",
+          "avalihexagons"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        250,
+        218,
+        102,
+        255
+      ],
+      "comment": "avali hexagons, foreground",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "back",
+          "avalihexagons"
+        ],
+        [
+          "front",
+          "avalihexagons"
         ]
       ],
       "rules": [],
@@ -3124,7 +3354,7 @@
       ],
       "connector": false
     },
-	{
+    {
       "value": [
         165,
         166,
@@ -3270,7 +3500,7 @@
       ],
       "connector": false
     },
-	{
+    {
       "value": [
         255,
         180,
@@ -3310,7 +3540,7 @@
       ],
       "connector": false
     },
-	{
+    {
       "value": [
         100,
         30,

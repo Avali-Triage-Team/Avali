@@ -7,7 +7,7 @@
   "shortdescription" : "Sporing Kiri Fruit",
   "objectType" : "farmable",
   "printable" : false,
-  "price" : 150,
+  "price" : 300,
 
   "apexDescription" : "This reminds me a strawberry protein shake.",
   "avianDescription" : "Even if I wanted to, I doubt I could eat this with a beak.",

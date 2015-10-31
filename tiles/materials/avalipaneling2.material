@@ -1,19 +1,19 @@
 {
-  "materialId" : 12507,
-  "materialName" : "avalidarkmetal3",
+  "materialId" : 12523,
+  "materialName" : "avalipaneling2",
   "particleColor" : [110, 110, 110, 255],
-  "itemDrop" : "avalidarkmetal3",
-  "description" : "Metal, darkly.",
-  "shortdescription" : "Dark Metal Beam",
+  "itemDrop" : "avalipaneling2",
+  "description" : "Light and airy panels.",
+  "shortdescription" : "Vertical Panels",
 
 
-  "footstepSound" : "/sfx/blocks/footstep_composite.wav",
+  "footstepSound" : "/sfx/blocks/footstep_sand.wav",
   "health" : 1,
   "category": "materials",
-
+  
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {
-    "texture" : "avalidarkmetal3.png",
+    "texture" : "avalipaneling2.png",
     "variants" : 1,
     "lightTransparent" : false,
     "occludesBelow" : true,
