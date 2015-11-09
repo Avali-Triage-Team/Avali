@@ -10,7 +10,7 @@
   "description" : "A small, easily transported storage unit.",
   "shortdescription" : "Avali Chest",
   "race" : "avali",
-  "retainObjectParametersInItem" : true,   
+  "retainObjectParametersInItem" : false,   
 
   "apexDescription" : "Looks like it has a sliding glass front.",
   "avianDescription" : "What an odd container, half display case, half chest.",
