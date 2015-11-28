@@ -20,7 +20,7 @@
   "blockRadius" : 4,
   "altBlockRadius" : 1,
   "twoHanded" : true,
-  "strikeSounds" : [ "/sfx/tools/pickaxe_hit.wav" ],
+  "strikeSounds" : [ "/sfx/tools/pickaxe_hit.ogg" ],
   "durability" : 1000,
   "tileDamage" : 3.5,
   "harvestLevel" : 99

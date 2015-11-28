@@ -30,7 +30,7 @@
           ],
           "alt" : [
             { "name" : "avalitier4pistol" },
-            { "name" : "generatedshield", "data" : { "definition" : "avalitier4barrier" } }
+            { "name" : "avalitier4barrier" }
           ]
         }
       ] ]

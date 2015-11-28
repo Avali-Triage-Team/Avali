@@ -16,7 +16,7 @@
 			  "chest": [ { "name": "avaliguardtier1chest", "data" : { "colorIndex" : [1] } } ],
 			  "legs": [  { "name": "avaliarmor3pants", "data" : { "colorIndex" : [1] } } ],
 			  "primary" : [ 
-			    [ "generatedsword", 1, { "definition" : "commonspear" } ]
+			     { "name" : "commonspear" }
 			  ]
 			}
 		] ] 

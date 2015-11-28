@@ -29,7 +29,7 @@
     }
   ],
 
-  "soundEffect" : "/sfx/objects/screen1.wav",
+  "soundEffect" : "/sfx/objects/screen1.ogg",
 
   "scripts" : [ "/objects/wired/switch/switch.lua" ],
   "scriptDelta" : 5,

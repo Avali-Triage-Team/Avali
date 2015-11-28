@@ -31,7 +31,7 @@
     }
   ],
   
-  "soundEffect" : "/sfx/objects/brokenfuelhatch.wav",
+  "soundEffect" : "/sfx/objects/brokenfuelhatch.ogg",
   "soundEffectRadius" : 15
   
 }

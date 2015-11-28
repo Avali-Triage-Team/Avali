@@ -41,8 +41,8 @@
   {
     "sounds":
     {
-      "open": [ "/sfx/objects/apexcooldoor_open.wav" ],
-      "close": [ "/sfx/objects/apexcooldoor_close.wav" ]
+      "open": [ "/sfx/objects/apexcooldoor_open.ogg" ],
+      "close": [ "/sfx/objects/apexcooldoor_close.ogg" ]
     }
   },
   "animationPosition" : [0, 0],

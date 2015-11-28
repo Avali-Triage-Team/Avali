@@ -3,6 +3,6 @@
     { "item" : "ironbar", "count" : 10 },
     { "item" : "money", "count" : 50 }
   ],
-  "output" : { "item" : "generatedshield", "count" : 1, "data" : { "definition" : "avalitier1barrier", "level" : 1 } },
+  "output" : { "item" :  "avalitier1barrier" },
   "groups" : [ "anvil", "all", "armors"]
 }

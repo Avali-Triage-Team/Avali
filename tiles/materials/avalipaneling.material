@@ -7,7 +7,7 @@
   "shortdescription" : "Horizontal Panels",
 
 
-  "footstepSound" : "/sfx/blocks/footstep_sand.wav",
+  "footstepSound" : "/sfx/blocks/footstep_sand.ogg",
   "health" : 1,
   "category": "materials",
 
