@@ -1,0 +1,60 @@
+{
+  "objectName" : "uplinkscanner",
+  "tags" : [ "avali", "avalicamp", "wired", "electronic" ],
+  "printable" : false,
+  "rarity" : "Common",
+
+  "category" : "wire",
+  "price" : 15,
+  "description" : "A Neural Uplink Scanner, fancy.",
+  "shortdescription" : "Neural Uplink Upgrade",
+  "race" : "generic",
+/*
+  "apexDescription" : "Does MiniKnog watch us through this?",
+  "avianDescription" : "It seems to detect when I'm near it.",
+  "floranDescription" : "Sssstabby timesss?",
+  "glitchDescription" : "Statement. A proximity scanner.",
+  "humanDescription" : "I don't like the way this looks.",
+  "hylotlDescription" : "Is Avali technolgy always this basic?",
+  "avaliDescription" : "Beep, Beep, Boop."
+*/
+  "inventoryIcon" : "uplinkscannericon.png",
+  "orientations" : [
+    {
+      "image" : "uplinkscanner.png:<frame>.off",
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "scripts" : [
+    "/objects/wired/proximitysensor/proximitysensor.lua",
+    "/scripts/npcToyObject.lua"
+  ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/uplinkscanner/uplinkscanner.animation",
+  "animationParts" : {
+    "switch" : "uplinkscanner.png"
+  },
+  "animationPosition" : [0, 0],
+
+  "outboundNodes" : [ [0, 0] ],
+  
+  "interactive" : false,
+
+  "detectDuration" : 3,
+  "detectEntityTypes" : [ "creature" ],
+  "detectArea" : [ [0.5, 0.5], 3 ],
+
+  "npcToy": {
+    "ownerOnly" : true,
+    "influence" : [
+      "proximitysensor"
+    ],
+    "defaultReactions" : {},
+    "maxNpcs" : 1
+  }
+}

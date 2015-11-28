@@ -2,6 +2,6 @@
   "input" : [
     { "item" : "feroziumcompound", "count" : 10 }
   ],
-  "output" : { "item" : "avalitier6ahead", "count" : 1 },
+  "output" : { "item" : "avalitier6achest", "count" : 1 },
   "groups" : [ "acceleratortable", "armors", "all" ]
 }

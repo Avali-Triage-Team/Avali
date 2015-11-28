@@ -1,15 +1,20 @@
 # Avali
 Avali mod with community additions
 
-Please report issues promptly, using the Issues button to the right of the files. 
+Please report issues promptly, using the Issues button at the top of the page. 
 
 # Installation instructions
-Download most recent release's ZIP file from https://github.com/Fevix/Avali/releases and extract into Starbound - Unstable/giraffe_storage/mods. Files should look like this: 
-mods
--avali
-|-avali.modinfo
+Download most recent release's ZIP file from https://github.com/Fevix/Avali/releases and extract into Starbound/giraffe_storage/mods. folders should look like this: 
 
-Always remember to delete the previous verison before installing any new one!
+mods 
+
+-avali 
+
+|-avali.modinfo 
+
+|-various folders and files 
+
+# Always remember to delete the previous verison before installing any new one!
 
 # Making a feature suggestion
 If you have the know-how to code everything yourself, feel free to make a Fork, make your changes, then make a Pull Request. Chances are I'll take a glance over what you added then just plop it in.

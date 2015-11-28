@@ -1,10 +1,10 @@
 {
   "itemName" : "avalistarter",
-  "level" : 0.5,
+  "level" : 1,
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "price" : 100,
-  "rarity" : "common",
+  "rarity" : "legendary",
   "description" : "This aerotech blade's nanite feed is broken. Just whack 'em with the hilt.",
   "shortdescription" : "Broken Shard",
   "tooltipKind" : "sword",
@@ -12,7 +12,7 @@
 
   "image" : "avalistarter.png",
   "firePosition" : [15.5, 4.5],
-  "fireTime" : 0.8,
+  "fireTime" : 0.8222,
   "fireAfterWindup" : true,
   "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_twohanded.wav" } ] },
 
@@ -47,7 +47,7 @@
     "projectileType" : "avalibswordswoosh",
     "projectile" : {
       "speed" : 0.1,
-      "power" : 7.15
+      "power" : 6.5
     },
     "idle" : {
       "twoHanded" : false,
@@ -62,7 +62,7 @@
       "armAngle" : 90,
       "swordAngle" : 90,
       "handPosition" : [-6.0, -17.0],
-      "duration" : 0.2
+      "duration" : 0.05
     },
     "cooldown" : {
       "twoHanded" : true,

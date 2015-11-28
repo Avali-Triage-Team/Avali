@@ -27,8 +27,8 @@
       "dualImage" : "avalidisplayapparatus.png:<color>.<frame>",
 
       "imagePosition" : [-16, 0],
-      "frames" : 6,
-      "animationCycle" : 1,
+      "frames" : 10,
+      "animationCycle" : 2,
 
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]

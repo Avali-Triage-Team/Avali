@@ -12,7 +12,7 @@
 
   "image" : "avalitier5shortsword.png",
   "firePosition" : [22, -2],
-  "fireTime" : 0.6,
+  "fireTime" : 0.625,
   "fireAfterWindup" : true,
   "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_onehanded.wav" } ] },
 
@@ -48,7 +48,7 @@
     "projectileType" : "avaliswordswoosh",
     "projectile" : {
       "speed" : 0.1,
-      "power" : 4.9
+      "power" : 4.05
     },
     "idle" : {
       "twoHanded" : false,
@@ -62,14 +62,16 @@
       "armAngle" : 0,
       "swordAngle" : -60,
       "handPosition" : [-3, -27],
-      "duration" : 0.2
+      "duration" : 0.05,
+      "statusEffects" : [ ]
     },
     "cooldown" : {
       "twoHanded" : false,
       "armAngle" : -140,
       "swordAngle" : -90,
       "handPosition" : [0.0, -10],
-      "duration" : 0.4
+      "duration" : 0.4,
+      "statusEffects" : [ ]
     }
   }
 }

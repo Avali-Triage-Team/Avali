@@ -3,7 +3,7 @@
   "rarity" : "Common",
   "inventoryIcon" : "avalitechpanel.png",
   "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
-  "description" : "Polymer panels used to protect and hide sensitive electronics.",
+  "description" : "Polymer panels used to hide and protect electronics.",
   "shortdescription" : "Tech Panel",
 
   

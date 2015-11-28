@@ -5,8 +5,8 @@
   "maxStack" : 1,
   "price" : 1025,
   "rarity" : "Legendary",
-  "description" : "Impervium armoured plates inserted into Avali armour, made at the Seperator table. Equip these in your armour slots, and place your clothing or armour in the vanity slots.",
-  "shortdescription" : "Seperator-Impervium Vest Insert",
+  "description" : "Impervium armoured plates inserted into Avali armour. Equip these in your armour slots, and place your clothing or armour in the vanity slots.",
+  "shortdescription" : "Impervium Vest Insert",
   "tooltipKind" : "armor",
 
   "maleFrames" : {
