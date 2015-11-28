@@ -34,8 +34,8 @@
     }
   ],
 
-  "openSounds" : [ "/sfx/objects/woodenbox_open.wav" ],
-  "closeSounds" : [ "/sfx/objects/woodenbox_close.wav" ],
+  "openSounds" : [ "/sfx/objects/woodenbox_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/woodenbox_close.ogg" ],
   "slotCount" : 16,
   "uiConfig" : "/interface/chests/chest%slots%.config",
   "frameCooldown" : 67,

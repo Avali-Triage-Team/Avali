@@ -21,10 +21,8 @@
             ],
             "sheathedprimary": [
               [
-                "generatedsword",
-                1,
                 {
-                  "definition": "commondagger"
+                  "name": "commondagger"
                 }
               ]
             ]

@@ -25,7 +25,7 @@
             "legs": [  { "name": "avaliarmor3pants", "data" : { "colorIndex" : [3] } } ],
             "primary": [ { "name": "avalitier1rifle" } ],
             "sheathedprimary": [ { "name": "avalitier1shortsword" } ],
-            "alt": [ { "name": "generatedshield", "data" : { "definition" : "avalitier1barrier" } } ]
+            "alt": [ { "name": "avalitier1barrier" } ]
           }
         ]
       ],
@@ -51,7 +51,7 @@
             "legs": [  { "name": "avaliarmor3pants", "data" : { "colorIndex" : [3] } } ],
             "primary": [ { "name": "avalitier2rifle" } ],
             "sheathedprimary": [ { "name": "avalitier2shortsword" } ],
-            "alt": [ { "name": "generatedshield", "data" : { "definition" : "avalitier2barrier" } } ]
+            "alt": [ { "name": "avalitier2barrier" } ]
           }
         ]
       ],
@@ -77,7 +77,7 @@
             "legs": [  { "name": "avaliarmor3pants", "data" : { "colorIndex" : [3] } } ],
             "primary": [ { "name": "avalitier3rifle" } ],
             "sheathedprimary": [ { "name": "avalitier3shortsword" } ],
-            "alt": [ { "name": "generatedshield", "data" : { "definition" : "avalitier3barrier" } } ]
+            "alt": [ { "name": "avalitier3barrier" } ]
           }
         ]
       ]

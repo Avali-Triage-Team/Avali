@@ -17,13 +17,7 @@
               { "name" : "avaliscientistpants", "parameters" : { "colorIndex" : [3] } }
             ],
             "sheathedprimary": [
-              [
-                "generatedgun",
-                1,
-                {
-                  "definition": "commonplasmapistol"
-                }
-              ]
+              { "name": "commonplasmapistol" }
             ]
           }
         ]

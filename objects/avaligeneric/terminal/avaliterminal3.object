@@ -30,8 +30,8 @@
     }
   ],
 
-  "openSounds" : [ "/sfx/interface/nav_computer_on.wav" ],
-  "closeSounds" : [ "/sfx/interface/nav_computer_off.wav" ],
+  "openSounds" : [ "/sfx/interface/nav_computer_on.ogg" ],
+  "closeSounds" : [ "/sfx/interface/nav_computer_off.ogg" ],
   "slotCount" : 9,
   "uiConfig" : "/interface/chests/chest%slots%.config",
   "frameCooldown" : 67,

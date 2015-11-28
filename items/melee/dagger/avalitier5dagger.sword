@@ -14,7 +14,7 @@
   "firePosition" : [13.5, -1.5],
   "fireTime" : 0.333,
   "fireAfterWindup" : true,
-  "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_dagger.wav" } ] },
+  "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_dagger.ogg" } ] },
 
   "colorOptions" : [
     /* LIME GREEN */

@@ -35,7 +35,7 @@
     }
   ],
   "recipeGroup" : "cooking",
-  "openSounds" : [ "/sfx/objects/campfire_use.wav" ],
+  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
   "slotCount" : 2,
   "uiConfig" : "/interface/objectcrafting/campfire.config",
   "frameCooldown" : 67,
