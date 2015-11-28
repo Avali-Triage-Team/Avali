@@ -26,7 +26,7 @@
   },
 
   "baseOffset" : [-9.0, -1.0],
-  "muzzleOffset" : [17.0, 0.0],
+  "muzzleOffset" : [-17.0, 0.0],
 
   "scripts" : ["/items/active/weapons/ranged/gun.lua"],
 
