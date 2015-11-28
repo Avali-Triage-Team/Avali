@@ -1,5 +1,5 @@
 {
-  "itemName" : "avalitier4riflebounce",
+  "itemName" : "avalitier4rifle",
   "price" : 650,
   "inventoryIcon" : "avalirifle.png",
   "maxStack" : 1,
@@ -40,7 +40,7 @@
 
     "fireType" : "auto",
 
-    "projectileType" : "railgunbnc",
+    "projectileType" : "railgun1",
     "projectileParameters" : { 
       "knockback" : 6
     }
