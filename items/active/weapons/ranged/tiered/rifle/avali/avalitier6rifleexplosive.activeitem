@@ -15,7 +15,6 @@
   "animation" : "/items/active/weapons/ranged/gun.animation",
   "animationParts" : {
     "butt" : "",
-    "butt" : "",
     "middle" : "avalirifle.png",
     "barrel" : "",
     "muzzleFlash" : "/animations/muzzleflash/avalielectromuzzle/avalielectromuzzle.png"
