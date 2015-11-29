@@ -1,7 +1,7 @@
 {
   "kind" : "avali",
   "nameGen" : [ "/species/avalinamegen.config:names", "/species/avalinamegen.config:names" ],
-  "ouchNoises" : [ "/sfx/npc/smallbiped/spidermonkey_pain2.ogg" ],
+  "ouchNoises" : [ "/sfx/npc/smallbiped/spidermonkey_pain2.ogg", "/sfx/npc/smallbiped/spidermonkey_pain2.ogg" ],
   "gruntNoises" : [ [ "/sfx/npc/smallbiped/spidermonkey_idle1.ogg" ], [ "/sfx/npc/smallbiped/spidermonkey_idle2.ogg" ] ],
   "charGenTextLabels" : [ "FLUFF COLOR", "PLUMAGE", "SLEEVES", "OUTFIT", "TRIM COLOR", "FEATHER COLOR", "SLEEVES COLOR", "OUTFIT COLOR", "AVALI", "PERSONALITY" ],
   "skull" : "/humanoid/avali/dead.png",
