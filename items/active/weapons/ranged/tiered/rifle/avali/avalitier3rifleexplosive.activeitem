@@ -25,8 +25,8 @@
     }
   },
 
-  "baseOffset" : [-3.0, 3.0],
-  "muzzleOffset" : [13.0, 8.0],
+  "baseOffset" : [-0.1, -0.3],
+  "muzzleOffset" : [1.2, 0.9],
 
   "scripts" : ["/items/active/weapons/ranged/gun.lua"],
 
@@ -36,6 +36,7 @@
     "fireTime" : 0.16,
     "baseDps" : 7,
     "energyUsage" : 21.0,
+    "projectileCount" : 1,
     "inaccuracy" : 0.02,
 
     "fireType" : "auto",
