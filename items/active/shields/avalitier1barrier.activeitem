@@ -14,7 +14,7 @@
  
   "animation" : "shield.animation",
   "animationParts" : {
-    "shield" : "images/smallwood/1.png"
+    "shield" : "images/avali/1.png"
   },
   "animationCustom" : {
     "sounds" : {

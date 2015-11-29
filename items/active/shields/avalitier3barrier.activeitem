@@ -10,11 +10,11 @@
   "twohanded" : false,
   "itemTags" : ["shield"],
 
-  "inventoryIcon" : "images/avali/1.png:nearidle",
+  "inventoryIcon" : "images/avali/3.png:nearidle",
  
   "animation" : "shield.animation",
   "animationParts" : {
-    "shield" : "images/smallwood/1.png"
+    "shield" : "images/avali/3.png"
   },
   "animationCustom" : {
     "sounds" : {
