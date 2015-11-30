@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "leather", "count" : 2},
-	{ "item" : "ironbar", "count" : 1}
+  { "item" : "ironbar", "count" : 1}
   ],
   "output" : { "item" : "avalihat4", "count" : 1 },
   "groups" : [ "avaliloom", "armors", "chest" ]

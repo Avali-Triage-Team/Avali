@@ -9,12 +9,12 @@
   "backgroundOverlays" : [
     {
       "image" : "avianT8.png",
-      "position" : [5.4, -34.5],
+      "position" : [0, 0],
       "fullbright" : true
     },
     {
       "image" : "avianT8lit.png",
-      "position" : [5.4, -34.5]
+      "position" : [0, 0]
     }
   ],
 

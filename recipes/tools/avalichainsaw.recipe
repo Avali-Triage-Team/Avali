@@ -1,8 +1,8 @@
 {
   "input" : [
     { "item" : "durasteelbar", "count" : 24 },
-	{ "item" : "aerogel", "count" : 10 },
-	{ "item" : "graphene", "count" : 10}
+  { "item" : "aerogel", "count" : 10 },
+  { "item" : "graphene", "count" : 10}
   ],
   "output" : { "item" : "avalichainsaw", "count" : 1 },
   "groups" : [ "avalilathe", "tools", "all" ]

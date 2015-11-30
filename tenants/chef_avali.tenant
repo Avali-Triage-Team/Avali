@@ -1,27 +1,27 @@
 {
-	"name": "chef_avali",
-	"priority": 3,
+  "name": "chef_avali",
+  "priority": 3,
 
-	"tagCriteria": {
-		"light": 1,
-		"door": 1,
-		"avali": 8,
-		"cooking": 8
-	},
+  "tagCriteria": {
+    "light": 1,
+    "door": 1,
+    "avali": 8,
+    "cooking": 8
+  },
 
-	"tenants": [
-		{
-			"spawn": "npc",
-			"species": "avali",
-			"type": "chefmerchant",
-			"overrides": {
-				"damageTeamType" : "friendly"
-			 }
-		 }
-	 ],
+  "tenants": [
+    {
+      "spawn": "npc",
+      "species": "avali",
+      "type": "chefmerchant",
+      "overrides": {
+        "damageTeamType" : "friendly"
+       }
+     }
+   ],
 
-	"rent": {
-		"periodRange": [900.0, 1800.0],
-		"pool": "merchantGift"
-	}
+  "rent": {
+    "periodRange": [900.0, 1800.0],
+    "pool": "merchantGift"
+  }
 }
