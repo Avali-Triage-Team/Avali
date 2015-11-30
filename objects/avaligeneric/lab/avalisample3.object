@@ -27,7 +27,7 @@
 
       "spaceScan" : 0.1,
       "anchors" : [ "background" ],
-	  "collision" : "platform"
+    "collision" : "platform"
 
     }
   ]

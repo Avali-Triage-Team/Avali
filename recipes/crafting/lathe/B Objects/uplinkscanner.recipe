@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "money", "count" : 150  }	
+    { "item" : "money", "count" : 150  }  
   ],
   "output" : { "item" : "uplinkscanner", "count" : 1 },
   "groups" : [ "objects", "avalilathe", "all" ]

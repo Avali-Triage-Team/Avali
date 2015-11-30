@@ -28,7 +28,7 @@
       "direction" : "left",
 
       "spaceScan" : 0.1,
-	  "collision" : "platform"
+    "collision" : "platform"
     },
     {
       "image" : "campsmallentry2.png:<color>",
@@ -38,7 +38,7 @@
       "direction" : "right",
 
       "spaceScan" : 0.1,
-	  "collision" : "platform"
+    "collision" : "platform"
     }
   ]
 }

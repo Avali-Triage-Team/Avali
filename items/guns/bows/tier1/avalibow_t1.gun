@@ -26,7 +26,7 @@
   "projectile" : {
     "speed" : 80,
     "power" : 4,
-	"powerCurve" : "busterTimeMultiplier",
+  "powerCurve" : "busterTimeMultiplier",
     "color" : [10, 255, 10]
   },
 

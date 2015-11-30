@@ -2,9 +2,7 @@
   "panels" : [
     {
       "drawables" : [
-        {
-          "image" : "/cinematics/black.png"
-        }
+        { "image" : "/cinematics/black.png" }
       ],
       "keyframes" : [
         {
