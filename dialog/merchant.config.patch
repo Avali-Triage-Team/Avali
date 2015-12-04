@@ -52,9 +52,9 @@
     "path":"/helpme/avali",
     "value":{  
       "default":[  
-	    "Time to flee!",
-	    "Help! I'm being attacked!",
-	    "I'm under attack!"
+      "Time to flee!",
+      "Help! I'm being attacked!",
+      "I'm under attack!"
       ]
     }
   },
@@ -63,8 +63,8 @@
     "path":"/helpthem/avali",
     "value":{  
       "default":[  
-	    "Help! They're being attacked!",
-	    "Someone help them!"
+      "Help! They're being attacked!",
+      "Someone help them!"
       ]
     }
   },
@@ -73,10 +73,10 @@
     "path":"/encourage/avali",
     "value":{  
       "default":[  
-	    "Get 'em!",
-	    "Avenge me!",
-	    "Stick 'em once for me!",
-	    "Don't let 'em get away!"
+      "Get 'em!",
+      "Avenge me!",
+      "Stick 'em once for me!",
+      "Don't let 'em get away!"
       ]
     }
   },
@@ -85,10 +85,10 @@
     "path":"/safe/avali",
     "value":{  
       "default":[  
-	    "I think I got away.",
-	    "Phew!",
-	    "A close call!",
-	    "That was close..."
+      "I think I got away.",
+      "Phew!",
+      "A close call!",
+      "That was close..."
       ]
     }
   },

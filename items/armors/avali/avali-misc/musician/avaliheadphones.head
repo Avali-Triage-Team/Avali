@@ -18,11 +18,11 @@
       "stat" : "protection",
       "amount" : 0
     },
-	
+  
     {
       "stat" : "energyincrease",
       "amount" : 2
-    }	
+    }  
   ],
 
    "colorOptions" : [

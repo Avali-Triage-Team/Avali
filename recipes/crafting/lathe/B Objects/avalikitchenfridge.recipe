@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "mediummetal", "count" : 12  },
-    { "item" : "aerogel", "count" : 5  }		
+    { "item" : "aerogel", "count" : 5  }    
   ],
   "output" : { "item" : "avalikitchenfridge", "count" : 1 },
   "groups" : [ "objects", "avalilathe", "all" ]

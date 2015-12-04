@@ -1,29 +1,29 @@
 {
-	"name": "guardT5A_avali",
-	"priority": 12,
+  "name": "guardT5A_avali",
+  "priority": 12,
 
-	"tagCriteria": {
-		"light": 1,
-		"door": 1,
-		"avali": 8,
-		"combat": 8,
-		"tier5": 12
-	},
+  "tagCriteria": {
+    "light": 1,
+    "door": 1,
+    "avali": 8,
+    "combat": 8,
+    "tier5": 12
+  },
 
-	"tenants": [
-		{
-			"spawn": "npc",
-			"species": "avali",
-			"level": 5,
-			"type": "friendlyguard_accelerator",
-			"overrides": {
-				"damageTeamType" : "friendly"
-			 }
-		 }
-	 ],
+  "tenants": [
+    {
+      "spawn": "npc",
+      "species": "avali",
+      "level": 5,
+      "type": "friendlyguard_accelerator",
+      "overrides": {
+        "damageTeamType" : "friendly"
+       }
+     }
+   ],
 
-	"rent": {
-		"periodRange": [900.0, 1800.0],
-		"pool": "villagerGift"
-	}
+  "rent": {
+    "periodRange": [900.0, 1800.0],
+    "pool": "villagerGift"
+  }
 }
