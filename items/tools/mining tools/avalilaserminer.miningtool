@@ -8,7 +8,7 @@
   "tooltipKind" : "tool",
   "description" : "Pickaxes are so last millennium! Lasers are the future. This one comes equipped with an avali focusing lens and improved lifetime",
   "shortdescription" : "Avali Laser Mining Tool",
-  "largeImage" : "diamondpickaxebig.png",
+  "largeImage" : "avalilaserminerbig.png",
   "image" : "avalilaserminer.png:{frame}",
   "frames" : 2,
   "animationCycle" : 0.5,
