@@ -1,9 +1,8 @@
 {
   "itemName" : "avalilaserminer",
-  "inventoryIcon" : "avalilaserminericon.png",
-  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
-  "maxStack" : 1,
   "price" : 1000,
+  "inventoryIcon" : "avalilaserminericon.png",
+  "maxStack" : 1,
   "rarity" : "Rare",
   "tooltipKind" : "tool",
   "description" : "Pickaxes are so last millennium! Lasers are the future. This one comes equipped with an avali focusing lens and improved lifetime",
@@ -13,7 +12,6 @@
   "frames" : 2,
   "animationCycle" : 0.5,
   "handPosition" : [-5, -5],
-  "pointable" : true,
   "fireTime" : 0.15,
   "swingStart" : 0,
   "swingFinish" : 0,
@@ -21,7 +19,10 @@
   "altBlockRadius" : 1,
   "twoHanded" : true,
   "strikeSounds" : [ "/sfx/tools/pickaxe_hit.ogg" ],
+  "breakSound" : "/sfx/tools/pickaxe_break.ogg",
   "durability" : 1000,
+  "durabilityPerUse" : 1,
   "tileDamage" : 3.5,
-  "harvestLevel" : 99
+  "harvestLevel" : 99,
+  "pointable" : true
 }
