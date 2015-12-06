@@ -4,7 +4,7 @@
     "size" : [8, 16],
     "dimensions" : [3, 9],
     "names" : [
-	  [ "default.0", "default.1", "default.2"],
+    [ "default.0", "default.1", "default.2"],
       [ "red.0", "red.1", "red.2" ],
       [ "blue.0", "blue.1", "blue.2" ],
       [ "green.0", "green.1", "green.2" ],
@@ -24,7 +24,7 @@
     "orange.default" : "orange.0",
     "pink.default" : "pink.0",
     "black.default" : "black.0",
-    "white.default" : "white.0"	
+    "white.default" : "white.0"  
   }
 
 }

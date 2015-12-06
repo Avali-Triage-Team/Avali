@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "avalitier2dagger", "count" : 1 },
-    { "item" : "aerogel", "count" : 1 }	
+    { "item" : "aerogel", "count" : 1 }  
   ],
   "output" : { "item" : "avalitier2daggerhanging", "count" : 1 },
   "groups" : [ "objects", "avalidisplayapparatus", "all" ]

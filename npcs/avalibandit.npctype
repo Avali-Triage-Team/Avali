@@ -10,11 +10,11 @@
     "override" : [
       [0, [
           {
-			"head": [ { "name": "avalieyemask", "data" : { "colorIndex" : [1] } } ],
-			"chest": [ { "name": "avaliguardtier1chest", "data" : { "colorIndex" : [1] } } ],
-			"legs": [  { "name": "avaliarmor2pants", "data" : { "colorIndex" : [1] } } ],
+      "head": [ { "name": "avalieyemask", "data" : { "colorIndex" : [1] } } ],
+      "chest": [ { "name": "avaliguardtier1chest", "data" : { "colorIndex" : [1] } } ],
+      "legs": [  { "name": "avaliarmor2pants", "data" : { "colorIndex" : [1] } } ],
             "primary" : [
-			  { "name": "commondagger" },
+        { "name": "commondagger" },
               { "name": "commonaxe" },
               { "name": "commonshortsword" },
               { "name": "commonbroadsword" },

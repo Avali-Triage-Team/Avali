@@ -29,7 +29,7 @@
       "direction" : "left",
 
       "spaceScan" : 0.1,
-	  "collision" : "platform"
+    "collision" : "platform"
     },
     {
       "image" : "camplargeentry1.png:<color>",
@@ -39,7 +39,7 @@
       "direction" : "right",
 
       "spaceScan" : 0.1,
-	  "collision" : "platform"
+    "collision" : "platform"
     }
   ]
 }
