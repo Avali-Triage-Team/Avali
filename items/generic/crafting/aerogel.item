@@ -1,6 +1,6 @@
 {
   "itemName" : "aerogel",
-  "price" : 100,
+  "price" : 1,
   "rarity" : "Common",
   "inventoryIcon" : "aerogel.png",
   "description" : "Also known as frozen smoke, aerogel is an ephemeral lattice of molecules with incredible structural properties, despite weighing next to nothing.",
