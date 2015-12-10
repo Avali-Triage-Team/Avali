@@ -1,6 +1,7 @@
 {
   "itemName" : "avalidarkmetal",
   "rarity" : "Common",
+  "price" : 5,
   "inventoryIcon" : "avalidarkmetal.png",
   "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
   "description" : "Metal, darkly.",

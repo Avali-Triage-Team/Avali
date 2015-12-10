@@ -1,9 +1,9 @@
 {
   "itemName" : "avalitier6shotgun",
-  "price" : 900,
+  "price" : 300,
   "inventoryIcon" : "avalishotgun.png",
   "maxStack" : 1,
-  "rarity" : "common",
+  "rarity" : "legendary",
   "description" : "An avali shotgun!",
   "shortdescription" : "QRC Type-6",
   "level" : 6,

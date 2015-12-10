@@ -7,7 +7,7 @@
   "race" : "avali",
   "category" : "decorative",
   "printable" : false,
-  "price" : 100,
+  "price" : 10,
   "retainObjectParametersInItem" : true, 
   
   "apexDescription" : "What a crude structure.",

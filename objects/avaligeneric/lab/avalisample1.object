@@ -3,7 +3,7 @@
   "tags" : [ "avali", "avalicamp", "science" ], 
   "rarity" : "Common",
   "category" : "furniture",
-  "price" : 125,
+  "price" : 30,
   "printable" : false,
   "description" : "An empty lab container, for containing lab... stuff.",
   "shortdescription" : "Empty Specimen Jar",

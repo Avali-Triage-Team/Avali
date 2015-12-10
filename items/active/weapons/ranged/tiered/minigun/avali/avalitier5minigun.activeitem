@@ -1,6 +1,6 @@
 {
   "itemName" : "avalitier5minigun",
-  "price" : 950,
+  "price" : 250,
   "inventoryIcon" : "avaliminigun.png",
   "maxStack" : 1,
   "rarity" : "rare",
@@ -26,7 +26,7 @@
   },
 
   "baseOffset" : [0.6, -0.7],
-  "muzzleOffset" : [2.3, -1.0],
+  "muzzleOffset" : [3.5, -0.4],
 
   "scripts" : ["/items/active/weapons/ranged/gun.lua"],
 
@@ -37,6 +37,7 @@
     "baseDps" : 7,
     "energyUsage" : 27.0,
     "inaccuracy" : 0.04,
+    "projectileCount" : 1,
 
     "fireType" : "auto",
 

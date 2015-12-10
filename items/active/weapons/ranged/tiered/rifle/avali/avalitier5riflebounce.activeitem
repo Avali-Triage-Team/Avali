@@ -1,11 +1,11 @@
 {
   "itemName" : "avalitier5riflebounce",
-  "price" : 750,
+  "price" : 300,
   "inventoryIcon" : "avalirifle.png",
   "maxStack" : 1,
   "rarity" : "rare",
   "description" : "The standard Avali infantry weapon.",
-  "shortdescription" : "AR5 Blizzard",
+  "shortdescription" : "AR5-BE Blizzard",
   "level" : 5,
   "tooltipKind" : "gun",
   "weaponType" : "Assault Rifle",

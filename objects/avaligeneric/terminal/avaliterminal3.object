@@ -5,7 +5,7 @@
   "objectType" : "container",
 
   "category" : "storage",
-  "price" : 200,
+  "price" : 22,
   "printable" : false,  
   "description" : "An information terminal with storage for physical data devices (and drinks cabinet)",
   "shortdescription" : "Information Terminal",

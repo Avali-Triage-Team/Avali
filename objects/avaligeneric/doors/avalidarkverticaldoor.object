@@ -5,10 +5,10 @@
   "rarity" : "Common",
 
   "category" : "door",
-  "price" : 500,
+  "price" : 34,
   "description" : "A vertical hatch doorway.",
   "shortdescription" : "Avali Dark Vertical Hatch",
-  "race" : "human",
+  "race" : "avali",
 
   "apexDescription" : "A vertical door.",
   "avianDescription" : "A engineered hatch.",

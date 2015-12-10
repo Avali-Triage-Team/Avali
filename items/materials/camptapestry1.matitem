@@ -1,6 +1,7 @@
 {
   "itemName" : "camptapestry1",
   "rarity" : "Common",
+  "price" : 2,
   "inventoryIcon" : "camptapestry1.png",
   "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
   "description" : "A luxurious soft fabric for wall hangings or carpets",
