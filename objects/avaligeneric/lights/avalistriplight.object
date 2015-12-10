@@ -45,7 +45,7 @@
 
       "spaceScan" : 0.01,
       "anchors" : [ "left"],
-      "lightPosition" : [1, 0],
+      "lightPosition" : [0, 0],
       "beamAngle" : 0
     },
   {
@@ -62,7 +62,7 @@
 
       "spaceScan" : 0.01,
       "anchors" : [ "right"],
-      "lightPosition" : [-1, 0],
+      "lightPosition" : [0, 0],
       "beamAngle" : 180
     },
     {
@@ -79,7 +79,7 @@
       "spaceScan" : 0.01,
     "fgAnchors" : [ [0, -1] ],
       "anchors" : [ "bottom" ],
-      "lightPosition" : [0, -1],
+      "lightPosition" : [0, 0],
       "beamAngle" : 90
     },
   {
@@ -95,7 +95,7 @@
 
       "spaceScan" : 0.01,
       "anchors" : [ "background" ],
-      "lightPosition" : [0, 1],
+      "lightPosition" : [0, 0],
       "beamAngle" : 270
     }
   
