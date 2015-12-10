@@ -9,7 +9,7 @@
 
             {
               "type" : "animated",
-              "animation" : "/animation/aerotech/bloodspurt.animation",
+              "animation" : "/animations/aerotech/bloodspurt.animation",
               "size" : 1.0,
               "angularVelocity" : 0,
               "fade" : 0.5,
@@ -24,7 +24,7 @@
       
             {
               "type" : "animated",
-              "animation" : "/animation/aerotech/spalling1.animation",
+              "animation" : "/animations/aerotech/spalling1.animation",
               "angularVelocity" : 0,
               "fade" : 3.0,
               "destructionTime" : 4.0,
@@ -58,7 +58,7 @@
 
             {
               "type" : "animated",
-              "animation" : "/animation/aerotech/spalling1.animation",
+              "animation" : "/animations/aerotech/spalling1.animation",
               "angularVelocity" : 0,
               "fade" : 3.0,
               "destructionTime" : 4.0,
@@ -76,7 +76,7 @@
 
             {
               "type" : "animated",
-              "animation" : "/animation/aerotech/spalling2.animation",
+              "animation" : "/animations/aerotech/spalling2.animation",
               "angularVelocity" : 0,
               "fade" : 3.0,
               "destructionTime" : 4.0,
@@ -126,7 +126,7 @@
       
             {
               "type" : "animated",
-              "animation" : "/animation/aerotech/blooddrop.animation",
+              "animation" : "/animations/aerotech/blooddrop.animation",
               "angularVelocity" : 0,
               "fade" : 1.2,
               "destructionTime" : 1.0,
@@ -144,7 +144,7 @@
 
             {
               "type" : "animated",
-              "animation" : "/animation/aerotech/blooddrop.animation",
+              "animation" : "/animations/aerotech/blooddrop.animation",
               "angularVelocity" : 0,
               "fade" : 1.1,
               "destructionTime" : 1.0,
@@ -162,7 +162,7 @@
 
             {
               "type" : "animated",
-              "animation" : "/animation/aerotech/blooddrop.animation",
+              "animation" : "/animations/aerotech/blooddrop.animation",
               "angularVelocity" : 0,
               "fade" : 1.0,
               "destructionTime" : 1.0,
@@ -180,7 +180,7 @@
 
             {
               "type" : "animated",
-              "animation" : "/animation/aerotech/blooddrop.animation",
+              "animation" : "/animations/aerotech/blooddrop.animation",
               "angularVelocity" : 0,
               "fade" : 1.0,
               "destructionTime" : 1.0,
@@ -198,7 +198,7 @@
 
             {
               "type" : "animated",
-              "animation" : "/animation/aerotech/blooddrop.animation",
+              "animation" : "/animations/aerotech/blooddrop.animation",
               "angularVelocity" : 0,
               "fade" : 1.2,
               "destructionTime" : 1.0,
@@ -216,7 +216,7 @@
 
             {
               "type" : "animated",
-              "animation" : "/animation/aerotech/blooddrop.animation",
+              "animation" : "/animations/aerotech/blooddrop.animation",
               "angularVelocity" : 0,
               "fade" : 1.1,
               "destructionTime" : 1.0,
@@ -241,7 +241,7 @@
 
             {
               "type" : "animated",
-              "animation" : "/animation/aerotech/bloodspurt.animation",
+              "animation" : "/animations/aerotech/bloodspurt.animation",
               "size" : 1.0,
               "angularVelocity" : 0,
               "fade" : 0.5,
@@ -256,7 +256,7 @@
       
             {
               "type" : "animated",
-              "animation" : "/animation/aerotech/spalling1.animation",
+              "animation" : "/animations/aerotech/spalling1.animation",
               "angularVelocity" : 0,
               "fade" : 3.0,
               "destructionTime" : 4.0,
@@ -290,7 +290,7 @@
 
             {
               "type" : "animated",
-              "animation" : "/animation/aerotech/spalling1.animation",
+              "animation" : "/animations/aerotech/spalling1.animation",
               "angularVelocity" : 0,
               "fade" : 3.0,
               "destructionTime" : 4.0,
@@ -308,7 +308,7 @@
 
             {
               "type" : "animated",
-              "animation" : "/animation/aerotech/spalling2.animation",
+              "animation" : "/animations/aerotech/spalling2.animation",
               "angularVelocity" : 0,
               "fade" : 3.0,
               "destructionTime" : 4.0,
@@ -358,7 +358,7 @@
       
             {
               "type" : "animated",
-              "animation" : "/animation/aerotech/blooddrop.animation",
+              "animation" : "/animations/aerotech/blooddrop.animation",
               "angularVelocity" : 0,
               "fade" : 1.2,
               "destructionTime" : 1.0,
@@ -376,7 +376,7 @@
 
             {
               "type" : "animated",
-              "animation" : "/animation/aerotech/blooddrop.animation",
+              "animation" : "/animations/aerotech/blooddrop.animation",
               "angularVelocity" : 0,
               "fade" : 1.1,
               "destructionTime" : 1.0,
@@ -394,7 +394,7 @@
 
             {
               "type" : "animated",
-              "animation" : "/animation/aerotech/blooddrop.animation",
+              "animation" : "/animations/aerotech/blooddrop.animation",
               "angularVelocity" : 0,
               "fade" : 1.0,
               "destructionTime" : 1.0,
@@ -412,7 +412,7 @@
 
             {
               "type" : "animated",
-              "animation" : "/animation/aerotech/blooddrop.animation",
+              "animation" : "/animations/aerotech/blooddrop.animation",
               "angularVelocity" : 0,
               "fade" : 1.0,
               "destructionTime" : 1.0,
@@ -430,7 +430,7 @@
 
             {
               "type" : "animated",
-              "animation" : "/animation/aerotech/blooddrop.animation",
+              "animation" : "/animations/aerotech/blooddrop.animation",
               "angularVelocity" : 0,
               "fade" : 1.2,
               "destructionTime" : 1.0,
@@ -448,7 +448,7 @@
 
             {
               "type" : "animated",
-              "animation" : "/animation/aerotech/blooddrop.animation",
+              "animation" : "/animations/aerotech/blooddrop.animation",
               "angularVelocity" : 0,
               "fade" : 1.1,
               "destructionTime" : 1.0,
@@ -476,7 +476,7 @@
         
             {
               "type" : "animated",
-              "animation" : "/animation/aerotech/spalling1.animation",
+              "animation" : "/animations/aerotech/spalling1.animation",
               "angularVelocity" : 0,
               "fade" : 3.0,
               "destructionTime" : 4.0,
@@ -510,7 +510,7 @@
 
             {
               "type" : "animated",
-              "animation" : "/animation/aerotech/spalling1.animation",
+              "animation" : "/animations/aerotech/spalling1.animation",
               "angularVelocity" : 0,
               "fade" : 3.0,
               "destructionTime" : 4.0,
@@ -528,7 +528,7 @@
 
             {
               "type" : "animated",
-              "animation" : "/animation/aerotech/spalling2.animation",
+              "animation" : "/animations/aerotech/spalling2.animation",
               "angularVelocity" : 0,
               "fade" : 3.0,
               "destructionTime" : 4.0,
@@ -585,7 +585,7 @@
       
             {
               "type" : "animated",
-              "animation" : "/animation/aerotech/spalling1.animation",
+              "animation" : "/animations/aerotech/spalling1.animation",
               "angularVelocity" : 0,
               "fade" : 3.0,
               "destructionTime" : 4.0,
@@ -619,7 +619,7 @@
 
             {
               "type" : "animated",
-              "animation" : "/animation/aerotech/spalling1.animation",
+              "animation" : "/animations/aerotech/spalling1.animation",
               "angularVelocity" : 0,
               "fade" : 3.0,
               "destructionTime" : 4.0,
@@ -637,7 +637,7 @@
 
             {
               "type" : "animated",
-              "animation" : "/animation/aerotech/spalling2.animation",
+              "animation" : "/animations/aerotech/spalling2.animation",
               "angularVelocity" : 0,
               "fade" : 3.0,
               "destructionTime" : 4.0,
