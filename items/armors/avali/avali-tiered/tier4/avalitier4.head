@@ -35,7 +35,7 @@
     }
   ],
 
-  "questTags" : [ "durasteelarmor" ],
+  "itemTags" : [ "durasteelarmor" ],
 
   "colorOptions" : [
     /* GREY BLUE */

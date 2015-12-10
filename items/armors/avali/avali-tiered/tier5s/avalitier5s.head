@@ -35,7 +35,7 @@
     }
   ],
 
-  "questTags" : [ "tier5armor" ],
+  "itemTags" : [ "tier5armor" ],
 
   "colorOptions" : [
     /* PURPLE */

@@ -34,7 +34,7 @@
     }
   ],
 
-  "questTags" : [ "steelarmor" ],
+  "itemTags" : [ "steelarmor" ],
   
   "colorOptions" : [
     /* LIGHT GREY */
