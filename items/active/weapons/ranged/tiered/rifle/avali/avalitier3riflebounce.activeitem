@@ -5,7 +5,7 @@
   "maxStack" : 1,
   "rarity" : "uncommon",
   "description" : "The standard Avali infantry weapon.",
-  "shortdescription" : "AR3 Blizzard",
+  "shortdescription" : "AR3-BE Blizzard",
   "level" : 3,
   "tooltipKind" : "gun",
   "weaponType" : "Assault Rifle",
