@@ -4,7 +4,7 @@
   "rarity" : "Common",
 
   "category" : "door",
-  "price" : 50,
+  "price" : 34,
   "printable" : false,
   
   "description" : "A plain yet complex industrial door.",
@@ -41,8 +41,8 @@
   {
     "sounds":
     {
-      "open": [ "/sfx/objects/apexcooldoor_open.wav" ],
-      "close": [ "/sfx/objects/apexcooldoor_close.wav" ]
+      "open": [ "/sfx/objects/apexcooldoor_open.ogg" ],
+      "close": [ "/sfx/objects/apexcooldoor_close.ogg" ]
     }
   },
   "animationPosition" : [0, 0],

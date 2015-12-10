@@ -1,6 +1,6 @@
 {
   "input" : [
-	{ "item" : "money", "count" : 1 }
+  { "item" : "money", "count" : 1 }
   ],
   "output" : { "item" : "avaliblacksmithhead", "count" : 1 },
   "groups" : [ "avaliloom", "armors", "chest" ]

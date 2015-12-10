@@ -15,11 +15,7 @@
             ],
             "sheathedprimary": [
               [
-                "generatedgun",
-                1,
-                {
-                  "definition": "commonplasmapistol"
-                }
+                { "name": "commonplasmapistol" }
               ]
             ]
           }

@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "mediummetal", "count" : 3  },
-    { "item" : "brain", "count" : 1  },	
+    { "item" : "brain", "count" : 1  },  
     { "item" : "aerogel", "count" : 3  }
 
   ],

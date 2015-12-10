@@ -6,7 +6,7 @@
   "itemDrop" : "avalistairs",
   "shortdescription" : "Avali Stair Platform",
   "description" : "A hardened aerogel platform, this time designed so that the slopes are shaped like stairs.",
-  "footstepSound" : "/sfx/blocks/footstep_composite.wav",
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
   "category": "supports",
 
   "renderTemplate" : "/tiles/platformtemplate.config",

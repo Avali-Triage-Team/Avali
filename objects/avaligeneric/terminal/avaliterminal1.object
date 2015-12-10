@@ -4,7 +4,7 @@
   "rarity" : "Common",
 
   "category" : "wire",
-  "price" : 600,
+  "price" : 72,
   "printable" : false,  
   "description" : "A sleek digital interface",
   "shortdescription" : "Avali Terminal",
@@ -29,7 +29,7 @@
     }
   ],
 
-  "soundEffect" : "/sfx/objects/screen1.wav",
+  "soundEffect" : "/sfx/objects/screen1.ogg",
 
   "scripts" : [ "/objects/wired/switch/switch.lua" ],
   "scriptDelta" : 5,

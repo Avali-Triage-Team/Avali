@@ -7,7 +7,7 @@
   "shortdescription" : "Hologram, Text Window",
   "race" : "avali",
   "category" : "decorative",
-  "price" : 100,
+  "price" : 20,
   "retainObjectParametersInItem" : true, 
 
   "apexDescription" : "I think the rosetta module of my translator is acting up...",

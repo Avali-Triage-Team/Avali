@@ -3,7 +3,6 @@
   "tags" : [ "avali", "avalicamp", "pretty" ], 
   "rarity" : "Common",
   "category" : "furniture",
-  "price" : 50,
   "retainObjectParametersInItem" : true, 
   "printable" : false,
   "description" : "Its contents smell strongly of ammonia... maybe it's floor cleaner?",

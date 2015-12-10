@@ -4,23 +4,23 @@
   "levelVariance" : [-0.5, -0.5],
   "persistent" : true,
   "scriptConfig" : {
-	"dialog" : {
-		"attack" : "/dialog/avali.config:dragoon_attack"
-	}
+  "dialog" : {
+    "attack" : "/dialog/avali.config:dragoon_attack"
+  }
   },
   "items" : {
-	"default" : [
-		[0, [
-			  {
-			  "head": [ { "name": "avalidragoonhead", "data" : { "colorIndex" : [1] } } ],
-			  "chest": [ { "name": "avaliguardtier1chest", "data" : { "colorIndex" : [1] } } ],
-			  "legs": [  { "name": "avaliarmor3pants", "data" : { "colorIndex" : [1] } } ],
-			  "primary" : [ 
-			    [ "generatedsword", 1, { "definition" : "commonspear" } ]
-			  ]
-			}
-		] ] 
-	 ]
+  "default" : [
+    [0, [
+        {
+        "head": [ { "name": "avalidragoonhead", "data" : { "colorIndex" : [1] } } ],
+        "chest": [ { "name": "avaliguardtier1chest", "data" : { "colorIndex" : [1] } } ],
+        "legs": [  { "name": "avaliarmor3pants", "data" : { "colorIndex" : [1] } } ],
+        "primary" : [ 
+           { "name" : "commonspear" }
+        ]
+      }
+    ] ] 
+   ]
   },
   "dropPools" : [ "dragoontreasure" ]
 }

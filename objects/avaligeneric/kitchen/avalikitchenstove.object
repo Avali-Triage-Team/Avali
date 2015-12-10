@@ -4,7 +4,7 @@
   "rarity" : "Common",
   "objectType" : "container",
   "category" : "light",
-  "price" : 800,
+  "price" : 140,
   "retainObjectParametersInItem" : true, 
   "lightColor" : [64, 64, 64],
 
@@ -30,12 +30,12 @@
 
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],
-	  "collision" : "platform"
+    "collision" : "platform"
 
     }
   ],
   "recipeGroup" : "cooking",
-  "openSounds" : [ "/sfx/objects/campfire_use.wav" ],
+  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
   "slotCount" : 2,
   "uiConfig" : "/interface/objectcrafting/campfire.config",
   "frameCooldown" : 67,

@@ -3,7 +3,7 @@
   "tags" : [ "avali", "avalicamp", "science" ], 
   "rarity" : "Common",
   "category" : "furniture",
-  "price" : 125,
+  "price" : 35,
   "printable" : false,
   "description" : "The brain seems to have wrinkles on it's wrinkles from soaking in brine too long.",
   "shortdescription" : "Brain Specimen",
@@ -27,7 +27,7 @@
 
       "spaceScan" : 0.1,
       "anchors" : [ "background" ],
-	  "collision" : "platform"
+    "collision" : "platform"
 
     }
   ]

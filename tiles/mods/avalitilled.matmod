@@ -2,7 +2,7 @@
   "modId" : 12000,
   "modName" : "avalitilled",
   "description" : "Aeroponic cradles for saplings.",
-  "footstepSound" : "/sfx/blocks/footstep_composite.wav",
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
   "tilled" : true,
   "health" : 0,
 

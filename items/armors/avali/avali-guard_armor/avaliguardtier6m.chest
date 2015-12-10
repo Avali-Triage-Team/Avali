@@ -3,7 +3,6 @@
   "inventoryIcon" : "icons.png:chest",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
-  "price" : 1150,
   "rarity" : "Legendary",
   "description" : "Avali Guard armor plates. Because Guards need protection too!",
   "shortdescription" : "Avali Guard Armor T6-M",

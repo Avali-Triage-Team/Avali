@@ -13,7 +13,7 @@
             "legs": [  { "name": "avaliarmor3pants", "data" : { "colorIndex" : [9] } } ],
             "primary": [ { "name": "avalitier6shotgun" } ],
             "sheathedprimary": [ { "name": "avalitier1shortsword" } ],
-            "alt": [ { "name": "generatedshield", "data" : { "definition" : "avalitier4barrier" } } ]
+            "alt": [ { "name": "avalitier4barrier" } ]
         }
       ] ],
       [6, [
@@ -27,7 +27,7 @@
             "legs": [  { "name": "avaliarmor3pants", "data" : { "colorIndex" : [9] } } ],
             "primary": [ { "name": "avalitier6shotgun" } ],
             "sheathedprimary": [ { "name": "avalitier1shortsword" } ],
-            "alt": [ { "name": "generatedshield", "data" : { "definition" : "avalitier4barrier" } } ]
+            "alt": [ { "name": "avalitier4barrier" } ]
         }
       ] ]
     ] }

@@ -7,7 +7,6 @@
   "race" : "generic",
   "category" : "decorative",
   "printable" : false,
-  "price" : 100,
 
   "apexDescription" : "What a crude structure.",
   "avianDescription" : "Reminds me of a market on Avos.",
@@ -28,7 +27,7 @@
       "direction" : "left",
 
       "spaceScan" : 0.1,
-	  "collision" : "solid"
+    "collision" : "solid"
     },
     {
       "image" : "campsmallwall2.png:<color>",
@@ -38,7 +37,7 @@
       "direction" : "right",
 
       "spaceScan" : 0.1,
-	  "collision" : "solid"
+    "collision" : "solid"
     }
   ]
 }

@@ -19,14 +19,14 @@
 
   "projectileType" : "avaliairburstmine",
   "projectile" : {
-	"power" : 2.7,
-	"speed" : 40,
+  "power" : 2.7,
+  "speed" : 40,
     "color" : [10, 255, 10]
   },
 
   "muzzleEffect" : {
     "animation" : "/animations/muzzleflash/electromuzzle/electromuzzle.animation",   
-    "fireSound" : [ { "file" : "/sfx/gun/plasma_ar1.wav" } ]
+    "fireSound" : [ { "file" : "/sfx/gun/plasma_ar1.ogg" } ]
   }
 }
 

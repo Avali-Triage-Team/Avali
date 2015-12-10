@@ -1,0 +1,82 @@
+{
+  "itemName" : "avalitier4sniper",
+  "price" : 200,
+  "inventoryIcon" : "avalisniper.png",
+  "maxStack" : 1,
+  "rarity" : "uncommon",
+  "description" : "An anti-materiel rifle more frequently used for hunting armoured vehicles than wildlife.",
+  "shortdescription" : "AM4 Firelance",
+  "level" : 4,
+  "tooltipKind" : "gun",
+  "weaponType" : "Rifle",
+  "itemTags" : ["weapon","ranged","rifle"],
+  "twoHanded" : true,
+  
+  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "avalisniper.png",
+    "barrel" : "",
+    "muzzleFlash" : "/animations/snipermuzzle/snipermuzzle.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/gun/plasma_sniper3.ogg" ]
+    }
+  },
+
+  "baseOffset" : [1.1, 0.3],
+  "muzzleOffset" : [2.7, 0.3],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAttack" : {
+    "fireTime" : 1.8,
+    "baseDps" : 11,
+    "energyUsage" : 18.0,
+    "inaccuracy" : 0.01,
+
+    "projectileCount" : 1,
+    "fireType" : "auto",
+
+    "projectileType" : "railgun2",
+    "projectileParameters" : { 
+      "knockback" : 20
+    }
+  },
+
+  "stances" : {
+    "idle" : {
+      "armRotation" : 0,
+      "weaponRotation" : 0,
+      "twoHanded" : true,
+
+      "allowRotate" : true,
+      "allowFlip" : true
+    },
+    "fire" : {
+      "duration" : 0,
+      "armRotation" : 5,
+      "weaponRotation" : 5,
+      "twoHanded" : true,
+
+      "allowRotate" : false,
+      "allowFlip" : false
+    },
+    "cooldown" : {
+      "duration" : 0.25,
+      "armRotation" : 5,
+      "weaponRotation" : 5,
+      "twoHanded" : true,
+
+      "allowRotate" : false,
+      "allowFlip" : false
+    }
+  },
+
+  "altAbilitySource" : "/items/active/weapons/ranged/altabilities/piercingshot/piercingshot.altability",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

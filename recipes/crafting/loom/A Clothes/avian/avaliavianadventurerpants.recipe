@@ -1,7 +1,7 @@
 {
   "input" : [
-	{ "item" : "avianadventurershirt", "count" : 1 },
-	{ "item" : "avianadventurerpants", "count" : 1 }
+  { "item" : "avianadventurershirt", "count" : 1 },
+  { "item" : "avianadventurerpants", "count" : 1 }
   ],
   "output" : { "item" : "avaliavianadventurerpants", "count" : 1 },
   "groups" : [ "avaliloom", "armors", "chest" ]

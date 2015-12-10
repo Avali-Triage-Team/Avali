@@ -3,7 +3,7 @@
   "inventoryIcon" : "icons.png:pants",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
-  "price" : 100,
+  "price" : 10,
   "rarity" : "Common",
   "description" : "^green;Avali, Leg Slot. ^white; Garb for the would-be Scientist.",
   "shortdescription" : "Scientist Trenchcoat",

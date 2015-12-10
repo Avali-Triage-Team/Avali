@@ -4,7 +4,7 @@
   "printable" : false,
   "rarity" : "Common",
   "category" : "light",
-  "price" : 50,
+  "price" : 60,
 
   "description" : "A solid illuminated panel, safe enough to walk on.",
   "shortdescription" : "Solid Light Block",
@@ -32,8 +32,8 @@
 
       "spaceScan" : 0.01,
       "anchors" : [ "background" ],
-	  "collision" : "solid",
-	  "lightPosition" : [0, 0]
+    "collision" : "solid",
+    "lightPosition" : [0, 0]
     }
  ],
 "animation" : "/objects/wired/light/lighttoggle.animation",

@@ -5,7 +5,7 @@
   "objectType" : "container",
 
   "category" : "storage",
-  "price" : 300,
+  "price" : 50,
   "printable" : false,  
   "description" : "A sturdy, armoured equipment case.",
   "shortdescription" : "Avali Footlocker",
@@ -31,8 +31,8 @@
     }
   ],
 
-  "openSounds" : [ "/sfx/objects/chest_small_open.wav" ],
-  "closeSounds" : [ "/sfx/objects/chest_small_close.wav" ],
+  "openSounds" : [ "/sfx/objects/chest_small_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/chest_small_close.ogg" ],
   "slotCount" : 16,
   "uiConfig" : "/interface/chests/chest%slots%.config",
   "frameCooldown" : 67,

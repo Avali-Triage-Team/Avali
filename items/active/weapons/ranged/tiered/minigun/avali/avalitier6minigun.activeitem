@@ -1,0 +1,82 @@
+{
+  "itemName" : "avalitier6minigun",
+  "price" : 300,
+  "inventoryIcon" : "avaliminigun.png",
+  "maxStack" : 1,
+  "rarity" : "legendary",
+  "description" : "The primary Avali suppressive fire and support weapon.",
+  "shortdescription" : "MG6 Hailstorm",
+  "level" : 6,
+  "tooltipKind" : "gun",
+  "weaponType" : "Minigun",
+  "itemTags" : ["weapon","ranged","minigun"],
+  "twoHanded" : true,
+  
+  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "avaliminigun.png",
+    "barrel" : "",
+    "muzzleFlash" : "/animations/muzzleflash/avalielectromuzzle/avalielectromuzzle.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/gun/plasma_ar1.ogg" ]
+    }
+  },
+
+  "baseOffset" : [0.6, -0.7],
+  "muzzleOffset" : [3.5, -0.4],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "electric",
+
+  "primaryAttack" : {
+    "fireTime" : 0.10,
+    "baseDps" : 7,
+    "energyUsage" : 27.0,
+    "inaccuracy" : 0.04,
+    "projectileCount" : 1,
+
+    "fireType" : "auto",
+
+    "projectileType" : "railgun1",
+    "projectileParameters" : { 
+      "knockback" : 6
+    }
+  },
+
+  "stances" : {
+    "idle" : {
+      "armRotation" : 0,
+      "weaponRotation" : 0,
+      "twoHanded" : true,
+
+      "allowRotate" : true,
+      "allowFlip" : true
+    },
+    "fire" : {
+      "duration" : 0,
+      "armRotation" : 1,
+      "weaponRotation" : 1,
+      "twoHanded" : true,
+
+      "allowRotate" : false,
+      "allowFlip" : false
+    },
+    "cooldown" : {
+      "duration" : 0.25,
+      "armRotation" : 1,
+      "weaponRotation" : 1,
+      "twoHanded" : true,
+
+      "allowRotate" : false,
+      "allowFlip" : false
+    }
+  },
+
+  "altAbilitySource" : "/items/active/weapons/ranged/altabilities/explosiveburst/explosiveburst.altability",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

@@ -26,12 +26,12 @@
   "projectile" : {
     "speed" : 80,
     "power" : 4.4,
-	"powerCurve" : "busterTimeMultiplier",
+  "powerCurve" : "busterTimeMultiplier",
     "color" : [10, 255, 10]
   },
 
   "muzzleEffect" : {
     "animation" : "/animations/muzzleflash/avalielectromuzzle/avalielectromuzzle.animation",
-    "fireSound" : [ { "file" : "/sfx/gun/plasma_sniper3.wav" } ]
+    "fireSound" : [ { "file" : "/sfx/gun/plasma_sniper3.ogg" } ]
   }
 }

@@ -1,6 +1,6 @@
 {
   "itemName" : "avalihoe",
-  "price" : 125,
+  "price" : 50,
   "inventoryIcon" : "avalihoe.png",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
@@ -15,7 +15,7 @@
   "blockRadius" : 7,
   "altBlockRadius" : 1,
   "twoHanded" : true,
-  "strikeSounds" : [ "/sfx/tools/pickaxe_hit.wav" ],
+  "strikeSounds" : [ "/sfx/tools/pickaxe_hit.ogg" ],
 
   "pickupQuestTemplates" : [ "firstcrops.gearup" ]
 }

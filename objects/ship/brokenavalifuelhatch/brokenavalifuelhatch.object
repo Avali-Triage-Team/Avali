@@ -31,9 +31,9 @@
     }
   ],
   
-  "soundEffect" : "/sfx/objects/tv_static.wav",
+  "soundEffect" : "/sfx/objects/tv_static.ogg",
   "soundEffectRadius" : 15,
   
-  "sounds" : [ "/sfx/interface/ship_error1.wav" ]
+  "sounds" : [ "/sfx/interface/ship_error1.ogg" ]
   
 }

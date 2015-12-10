@@ -24,14 +24,14 @@
   "powerProjectileType" : "ChargedAvaliArrow_t3",
   "powerProjectileTime" : [0.9, 1.1],
   "projectile" : {
-    "speed" : 85,	
+    "speed" : 85,  
     "power" : 4.375,
-	"powerCurve" : "busterTimeMultiplier",	
+  "powerCurve" : "busterTimeMultiplier",  
     "color" : [10, 255, 10]
   },
 
   "muzzleEffect" : {
     "animation" : "/animations/muzzleflash/avalielectromuzzle/avalielectromuzzle.animation",
-    "fireSound" : [ { "file" : "/sfx/gun/plasma_sniper3.wav" } ]
+    "fireSound" : [ { "file" : "/sfx/gun/plasma_sniper3.ogg" } ]
   }
 }
