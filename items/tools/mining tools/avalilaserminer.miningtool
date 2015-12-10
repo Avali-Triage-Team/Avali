@@ -1,6 +1,6 @@
 {
   "itemName" : "avalilaserminer",
-  "price" : 1000,
+  "price" : 500,
   "inventoryIcon" : "avalilaserminericon.png",
   "maxStack" : 1,
   "rarity" : "Rare",

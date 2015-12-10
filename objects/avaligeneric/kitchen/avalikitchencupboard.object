@@ -6,7 +6,7 @@
   "objectType" : "container",
 
   "category" : "storage",
-  "price" : 250,
+  "price" : 120,
   "retainObjectParametersInItem" : true, 
   "description" : "A hi-tech cupboard for hi-tech goodies.",
   "shortdescription" : "Hi-Tech Cupboard",

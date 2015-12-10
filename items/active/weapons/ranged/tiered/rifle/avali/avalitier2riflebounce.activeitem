@@ -1,11 +1,11 @@
 {
   "itemName" : "avalitier2riflebounce",
-  "price" : 450,
+  "price" : 125,
   "inventoryIcon" : "avalirifle.png",
   "maxStack" : 1,
   "rarity" : "common",
   "description" : "The standard Avali infantry weapon.",
-  "shortdescription" : "AR1 Blizzard",
+  "shortdescription" : "AR2-BE Blizzard",
   "level" : 2,
   "tooltipKind" : "gun",
   "weaponType" : "Assault Rifle",
