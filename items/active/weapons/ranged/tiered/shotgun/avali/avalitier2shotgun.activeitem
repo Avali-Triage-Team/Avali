@@ -1,6 +1,6 @@
 {
   "itemName" : "avalitier2shotgun",
-  "price" : 500,
+  "price" : 125,
   "inventoryIcon" : "avalishotgun.png",
   "maxStack" : 1,
   "rarity" : "common",

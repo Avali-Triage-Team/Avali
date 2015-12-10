@@ -1,6 +1,6 @@
 {
   "itemName" : "avalitier2rifle",
-  "price" : 450,
+  "price" : 100,
   "inventoryIcon" : "avalirifle.png",
   "maxStack" : 1,
   "rarity" : "common",

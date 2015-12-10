@@ -3,7 +3,7 @@
   "tags" : [ "avali", "avalicamp", "light" ], 
   "rarity" : "Common",
   "category" : "light",
-  "price" : 100,
+  "price" : 60,
   "printable" : false,  
   "lightColors" : {
     "default" : [255, 228, 207],

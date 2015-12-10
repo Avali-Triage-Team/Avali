@@ -1,6 +1,6 @@
 {
   "itemName" : "avalitier4minigun",
-  "price" : 850,
+  "price" : 200,
   "inventoryIcon" : "avaliminigun.png",
   "maxStack" : 1,
   "rarity" : "uncommon",

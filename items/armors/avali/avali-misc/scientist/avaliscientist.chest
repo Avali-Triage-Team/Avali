@@ -3,7 +3,7 @@
   "inventoryIcon" : "icons.png:chest",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
-  "price" : 100,
+  "price" : 10,
   "rarity" : "Common",
   "description" : "^green;Avali, Chest Slot. ^white; A scientific cloak with lots of pockets.",
   "shortdescription" : "Scientist Cloak",
