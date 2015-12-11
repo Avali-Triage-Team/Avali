@@ -1,7 +1,6 @@
 {
   "itemName" : "avalisniperhead",
-  "inventoryIcon" : "icons.png",
-  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "inventoryIcon" : "icons.png:head",
   "maxStack" : 1,
   "price" : 1,
   "rarity" : "Common",
@@ -18,14 +17,13 @@
       "stat" : "protection",
       "amount" : 4.5
     },
-
     {
       "stat" : "energyincrease",
       "amount" : 25
     }
   ],
 
-   "colorOptions" : [
+  "colorOptions" : [
     /* GREY */
     { "ffca8a" : "fccf7e", "e0975c" : "f59e03", "a85636" : "ca6e1d", "6f2919" : "ae3e0c" },
     /* BLACK */

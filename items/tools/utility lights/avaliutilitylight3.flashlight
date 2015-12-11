@@ -1,7 +1,6 @@
 {
   "itemName" : "avaliutilitylight3",
   "inventoryIcon" : "avaliutilitylight3icon.png",
-  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "price" : 50,
   "rarity" : "Rare",
   "maxStack" : 1,

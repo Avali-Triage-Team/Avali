@@ -1,7 +1,6 @@
 {
   "itemName" : "AvaliBow_t4",
   "inventoryIcon" : "AvaliBowIcon_t4.png",
-  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
   "maxStack" : 1,
   "price" : 400,
   "rarity" : "Legendary",
@@ -26,7 +25,7 @@
   "projectile" : {
     "speed" : 80,
     "power" : 4.375,
-  "powerCurve" : "busterTimeMultiplier",
+    "powerCurve" : "busterTimeMultiplier",
     "color" : [10, 255, 10]
   },
 
