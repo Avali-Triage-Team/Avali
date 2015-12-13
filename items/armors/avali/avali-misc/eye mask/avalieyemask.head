@@ -3,7 +3,7 @@
   "inventoryIcon" : "icons.png",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
-  "price" : 100,
+  "price" : 1,
   "rarity" : "Common",
   "description" : "What the... I can't even...",
   "shortdescription" : "Avali Eye Mask",

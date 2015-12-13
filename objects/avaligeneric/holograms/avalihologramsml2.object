@@ -7,7 +7,7 @@
   "shortdescription" : "Hologram, Bars",
   "race" : "avali",
   "category" : "decorative",
-  "price" : 100,
+  "price" : 20,
   "retainObjectParametersInItem" : true, 
 
   "apexDescription" : "Hmm, these bars are moving in distinct but irregular pulses. This could be problematic.",

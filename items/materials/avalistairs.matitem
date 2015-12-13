@@ -1,6 +1,7 @@
 {
   "itemName" : "avalistairs",
   "rarity" : "Common",
+  "price" : 10,
   "inventoryIcon" : "avalistairs.png",
   "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
   "description" : "A little bit of metal.",

@@ -7,7 +7,7 @@
   "shortdescription" : "Hologram, Waveform",
   "race" : "avali",
   "category" : "decorative",
-  "price" : 100,
+  "price" : 50,
   "retainObjectParametersInItem" : true, 
 
   "apexDescription" : "A fairly basic sine wave form, I can't read what it says it about it.",

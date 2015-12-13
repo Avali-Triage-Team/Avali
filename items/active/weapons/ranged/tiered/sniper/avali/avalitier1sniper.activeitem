@@ -1,6 +1,6 @@
 {
   "itemName" : "avalitier1sniper",
-  "price" : 500,
+  "price" : 100,
   "inventoryIcon" : "avalisniper.png",
   "maxStack" : 1,
   "rarity" : "common",

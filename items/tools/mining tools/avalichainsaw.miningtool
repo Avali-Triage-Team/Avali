@@ -3,7 +3,7 @@
   "inventoryIcon" : "avalichainsaw.png:idle",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
-  "price" : 100,
+  "price" : 2400,
   "rarity" : "uncommon",
   "tooltipKind" : "tool",
   "description" : "The Avali answer to clear-cutting...trees do not stand a chance.",
