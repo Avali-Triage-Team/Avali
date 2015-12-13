@@ -39,7 +39,7 @@
     }
   ],
 
-  "questTags" : [ "titaniumarmor" ],
+  "itemTags" : [ "titaniumarmor" ],
   
   "colorOptions" : [
     /* WHITE */
