@@ -1,6 +1,6 @@
 {
   "objectName" : "avalitechdoor",
-  "tags" : [ "avali", "avalicamp", "door" ], 
+  "colonyTags" : [ "avali", "avalicamp", "door" ], 
   "rarity" : "Common",
 
   "category" : "door",

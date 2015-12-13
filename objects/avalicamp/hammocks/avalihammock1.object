@@ -1,6 +1,6 @@
 {
   "objectName" : "avalihammock1",
-  "tags" : [ "avali", "avalicamp" ], 
+  "colonyTags" : [ "avali", "avalicamp" ], 
   "printable" : false,
   "rarity" : "Common",
   "description" : "Cheat the creepy-crawlies by sleeping suspended in the air.",

@@ -1,6 +1,6 @@
 {
   "objectName" : "avalisample2",
-  "tags" : [ "avali", "avalicamp", "science" ], 
+  "colonyTags" : [ "avali", "avalicamp", "science" ], 
   "rarity" : "Common",
   "category" : "furniture",
   "price" : 30,

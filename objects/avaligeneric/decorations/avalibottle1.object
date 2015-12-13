@@ -1,6 +1,6 @@
 {
   "objectName" : "avalibottle1",
-  "tags" : [ "avali", "avalicamp", "pretty" ], 
+  "colonyTags" : [ "avali", "avalicamp", "pretty" ], 
   "rarity" : "Common",
   "category" : "furniture",
   "retainObjectParametersInItem" : true, 

@@ -1,8 +1,9 @@
 {
   "objectName" : "avalichest1",
-  "tags" : [ "avali", "avalicamp", "storage" ], 
+  "colonyTags" : [ "avali", "avalicamp", "storage" ], 
   "rarity" : "Common",
   "objectType" : "container",
+  "tooltipKind" : "container",
 
   "category" : "storage",
   "price" : 50,

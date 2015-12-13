@@ -1,6 +1,6 @@
 {
   "objectName" : "bandittent1",
-  "tags" : ["tent","explorer"],
+  "colonyTags" : ["tent","explorer"],
   "rarity" : "Common",
   "description" : "A basic tent. Watch out for spacebears!",
   "shortdescription" : "Basic Tent",
