@@ -1,7 +1,6 @@
 {
   "itemName" : "avalihat3",
   "inventoryIcon" : "icons.png:head",
-  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "price" : 10,
   "rarity" : "Common",
@@ -15,8 +14,16 @@
 
   "statusEffects" : [
     {
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 0.95
+    },
+    {
       "stat" : "protection",
-      "amount" : 0
+      "amount" : 1
+    },
+    {
+      "stat" : "maxHealth",
+      "amount" : 1
     }
   ],
 
