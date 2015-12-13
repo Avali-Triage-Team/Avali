@@ -1,8 +1,7 @@
 {
   "itemName" : "avalihoe",
-  "price" : 125,
+  "price" : 50,
   "inventoryIcon" : "avalihoe.png",
-  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "Uncommon",
   "description" : "An Avali version of the classic hoe.",

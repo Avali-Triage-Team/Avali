@@ -1,8 +1,7 @@
 {
   "itemName" : "avalipickaxe",
-  "price" : 100,
+  "price" : 150,
   "inventoryIcon" : "avalipickaxeicon.png",
-  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "uncommon",
   "tooltipKind" : "tool",

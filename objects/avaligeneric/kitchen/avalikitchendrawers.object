@@ -1,12 +1,12 @@
 {
   "objectName" : "avalikitchendrawers",
-  "tags" : [ "avali", "avalicamp", "storage" ], 
+  "colonyTags" : [ "avali", "avalicamp", "storage" ], 
   "printable" : false,
   "rarity" : "Common",
   "objectType" : "container",
 
   "category" : "storage",
-  "price" : 250,
+  "price" : 150,
   "retainObjectParametersInItem" : true, 
   "description" : "They have little metal punch marks, I guess that makes them hi-tech.",
   "shortdescription" : "Hi-Tech Drawers",

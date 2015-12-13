@@ -1,6 +1,6 @@
 {
   "objectName" : "avalidisplayapparatus",
-  "tags" : [ "avali", "avalicamp", "elctronic" ], 
+  "colonyTags" : [ "avali", "avalicamp", "elctronic" ], 
   "rarity" : "Common",
   "interactAction" : "OpenCraftingInterface",
   "interactData" : {
@@ -12,7 +12,7 @@
   "shortdescription" : "Avali Display Apparatus",
   "race" : "avali",
   "category" : "crafting",
-  "price" : 100,
+  "price" : 150,
 
   "apexDescription" : "What an eclectic mix of old know-how and modern technology.",
   "avianDescription" : "A displayer, I used something like this to create my banana trophy.",

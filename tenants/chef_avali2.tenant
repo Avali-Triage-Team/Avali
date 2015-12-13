@@ -2,7 +2,7 @@
 	"name": "chef_avali2",
 	"priority": 3,
 
-	"tagCriteria": {
+	"colonyTagCriteria": {
 		"light": 1,
 		"door": 1,
 		"cooking": 8

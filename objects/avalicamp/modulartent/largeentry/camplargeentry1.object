@@ -1,13 +1,13 @@
 {
   "objectName" : "camplargeentry1",
-  "tags" : [ "avali", "avalicamp" ],
+  "colonyTags" : [ "avali", "avalicamp" ],
   "rarity" : "Common",
   "description" : "A set of decorative sheets, suitable for an entrance.",
   "shortdescription" : "Decorative Entrance",
   "race" : "avali",
   "category" : "decorative",
   "printable" : false,
-  "price" : 100,
+  "price" : 10,
   "retainObjectParametersInItem" : true, 
   
   "apexDescription" : "What a crude structure.",

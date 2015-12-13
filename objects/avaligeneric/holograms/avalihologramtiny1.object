@@ -1,13 +1,13 @@
 {
   "objectName" : "avalihologramtiny1",
-  "tags" : [ "avali", "avalicamp", "electronic" ], 
+  "colonyTags" : [ "avali", "avalicamp", "electronic" ], 
   "rarity" : "Common",
   "printable" : false,
   "description" : "A tiny hologram marking something.",
   "shortdescription" : "Hologram, POI",
   "race" : "avali",
   "category" : "decorative",
-  "price" : 100,
+  "price" : 15,
   "retainObjectParametersInItem" : true, 
 
   "apexDescription" : "A little hologram marking a point of interest. ",

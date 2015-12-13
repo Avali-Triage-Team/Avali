@@ -1,9 +1,8 @@
 {
   "itemName" : "avaliracial1head",
   "inventoryIcon" : "icons.png:head",
-  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
-  "price" : 100,
+  "price" : 20,
   "rarity" : "Common",
   "description" : "They even have little pads to protect the top of the ears!",
   "shortdescription" : "Trimmed Ear Wraps",
@@ -15,8 +14,16 @@
 
   "statusEffects" : [
     {
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 0.95
+    },
+    {
       "stat" : "protection",
-      "amount" : 0
+      "amount" : 1
+    },
+    {
+      "stat" : "maxHealth",
+      "amount" : 1
     }
   ],
 
@@ -45,16 +52,5 @@
     { "ffca8a" : "eab3db", "668AA8" : "d35eae", "465371" : "97276d", "262539" : "59163f" },
     /* BROWN */
     { "ffca8a" : "ccae7c", "668AA8" : "a47844", "465371" : "754c23", "262539" : "472b13" }
-    /*
-    { "ffca8a" : "d4c398", "668AA8" : "bda67a", "465371" : "9c7f54", "262539" : "755937" },
-    { "ffca8a" : "d5595f", "668AA8" : "a32c2c", "465371" : "71291b", "262539" : "4c1e10" },
-    { "ffca8a" : "46b3e8", "668AA8" : "1a7bb5", "465371" : "0e427e", "262539" : "072655" },
-    { "ffca8a" : "b0e944", "668AA8" : "78b618", "465371" : "3f7f0d", "262539" : "255606" },
-    { "ffca8a" : "eef055", "668AA8" : "d3bb1c", "465371" : "9c8011", "262539" : "644807" },
-    { "ffca8a" : "fd8d30", "668AA8" : "ca6705", "465371" : "8c5d00", "262539" : "5c4400" },
-    { "ffca8a" : "c260ff", "668AA8" : "931ad0", "465371" : "710587", "262539" : "52015b" },
-    { "ffca8a" : "717171", "668AA8" : "505050", "465371" : "363636", "262539" : "181818" },
-    { "ffca8a" : "e6e9ea", "668AA8" : "c6d2d4", "465371" : "97abac", "262539" : "627677" }
-*/
   ]
 }

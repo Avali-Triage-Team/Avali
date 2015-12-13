@@ -1,9 +1,9 @@
 {
   "itemName" : "avalitier4sniper",
-  "price" : 800,
+  "price" : 200,
   "inventoryIcon" : "avalisniper.png",
   "maxStack" : 1,
-  "rarity" : "common",
+  "rarity" : "uncommon",
   "description" : "An anti-materiel rifle more frequently used for hunting armoured vehicles than wildlife.",
   "shortdescription" : "AM4 Firelance",
   "level" : 4,

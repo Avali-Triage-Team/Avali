@@ -1,9 +1,8 @@
 {
   "itemName" : "avaliheadphoneshead",
-  "inventoryIcon" : "icons.png",
-  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "inventoryIcon" : "icons.png:head",
   "maxStack" : 1,
-  "price" : 100,
+  "price" : 1,
   "rarity" : "Common",
   "description" : "Headphones? How retro.",
   "shortdescription" : "Avali Headphones",
@@ -15,17 +14,20 @@
 
   "statusEffects" : [
     {
-      "stat" : "protection",
-      "amount" : 0
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 0.95
     },
-  
     {
-      "stat" : "energyincrease",
-      "amount" : 2
-    }  
+      "stat" : "protection",
+      "amount" : 1
+    },
+    {
+      "stat" : "maxHealth",
+      "amount" : 1
+    }
   ],
 
-   "colorOptions" : [
+  "colorOptions" : [
     /* GREY */
     { "ffca8a" : "fccf7e", "e0975c" : "f59e03", "a85636" : "ca6e1d", "6f2919" : "ae3e0c" },
     /* BLACK */

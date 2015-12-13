@@ -1,11 +1,12 @@
 {
   "objectName" : "avaliterminal3",
-  "tags" : [ "avali", "avalicamp", "elctronic", "storage", "science" ], 
+  "colonyTags" : [ "avali", "avalicamp", "elctronic", "storage", "science", "storage" ], 
   "rarity" : "Common",
   "objectType" : "container",
+  "tooltipKind" : "container",
 
   "category" : "storage",
-  "price" : 200,
+  "price" : 22,
   "printable" : false,  
   "description" : "An information terminal with storage for physical data devices (and drinks cabinet)",
   "shortdescription" : "Information Terminal",

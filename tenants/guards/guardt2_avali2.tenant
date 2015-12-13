@@ -2,7 +2,7 @@
 	"name": "guardT2_avali2",
 	"priority": 5,
 
-	"tagCriteria": {
+	"colonyTagCriteria": {
 		"light": 1,
 		"door": 1,
 		"combat": 8,

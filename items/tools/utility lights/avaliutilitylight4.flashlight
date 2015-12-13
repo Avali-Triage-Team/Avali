@@ -1,8 +1,7 @@
 {
   "itemName" : "avaliutilitylight4",
   "inventoryIcon" : "avaliutilitylight4icon.png",
-  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
-  "price" : 100,
+  "price" : 50,
   "rarity" : "Rare",
   "maxStack" : 1,
   "description" : "A bright light that never gets hot! This one admits a ^yellow;yellow ^white;glow.",

@@ -1,7 +1,7 @@
 {
   "name":"villager_avali2",
   "priority":1,
-  "tagCriteria":{
+  "colonyTagCriteria":{
     "light":1,
     "door":1
   },

@@ -1,12 +1,13 @@
 {
   "objectName" : "avalicontainer1",
-  "tags" : [ "avali", "avalicamp", "storage" ], 
+  "colonyTags" : [ "avali", "avalicamp", "storage" ], 
   "printable" : false,
   "rarity" : "Common",
   "objectType" : "container",
+  "tooltipKind" : "container",
 
   "category" : "storage",
-  "price" : 250,
+  "price" : 154,
   "description" : "A big storage crate, for storing big things",
   "shortdescription" : "Cargo Crate",
   "race" : "generic",
@@ -38,7 +39,7 @@
 
   "openSounds" : [ "/sfx/objects/locker_open.ogg" ],
   "closeSounds" : [ "/sfx/objects/locker_close.ogg" ],
-  "slotCount" : 24,
+  "slotCount" : 48,
   "uiConfig" : "/interface/chests/chest%slots%.config",
   "frameCooldown" : 67,
   "autoCloseCooldown" : 3600

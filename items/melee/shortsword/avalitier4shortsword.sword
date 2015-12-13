@@ -1,7 +1,6 @@
 {
   "itemName" : "avalitier4shortsword",
   "level" : 4,
-  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "price" : 150,
   "rarity" : "uncommon",

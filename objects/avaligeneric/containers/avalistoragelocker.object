@@ -1,8 +1,8 @@
 {
   "objectName" : "avalistoragelocker",
-  "tags" : [ "avali", "avalicamp", "storage" ], 
+  "colonyTags" : [ "avali", "avalicamp", "storage" ], 
   "rarity" : "Rare",
-  "price" : 900,
+  "price" : 180,
   "printable" : false,
   "objectType" : "container",
   "tooltipKind" : "container",

@@ -1,9 +1,8 @@
 {
   "itemName" : "avaliscientistchest",
   "inventoryIcon" : "icons.png:chest",
-  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
-  "price" : 100,
+  "price" : 10,
   "rarity" : "Common",
   "description" : "^green;Avali, Chest Slot. ^white; A scientific cloak with lots of pockets.",
   "shortdescription" : "Scientist Cloak",
@@ -23,12 +22,20 @@
 
   "statusEffects" : [
     {
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.35
+    },
+    {
       "stat" : "protection",
-      "amount" : 0
+      "amount" : 2
+    },
+    {
+      "stat" : "maxHealth",
+      "amount" : 3
     }
   ],
 
-   "colorOptions" : [
+  "colorOptions" : [
     /* WHITE */
     { "ffca8a" : "e6e6e6", "e0975c" : "b6b6b6", "a85636" : "7b7b7b", "6f2919" : "373737" },
     /* BLACK */

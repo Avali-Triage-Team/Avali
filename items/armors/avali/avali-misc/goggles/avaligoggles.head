@@ -1,9 +1,8 @@
 {
   "itemName" : "avaligoggles",
-  "inventoryIcon" : "icons.png",
-  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "inventoryIcon" : "icons.png:head",
   "maxStack" : 1,
-  "price" : 100,
+  "price" : 1,
   "rarity" : "Common",
   "description" : "A pair of practical goggles.",
   "shortdescription" : "Avali Goggles",
@@ -15,12 +14,20 @@
 
   "statusEffects" : [
     {
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 0.95
+    },
+    {
       "stat" : "protection",
-      "amount" : 0
+      "amount" : 1
+    },
+    {
+      "stat" : "maxHealth",
+      "amount" : 1
     }
   ],
 
-   "colorOptions" : [
+  "colorOptions" : [
     /* GREY */
     { "ffca8a" : "F3A308", "e0975c" : "D27702", "a85636" : "9E5500", "6f2919" : "7C3800" },
     /* BLACK */

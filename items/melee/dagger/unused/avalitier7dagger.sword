@@ -1,7 +1,6 @@
 {
   "itemName" : "avalitier7dagger",
   "level" : 6,
-  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "price" : 100,
   "rarity" : "legendary",
