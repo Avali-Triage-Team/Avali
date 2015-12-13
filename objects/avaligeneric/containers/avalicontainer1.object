@@ -39,7 +39,7 @@
 
   "openSounds" : [ "/sfx/objects/locker_open.ogg" ],
   "closeSounds" : [ "/sfx/objects/locker_close.ogg" ],
-  "slotCount" : 24,
+  "slotCount" : 48,
   "uiConfig" : "/interface/chests/chest%slots%.config",
   "frameCooldown" : 67,
   "autoCloseCooldown" : 3600
