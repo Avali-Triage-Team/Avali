@@ -1,7 +1,6 @@
 {
   "itemName" : "avaliracial2chest",
   "inventoryIcon" : "icons.png:chest",
-  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "price" : 5,
   "rarity" : "Common",
@@ -23,8 +22,16 @@
 
   "statusEffects" : [
     {
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.35
+    },
+    {
       "stat" : "protection",
-      "amount" : 0
+      "amount" : 2
+    },
+    {
+      "stat" : "maxHealth",
+      "amount" : 3
     }
   ],
 

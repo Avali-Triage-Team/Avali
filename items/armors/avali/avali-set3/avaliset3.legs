@@ -1,7 +1,6 @@
 {
   "itemName" : "avaliset3pants",
   "inventoryIcon" : "icons.png:pants",
-  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "price" : 100,
   "rarity" : "Common",
@@ -14,18 +13,24 @@
 
   "statusEffects" : [
     {
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.15
+    },
+    {
       "stat" : "protection",
-      "amount" : 0
+      "amount" : 1
+    },
+    {
+      "stat" : "maxHealth",
+      "amount" : 2
     }
   ],
 
   "colorOptions" : [
-  
     /* AVALI COLOUR SETS NOTES:
   Avali gear has *3* colour masks per set. As such all 3 are defined in each colour grouping. 
   This is because there is multiple versions exist of each outfit, each with their own seperate set of
   colours.*/
-  
   {   // DEFAULT (ORANGE)
     "F3A308" : "F3A308", "D27702" : "D27702", "9E5500" : "9E5500", "7C3800" : "7C3800",    // Orange -> Orange (Avali)
     "464646" : "464646", "363636" : "363636", "242424" : "242424", "1c1c1c" : "1c1c1c",    // Black -> Black
@@ -85,7 +90,6 @@
     "F3A308" : "ccae7c", "D27702" : "a47844", "9E5500" : "754c23", "7C3800" : "472b13",    // Orange -> Brown
     "464646" : "464646", "363636" : "363636", "242424" : "242424", "1c1c1c" : "1c1c1c",    // Black -> Black
     "e1e1e1" : "e1e1e1", "c6c6c6" : "c6c6c6", "a7a7a7" : "a7a7a7", "575757" : "575757"    // White -> White
-  }  
-  
+  }
   ]
 }
