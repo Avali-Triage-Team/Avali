@@ -3,11 +3,8 @@
   "rarity" : "Common",
   "price" : 2,
   "inventoryIcon" : "camptapestry2.png",
-  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
   "description" : "An embroidered trim, ideal for wall hangings or providing some style",
   "shortdescription" : "Fabric Trim",
-
-  
 
   "materialId" : 12517
 }

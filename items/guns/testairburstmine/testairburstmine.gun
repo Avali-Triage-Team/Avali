@@ -4,7 +4,6 @@
   "rarity" : "uncommon",
   "description" : "The standard Avali infantry weapon.",
   "shortdescription" : "ML1 Salted Earth",
-  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
   "maxStack" : 1,
   "level" : 1,
   "tooltipKind" : "gun",
@@ -19,8 +18,8 @@
 
   "projectileType" : "avaliairburstmine",
   "projectile" : {
-  "power" : 2.7,
-  "speed" : 40,
+    "power" : 2.7,
+    "speed" : 40,
     "color" : [10, 255, 10]
   },
 

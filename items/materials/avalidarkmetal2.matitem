@@ -3,11 +3,8 @@
   "rarity" : "Common",
   "price" : 5,
   "inventoryIcon" : "avalidarkmetal2.png",
-  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
   "description" : "Metal, darkly.",
   "shortdescription" : "Dark Metal Panels",
 
-  
-  
   "materialId" : 12506
 }
