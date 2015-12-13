@@ -3,6 +3,7 @@
   "colonyTags" : [ "avali", "avalicamp", "elctronic", "storage", "science" ], 
   "rarity" : "Common",
   "objectType" : "container",
+  "tooltipKind" : "container",
 
   "category" : "storage",
   "price" : 22,
