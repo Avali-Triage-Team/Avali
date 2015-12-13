@@ -1,27 +1,27 @@
 {
-  "name": "guard_avali",
-  "priority": 4,
+  "name" : "guard_avali",
+  "priority" : 5,
 
-  "colonyTagCriteria": {
-    "light": 1,
-    "door": 1,
-    "avali": 10,
-    "combat": 12
+  "colonyTagCriteria" : {
+    "light" : 1,
+    "door" : 1,
+    "avali" : 8,
+    "combat" : 8
   },
 
-  "tenants": [
-    {
-      "spawn": "npc",
-      "species": "avali",
-      "type": "friendlyguard",
-      "overrides": {
+  "tenants" : [{
+      "spawn" : "npc",
+      "species" : "avali",
+      "level" : 1,
+      "type" : "friendlyguard",
+      "overrides" : {
         "damageTeamType" : "friendly"
-       }
-     }
-   ],
+      }
+    }
+  ],
 
-  "rent": {
-    "periodRange": [900.0, 1800.0],
-    "pool": "villagerGift"
+  "rent" : {
+    "periodRange" : [900.0, 1800.0],
+    "pool" : "villagerGift"
   }
 }
