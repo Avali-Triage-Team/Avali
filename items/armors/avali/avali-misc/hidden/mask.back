@@ -2,7 +2,7 @@
   "itemName" : "maskback",
   "inventoryIcon" : "maskbackicon.png",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
-  "price" : 100,
+  "price" : 5,
   "rarity" : "Common",
   "description" : "Place this in your back vanity slot to hide your kit.",
   "shortdescription" : "Hide Backpack",

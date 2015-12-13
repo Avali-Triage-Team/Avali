@@ -1,10 +1,10 @@
 {
   "objectName" : "avaliterminal2",
-  "tags" : [ "avali", "avalicamp", "wired", "electronic" ], 
+  "colonyTags" : [ "avali", "avalicamp", "wired", "electronic" ], 
   "rarity" : "Common",
 
   "category" : "wire",
-  "price" : 600,
+  "price" : 22,
   "printable" : false,   
   "description" : "A sleek digital interface",
   "shortdescription" : "Avali Terminal",

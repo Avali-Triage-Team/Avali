@@ -1,9 +1,9 @@
 {
   "objectName" : "avalitable2",
-  "tags" : [ "avali", "avalicamp", "commerce" ], 
+  "colonyTags" : [ "avali", "avalicamp", "commerce" ], 
   "rarity" : "Common",
   "category" : "furniture",
-  "price" : 125,
+  "price" : 50,
   "printable" : false,
   "description" : "A rather low but large table.",
   "shortdescription" : "Avali Table",

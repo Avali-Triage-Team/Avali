@@ -1,13 +1,13 @@
 {
   "objectName" : "avalicrystal1",
-  "tags" : [ "avali", "avalicamp", "pretty" ], 
+  "colonyTags" : [ "avali", "avalicamp", "pretty" ], 
   "rarity" : "Common",
  
   "description" : "It's a little garden of carefully woven crystals in a bowl.",
   "shortdescription" : "Bonzai Crystal Garden",
   "race" : "avali",
   "category" : "light",
-  "price" : 50,
+  "price" : 20,
   "retainObjectParametersInItem" : true, 
   "printable" : false,
 

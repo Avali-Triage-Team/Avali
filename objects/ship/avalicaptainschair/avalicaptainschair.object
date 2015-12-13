@@ -1,6 +1,6 @@
 {
   "objectName" : "avalicaptainschair",
-  "tags" : ["avali"],
+  "colonyTags" : ["avali"],
   "rarity" : "Common",
   "objectType" : "loungeable",
 

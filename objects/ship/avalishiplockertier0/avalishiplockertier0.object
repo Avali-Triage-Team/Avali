@@ -1,6 +1,6 @@
 {
   "objectName" : "avalishiplockerTier0",
-  "tags" : ["avali"],
+  "colonyTags" : ["avali"],
   "printable" : false,
   "rarity" : "Common",
 

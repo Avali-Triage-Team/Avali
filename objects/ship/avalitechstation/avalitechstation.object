@@ -1,6 +1,6 @@
 {
   "objectName" : "avalitechstation",
-  "tags" : ["avali"],
+  "colonyTags" : ["avali"],
   "rarity" : "Common",
 
   "interactAction" : "OpenAiInterface",

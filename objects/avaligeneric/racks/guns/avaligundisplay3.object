@@ -1,9 +1,9 @@
 {
   "objectName" : "avaligundisplay3",
-  "tags" : [ "avali", "avalicamp", "combat" ], 
+  "colonyTags" : [ "avali", "avalicamp", "combat" ], 
   "rarity" : "Common",
   "category" : "furniture",
-  "price" : 125,
+  "price" : 100,
   "printable" : false,
   "description" : "An Avali gatling gun, all set for display.",
   "shortdescription" : "Weapon Rack",

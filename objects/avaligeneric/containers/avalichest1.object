@@ -1,11 +1,11 @@
 {
   "objectName" : "avalichest1",
-  "tags" : [ "avali", "avalicamp", "storage" ], 
+  "colonyTags" : [ "avali", "avalicamp", "storage" ], 
   "rarity" : "Common",
   "objectType" : "container",
 
   "category" : "storage",
-  "price" : 200,
+  "price" : 50,
   "printable" : false,  
   "description" : "A small, easily transported storage unit.",
   "shortdescription" : "Avali Chest",

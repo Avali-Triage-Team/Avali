@@ -1,10 +1,10 @@
 {
   "objectName" : "campdoor",
-  "tags" : [ "avali", "avalicamp", "door" ],
+  "colonyTags" : [ "avali", "avalicamp", "door" ],
   "rarity" : "Common",
   
   "category" : "door",
-  "price" : 50,
+  "price" : 8,
   "printable" : false,
   
   "description" : "A canvas curtain.",

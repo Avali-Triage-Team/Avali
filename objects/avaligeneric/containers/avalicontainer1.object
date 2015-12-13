@@ -1,12 +1,12 @@
 {
   "objectName" : "avalicontainer1",
-  "tags" : [ "avali", "avalicamp", "storage" ], 
+  "colonyTags" : [ "avali", "avalicamp", "storage" ], 
   "printable" : false,
   "rarity" : "Common",
   "objectType" : "container",
 
   "category" : "storage",
-  "price" : 250,
+  "price" : 154,
   "description" : "A big storage crate, for storing big things",
   "shortdescription" : "Cargo Crate",
   "race" : "generic",

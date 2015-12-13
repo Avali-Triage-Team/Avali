@@ -1,10 +1,10 @@
 {
   "objectName" : "avalilightblock",
-  "tags" : [ "avali", "avalicamp", "light" ], 
+  "colonyTags" : [ "avali", "avalicamp", "light" ], 
   "printable" : false,
   "rarity" : "Common",
   "category" : "light",
-  "price" : 50,
+  "price" : 60,
 
   "description" : "An illuminated wall panel",
   "shortdescription" : "Light Block",

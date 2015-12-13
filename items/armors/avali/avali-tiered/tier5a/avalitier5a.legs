@@ -15,7 +15,7 @@
   "statusEffects" : [
     {
       "stat" : "powerMultiplier",
-      "basePercentage" : 0.6
+      "amount" : 0.6
     },
 
     {
@@ -34,7 +34,7 @@
     }
   ],
 
-  "questTags" : [ "tier5armor" ],
+  "itemTags" : [ "tier5armor" ],
 
   "colorOptions" : [
     /* LIME GREEN */

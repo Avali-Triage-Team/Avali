@@ -1,13 +1,12 @@
 {
   "objectName" : "camplargeentry2",
-  "tags" : [ "avali", "avalicamp" ],
+  "colonyTags" : [ "avali", "avalicamp" ],
   "rarity" : "Common",
   "description" : "A rainproof sheet, suitable for putting a roof on a tent.",
   "shortdescription" : "Tent Entrance",
   "race" : "generic",
   "category" : "decorative",
   "printable" : false,
-  "price" : 100,
 
   "apexDescription" : "What a crude structure.",
   "avianDescription" : "Reminds me of a market on Avos.",

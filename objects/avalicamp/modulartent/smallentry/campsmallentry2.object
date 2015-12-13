@@ -1,13 +1,12 @@
 {
   "objectName" : "campsmallentry2",
-  "tags" : [ "avali", "avalicamp" ],
+  "colonyTags" : [ "avali", "avalicamp" ],
   "rarity" : "Common",
   "description" : "A nanocanvas sheet with some poles. Would make a good awning.",
   "shortdescription" : "Tent Awning",
   "race" : "generic",
   "category" : "decorative",
   "printable" : false,
-  "price" : 100,
 
   "apexDescription" : "What a crude structure.",
   "avianDescription" : "Reminds me of a market on Avos.",

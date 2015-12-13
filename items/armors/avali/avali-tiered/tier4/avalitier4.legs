@@ -15,7 +15,7 @@
   "statusEffects" : [
     {
       "stat" : "powerMultiplier",
-      "basePercentage" : 0.5
+      "amount" : 0.5
     },
 
     {
@@ -34,7 +34,7 @@
     }
   ],
 
-  "questTags" : [ "durasteelarmor" ],
+  "itemTags" : [ "durasteelarmor" ],
 
   "colorOptions" : [
     /* GREY BLUE */

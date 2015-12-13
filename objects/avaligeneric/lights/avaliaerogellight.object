@@ -1,10 +1,10 @@
 {
   "objectName" : "avaliaerogellight",
-  "tags" : [ "avali", "avalicamp", "light" ], 
+  "colonyTags" : [ "avali", "avalicamp", "light" ], 
   "printable" : false,
   "rarity" : "Common",
   "category" : "light",
-  "price" : 50,
+  "price" : 60,
 
   "description" : "An illuminated aerogel panel",
   "shortdescription" : "Avali Aerogel Light",

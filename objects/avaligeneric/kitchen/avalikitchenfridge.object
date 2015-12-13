@@ -1,12 +1,12 @@
 {
   "objectName" : "avalikitchenfridge",
-  "tags" : [ "avali", "avalicamp", "storage" ], 
+  "colonyTags" : [ "avali", "avalicamp", "storage" ], 
   "printable" : false,
   "rarity" : "Common",
   "objectType" : "container",
 
   "category" : "storage",
-  "price" : 250,
+  "price" : 120,
   "retainObjectParametersInItem" : true, 
   "description" : "What does an ice-bound race keep in a fridge?",
   "shortdescription" : "Refrigeration Cabinet",

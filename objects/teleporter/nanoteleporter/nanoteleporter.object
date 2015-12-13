@@ -1,6 +1,6 @@
 {
   "objectName" : "nanoteleporter",
-  "tags" : ["misc"],
+  "colonyTags" : ["misc"],
   "objectType" : "teleporter",
   "rarity" : "Legendary",
   "description" : "This will let me teleport from anywhere! \n^red;Destroyed when broken.",

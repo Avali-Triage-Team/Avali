@@ -1,10 +1,10 @@
 {
   "objectName" : "avalidarkdoor",
-  "tags" : [ "avali", "avalicamp", "door" ], 
+  "colonyTags" : [ "avali", "avalicamp", "door" ], 
   "rarity" : "Common",
 
   "category" : "door",
-  "price" : 50,
+  "price" : 34,
   "printable" : false,
   
   "description" : "A plain yet complex industrial door.",

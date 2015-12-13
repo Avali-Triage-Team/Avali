@@ -1,6 +1,6 @@
 {
   "objectName" : "uplinkscanner",
-  "tags" : [ "avali", "avalicamp", "wired", "electronic" ],
+  "colonyTags" : [ "avali", "avalicamp", "wired", "electronic" ],
   "printable" : false,
   "rarity" : "Common",
 

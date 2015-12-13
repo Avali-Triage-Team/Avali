@@ -1,6 +1,6 @@
 {
   "objectName" : "avaliteleporterdecorative",
-  "tags" : ["avali"],
+  "colonyTags" : ["avali"],
   "rarity" : "Common",
   "description" : "A teleporter of Avali design! Pity this one won't work for me.",
   "shortdescription" : "Unusable Teleporter",

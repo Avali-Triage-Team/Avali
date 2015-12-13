@@ -1,12 +1,12 @@
 {
   "objectName" : "avalihammock2",
-  "tags" : [ "avali", "avalicamp", "storage" ],  
+  "colonyTags" : [ "avali", "avalicamp", "storage" ],  
   "printable" : false,
   "rarity" : "Common",
   "objectType" : "container",
 
   "category" : "storage",
-  "price" : 250,
+  "price" : 15,
   "description" : "A handy place to stow your loot.",
   "shortdescription" : "Hanging Storage",
   "race" : "generic",

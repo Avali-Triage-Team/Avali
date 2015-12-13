@@ -1,9 +1,9 @@
 {
   "objectName" : "AvaliBowDisplay01_tier2",
-  "tags" : [ "avali", "combat" ], 
+  "colonyTags" : [ "avali", "combat" ], 
   "rarity" : "Common",
   "category" : "furniture",
-  "price" : 450,
+  "price" : 200,
   "printable" : false,
   "shortdescription" : "Weapon Rack - CB2 Lancer",
   "race" : "avali",

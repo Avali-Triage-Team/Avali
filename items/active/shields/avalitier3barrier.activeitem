@@ -1,7 +1,7 @@
 {
   "itemName" : "avalitier3barrier",
   "level" : 1,
-  "price" : 100,
+  "price" : 300,
   "maxStack" : 1,
   "rarity" : "uncommon",
   "description" : "Protects the user from a programmed amount of damage.",

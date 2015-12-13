@@ -3,7 +3,7 @@
   "inventoryIcon" : "icons.png:head",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
-  "price" : 300,
+  "price" : 200,
   "rarity" : "Uncommon",
   "description" : "Durasteel armoured plates inserted into Avali armour. Equip these in your armour slots, and place your clothing or armour in the vanity slots.",
   "shortdescription" : "Durasteel Helmet Insert",
@@ -16,7 +16,7 @@
   "statusEffects" : [
     {
       "stat" : "powerMultiplier",
-      "basePercentage" : 0.75
+      "amount" : 0.75
     },
 
     {
@@ -35,7 +35,7 @@
     }
   ],
 
-  "questTags" : [ "durasteelarmor" ],
+  "itemTags" : [ "durasteelarmor" ],
 
   "colorOptions" : [
     /* GREY BLUE */
