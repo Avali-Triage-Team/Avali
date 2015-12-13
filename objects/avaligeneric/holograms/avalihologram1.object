@@ -1,6 +1,6 @@
 {
   "objectName" : "avalihologram1",
-  "tags" : [ "avali", "avalicamp", "electronic" ], 
+  "colonyTags" : [ "avali", "avalicamp", "electronic" ], 
   "rarity" : "Common",
   "printable" : false,
   "description" : "A hologram with planetary information",

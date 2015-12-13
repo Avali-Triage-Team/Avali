@@ -1,6 +1,6 @@
 {
   "objectName" : "avalistriplight",
-  "tags" : [ "avali", "avalicamp", "light" ], 
+  "colonyTags" : [ "avali", "avalicamp", "light" ], 
   "rarity" : "Common",
   "category" : "light",
   "price" : 60,

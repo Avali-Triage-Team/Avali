@@ -1,6 +1,6 @@
 {
   "objectName" : "avalisolidlightblock",
-  "tags" : [ "avali", "avalicamp", "light" ], 
+  "colonyTags" : [ "avali", "avalicamp", "light" ], 
   "printable" : false,
   "rarity" : "Common",
   "category" : "light",

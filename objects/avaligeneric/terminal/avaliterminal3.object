@@ -1,6 +1,6 @@
 {
   "objectName" : "avaliterminal3",
-  "tags" : [ "avali", "avalicamp", "elctronic", "storage", "science" ], 
+  "colonyTags" : [ "avali", "avalicamp", "elctronic", "storage", "science" ], 
   "rarity" : "Common",
   "objectType" : "container",
 

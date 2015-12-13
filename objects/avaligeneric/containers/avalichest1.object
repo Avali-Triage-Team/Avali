@@ -1,6 +1,6 @@
 {
   "objectName" : "avalichest1",
-  "tags" : [ "avali", "avalicamp", "storage" ], 
+  "colonyTags" : [ "avali", "avalicamp", "storage" ], 
   "rarity" : "Common",
   "objectType" : "container",
 

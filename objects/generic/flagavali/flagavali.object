@@ -1,6 +1,6 @@
 {
   "objectName" : "flagavali",
-  "tags" : ["avali"],
+  "colonyTags" : ["avali"],
   "printable" : false,
   "rarity" : "Common",
   "objectType" : "teleporter",

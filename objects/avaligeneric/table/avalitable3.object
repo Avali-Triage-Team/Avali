@@ -1,6 +1,6 @@
 {
   "objectName" : "avalitable3",
-  "tags" : [ "avali", "avalicamp", "commerce" ], 
+  "colonyTags" : [ "avali", "avalicamp", "commerce" ], 
   "rarity" : "Common",
   "category" : "furniture",
   "price" : 20,

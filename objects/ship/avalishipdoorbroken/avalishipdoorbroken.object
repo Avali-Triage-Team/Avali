@@ -1,6 +1,6 @@
 {
   "objectName" : "avalishipdoorBroken",
-  "tags" : ["avali"],
+  "colonyTags" : ["avali"],
   "printable" : false,
   "rarity" : "Common",
 

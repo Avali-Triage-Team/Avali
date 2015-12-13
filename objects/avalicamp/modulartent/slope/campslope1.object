@@ -1,6 +1,6 @@
 {
   "objectName" : "campslope1",
-  "tags" : [ "avali", "avalicamp" ],
+  "colonyTags" : [ "avali", "avalicamp" ],
   "rarity" : "Common",
   "description" : "A set of decorative sheets, suitable for putting a roof on a tent.",
   "shortdescription" : "Decorative Topsheet",

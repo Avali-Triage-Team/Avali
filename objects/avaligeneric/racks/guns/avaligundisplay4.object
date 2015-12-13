@@ -1,6 +1,6 @@
 {
   "objectName" : "avaligundisplay4",
-  "tags" : [ "avali", "avalicamp", "combat" ], 
+  "colonyTags" : [ "avali", "avalicamp", "combat" ], 
   "rarity" : "Common",
   "category" : "furniture",
   "price" : 100,

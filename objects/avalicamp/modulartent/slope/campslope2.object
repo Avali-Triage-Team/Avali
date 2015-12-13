@@ -1,6 +1,6 @@
 {
   "objectName" : "campslope2",
-  "tags" : [ "avali", "avalicamp" ], 
+  "colonyTags" : [ "avali", "avalicamp" ], 
   "rarity" : "Common",
   "description" : "A nanocanvas sheet, suitable for putting a roof on a tent.",
   "shortdescription" : "Topsheet",

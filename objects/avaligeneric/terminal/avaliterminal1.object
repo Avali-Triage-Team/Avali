@@ -1,6 +1,6 @@
 {
   "objectName" : "avaliterminal1",
-  "tags" : [ "avali", "avalicamp", "wired", "electronic" ], 
+  "colonyTags" : [ "avali", "avalicamp", "wired", "electronic" ], 
   "rarity" : "Common",
 
   "category" : "wire",

@@ -1,6 +1,6 @@
 {
   "objectName" : "campsmallwall2",
-  "tags" : [ "avali", "avalicamp" ],
+  "colonyTags" : [ "avali", "avalicamp" ],
   "rarity" : "Common",
   "description" : "A small nanocanvas sheet.",
   "shortdescription" : "Tent Sheet",
