@@ -3,7 +3,7 @@
   "price" : 160,
   "level" : 4,
   "maxStack" : 1,
-  "rarity" : "common",
+  "rarity" : "uncommon",
   "description" : "VL4 Icicle",
   "shortdescription" : "VL4 Icicle",
   "tooltipKind" : "sword",

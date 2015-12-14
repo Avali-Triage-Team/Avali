@@ -3,7 +3,7 @@
   "price" : 160,
   "level" : 5,
   "maxStack" : 1,
-  "rarity" : "common",
+  "rarity" : "rare",
   "description" : "VL8 Icicle",
   "shortdescription" : "VL8 Icicle",
   "tooltipKind" : "sword",

@@ -2,7 +2,7 @@
   "objectName" : "avalicontainer2",
   "colonyTags" : [ "avali", "avalicamp", "storage" ], 
   "printable" : false,
-  "rarity" : "Common",
+  "rarity" : "rare",
   "objectType" : "container",
   "tooltipKind" : "container",
 

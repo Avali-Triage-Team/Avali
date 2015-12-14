@@ -3,7 +3,7 @@
   "price" : 160,
   "level" : 6,
   "maxStack" : 1,
-  "rarity" : "common",
+  "rarity" : "legendary",
   "description" : "VL9 Icicle",
   "shortdescription" : "VL9 Icicle",
   "tooltipKind" : "sword",

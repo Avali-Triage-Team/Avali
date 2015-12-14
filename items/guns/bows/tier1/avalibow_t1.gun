@@ -3,7 +3,7 @@
   "inventoryIcon" : "AvaliBowIcon_t1.png",
   "maxStack" : 1,
   "price" : 100,
-  "rarity" : "Uncommon",
+  "rarity" : "common",
   "description" : "A bow created utilizing Avali technology. It's unclear who designed it, since the Avali have never used bows.",
   "shortdescription" : "CB1 Lancer",
   "image" : "AvaliBowFull_t1.png:<frame>",

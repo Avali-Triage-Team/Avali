@@ -3,7 +3,7 @@
   "level" : 1,
   "price" : 100,
   "maxStack" : 1,
-  "rarity" : "uncommon",
+  "rarity" : "common",
   "description" : "Protects the user from a programmed amount of damage.",
   "shortdescription" : "Survival Shield",
   "tooltipKind" : "shield",
