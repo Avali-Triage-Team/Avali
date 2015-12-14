@@ -1,6 +1,6 @@
 {
   "objectName" : "avalishiplight",
-  "tags" : ["avali", "light"],
+  "colonyTags" : ["avali", "light"],
   "rarity" : "Common",
   "category" : "light",
   "lightColors" : {
@@ -39,7 +39,7 @@
     }
   ],
 
-  "soundEffect" : "/sfx/objects/fluorescent_light_quiet.wav",
+  "soundEffect" : "/sfx/objects/fluorescent_light_quiet.ogg",
 
   "animation" : "/objects/wired/light/lighttoggle.animation",
   "animationParts" : {

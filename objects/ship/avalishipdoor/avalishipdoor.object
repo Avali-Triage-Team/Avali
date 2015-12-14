@@ -1,6 +1,6 @@
 {
   "objectName" : "avalishipdoor",
-  "tags" : ["avali", "door"],
+  "colonyTags" : ["avali", "door"],
   "rarity" : "Common",
 
   "category" : "door",
@@ -33,8 +33,8 @@
   "animation" : "/objects/wired/door/door.animation",
   "animationCustom" : {
     "sounds" : {
-      "open" : [ "/sfx/objects/apexcooldoor_open.wav" ],
-      "close" : [ "/sfx/objects/apexcooldoor_close.wav" ]
+      "open" : [ "/sfx/objects/apexcooldoor_open.ogg" ],
+      "close" : [ "/sfx/objects/apexcooldoor_close.ogg" ]
     }
   },
   "animationParts" : {

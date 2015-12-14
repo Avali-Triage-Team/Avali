@@ -1,7 +1,6 @@
 {
   "itemName" : "avalitier2dagger",
   "level" : 2,
-  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "price" : 100,
   "rarity" : "common",
@@ -14,7 +13,7 @@
   "firePosition" : [13.5, -1.5],
   "fireTime" : 0.333,
   "fireAfterWindup" : true,
-  "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_dagger.wav" } ] },
+  "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_dagger.ogg" } ] },
 
   "colorOptions" : [
     /* LIGHT GREY */

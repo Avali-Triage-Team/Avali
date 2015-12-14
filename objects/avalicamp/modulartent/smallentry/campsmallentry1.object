@@ -6,7 +6,7 @@
   "race" : "generic",
   "category" : "decorative",
   "printable" : false,
-  "price" : 100,
+  "price" : 4,
   "retainObjectParametersInItem" : true,
   
   "apexDescription" : "What a crude structure.",
@@ -28,7 +28,7 @@
       "direction" : "left",
 
       "spaceScan" : 0.1,
-	  "collision" : "platform"
+    "collision" : "platform"
     },
     {
       "image" : "campsmallentry1.png:<color>",
@@ -38,7 +38,7 @@
       "direction" : "right",
 
       "spaceScan" : 0.1,
-	  "collision" : "platform"
+    "collision" : "platform"
     }
   ]
 }

@@ -1,12 +1,13 @@
 {
   "objectName" : "avalicontainer2",
-  "tags" : [ "avali", "avalicamp", "storage" ], 
+  "colonyTags" : [ "avali", "avalicamp", "storage" ], 
   "printable" : false,
-  "rarity" : "Common",
+  "rarity" : "rare",
   "objectType" : "container",
+  "tooltipKind" : "container",
 
   "category" : "storage",
-  "price" : 250,
+  "price" : 262,
   "description" : "How the heck did you fit that into your bag?",
   "shortdescription" : "Cargo Container",
   "race" : "generic",
@@ -31,13 +32,13 @@
 
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],
-	  "collision" : "platform"
+    "collision" : "platform"
 
     }
   ],
 
-  "openSounds" : [ "/sfx/objects/locker_open.wav" ],
-  "closeSounds" : [ "/sfx/objects/locker_close.wav" ],
+  "openSounds" : [ "/sfx/objects/locker_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/locker_close.ogg" ],
   "slotCount" : 64,
   "uiConfig" : "/interface/chests/chest%slots%.config",
   "frameCooldown" : 67,

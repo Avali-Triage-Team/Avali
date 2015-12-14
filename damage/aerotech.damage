@@ -1,0 +1,692 @@
+{
+  "kind" : "aerotech",
+  "effects" : {
+    "organic" : {
+      "hit" : {
+        "sounds" : [ "/sfx/melee/sharp_heavy_hit_organic.ogg" ],
+        "particles" : [
+          [
+
+            {
+              "type" : "animated",
+              "animation" : "/animations/aerotech/bloodspurt.animation",
+              "size" : 1.0,
+              "angularVelocity" : 0,
+              "fade" : 0.5,
+              "destructionTime" : 1.0,
+              "position" : [0, 0],
+              "initialVelocity" : [0, 0],
+              "finalVelocity" : [0, 0],
+              "approach" : [1, 0],
+              "timeToLive" : 0.3,
+              "layer" : "middle"
+            },
+      
+            {
+              "type" : "animated",
+              "animation" : "/animations/aerotech/spalling1.animation",
+              "angularVelocity" : 0,
+              "fade" : 3.0,
+              "destructionTime" : 4.0,
+              "size" : 1.0,
+              "initialVelocity" : [7, 6.0],
+              "finalVelocity" : [4, -9.0],
+              "approach" : [1, 14],
+              "timeToLive" : 4.0,
+              "layer" : "middle",
+              "variance" : {
+                "initialVelocity" : [10, 10],
+                "timeToLive" : 0
+              }
+            },  
+      
+            {
+              "type" : "ember",
+              "size" : 1.0,
+              "color" : [255, 160, 50, 255],
+              "fade" : 3.0,
+              "initialVelocity" : [6, 8.0],
+              "finalVelocity" : [6, -9.0],
+              "approach" : [1, 14],
+              "timeToLive" : 4.0,
+              "layer" : "front",
+              "variance" : {
+                "initialVelocity" : [10, 10],
+                "timeToLive" : 0
+              }
+            },
+
+            {
+              "type" : "animated",
+              "animation" : "/animations/aerotech/spalling1.animation",
+              "angularVelocity" : 0,
+              "fade" : 3.0,
+              "destructionTime" : 4.0,
+              "size" : 1.0,
+              "initialVelocity" : [3, 7.0],
+              "finalVelocity" : [1, -9.0],
+              "approach" : [1, 14],
+              "timeToLive" : 4.0,
+              "layer" : "front",
+              "variance" : {
+                "initialVelocity" : [10, 10],
+                "timeToLive" : 0
+              }
+            },
+
+            {
+              "type" : "animated",
+              "animation" : "/animations/aerotech/spalling2.animation",
+              "angularVelocity" : 0,
+              "fade" : 3.0,
+              "destructionTime" : 4.0,
+              "size" : 1.0,
+              "initialVelocity" : [-7, 6.0],
+              "finalVelocity" : [-4, -9.0],
+              "approach" : [1, 14],
+              "timeToLive" : 4.0,
+              "layer" : "front",
+              "variance" : {
+                "initialVelocity" : [10, 10],
+                "timeToLive" : 0
+              }
+            },
+
+            {
+              "type" : "ember",
+              "size" : 1.0,
+              "color" : [255, 160, 50, 255],
+              "fade" : 3.0,
+              "initialVelocity" : [-6, 8.0],
+              "finalVelocity" : [-6, -9.0],
+              "approach" : [1, 14],
+              "timeToLive" : 4.0,
+              "layer" : "front",
+              "variance" : {
+                "initialVelocity" : [10, 10],
+                "timeToLive" : 0
+              }
+            },
+
+            {
+              "type" : "ember",
+              "size" : 1.0,
+              "color" : [255, 160, 50, 255],
+              "fade" : 3.0,
+              "initialVelocity" : [-3, 7.0],
+              "finalVelocity" : [-3, -9.0],
+              "approach" : [1, 14],
+              "timeToLive" : 4.0,
+              "layer" : "front",
+              "variance" : {
+                "initialVelocity" : [10, 10],
+                "timeToLive" : 0
+              }
+            },
+      
+            {
+              "type" : "animated",
+              "animation" : "/animations/aerotech/blooddrop.animation",
+              "angularVelocity" : 0,
+              "fade" : 1.2,
+              "destructionTime" : 1.0,
+              "size" : 1.0,
+              "initialVelocity" : [7, 6.0],
+              "finalVelocity" : [7, -9.0],
+              "approach" : [1, 14],
+              "timeToLive" : 0.45,
+              "layer" : "front",
+              "variance" : {
+                "initialVelocity" : [10, 10],
+                "timeToLive" : 1
+              }
+            },
+
+            {
+              "type" : "animated",
+              "animation" : "/animations/aerotech/blooddrop.animation",
+              "angularVelocity" : 0,
+              "fade" : 1.1,
+              "destructionTime" : 1.0,
+              "size" : 1.0,
+              "initialVelocity" : [6, 8.0],
+              "finalVelocity" : [6, -9.0],
+              "approach" : [1, 14],
+              "timeToLive" : 0.65,
+              "layer" : "front",
+              "variance" : {
+                "initialVelocity" : [10, 10],
+                "timeToLive" : 1
+              }
+            },
+
+            {
+              "type" : "animated",
+              "animation" : "/animations/aerotech/blooddrop.animation",
+              "angularVelocity" : 0,
+              "fade" : 1.0,
+              "destructionTime" : 1.0,
+              "size" : 1.0,
+              "initialVelocity" : [3, 7.0],
+              "finalVelocity" : [3, -9.0],
+              "approach" : [1, 14],
+              "timeToLive" : 0.65,
+              "layer" : "front",
+              "variance" : {
+                "initialVelocity" : [10, 10],
+                "timeToLive" : 1
+              }
+            },
+
+            {
+              "type" : "animated",
+              "animation" : "/animations/aerotech/blooddrop.animation",
+              "angularVelocity" : 0,
+              "fade" : 1.0,
+              "destructionTime" : 1.0,
+              "size" : 1.0,
+              "initialVelocity" : [-7, 6.0],
+              "finalVelocity" : [-7, -9.0],
+              "approach" : [1, 14],
+              "timeToLive" : 0.45,
+              "layer" : "front",
+              "variance" : {
+                "initialVelocity" : [10, 10],
+                "timeToLive" : 1
+              }
+            },
+
+            {
+              "type" : "animated",
+              "animation" : "/animations/aerotech/blooddrop.animation",
+              "angularVelocity" : 0,
+              "fade" : 1.2,
+              "destructionTime" : 1.0,
+              "size" : 1.0,
+              "initialVelocity" : [-6, 8.0],
+              "finalVelocity" : [-6, -9.0],
+              "approach" : [1, 14],
+              "timeToLive" : 0.65,
+              "layer" : "front",
+              "variance" : {
+                "initialVelocity" : [10, 10],
+                "timeToLive" : 1
+              }
+            },
+
+            {
+              "type" : "animated",
+              "animation" : "/animations/aerotech/blooddrop.animation",
+              "angularVelocity" : 0,
+              "fade" : 1.1,
+              "destructionTime" : 1.0,
+              "size" : 1.0,
+              "initialVelocity" : [-3, 7.0],
+              "finalVelocity" : [-3, -9.0],
+              "approach" : [1, 14],
+              "timeToLive" : 0.65,
+              "layer" : "front",
+              "variance" : {
+                "initialVelocity" : [10, 10],
+                "timeToLive" : 1
+              }
+            }            
+          ]
+        ]
+      },
+      "kill" : {
+        "sounds" : [ "/sfx/melee/2h_sword_kill_organic1.ogg", "/sfx/melee/2h_sword_kill_organic2.ogg", "/sfx/melee/blunt_kill_organic1.ogg" ],
+        "particles" : [
+          [
+
+            {
+              "type" : "animated",
+              "animation" : "/animations/aerotech/bloodspurt.animation",
+              "size" : 1.0,
+              "angularVelocity" : 0,
+              "fade" : 0.5,
+              "destructionTime" : 1.0,
+              "position" : [0, 0],
+              "initialVelocity" : [0, 0],
+              "finalVelocity" : [0, 0],
+              "approach" : [1, 0],
+              "timeToLive" : 0.3,
+              "layer" : "middle"
+            },
+      
+            {
+              "type" : "animated",
+              "animation" : "/animations/aerotech/spalling1.animation",
+              "angularVelocity" : 0,
+              "fade" : 3.0,
+              "destructionTime" : 4.0,
+              "size" : 1.0,
+              "initialVelocity" : [7, 6.0],
+              "finalVelocity" : [4, -9.0],
+              "approach" : [1, 14],
+              "timeToLive" : 4.0,
+              "layer" : "middle",
+              "variance" : {
+                "initialVelocity" : [10, 10],
+                "timeToLive" : 0
+              }
+            },  
+      
+            {
+              "type" : "ember",
+              "size" : 1.0,
+              "color" : [255, 160, 50, 255],
+              "fade" : 3.0,
+              "initialVelocity" : [6, 8.0],
+              "finalVelocity" : [6, -9.0],
+              "approach" : [1, 14],
+              "timeToLive" : 4.0,
+              "layer" : "front",
+              "variance" : {
+                "initialVelocity" : [10, 10],
+                "timeToLive" : 0
+              }
+            },
+
+            {
+              "type" : "animated",
+              "animation" : "/animations/aerotech/spalling1.animation",
+              "angularVelocity" : 0,
+              "fade" : 3.0,
+              "destructionTime" : 4.0,
+              "size" : 1.0,
+              "initialVelocity" : [3, 7.0],
+              "finalVelocity" : [1, -9.0],
+              "approach" : [1, 14],
+              "timeToLive" : 4.0,
+              "layer" : "front",
+              "variance" : {
+                "initialVelocity" : [10, 10],
+                "timeToLive" : 0
+              }
+            },
+
+            {
+              "type" : "animated",
+              "animation" : "/animations/aerotech/spalling2.animation",
+              "angularVelocity" : 0,
+              "fade" : 3.0,
+              "destructionTime" : 4.0,
+              "size" : 1.0,
+              "initialVelocity" : [-7, 6.0],
+              "finalVelocity" : [-4, -9.0],
+              "approach" : [1, 14],
+              "timeToLive" : 4.0,
+              "layer" : "front",
+              "variance" : {
+                "initialVelocity" : [10, 10],
+                "timeToLive" : 0
+              }
+            },
+
+            {
+              "type" : "ember",
+              "size" : 1.0,
+              "color" : [255, 160, 50, 255],
+              "fade" : 3.0,
+              "initialVelocity" : [-6, 8.0],
+              "finalVelocity" : [-6, -9.0],
+              "approach" : [1, 14],
+              "timeToLive" : 4.0,
+              "layer" : "front",
+              "variance" : {
+                "initialVelocity" : [10, 10],
+                "timeToLive" : 0
+              }
+            },
+
+            {
+              "type" : "ember",
+              "size" : 1.0,
+              "color" : [255, 160, 50, 255],
+              "fade" : 3.0,
+              "initialVelocity" : [-3, 7.0],
+              "finalVelocity" : [-3, -9.0],
+              "approach" : [1, 14],
+              "timeToLive" : 4.0,
+              "layer" : "front",
+              "variance" : {
+                "initialVelocity" : [10, 10],
+                "timeToLive" : 0
+              }
+            },
+      
+            {
+              "type" : "animated",
+              "animation" : "/animations/aerotech/blooddrop.animation",
+              "angularVelocity" : 0,
+              "fade" : 1.2,
+              "destructionTime" : 1.0,
+              "size" : 1.0,
+              "initialVelocity" : [7, 6.0],
+              "finalVelocity" : [7, -9.0],
+              "approach" : [1, 14],
+              "timeToLive" : 0.45,
+              "layer" : "front",
+              "variance" : {
+                "initialVelocity" : [10, 10],
+                "timeToLive" : 1
+              }
+            },
+
+            {
+              "type" : "animated",
+              "animation" : "/animations/aerotech/blooddrop.animation",
+              "angularVelocity" : 0,
+              "fade" : 1.1,
+              "destructionTime" : 1.0,
+              "size" : 1.0,
+              "initialVelocity" : [6, 8.0],
+              "finalVelocity" : [6, -9.0],
+              "approach" : [1, 14],
+              "timeToLive" : 0.65,
+              "layer" : "front",
+              "variance" : {
+                "initialVelocity" : [10, 10],
+                "timeToLive" : 1
+              }
+            },
+
+            {
+              "type" : "animated",
+              "animation" : "/animations/aerotech/blooddrop.animation",
+              "angularVelocity" : 0,
+              "fade" : 1.0,
+              "destructionTime" : 1.0,
+              "size" : 1.0,
+              "initialVelocity" : [3, 7.0],
+              "finalVelocity" : [3, -9.0],
+              "approach" : [1, 14],
+              "timeToLive" : 0.65,
+              "layer" : "front",
+              "variance" : {
+                "initialVelocity" : [10, 10],
+                "timeToLive" : 1
+              }
+            },
+
+            {
+              "type" : "animated",
+              "animation" : "/animations/aerotech/blooddrop.animation",
+              "angularVelocity" : 0,
+              "fade" : 1.0,
+              "destructionTime" : 1.0,
+              "size" : 1.0,
+              "initialVelocity" : [-7, 6.0],
+              "finalVelocity" : [-7, -9.0],
+              "approach" : [1, 14],
+              "timeToLive" : 0.45,
+              "layer" : "front",
+              "variance" : {
+                "initialVelocity" : [10, 10],
+                "timeToLive" : 1
+              }
+            },
+
+            {
+              "type" : "animated",
+              "animation" : "/animations/aerotech/blooddrop.animation",
+              "angularVelocity" : 0,
+              "fade" : 1.2,
+              "destructionTime" : 1.0,
+              "size" : 1.0,
+              "initialVelocity" : [-6, 8.0],
+              "finalVelocity" : [-6, -9.0],
+              "approach" : [1, 14],
+              "timeToLive" : 0.65,
+              "layer" : "front",
+              "variance" : {
+                "initialVelocity" : [10, 10],
+                "timeToLive" : 1
+              }
+            },
+
+            {
+              "type" : "animated",
+              "animation" : "/animations/aerotech/blooddrop.animation",
+              "angularVelocity" : 0,
+              "fade" : 1.1,
+              "destructionTime" : 1.0,
+              "size" : 1.0,
+              "initialVelocity" : [-3, 7.0],
+              "finalVelocity" : [-3, -9.0],
+              "approach" : [1, 14],
+              "timeToLive" : 0.65,
+              "layer" : "front",
+              "variance" : {
+                "initialVelocity" : [10, 10],
+                "timeToLive" : 1
+              }
+            }            
+          ]
+        ]
+      }
+    },
+    "robotic" : {
+      "hit" : {
+        "sounds" : [ "/sfx/melee/sword_hit_robotic.ogg", "/sfx/melee/sword_parry.ogg", "/sfx/melee/blunt_hit_robotic.ogg" ],
+        "particles" : [
+          [
+
+        
+            {
+              "type" : "animated",
+              "animation" : "/animations/aerotech/spalling1.animation",
+              "angularVelocity" : 0,
+              "fade" : 3.0,
+              "destructionTime" : 4.0,
+              "size" : 1.0,
+              "initialVelocity" : [7, 6.0],
+              "finalVelocity" : [7, -9.0],
+              "approach" : [1, 14],
+              "timeToLive" : 4.0,
+              "layer" : "middle",
+              "variance" : {
+                "initialVelocity" : [10, 10],
+                "timeToLive" : 0
+              }
+            },  
+      
+            {
+              "type" : "ember",
+              "size" : 1.0,
+              "color" : [255, 160, 50, 255],
+              "fade" : 3.0,
+              "initialVelocity" : [6, 8.0],
+              "finalVelocity" : [6, -9.0],
+              "approach" : [1, 14],
+              "timeToLive" : 4.0,
+              "layer" : "front",
+              "variance" : {
+                "initialVelocity" : [10, 10],
+                "timeToLive" : 0
+              }
+            },
+
+            {
+              "type" : "animated",
+              "animation" : "/animations/aerotech/spalling1.animation",
+              "angularVelocity" : 0,
+              "fade" : 3.0,
+              "destructionTime" : 4.0,
+              "size" : 1.0,
+              "initialVelocity" : [3, 7.0],
+              "finalVelocity" : [3, -9.0],
+              "approach" : [1, 14],
+              "timeToLive" : 4.0,
+              "layer" : "front",
+              "variance" : {
+                "initialVelocity" : [10, 10],
+                "timeToLive" : 0
+              }
+            },
+
+            {
+              "type" : "animated",
+              "animation" : "/animations/aerotech/spalling2.animation",
+              "angularVelocity" : 0,
+              "fade" : 3.0,
+              "destructionTime" : 4.0,
+              "size" : 1.0,
+              "initialVelocity" : [-7, 6.0],
+              "finalVelocity" : [-7, -9.0],
+              "approach" : [1, 14],
+              "timeToLive" : 4.0,
+              "layer" : "front",
+              "variance" : {
+                "initialVelocity" : [10, 10],
+                "timeToLive" : 0
+              }
+            },
+
+            {
+              "type" : "ember",
+              "size" : 1.0,
+              "color" : [255, 160, 50, 255],
+              "fade" : 3.0,
+              "initialVelocity" : [-6, 8.0],
+              "finalVelocity" : [-6, -9.0],
+              "approach" : [1, 14],
+              "timeToLive" : 4.0,
+              "layer" : "front",
+              "variance" : {
+                "initialVelocity" : [10, 10],
+                "timeToLive" : 0
+              }
+            },
+
+            {
+              "type" : "ember",
+              "size" : 1.0,
+              "color" : [255, 160, 50, 255],
+              "fade" : 3.0,
+              "initialVelocity" : [-3, 7.0],
+              "finalVelocity" : [-3, -9.0],
+              "approach" : [1, 14],
+              "timeToLive" : 4.0,
+              "layer" : "front",
+              "variance" : {
+                "initialVelocity" : [10, 10],
+                "timeToLive" : 0
+              }
+            }        
+          ]
+        ]
+      },
+      "kill" : {
+        "sounds" : [ "/sfx/melee/kill_robotic1.ogg", "/sfx/melee/kill_robotic2.ogg" ],
+        "particles" : [
+          [
+      
+            {
+              "type" : "animated",
+              "animation" : "/animations/aerotech/spalling1.animation",
+              "angularVelocity" : 0,
+              "fade" : 3.0,
+              "destructionTime" : 4.0,
+              "size" : 1.0,
+              "initialVelocity" : [7, 6.0],
+              "finalVelocity" : [7, -9.0],
+              "approach" : [1, 14],
+              "timeToLive" : 4.0,
+              "layer" : "middle",
+              "variance" : {
+                "initialVelocity" : [10, 10],
+                "timeToLive" : 0
+              }
+            },  
+      
+            {
+              "type" : "ember",
+              "size" : 1.0,
+              "color" : [255, 160, 50, 255],
+              "fade" : 3.0,
+              "initialVelocity" : [6, 8.0],
+              "finalVelocity" : [6, -9.0],
+              "approach" : [1, 14],
+              "timeToLive" : 4.0,
+              "layer" : "front",
+              "variance" : {
+                "initialVelocity" : [10, 10],
+                "timeToLive" : 0
+              }
+            },
+
+            {
+              "type" : "animated",
+              "animation" : "/animations/aerotech/spalling1.animation",
+              "angularVelocity" : 0,
+              "fade" : 3.0,
+              "destructionTime" : 4.0,
+              "size" : 1.0,
+              "initialVelocity" : [3, 7.0],
+              "finalVelocity" : [3, -9.0],
+              "approach" : [1, 14],
+              "timeToLive" : 4.0,
+              "layer" : "front",
+              "variance" : {
+                "initialVelocity" : [10, 10],
+                "timeToLive" : 0
+              }
+            },
+
+            {
+              "type" : "animated",
+              "animation" : "/animations/aerotech/spalling2.animation",
+              "angularVelocity" : 0,
+              "fade" : 3.0,
+              "destructionTime" : 4.0,
+              "size" : 1.0,
+              "initialVelocity" : [-7, 6.0],
+              "finalVelocity" : [-7, -9.0],
+              "approach" : [1, 14],
+              "timeToLive" : 4.0,
+              "layer" : "front",
+              "variance" : {
+                "initialVelocity" : [10, 10],
+                "timeToLive" : 0
+              }
+            },
+
+            {
+              "type" : "ember",
+              "size" : 1.0,
+              "color" : [255, 160, 50, 255],
+              "fade" : 3.0,
+              "initialVelocity" : [-6, 8.0],
+              "finalVelocity" : [-6, -9.0],
+              "approach" : [1, 14],
+              "timeToLive" : 4.0,
+              "layer" : "front",
+              "variance" : {
+                "initialVelocity" : [10, 10],
+                "timeToLive" : 0
+              }
+            },
+
+            {
+              "type" : "ember",
+              "size" : 1.0,
+              "color" : [255, 160, 50, 255],
+              "fade" : 3.0,
+              "initialVelocity" : [-3, 7.0],
+              "finalVelocity" : [-3, -9.0],
+              "approach" : [1, 14],
+              "timeToLive" : 4.0,
+              "layer" : "front",
+              "variance" : {
+                "initialVelocity" : [10, 10],
+                "timeToLive" : 0
+              }
+            }
+      ]
+    ]
+      }
+    }
+  }
+}

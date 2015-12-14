@@ -1,10 +1,10 @@
 {
   "objectName" : "avalitechdoor",
-  "tags" : [ "avali", "avalicamp", "door" ], 
+  "colonyTags" : [ "avali", "avalicamp", "door" ], 
   "rarity" : "Common",
 
   "category" : "door",
-  "price" : 50,
+  "price" : 64,
   "printable" : false,
   
   "description" : "This looks like it could stop a railgun slug, but probably not a stone pickaxe.",
@@ -41,8 +41,8 @@
   {
     "sounds":
     {
-      "open": [ "/sfx/objects/apexcooldoor_open.wav" ],
-      "close": [ "/sfx/objects/apexcooldoor_close.wav" ]
+      "open": [ "/sfx/objects/apexcooldoor_open.ogg" ],
+      "close": [ "/sfx/objects/apexcooldoor_close.ogg" ]
     }
   },
   "animationPosition" : [-8, 0],

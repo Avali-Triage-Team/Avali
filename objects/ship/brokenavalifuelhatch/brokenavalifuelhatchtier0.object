@@ -1,6 +1,6 @@
 {
   "objectName" : "brokenavalifuelhatchTier0",
-  "tags" : ["avali"],
+  "colonyTags" : ["avali"],
   "printable" : false,
   "rarity" : "Common",
   "description" : "A broken fuel hatch. This won't do!",
@@ -31,7 +31,7 @@
     }
   ],
   
-  "soundEffect" : "/sfx/objects/brokenfuelhatch.wav",
+  "soundEffect" : "/sfx/objects/brokenfuelhatch.ogg",
   "soundEffectRadius" : 15
   
 }

@@ -1,6 +1,5 @@
 {
   "itemName" : "graphene",
-  "price" : 100,
   "rarity" : "Common",
   "inventoryIcon" : "graphene.png",
   "description" : "Impossibly thin yet strong carbon, used as a feedstock for carbon nanotubes.",

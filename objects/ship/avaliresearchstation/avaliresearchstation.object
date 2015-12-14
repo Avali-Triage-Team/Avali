@@ -1,6 +1,6 @@
 {
   "objectName" : "avaliresearchstation",
-  "tags" : ["avali"],
+  "colonyTags" : ["avali"],
   "printable" : false,
   "rarity" : "legendary",
   "interactAction" : "OpenCraftingInterface",

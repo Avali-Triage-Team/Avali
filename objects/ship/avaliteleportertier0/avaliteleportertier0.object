@@ -1,6 +1,6 @@
 {
   "objectName" : "avaliteleporterTier0",
-  "tags" : ["avali"],
+  "colonyTags" : ["avali"],
   "printable" : false,
   "rarity" : "Common",
 
@@ -37,6 +37,6 @@
   ],
 
   
-  "sounds" : [ "/sfx/interface/ship_error1.wav" ]
+  "sounds" : [ "/sfx/interface/ship_error1.ogg" ]
   
 }

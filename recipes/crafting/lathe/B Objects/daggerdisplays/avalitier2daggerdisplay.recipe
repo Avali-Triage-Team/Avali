@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "avalitier2dagger", "count" : 1 },
-    { "item" : "aerogel", "count" : 1 }	,
+    { "item" : "aerogel", "count" : 1 }  ,
     { "item" : "campcanvas", "count" : 1 } 
   ],
   "output" : { "item" : "avalitier2daggerdisplay", "count" : 1 },

@@ -1,10 +1,10 @@
 {
   "objectName" : "avaliaerogellight",
-  "tags" : [ "avali", "avalicamp", "light" ], 
+  "colonyTags" : [ "avali", "avalicamp", "light" ], 
   "printable" : false,
   "rarity" : "Common",
   "category" : "light",
-  "price" : 50,
+  "price" : 60,
 
   "description" : "An illuminated aerogel panel",
   "shortdescription" : "Avali Aerogel Light",
@@ -32,7 +32,7 @@
 
       "spaceScan" : 0.01,
       "anchors" : [ "background" ],
-	  "lightPosition" : [0, 0]
+    "lightPosition" : [0, 0]
     }
  ],
 "animation" : "/objects/wired/light/lighttoggle.animation",

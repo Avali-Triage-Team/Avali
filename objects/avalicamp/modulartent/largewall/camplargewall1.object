@@ -1,13 +1,13 @@
 {
   "objectName" : "camplargewall1",
-  "tags" : [ "avali", "avalicamp" ], 
+  "colonyTags" : [ "avali", "avalicamp" ], 
   "rarity" : "Common",
   "description" : "A set of decorative sheets for building a tent.",
   "shortdescription" : "Decorative Wall Sheet",
   "race" : "generic",
   "category" : "decorative",
   "printable" : false,
-  "price" : 100,
+  "price" : 10,
   "retainObjectParametersInItem" : true, 
   
   "apexDescription" : "What a crude structure",
@@ -29,7 +29,7 @@
       "direction" : "left",
 
       "spaceScan" : 0.1,
-	  "collision" : "solid"
+    "collision" : "solid"
     },
     {
       "image" : "camplargewall1.png:<color>",
@@ -39,7 +39,7 @@
       "direction" : "right",
 
       "spaceScan" : 0.1,
-	  "collision" : "solid"
+    "collision" : "solid"
     }
   ]
 }

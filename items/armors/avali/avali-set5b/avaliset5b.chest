@@ -1,9 +1,8 @@
 {
   "itemName" : "avaliset5bchest",
   "inventoryIcon" : "icons.png:chest",
-  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
-  "price" : 100,
+  "price" : 20,
   "rarity" : "Common",
   "description" : "^green;Avali, Chest Slot. ^white; A cloak for the eternal nomad.",
   "shortdescription" : "Nomad's Cloak",
@@ -23,8 +22,16 @@
 
   "statusEffects" : [
     {
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.35
+    },
+    {
       "stat" : "protection",
-      "amount" : 0
+      "amount" : 2
+    },
+    {
+      "stat" : "maxHealth",
+      "amount" : 3
     }
   ],
 
@@ -39,6 +46,6 @@
     { "ffca8a" : "c260ff", "e0975c" : "931ad0", "a85636" : "710587", "6f2919" : "52015b" },
     { "ffca8a" : "717171", "e0975c" : "505050", "a85636" : "363636", "6f2919" : "181818" },
     { "ffca8a" : "e6e9ea", "e0975c" : "c6d2d4", "a85636" : "97abac", "6f2919" : "627677" }
-	
+  
   ]
 }

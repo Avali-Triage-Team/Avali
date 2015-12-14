@@ -1,9 +1,9 @@
 {
   "objectName" : "avalisample1",
-  "tags" : [ "avali", "avalicamp", "science" ], 
+  "colonyTags" : [ "avali", "avalicamp", "science" ], 
   "rarity" : "Common",
   "category" : "furniture",
-  "price" : 125,
+  "price" : 30,
   "printable" : false,
   "description" : "An empty lab container, for containing lab... stuff.",
   "shortdescription" : "Empty Specimen Jar",
@@ -27,7 +27,7 @@
 
       "spaceScan" : 0.1,
       "anchors" : [ "background" ],
-	  "collision" : "platform"
+    "collision" : "platform"
 
     }
   ]

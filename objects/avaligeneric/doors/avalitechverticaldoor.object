@@ -1,14 +1,14 @@
 {
   "objectName" : "avalitechverticaldoor",
-  "tags" : [ "avali", "avalicamp", "door" ], 
+  "colonyTags" : [ "avali", "avalicamp", "door" ], 
   "printable" : false,
   "rarity" : "Common",
 
   "category" : "door",
-  "price" : 500,
+  "price" : 64,
   "description" : "A vertical hatch doorway.",
   "shortdescription" : "Avali Tech Vertical Hatch",
-  "race" : "human",
+  "race" : "avali",
 
   "apexDescription" : "A vertical door.",
   "avianDescription" : "A engineered hatch.",
@@ -25,8 +25,8 @@
   "animation" : "/objects/wired/door/door.animation",
   "animationCustom" : {
     "sounds" : {
-      "open" : [ "/sfx/objects/apexcooldoor_open.wav" ],
-      "close" : [ "/sfx/objects/apexcooldoor_close.wav" ]
+      "open" : [ "/sfx/objects/apexcooldoor_open.ogg" ],
+      "close" : [ "/sfx/objects/apexcooldoor_close.ogg" ]
     }
   },
   "animationParts" : {

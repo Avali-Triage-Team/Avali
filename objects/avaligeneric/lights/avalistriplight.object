@@ -1,9 +1,9 @@
 {
   "objectName" : "avalistriplight",
-  "tags" : [ "avali", "avalicamp", "light" ], 
+  "colonyTags" : [ "avali", "avalicamp", "light" ], 
   "rarity" : "Common",
   "category" : "light",
-  "price" : 100,
+  "price" : 60,
   "printable" : false,  
   "lightColors" : {
     "default" : [255, 228, 207],
@@ -31,38 +31,38 @@
 
   "inventoryIcon" : "avalistriplighticon.png",
   "orientations" : [
-	{
+  {
       "image" : "avalistriplight2.png:<color>.<frame>",
       "frames" : 1,
       "animationCycle" : 0.5,
       "imagePosition" : [0, 0],
-	  "direction" : "right",
-	  
-	  "animationParts" : {
+    "direction" : "right",
+    
+    "animationParts" : {
       "light" : "avalistriplight2.png"
-	  },
-	  "animationPosition" : [0, 0],
+    },
+    "animationPosition" : [0, 0],
 
       "spaceScan" : 0.01,
       "anchors" : [ "left"],
-      "lightPosition" : [1, 0],
+      "lightPosition" : [0, 0],
       "beamAngle" : 0
     },
-	{
+  {
       "image" : "avalistriplight2.png:<color>.<frame>",
       "frames" : 1,
       "animationCycle" : 0.5,
       "imagePosition" : [0, 0],
-	  "direction" : "right",
-	  
-	  "animationParts" : {
+    "direction" : "right",
+    
+    "animationParts" : {
       "light" : "avalistriplight2.png"
-	  },
-	  "animationPosition" : [0, 0],
+    },
+    "animationPosition" : [0, 0],
 
       "spaceScan" : 0.01,
       "anchors" : [ "right"],
-      "lightPosition" : [-1, 0],
+      "lightPosition" : [0, 0],
       "beamAngle" : 180
     },
     {
@@ -70,41 +70,41 @@
       "frames" : 1,
       "animationCycle" : 0.5,
       "imagePosition" : [0, 0],
-	  
-	  "animationParts" : {
+    
+    "animationParts" : {
     "light" : "avalistriplight.png"
-	},
-	"animationPosition" : [0, 0],
+  },
+  "animationPosition" : [0, 0],
 
       "spaceScan" : 0.01,
-	  "fgAnchors" : [ [0, -1] ],
+    "fgAnchors" : [ [0, -1] ],
       "anchors" : [ "bottom" ],
-      "lightPosition" : [0, -1],
+      "lightPosition" : [0, 0],
       "beamAngle" : 90
     },
-	{
+  {
       "image" : "avalistriplight.png:<color>.<frame>",
       "frames" : 1,
       "animationCycle" : 0.5,
       "imagePosition" : [0, 0],
-	  
-	  "animationParts" : {
-	  "light" : "avalistriplight.png"
-	  },
-	  "animationPosition" : [0, 0],
+    
+    "animationParts" : {
+    "light" : "avalistriplight.png"
+    },
+    "animationPosition" : [0, 0],
 
       "spaceScan" : 0.01,
       "anchors" : [ "background" ],
-      "lightPosition" : [0, 1],
+      "lightPosition" : [0, 0],
       "beamAngle" : 270
     }
-	
+  
   ],
 "animation" : "/objects/wired/light/lighttoggle.animation",
-	  "animationParts" : {
+    "animationParts" : {
       "light" : "avalistriplight.png"
-	  },
-	  "animationPosition" : [0, 0],
+    },
+    "animationPosition" : [0, 0],
   
 
   "scripts" : [ "/objects/wired/light/light.lua" ],

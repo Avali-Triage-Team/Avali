@@ -2,9 +2,7 @@
   "panels" : [
     {
       "drawables" : [
-        {
-          "image" : "/cinematics/respawn/black.png"
-        }
+        { "image" : "/cinematics/respawn/black.png" }
       ],
       "keyframes" : [
         {
@@ -35,9 +33,7 @@
     },
     {
       "drawables" : [
-        {
-          "image" : "/cinematics/screen.png"
-        }
+        { "image" : "/cinematics/screen.png" }
       ],
       "keyframes" : [
         {
@@ -74,9 +70,7 @@
     },
     {
       "drawables" : [
-        {
-          "image" : "/cinematics/coordinates.png"
-        }
+        { "image" : "/cinematics/coordinates.png" }
       ],
       "keyframes" : [
         {
@@ -107,9 +101,7 @@
     },
    {
       "drawables" : [
-        {
-          "image" : "/cinematics/missionobtained.png"
-        }
+        { "image" : "/cinematics/missionobtained.png" }
       ],
       "keyframes" : [
         {
@@ -140,9 +132,7 @@
     },
         {
       "drawables" : [
-        {
-          "image" : "/cinematics/airupgrade/avali/avalifemale.png:{frame}"
-        }
+        { "image" : "/cinematics/airupgrade/avali/avalifemale.png:{frame}" }
       ],
       "animationFrames" : 49,
       "keyframes" : [
@@ -182,9 +172,7 @@
     },
    {
       "drawables" : [
-        {
-          "image" : "/cinematics/airupgrade/respiratoryupgrade.png"
-        }
+        { "image" : "/cinematics/airupgrade/respiratoryupgrade.png" }
       ],
       "keyframes" : [
         {
@@ -215,9 +203,7 @@
     },
    {
       "drawables" : [
-        {
-          "image" : "/cinematics/airupgrade/airless.png"
-        }
+        { "image" : "/cinematics/airupgrade/airless.png" }
       ],
       "keyframes" : [
         {

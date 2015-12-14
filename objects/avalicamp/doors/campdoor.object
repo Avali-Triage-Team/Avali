@@ -1,10 +1,10 @@
 {
   "objectName" : "campdoor",
-  "tags" : [ "avali", "avalicamp", "door" ],
+  "colonyTags" : [ "avali", "avalicamp", "door" ],
   "rarity" : "Common",
   
   "category" : "door",
-  "price" : 50,
+  "price" : 8,
   "printable" : false,
   
   "description" : "A canvas curtain.",
@@ -42,6 +42,6 @@
   "inboundNodes" : [ [-1, 4] ],
   "outboundNodes" : [ [1, 0] ],
   
-  "openSounds" : [ "/sfx/objects/bed_leave.wav" ],
-  "closeSounds" : [ "/sfx/objects/bed_enter.wav" ]
+  "openSounds" : [ "/sfx/objects/bed_leave.ogg" ],
+  "closeSounds" : [ "/sfx/objects/bed_enter.ogg" ]
 }

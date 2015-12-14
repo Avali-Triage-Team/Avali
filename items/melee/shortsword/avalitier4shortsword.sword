@@ -1,7 +1,6 @@
 {
   "itemName" : "avalitier4shortsword",
   "level" : 4,
-  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "price" : 150,
   "rarity" : "uncommon",
@@ -14,7 +13,7 @@
   "firePosition" : [22, -2],
   "fireTime" : 0.625,
   "fireAfterWindup" : true,
-  "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_onehanded.wav" } ] },
+  "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_shotsword.ogg" } ] },
 
   "colorOptions" : [
     /* GREY BLUE */

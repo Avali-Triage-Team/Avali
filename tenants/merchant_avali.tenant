@@ -1,28 +1,27 @@
-{  
-  "name":"merchant_avali",
-  "priority":4,
-  "tagCriteria":{  
-    "light":1,
-    "door":1,
-    "avali":8,
-    "storage":8,
-    "commerce":8
+{
+  "name" : "merchant_avali",
+  "priority" : 4,
+
+  "colonyTagCriteria" : {
+    "light" : 1,
+    "door" : 1,
+    "avali" : 8,
+    "storage" : 8,
+    "commerce" : 8
   },
-  "tenants":[  
-    {  
-      "spawn":"npc",
-      "species":"avali",
-      "type":"merchant",
-      "overrides":{  
-        "damageTeamType":"friendly"
+
+  "tenants" : [{
+      "spawn" : "npc",
+      "species" : "avali",
+      "type" : "merchant",
+      "overrides" : {
+        "damageTeamType" : "friendly"
       }
     }
   ],
-  "rent":{  
-    "periodRange":[  
-      900.0,
-      1800.0
-    ],
-    "pool":"merchantGift"
+
+  "rent" : {
+    "periodRange" : [900.0, 1800.0],
+    "pool" : "merchantGift"
   }
 }

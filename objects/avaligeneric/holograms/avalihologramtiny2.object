@@ -1,13 +1,13 @@
 {
   "objectName" : "avalihologramtiny2",
-  "tags" : [ "avali", "avalicamp", "electronic" ], 
+  "colonyTags" : [ "avali", "avalicamp", "electronic" ], 
   "rarity" : "Common",
   "printable" : false,
   "description" : "A tiny hologram flashes an alert prompt.",
   "shortdescription" : "Hologram, Alert",
   "race" : "avali",
   "category" : "decorative",
-  "price" : 100,
+  "price" : 15,
   "retainObjectParametersInItem" : true, 
 
   "apexDescription" : "Unless the Avali have herbivores with bright stripes on them, I'd wager this is a warning.",

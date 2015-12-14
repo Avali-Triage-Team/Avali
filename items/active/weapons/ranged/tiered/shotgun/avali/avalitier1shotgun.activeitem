@@ -1,0 +1,82 @@
+{
+  "itemName" : "avalitier1shotgun",
+  "price" : 100,
+  "inventoryIcon" : "avalishotgun.png",
+  "maxStack" : 1,
+  "rarity" : "common",
+  "description" : "An avali shotgun!",
+  "shortdescription" : "QRC Type-1",
+  "level" : 1,
+  "tooltipKind" : "gun",
+  "weaponType" : "Shotgun",
+  "itemTags" : ["weapon","ranged","shotgun"],
+  "twoHanded" : true,
+  
+  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "avalishotgun.png",
+    "barrel" : "",
+    "muzzleFlash" : "/animations/muzzleflash/avalielectromuzzle/avalielectromuzzle.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/gun/plasma_shotgun4.ogg" ]
+    }
+  },
+
+  "baseOffset" : [0.5, 0.3],
+  "muzzleOffset" : [2.4, 0.4],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAttack" : {
+    "fireTime" : 0.30,
+    "baseDps" : 9,
+    "energyUsage" : 29.0,
+    "projectileCount" : 8,
+    "inaccuracy" : 0.13,
+
+    "fireType" : "auto",
+
+    "projectileType" : "railgun1",
+    "projectileParameters" : { 
+      "knockback" : 25
+    }
+  },
+
+  "stances" : {
+    "idle" : {
+      "armRotation" : 0,
+      "weaponRotation" : 0,
+      "twoHanded" : true,
+
+      "allowRotate" : true,
+      "allowFlip" : true
+    },
+    "fire" : {
+      "duration" : 0,
+      "armRotation" : 5,
+      "weaponRotation" : 5,
+      "twoHanded" : true,
+
+      "allowRotate" : false,
+      "allowFlip" : false
+    },
+    "cooldown" : {
+      "duration" : 0.25,
+      "armRotation" : 5,
+      "weaponRotation" : 5,
+      "twoHanded" : true,
+
+      "allowRotate" : false,
+      "allowFlip" : false
+    }
+  },
+
+  "altAbilitySource" : "/items/active/weapons/ranged/altabilities/burstshot/burstshot.altability",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

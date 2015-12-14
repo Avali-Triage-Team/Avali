@@ -1,11 +1,12 @@
 {
   "objectName" : "avalichest1",
-  "tags" : [ "avali", "avalicamp", "storage" ], 
+  "colonyTags" : [ "avali", "avalicamp", "storage" ], 
   "rarity" : "Common",
   "objectType" : "container",
+  "tooltipKind" : "container",
 
   "category" : "storage",
-  "price" : 200,
+  "price" : 50,
   "printable" : false,  
   "description" : "A small, easily transported storage unit.",
   "shortdescription" : "Avali Chest",
@@ -28,12 +29,12 @@
 
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],
-	  "collision" : "platform"
+    "collision" : "platform"
     }
   ],
 
-  "openSounds" : [ "/sfx/objects/chest_small_open.wav" ],
-  "closeSounds" : [ "/sfx/objects/chest_small_close.wav" ],
+  "openSounds" : [ "/sfx/objects/chest_small_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/chest_small_close.ogg" ],
   "slotCount" : 9,
   "uiConfig" : "/interface/chests/chest%slots%.config",
   "frameCooldown" : 67,

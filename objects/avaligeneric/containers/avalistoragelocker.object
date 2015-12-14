@@ -1,8 +1,8 @@
 {
   "objectName" : "avalistoragelocker",
-  "tags" : [ "avali", "avalicamp", "storage" ], 
+  "colonyTags" : [ "avali", "avalicamp", "storage" ], 
   "rarity" : "Rare",
-  "price" : 900,
+  "price" : 180,
   "printable" : false,
   "objectType" : "container",
   "tooltipKind" : "container",
@@ -24,8 +24,8 @@
     }
   ],
 
-  "openSounds" : [ "/sfx/objects/chest_small_open.wav" ],
-  "closeSounds" : [ "/sfx/objects/chest_small_close.wav" ],
+  "openSounds" : [ "/sfx/objects/chest_small_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/chest_small_close.ogg" ],
   "slotCount" : 48,
   "uiConfig" : "/interface/chests/chest%slots%.config",
   "frameCooldown" : 11,

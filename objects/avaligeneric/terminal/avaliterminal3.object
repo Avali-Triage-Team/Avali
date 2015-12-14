@@ -1,11 +1,12 @@
 {
   "objectName" : "avaliterminal3",
-  "tags" : [ "avali", "avalicamp", "elctronic", "storage", "science" ], 
+  "colonyTags" : [ "avali", "avalicamp", "elctronic", "storage", "science", "storage" ], 
   "rarity" : "Common",
   "objectType" : "container",
+  "tooltipKind" : "container",
 
   "category" : "storage",
-  "price" : 200,
+  "price" : 22,
   "printable" : false,  
   "description" : "An information terminal with storage for physical data devices (and drinks cabinet)",
   "shortdescription" : "Information Terminal",
@@ -30,8 +31,8 @@
     }
   ],
 
-  "openSounds" : [ "/sfx/interface/nav_computer_on.wav" ],
-  "closeSounds" : [ "/sfx/interface/nav_computer_off.wav" ],
+  "openSounds" : [ "/sfx/interface/nav_computer_on.ogg" ],
+  "closeSounds" : [ "/sfx/interface/nav_computer_off.ogg" ],
   "slotCount" : 9,
   "uiConfig" : "/interface/chests/chest%slots%.config",
   "frameCooldown" : 67,

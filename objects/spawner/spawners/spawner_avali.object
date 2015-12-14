@@ -1,6 +1,6 @@
 {
   "objectName" : "spawneravali",
-  "tags" : ["misc"],
+  "colonyTags" : ["misc"],
   "rarity" : "Common",
   "description" : "Spawn your very own Avali citizen!",
   "shortdescription" : "Avali Spawner",
@@ -49,17 +49,17 @@
     "npcParameterOptions" : [
       {
         "dropPools" : [ ],
-		"items" : {
-			"default" : [
-			[0, [
-			{
-				"head" : [ { "name" : "maskhead" }, { "name" : "avalitier1head" }, { "name" : "avaliracial1head" } , { "name" : "avaliracial2head" }  ],
-				"chest" : [ { "name" : "maskchest" }, { "name" : "avalitier2chest" }, { "name" : "avaliracial1chest" } , { "name" : "avaliracial2chest" }  ],
-				"legs" : [ { "name" : "maskpants" }, { "name" : "avaliracial1pants" }, { "name" : "avaliracial1pants" } , { "name" : "avaliracial2pants" }  ]
-			}
-			] ]
-		]
-		}			
+    "items" : {
+      "default" : [
+      [0, [
+      {
+        "head" : [ { "name" : "maskhead" }, { "name" : "avalitier1head" }, { "name" : "avaliracial1head" } , { "name" : "avaliracial2head" }  ],
+        "chest" : [ { "name" : "maskchest" }, { "name" : "avalitier2chest" }, { "name" : "avaliracial1chest" } , { "name" : "avaliracial2chest" }  ],
+        "legs" : [ { "name" : "maskpants" }, { "name" : "avaliracial1pants" }, { "name" : "avaliracial1pants" } , { "name" : "avaliracial2pants" }  ]
+      }
+      ] ]
+    ]
+    }      
       }
     ]
   }

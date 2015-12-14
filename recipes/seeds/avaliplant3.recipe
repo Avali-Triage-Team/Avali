@@ -1,5 +1,5 @@
 {
-	"input" : [ { "item" : "money", "count" : 300 } ],
-	"output" : { "item" : "avaliplant3", "count" : 1 },
-	"groups" : [ "terramart" ]
+  "input" : [ { "item" : "money", "count" : 300 } ],
+  "output" : { "item" : "avaliplant3", "count" : 1 },
+  "groups" : [ "terramart" ]
 }

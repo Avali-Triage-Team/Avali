@@ -1,6 +1,6 @@
 {
   "objectName" : "bandittent2",
-  "tags" : ["avali","explorer"],
+  "colonyTags" : ["avali","explorer"],
   "rarity" : "Common",
   "description" : "A basic tent. Watch out for spacebears!",
   "shortdescription" : "Basic Tent",
