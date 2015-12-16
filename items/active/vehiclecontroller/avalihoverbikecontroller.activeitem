@@ -1,0 +1,32 @@
+{
+  "itemName" : "avalihoverbikecontroller",
+  "level" : 1,
+  "price" : 12500,
+  "rarity" : "rare",
+  "description" : "Create a Avali hoverbike from stored nanites.",
+  "shortdescription" : "Avali Hoverbike Controller",
+  "twoHanded" : true,
+  "maxStack" : 1,
+  "itemTags" : ["vehiclecontroller"],
+
+  "animation" : "avalivehiclecontroller.animation",
+  "scripts" : ["vehiclecontroller.lua"],
+  "animationScripts" : ["vehiclecursor.lua"],
+  "filled" : true,
+
+  "respawnTime" : 1.0,
+
+  //=============Item specifc bits.
+  "vehicleType" : "avalihoverbike",
+  "vehicleBoundingBox" : [-5, -3, 5, 3],
+  "vehicleImage" : "/vehicles/avalihoverbikewarp.png:warp.7",
+
+  "animationParts" : {
+    "casing" : "avalihoverbikecontroller.png"
+  },
+
+  "inventoryIcon" : "avalihoverbikecontroller.png:full",
+  "emptyInventoryIcon" : "/items/active/vehiclecontroller/avalihoverbikecontroller.png:empty",
+  "filledInventoryIcon" : "/items/active/vehiclecontroller/avalihoverbikecontroller.png:full"
+
+}
