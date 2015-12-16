@@ -2,7 +2,7 @@
   "itemName" : "AvaliBow_t4",
   "inventoryIcon" : "AvaliBowIcon_t4.png",
   "maxStack" : 1,
-  "price" : 400,
+  "price" : 200,
   "rarity" : "Legendary",
   "description" : "A bow created utilizing Avali technology. It's unclear who designed it, since the Avali have never used bows.",
   "shortdescription" : "CB4 Lancer",

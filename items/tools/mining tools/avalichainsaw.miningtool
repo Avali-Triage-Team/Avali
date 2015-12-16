@@ -2,7 +2,7 @@
   "itemName" : "avalichainsaw",
   "inventoryIcon" : "avalichainsaw.png:idle",
   "maxStack" : 1,
-  "price" : 2400,
+  "price" : 250,
   "rarity" : "uncommon",
   "tooltipKind" : "tool",
   "description" : "The Avali answer to clear-cutting...trees do not stand a chance.",

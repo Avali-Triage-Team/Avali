@@ -1,27 +1,26 @@
-{  
-  "name":"miner_avali",
-  "priority":4,
-  "colonyTagCriteria":{  
-    "light":1,
-    "door":1,
-    "avali":8,
-    "mining":12
+{
+  "name" : "miner_avali",
+  "priority" : 4,
+  
+  "colonyTagCriteria" : {
+    "light" : 1,
+    "door" : 1,
+    "avali" : 8,
+    "mining" : 12
   },
-  "tenants":[  
-    {  
-      "spawn":"npc",
-      "species":"avali",
-      "type":"friendlyminer",
-      "overrides":{  
-        "damageTeamType":"friendly"
+  
+  "tenants" : [{
+      "spawn" : "npc",
+      "species" : "avali",
+      "type" : "friendlyminer",
+      "overrides" : {
+        "damageTeamType" : "friendly"
       }
     }
   ],
-  "rent":{  
-    "periodRange":[  
-      600.0,
-      1800.0
-    ],
-    "pool":"minerGift"
+  
+  "rent" : {
+    "periodRange" : [600.0, 1800.0],
+    "pool" : "minerGift"
   }
 }

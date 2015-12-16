@@ -1,6 +1,6 @@
 {
   "name": "chef_avali",
-  "priority": 3,
+  "priority": 4,
 
   "colonyTagCriteria": {
     "light": 1,

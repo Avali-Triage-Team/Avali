@@ -2,7 +2,7 @@
   "itemName" : "avaligrapple",
   "inventoryIcon" : "avaligrapplehookicon.png",
   "price" : 210,
-  "rarity" : "Common",
+  "rarity" : "rare",
   "maxStack" : 1,
   "description" : "Trusty Avali Grapple.",
   "shortdescription" : "Avali Grapple",

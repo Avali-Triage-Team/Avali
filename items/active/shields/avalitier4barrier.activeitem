@@ -3,7 +3,7 @@
   "level" : 1,
   "price" : 400,
   "maxStack" : 1,
-  "rarity" : "uncommon",
+  "rarity" : "rare",
   "description" : "Protects the user from a programmed amount of damage.",
   "shortdescription" : "Assault Field Emitter",
   "tooltipKind" : "shield",
