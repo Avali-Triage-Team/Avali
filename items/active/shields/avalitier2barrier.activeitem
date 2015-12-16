@@ -3,7 +3,7 @@
   "level" : 1,
   "price" : 200,
   "maxStack" : 1,
-  "rarity" : "uncommon",
+  "rarity" : "legendary",
   "description" : "Protects the user from a programmed amount of damage.",
   "shortdescription" : "Scout's Shield",
   "tooltipKind" : "shield",

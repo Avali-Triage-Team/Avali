@@ -2,7 +2,7 @@
   "objectName" : "avalichair2",
   "colonyTags" : [ "avali", "avalicamp" ], 
   "printable" : false,
-  "rarity" : "Common",
+  "rarity" : "uncommon",
   "description" : "A standard chair, suitable for sitting at a desk.",
   "shortdescription" : "Avali Office Chair",
   "race" : "avali",

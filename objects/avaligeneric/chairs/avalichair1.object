@@ -2,7 +2,7 @@
   "objectName" : "avalichair1",
   "colonyTags" : [ "avali", "avalicamp" ], 
   "printable" : false,
-  "rarity" : "Common",
+  "rarity" : "uncommon",
   "description" : "Best not sit on it if you're carrying magnetic media.",
   "shortdescription" : "Maglev Armchair",
   "race" : "avali",

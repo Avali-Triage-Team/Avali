@@ -2,7 +2,7 @@
   "itemName" : "AvaliBow_t2",
   "inventoryIcon" : "AvaliBowIcon_t2.png",
   "maxStack" : 1,
-  "price" : 200,
+  "price" : 125,
   "rarity" : "Uncommon",
   "description" : "A bow created utilizing Avali technology. It's unclear who designed it, since the Avali have never used bows.",
   "shortdescription" : "CB2 Lancer",
