@@ -1,8 +1,8 @@
 [
   { "op": "add",
-    "path": "/items",
-    "value": { "avali" : [
-      [0, [ {
+    "path": "/items/avali",
+    "value": 
+    [ [0, [ {
         "head": [
           "chefhead"
         ],
@@ -13,6 +13,6 @@
           { "name": "commondagger" }
         ]
       } ] ]
-    ] }
+    ]
   }
 ]

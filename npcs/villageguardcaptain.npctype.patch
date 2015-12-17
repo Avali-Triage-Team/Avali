@@ -1,8 +1,8 @@
 [
   {
     "op": "add",
-    "path": "/items",
-    "value": { "avali" : [
+    "path": "/items/avali",
+    "value": [
       [ 0, [ {
 	    "head": [ { "name": "avaliarmor5head", "data" : { "colorIndex" : [3] } } ],
         "chest": [ { "name": "avaliguardtier1chest", "data" : { "colorIndex" : [3] } } ],
@@ -45,6 +45,6 @@
         "primary": [ { "name": "avalitier3minigin" } ],
         "sheathedprimary": [ { "name": "avalitier3spear" } ]
       } ] ]
-    ] }
+    ]
   }
 ]
