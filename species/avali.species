@@ -7,6 +7,7 @@
   "skull" : "/humanoid/avali/dead.png",
   "defaultBlueprints" : {
     "tier1" : [
+      { "item" : "flagavali" },
       { "item" : "avalitier1head"},
       { "item" : "avalitier1chest" },
       { "item" : "avalitier1pants" },
