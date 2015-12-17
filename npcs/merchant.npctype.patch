@@ -1,9 +1,12 @@
 [
-  { "op" : "add", "path" : "/scriptConfig/merchant/categories/avali", "value" : [ "basicmerchant", "randomguns", "randomswords", "avaliguns", "avaliingredients", "musicalinstruments" ] },
+  { "op" : "add", 
+    "path" : "/scriptConfig/merchant/categories/avali", 
+    "value" : [ "basicmerchant", "randomguns", "randomswords", "avaliguns", "avaliingredients", "musicalinstruments" ] 
+  },
   { "op" : "add",
-    "path" : "/items",
-    "value" : { "avali" : [
-      [0, [ {
+    "path" : "/items/avali",
+    "value" : 
+    [ [0, [ {
         "chest" : [
           { "name" : "avaliset1chest", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11] } },
           { "name" : "avaliset1bchest", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11] } },
@@ -33,6 +36,6 @@
           { "name" : "avalihat4", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11] } }
         ]
       } ] ]
-    ] }
+    ]
   }
 ]

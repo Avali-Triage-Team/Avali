@@ -5,7 +5,7 @@
   "rarity" : "Common",
   "objectType" : "teleporter",
   "category" : "decorative",
-  "price" : 100,
+  "price" : 70,
 
   "description" : "A holoprojector with the tri-feather emblem of the Avali.",
   "shortdescription" : "Avali Flag",
@@ -25,14 +25,25 @@
   "inventoryIcon" : "flagavaliicon.png",
   "orientations" : [
     {
-      "dualImage" : "flagavali.png:<color>.<frame>",
-      "imagePosition" : [-16, 0],
+      "image" : "flagavali.png:<color>.<frame>",
+      "flipImages" : true,
+      "direction" : "left",
+      "imagePosition" : [-17, 0],
       "frames" : 6,
       "animationCycle" : 1.0,
 
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "flagavali.png:<color>.<frame>",
+      "direction" : "right",
+      "imagePosition" : [1, 0],
+      "frames" : 6,
+      "animationCycle" : 1.0,
 
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
     }
   ]
 }
