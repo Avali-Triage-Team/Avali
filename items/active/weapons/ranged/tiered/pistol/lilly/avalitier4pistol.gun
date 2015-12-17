@@ -1,49 +1,49 @@
 {
-  "itemName" : "avalitier2sniper",
-  "price" : 125,
-  "inventoryIcon" : "avalisniper.png",
+  "itemName" : "avalitier4pistol",
+  "price" : 550,
+  "inventoryIcon" : "avalipistol.png",
   "maxStack" : 1,
   "rarity" : "common",
-  "description" : "An anti-materiel rifle more frequently used for hunting armoured vehicles than wildlife.",
-  "shortdescription" : "AM2 Firelance",
-  "level" : 2,
+  "description" : "The basic Avali military grade sidearm.",
+  "shortdescription" : "PD4 Frostbite",
+  "level" : 4,
   "tooltipKind" : "gun",
-  "weaponType" : "Rifle",
-  "itemTags" : ["weapon","ranged","rifle"],
-  "twoHanded" : true,
+  "weaponType" : "Pistol",
+  "itemTags" : ["weapon","ranged","pistol"],
+  "twoHanded" : false,
   
   "animation" : "/items/active/weapons/ranged/gun.animation",
   "animationParts" : {
     "butt" : "",
-    "middle" : "avalisniper.png",
+    "middle" : "avalipistol.png",
     "barrel" : "",
-    "muzzleFlash" : "/animations/snipermuzzle/snipermuzzle.png"
+    "muzzleFlash" : "/animations/muzzleflash/avalielectromuzzle/avalielectromuzzle.png"
   },
   "animationCustom" : {
     "sounds" : {
-      "fire" : [ "/sfx/gun/plasma_sniper3.ogg" ]
+      "fire" : [ "/sfx/gun/plasma_shotgun4.ogg" ]
     }
   },
 
-  "baseOffset" : [1.1, 0.3],
-  "muzzleOffset" : [2.7, 0.3],
+  "baseOffset" : [-0.2, -0.4],
+  "muzzleOffset" : [0.6, 0.5],
 
   "scripts" : ["/items/active/weapons/ranged/gun.lua"],
 
   "elementalType" : "physical",
 
   "primaryAttack" : {
-    "fireTime" : 1.8,
-    "baseDps" : 6.5,
-    "energyUsage" : 18.0,
-    "inaccuracy" : 0.01,
-
+    "fireTime" : 1.0,
+    "baseDps" : 4.5,
+    "energyUsage" : 13.5,
     "projectileCount" : 1,
+    "inaccuracy" : 0.025,
+
     "fireType" : "auto",
 
-    "projectileType" : "railgun2",
+    "projectileType" : "railgun1",
     "projectileParameters" : { 
-      "knockback" : 20
+      "knockback" : 6
     }
   },
 
@@ -58,8 +58,8 @@
     },
     "fire" : {
       "duration" : 0,
-      "armRotation" : 5,
-      "weaponRotation" : 5,
+      "armRotation" : 1,
+      "weaponRotation" : 1,
       "twoHanded" : true,
 
       "allowRotate" : false,
@@ -67,16 +67,14 @@
     },
     "cooldown" : {
       "duration" : 0.25,
-      "armRotation" : 5,
-      "weaponRotation" : 5,
+      "armRotation" : 1,
+      "weaponRotation" : 1,
       "twoHanded" : true,
 
       "allowRotate" : false,
       "allowFlip" : false
     }
   },
-
-  "altAbilitySource" : "/items/active/weapons/ranged/altabilities/piercingshot/piercingshot.altability",
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }
