@@ -7,5 +7,7 @@
 },
 { "op" : "add", "path" : "/defaultBlueprints/tier1/-",
 "value" : { "item" : "spawneravaliguard" }
-}
+},
+{ "op" : "add", "path" : "/defaultBlueprints/tier1/-",
+"value" : { "item" : "flagavali" }
 ]
