@@ -1,9 +1,9 @@
 [
   {
     "op": "add",
-    "path": "/items/avali",
-    "value": 
-    [ [0, [ {
+    "path": "/items",
+    "value": { "avali" : [
+      [0, [ {
         "head": [
           "avalidoctorhead"
         ],
@@ -17,6 +17,6 @@
           { "name": "commonplasmapistol" }
         ]
       } ] ]
-    ]
+    ] }
   }
 ]
