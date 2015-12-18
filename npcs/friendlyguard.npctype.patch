@@ -1,9 +1,9 @@
 [
   { "op" : "add", "path" : "/scriptConfig/dialog/hail", "value" : "/dialog/avali.config:friendlyguard_hail" },
   { "op" : "add",
-    "path" : "/items/avali",
-    "value" : 
-    [ [0, [ {
+    "path" : "/items",
+    "value" : { "avali" : [
+      [0, [ {
         "head" : [ 
           { "name" : "avaliarmor1head", "data" : { "colorIndex" : [3] } },
           { "name" : "avaliarmor2head", "data" : { "colorIndex" : [3] } },
@@ -29,6 +29,6 @@
           { "name" : "avalitier4barrier" }
         ]
       } ] ]
-    ]
+    ] }
   }
 ]
