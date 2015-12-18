@@ -1,7 +1,7 @@
 [
   { "op": "add",
-    "path": "/items/avali",
-    "value": [
+    "path": "/items",
+    "value": { "avali" : [
       [ 0, [ {
         "back": [
           "avalihat2back"
@@ -19,6 +19,6 @@
           [ { "name": "commondagger" } ]
         ]
       } ] ]
-    ]
+    ] }
   }
 ]

@@ -1,7 +1,7 @@
 [
   { "op" : "add",
-    "path" : "/items/avali",
-    "value" : [
+    "path" : "/items",
+    "value" : { "avali" : [
       [0, [ {
         "chest" : [
           { "name" : "avaliset1chest", "data" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11] } },
@@ -28,6 +28,6 @@
           { "name" : "avaliracial2head", "data" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11] } }
         ]
       } ] ]
-    ]
+    ] }
   }
 ]

@@ -1,7 +1,7 @@
 [
   { "op": "add",
-    "path": "/items/avali",
-    "value": [
+    "path": "/items",
+    "value": { "avali" : [
       [ 0, [ {
         "head": [
           { "name" : "avaliscientisthead", "parameters" : { "colorIndex" : [4] } }
@@ -13,6 +13,6 @@
           [ { "name": "commonplasmapistol" } ]
         ]
       } ] ]
-    ]
+    ] }
   }
 ]
