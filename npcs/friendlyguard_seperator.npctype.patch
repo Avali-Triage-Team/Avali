@@ -1,7 +1,7 @@
 [
   { "op" : "add",
     "path" : "/items/avali",
-    "value" : { "avali" : [
+    "value" : [
       [5, [ {
         "head" : [ 
           { "name" : "avaliarmor4head", "data" : { "colorIndex" : [9] } },
@@ -26,6 +26,6 @@
         "sheathedprimary": [ { "name": "avalitier1shortsword" } ],
         "alt": [ { "name": "avalitier4barrier" } ]
       } ] ]
-    ] }
+    ]
   }
 ]
