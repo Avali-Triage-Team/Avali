@@ -1,12 +1,16 @@
 {
   "id" : "avalitutorial.gearup",
-  "title" : "^#9be3d6;Fresh Meat",
+  "title" : "^orange;Hunting the Stars",
   "text" : "Finding a fuelled ship and escaping the wrath of the tech-cult was lucky, but luck has a shelf life and it, like your fuel, has just run out. Before setting out in search of more fuel, perhaps you should talk to S.A.I.L. about ^green;fixing the ship?",
   "completionText" : "The ship has rumbled to life! There's still work to do and I need to fix the FTL drive, but a glimmer of light shines!",
-  "completionConditions" : [
-    { "type" : "shiplevel", "level" : 2 }
-  ],
+  "speaker" : "player",
   "moneyRange" : [500, 500],
-  "followUp" : "ftlrepairmain.gearup",
-  "canBeAbandoned" : false
+  "canBeAbandoned" : false,
+
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/main.lua",
+  "scriptConfig" : {
+    "followUp" : "ftlrepairmain.gearup",
+    "shipLevel" : 2
+  }
 }
