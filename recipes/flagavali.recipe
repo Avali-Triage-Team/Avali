@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "copperbar", "count" : 1 },
+    { "item" : "graphene", "count" : 20 },
+    { "item" : "torch", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "flagavali",
+    "count" : 1
+  },
+  "groups" : [ "plain", "objects", "all" ]
+}
