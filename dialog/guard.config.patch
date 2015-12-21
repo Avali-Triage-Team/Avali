@@ -51,7 +51,7 @@
       ]
     }
   },
-  {  
+  /*{  
     "op":"add",
     "path":"/gunwarning1/avali",
     "value":{  
@@ -62,10 +62,10 @@
         "I don't care what your world's constitution says. No guns in public."
       ]
     }
-  },
+  },*/
   {  
     "op":"add",
-    "path":"/swordwarning2/avali",
+    "path":"/weaponwarning2/avali",
     "value":{  
       "default":[  
         "Second warning, stranger - put the weapon down.",
@@ -75,7 +75,7 @@
       ]
     }
   },
-  {  
+  /*{  
     "op":"add",
     "path":"/gunwarning2/avali",
     "value":{  
@@ -85,10 +85,10 @@
         "Holster it!"
       ]
     }
-  },
+  },*/
   {  
     "op":"add",
-    "path":"/swordwarning3/avali",
+    "path":"/weaponwarning3/avali",
     "value":{  
       "default":[  
         "You are sorely tempting me, friend.",
@@ -97,7 +97,7 @@
       ]
     }
   },
-  {  
+  /*{  
     "op":"add",
     "path":"/gunwarning3/avali",
     "value":{  
@@ -107,7 +107,7 @@
         "Don't make me come and take the gun and your LIFE!"
       ]
     }
-  },
+  },*/
   {  
     "op":"add",
     "path":"/weaponSheathed/avali",
