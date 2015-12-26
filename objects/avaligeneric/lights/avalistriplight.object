@@ -27,7 +27,7 @@
   "floranDescription" : "Portable sunlight!",
   "glitchDescription" : "Ambivalent. It is a fluorescent light source.",
   "humanDescription" : "Wireless, I wonder how long the battery lasts?",
-  "hylotlDescription" : "The fuel cell on this lamp has a longer lifespan than it's user.",
+  "hylotlDescription" : "The fuel cell on this lamp has a longer lifespan than its user.",
 
   "inventoryIcon" : "avalistriplighticon.png",
   "orientations" : [

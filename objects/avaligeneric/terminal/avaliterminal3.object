@@ -15,10 +15,10 @@
   "apexDescription" : "This appears to be a public information terminal.",
   "avianDescription" : "It says 'information terminal' on it in Avos hieroglyphs!",
   "floranDescription" : "This sign mean good things inside to Floran!",
-  "glitchDescription" : "Surprise. Look, it says 01101001 01101110 01100110 01101111 on it !",
+  "glitchDescription" : "Surprise. Look, it says 01101001 01101110 01100110 01101111 on it!",
   "humanDescription" : "'Public information terminal' in English that's helpful.",
   "hylotlDescription" : "Informative Impending Death? I'm not sure the Avali have quite figured out the nuances of the Hylotl language yet.",
-  "avaliDescription" : "An information terminal, non-Avali users with information chits  can use them to access to some Nexus databases.",
+  "avaliDescription" : "An information terminal, non-Avali users with information chits can use them to access to some Nexus databases.",
   
   "inventoryIcon" : "avaliterminal3icon.png",
   "orientations" : [
