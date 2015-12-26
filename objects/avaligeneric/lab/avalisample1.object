@@ -8,14 +8,14 @@
   "description" : "An empty lab container, for containing lab... stuff.",
   "shortdescription" : "Empty Specimen Jar",
   "race" : "avali",
-
-  "apexDescription" : "This is nothing like the standardised desks the Miniknog supply us with. (wait, what)",
-  "avianDescription" : "Is it a shelf, is a table, who can judge? (wait, what)",
-  "floranDescription" : "This bed is ssssssstupid, it's hard as a table top. (wait, what)",
-  "glitchDescription" : "Observation. This self is grossly over-engineered (wait, what)",
-  "humanDescription" : "Looks more like a gurney than a table. Why is Avali stuff always so, functional? (wait, what)",
-  "hylotlDescription" : "I wouldn't keep a moth-eaten book on this unit. (wait, what)",
-  "avaliDescription" : "It's a shelf... or maybe a table. Honestly it's just something to place your shinies on. (wait, what)", 
+  // All of the descriptions below need to be rewritten.
+  "apexDescription" : "This is nothing like the standardised desks the Miniknog supply us with.",
+  "avianDescription" : "Is it a shelf, is a table, who can judge?",
+  "floranDescription" : "This bed is ssssssstupid, it's hard as a table top.",
+  "glitchDescription" : "Observation. This self is grossly over-engineered",
+  "humanDescription" : "Looks more like a gurney than a table. Why is Avali stuff always so, functional?",
+  "hylotlDescription" : "I wouldn't keep a moth-eaten book on this unit.",
+  "avaliDescription" : "It's a shelf... or maybe a table. Honestly it's just something to place your shinies on.", 
 
   "inventoryIcon" : "avalisample1.png",
   "orientations" : [
