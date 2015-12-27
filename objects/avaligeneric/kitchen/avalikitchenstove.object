@@ -12,13 +12,13 @@
   "shortdescription" : "Avali Cooker",
   "race" : "avali",
 
-  "apexDescription" : "Interesting, the gas rings on this pump oxygen not methane.",
+  "apexDescription" : "Interesting, the gas rings on this pump oxygen, not methane.",
   "avianDescription" : "It's got a way to properly cook almost anything here!",
-  "floranDescription" : "Floran put wood in box, then heats til it bursts into flame. Campfire for stupids.",
-  "glitchDescription" : "Dubious. I doubt this device gets hot enough to properly melt microcheese until rust-brown",
+  "floranDescription" : "Floran put wood in box, then heats 'till it bursssts into flame. Campfire for sssstupidss.",
+  "glitchDescription" : "Dubious. I doubt this device gets hot enough to properly melt microcheese until rust-brown.",
   "humanDescription" : "I should probably read the instructions before trying to dry my cat in this thing.",
   "hylotlDescription" : "I'm beginning to suspect that for all their flaws, the Avali may have promise as culinarians.",
-  "avaliDescription" : "We breathe methane, our stoves have to pump oxygen which then burns with the methane in the air",
+  "avaliDescription" : "We breathe methane, our stoves have to pump oxygen which then burns with the methane in the air.", // Isn't it hydrogen that they breathe? I'd change it if not for the fact that pure hydrogen and oxygen burns at 3200 celsius.
   
   "inventoryIcon" : "avalikitchenstoveicon.png",
   "orientations" : [

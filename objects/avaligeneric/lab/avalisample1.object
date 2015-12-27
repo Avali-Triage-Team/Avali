@@ -8,7 +8,7 @@
   "description" : "An empty lab container, for containing lab... stuff.",
   "shortdescription" : "Empty Specimen Jar",
   "race" : "avali",
-
+  // All of the descriptions below need to be rewritten.
   "apexDescription" : "This is nothing like the standardised desks the Miniknog supply us with.",
   "avianDescription" : "Is it a shelf, is a table, who can judge?",
   "floranDescription" : "This bed is ssssssstupid, it's hard as a table top.",

@@ -12,13 +12,13 @@
   "shortdescription" : "Hi-Tech Drawers",
   "race" : "generic",
 
-  "apexDescription" : "I think the designer was trying too hard to make these look futuristic",
+  "apexDescription" : "I think the designer was trying too hard to make these look futuristic.",
   "avianDescription" : "These drawers are shiny, I have the over-riding urge to take them back to my nest.",
-  "floranDescription" : "Stabproof drawers, curse the not-birdmen!",
+  "floranDescription" : "Ssstabproof drawersss, cursse the not-birdmen!",
   "glitchDescription" : "Coquettish. Well hello there~",
   "humanDescription" : "Some things can't really be improved upon, drawers are one of those things.",
   "hylotlDescription" : "*Sigh* how do the Avali live in such dull surroundings.",
-  "avaliDescription" : "These drawers have got mag-lev rails for silent gliding, air transfer to avoid feedback, automatic inventory keeping, and... are a little over-engineered.",
+  "avaliDescription" : "These drawers have mag-lev rails for silent gliding, air transfer to avoid feedback, automatic inventory keeping, and... are a little over-engineered.",
 
   "inventoryIcon" : "avalikitchendrawersicon.png",
   "orientations" : [
