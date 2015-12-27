@@ -1,0 +1,6 @@
+[
+  { "op" : "add"
+  ,"path" : "/speciesShips/avali"
+  ,"value" : [ "/ships/avali/avianT0.structure", "/ships/avali/avianT1.structure", "/ships/avali/avianT2.structure", "/ships/avali/avianT3.structure", "/ships/avali/avianT4.structure", "/ships/avali/avianT5.structure", "/ships/avali/avianT6.structure", "/ships/avali/avianT7.structure", "/ships/avali/avianT8.structure" ]
+  }
+]

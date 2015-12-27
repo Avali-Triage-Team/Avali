@@ -1,0 +1,26 @@
+Hello! Thank you for taking interest in the Avali mod!
+First off, I'd like to tell you: Any changes you make here will likely not work on characters you make and use first in multiplayer.
+You should first (After following the steps below) make your character in singleplayer to make sure you got the ship you chose
+
+To get the new ship on an old character is simple. It's recommended to only change one character at a time, because you can sort your files by date changed to see the most recent first.
+    1: Remove everything you want to keep from your ship. It will be difficult to retrieve it,  so make sure you don't leave anything on your ship that you want to keep. (There is no way to move tenants over, unfortunately)
+    2: Navigate to "C:\Program Files (x86)\Steam\steamapps\common\Starbound\giraffe_storage\player" (on Windows) (You may not have the (x86) on Program Files. That's fine. If you don't, just use the "Program Files" folder instead. Everything else should be the same.)
+    3: Delete the most recent .shipworld and all .shipworld.bak1, .bak2, etc., with the same jumble of numbers and letters. 
+    4: Load character back up. You'll be on the smallest ship, unfortunately, so to instantly get back to where you were, use the following commands:
+        /admin
+        /spawnitem shipT1
+        /admin
+        Replace "1" with the tier of ship you had before (Or 8 if you just want the biggest ship without needing to go through all the quests)
+        The second /admin is to turn admin mode off. (If you already had admin mode on, ignore both of the /admin commands)
+
+There you go!
+
+If you want to change the default ship for new characters:
+    Open the Avali mod folder from where you installed it. You'll see several universe_server.config.patch files, with brief descriptions after each one. The one without a description is the one that'll load. Rename the ship you would like (See the end of this file for a key) to "universe_server.config.patch" (Preferably also renaming the already existing file with this name, rather than removing, so you can go back to the new ship later)
+
+That's all there is to it! I hope you enjoy!
+
+
+    Key:
+        universe_server.config.patch - This is the one that loads. When you first download the mod, this will point to ArRockAnsate's ship, a more vertical design that looks more Avali-designed. 
+        universe_server.config.patch.OldShip - This points to the old ship, based off of RyuujinnZERO's original ship. It's a more horizontal layout, following the Human ship in shape. 
