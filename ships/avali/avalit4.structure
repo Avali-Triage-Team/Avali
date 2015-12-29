@@ -8,16 +8,16 @@
 
   "backgroundOverlays" : [
     {
-      "image" : "avianT4.png",
+      "image" : "avaliT4.png",
       "position" : [0, 0],
       "fullbright" : true
     },
     {
-      "image" : "avianT4lit.png",
+      "image" : "avaliT4lit.png",
       "position" : [0, 0]
     }
   ],
 
   "blockKey" : "blockKey.config:blockKey",
-  "blockImage" : "avianT4blocks.png"
+  "blockImage" : "avaliT4blocks.png"
 }
