@@ -2,49 +2,55 @@
   { "op": "add", "path": "/kiriHarvest", "value": [
     [0, {
       "fill" : [
-        {"item" : [ "avaliplant1", 1]}
+        {"item" : [ "avaliplant1", 1]},
+        {"item" : [ "avaliproduce1", 1]}
       ],
       "pool" : [
-        {"weight" : 1.0, "item" : [ "avaliproduce1", 1]},
-        {"weight" : 1.0, "item" : [ "avaliplant1", 1]},
-        {"weight" : 1.0, "item" : [ "plantfibre", 1]}
+        {"weight" : 0.85, "item" : [ "avaliproduce1", 1]},
+        {"weight" : 0.05, "item" : [ "avaliplant1", 1]},
+        {"weight" : 0.1, "item" : [ "plantfibre", 1]}
       ],
       "poolRounds" : [
-        [0.7, 1],
-        [0.3, 2]
+        [0.2, 1],
+        [0.6, 2],
+        [0.2, 3]
       ]
   } ]
   ] },
   { "op": "add", "path": "/nakatiHarvest", "value": [
     [0, {
       "fill" : [
-        {"item" : [ "avaliplant2", 1]}
+        {"item" : [ "avaliplant2", 1]},
+        {"item" : [ "avaliproduce2", 2]}
       ],
       "pool" : [
-        {"weight" : 1.0, "item" : [ "avaliproduce2", 1]},
-        {"weight" : 1.0, "item" : [ "avaliproduce2", 1]},
-        {"weight" : 1.0, "item" : [ "avaliplant2", 1]},
-        {"weight" : 1.0, "item" : [ "plantfibre", 2]}
+        {"weight" : 0.55, "item" : [ "avaliproduce2", 1]},
+        {"weight" : 0.3, "item" : [ "avaliproduce2", 2]},
+        {"weight" : 0.05, "item" : [ "avaliplant2", 1]},
+        {"weight" : 0.1, "item" : [ "plantfibre", 2]}
       ],
       "poolRounds" : [
-        [0.7, 1],
-        [0.3, 2]
+        [0.2, 1],
+        [0.6, 2],
+        [0.2, 3]
       ]
     } ]
   ] },
   { "op": "add", "path": "/piruHarvest", "value": [
     [0, {
       "fill" : [
-        {"item" : [ "avaliplant3", 1]}
+        {"item" : [ "avaliplant3", 1]},
+        {"item" : [ "avaliproduce3", 1]}
       ],
       "pool" : [
-        { "weight" : 1.0, "item" : [ "avaliproduce3", 1] },
-        { "weight" : 1.0, "item" : [ "avaliplant3", 1] },
-        { "weight" : 1.0, "item" : [ "plantfibre", 1] }
+        { "weight" : 0.85, "item" : [ "avaliproduce3", 1] },
+        { "weight" : 0.05, "item" : [ "avaliplant3", 1] },
+        { "weight" : 0.1, "item" : [ "plantfibre", 1] }
       ],
       "poolRounds" : [
-        [0.7, 1],
-        [0.3, 2]
+        [0.2, 1],
+        [0.6, 2],
+        [0.2, 3]
       ]
     } ]
   ] }
