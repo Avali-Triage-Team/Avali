@@ -5,7 +5,7 @@
   "interactAction" : "OpenCraftingInterface",
   "interactData" : {
     "config" : "/interface/windowconfig/avaliloom.config",
-    "filter" : [ "avaliloom" ]
+    "filter" : [ "avaliloom", "spinningwheel" ]
   },
   "printable" : true,
   "description" : "Is it a 3D printer? Is it a loom? No, it's... well, both basically.",
