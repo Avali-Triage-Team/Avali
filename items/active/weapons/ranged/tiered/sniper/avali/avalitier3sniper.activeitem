@@ -8,7 +8,7 @@
   "shortdescription" : "AM3 Firelance",
   "level" : 3,
   "tooltipKind" : "gun",
-  "weaponType" : "Rifle",
+  "weaponType" : "Sniper Rifle",
   "itemTags" : ["weapon","ranged","rifle"],
   "twoHanded" : true,
   
@@ -34,7 +34,7 @@
 
   "primaryAttack" : {
     "fireTime" : 1.8,
-    "baseDps" : 6.5,
+    "baseDps" : 2,
     "energyUsage" : 18.0,
     "inaccuracy" : 0.01,
 
@@ -76,7 +76,7 @@
     }
   },
 
-  "altAbilitySource" : "/items/active/weapons/ranged/altabilities/piercingshot/piercingshot.altability",
+  "altAbilitySource" : "/items/active/weapons/ranged/altabilities/grenadelauncher/grenadelauncher.altability",
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }
