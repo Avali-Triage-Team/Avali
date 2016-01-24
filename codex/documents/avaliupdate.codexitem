@@ -1,0 +1,10 @@
+{
+  "codexId" : "avaliupdate",
+  "title" : "The Avali Update Catastrophe",
+  "codexkind" : "codex",
+  "inventoryIcon" : "avalitoken.png",
+  "itemName" : "avaliupdateCodex",
+  "rarity" : "common",
+  "description" : "Update Unloader's personal log",
+  "shortdescription" : "Update Catastrophe"
+}

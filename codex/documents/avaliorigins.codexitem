@@ -2,6 +2,7 @@
   "codexId" : "avaliorigins",
   "title" : "An Avali Introduction",
   "codexkind" : "codex",
+  "inventoryIcon" : "avalitoken.png",
   "itemName" : "avalioriginsCodex",
   "rarity" : "common",
   "description" : "A short history of the Avali race.",

@@ -2,6 +2,7 @@
   "codexId" : "avaliflavour",
   "title" : "INTERCEPT #37821",
   "codexkind" : "codex",
+  "inventoryIcon" : "avalitoken.png",
   "itemName" : "avaliflavourCodex",
   "rarity" : "common",
   "description" : "Transmission intercepted.",
