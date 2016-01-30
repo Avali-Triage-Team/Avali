@@ -5,7 +5,7 @@
   "persistent" : true,
   "scriptConfig" : {
     "dialog" : {
-      "attack" : "/dialog/avali.config:dragoon_attack"
+      "attack" : "/dialog/dragoon.config:dragoon_attack"
     }
   },
   "items" : {
