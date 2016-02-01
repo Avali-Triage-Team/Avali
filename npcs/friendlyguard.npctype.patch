@@ -1,5 +1,15 @@
 [
-  { "op" : "add", "path" : "/scriptConfig/dialog/hail", "value" : "/dialog/avali.config:friendlyguard_hail" },
+  { "op" : "add", "path" : "/scriptConfig/dialog/hail/avali",
+    "value" : {
+      "default" : [
+	    "Perimeter secure.",
+	    "*Hums to self*",
+	    "I'm overworked, I'm starting to think the birds are out to get me.",
+	    "When are we going to see some action?",
+	    "Huh, what, sorry. I was checking my messages."
+	  ]
+	}
+  },
   { "op" : "add",
     "path" : "/items/avali",
     "value" : 
