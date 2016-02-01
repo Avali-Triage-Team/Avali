@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "steelbar", "count" : 10 }
+  ],
+  "output" : {
+    "item" : "mediummetal",
+    "count" : 5
+  },
+  "groups" : [ "anvil", "all" ]
+}

@@ -151,7 +151,8 @@
       { "item" : "avaliloom" },
       { "item" : "avalibench" },
       { "item" : "avalilathe" },
-      { "item" : "avalistoragelocker" }
+      { "item" : "avalistoragelocker" },
+      { "item" : "mediummetal" }
     ]
   },
   
