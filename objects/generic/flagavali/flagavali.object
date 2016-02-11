@@ -31,7 +31,6 @@
       "direction" : "left",
       "frames" : 6,
       "animationCycle" : 1.0,
-      "spacescan" : 0.1,
       "anchors" : [ "bottom" ]
     },
     {
@@ -40,7 +39,6 @@
       "direction" : "right",
       "frames" : 6,
       "animationCycle" : 1.0,
-      "spacescan" : 0.1,
       "anchors" : [ "bottom" ]
     }
   ]
