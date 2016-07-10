@@ -4,6 +4,7 @@
   "maxStack" : 1,
   "price" : 400,
   "rarity" : "Legendary",
+  "category" : "chestarmour",
   "description" : "Cerulium armoured plates inserted into Avali armour. Equip these in your armour slots, and place your clothing or armour in the vanity slots.",
   "shortdescription" : "Cerulium Vest Insert",
   "tooltipKind" : "armor",
@@ -20,24 +21,30 @@
     "frontSleeve" : "fsleeve.png"
   },
 
-  "statusEffects" : [
+  "level" : 6,
+  "leveledStatusEffects" : [
     {
+      "levelFunction" : "manipulatorArmorLevelPowerMultiplierMultiplier",
       "stat" : "powerMultiplier",
-      "amount" : 2.25
+      "baseMultiplier" : 1.25
     },
     {
+      "levelFunction" : "manipulatorArmorLevelProtectionMultiplier",
       "stat" : "protection",
-      "amount" : 35
+      "amount" : 0.5
     },
     {
+      "levelFunction" : "manipulatorArmorLevelMaxEnergyMultiplier",
       "stat" : "maxEnergy",
-      "amount" : 120
+      "amount" : 5
     },
     {
+      "levelFunction" : "manipulatorArmorLevelMaxHealthMultiplier",
       "stat" : "maxHealth",
-      "amount" : 20
+      "amount" : 5
     }
   ],
+  "itemTags" : [ "tier6armour" ],
 
   "colorOptions" : [
     /* BLUE */

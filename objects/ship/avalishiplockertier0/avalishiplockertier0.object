@@ -6,9 +6,8 @@
 
   "category" : "decorative",
   "description" : "Store some stuff, why don't you?",
-  "shortdescription" : "Shiplocker",
+  "shortdescription" : "Ship Locker",
   "race" : "avali",
-  
   "lightColor" : [102, 61, 61],
 
   "apexDescription" : "Avali storage locker.",
@@ -17,25 +16,7 @@
   "glitchDescription" : "Indifferent. Avian storage locker.",
   "humanDescription" : "An Avali storage hatch.",
   "hylotlDescription" : "Storage.",
-
-  "particleEmitter" : {
-    "emissionRate" : 1,
-    "pixelOrigin" : [164, 27],
-
-    "particle" : {
-      "type" : "textured",
-      "image" : "/objects/ship/emid.png",
-      "size" : 1,
-      "color" : [255, 255, 255, 255],
-      "fade" : 0.0,
-      "initialVelocity" : [0.0, 0],
-      "finalVelocity" : [0.0, 0],
-      "approach" : [0, 0],
-      "timeToLive" : 0.5,
-      "layer" : "front",
-      "fullbright" : true
-    }
-  },
+  "novakidDescription" : "A locker. Ain't much use 'til it's fixed.",
 
   "inventoryIcon" : "shiplockericonTier0.png",
   "orientations" : [
@@ -55,6 +36,6 @@
     "/objects/noisy/noisy.lua"
   ],
   
-  "sounds" : [ "/sfx/interface/ship_error1.ogg" ]
+  "sounds" : [ "/sfx/interface/clickon_error.ogg" ]
   
 }

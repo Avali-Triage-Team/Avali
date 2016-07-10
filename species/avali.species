@@ -1,13 +1,23 @@
 {
   "kind" : "avali",
+   "charCreationTooltip" : {
+      "title" : "Avali",
+      "subTitle" : "A",
+      "description" : "A race of highly intelligent four-earred, diminutive, fluffy, nomadic, space-raptors. They are known to be great hunters and singers."
+  },
+  
   "nameGen" : [ "/species/avalinamegen.config:names", "/species/avalinamegen.config:names" ],
   "ouchNoises" : [ "/sfx/npc/smallbiped/spidermonkey_pain2.ogg", "/sfx/npc/smallbiped/spidermonkey_pain2.ogg" ],
-  "gruntNoises" : [ [ "/sfx/npc/smallbiped/spidermonkey_idle1.ogg" ], [ "/sfx/npc/smallbiped/spidermonkey_idle2.ogg" ] ],
   "charGenTextLabels" : [ "FLUFF COLOR", "PLUMAGE", "SLEEVES", "OUTFIT", "TRIM COLOR", "FEATHER COLOR", "SLEEVES COLOR", "OUTFIT COLOR", "AVALI", "PERSONALITY" ],
   "skull" : "/humanoid/avali/dead.png",
-  "defaultBlueprints" : {
+  "effectDirectives" : "?replace=FEFFFFFF=FFFFFFFF?replace=9bd4ffFF=80f4ffFF?replace=31a6ffFF=39b8e3FF",
+ 
+ "defaultBlueprints" : {
     "tier1" : [
+	
+// Empty Hands
       { "item" : "flagavali" },
+// Anvil
       { "item" : "avalitier1head" },
       { "item" : "avalitier1chest" },
       { "item" : "avalitier1pants" },
@@ -27,6 +37,7 @@
       { "item" : "avalitier2dagger" },    
       { "item" : "avalitier2shortsword" },
       { "item" : "avalitier2spear" },
+// Anvil2	  
       { "item" : "avalitier3head" },
       { "item" : "avalitier3chest" },
       { "item" : "avalitier3pants" },
@@ -45,6 +56,7 @@
       { "item" : "avalitier4dagger" },    
       { "item" : "avalitier4shortsword" },
       { "item" : "avalitier4spear" },
+// Anvil3
       { "item" : "avalitier5head" },
       { "item" : "avalitier5chest" },
       { "item" : "avalitier5pants" },
@@ -93,6 +105,7 @@
       { "item" : "avalitier10dagger" },    
       { "item" : "avalitier10shortsword" },
       { "item" : "avalitier10spear" },
+// Other
       { "item" : "avalitier1minigun" },
       { "item" : "avalitier1pistol" },
       { "item" : "avalitier1rifle" },

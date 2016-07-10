@@ -15,7 +15,16 @@
   "glitchDescription" : "Educate. I set myself to sleep during the teleport process.",
   "humanDescription" : "Teleporting is a huge rush.",
   "hylotlDescription" : "Teleporting feels like diving into the ocean from a mountain top.",
+  "novakidDescription" : "Ship's teleporter. I need to power her up!",
 
+  "objectType" : "loungeable",
+  "sitFlipDirection" : true,
+  "sitOrientation" : "lay",
+  "sitAngle" : 90,
+  "sitEmote" : "sleep",
+  "sitStatusEffects" : [ ],
+  "sitEffectEmitters" : [ "sleepbubbles" ],
+  
   "inventoryIcon" : "teleportericonTier0.png",
   "orientations" : [
     {
@@ -26,7 +35,10 @@
 
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],
-      "collision" : "solid"
+      "collision" : "solid",
+	  "collisionSpaces" : [ [-2, 0], [-1, 0], [0, 0], [1, 0], [-2, 9], [-1, 9], [0, 9], [1, 9] ],
+
+      "sitPosition" : [-8, 8]
     }
   ],
 
@@ -37,6 +49,6 @@
   ],
 
   
-  "sounds" : [ "/sfx/interface/ship_error1.ogg" ]
+  "sounds" : [ "/sfx/interface/clickon_error.ogg" ]
   
 }

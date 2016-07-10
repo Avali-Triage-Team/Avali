@@ -4,6 +4,7 @@
   "maxStack" : 1,
   "price" : 300,
   "rarity" : "Rare",
+  "category" : "chestarmour",
   "description" : "Aegisalt armoured plates inserted into Avali armour. Equip these in your armour slots, and place your clothing or armour in the vanity slots.",
   "shortdescription" : "Aegisalt Vest Insert",
   "tooltipKind" : "armor",
@@ -20,26 +21,31 @@
     "frontSleeve" : "fsleeve.png"
   },
 
-  "statusEffects" : [
+  "level" : 5,
+  "leveledStatusEffects" : [
     {
+      "levelFunction" : "acceleratorArmorLevelPowerMultiplierMultiplier",
       "stat" : "powerMultiplier",
-      "amount" : 1.5
+      "baseMultiplier" : 1.25
     },
     {
+      "levelFunction" : "acceleratorArmorLevelProtectionMultiplier",
       "stat" : "protection",
-      "amount" : 35
+      "amount" : 0.5
     },
     {
+      "levelFunction" : "acceleratorArmorLevelMaxEnergyMultiplier",
       "stat" : "maxEnergy",
-      "amount" : 100
+      "amount" : 5
     },
     {
+      "levelFunction" : "acceleratorArmorLevelMaxHealthMultiplier",
       "stat" : "maxHealth",
-      "amount" : 25
+      "amount" : 5
     }
   ],
 
-  "itemTags" : [ "tier5armor" ],
+  "itemTags" : [ "tier5armour" ],
 
   "colorOptions" : [
     /* LIME GREEN */

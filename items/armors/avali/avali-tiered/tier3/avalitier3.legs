@@ -4,6 +4,7 @@
   "maxStack" : 1,
   "price" : 150,
   "rarity" : "Uncommon",
+  "category" : "legarmour",
   "description" : "Titanium armoured plates inserted into Avali armour. Equip these in your armour slots, and place your clothing or armour in the vanity slots.",
   "shortdescription" : "Titanium Leg Inserts",
   "tooltipKind" : "armor",
@@ -11,26 +12,31 @@
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",
 
-  "statusEffects" : [
+  "level" : 3,
+  "leveledStatusEffects" : [
     {
+      "levelFunction" : "standardArmorLevelPowerMultiplierMultiplier",
       "stat" : "powerMultiplier",
-      "amount" : 0.4
+      "baseMultiplier" : 1.1
     },
     {
+      "levelFunction" : "standardArmorLevelProtectionMultiplier",
       "stat" : "protection",
-      "amount" : 9
+      "amount" : 0.2
     },
     {
+      "levelFunction" : "standardArmorLevelMaxEnergyMultiplier",
       "stat" : "maxEnergy",
-      "amount" : 24
+      "amount" : 2
     },
     {
+      "levelFunction" : "standardArmorLevelMaxHealthMultiplier",
       "stat" : "maxHealth",
-      "amount" : 6
+      "amount" : 2
     }
   ],
 
-  "itemTags" : [ "titaniumarmor" ],
+  "itemTags" : [ "tier3armour" ],
   
   "colorOptions" : [
     /* WHITE */

@@ -4,6 +4,7 @@
   "maxStack" : 1,
   "price" : 300,
   "rarity" : "Rare",
+  "category" : "headarmour",
   "description" : "Aegisalt armoured plates inserted into Avali armour. Equip these in your armour slots, and place your clothing or armour in the vanity slots.",
   "shortdescription" : "Aegisalt Helmet Insert",
   "tooltipKind" : "armor",
@@ -12,26 +13,31 @@
   "femaleFrames" : "head.png",
   "mask" : "mask.png",
 
-  "statusEffects" : [
+  "level" : 5,
+  "leveledStatusEffects" : [
     {
+      "levelFunction" : "acceleratorArmorLevelPowerMultiplierMultiplier",
       "stat" : "powerMultiplier",
-      "amount" : 0.9
+      "baseMultiplier" : 1.15
     },
     {
+      "levelFunction" : "acceleratorArmorLevelProtectionMultiplier",
       "stat" : "protection",
-      "amount" : 21
+      "amount" : 0.3
     },
     {
+      "levelFunction" : "acceleratorArmorLevelMaxEnergyMultiplier",
       "stat" : "maxEnergy",
-      "amount" : 60
+      "amount" : 3
     },
     {
+      "levelFunction" : "acceleratorArmorLevelMaxHealthMultiplier",
       "stat" : "maxHealth",
-      "amount" : 15
+      "amount" : 3
     }
   ],
 
-  "itemTags" : [ "tier5armor" ],
+  "itemTags" : [ "tier5armour" ],
 
   "colorOptions" : [
     /* LIME GREEN */

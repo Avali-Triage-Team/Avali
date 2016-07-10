@@ -4,6 +4,7 @@
   "maxStack" : 1,
   "price" : 1,
   "rarity" : "Common",
+  "category" : "headwear",
   "description" : "Headphones? How retro.",
   "shortdescription" : "Avali Headphones",
   "inspectionstat" : "armor",

@@ -1,6 +1,8 @@
 {
   "objectName" : "avalicaptainschair",
   "colonyTags" : ["avali"],
+  "itemTags" : ["captainschair"],
+  "printable" : false,
   "rarity" : "Common",
   "objectType" : "loungeable",
 
@@ -15,6 +17,7 @@
   "glitchDescription" : "Anticipation. Where to next?",
   "humanDescription" : "A pretty cool chair.",
   "hylotlDescription" : "Elegant.",
+  "novakidDescription" : "The Captain's chair. The guy who sits here decides where the ship goes.",
 
   "inventoryIcon" : "captainschairicon.png",
   "orientations" : [

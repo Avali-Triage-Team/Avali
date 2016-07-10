@@ -4,6 +4,7 @@
   "inventoryIcon" : "icons.png:chest",
   "maxStack" : 1,
   "rarity" : "Common",
+  "category" : "chestwear",
   "description" : "That was surprisingly easy to re-fit...and it'll be unsurprisingly difficult to fix. But who cares?",
   "shortdescription" : "High-Vis Jacket (Avali)",
   "tooltipKind" : "armor",
@@ -19,13 +20,6 @@
     "backSleeve" : "bsleeve.png",
     "frontSleeve" : "fsleeve.png"
   },
-
-  "statusEffects" : [
-    {
-      "stat" : "protection",
-      "amount" : 0.5
-    }
-  ],
 
   "colorOptions" : [
     /* BLACK */

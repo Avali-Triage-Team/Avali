@@ -4,6 +4,7 @@
   "maxStack" : 1,
   "price" : 1,
   "rarity" : "Common",
+  "category" : "headwear",
   "description" : "Tired of bright lights decreasing your range? Try the new SniperEye!",
   "shortdescription" : "SniperEye",
   "inspectionstat" : "armor",
@@ -11,17 +12,6 @@
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",
   "mask" : "mask.png",
-
-  "statusEffects" : [
-    {
-      "stat" : "protection",
-      "amount" : 4.5
-    },
-    {
-      "stat" : "energyincrease",
-      "amount" : 25
-    }
-  ],
 
   "colorOptions" : [
     /* GREY */
