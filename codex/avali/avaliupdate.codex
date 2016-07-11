@@ -1,6 +1,9 @@
 {
   "id" : "avaliupdate",
+  "species" : "avali",
   "title" : "The Avali Update Catastrophe",
+  "description" : "Information On The Avali Update Catastrophe.",
+  "icon" : "avalitoken.png",
   "contentPages" : [
 
     "Excerpt from personal log of Nezi, one of the workers in charge of unloading updates.",
@@ -19,5 +22,9 @@
     
     "It was, disappointingly, not a lot. A few chips to install in our nanolooms, enabling them to make normal cloth and a few bits of clothing that didn't fit very well, and some rifles that, if anything, seemed worse than the ones we already had. It was hardly worth all the work it would take to clean this mess up."
 
-  ]
+    ],
+    "itemConfig" : {
+    "rarity" : "common",
+    "price" : 25
+	}
 }

@@ -1,6 +1,9 @@
 {
   "id" : "avaliprologue",
+  "species" : "avali",
   "title" : "An Avali Journey Begins",
+  "description" : "An Avali Journey Begins.",
+  "icon" : "avalitoken.png",
   "contentPages" : [ 
 
     "Yesterday, abandoning your pack would've been unthinkable. The silence of their absence is almost deafening, but cutting and running was your only choice, for your safety and theirs.",
@@ -9,5 +12,9 @@
 
     "You're going to need to get that data to the authorities. It was lucky the ship was fuelled and ready when you stole it; unfortunately, your fuel, like your luck, has just ran out..."
   
-  ]
+    ],
+    "itemConfig" : {
+    "rarity" : "common",
+    "price" : 25
+    }
 }
