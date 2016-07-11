@@ -1,7 +1,9 @@
 {
   "input" : [
-    { "item" : "feroziumcompound", "count" : 6 }
+    { "item" : "solariumstar", "count" : 12 },
+    { "item" : "avalitier5ahead", "count" : 1 }
   ],
+  "duration" : 5,
   "output" : { "item" : "avalitier6ahead", "count" : 1 },
-  "groups" : [ "acceleratortable", "armors", "all" ]
+  "groups" : [ "craftingaccelerator", "armours", "all" ]
 }

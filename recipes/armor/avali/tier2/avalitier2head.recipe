@@ -1,7 +1,9 @@
 {
   "input" : [
-    { "item" : "steelbar", "count" : 6 }
+    { "item" : "tungstenbar", "count" : 6 },
+	{ "item" : "cottonwool", "count" : 1 }
   ],
+  "duration" : 5,
   "output" : { "item" : "avalitier2head", "count" : 1 },
-  "groups" : [ "metalworkstation", "armors", "all" ]
+  "groups" : [ "craftinganvil", "armours", "all" ]
 }

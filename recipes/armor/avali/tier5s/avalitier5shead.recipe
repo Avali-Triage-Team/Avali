@@ -1,7 +1,9 @@
 {
   "input" : [
-    { "item" : "refinedviolium", "count" : 6 }
+    { "item" : "refinedviolium", "count" : 6 },
+	{ "item" : "canvas", "count" : 1 }
   ],
+  "duration" : 5,
   "output" : { "item" : "avalitier5shead", "count" : 1 },
-  "groups" : [ "separatortable", "armors", "all" ]
+  "groups" : [ "craftingseparator", "armours", "all" ]
 }

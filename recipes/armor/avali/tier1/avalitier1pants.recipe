@@ -1,7 +1,9 @@
 {
   "input" : [
-    { "item" : "ironbar", "count" : 2 }
+    { "item" : "ironbar", "count" : 2 },
+    { "item" : "fabric", "count" : 2 }
   ],
+  "duration" : 5,
   "output" : { "item" : "avalitier1pants", "count" : 1 },
-  "groups" : [ "anvil", "armors", "all" ]
+  "groups" : [ "craftinganvil", "armours", "all" ]
 }
