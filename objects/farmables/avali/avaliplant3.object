@@ -2,7 +2,7 @@
   "objectName" : "avaliplant3",
   "colonyTags" : [ "nature" ], 
   "rarity" : "Common",
-  "category" : "farmable",
+  "category" : "seed",
   "description" : "Small, barnacle-like colonies which grow long frond-like feeding filaments.",
   "shortdescription" : "Piru Colony",
   "objectType" : "farmable",
@@ -42,5 +42,7 @@
       "alts" : 5,
       "harvestPool" : "piruHarvest"
     }
-  ]
+  ],
+
+  "maxImmersion" : 0.125
 }

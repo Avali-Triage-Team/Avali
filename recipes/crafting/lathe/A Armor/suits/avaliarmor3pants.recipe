@@ -3,7 +3,7 @@
     { "item" : "tungstenbar", "count" : 10  },
     { "item" : "fabric", "count" : 5  },
     { "item" : "graphene", "count" : 5  },
-    { "item" : "copperbar", "count" : 1  }  
+    { "item" : "siliconboard", "count" : 1  }  
   ],
   "output" : { "item" : "avaliarmor3pants", "count" : 1 },
   "groups" : [ "armors", "avalilathe", "all" ]

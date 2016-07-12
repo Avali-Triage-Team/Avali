@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "mediummetal", "count" : 15 },
-    { "item" : "copperbar", "count" : 1 }  
+    { "item" : "siliconboard", "count" : 1 }  
   ],
   "output" : { "item" : "avalicontainer1", "count" : 1 },
   "groups" : [ "objects", "avalilathe", "all" ]
