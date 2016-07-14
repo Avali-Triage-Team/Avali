@@ -1,7 +1,7 @@
 {
   "itemName" : "avaligrapple",
   "price" : 3000,
-  "inventoryIcon" : "avaligrappleghookicon.png",
+  "inventoryIcon" : "avaligrapplehookicon.png",
   "rarity" : "Legendary",
   "maxStack" : 1,
   "description" : "Oh my god, whee! This is so fun!",
