@@ -1,12 +1,12 @@
 {
   "objectName" : "avalifuelhatch",
   "colonyTags" : ["avali"],
+  "printable" : false,
   "rarity" : "Common",
   "objectType" : "container",
   "description" : "Accepts a bunch of different kinds of fuel. Avali design.",
   "shortdescription" : "Fuel Hatch",
   "race" : "avali",
-  "price" : 1000,
   "lightColor" : [102, 61, 61],
 
   "apexDescription" : "Converts fuel into freedom.",
@@ -15,6 +15,7 @@
   "glitchDescription" : "Excited. Once filled, we may visit another planet.",
   "humanDescription" : "A fuel panel. We can fill this up and explore.",
   "hylotlDescription" : "Fuel is the lifeblood of exploration.",
+  "novakidDescription" : "FTL fuel goes in here!",
 
   "inventoryIcon" : "fuelhatchicon.png",
   "orientations" : [
@@ -37,5 +38,10 @@
   "autoCloseCooldown" : 3600,
   "frameCooldown" : 5,
   
-  "triggerKeys" : [ "newfuelhatch" ]
+  "itemTags" : [ "newfuelhatch" ],
+
+  "scripts" : ["/stagehands/radiomessage.lua"],
+  "scriptDelta" : 30,
+  "broadcastArea" : [-5, -5, 5, 5],
+  "radioMessage" : "fuel"
 }

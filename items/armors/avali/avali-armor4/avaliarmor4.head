@@ -4,6 +4,7 @@
   "maxStack" : 1,
   "price" : 200,
   "rarity" : "Common",
+  "category" : "headwear",
   "description" : "^green;Avali, Head Slot. ^white; A heavy durasteel helmet, for when you absolutely positively need to keep your head on.",
   "shortdescription" : "Assault Helmet",
   "tooltipKind" : "armor",
@@ -11,21 +12,6 @@
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",
   "mask" : "mask.png",
-
-  "statusEffects" : [
-    {
-      "stat" : "powerMultiplier",
-      "baseMultiplier" : 0.95
-    },
-    {
-      "stat" : "protection",
-      "amount" : 1
-    },
-    {
-      "stat" : "maxHealth",
-      "amount" : 1
-    }
-  ],
 
   "colorOptions" : [
     /* WHITE */

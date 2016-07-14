@@ -3,6 +3,7 @@
   "inventoryIcon" : "icons.png:chest",
   "maxStack" : 1,
   "rarity" : "Rare",
+  "category" : "chestarmour",
   "description" : "Avali Guard armor plates. Because Guards need protection too!",
   "shortdescription" : "Avali Guard Armor T5-A",
   "tooltipKind" : "armor",
@@ -19,22 +20,27 @@
     "frontSleeve" : "fsleeve.png"
   },
 
-  "statusEffects" : [
+  "level" : 5,
+  "leveledStatusEffects" : [
     {
+      "levelFunction" : "acceleratorArmorLevelPowerMultiplierMultiplier",
       "stat" : "powerMultiplier",
-      "baseMultiplier" : 3.0
+      "baseMultiplier" : 1.25
     },
     {
+      "levelFunction" : "acceleratorArmorLevelProtectionMultiplier",
       "stat" : "protection",
-      "amount" : 70
+      "amount" : 0.5
     },
     {
+      "levelFunction" : "acceleratorArmorLevelMaxEnergyMultiplier",
       "stat" : "maxEnergy",
-      "amount" : 200
+      "amount" : 5
     },
     {
+      "levelFunction" : "acceleratorArmorLevelMaxHealthMultiplier",
       "stat" : "maxHealth",
-      "amount" : 50
+      "amount" : 5
     }
   ],
 

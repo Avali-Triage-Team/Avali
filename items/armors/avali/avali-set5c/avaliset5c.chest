@@ -4,6 +4,7 @@
   "maxStack" : 1,
   "price" : 20,
   "rarity" : "Common",
+  "category" : "chestwear",
   "description" : "^green;Avali, Chest Slot. ^white; A cloak for those who call the tundra home.",
   "shortdescription" : "Seeker's Cloak",
   "tooltipKind" : "armor",
@@ -19,21 +20,6 @@
     "backSleeve" : "bsleeve.png",
     "frontSleeve" : "fsleeve.png"
   },
-
-  "statusEffects" : [
-    {
-      "stat" : "powerMultiplier",
-      "baseMultiplier" : 1.35
-    },
-    {
-      "stat" : "protection",
-      "amount" : 2
-    },
-    {
-      "stat" : "maxHealth",
-      "amount" : 3
-    }
-  ],
 
   "colorOptions" : [
     { "ffca8a" : "d4c398", "e0975c" : "bda67a", "a85636" : "9c7f54", "6f2919" : "755937" },

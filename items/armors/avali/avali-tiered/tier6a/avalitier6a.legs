@@ -4,6 +4,7 @@
   "maxStack" : 1,
   "price" : 400,
   "rarity" : "Legendary",
+  "category" : "legarmour",
   "description" : "Ferozium armoured plates inserted into Avali armour. Equip these in your armour slots, and place your clothing or armour in the vanity slots.",
   "shortdescription" : "Ferozium Leg Inserts",
   "tooltipKind" : "armor",
@@ -11,24 +12,31 @@
   "maleFrames" : "pantsm.png",
   "femaleFrames" : "pantsf.png",
 
-  "statusEffects" : [
+  "level" : 6,
+  "leveledStatusEffects" : [
     {
+      "levelFunction" : "acceleratorArmorLevelPowerMultiplierMultiplier",
       "stat" : "powerMultiplier",
-      "amount" : 0.7
+      "baseMultiplier" : 1.1
     },
     {
+      "levelFunction" : "acceleratorArmorLevelProtectionMultiplier",
       "stat" : "protection",
-      "amount" : 15
+      "amount" : 0.2
     },
     {
+      "levelFunction" : "acceleratorArmorLevelMaxEnergyMultiplier",
       "stat" : "maxEnergy",
-      "amount" : 48
+      "amount" : 2
     },
     {
+      "levelFunction" : "acceleratorArmorLevelMaxHealthMultiplier",
       "stat" : "maxHealth",
-      "amount" : 12
+      "amount" : 2
     }
   ],
+
+  "itemTags" : [ "tier6armour" ],
 
   "colorOptions" : [
     /* TEAL */

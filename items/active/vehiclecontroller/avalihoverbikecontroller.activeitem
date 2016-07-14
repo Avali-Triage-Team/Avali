@@ -3,6 +3,7 @@
   "level" : 1,
   "price" : 12500,
   "rarity" : "rare",
+  "category" : "vehicleController",
   "description" : "Create a Avali hoverbike from stored nanites.",
   "shortdescription" : "Avali Hoverbike Controller",
   "twoHanded" : true,

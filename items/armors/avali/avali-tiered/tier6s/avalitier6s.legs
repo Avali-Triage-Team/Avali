@@ -4,6 +4,7 @@
   "maxStack" : 1,
   "price" : 400,
   "rarity" : "Legendary",
+  "category" : "legarmour",
   "description" : "Impervium armoured plates inserted into Avali armour. Equip these in your armour slots, and place your clothing or armour in the vanity slots.",
   "shortdescription" : "Impervium Leg Inserts",
   "tooltipKind" : "armor",
@@ -11,24 +12,31 @@
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",
 
-  "statusEffects" : [
+  "level" : 6,
+  "leveledStatusEffects" : [
     {
+      "levelFunction" : "manipulatorArmorLevelPowerMultiplierMultiplier",
       "stat" : "powerMultiplier",
-      "amount" : 0.55
+      "baseMultiplier" : 1.1
     },
     {
+      "levelFunction" : "manipulatorArmorLevelProtectionMultiplier",
       "stat" : "protection",
-      "amount" : 16
+      "amount" : 0.2
     },
     {
+      "levelFunction" : "manipulatorArmorLevelMaxEnergyMultiplier",
       "stat" : "maxEnergy",
-      "amount" : 32
+      "amount" : 2
     },
     {
+      "levelFunction" : "manipulatorArmorLevelMaxHealthMultiplier",
       "stat" : "maxHealth",
-      "amount" : 16
+      "amount" : 2
     }
   ],
+
+  "itemTags" : [ "tier6armour" ],
 
   "colorOptions" : [
     /* BLACK */

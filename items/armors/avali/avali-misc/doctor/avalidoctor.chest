@@ -4,6 +4,7 @@
   "maxStack" : 1,
   "price" : 10,
   "rarity" : "Common",
+  "category" : "chestwear",
   "description" : "A pair of surgical gloves.",
   "shortdescription" : "Surgical Gloves",
   "inspectionstat" : "armor",
@@ -19,21 +20,6 @@
     "backSleeve" : "bsleeve.png",
     "frontSleeve" : "fsleeve.png"
   },
-
-  "statusEffects" : [
-    {
-      "stat" : "powerMultiplier",
-      "baseMultiplier" : 1.35
-    },
-    {
-      "stat" : "protection",
-      "amount" : 2
-    },
-    {
-      "stat" : "maxHealth",
-      "amount" : 3
-    }
-  ],
 
   "colorOptions" : [
     /* WHITE */

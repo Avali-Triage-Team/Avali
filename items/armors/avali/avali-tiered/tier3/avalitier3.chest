@@ -4,6 +4,7 @@
   "maxStack" : 1,
   "price" : 150,
   "rarity" : "Uncommon",
+  "category" : "chestarmour",
   "description" : "Titanium armoured plates inserted into Avali armour. Equip these in your armour slots, and place your clothing or armour in the vanity slots.",
   "shortdescription" : "Titanium Vest Insert",
   "tooltipKind" : "armor",
@@ -20,26 +21,31 @@
     "frontSleeve" : "fsleeve.png"
   },
 
-  "statusEffects" : [
+  "level" : 3,
+  "leveledStatusEffects" : [
     {
+      "levelFunction" : "standardArmorLevelPowerMultiplierMultiplier",
       "stat" : "powerMultiplier",
-      "amount" : 1.0
+      "baseMultiplier" : 1.25
     },
     {
+      "levelFunction" : "standardArmorLevelProtectionMultiplier",
       "stat" : "protection",
-      "amount" : 22
+      "amount" : 0.5
     },
     {
+      "levelFunction" : "standardArmorLevelMaxEnergyMultiplier",
       "stat" : "maxEnergy",
-      "amount" : 60
+      "amount" : 5
     },
     {
+      "levelFunction" : "standardArmorLevelMaxHealthMultiplier",
       "stat" : "maxHealth",
-      "amount" : 15
+      "amount" : 5
     }
   ],
 
-  "itemTags" : [ "titaniumarmor" ],
+  "itemTags" : [ "tier3armour" ],
   
   "colorOptions" : [
     /* WHITE */

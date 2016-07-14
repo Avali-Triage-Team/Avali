@@ -4,6 +4,7 @@
   "maxStack" : 1,
   "price" : 5,
   "rarity" : "Common",
+  "category" : "headwear",
   "description" : "Place this in your head vanity slot to hide your headgear.",
   "shortdescription" : "Hidden Hat",
   "tooltipKind" : "armor",
@@ -11,21 +12,6 @@
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",
   "mask" : "mask.png",
-
-  "statusEffects" : [
-    {
-      "stat" : "powerMultiplier",
-      "baseMultiplier" : 0.95
-    },
-    {
-      "stat" : "protection",
-      "amount" : 1
-    },
-    {
-      "stat" : "maxHealth",
-      "amount" : 1
-    }
-  ],
 
   "colorOptions" : [
     /* RED */

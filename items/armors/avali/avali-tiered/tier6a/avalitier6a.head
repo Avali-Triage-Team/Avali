@@ -4,6 +4,7 @@
   "maxStack" : 1,
   "price" : 400,
   "rarity" : "Legendary",
+  "category" : "headarmour",
   "description" : "Ferozium armoured plates inserted into Avali armour. Equip these in your armour slots, and place your clothing or armour in the vanity slots.",
   "shortdescription" : "Ferozium Helmet Insert",
   "tooltipKind" : "armor",
@@ -12,24 +13,31 @@
   "femaleFrames" : "head.png",
   "mask" : "mask.png",
 
-  "statusEffects" : [
+  "level" : 6,
+  "leveledStatusEffects" : [
     {
+      "levelFunction" : "acceleratorArmorLevelPowerMultiplierMultiplier",
       "stat" : "powerMultiplier",
-      "amount" : 1.05
+      "baseMultiplier" : 1.15
     },
     {
+      "levelFunction" : "acceleratorArmorLevelProtectionMultiplier",
       "stat" : "protection",
-      "amount" : 23
+      "amount" : 0.3
     },
     {
+      "levelFunction" : "acceleratorArmorLevelMaxEnergyMultiplier",
       "stat" : "maxEnergy",
-      "amount" : 72
+      "amount" : 3
     },
     {
+      "levelFunction" : "acceleratorArmorLevelMaxHealthMultiplier",
       "stat" : "maxHealth",
-      "amount" : 18
+      "amount" : 3
     }
   ],
+
+  "itemTags" : [ "tier6armour" ],
 
   "colorOptions" : [
     /* TEAL */

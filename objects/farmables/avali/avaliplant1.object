@@ -2,7 +2,7 @@
   "objectName" : "avaliplant1",
   "colonyTags" : [ "nature" ], 
   "rarity" : "Common",
-  "category" : "farmable",
+  "category" : "seed",
   "description" : "The fruiting body of a subterranean slime mold. This one has already begun sporing though.",
   "shortdescription" : "Sporing Kiri Fruit",
   "objectType" : "farmable",
@@ -41,5 +41,7 @@
       "alts" : 5,
       "harvestPool" : "kiriHarvest"
     }
-  ]
+  ],
+
+  "maxImmersion" : 0.125
 }

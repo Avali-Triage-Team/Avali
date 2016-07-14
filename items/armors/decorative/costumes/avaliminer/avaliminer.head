@@ -4,6 +4,7 @@
   "inventoryIcon" : "icons.png:head",
   "maxStack" : 1,
   "rarity" : "Common",
+  "category" : "headwear",
   "description" : "There's an engineering saying: ''incompatibility doesn't exist''. Well...",
   "shortdescription" : "Miner's Helmet (Avali)",
   "tooltipKind" : "armor",
@@ -11,13 +12,6 @@
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",
   "mask" : "mask.png",
-
-  "statusEffects" : [
-    {
-      "stat" : "protection",
-      "amount" : 0.5
-    }
-  ],
 
   "colorOptions" : [
     /* Miner */

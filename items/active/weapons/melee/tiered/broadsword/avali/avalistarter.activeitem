@@ -7,77 +7,30 @@
   "description" : "This aerotech blade's nanite feed is broken. Just whack 'em with the hilt.",
   "shortdescription" : "Broken Shard",
   "tooltipKind" : "sword",
-  "weaponType" : "Broadsword",
+  "category" : "broadsword",
   "twoHanded" : true,
   "itemTags" : ["weapon","melee","broadsword"],
+  
   "inventoryIcon" : "avalistarter.png",
 
-  "animation" : "/items/active/weapons/melee/broadsword/tieredbroadsword.animation",
+  "animation" : "/items/active/weapons/melee/broadsword/combobroadsword.animation",
   "animationParts" : {
-    "sword" : "/items/active/weapons/melee/tiered/broadsword/avali/avalistarter.png"
+    "handle" : "",
+    "blade" : "avalistarter.png"
   },
-  "animationCustom" : {
-    "sounds" : {
-      "fire" : [ "/sfx/melee/swing_broadsword.ogg" ]
-    }
-  },
+  "animationCustom" : { },
 
   "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
 
   "elementalType" : "physical",
 
-  "primaryAttack" : {
-    "fireTime" : 0.8222,
-    "baseDps" : 8.425,
-    "damageConfig" : {
-      "damageSourceKind" : "broadsword",
-      "statusEffects" : [ ],
-      "knockback" : 20,
-      "knockbackMode" : "facing",
-      "timeoutGroup" : "primary"
-    }
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.83,
+    "baseDps" : 11.5
   },
 
-  "baseWeaponRotation" : 10,
-  "stances" : {
-    "idle" : {
-      "armRotation" : -90,
-      "weaponRotation" : -10,
-      "allowRotate" : false,
-      "allowFlip" : true
-    },
-    "windup" : {
-      "duration" : 0.1,
-      "armRotation" : 90,
-      "weaponRotation" : -10,
-      "twoHanded" : true,
-
-      "allowRotate" : false,
-      "allowFlip" : true
-    },
-    "preslash" : {
-      "duration" : 0.025,
-      "armRotation" : 55,
-      "weaponRotation" : -45,
-      "twoHanded" : true,
-
-      "allowRotate" : false,
-      "allowFlip" : false
-    },
-    "fire" : {
-      "duration" : 0.4,
-      "armRotation" : -45,
-      "weaponRotation" : -55,
-      "twoHanded" : true,
-
-      "allowRotate" : false,
-      "allowFlip" : false
-    }
-  },
-
-  "palette" : "/items/active/weapons/colors/tier1melee.weaponcolors",
-
-  "altAbilitySource" : "/items/active/weapons/melee/altabilities/broadsword/spinslash/spinslash.altability",
+  "altAbilityType" : "risingslash",
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

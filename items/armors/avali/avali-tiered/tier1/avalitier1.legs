@@ -4,6 +4,7 @@
   "maxStack" : 1,
   "price" : 100,
   "rarity" : "Common",
+  "category" : "legarmour",
   "description" : "Iron armoured plates inserted into Avali armour. Equip these in your armour slots, and place your clothing or armour in the vanity slots.",
   "shortdescription" : "Iron Leg Inserts",
   "tooltipKind" : "armor",
@@ -11,24 +12,30 @@
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",
 
-  "statusEffects" : [
+  "level" : 1,
+  "leveledStatusEffects" : [
     {
+	  "levelFunction" : "standardArmorLevelPowerMultiplierMultiplier",
       "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.1
+    },
+    {
+	  "levelFunction" : "standardArmorLevelProtectionMultiplier",
+      "stat" : "protection",
       "amount" : 0.2
     },
     {
-      "stat" : "protection",
+	  "levelFunction" : "standardArmorLevelMaxEnergyMultiplier",
+      "stat" : "maxEnergy",
       "amount" : 2
     },
     {
-      "stat" : "maxEnergy",
-      "amount" : 8
-    },
-    {
+	  "levelFunction" : "standardArmorLevelMaxHealthMultiplier",
       "stat" : "maxHealth",
       "amount" : 2
     }
   ],
+    "itemTags" : [ "tier1armour" ],	
 
   "colorOptions" : [
     /* GREY */

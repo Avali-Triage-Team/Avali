@@ -4,27 +4,13 @@
   "maxStack" : 1,
   "price" : 100,
   "rarity" : "Common",
+  "category" : "legwear",
   "description" : "^green;Avali, Leg Slot. ^white;Typical Avian adventurer outfit, now for raptors!",
   "shortdescription" : "Avali-Avian Adventurer Outfit",
   "inspectionstat" : "armor",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",
-
-  "statusEffects" : [
-    {
-      "stat" : "powerMultiplier",
-      "baseMultiplier" : 1.15
-    },
-    {
-      "stat" : "protection",
-      "amount" : 1
-    },
-    {
-      "stat" : "maxHealth",
-      "amount" : 2
-    }
-  ],
 
   "colorOptions" : [
     /* BROWN */

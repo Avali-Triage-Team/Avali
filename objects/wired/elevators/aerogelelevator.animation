@@ -1,0 +1,66 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "moving" : {
+        "default" : "off",
+        "states" : {
+          "off" : {},
+          "on" : {
+            "frames" : 10,
+            "cycle" : 1.0,
+            "mode" : "loop",
+
+            "properties" : {
+              "persistentSound" : "/sfx/objects/mechanical_elevator_loop.ogg"
+            }
+          }
+        }
+      }
+    },
+
+    "parts" : {
+      "base" : {
+        "properties" : {
+          "offset" : [-2, 0],
+          "centered" : false
+        },
+        "partStates" : {
+          "moving" : {
+            "off" : {
+              "properties" : {
+                "image" : "<partImage>:<color>.off"
+              }
+            },
+
+            "on" : {
+              "properties" : {
+                "image" : "<partImage>:<color>.<frame>"
+              }
+            }
+          }
+        }
+      },
+
+      "platform" : {
+        "properties" : {
+          "centered" : true,
+          "transformationGroups" : ["platform"],
+          "image" : "<partImage>",
+          "zLevel" : 1
+        }
+      }
+    }
+  },
+
+  "transformationGroups" : {
+    "platform" : {
+      "interpolated" : true
+    }
+  },
+
+  "sounds" : {
+    "changeDir" : {
+      "pool" : [ "/sfx/objects/mechanical_elevator_hit1.ogg", "/sfx/objects/mechanical_elevator_hit2.ogg", "/sfx/objects/mechanical_elevator_hit3.ogg", "/sfx/objects/mechanical_elevator_hit4.ogg", "/sfx/objects/mechanical_elevator_hit5.ogg" ]
+    }
+  }
+}
