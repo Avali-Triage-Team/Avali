@@ -13,8 +13,10 @@
   "inventoryIcon" : "avalitier9broadsword.png",
   "animation" : "/items/active/weapons/melee/broadsword/combobroadsword.animation",
   "animationParts" : {
-    "sword" : "/items/active/weapons/melee/tiered/broadsword/avali/avalitier9broadsword.png"
-  },
+    "blade" : "/items/active/weapons/melee/tiered/broadsword/avali/avalitier9broadsword.png",
+    "handle" : "/items/active/weapons/melee/tiered/broadsword/avali/avalitier9broadsword.png",
+    "swoosh" : "/swoosh/avalibswordswoosh/avalibswordswoosh.png"
+  }, 
   "animationCustom" : {
     "sounds" : {
       "fire" : [ "/sfx/melee/swing_broadsword.ogg" ]
