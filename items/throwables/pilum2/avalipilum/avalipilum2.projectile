@@ -1,6 +1,6 @@
 {
   "projectileName" : "avalipilum2",
-  "frames" : "avalipilum2.png",
+  "image" : "avalipilum2.png",
   "animationCycle" : 0.25,
   "level" : 5,
   "physics" : "grenadezbomb",

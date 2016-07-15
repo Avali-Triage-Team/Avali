@@ -23,7 +23,7 @@
       "imageLayers" : [ { "image" : "brokenavalifuelhatch.png:<color>.<frame>", "fullbright" : true }, { "image" : "brokenavalifuelhatchlit.png:<color>.<frame>" } ],
 
       "imagePosition" : [-8, -16],
-      "frames" : 12,
+      "image" : 12,
       "animationCycle" : 1,
 
       "spaceScan" : 0.1,

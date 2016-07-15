@@ -1,7 +1,7 @@
 {
   "projectileName" : "avaliairburstmine",
   "physics" : "grenade",  
-  "frames" : "avaliminesubmunition.png",
+  "image" : "avaliminesubmunition.png",
   "level" : 3,  
   "animationCycle" : 0.25,
   "frameNumber" : 1,

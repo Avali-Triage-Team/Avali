@@ -58,7 +58,7 @@
       "imageLayers" : [ { "image" : "avaliteleporter.png:<color>", "fullbright" : true }, { "image" : "avaliteleporterlit.png:<color>" } ],
 
       "imagePosition" : [-16, 0],
-      "frames" : 1,
+      "image" : 1,
       "animationCycle" : 0.5,
 
       "spaceScan" : 0.1,

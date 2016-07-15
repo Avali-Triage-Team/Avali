@@ -1,6 +1,6 @@
 {
   "projectileName" : "avalidaggerswoosh",
-  "frames" : "avalidaggerswoosh.png",
+  "image" : "avalidaggerswoosh.png",
   "animationCycle" : 0.07,
   "level" : 1,
   "frameNumber" : 3,

@@ -6,7 +6,7 @@
         "states" : {
           "off" : {},
           "on" : {
-            "frames" : 10,
+            "image" : 10,
             "cycle" : 1.0,
             "mode" : "loop",
 

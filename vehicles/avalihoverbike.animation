@@ -12,14 +12,14 @@
         "states" : {
 
           "warpInPart1" : {
-            "frames" : 4,  
+            "image" : 4,  
             "cycle" : 0.33,
             "mode" : "transition",
             "transition" : "warpInPart2"
             },
 
           "warpInPart2" : {
-            "frames" : 4,  
+            "image" : 4,  
             "cycle" : 0.33,
             "mode" : "transition",
             "transition" : "idle"
@@ -28,14 +28,14 @@
           "idle" : {},
 
           "warpOutPart1" : {
-            "frames" : 4,  
+            "image" : 4,  
             "cycle" : 0.33,
             "mode" : "transition",
             "transition" : "warpOutPart2"
             },
 
           "warpOutPart2" : {
-            "frames" : 4,  
+            "image" : 4,  
             "cycle" : 0.33,
             "mode" : "transition",
             "transition" : "invisible"
@@ -53,7 +53,7 @@
           "off" : {},
 
           "on" : {
-            "frames" : 6,
+            "image" : 6,
             "cycle" : 0.5,
             "mode" : "loop"
           }
@@ -67,7 +67,7 @@
           "off" : {},
 
           "on" : {
-            "frames" : 1,
+            "image" : 1,
             "cycle" : 0.125,
             "mode" : "loop"
           }
@@ -81,7 +81,7 @@
           "off" : {},
 
           "on" : {
-            "frames" : 1,
+            "image" : 1,
             "cycle" : 0.125,
             "mode" : "loop"
           }
