@@ -32,7 +32,7 @@
 
   "elementalType" : "electric",
 
-  "primaryAttack" : {
+  "primaryAbility" : { "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
     "fireTime" : 0.10,
     "baseDps" : 7,
     "energyUsage" : 27.0,
