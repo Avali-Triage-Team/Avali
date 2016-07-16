@@ -9,8 +9,8 @@
   "shortdescription" : "Ferozium Leg Inserts",
   "tooltipKind" : "armor",
 
-  "maleFrames" : "pantsm.png",
-  "femaleFrames" : "pantsf.png",
+  "maleFrames" : "pants.png",
+  "femaleFrames" : "pants.png",
 
   "level" : 6,
   "leveledStatusEffects" : [
