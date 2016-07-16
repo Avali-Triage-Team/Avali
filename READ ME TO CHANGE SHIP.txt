@@ -22,5 +22,5 @@ That's all there is to it! I hope you enjoy!
 
 
     Key:
-        universe_server.config.patch - This is the one that loads. When you first download the mod, this will point to ArRockAnsate's ship, a more vertical design that looks more Avali-designed. 
-        universe_server.config.patch.OldShip - This points to the old ship, based off of RyuujinnZERO's original ship. It's a more horizontal layout, following the Human ship in shape. 
+        universe_server.config.patch - This is the one that loads. When you first download the mod, this will point to the old ship, based off of RyuujinnZERO's original design. It's a more horizontal layout, following the Human ship in shape. 
+        universe_server.config.patch.OldShip - This points to ArRockAnsate's ship, a more vertical design that looks more Avali-designed.
