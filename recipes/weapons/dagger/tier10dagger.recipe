@@ -1,7 +1,10 @@
+/*
 {
   "input" : [
-    { "item" : "imperviumcompound", "count" : 8 }
+    { "item" : "solariumstar", "count" : 8 },
+    { "item" : "refinedaegisalt", "count" : 8}
   ],
   "output" : { "item" : "avalitier10dagger", "count" : 1 },
-  "groups" : [ "separatortable", "weapons", "all" ]
+  "groups" : [ "craftingseparator", "weapons", "all" ]
 }
+*/

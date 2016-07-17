@@ -1,8 +1,8 @@
 {
   "input" : [
-    { "item" : "steelbar", "count" : 10 },
+    { "item" : "tungstenbar", "count" : 10 },
     { "item" : "money", "count" : 75 }
   ],
   "output" : { "item" :  "avalitier2barrier" },
-  "groups" : [ "metalworkstation", "all", "armors"]
+  "groups" : [ "craftinganvil2", "all", "weapons"]
 }
