@@ -1,7 +1,9 @@
+/*
 {
   "input" : [
     { "item" : "ironbar", "count" : 4 }
   ],
   "output" : { "item" : "avalitier1dagger", "count" : 1 },
-  "groups" : [ "anvil", "weapons", "all" ]
+  "groups" : [ "craftinganvil", "weapons", "all" ]
 }
+*/

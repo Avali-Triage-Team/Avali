@@ -1,7 +1,9 @@
+/*
 {
   "input" : [
-    { "item" : "steelbar", "count" : 8 }
+    { "item" : "tungstenbar", "count" : 8 }
   ],
   "output" : { "item" : "avalitier2dagger", "count" : 1 },
-  "groups" : [ "metalworkstation", "weapons", "all" ]
+  "groups" : [ "craftinganvil2", "weapons", "all" ]
 }
+*/

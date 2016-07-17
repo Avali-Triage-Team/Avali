@@ -3,5 +3,5 @@
     { "item" : "refinedviolium", "count" : 16 }
   ],
   "output" : { "item" : "avalitier8spear", "count" : 1 },
-  "groups" : [ "separatortable", "weapons", "all" ]
+  "groups" : [ "craftingseparator", "weapons", "all" ]
 }
