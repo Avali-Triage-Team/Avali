@@ -28,7 +28,7 @@
   "elementalType" : "physical",
 
   "aimOffset" : -1.0,
-  "primaryAttack" : {
+  "primaryAbility" : {
     "fireTime" : 0.9,
     "baseDps" : 11.11,
     "damageConfig" : {

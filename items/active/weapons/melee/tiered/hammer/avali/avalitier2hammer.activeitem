@@ -13,9 +13,10 @@
 
   "inventoryIcon" : "avalitier2hammer.png",
 
-  "animation" : "/items/active/weapons/melee/hammer/tieredhammer.animation",
+  "animation" : "/items/active/weapons/melee/hammer/hammer.animation",
   "animationParts" : {
-    "blade" : "/items/active/weapons/melee/tiered/hammer/avali/avalitier2hammer.png"
+    "blade" : "/items/active/weapons/melee/tiered/hammer/avali/avalitier2hammer.png",
+    "handle" : ""
   },
   "animationCustom" : {
     "sounds" : {
@@ -27,7 +28,7 @@
 
   "elementalType" : "physical",
 
-  "primaryAttack" : {
+  "primaryAbility" : {
     "fireTime" : 1.3,
     "baseDps" : 12.3,
     "damageConfig" : {
@@ -59,7 +60,7 @@
       "allowRotate" : false,
       "allowFlip" : true,
 
-      // Windup animation
+      
       "idleHammerAngle" : -20,
       "windupHammerAngle" : 0,
       "dropHammerAngle" : 60,

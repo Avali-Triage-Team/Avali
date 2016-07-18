@@ -37,6 +37,6 @@
   },
   "baseWeaponRotation" : 10,
   "palette" : "/items/active/weapons/colors/tier10melee.weaponcolors",
-  "altAbilitySource" : "/items/active/weapons/melee/altabilities/broadsword/spinslash/spinslash.altability",
+  "altAbility" : "spinslash"
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

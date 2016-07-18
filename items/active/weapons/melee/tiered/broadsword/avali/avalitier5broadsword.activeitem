@@ -70,6 +70,6 @@
     }
   },
   "palette" : "/items/active/weapons/colors/tier5melee.weaponcolors",
-  "altAbilitySource" : "/items/active/weapons/melee/altabilities/broadsword/spinslash/spinslash.altability",
+  "altAbility" : "spinslash"
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }
