@@ -2,22 +2,16 @@
   "itemName" : "avaliproduce1",
   "price" : 5,
   "rarity" : "Common",
+  "category" : "food",
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
   "inventoryIcon" : "avaliproduce1.png",
   "description" : "The fruiting body of a subterranean slime mold... delicious, I guess?",
   "shortdescription" : "Kiri Fruit",
   "handPosition" : [7, 0],
-  "effects" : [ [
-    {
-        "effect" : "foodheal10",
-        "duration" : 60
-    },
-    {
-        "effect" : "wellfed",
-        "duration" : 75
-    }
-  ] ],
-  "blockingEffects" : [
-    "wellfed"
-  ],
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "foodValue" : 10,
+  "blockingEffects" : [ "wellfed" ],
   "learnBlueprintsOnPickup" : []
 }
