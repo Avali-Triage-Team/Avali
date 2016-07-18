@@ -1,4 +1,3 @@
-/*
 {
   "input" : [
     { "item" : "tungstenbar", "count" : 16 }
@@ -6,4 +5,3 @@
   "output" : { "item" : "avalitier2hammer", "count" : 1 },
   "groups" : [ "craftinganvil2", "weapons", "all" ]
 }
-*/

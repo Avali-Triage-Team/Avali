@@ -1,4 +1,3 @@
-/*
 {
   "input" : [
     { "item" : "solariumstar", "count" : 16 },
@@ -6,4 +5,3 @@
   ],
   "output" : { "item" : "avalitier10hammer", "count" : 1 },
   "groups" : [ "craftingseparator", "weapons", "all" ]
-*/

@@ -13,16 +13,17 @@
   "inventoryIcon" : "avalitier9hammer.png",
   "animation" : "/items/active/weapons/melee/hammer/hammer.animation",
   "animationParts" : {
-    "blade" : "/items/active/weapons/melee/tiered/hammer/avali/avalitier9hammer.png",
-    "handle" : ""
+    "handle" : "/items/active/weapons/melee/tiered/hammer/avali/avalitier9hammer.png",
+    "blade" : ""
   },
   "animationCustom" : {
     "sounds" : {
       "fire" : [ "/sfx/melee/swing_hammer.ogg" ]
     }
   },
-  "scripts" : ["/items/active/weapons/melee/hammer/hammer.lua"],
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
   "elementalType" : "physical",
+  "primaryAbilityType" : "hammersmash",
   "primaryAbility" : {
     "fireTime" : 1.3,
     "baseDps" : 12.3,
