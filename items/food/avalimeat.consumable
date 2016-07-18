@@ -2,25 +2,15 @@
   "itemName" : "avalimeat",
   "price" : 10,
   "rarity" : "Common",
+  "category" : "food",
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
   "inventoryIcon" : "avalimeat.png",
   "description" : "Chunks of seasoned jerky, popular with hunters and explorers.",
   "shortdescription" : "Spicy Jerky",
-  "effects" : [ [
-    {
-        "effect" : "foodheal95",
-        "duration" : 60
-    },
-    {
-        "effect" : "glow",
-        "duration" : 30
-    },
-    {
-        "effect" : "wellfed",
-        "duration" : 90
-    }
-  ] ],
-  "blockingEffects" : [
-    "wellfed"
-  ],
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "foodValue" : 95,
+  "blockingEffects" : [ "wellfed" ],
   "learnBlueprintsOnPickup" : [ "avalitaco" ]
 }
