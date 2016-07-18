@@ -10,9 +10,7 @@
   "weaponType" : "Hammer",
   "twoHanded" : true,
   "itemTags" : ["weapon","melee","hammer"],
-
   "inventoryIcon" : "avalitier9hammer.png",
-
   "animation" : "/items/active/weapons/melee/hammer/hammer.animation",
   "animationParts" : {
     "blade" : "/items/active/weapons/melee/tiered/hammer/avali/avalitier9hammer.png",
@@ -23,11 +21,8 @@
       "fire" : [ "/sfx/melee/swing_hammer.ogg" ]
     }
   },
-
   "scripts" : ["/items/active/weapons/melee/hammer/hammer.lua"],
-
   "elementalType" : "physical",
-
   "primaryAbility" : {
     "fireTime" : 1.3,
     "baseDps" : 12.3,
@@ -35,18 +30,11 @@
       "damageSourceKind" : "hammer",
       "statusEffects" : [ ],
       "knockbackMode" : "facing",
-      "knockback" : 45
-    },
-    "smashMomentum" : [0, -45]
-  },
-
-  "baseWeaponRotation" : 10,
-  "stances" : {
+      "stances" : {
     "idle" : {
       "armRotation" : -90,
       "weaponRotation" : -10,
       "weaponOffset" : [-0.125, 0.5],
-
       "allowRotate" : false,
       "allowFlip" : true
     },
@@ -56,10 +44,8 @@
       "weaponRotation" : -10,
       "twoHanded" : true,
       "weaponOffset" : [0, 1.75],
-
       "allowRotate" : false,
       "allowFlip" : true,
-
       
       "idleHammerAngle" : -20,
       "windupHammerAngle" : 0,
@@ -76,7 +62,6 @@
       "weaponRotation" : -45,
       "twoHanded" : true,
       "weaponOffset" : [0, 2.0],
-
       "allowRotate" : false,
       "allowFlip" : false
     },
@@ -87,15 +72,16 @@
       "twoHanded" : true,
       "smashTimer" : 1.5,
       "weaponOffset" : [0, 2.0],
-
       "allowRotate" : false,
       "allowFlip" : false
     }
   },
-
+      "knockback" : 45
+    },
+    "smashMomentum" : [0, -45]
+  },
+  "baseWeaponRotation" : 10,
   "palette" : "/items/active/weapons/colors/tier9melee.weaponcolors",
-
   "altAbilitySource" : "/items/active/weapons/melee/altabilities/hammer/shockwave/physicalshockwave.altability",
-
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }
