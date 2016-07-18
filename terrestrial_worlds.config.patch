@@ -1,0 +1,34 @@
+[
+  {
+    "op": "add",
+    "path": "/planetTypes/forest/layers/surface/dungeons/-",
+    "value": [
+      1.0,
+      "avalicamp"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/planetTypes/snow/layers/surface/dungeons/-",
+    "value": [
+      1.0,
+      "avalicamp"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/planetTypes/alien/layers/surface/dungeons/-",
+    "value": [
+      1.0,
+      "avalicamp"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/planetTypes/tundra/layers/surface/dungeons/-",
+    "value": [
+      1.0,
+      "avalicamp"
+    ]
+  }
+]

@@ -37,6 +37,6 @@
   },
   "baseWeaponRotation" : 10,
   "palette" : "/items/active/weapons/colors/tier7melee.weaponcolors",
-  "altAbility" : "spinslash",
+  "altAbilityType" : "spinslash",
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }
