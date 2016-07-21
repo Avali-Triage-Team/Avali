@@ -1,7 +1,6 @@
 {
   "input" : [
     { "item" : "mediummetal", "count" : 1  },
-    { "item" : "laserdiode", "count" : 1  },
     { "item" : "graphene", "count" : 2  },
     { "item" : "siliconboard", "count" : 1  }  
   ],
