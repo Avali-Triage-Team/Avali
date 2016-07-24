@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "tungstenbar", "count" : 8 }
+  ],
+  "output" : { "item" : "avalitier2dagger", "count" : 1 },
+  "groups" : [ "craftinganvil2", "weapons", "all" ]
+}

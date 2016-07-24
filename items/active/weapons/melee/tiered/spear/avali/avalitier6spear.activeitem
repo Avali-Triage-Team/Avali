@@ -90,7 +90,7 @@
 
   "palette" : "/items/active/weapons/colors/tier6melee.weaponcolors",
 
-  "altAbilitySource" : "/items/active/weapons/melee/altabilities/spear/flurry/flurry.altability",
+  "altAbilityType" : "spearspin",
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

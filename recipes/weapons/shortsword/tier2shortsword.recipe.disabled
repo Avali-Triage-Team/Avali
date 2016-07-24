@@ -1,9 +1,0 @@
-/*
-{
-  "input" : [
-    { "item" : "tungstenbar", "count" : 12 }
-  ],
-  "output" : { "item" : "avalitier2shortsword", "count" : 1 },
-  "groups" : [ "craftinganvil2", "weapons", "all" ]
-}
-*/

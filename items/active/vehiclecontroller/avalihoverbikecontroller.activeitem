@@ -14,10 +14,11 @@
   "scripts" : ["vehiclecontroller.lua"],
   "animationScripts" : ["vehiclecursor.lua"],
   "filled" : true,
+  "tooltipKind" : "vehicle",
+  "largeImage" : "red.png",
 
   "respawnTime" : 1.0,
 
-  //=============Item specifc bits.
   "vehicleType" : "avalihoverbike",
   "vehicleBoundingBox" : [-5, -3, 5, 3],
   "vehicleImage" : "/vehicles/avalihoverbikewarp.png:warp.7",

@@ -83,6 +83,6 @@
   },
   "baseWeaponRotation" : 10,
   "palette" : "/items/active/weapons/colors/tier2melee.weaponcolors",
-  "altAbilitySource" : "/items/active/weapons/melee/altabilities/hammer/shockwave/physicalshockwave.altability",
+  "altAbilityType" : "physicalshockwave",
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }
