@@ -15,13 +15,13 @@
   "animationScripts" : ["vehiclecursor.lua"],
   "filled" : true,
   "tooltipKind" : "vehicle",
-  "largeImage" : "red.png",
+  "largeImage" : "white.png",
 
   "respawnTime" : 1.0,
 
   "vehicleType" : "avalihoverbike",
   "vehicleBoundingBox" : [-5, -3, 5, 3],
-  "vehicleImage" : "/vehicles/avalihoverbikewarp.png:warp.7",
+  "vehicleImage" : "/vehicles/hoverbike/avalihoverbikewarp.png:warp.7",
 
   "animationParts" : {
     "casing" : "avalihoverbikecontroller.png"

@@ -7,7 +7,13 @@
   "canBeHit" : true,
   "animation" : "avalihoverbike.animation",
 
+
   "animationCustom" : {
+
+    "globalTagDefaults" : {
+        "colour" : "white"
+      },
+
 
     "particleEmitters" : {
       "damageShards" : {
@@ -34,8 +40,6 @@
     }
   },
 
-  "scripts" : ["hoverbikecursor.lua"],
-
   "loungePositions" : {
     "drivingSeat" : {
       "part" : "foreground",
@@ -54,6 +58,8 @@
       "dance" : "typing"
     }
   },
+
+  "warpInDelay" : 1.0,
 
   "levelApproachFactor" : 0.01,
   "angleApproachFactor" : 0.025,
@@ -85,6 +91,7 @@
   "damageTakenEmote" : "oooh",
   "damageEmoteTime" : 2.0,
 
+
   "lightsInDamageState" : [
                           ["headlightBeam","dashboardGlow"],
                           ["headlightBeam","dashboardGlow"],
@@ -99,10 +106,10 @@
 
   //Damage visual effects
   "smokeParticleHealthThreshold" : 0.5,
-  "smokeRateAtZeroHealth" : 500,
+  "smokeRateAtZeroHealth" : 100,
 
   "fireParticleHealthThreshold" : 0.25,
-  "fireRateAtZeroHealth" : 120,
+  "fireRateAtZeroHealth" : 30,
 
   "onFireHealthThreshold" : 0.125,
   "damagePerSecondWhenOnFire" : 1.0,
