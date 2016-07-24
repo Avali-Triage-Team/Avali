@@ -4,5 +4,6 @@
   { "item" : "avalilightblock", "count" : 1 }
   ],
   "output" : { "item" : "avaliaerogellight", "count" : 1 },
+  "duration" : 0.1,
   "groups" : [ "lights", "avalilathe", "all" ]
 }

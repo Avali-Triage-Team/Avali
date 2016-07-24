@@ -2,7 +2,7 @@
   "itemName" : "avalimeat",
   "price" : 10,
   "rarity" : "Common",
-  "category" : "food",
+  "category" : "preparedFood",
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
   "inventoryIcon" : "avalimeat.png",
@@ -11,6 +11,7 @@
   "itemAgingScripts" : ["/scripts/items/rotting.lua"],
   "rottingMultiplier" : 1.0,
   "foodValue" : 95,
+  "maxStack" : 1,
   "blockingEffects" : [ "wellfed" ],
   "learnBlueprintsOnPickup" : [ "avalitaco" ]
 }

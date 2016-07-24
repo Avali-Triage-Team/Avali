@@ -8,6 +8,7 @@
   "objectType" : "farmable",
   "printable" : false,
   "price" : 300,
+  "radioMessagesOnPickup" : [ "pickupseed" ],
 
   "apexDescription" : "If I had to guess, I'd say these are like giant, air-breathing barnacles.",
   "avianDescription" : "They remind me a little of featherfronds.",
