@@ -1,8 +1,0 @@
-/*
-{
-  "input" : [
-    { "item" : "refinedferozium", "count" : 8 }
-  ],
-  "output" : { "item" : "avalitier6dagger", "count" : 1 },
-  "groups" : [ "craftingaccelerator", "weapons", "all" ]
-*/
