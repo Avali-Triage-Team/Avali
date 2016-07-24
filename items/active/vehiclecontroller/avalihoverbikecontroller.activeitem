@@ -4,13 +4,13 @@
   "price" : 12500,
   "rarity" : "rare",
   "category" : "vehicleController",
-  "description" : "Create a Avali hoverbike from stored nanites.",
+  "description" : "Create an Avali hoverbike from stored nanites.",
   "shortdescription" : "Avali Hoverbike Controller",
   "twoHanded" : true,
   "maxStack" : 1,
   "itemTags" : ["vehiclecontroller"],
 
-  "animation" : "avalivehiclecontroller.animation",
+  "animation" : "vehiclecontroller.animation",
   "scripts" : ["vehiclecontroller.lua"],
   "animationScripts" : ["vehiclecursor.lua"],
   "filled" : true,
@@ -30,5 +30,4 @@
   "inventoryIcon" : "avalihoverbikecontroller.png:full",
   "emptyInventoryIcon" : "/items/active/vehiclecontroller/avalihoverbikecontroller.png:empty",
   "filledInventoryIcon" : "/items/active/vehiclecontroller/avalihoverbikecontroller.png:full"
-
 }

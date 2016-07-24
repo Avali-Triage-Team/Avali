@@ -19,7 +19,7 @@
       "damageShards" : {
         "transformationGroups" : ["flip", "rotation"],
         "emissionRate" : 0.0,
-        "burstCount"  : 8,
+        "burstCount"  : 30,
         "offsetRegion" : [-3, -1.5, 3, 1],
         "particles" : [{ "particle" : "avalihoverbikeshard"},
                        { "particle" : "fireshard"}]
@@ -39,6 +39,7 @@
       }
     }
   },
+
 
   "loungePositions" : {
     "drivingSeat" : {
@@ -81,6 +82,13 @@
 
   "damageStateNames" : ["undamaged","scratched","dented","wrecked"],
 
+  "lightsInDamageState" : [
+                          ["headlightBeam","dashboardGlow"],
+                          ["headlightBeam","dashboardGlow"],
+                          ["headlightBeam","dashboardGlow"],
+                          ["headlightBeam"]
+                          ],
+
   "damageStatePassengerDances" : ["","","","panic"],
 
   "damageStateDriverEmotes" : ["happy","happy","sad","annoyed"],
@@ -91,14 +99,6 @@
   "damageTakenEmote" : "oooh",
   "damageEmoteTime" : 2.0,
 
-
-  "lightsInDamageState" : [
-                          ["headlightBeam","dashboardGlow"],
-                          ["headlightBeam","dashboardGlow"],
-                          ["headlightBeam","dashboardGlow"],
-                          ["headlightBeam"]
-                          ],
-
   "minNotificationCollisionAccel" : 15,
   "minDamageCollisionAccel" : 45,
   "terrainCollisionDamage" : 10,
@@ -106,10 +106,10 @@
 
   //Damage visual effects
   "smokeParticleHealthThreshold" : 0.5,
-  "smokeRateAtZeroHealth" : 100,
+  "smokeRateAtZeroHealth" : 500,
 
   "fireParticleHealthThreshold" : 0.25,
-  "fireRateAtZeroHealth" : 30,
+  "fireRateAtZeroHealth" : 120,
 
   "onFireHealthThreshold" : 0.125,
   "damagePerSecondWhenOnFire" : 1.0,

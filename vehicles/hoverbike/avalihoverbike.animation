@@ -12,14 +12,14 @@
         "states" : {
 
           "warpInPart1" : {
-            "image" : 4,  
+            "frames" : 4,
             "cycle" : 0.33,
             "mode" : "transition",
             "transition" : "warpInPart2"
             },
 
           "warpInPart2" : {
-            "image" : 4,  
+            "frames" : 4,  
             "cycle" : 0.33,
             "mode" : "transition",
             "transition" : "idle"
@@ -28,14 +28,14 @@
           "idle" : {},
 
           "warpOutPart1" : {
-            "image" : 4,  
+            "frames" : 4,  
             "cycle" : 0.33,
             "mode" : "transition",
             "transition" : "warpOutPart2"
             },
 
           "warpOutPart2" : {
-            "image" : 4,  
+            "frames" : 4,  
             "cycle" : 0.33,
             "mode" : "transition",
             "transition" : "invisible"
@@ -53,7 +53,7 @@
           "off" : {},
 
           "on" : {
-            "image" : 6,
+            "frames" : 6,
             "cycle" : 0.5,
             "mode" : "loop"
           }
@@ -67,7 +67,7 @@
           "off" : {},
 
           "on" : {
-            "image" : 1,
+            "frames" : 1,
             "cycle" : 0.125,
             "mode" : "loop"
           }
@@ -81,7 +81,7 @@
           "off" : {},
 
           "on" : {
-            "image" : 1,
+            "frames" : 1,
             "cycle" : 0.125,
             "mode" : "loop"
           }
@@ -457,8 +457,9 @@
 
     "hornLoop" : ["/sfx/tech/honk.ogg"],
     "headlightSwitchOn" : ["/sfx/objects/floodlights_on.ogg"],
-    "headlightSwitchOff" : ["/sfx/objects/floodlights_off.ogg"]
+    "headlightSwitchOff" : ["/sfx/objects/floodlights_off.ogg"],
 
-
+    "returnvehicle" : ["/sfx/tech/vehicle_disappear1.ogg"]
+    
   }
 }
