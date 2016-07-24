@@ -3,7 +3,7 @@
   "colonyTags" : [ "avali", "avalicamp", "cooking", "crafting" ], 
   "printable" : false,
   "price" : 105,
-  "rarity" : "Common",
+  "rarity" : "Uncommon",
   "category" : "crafting",
   "interactAction" : "OpenCraftingInterface",
   "interactData" : {
@@ -11,7 +11,7 @@
     "filter" : [ "craftingfood" ]
   },
   "description" : "This workstation has everything; cutting board, knife sharpening, waste disposal and tap!",
-  "shortdescription" : "Culinary Station",
+  "shortdescription" : "^orange;Culinary Station^white;",
   "race" : "generic",
 
   "apexDescription" : "Wait, does that food preparation station have its own fume hood?",
