@@ -3,5 +3,6 @@
     { "item" : "money", "count" : 50 }  
   ],
   "output" : { "item" : "avaliemblem", "count" : 1 },
+  "duration" : 0.1,
   "groups" : [ "objects", "avalilathe", "all" ]
 }

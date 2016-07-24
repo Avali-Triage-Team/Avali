@@ -2,7 +2,7 @@
   "itemName" : "avaliproduce2",
   "price" : 5,
   "rarity" : "Common",
-  "category" : "food",
+  "category" : "preparedFood",
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
   "inventoryIcon" : "avaliproduce2.png",

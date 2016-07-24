@@ -5,5 +5,6 @@
     { "item" : "ironblock", "count" : 1  }  
   ],
   "output" : { "item" : "avalichair2", "count" : 1 },
+  "duration" : 0.1,
   "groups" : [ "objects", "avalilathe", "all" ]
 }

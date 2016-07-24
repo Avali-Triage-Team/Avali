@@ -8,6 +8,7 @@
   "objectType" : "farmable",
   "printable" : false,
   "price" : 300,
+  "radioMessagesOnPickup" : [ "pickupseed" ],
 
   "apexDescription" : "I wonder what give it it's bioluminescence.",
   "avianDescription" : "This'd make an interesting nest.",
