@@ -1,10 +1,11 @@
 {
   "objectName" : "avalikitchenstove",
   "colonyTags" : [ "avali", "avalicamp", "cooking" ], 
+  "printable" : false,
+  "price" : 140,
   "rarity" : "Common",
   "objectType" : "container",
   "category" : "light",
-  "price" : 140,
   "retainObjectParametersInItem" : true, 
   "lightColor" : [64, 64, 64],
 
