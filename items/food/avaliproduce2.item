@@ -1,17 +1,10 @@
 {
   "itemName" : "avaliproduce2",
   "price" : 5,
+  "category" : "cookingIngredient",
   "rarity" : "Common",
-  "category" : "preparedFood",
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
   "inventoryIcon" : "avaliproduce2.png",
   "description" : "The spicy bark of the Nakati plant. Usually ground up before use.",
   "shortdescription" : "Nakati Bark",
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "rottingMultiplier" : 1.0,
-  "foodValue" : 10,
-  "blockingEffects" : [ "wellfed" ],
-  "maxStack" : 100,
   "learnBlueprintsOnPickup" : [ "avalimeat" ]
 }
