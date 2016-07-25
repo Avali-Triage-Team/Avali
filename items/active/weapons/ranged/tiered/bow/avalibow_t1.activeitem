@@ -21,7 +21,7 @@
   },
   "animationCustom" : {
     "animatedParts" : { "parts" : { "bow" : { "properties" : {
-      "offset" : [0.25, 0]
+      "offset" : [-0.5, 0]
     }}}},
     "sounds" : {
       "draw" : [ "/sfx/gun/bow_draw1.ogg", "/sfx/gun/bow_draw2.ogg", "/sfx/gun/bow_draw3.ogg" ],
