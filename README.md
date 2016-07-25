@@ -24,6 +24,7 @@ Please test your additions before you make the pull request.
 Head over to github.com/Fevix/Avali and click the button labeled "Fork" in the upper right. 
 
 Once that's done, download and install GitKraken (GitHub has its own desktop application, but it's confusing, GitKraken is a LOT less confusing)
+
 1. Run GitKraken, and just keep clicking next. Once you're through with the 'tutorial' that IMHO doesn't explain enough: 
 2. Click the gear in the upper right
 3. Click Authentication, then "Github.com"
