@@ -41,13 +41,13 @@
     "path":"/welcome/avali",
     "value":{  
       "default":[  
-        "Does anything raptorch your eyes?",
+        "Does anything catch your eyes?",
         "What you wish to buy? If you wish to buy...",
         "I got everything that can help you in anything."
       ]
     }
   },
-  {  
+  /*{  
     "op":"add",
     "path":"/helpme/avali",
     "value":{  
@@ -91,7 +91,7 @@
       "That was close..."
       ]
     }
-  },
+  },*/
   {  
     "op":"add",
     "path":"/tout/avali",
