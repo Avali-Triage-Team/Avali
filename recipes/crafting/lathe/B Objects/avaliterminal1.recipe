@@ -6,5 +6,5 @@
   ],
   "output" : { "item" : "avaliterminal1", "count" : 1 },
   "duration" : 0.1,
-  "groups" : [ "objects", "avalilathe", "all" ]
+  "groups" : [ "wirings", "avalilathe", "all" ]
 }

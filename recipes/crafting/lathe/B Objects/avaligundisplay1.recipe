@@ -5,5 +5,5 @@
   ],
   "output" : { "item" : "avaligundisplay1", "count" : 1 },
   "duration" : 0.1,
-  "groups" : [ "objects", "avalidisplayapparatus", "all" ]
+  "groups" : [ "decoration", "avalidisplayapparatus", "all" ]
 }

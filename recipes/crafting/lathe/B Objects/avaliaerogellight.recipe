@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "aerogel", "count" : 2  },
-  { "item" : "avalilightblock", "count" : 1 }
+	{ "item" : "avalilightpanel", "count" : 1 }
   ],
   "output" : { "item" : "avaliaerogellight", "count" : 1 },
   "duration" : 0.1,

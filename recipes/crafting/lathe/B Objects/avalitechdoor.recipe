@@ -5,5 +5,5 @@
   ],
   "output" : { "item" : "avalitechdoor", "count" : 1 },
   "duration" : 0.1,
-  "groups" : [ "objects", "avalilathe", "all" ]
+  "groups" : [ "doors", "avalilathe", "all" ]
 }
