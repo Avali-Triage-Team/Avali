@@ -1,9 +1,9 @@
 {
   "input" : [
     { "item" : "mediummetal", "count" : 5  },
-    { "item" : "nanostove", "count" : 1  }  
+    { "item" : "campfire", "count" : 1  }  
   ],
   "output" : { "item" : "avalikitchenstove", "count" : 1 },
   "duration" : 0.1,
-  "groups" : [ "objects", "avalilathe", "all" ]
+  "groups" : [ "craftingstations", "avalilathe", "all" ]
 }

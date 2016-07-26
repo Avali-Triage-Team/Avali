@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "category" : "headwear",
   "description" : "^green;Avali, Head Slot. ^white; Featuring wide-spectrum sensor arrays for avoiding hazards or locating creatures",
-  "shortdescription" : "Hazardous Environment Helmet",
+  "shortdescription" : "HEV Helmet",
   "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",

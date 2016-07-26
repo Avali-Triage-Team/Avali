@@ -5,5 +5,5 @@
   ],
   "output" : { "item" : "avalikitchenfridge", "count" : 1 },
   "duration" : 0.1,
-  "groups" : [ "objects", "avalilathe", "all" ]
+  "groups" : [ "storage", "avalilathe", "all" ]
 }
