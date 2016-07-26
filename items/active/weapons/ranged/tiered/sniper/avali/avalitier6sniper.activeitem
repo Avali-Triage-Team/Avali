@@ -76,7 +76,7 @@
     }
   },
 
-  "altAbilitySource" : "/items/active/weapons/ranged/abilities/grenadelauncher/grenadelauncher.altability",
+  "altAbilityType" : "grenadelauncher",
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }
