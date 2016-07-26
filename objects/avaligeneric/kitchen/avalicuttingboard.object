@@ -8,7 +8,7 @@
   "interactAction" : "OpenCraftingInterface",
   "interactData" : {
     "config" : "/interface/windowconfig/craftingfood.config",
-    "filter" : [ "craftingfood" ]
+    "filter" : [ "craftingfood", "kitchen" ]
   },
   "description" : "This workstation has everything; cutting board, knife sharpening, waste disposal and tap!",
   "shortdescription" : "^orange;Culinary Station^white;",
