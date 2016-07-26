@@ -1,7 +1,10 @@
 {
   "input" : [
-    { "item" : "refinedaegisalt", "count" : 6 }
+    { "item" : "refinedaegisalt", "count" : 6 },
+    { "item" : "leather", "count" : 1 },
+    { "item" : "syntheticmaterial", "count" : 1 }
   ],
+  "duration" : 5,
   "output" : { "item" : "avalitier5ahead", "count" : 1 },
-  "groups" : [ "acceleratortable", "armors", "all" ]
+  "groups" : [ "craftingaccelerator", "armours", "all" ]
 }

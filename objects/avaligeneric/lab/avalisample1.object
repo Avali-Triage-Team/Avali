@@ -8,14 +8,13 @@
   "description" : "An empty lab container, for containing lab... stuff.",
   "shortdescription" : "Empty Specimen Jar",
   "race" : "avali",
-
-  "apexDescription" : "This is nothing like the standardised desks the Miniknog supply us with.",
-  "avianDescription" : "Is it a shelf, is a table, who can judge?",
-  "floranDescription" : "This bed is ssssssstupid, it's hard as a table top.",
-  "glitchDescription" : "Observation. This self is grossly over-engineered",
-  "humanDescription" : "Looks more like a gurney than a table. Why is Avali stuff always so, functional?",
-  "hylotlDescription" : "I wouldn't keep a moth-eaten book on this unit.",
-  "avaliDescription" : "It's a shelf... or maybe a table. Honestly it's just something to place your shinies on.", 
+  "apexDescription" : "An empty jar, filled with a fluid that prevents decay.",
+  "avianDescription" : " I wonder if I should keep my eggs in here.",
+  "floranDescription" : "Dirty water, not for drinksss",
+  "glitchDescription" : "Observation. Formaldehyde in a jar, for preservation of organic items.",
+  "humanDescription" : "Looks like a more colorful version of the lab jars back home.",
+  "hylotlDescription" : "Well, I suppose the color is pleasing.",
+  "avaliDescription" : "Generic jar, generic formaldehyde. I'm getting bored looking at this.", 
 
   "inventoryIcon" : "avalisample1.png",
   "orientations" : [

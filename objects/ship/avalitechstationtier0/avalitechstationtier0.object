@@ -2,11 +2,11 @@
   "objectName" : "avalitechstationTier0",
   "colonyTags" : ["avali"],
   "rarity" : "Common",
+  "printable" : false,
 
   "interactAction" : "OpenAiInterface",
 
   "category" : "decorative",
-  "price" : 2500,
   "lightColor" : [128, 77, 77],
   "lightPosition" : [-1, 0],
   
@@ -24,6 +24,7 @@
   "glitchDescription" : "Admiration. An extremely advanced tech station.",
   "humanDescription" : "A tech station. I can create awesome stuff here!",
   "hylotlDescription" : "This tech station looks decent enough.",
+  "novakidDescription" : "Time to reboot this station so I can talk to SAIL.",
 
   "inventoryIcon" : "avalitechstationTier0icon.png",
   "orientations" : [

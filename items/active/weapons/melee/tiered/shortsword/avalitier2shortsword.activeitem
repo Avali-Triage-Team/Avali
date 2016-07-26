@@ -1,0 +1,51 @@
+{
+  "itemName": "avalitier2shortsword",
+  "price": 150,
+  "level": 2,
+  "maxStack": 1,
+  "rarity": "common",
+  "description": "The 'Shard' class vibroblade is more popular among colonists, martial arts enthusiasts and comic-book nerds than actual soldiers and hunters.",
+  "shortdescription": "VB2 Shard",
+  "tooltipKind": "sword",
+  "category": "shortsword",
+  "inventoryIcon": "avalitier2shortsword.png",
+  "animation": "/items/active/weapons/melee/shortsword/comboshortsword.animation",
+  "animationParts": {
+    "handle": "",
+    "blade": "avalitier2shortsword.png"
+  },
+  "animationCustom": {
+    "animatedParts": {
+      "parts": {
+        "blade": {
+          "properties": {
+            "offset": [
+              -0.375,
+              0
+            ]
+          }
+        },
+        "swoosh": {
+          "properties": {
+            "offset": [
+              2.75,
+              -2
+            ]
+          }
+        }
+      }
+    }
+  },
+  "scripts": [
+    "/items/active/weapons/melee/meleeweapon.lua"
+  ],
+  "elementalType": "physical",
+  "primaryAbilityType": "shortswordcombo",
+  "primaryAbility": {
+    "fireTime": 0.625,
+    "baseDps": 10.125
+  },
+  "baseWeaponRotation" : 20,
+  "palette" : "/items/active/weapons/colors/tier2melee.weaponcolors",
+  "builder": "/items/buildscripts/buildunrandweapon.lua"
+}

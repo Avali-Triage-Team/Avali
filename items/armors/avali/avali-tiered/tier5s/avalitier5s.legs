@@ -4,6 +4,7 @@
   "maxStack" : 1,
   "price" : 300,
   "rarity" : "Rare",
+  "category" : "legarmour",
   "description" : "Violium armoured plates inserted into Avali armour. Equip these in your armour slots, and place your clothing or armour in the vanity slots.",
   "shortdescription" : "Violium Leg Inserts",
   "tooltipKind" : "armor",
@@ -11,26 +12,31 @@
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",
 
-  "statusEffects" : [
+  "level" : 5,
+  "leveledStatusEffects" : [
     {
+      "levelFunction" : "separatorArmorLevelPowerMultiplierMultiplier",
       "stat" : "powerMultiplier",
-      "amount" : 0.5
+      "baseMultiplier" : 1.1
     },
     {
+      "levelFunction" : "separatorArmorLevelProtectionMultiplier",
       "stat" : "protection",
-      "amount" : 15
+      "amount" : 0.2
     },
     {
+      "levelFunction" : "separatorArmorLevelMaxEnergyMultiplier",
       "stat" : "maxEnergy",
-      "amount" : 24
+      "amount" : 2
     },
     {
+      "levelFunction" : "separatorArmorLevelMaxHealthMultiplier",
       "stat" : "maxHealth",
-      "amount" : 14
+      "amount" : 2
     }
   ],
 
-  "itemTags" : [ "tier5armor" ],
+  "itemTags" : [ "tier5armour" ],
 
   "colorOptions" : [
     /* PURPLE */

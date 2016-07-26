@@ -1,0 +1,7 @@
+{
+  "input" : [
+  { "item" : "aviantier1head", "count" : 1 }
+  ],
+  "output" : { "item" : "avaliaviantier1head", "count" : 1 },
+  "groups" : [ "avaliloom", "armors", "head" ]
+}

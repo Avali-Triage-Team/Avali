@@ -4,6 +4,7 @@
   "maxStack" : 1,
   "price" : 105,
   "rarity" : "Common",
+  "category" : "headwear",
   "description" : "^green;Avali, Head Slot. ^white; A lightweight headset HUD popular amongst explorers.",
   "shortdescription" : "Scout's HUD",
   "tooltipKind" : "armor",
@@ -11,21 +12,6 @@
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",
   "mask" : "mask.png",
-
-  "statusEffects" : [
-    {
-      "stat" : "powerMultiplier",
-      "baseMultiplier" : 0.95
-    },
-    {
-      "stat" : "protection",
-      "amount" : 1
-    },
-    {
-      "stat" : "maxHealth",
-      "amount" : 1
-    }
-  ],
 
   "colorOptions" : [
     /* WHITE */

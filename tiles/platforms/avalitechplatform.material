@@ -1,7 +1,7 @@
 {
   "materialId" : 12519,
   "materialName" : "avalitechplatform",
-  "platform" : true,
+  "collisionKind" : "platform",
   "transparent" : true,
   "itemDrop" : "avalitechplatform",
   "shortdescription" : "Avali Platform",

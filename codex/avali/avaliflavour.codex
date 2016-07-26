@@ -1,0 +1,17 @@
+{
+  "id" : "avaliflavour",
+  "species" : "avali",
+  "title" : "INTERCEPT #37821",
+  "description" : "INTERCEPT #37821.",
+  "icon" : "avalitoken.png",
+  "contentPages" : [
+
+    "<todo> - Blurb about how your character intercepted a transmission from a tech cult splinter cell planning to unschackle the Oracle AI"
+
+
+    ],
+    "itemConfig" : {
+    "rarity" : "common",
+    "price" : 25
+	}
+}

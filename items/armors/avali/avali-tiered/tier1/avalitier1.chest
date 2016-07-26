@@ -4,6 +4,7 @@
   "maxStack" : 1,
   "price" : 100,
   "rarity" : "Common",
+  "category" : "chestarmour",
   "description" : "Iron armoured plates inserted into Avali armour. Equip these in your armour slots, and place your clothing or armour in the vanity slots.",
   "shortdescription" : "Iron Vest Insert",
   "tooltipKind" : "armor",
@@ -20,25 +21,31 @@
     "frontSleeve" : "fsleeve.png"
   },
 
-  "statusEffects" : [
+  "level" : 1,
+  "leveledStatusEffects" : [
     {
+      "levelFunction" : "standardArmorLevelPowerMultiplierMultiplier",
       "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.25
+    },
+    {
+      "levelFunction" : "standardArmorLevelProtectionMultiplier",
+      "stat" : "protection",
       "amount" : 0.5
     },
     {
-      "stat" : "protection",
+      "levelFunction" : "standardArmorLevelMaxEnergyMultiplier",
+      "stat" : "maxEnergy",
       "amount" : 5
     },
     {
-      "stat" : "maxEnergy",
-      "amount" : 20
-    },
-    {
+      "levelFunction" : "standardArmorLevelMaxHealthMultiplier",
       "stat" : "maxHealth",
       "amount" : 5
     }
   ],
 
+  "itemTags" : [ "tier1armour" ],
 
   "colorOptions" : [
     /* GREY */

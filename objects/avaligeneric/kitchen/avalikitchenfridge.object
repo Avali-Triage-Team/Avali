@@ -12,13 +12,13 @@
   "shortdescription" : "Refrigeration Cabinet",
   "race" : "generic",
 
-  "apexDescription" : "Looking at the controls, I suspect this doubles as storage too",
-  "avianDescription" : "I think it's warmer inside this thing than outside",
-  "floranDescription" : "Cold and dark box, florans hates it.",
+  "apexDescription" : "Looking at the controls, I suspect this doubles as storage too.",
+  "avianDescription" : "I think it's warmer inside this thing than outside.",
+  "floranDescription" : "Cold and dark box, floran hatesss it.",
   "glitchDescription" : "Reflective. Glitch food needs to be kept from rusting instead of rotting.",
-  "humanDescription" : "Well, this undermines the expression 'like selling ice to an Avali'",
+  "humanDescription" : "Well, this undermines the expression 'like selling ice to an Avali'.",
   "hylotlDescription" : "I'm most disappointed this isn't a drinks cabinet.",
-  "avaliDescription" : "These cabinets can have their humidity and temperature set for optimum preservation",
+  "avaliDescription" : "These cabinets can have their humidity and temperature set for optimum preservation.",
 
   "inventoryIcon" : "avalikitchenfridgeicon.png",
   "orientations" : [
@@ -38,7 +38,7 @@
   "openSounds" : [ "/sfx/objects/fridge_open.ogg" ],
   "closeSounds" : [ "/sfx/objects/fridge_close.ogg" ],
   "slotCount" : 16,
-  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "uiConfig" : "/interface/chests/chest<slots>.config",
   "frameCooldown" : 67,
   "autoCloseCooldown" : 3600
 }

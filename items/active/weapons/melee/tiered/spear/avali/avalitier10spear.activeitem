@@ -13,9 +13,10 @@
 
   "inventoryIcon" : "avalitier10spear.png",
 
-  "animation" : "/items/active/weapons/melee/spear/tieredspear.animation",
+  "animation" : "/items/active/weapons/melee/spear/spear.animation",
   "animationParts" : {
-    "blade" : "/items/active/weapons/melee/tiered/spear/avali/avalitier10spear.png"
+    "handle" : "",
+    "blade": "/items/active/weapons/melee/tiered/spear/avali/avalitier10spear.png"
   },
   "animationCustom" : {
     "sounds" : {
@@ -23,12 +24,13 @@
     }
   },
 
-  "scripts" : ["/items/active/weapons/melee/spear/spear.lua"],
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
 
   "elementalType" : "physical",
 
   "aimOffset" : -1.0,
-  "primaryAttack" : {
+  "primaryAbilityType" : "spearstab",
+  "primaryAbility" : {
     "fireTime" : 0.9,
     "baseDps" : 11.11,
     "damageConfig" : {
@@ -36,16 +38,8 @@
       "statusEffects" : [ ],
       "knockbackMode" : "aim",
       "knockback" : 30,
-      "timeoutGroup" : "primary"
-    },
-    "holdDamageMultiplier" : 0.1,
-    "holdDamageConfig" : {
-      "timeoutGroup" : "hold",
-      "timeout" : 0.5
-    }
-  },
-
-  "stances" : {
+"timeoutGroup" : "primary",
+       "stances" : {
     "idle" : {
       "armRotation" : -90,
       "weaponRotation" : 0,
@@ -84,11 +78,19 @@
       "allowRotate" : true,
       "allowFlip" : true
     }
+  }
+
+    },
+    "holdDamageMultiplier" : 0.1,
+    "holdDamageConfig" : {
+      "timeoutGroup" : "hold",
+      "timeout" : 0.5
+    }
   },
 
   "palette" : "/items/active/weapons/colors/tier10melee.weaponcolors",
 
-  "altAbilitySource" : "/items/active/weapons/melee/altabilities/spear/flurry/flurry.altability",
+  "altAbilityType" : "spearspin",
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

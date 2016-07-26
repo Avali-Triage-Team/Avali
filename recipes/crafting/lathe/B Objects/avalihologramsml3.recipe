@@ -3,5 +3,6 @@
     { "item" : "money", "count" : 20  }  
   ],
   "output" : { "item" : "avalihologramsml3", "count" : 1 },
-  "groups" : [ "objects", "avalilathe", "all" ]
+  "duration" : 0.1,
+  "groups" : [ "decoration", "avalilathe", "all" ]
 }

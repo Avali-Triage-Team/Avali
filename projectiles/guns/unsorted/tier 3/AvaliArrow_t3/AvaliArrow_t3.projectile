@@ -5,7 +5,7 @@
   "level" : 7,
   "damageKindImage" : "icon.png",
   "timeToLive" : 30,
-  "frames" : "AvaliArrow_t3.png",
+  "image" : "AvaliArrow_t3.png",
   "animationCycle" : 0.25,
   "frameNumber" : 1,
   "power" : 800,

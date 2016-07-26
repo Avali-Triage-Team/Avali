@@ -4,28 +4,14 @@
   "maxStack" : 1,
   "price" : 200,
   "rarity" : "Common",
+  "category" : "headwear",
   "description" : "^green;Avali, Head Slot. ^white; Featuring wide-spectrum sensor arrays for avoiding hazards or locating creatures",
-  "shortdescription" : "Hazardous Environment Helmet",
+  "shortdescription" : "HEV Helmet",
   "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",
   "mask" : "mask.png",
-
-  "statusEffects" : [
-    {
-      "stat" : "powerMultiplier",
-      "baseMultiplier" : 0.95
-    },
-    {
-      "stat" : "protection",
-      "amount" : 1
-    },
-    {
-      "stat" : "maxHealth",
-      "amount" : 1
-    }
-  ],
 
   "colorOptions" : [
     /* WHITE */

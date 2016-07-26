@@ -1,7 +1,9 @@
 {
   "input" : [
-    { "item" : "refinedrubium", "count" : 6 }
+    { "item" : "refinedferozium", "count" : 6 },
+    { "item" : "silk", "count" : 1 }
   ],
+  "duration" : 5,
   "output" : { "item" : "avalitier5mhead", "count" : 1 },
-  "groups" : [ "manipulatortable", "armors", "all" ]
+  "groups" : [ "craftingmanipulator", "armours", "all" ]
 }

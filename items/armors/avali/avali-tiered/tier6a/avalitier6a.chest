@@ -4,6 +4,7 @@
   "maxStack" : 1,
   "price" : 400,
   "rarity" : "Legendary",
+  "category" : "chestarmour",
   "description" : "Ferozium armoured plates inserted into Avali armour. Equip these in your armour slots, and place your clothing or armour in the vanity slots.",
   "shortdescription" : "Ferozium Vest Insert",
   "tooltipKind" : "armor",
@@ -20,24 +21,31 @@
     "frontSleeve" : "fsleeve.png"
   },
 
-  "statusEffects" : [
+  "level" : 6,
+  "leveledStatusEffects" : [
     {
+      "levelFunction" : "acceleratorArmorLevelPowerMultiplierMultiplier",
       "stat" : "powerMultiplier",
-      "amount" : 1.75
+      "baseMultiplier" : 1.25
     },
     {
+      "levelFunction" : "acceleratorArmorLevelProtectionMultiplier",
       "stat" : "protection",
-      "amount" : 39
+      "amount" : 0.5
     },
     {
+      "levelFunction" : "acceleratorArmorLevelMaxEnergyMultiplier",
       "stat" : "maxEnergy",
-      "amount" : 120
+      "amount" : 5
     },
     {
+      "levelFunction" : "acceleratorArmorLevelMaxHealthMultiplier",
       "stat" : "maxHealth",
-      "amount" : 30
+      "amount" : 5
     }
   ],
+
+  "itemTags" : [ "tier6armour" ],
 
   "colorOptions" : [
     /* TEAL */

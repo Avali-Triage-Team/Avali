@@ -2,12 +2,13 @@
   "objectName" : "avaliplant3",
   "colonyTags" : [ "nature" ], 
   "rarity" : "Common",
-  "category" : "farmable",
+  "category" : "seed",
   "description" : "Small, barnacle-like colonies which grow long frond-like feeding filaments.",
   "shortdescription" : "Piru Colony",
   "objectType" : "farmable",
   "printable" : false,
   "price" : 300,
+  "radioMessagesOnPickup" : [ "pickupseed" ],
 
   "apexDescription" : "If I had to guess, I'd say these are like giant, air-breathing barnacles.",
   "avianDescription" : "They remind me a little of featherfronds.",
@@ -42,5 +43,7 @@
       "alts" : 5,
       "harvestPool" : "piruHarvest"
     }
-  ]
+  ],
+
+  "maxImmersion" : 0.125
 }

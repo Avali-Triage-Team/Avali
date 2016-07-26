@@ -4,6 +4,7 @@
   "maxStack" : 1,
   "price" : 400,
   "rarity" : "Legendary",
+  "category" : "headarmour",
   "description" : "Impervium armoured plates inserted into Avali armour. Equip these in your armour slots, and place your clothing or armour in the vanity slots.",
   "shortdescription" : "Impervium Helmet Insert",
   "tooltipKind" : "armor",
@@ -12,27 +13,31 @@
   "femaleFrames" : "head.png",
   "mask" : "mask.png",
 
-  "statusEffects" : [
+  "level" : 6,
+  "leveledStatusEffects" : [
     {
+      "levelFunction" : "manipulatorArmorLevelPowerMultiplierMultiplier",
       "stat" : "powerMultiplier",
-      "amount" : 0.85
+      "baseMultiplier" : 1.15
     },
-
     {
+      "levelFunction" : "manipulatorArmorLevelProtectionMultiplier",
       "stat" : "protection",
-      "amount" : 24
+      "amount" : 0.3
     },
-
     {
+      "levelFunction" : "manipulatorArmorLevelMaxEnergyMultiplier",
       "stat" : "maxEnergy",
-      "amount" : 48
+      "amount" : 3
     },
-
     {
+      "levelFunction" : "manipulatorArmorLevelMaxHealthMultiplier",
       "stat" : "maxHealth",
-      "amount" : 24
+      "amount" : 3
     }
   ],
+
+  "itemTags" : [ "tier6armour" ],
 
   "colorOptions" : [
     /* BLACK */

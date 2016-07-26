@@ -4,6 +4,7 @@
   "maxStack" : 1,
   "price" : 100,
   "rarity" : "Common",
+  "category" : "headwear",
   "description" : "A light iron circlet worn by Avian priesthood initiates...just blend in!",
   "shortdescription" : "Raptor-Hatchling's Circlet",
   "inspectionstat" : "armor",
@@ -11,21 +12,6 @@
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",
   "mask" : "mask.png",
-
-  "statusEffects" : [
-    {
-      "stat" : "powerMultiplier",
-      "baseMultiplier" : 0.95
-    },
-    {
-      "stat" : "protection",
-      "amount" : 1
-    },
-    {
-      "stat" : "maxHealth",
-      "amount" : 1
-    }
-  ],
 
   "colorOptions" : [
     /* GREY */

@@ -32,22 +32,15 @@
 
   "elementalType" : "physical",
 
-  "primaryAttack" : {
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
     "fireTime" : 1.0,
     "baseDps" : 4.5,
     "energyUsage" : 13.5,
     "projectileCount" : 1,
-    "inaccuracy" : 0.025,
-
-    "fireType" : "auto",
-
-    "projectileType" : "railgun1",
-    "projectileParameters" : { 
-      "knockback" : 6
-    }
-  },
-
-  "stances" : {
+"inaccuracy" : 0.025,
+      "stances" : {
     "idle" : {
       "armRotation" : 0,
       "weaponRotation" : 0,
@@ -73,6 +66,14 @@
 
       "allowRotate" : false,
       "allowFlip" : false
+    }
+  },
+
+    "fireType" : "auto",
+
+    "projectileType" : "railgun1",
+    "projectileParameters" : { 
+      "knockback" : 6
     }
   },
 

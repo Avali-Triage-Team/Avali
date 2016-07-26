@@ -4,36 +4,39 @@
   "maxStack" : 1,
   "price" : 300,
   "rarity" : "Rare",
+  "category" : "legarmour",
   "description" : "Aegisalt armoured plates inserted into Avali armour. Equip these in your armour slots, and place your clothing or armour in the vanity slots.",
   "shortdescription" : "Aegisalt Leg Inserts",
   "tooltipKind" : "armor",
 
-  "maleFrames" : "pantsm.png",
-  "femaleFrames" : "pantsf.png",
+  "maleFrames" : "pants.png",
+  "femaleFrames" : "pants.png",
 
-  "statusEffects" : [
+  "level" : 5,
+  "leveledStatusEffects" : [
     {
+      "levelFunction" : "acceleratorArmorLevelPowerMultiplierMultiplier",
       "stat" : "powerMultiplier",
-      "amount" : 0.6
+      "baseMultiplier" : 1.1
     },
-
     {
+      "levelFunction" : "acceleratorArmorLevelProtectionMultiplier",
       "stat" : "protection",
-      "amount" : 14
+      "amount" : 0.2
     },
-
     {
+      "levelFunction" : "acceleratorArmorLevelMaxEnergyMultiplier",
       "stat" : "maxEnergy",
-      "amount" : 40
+      "amount" : 2
     },
-
     {
+      "levelFunction" : "acceleratorArmorLevelMaxHealthMultiplier",
       "stat" : "maxHealth",
-      "amount" : 10
+      "amount" : 2
     }
   ],
 
-  "itemTags" : [ "tier5armor" ],
+  "itemTags" : [ "tier5armour" ],
 
   "colorOptions" : [
     /* LIME GREEN */

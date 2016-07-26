@@ -1,6 +1,7 @@
 {
   "objectName" : "avalishiplocker",
   "colonyTags" : ["avali", "storage"],
+  "printable" : false,
   "rarity" : "Common",
   "objectType" : "container",
   "tooltipKind" : "container",
@@ -17,6 +18,7 @@
   "glitchDescription" : "Indifferent. Avian storage locker.",
   "humanDescription" : "An Avali storage hatch.",
   "hylotlDescription" : "Storage.",
+  "novakidDescription" : "A locker, for puttin' things in.",
 
   "inventoryIcon" : "shiplockericon.png",
   "orientations" : [
@@ -33,7 +35,7 @@
   "openSounds" : [ "/sfx/objects/chest_small_open.ogg" ],
   "closeSounds" : [ "/sfx/objects/chest_small_close.ogg" ],
   "slotCount" : 64,
-  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "uiConfig" : "/interface/chests/chest<slots>.config",
   "frameCooldown" : 11,
   "autoCloseCooldown" : 3600
 }

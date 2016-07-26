@@ -1,8 +1,9 @@
 {
   "input" : [
     { "item" : "mediummetal", "count" : 6  },
-    { "item" : "circuitboard", "count" : 1  }  
+    { "item" : "siliconboard", "count" : 1  }  
   ],
   "output" : { "item" : "avalitechverticaldoor", "count" : 1 },
-  "groups" : [ "objects", "avalilathe", "all" ]
+  "duration" : 0.1,
+  "groups" : [ "doors", "avalilathe", "all" ]
 }

@@ -50,7 +50,7 @@
     "def" : [ "image", [ "avalitradingcaravan.png", "avalitradingcaravan-objects.png" ] ]
   } },
   { "op" : "add", "path" : "/parts/-", "value" : {
-    "name" : "avalicamp", "rules" : [ ],
+    "name" : "avalibanditcamp", "rules" : [ ],
     "def" : [ "image", [ "avalibanditcamp.png", "avalibanditcamp-objects.png" ] ]
   } }
 ]

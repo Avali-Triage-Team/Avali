@@ -1,7 +1,9 @@
 {
   "input" : [
-    { "item" : "ceruliumcompound", "count" : 6 }
+    { "item" : "solariumstar", "count" : 12 },
+    { "item" : "avalitier5mhead", "count" : 1 }
   ],
+  "duration" : 5,
   "output" : { "item" : "avalitier6mhead", "count" : 1 },
-  "groups" : [ "manipulatortable", "armors", "all" ]
+  "groups" : [ "craftingmanipulator", "armours", "all" ]
 }

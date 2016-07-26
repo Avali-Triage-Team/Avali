@@ -10,75 +10,45 @@
   "weaponType" : "Broadsword",
   "twoHanded" : true,
   "itemTags" : ["weapon","melee","broadsword"],
-
   "inventoryIcon" : "avalitier1broadsword.png",
-
-  "animation" : "/items/active/weapons/melee/broadsword/tieredbroadsword.animation",
+  "animation" : "/items/active/weapons/melee/broadsword/combobroadsword.animation",
   "animationParts" : {
-    "sword" : "/items/active/weapons/melee/tiered/broadsword/avali/avalitier1broadsword.png"
-  },
+    "blade" : "/items/active/weapons/melee/tiered/broadsword/avali/avalitier1broadsword.png",
+    "handle" : "",
+    "swoosh" : "/swoosh/avalibswordswoosh/avalibswordswoosh.png"
+  }, 
   "animationCustom" : {
+    "animatedParts": {
+      "parts": {
+        "blade": {
+          "properties": {
+            "offset": [
+              0.5,
+              2.25
+            ]
+          }
+        }
+      }
+    },
     "sounds" : {
       "fire" : [ "/sfx/melee/swing_broadsword.ogg" ]
     }
   },
-
   "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
-
   "elementalType" : "physical",
-
-  "primaryAttack" : {
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility"  : {
     "fireTime" : 0.83,
     "baseDps" : 11.25,
     "damageConfig" : {
       "damageSourceKind" : "broadsword",
-      "statusEffects" : [ ],
       "knockback" : 20,
       "knockbackMode" : "facing",
       "timeoutGroup" : "primary"
     }
   },
-
   "baseWeaponRotation" : 10,
-  "stances" : {
-    "idle" : {
-      "armRotation" : -90,
-      "weaponRotation" : -10,
-      "allowRotate" : false,
-      "allowFlip" : true
-    },
-    "windup" : {
-      "duration" : 0.1,
-      "armRotation" : 90,
-      "weaponRotation" : -10,
-      "twoHanded" : true,
-
-      "allowRotate" : false,
-      "allowFlip" : true
-    },
-    "preslash" : {
-      "duration" : 0.025,
-      "armRotation" : 55,
-      "weaponRotation" : -45,
-      "twoHanded" : true,
-
-      "allowRotate" : false,
-      "allowFlip" : false
-    },
-    "fire" : {
-      "duration" : 0.4,
-      "armRotation" : -45,
-      "weaponRotation" : -55,
-      "twoHanded" : true,
-
-      "allowRotate" : false,
-      "allowFlip" : false
-    }
-  },
-
   "palette" : "/items/active/weapons/colors/tier1melee.weaponcolors",
-
-  "altAbilitySource" : "/items/active/weapons/melee/altabilities/broadsword/spinslash/spinslash.altability",
-
+  "altAbilityType" : "spinslash",
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

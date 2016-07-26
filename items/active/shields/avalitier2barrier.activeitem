@@ -3,7 +3,8 @@
   "level" : 1,
   "price" : 200,
   "maxStack" : 1,
-  "rarity" : "legendary",
+  "rarity" : "Uncommon",
+  "category" : "shield",
   "description" : "Protects the user from a programmed amount of damage.",
   "shortdescription" : "Scout's Shield",
   "tooltipKind" : "shield",
@@ -30,11 +31,13 @@
   "minActiveTime" : 0.2,
 
   "forceWalk" : true,
-  "baseShieldHealth" : 150.0,
+  "baseShieldHealth" : 45,
   "cooldownTime" : 0.45,
 
   "perfectBlockDirectives" : "?border=2;AACCFFFF;00000000",
   "perfectBlockTime" : 0.2,
+  
+  "knockback" : 10,
   
   "stances" : {
     "idle" : {

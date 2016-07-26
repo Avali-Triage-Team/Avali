@@ -1,7 +1,10 @@
 {
   "input" : [
-    { "item" : "durasteelbar", "count" : 10 }
+    { "item" : "durasteelbar", "count" : 10 },
+    { "item" : "leather", "count" : 3 },
+    { "item" : "silk", "count" : 1 }
   ],
+  "duration" : 5,
   "output" : { "item" : "avalitier4chest", "count" : 1 },
-  "groups" : [ "scifianvil", "armors", "all" ]
+  "groups" : [ "craftinganvil3", "armours", "all" ]
 }

@@ -1,6 +1,6 @@
 {
   "projectileName" : "railgunbnc",
-  "frames" : "railgunbnc.png",
+  "image" : "railgunbnc.png",
   "animationCycle" : 0.25,
   "frameNumber" : 1,
   "damageKindImage" : "icon.png",

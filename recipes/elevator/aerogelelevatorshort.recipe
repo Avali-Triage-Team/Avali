@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "aerogel", "count" : 8 },
+    { "item" : "ironbar", "count" : 8 }
+  ],
+  "output" : {
+    "item" : "aerogelelevatorshort",
+    "count" : 1
+  },
+  "groups" : [ "avalilathe", "objects", "all" ]
+}

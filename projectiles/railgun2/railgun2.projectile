@@ -1,6 +1,6 @@
 {
   "projectileName" : "railgun2",
-  "frames" : "railgun2.png",
+  "image" : "railgun2.png",
   "physics" : "laser",
   "frameNumber" : 1,
   "damageKindImage" : "icon.png",

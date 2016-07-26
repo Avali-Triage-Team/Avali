@@ -1,0 +1,112 @@
+[  
+  {  
+    "op":"add",
+    "path":"/hail/avali",
+    "value":{  
+      "default":[  
+        "Hi there stranger~",
+        "*Hums to themself*",
+        "Welcome to our town, traveller.",
+        "Perimeter secure."
+      ],
+      "human":[  
+        "Give me a reason, I dare you.",
+        "The Overseers are watching you.",
+        "I don't recommend acting out surrounded by predators, human."
+      ],
+      "hylotl":[  
+        "You should stop by the markets, sir.",
+        "I'm sure they'd be quite impressed with some of the local crafts.",
+        "I recommend avoiding the hunters, they might offend your... sensibilities."
+      ],
+      "apex":[  
+        "Salutations.",
+        "Evening, my simian friend.",
+        "How goes the rebellion?",
+        "Don't worry, we sweep for Miniknog bugs."
+      ],
+      "avian":[  
+        "Salutations.",
+        "Damned birds are always out to get me... not you, sorry.",
+        "Hello, my feathered friend!"
+      ],
+      "glitch":[  
+        "Jovial. Hello Glitch, I've been learning your mode of speech!",
+        "Stop by the repair bay, they can fix that squeaky joint.",
+        "Ever thought about getting a tune up while you're here?"
+      ],
+      "avali":[  
+        "Hi there~",
+        "Don't forget this is a weapons-safe zone, hunter.",
+        "The birds have been murder this cycle.",
+        "I can't wait 'til they fix the guard drones.",
+        "Got any good music feeds to share? - I'm bored.",
+        "Damn sticky actuator...",
+        "I used to be an adventurer like you... but then I retired."
+      ],
+      "floran":[  
+        "Salutations.",
+        "Just a polite reminder, no stabbing.",
+        "You should try the local cuisine, Florans seem to like it."
+      ]
+    }
+  },
+  {  
+    "op":"add",
+    "path":"/weaponwarning1/avali",
+    "value":{  
+      "default":[  
+        "Traveller, put your weapon away.",
+        "It's all fun and games, traveller.",
+        "Holster the weapon.",
+        "I don't care what your world's constitution says. No weapons in public."
+      ]
+    }
+  },
+  {  
+    "op":"add",
+    "path":"/weaponwarning2/avali",
+    "value":{  
+      "default":[  
+        "Second warning, stranger - put the weapon down.",
+        "I said sheathe it!",
+        "Don't test me, friend.",
+        "Sheath the weapon now, or I'll sheath it up your cloaca!"
+      ]
+    }
+  },
+  {  
+    "op":"add",
+    "path":"/weaponwarning3/avali",
+    "value":{  
+      "default":[  
+        "You are sorely tempting me, friend.",
+        "Your weapon. Put it away, now.",
+        "Final warning - drop the weapon."
+      ]
+    }
+  },
+  {  
+    "op":"add",
+    "path":"/weaponSheathed/avali",
+    "value":{  
+      "default":[  
+        "Thank you. Carry on now.",
+        "That's better.",
+        "Appreciated.",
+        "Carry on."
+      ]
+    }
+  },
+  {  
+    "op":"add",
+    "path":"/comeBack/avali",
+    "value":{  
+      "default":[  
+        "I'm talking to you.",
+        "Get back here.",
+        "Your hearing isn't that inferior, pay attention!"
+      ]
+    }
+  }
+]

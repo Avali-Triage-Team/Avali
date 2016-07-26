@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "minerchest", "count" : 1 },
+    { "item" : "money", "count" : 100 }
+  ],
+  "output" : {
+    "item" : "avaliminerchest",
+    "count" : 1
+  },
+  "groups" : [ "spinningwheel" ]
+}

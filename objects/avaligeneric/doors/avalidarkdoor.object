@@ -15,8 +15,8 @@
   "avianDescription" : "This looks a little ominous to me.",
   "floranDescription" : "Dark metal door, what dark metal secretssss does it keep from floran?",
   "glitchDescription" : "Bored. It is a door, how bored I must be examining this.",
-  "humanDescription" : "Why do the other races make their doors so needlessly complex",
-  "hylotlDescription" : "...apparently, yes. They can make even greater abominations.",
+  "humanDescription" : "Why do the other races make their doors so needlessly complex?",
+  "hylotlDescription" : "...Apparently, yes. They can make even greater abominations.",
   "avaliDescription" : "This door might look boring to the naked eye, but augmented reality will spice things up greatly.",
 
   "inventoryIcon" : "avalidarkdooricon.png",
@@ -34,19 +34,23 @@
   "scriptDelta" : 5,
 
   "animation" : "/objects/wired/door/door.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "open" : {
+        "pool" : [ "/sfx/objects/apexcooldoor_open.ogg" ],
+        "rangeMultiplier" : 0.5
+      },
+      "close" : {
+        "pool" : [ "/sfx/objects/apexcooldoor_close.ogg" ],
+        "rangeMultiplier" : 0.5
+      }
+    }
+  },
   "animationParts" : {
     "door" : "avalidarkdoor.png"
   },
-  "animationCustom":
-  {
-    "sounds":
-    {
-      "open": [ "/sfx/objects/apexcooldoor_open.ogg" ],
-      "close": [ "/sfx/objects/apexcooldoor_close.ogg" ]
-    }
-  },
   "animationPosition" : [0, 0],
 
-  "inboundNodes" : [ [-1, 4] ],
-  "outboundNodes" : [ [1, 0] ]
+  "inputNodes" : [ [-1, 4] ],
+  "outputNodes" : [ [1, 0] ]
 }

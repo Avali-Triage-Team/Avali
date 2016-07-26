@@ -2,12 +2,13 @@
   "objectName" : "avaliplant2",
   "colonyTags" : [ "nature" ], 
   "rarity" : "Common",
-  "category" : "farmable",
+  "category" : "seed",
   "description" : "A biolumiscent ovoid, eventually this'll grow into a colony.",
   "shortdescription" : "Nakati Ovoid",
   "objectType" : "farmable",
   "printable" : false,
   "price" : 300,
+  "radioMessagesOnPickup" : [ "pickupseed" ],
 
   "apexDescription" : "I wonder what give it it's bioluminescence.",
   "avianDescription" : "This'd make an interesting nest.",
@@ -46,5 +47,7 @@
       "alts" : 5,
       "harvestPool" : "nakatiHarvest"
     }
-  ]
+  ],
+
+  "maxImmersion" : 0.125
 }

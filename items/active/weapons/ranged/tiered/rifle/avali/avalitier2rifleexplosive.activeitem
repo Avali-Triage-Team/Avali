@@ -32,22 +32,14 @@
 
   "elementalType" : "physical",
 
-  "primaryAttack" : {
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
     "fireTime" : 0.16,
     "baseDps" : 7,
     "energyUsage" : 21.0,
-    "projectileCount" : 1,
-    "inaccuracy" : 0.02,
-
-    "fireType" : "auto",
-
-    "projectileType" : "railgunexp",
-    "projectileParameters" : { 
-      "knockback" : 6
-    }
-  },
-
-  "stances" : {
+    "projectileCount" : 1, "inaccuracy" : 0.02,
+      "stances" : {
     "idle" : {
       "armRotation" : 0,
       "weaponRotation" : 0,
@@ -66,7 +58,7 @@
       "allowFlip" : false
     },
     "cooldown" : {
-      "duration" : 0.25,
+      "duration" : 0.16,
       "armRotation" : 5,
       "weaponRotation" : 5,
       "twoHanded" : true,
@@ -76,7 +68,15 @@
     }
   },
 
-  "altAbilitySource" : "/items/active/weapons/ranged/altabilities/flashlight/flashlight.altability",
+    "fireType" : "auto",
+
+    "projectileType" : "railgunexp",
+    "projectileParameters" : { 
+      "knockback" : 6
+    }
+  },
+
+  "altAbilitySource" : "/items/active/weapons/ranged/abilities/flashlight/flashlight.altability",
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

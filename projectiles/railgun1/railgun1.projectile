@@ -1,6 +1,6 @@
 {
   "projectileName" : "railgun1",
-  "frames" : "railgun1.png",
+  "image" : "railgun1.png",
   "animationCycle" : 0.25,
   "frameNumber" : 1,
   "damageKindImage" : "icon.png",

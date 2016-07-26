@@ -1,7 +1,10 @@
 {
   "input" : [
-    { "item" : "refinedrubium", "count" : 10 }
+    { "item" : "refinedferozium", "count" : 10 },
+    { "item" : "silk", "count" : 1 },
+    { "item" : "syntheticmaterial", "count" : 1 }
   ],
+  "duration" : 5,
   "output" : { "item" : "avalitier5mchest", "count" : 1 },
-  "groups" : [ "manipulatortable", "armors", "all" ]
+  "groups" : [ "craftingmanipulator", "armours", "all" ]
 }
