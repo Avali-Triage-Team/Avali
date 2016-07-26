@@ -13,5 +13,6 @@
   "rottingMultiplier" : 1.0,
   "foodValue" : 10,
   "blockingEffects" : [ "wellfed" ],
+  "maxStack" : 100,
   "learnBlueprintsOnPickup" : []
 }
