@@ -4,5 +4,5 @@
     { "item" : "avalimeat", "count" : 1 }  
   ],
   "output" : { "item" : "avalitaco", "count" : 1 },
-  "groups" : [ "kitchen", "consumables" ]
+  "groups" : [ "kitchen", "mains" ]
 }
