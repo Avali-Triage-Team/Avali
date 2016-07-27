@@ -3,5 +3,6 @@
     { "item" : "coalore", "count" : 1 }
   ],
   "output" : { "item" : "graphene", "count" : 10 },
-  "groups" : [ "ingredients", "avalilathe", "all"]
+  "groups" : [ "ingredients", "avalilathe", "all"],
+  "duration" : 0.1
 }

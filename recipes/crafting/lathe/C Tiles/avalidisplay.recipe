@@ -4,5 +4,6 @@
     { "item" : "copperbar", "count" : 1 }
   ],
   "output" : { "item" : "avalidisplay", "count" : 10 },
-  "groups" : [ "materials", "avalilathe", "all" ]
+  "groups" : [ "materials", "avalilathe", "all" ],
+  "duration" : 0.1
 }
