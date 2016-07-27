@@ -193,7 +193,11 @@
       { "item" : "campsmallentry1" },
       { "item" : "campsmallentry2" },
       { "item" : "campsmallwall1" },
-      { "item" : "campsmallwall2" }
+      { "item" : "campsmallwall2" },
+      { "item" : "avalihoe" },
+      { "item" : "avalichainsaw" },
+      { "item" : "avalilaserminer" },
+      { "item" : "avalipickaxe" }
     ]
   },
   
