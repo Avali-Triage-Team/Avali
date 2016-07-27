@@ -1,8 +1,9 @@
 {
   "input" : [
     { "item" : "glassmaterial", "count" : 2  },
-  { "item" : "money", "count" : 25 }
+	{ "item" : "money", "count" : 25 }
   ],
   "output" : { "item" : "avalistriplight", "count" : 1 },
+  "duration" : 0.1,
   "groups" : [ "lights", "avalilathe", "all" ]
 }

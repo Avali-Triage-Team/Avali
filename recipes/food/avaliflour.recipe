@@ -3,5 +3,5 @@
     { "item" : "avaliproduce3", "count" : 2 }
   ],
   "output" : { "item" : "avaliflour", "count" : 1 },
-  "groups" : [ "kitchen", "consumables" ]
+  "groups" : [ "kitchen", "sides" ]
 }

@@ -1,17 +1,11 @@
 {
   "itemName" : "avaliproduce3",
   "price" : 5,
+  "category" : "cookingIngredient",
   "rarity" : "Common",
-  "category" : "food",
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
   "inventoryIcon" : "avaliproduce3.png",
   "description" : "A long, fibrous frond from a Piru barnacle.",
   "shortdescription" : "Piru Frond",
   "handPosition" : [7, 0],
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "rottingMultiplier" : 1.0,
-  "foodValue" : 10,
-  "blockingEffects" : [ "wellfed" ],
   "learnBlueprintsOnPickup" : [ "avaliflour" ]
 }

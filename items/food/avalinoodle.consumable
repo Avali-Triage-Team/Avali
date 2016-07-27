@@ -2,7 +2,7 @@
   "itemName" : "avalinoodle",
   "price" : 15,
   "rarity" : "Common",
-  "category" : "food",
+  "category" : "preparedFood",
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
   "inventoryIcon" : "avalinoodle.png",
@@ -12,6 +12,7 @@
   "itemAgingScripts" : ["/scripts/items/rotting.lua"],
   "rottingMultiplier" : 1.0,
   "foodValue" : 95,
+  "maxStack" : 1,
   "blockingEffects" : [ "wellfed" ],
   "learnBlueprintsOnPickup" : [ "avalinoodle2" ]
 }

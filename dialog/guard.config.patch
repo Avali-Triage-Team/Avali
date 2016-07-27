@@ -50,8 +50,8 @@
         "You should try the local cuisine, Florans seem to like it."
       ]
     }
-  },
-  /*{  
+  }/*,
+  {  
     "op":"add",
     "path":"/gunwarning1/avali",
     "value":{  
@@ -62,7 +62,7 @@
         "I don't care what your world's constitution says. No guns in public."
       ]
     }
-  },*/
+  },
   {  
     "op":"add",
     "path":"/weaponwarning2/avali",
@@ -130,5 +130,5 @@
         "Your hearing isn't that inferior, pay attention!"
       ]
     }
-  }
+  }*/
 ]

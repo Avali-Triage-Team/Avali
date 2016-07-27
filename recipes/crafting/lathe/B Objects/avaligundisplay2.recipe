@@ -4,5 +4,6 @@
     { "item" : "aerogel", "count" : 1 }  
   ],
   "output" : { "item" : "avaligundisplay2", "count" : 1 },
-  "groups" : [ "objects", "avalidisplayapparatus", "all" ]
+  "duration" : 0.1,
+  "groups" : [ "decoration", "avalidisplayapparatus", "all" ]
 }

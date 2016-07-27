@@ -1,27 +1,27 @@
 {
-  "itemName" : "AvaliBow_t1",
+  "itemName" : "AvaliBow_t4",
   "price" : 50,
-  "inventoryIcon" : "avalibowicon_t1.png",
+  "inventoryIcon" : "avalibowicon.png",
   "maxStack" : 1,
   "rarity" : "Common",
   "tooltipKind" : "bow",
   "category" : "bow",
   "description" : "A bow created utilizing Avali technology. It's unclear who designed it, since the Avali have never used bows.",
-  "shortdescription" : "CB1 Lancer",
+  "shortdescription" : "CB4 Lancer",
   "twoHanded" : true,
   "itemTags" : ["weapon", "ranged", "bow"],
 
   "radioMessagesOnPickup" : [ "pickupbow" ],
 
-  "level" : 1,
+  "level" : 4,
 
   "animation" : "/items/active/weapons/bow/bow.animation",
   "animationParts" : {
-    "bow" : "avalibowfull_t1.png"
+    "bow" : "avalibowfull.png"
   },
   "animationCustom" : {
     "animatedParts" : { "parts" : { "bow" : { "properties" : {
-      "offset" : [0.25, 0]
+      "offset" : [-0.5, 0]
     }}}},
     "sounds" : {
       "draw" : [ "/sfx/gun/bow_draw1.ogg", "/sfx/gun/bow_draw2.ogg", "/sfx/gun/bow_draw3.ogg" ],
