@@ -5,5 +5,5 @@
   ],
   "duration" : 5,
   "output" : { "item" : "avalitier3pants", "count" : 1 },
-  "groups" : [ "craftinganvil2", "armours", "all" ]
+  "groups" : [ "craftinganvil", "armours", "all" ]
 }
