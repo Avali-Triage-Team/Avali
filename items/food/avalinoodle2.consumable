@@ -1,6 +1,6 @@
 {
   "itemName" : "avalinoodle2",
-  "price" : 15,
+  "price" : 125,
   "rarity" : "Common",
   "category" : "preparedFood",
   "tooltipKind" : "food",
@@ -11,7 +11,7 @@
   "handPosition" : [0, 4],
   "itemAgingScripts" : ["/scripts/items/rotting.lua"],
   "rottingMultiplier" : 1.0,
-  "foodValue" : 145,
+  "foodValue" : 65,
   "maxStack" : 1,
   "blockingEffects" : [ "wellfed" ],
   "learnBlueprintsOnPickup" : []
