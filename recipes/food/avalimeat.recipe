@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "meatchunks", "count" : 1 },
+    { "item" : "cookedalienmeat", "count" : 1 },
     { "item" : "avaliproduce2", "count" : 1 }  
   ],
   "output" : { "item" : "avalimeat", "count" : 1 },
