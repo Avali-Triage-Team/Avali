@@ -1,6 +1,6 @@
 {
   "itemName" : "avalimeat",
-  "price" : 10,
+  "price" : 60,
   "rarity" : "Common",
   "category" : "preparedFood",
   "tooltipKind" : "food",
@@ -10,7 +10,7 @@
   "shortdescription" : "Spicy Jerky",
   "itemAgingScripts" : ["/scripts/items/rotting.lua"],
   "rottingMultiplier" : 1.0,
-  "foodValue" : 95,
+  "foodValue" : 35,
   "maxStack" : 1,
   "blockingEffects" : [ "wellfed" ],
   "learnBlueprintsOnPickup" : [ "avalitaco" ]
