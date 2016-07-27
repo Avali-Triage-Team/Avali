@@ -1,0 +1,53 @@
+[
+
+  { "op" : "add"
+  ,"path" : "/acceptItems/-"
+  ,"value" :
+  "avalimeat"
+  },
+  { "op" : "add"
+  ,"path" : "/acceptItems/-"
+  ,"value" :
+  "avalinoodle"
+  },
+  { "op" : "add"
+  ,"path" : "/acceptItems/-"
+  ,"value" :
+  "avalinoodle2"
+  },
+  { "op" : "add"
+  ,"path" : "/acceptItems/-"
+  ,"value" :
+  "avalitaco"
+  },
+  { "op" : "add"
+  ,"path" : "/acceptItems/-"
+  ,"value" :
+  "avaliproduce1"
+  },
+  { "op" : "add"
+  ,"path" : "/acceptItems/-"
+  ,"value" : 
+  "avaliproduce2"
+  },
+  { "op" : "add"
+  ,"path" : "/acceptItems/-"
+  ,"value" : 
+  "avaliproduce3"
+  },
+  { "op" : "add"
+  ,"path" : "/acceptItems/-"
+  ,"value" : 
+  "avaliplant1"
+  },
+  { "op" : "add"
+  ,"path" : "/acceptItems/-"
+  ,"value" : 
+  "avaliplant2"
+  },
+  { "op" : "add"
+  ,"path" : "/acceptItems/-"
+  ,"value" : 
+  "avaliplant3"
+  }
+]
