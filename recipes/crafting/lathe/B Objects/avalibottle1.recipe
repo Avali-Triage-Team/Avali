@@ -4,5 +4,5 @@
   ],
   "output" : { "item" : "avalibottle1", "count" : 1 },
   "duration" : 0.1,
-  "groups" : [ "decoration", "all" ]
+  "groups" : [ "decoration", "avalilathe", "all" ]
 }
