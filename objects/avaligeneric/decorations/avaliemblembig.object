@@ -6,7 +6,7 @@
   "price" : 125,
   "printable" : false,
   "description" : "The 3-feathered emblem of the Avali.",
-  "shortdescription" : "Avali Emblem",
+  "shortDescription" : "Avali Emblem",
   "race" : "avali",
 
   "apexDescription" : "One day we'll see this emblem on our own world, aiding the resistance.",
@@ -17,7 +17,7 @@
   "hylotlDescription" : "The Avali's three-feather symbol reminds me of the three-eye symbol our flag displays.",
   "avaliDescription" : "Our modern flag represents the civilian, exploratory and military fleets above our homeworld.",
 
-  "inventoryIcon" : "avaliemblembig.png",
+  "inventoryicon" : "avaliemblembig.png",
   "orientations" : [
     {
       "dualImage" : "avaliemblembig.png:<color>",

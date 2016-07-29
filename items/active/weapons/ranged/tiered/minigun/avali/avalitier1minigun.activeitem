@@ -32,8 +32,9 @@
 
   "elementalType" : "electric",
 
-  "primaryAbility" : { "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
-  "class" : "GunFire",
+  "primaryAbility" : { 
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
     "fireTime" : 0.10,
     "baseDps" : 7,
     "energyUsage" : 27.0,
@@ -76,8 +77,7 @@
   },
 
 
-
-  "altAbilitySource" : "/items/active/weapons/ranged/altabilities/explosiveburst/explosiveburst.altability",
+  "altAbilityType" : "explosiveburst",
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

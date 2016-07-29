@@ -77,7 +77,7 @@
   },
 
 
-  "altAbilitySource" : "/items/active/weapons/ranged/abilities/explosiveburst/explosiveburst.altability",
+  "altAbilityType" : "explosiveburst",
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }
