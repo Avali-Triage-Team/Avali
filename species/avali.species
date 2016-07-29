@@ -198,7 +198,15 @@
       { "item" : "avalihoe" },
       { "item" : "avalichainsaw" },
       { "item" : "avalilaserminer" },
-      { "item" : "avalipickaxe" }
+      { "item" : "avalipickaxe" },
+      { "item" : "avaliutilitylight1" },
+      { "item" : "avaliutilitylight2" },
+      { "item" : "avaliutilitylight3" },
+      { "item" : "avaliutilitylight4" },
+      { "item" : "avaliutilitylight5" },
+      { "item" : "avaliutilitylight6" },
+      { "item" : "avaliutilitylight7" },
+      { "item" : "avaliutilitylight8" }
     ]
   },
   
