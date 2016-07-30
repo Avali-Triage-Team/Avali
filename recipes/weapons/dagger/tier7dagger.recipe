@@ -3,5 +3,5 @@
     { "item" : "ceruliumcompound", "count" : 8 }
   ],
   "output" : { "item" : "avalitier7dagger", "count" : 1 },
-  "groups" : [ "manipulatortable", "weapons", "all" ]
+  "groups" : [ "craftingmanipulator", "weapons", "all" ]
 }

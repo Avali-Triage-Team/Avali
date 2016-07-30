@@ -1,7 +1,8 @@
 {
   "input" : [
-    { "item" : "ceruliumcompound", "count" : 12 }
+    { "item" : "solariumstar", "count" : 12 },
+    { "item" : "refinedferozium", "count" : 12 }
   ],
   "output" : { "item" : "avalitier7shortsword", "count" : 1 },
-  "groups" : [ "manipulatortable", "weapons", "all" ]
+  "groups" : [ "craftingmanipulator", "weapons", "all" ]
 }
