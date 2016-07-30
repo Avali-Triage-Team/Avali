@@ -17,7 +17,7 @@
     "parts" : {
       "base" : {
         "properties" : {
-          "offset" : [-0.5, 0],
+          "offset" : [-2, 0],
           "centered" : false,
           "image" : "<partImage>"
         }
