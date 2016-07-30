@@ -1,7 +1,8 @@
 {
   "input" : [
-    { "item" : "feroziumcompound", "count" : 12 }
+    { "item" : "solariumstar", "count" : 12 },
+    { "item" : "refienedaegisalt", "count" : 12 }
   ],
   "output" : { "item" : "avalitier6shortsword", "count" : 1 },
-  "groups" : [ "acceleratortable", "weapons", "all" ]
+  "groups" : [ "craftingaccelerator", "weapons", "all" ]
 }
