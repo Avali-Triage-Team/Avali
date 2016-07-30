@@ -41,7 +41,7 @@
   },
   "animationPosition" : [0, 0],
 
-  "outboundNodes" : [ [0, 0] ],
+  "outputNodes" : [ [0, 0] ],
   
   "interactive" : false,
 

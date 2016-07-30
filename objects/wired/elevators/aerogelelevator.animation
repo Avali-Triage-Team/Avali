@@ -6,10 +6,6 @@
         "states" : {
           "off" : {},
           "on" : {
-            "image" : 10,
-            "cycle" : 1.0,
-            "mode" : "loop",
-
             "properties" : {
               "persistentSound" : "/sfx/objects/mechanical_elevator_loop.ogg"
             }
@@ -21,23 +17,9 @@
     "parts" : {
       "base" : {
         "properties" : {
-          "offset" : [-2, 0],
-          "centered" : false
-        },
-        "partStates" : {
-          "moving" : {
-            "off" : {
-              "properties" : {
-                "image" : "<partImage>:<color>.off"
-              }
-            },
-
-            "on" : {
-              "properties" : {
-                "image" : "<partImage>:<color>.<frame>"
-              }
-            }
-          }
+          "offset" : [-0.5, 0],
+          "centered" : false,
+          "image" : "<partImage>"
         }
       },
 
