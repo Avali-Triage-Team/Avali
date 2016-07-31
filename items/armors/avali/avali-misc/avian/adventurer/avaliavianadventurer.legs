@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "category" : "legwear",
   "description" : "^green;Avali, Leg Slot. ^white;Typical Avian adventurer outfit, now for raptors!",
-  "shortdescription" : "Avali-Avian Adventurer Outfit",
+  "shortdescription" : "Avali-Avian Adv. Outfit",
   "inspectionstat" : "armor",
 
   "maleFrames" : "pants.png",

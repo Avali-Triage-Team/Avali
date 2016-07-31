@@ -29,7 +29,7 @@
 
       "imagePosition" : [-16, 0],
       "frames" : 6,
-      "animationCycle" : 0.5,
+      "animationCycle" : 2,
 
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
