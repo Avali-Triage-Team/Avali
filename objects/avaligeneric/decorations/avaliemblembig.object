@@ -17,7 +17,7 @@
   "hylotlDescription" : "The Avali's three-feather symbol reminds me of the three-eye symbol our flag displays.",
   "avaliDescription" : "Our modern flag represents the civilian, exploratory and military fleets above our homeworld.",
 
-  "inventoryicon" : "avaliemblembig.png",
+  "inventoryicon" : "avaliemblem.png",
   "orientations" : [
     {
       "dualImage" : "avaliemblembig.png:<color>",
