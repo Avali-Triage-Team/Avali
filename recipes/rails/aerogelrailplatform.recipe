@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "wire", "count" : 8 },
+    { "item" : "smallbattery", "count" : 2 },
+    { "item" : "durasteelbar", "count" : 3 },
+    { "item" : "aerogel", "count" : 10 }
+  ],
+  "output" : { "item" : "aerogelrailplatform", "count" : 1 },
+  "duration" : 3.0,
+  "groups" : [ "rail" ]
+}

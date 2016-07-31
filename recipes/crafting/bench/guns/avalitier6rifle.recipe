@@ -1,6 +1,7 @@
 {
   "input" : [
-    { "item" : "feroziumcompound", "count" : 16 }
+    { "item" : "refinedaegisalt", "count" : 16 },
+    { "item" : "solariumstar", "count" : 16 }
   ],
   "output" : { "item" : "avalitier6rifle", "count" : 1 },
   "groups" : [ "avalibench", "weapons", "all" ]

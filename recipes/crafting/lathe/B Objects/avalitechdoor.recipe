@@ -4,5 +4,6 @@
     { "item" : "siliconboard", "count" : 1  }  
   ],
   "output" : { "item" : "avalitechdoor", "count" : 1 },
-  "groups" : [ "objects", "avalilathe", "all" ]
+  "duration" : 0.1,
+  "groups" : [ "doors", "avalilathe", "all" ]
 }

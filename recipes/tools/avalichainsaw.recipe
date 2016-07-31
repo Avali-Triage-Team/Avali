@@ -5,5 +5,5 @@
   { "item" : "graphene", "count" : 10}
   ],
   "output" : { "item" : "avalichainsaw", "count" : 1 },
-  "groups" : [ "avalilathe", "tools", "all" ]
+  "groups" : [ "craftingfarm2", "survival" ]
 }

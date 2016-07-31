@@ -1,0 +1,11 @@
+{
+  "itemName" : "avaliproduce3",
+  "price" : 15,
+  "category" : "cookingIngredient",
+  "rarity" : "Common",
+  "inventoryIcon" : "avaliproduce3.png",
+  "description" : "A long, fibrous frond from a Piru barnacle.",
+  "shortdescription" : "Piru Frond",
+  "handPosition" : [7, 0],
+  "learnBlueprintsOnPickup" : [ "avaliflour" ]
+}

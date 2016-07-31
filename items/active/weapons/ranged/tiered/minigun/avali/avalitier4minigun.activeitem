@@ -32,13 +32,42 @@
 
   "elementalType" : "electric",
 
-  "primaryAttack" : {
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
     "fireTime" : 0.10,
     "baseDps" : 7,
     "energyUsage" : 27.0,
-    "inaccuracy" : 0.04,
     "projectileCount" : 1,
-
+    "inaccuracy" : 0.04,
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+  
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 1,
+        "weaponRotation" : 1,
+        "twoHanded" : true,
+  
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "cooldown" : {
+        "duration" : 0.10,
+        "armRotation" : 1,
+        "weaponRotation" : 1,
+        "twoHanded" : true,
+  
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    },
     "fireType" : "auto",
 
     "projectileType" : "railgun1",
@@ -47,36 +76,8 @@
     }
   },
 
-  "stances" : {
-    "idle" : {
-      "armRotation" : 0,
-      "weaponRotation" : 0,
-      "twoHanded" : true,
 
-      "allowRotate" : true,
-      "allowFlip" : true
-    },
-    "fire" : {
-      "duration" : 0,
-      "armRotation" : 1,
-      "weaponRotation" : 1,
-      "twoHanded" : true,
-
-      "allowRotate" : false,
-      "allowFlip" : false
-    },
-    "cooldown" : {
-      "duration" : 0.10,
-      "armRotation" : 1,
-      "weaponRotation" : 1,
-      "twoHanded" : true,
-
-      "allowRotate" : false,
-      "allowFlip" : false
-    }
-  },
-
-  "altAbilitySource" : "/items/active/weapons/ranged/altabilities/explosiveburst/explosiveburst.altability",
+  "altAbilityType" : "explosiveburst",
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

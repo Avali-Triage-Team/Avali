@@ -1,6 +1,6 @@
 {
   "projectileName" : "railgun2crit",
-  "frames" : "railgun2crit.png",
+  "image" : "railgun2crit.png",
 
   "frameNumber" : 1,
   "damageKindImage" : "icon.png",

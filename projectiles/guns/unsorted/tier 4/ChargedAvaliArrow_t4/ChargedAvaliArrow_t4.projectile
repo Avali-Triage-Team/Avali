@@ -5,7 +5,7 @@
   "level" : 10,
   "damageKindImage" : "icon.png",
   "timeToLive" : 30,
-  "frames" : "ChargedAvaliArrow_t4.png",
+  "image" : "ChargedAvaliArrow_t4.png",
   "emitters" : [ "daggerblue" ],
   "animationCycle" : 0.25,
   "frameNumber" : 1,

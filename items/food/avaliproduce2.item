@@ -1,0 +1,10 @@
+{
+  "itemName" : "avaliproduce2",
+  "price" : 15,
+  "category" : "cookingIngredient",
+  "rarity" : "Common",
+  "inventoryIcon" : "avaliproduce2.png",
+  "description" : "The spicy bark of the Nakati plant. Usually ground up before use.",
+  "shortdescription" : "Nakati Bark",
+  "learnBlueprintsOnPickup" : [ "avalimeat" ]
+}

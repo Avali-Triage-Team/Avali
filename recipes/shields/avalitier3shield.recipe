@@ -4,5 +4,5 @@
     { "item" : "money", "count" : 100 }
   ],
   "output" : { "item" :  "avalitier3barrier" },
-  "groups" : [ "metalworkstation", "armors", "all"]
+  "groups" : [ "craftinganvil2", "weapons", "all"]
 }

@@ -1,0 +1,11 @@
+{
+  "itemName" : "avaliproduce1",
+  "price" : 15,
+  "category" : "cookingIngredient",
+  "rarity" : "Common",
+  "inventoryIcon" : "avaliproduce1.png",
+  "description" : "The fruiting body of a subterranean slime mold... delicious, I guess?",
+  "shortdescription" : "Kiri Fruit",
+  "handPosition" : [7, 0],
+  "learnBlueprintsOnPickup" : []
+}

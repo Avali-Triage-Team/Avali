@@ -1,0 +1,83 @@
+{
+  "objectName" : "aerogelelevatorshort",
+  "objectType" : "physics",
+  "colonyTags" : ["wired"],
+  "printable" : false,
+  "rarity" : "common",
+  "category" : "wire",
+  "price" : 200,
+
+  "description" : "An Aerogel Elevator.",
+  "shortdescription" : "Short Aerogel Elevator",
+  "race" : "generic",
+
+  "apexDescription" : "A sturdy elevator.",
+  "avianDescription" : "The easiest way to get around a multilevel facility.",
+  "floranDescription" : "Elevator goesss up and down.",
+  "glitchDescription" : "Bored. An uninspiring elevator.",
+  "humanDescription" : "An elevator for getting up and down levels.",
+  "hylotlDescription" : "A sleek avali elevator.",
+  "novakidDescription" : "Some kinda elevator, useful!",
+
+  "inventoryIcon" : "aerogelelevatorshorticon.png",
+
+  "orientations" : [
+    {
+      "direction" : "left",
+      "image" : "aerogelelevatorshorttop.png",
+      "imagePosition" : [-16, 0],
+      "spaces" : [ [-2, 0], [-1, 0], [0, 0], [1, 0], [2, 0], [-2, 1], [-1, 1], [0, 1], [1, 1], [2, 1], [-2, 2], [-1, 2], [0, 2], [1, 2], [2, 2], [-2, 3], [-1, 3], [0, 3], [1, 3], [2, 3], [-2, 4], [-1, 4], [0, 4], [1, 4], [2, 4], [-2, 5], [-1, 5], [0, 5], [1, 5], [2, 5], [-2, 6], [-1, 6], [0, 6], [1, 6], [2, 6], [-2, 7], [-1, 7], [0, 7], [1, 7], [2, 7], [-2, 8], [-1, 8], [0, 8], [1, 8], [2, 8], [-2, 9], [-1, 9], [0, 9], [1, 9], [2, 9], [-2, 10], [-1, 10], [0, 10], [1, 10], [2, 10], [-2, 11], [-1, 11], [0, 11], [1, 11], [2, 11], [-2, 12], [-1, 12], [0, 12], [1, 12], [2, 12] ],
+      "bgAnchors" : [ [0, 0], [0, 1], [0, 2], [0, 3], [0, 4], [0, 5], [0, 6], [0, 7], [0, 8], [0, 9], [0, 10], [0, 11], [0, 12] ],
+
+      "animationParts" : {
+        "base" : "aerogelelevatorshortstand.png",
+        "platform" : "aerogelplatform.png"
+      },
+
+      "platformStart" : [0.5, 11.875],
+      "platformEnd" : [0.5, 0.875],
+      "platformMoveTime" : 2
+    },
+    {
+      "direction" : "right",
+      "image" : "aerogelelevatorshortbottom.png",
+      "imagePosition" : [-16, 0],
+      "spaces" : [ [-2, 0], [-1, 0], [0, 0], [1, 0], [2, 0], [-2, 1], [-1, 1], [0, 1], [1, 1], [2, 1], [-2, 2], [-1, 2], [0, 2], [1, 2], [2, 2], [-2, 3], [-1, 3], [0, 3], [1, 3], [2, 3], [-2, 4], [-1, 4], [0, 4], [1, 4], [2, 4], [-2, 5], [-1, 5], [0, 5], [1, 5], [2, 5], [-2, 6], [-1, 6], [0, 6], [1, 6], [2, 6], [-2, 7], [-1, 7], [0, 7], [1, 7], [2, 7], [-2, 8], [-1, 8], [0, 8], [1, 8], [2, 8], [-2, 9], [-1, 9], [0, 9], [1, 9], [2, 9], [-2, 10], [-1, 10], [0, 10], [1, 10], [2, 10], [-2, 11], [-1, 11], [0, 11], [1, 11], [2, 11], [-2, 12], [-1, 12], [0, 12], [1, 12], [2, 12] ],
+      "bgAnchors" : [ [0, 0], [0, 1], [0, 2], [0, 3], [0, 4], [0, 5], [0, 6], [0, 7], [0, 8], [0, 9], [0, 10], [0, 11], [0, 12] ],
+
+      "animationParts" : {
+        "base" : "aerogelelevatorshortstand.png",
+        "platform" : "aerogelplatform.png"
+      },
+
+      "platformStart" : [0.5, 0.875],
+      "platformEnd" : [0.5, 11.875],
+      "platformMoveTime" : 2
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/movingplatform/movingplatform.lua" ],
+  "scriptDelta" : 1,
+
+  "animation" : "aerogelelevator.animation",
+  "animationParts" : {
+    "base" : "aerogelelevatorshortstand.png",
+    "platform" : "aerogelplatform.png"
+  },
+
+  "physicsCollisions" : {
+    "platform" : {
+      "collision" : [
+        [-2.25, -0.25],
+        [2.25, -0.25],
+        [2.25, 0.25],
+        [-2.25, 0.25]
+      ],
+
+      "position" : [0, 1]
+    }
+  },
+
+  "inputNodes" : [[0, 0]]
+
+}

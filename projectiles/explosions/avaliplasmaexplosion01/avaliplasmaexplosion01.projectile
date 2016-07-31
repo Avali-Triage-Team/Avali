@@ -1,6 +1,6 @@
 {
   "projectileName" : "avaliplasmaexplosion01",
-  "frames" : "avaliplasmaexplosion01.png",
+  "image" : "avaliplasmaexplosion01.png",
   "animationCycle" : 0.2,
   "level" : 3,
   "frameNumber" : 6,

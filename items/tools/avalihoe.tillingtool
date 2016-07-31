@@ -1,6 +1,7 @@
 {
   "itemName" : "avalihoe",
-  "price" : 50,
+  "price" : 250,
+  "category" : "Tool",
   "inventoryIcon" : "avalihoe.png",
   "maxStack" : 1,
   "rarity" : "Uncommon",

@@ -1,7 +1,8 @@
 {
   "input" : [
-    { "item" : "refinedviolium", "count" : 12 }
+    { "item" : "solariumstar", "count" : 12 },
+    { "item" : "refienedrubium", "count" : 12 }
   ],
   "output" : { "item" : "avalitier8shortsword", "count" : 1 },
-  "groups" : [ "separatortable", "weapons", "all" ]
+  "groups" : [ "craftingseparator", "weapons", "all" ]
 }

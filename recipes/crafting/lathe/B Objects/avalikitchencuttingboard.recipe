@@ -4,5 +4,6 @@
     { "item" : "woodencookingtable", "count" : 1  }  
   ],
   "output" : { "item" : "avalicuttingboard", "count" : 1 },
-  "groups" : [ "objects", "avalilathe", "all" ]
+  "duration" : 0.1,
+  "groups" : [ "craftingstations", "avalilathe", "all" ]
 }

@@ -3,5 +3,5 @@
     { "item" : "ironbar", "count" : 6 }
   ],
   "output" : { "item" : "avalitier1shortsword", "count" : 1 },
-  "groups" : [ "anvil", "weapons", "all" ]
+  "groups" : [ "craftinganvil", "weapons", "all" ]
 }

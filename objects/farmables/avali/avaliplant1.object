@@ -8,6 +8,7 @@
   "objectType" : "farmable",
   "printable" : false,
   "price" : 300,
+  "radioMessagesOnPickup" : [ "pickupseed" ],
 
   "apexDescription" : "This reminds me a strawberry protein shake.",
   "avianDescription" : "Even if I wanted to, I doubt I could eat this with a beak.",

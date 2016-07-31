@@ -1,6 +1,6 @@
 {
   "projectileName" : "avalipilum3",
-  "frames" : "avalipilum3.png",
+  "image" : "avalipilum3.png",
   "animationCycle" : 0.25,
   "level" : 10,
   "piercing" : true,

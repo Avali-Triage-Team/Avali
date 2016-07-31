@@ -21,10 +21,10 @@
 
   "consumeOnUse" : false,
 
-  "projectileType" : "grapplehook",
+  "projectileType" : "avaligrapplehook",
   "projectileParameters" : {
     "speed" : 100,
-    "timeToLive" : 0.25
+    "timeToLive" : 0.35
   },
 
   "ropeWidth" : 1.0,
@@ -33,6 +33,7 @@
   "reelInDistance" : 3.5,
   "reelOutLength" : 50,
   "breakLength" : 60,
+  "minSwingDistance" : 1.5,
 
   "reelSpeed" : 15,
   "controlForce" : 1000,

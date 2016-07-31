@@ -4,7 +4,8 @@
   // { "item" : "circuitboard", "count" : 1 },
   { "item" : "aerogel", "count" : 25 },
   { "item" : "graphene", "count" : 35 },
-  { "item" : "imperviumcompound", "count" : 10 },
+  { "item" : "refinedaegisalt", "count" : 10 },
+  { "item" : "solariumstar", "count" : 10 },
   { "item" : "money", "count" : 3500}
   ],
   "output" : { "item" : "AvaliBow_t4", "count" : 1 },

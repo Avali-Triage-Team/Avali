@@ -3,5 +3,5 @@
     { "item" : "durasteelbar", "count" : 16 }
   ],
   "output" : { "item" : "avalitier4broadsword", "count" : 1 },
-  "groups" : [ "scifianvil", "weapons", "all" ]
+  "groups" : [ "craftinganvil3", "weapons", "all" ]
 }

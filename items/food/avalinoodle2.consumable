@@ -1,31 +1,18 @@
 {
   "itemName" : "avalinoodle2",
-  "price" : 15,
+  "price" : 125,
   "rarity" : "Common",
+  "category" : "preparedFood",
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
   "inventoryIcon" : "avalinoodle2.png",
   "description" : "Spicy meat noodles with a rich Kiri sauce.",
   "shortdescription" : "Kiri Curry",
   "handPosition" : [0, 4],
-  "effects" : [ [
-    {
-        "effect" : "foodheal145",
-        "duration" : 60
-    },
-    {
-        "effect" : "glow",
-        "duration" : 30
-    },
-    {
-        "effect" : "energyregen192",
-        "duration" : 30
-    },
-    {
-        "effect" : "wellfed",
-        "duration" : 120
-    }
-  ] ],
-  "blockingEffects" : [
-    "wellfed"
-  ],
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "foodValue" : 65,
+  "maxStack" : 1,
+  "blockingEffects" : [ "wellfed" ],
   "learnBlueprintsOnPickup" : []
 }

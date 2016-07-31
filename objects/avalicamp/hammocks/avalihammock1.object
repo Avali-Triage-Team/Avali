@@ -40,8 +40,7 @@
   "sitCoverImage" : "/objects/avalicamp/hammocks/avalihammock1cover.png",
   "sitEmote" : "sleep",
   "sitStatusEffects" : [
-    "regeneration1",
-    "nude"
+    "bed1"
   ],
   "sitEffectEmitters" : [ "sleepbubbles" ]
 }

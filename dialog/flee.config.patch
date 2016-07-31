@@ -1,9 +1,9 @@
-[  
-  {  
-    "op":"add",
-    "path":"/helpme/avali",
-    "value":{  
-      "default":[  
+[
+  {
+    "op": "add",
+    "path": "/helpme/avali",
+    "value": {
+      "default": [
         "I need an assist!",
         "Back me up!",
         "Requesting drone support!",
@@ -11,26 +11,16 @@
       ]
     }
   },
-  {  
-    "op":"add",
-    "path":"/helpthem/avali",
-    "value":{  
-      "default":[  
-        "Leave <name> alone!",
-        "Help us!",
-        "We need a medic here!",
-        "Monster!"
-      ]
-    }
-  },
-  {  
-    "op":"add",
-    "path":"/encourage/avali",
-    "value":{  
-      "default":[  
-        "Flank it!",
-        "Tactical positions!",
-        "Take 'em out!"
+  {
+    "op": "add",
+    "path": "/safe/avali",
+    "value": {
+      "default": [
+        "That ruffled my feathers a little.",
+        "What an ordeal.",
+        "Well, at least I'm safe now.",
+        "That was close.",
+        "I'm alright!"
       ]
     }
   }
