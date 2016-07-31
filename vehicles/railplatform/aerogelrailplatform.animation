@@ -1,0 +1,54 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "rail" : {
+        "default" : "onRail",
+        "states" : {
+          "onRail" : {
+            "frames" : 8,
+            "cycle" : 0.4,
+            "mode" : "loop"
+          }
+        }
+      }
+    },
+
+    "parts" : {
+      "platformfullbright" : {
+        "properties" : {
+          "centered" : true,
+          "offset" : [0, -0.25],
+          "zLevel" : 1,
+          "fullbright" : true
+        },
+
+        "partStates" : {
+          "rail" : {
+            "onRail" : {
+              "properties" : {
+                "image" : "<partImage>:onRail.<frame>"
+              }
+            }
+          }
+        }
+      },
+      "platform" : {
+        "properties" : {
+          "centered" : true,
+          "offset" : [0, -0.25],
+          "zLevel" : 0
+        },
+
+        "partStates" : {
+          "rail" : {
+            "onRail" : {
+              "properties" : {
+                "image" : "<partImage>:onRail.<frame>"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

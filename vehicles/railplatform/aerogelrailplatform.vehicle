@@ -1,0 +1,43 @@
+{
+  "name" : "aerogelrailplatform",
+  "boundBox" : [-2.5, -0.25, 2.5, 0.75],
+  "slaveControlTimeout" : 2.0,
+  "slaveControlHeartbeat" : 1.0,
+  "canBeHit" : false,
+
+  "persistent" : true,
+
+  "script" : "/vehicles/railplatform/railplatform.lua",
+  "animation" : "/vehicles/railplatform/aerogelrailplatform.animation",
+
+  "animationPartTags" : {
+    "platform" : {
+      "partImage" : "/vehicles/railplatform/aerogelrailplatform.png"
+    },
+    "platformfullbright" : {
+      "partImage" : "/vehicles/railplatform/aerogelrailplatformfullbright.png"
+    }
+  },
+
+  "movementSettings" : {
+    "collisionPoly" : [ [-2.5, 0.75], [2.5, 0.75], [0.0, -0.25] ],
+    "mass" : 2.0,
+    "ignorePlatformCollision" : true
+  },
+
+  "loungePositions" : {},
+
+  "physicsCollisions" : {
+    "platform" : {
+      "collision" : [ [-2.5, 0.75], [2.5, 0.75] ],
+      "attachToPart" : "platform"
+    }
+  },
+
+  "railConfig" : {
+    "speed" : 20
+  },
+
+  "popItem" : "aerogelrailplatform",
+  "popOnInteract" : true
+}
