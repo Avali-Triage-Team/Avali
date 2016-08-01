@@ -1,10 +1,10 @@
 {
-  "name" : "Avali",
-  "friendlyName" : "Avali Race Mod",
   "author" : "Fevix",
   "description" : "Avali race mod for Starbound 1.0 \nThe cutest predators this side of the universe rift \n[h1][b]If you have issues, please go to https://github.com/Fevix/Avali/issues and post a new issue describing the problem. Include your starbound.log file located at \"/steamapps/common/Starbound/storage/starbound.log\". \n[i]I CANNOT FIX YOUR ISSUE WITHOUT THIS FILE.[/i][/b][/h1]\n\n(Requires a race extender) \n\nOriginal mod made by RyuujinnZERO on Starbound Forums: http://community.playstarbound.com/resources/avali-race-mod.998/ \nUpdated, maintained, and redistributed with permission.",
+  "friendlyName" : "Aval (Triage)i Race Mod",
   "includes" : ["FrackinUniverse"],
   "link" : "steam://url/CommunityFilePage/729558042",
+  "name" : "Avali",
   "steamContentId" : "729558042",
-  "version" : "3.5.2"
+  "version" : "3.6"
 }

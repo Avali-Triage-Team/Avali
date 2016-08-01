@@ -15,7 +15,7 @@
       "partImage" : "/vehicles/railplatform/aerogelrailplatform.png"
     },
     "platformfullbright" : {
-      "partImage" : "/vehicles/railplatform/aerogelrailplatformfullbright.png"
+      "partImage" : ""
     }
   },
 
