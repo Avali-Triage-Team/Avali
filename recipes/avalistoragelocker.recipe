@@ -1,11 +1,11 @@
 {
   "input" : [
-    { "item" : "durasteelbar", "count" : 10 },
-    { "item" : "platinumbar", "count" : 10 }
+    { "item" : "durasteelbar", "count" : 1 },
+    { "item" : "silverbar", "count" : 1 }
   ],
   "output" : {
     "item" : "avalistoragelocker",
     "count" : 1
   },
-  "groups" : [ "roboticcraftingtable", "objects", "storage", "all" ]
+  "groups" : [ "craftingfurniture2", "storage", "all" ]
 }

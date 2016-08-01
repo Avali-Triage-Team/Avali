@@ -5,12 +5,12 @@
         "default" : "off",
         "states" : {
           "off" : {
-            "image" : 16,
+            "frames" : 16,
             "cycle" : 1.6,
             "mode" : "loop"
           },
           "on" : {
-            "image" : 16,
+            "frames" : 16,
             "cycle" : 1.6,
             "mode" : "loop"
           }
