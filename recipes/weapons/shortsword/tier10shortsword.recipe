@@ -1,7 +1,7 @@
 {
   "input" : [
-    { "item" : "solariumstar", "count" : 12 },
-    { "item" : "refinedaegisalt", "count" : 12 }
+    { "item" : "refinedaegisalt", "count" : 12 },
+    { "item" : "solariumstar", "count" : 12 }
   ],
   "output" : { "item" : "avalitiers2shortsword", "count" : 1 },
   "groups" : [ "craftingseparator", "weapons", "all" ]

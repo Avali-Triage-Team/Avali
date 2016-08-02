@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "solariumstar", "count" : 8 },
-    { "item" : "refinedaegisalt", "count" : 8}
+    { "item" : "refinedviolium", "count" : 8}
   ],
   "output" : { "item" : "avalitiers2dagger", "count" : 1 },
   "groups" : [ "craftingseparator", "weapons", "all" ]

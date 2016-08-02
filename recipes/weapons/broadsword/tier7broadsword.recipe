@@ -1,6 +1,7 @@
 {
   "input" : [
-    { "item" : "ceruliumcompound", "count" : 16 }
+    { "item" : "refinedaegisalt", "count" : 16 },
+    { "item" : "solariumstar", "count" : 16 }
   ],
   "output" : { "item" : "avalitierm2broadsword", "count" : 1 },
   "groups" : [ "craftingmanipulator", "weapons", "all" ]

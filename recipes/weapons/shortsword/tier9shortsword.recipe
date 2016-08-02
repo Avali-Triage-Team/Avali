@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "refinedaegisalt", "count" : 12 }
+    { "item" : "refinedferozium", "count" : 12 }
   ],
   "output" : { "item" : "avalitierm1shortsword", "count" : 1 },
   "groups" : [ "craftingmanipulator", "weapons", "all" ]

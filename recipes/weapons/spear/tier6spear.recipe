@@ -1,6 +1,7 @@
 {
   "input" : [
-    { "item" : "refinedferozium", "count" : 16 }
+    { "item" : "refinedaegisalt", "count" : 16 },
+    { "item" : "solariumstar", "count" : 16 }
   ],
   "output" : { "item" : "avalitiera2spear", "count" : 1 },
   "groups" : [ "craftingaccelerator", "weapons", "all" ]

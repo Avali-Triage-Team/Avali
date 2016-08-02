@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "refinedaegisalt", "count" : 16 },
+    { "item" : "refinedviolium", "count" : 16 },
     { "item" : "solariumstar", "count" :  16}
   ],
   "output" : { "item" : "avalitiers2spear", "count" : 1 },
