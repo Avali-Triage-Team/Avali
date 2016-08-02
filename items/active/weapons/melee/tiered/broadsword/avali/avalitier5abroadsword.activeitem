@@ -82,6 +82,6 @@
     }
   },
   "palette" : "/items/active/weapons/colors/tier5melee.weaponcolors",
-  "altAbilityType" : "spinslash",
+  "altAbilityType" : "superspinslash",
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }
