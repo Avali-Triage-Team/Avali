@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "avalitiers2spear", "count" : 1 },
+    { "item" : "avalitier6sspear", "count" : 1 },
     { "item" : "aerogel", "count" : 1 }  
   ],
   "output" : { "item" : "avalitier10speardisplay", "count" : 1 },

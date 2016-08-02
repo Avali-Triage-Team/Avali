@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "avalitierm2dagger", "count" : 1 },
+    { "item" : "avalitier6mdagger", "count" : 1 },
     { "item" : "aerogel", "count" : 1 }  
   ],
   "output" : { "item" : "avalitier7daggerhanging", "count" : 1 },

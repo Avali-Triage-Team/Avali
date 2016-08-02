@@ -1,22 +1,22 @@
 {
-  "itemName" : "avalitiers1spear",
+  "itemName" : "avalitier5mspear",
   "price" : 160,
   "level" : 5,
   "maxStack" : 1,
   "rarity" : "rare",
-  "description" : "VL8 Icicle",
-  "shortdescription" : "VL8 Icicle",
+  "description" : "VL9 Icicle",
+  "shortdescription" : "VL9 Icicle",
   "tooltipKind" : "sword",
   "weaponType" : "Spear",
   "twoHanded" : true,
   "itemTags" : ["weapon","melee","spear"],
 
-  "inventoryIcon" : "avalitiers1spear.png",
+  "inventoryIcon" : "avalitier5mspear.png",
 
   "animation" : "/items/active/weapons/melee/spear/spear.animation",
   "animationParts" : {
     "handle" : "",
-    "blade": "/items/active/weapons/melee/tiered/spear/avali/avalitiers1spear.png"
+    "blade": "/items/active/weapons/melee/tiered/spear/avali/avalitier5mspear.png"
   },
   "animationCustom" : {
     "sounds" : {
@@ -38,7 +38,7 @@
       "statusEffects" : [ ],
       "knockbackMode" : "aim",
       "knockback" : 30,
-"timeoutGroup" : "primary",
+      "timeoutGroup" : "primary",
        "stances" : {
     "idle" : {
       "armRotation" : -90,
@@ -88,7 +88,8 @@
     }
   },
 
-  "palette" : "/items/active/weapons/colors/tier8melee.weaponcolors",
+ 
+  "palette" : "/items/active/weapons/colors/tier9melee.weaponcolors",
 
   "altAbilityType" : "spearspin",
 

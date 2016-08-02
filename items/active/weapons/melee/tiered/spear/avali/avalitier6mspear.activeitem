@@ -1,22 +1,22 @@
 {
-  "itemName" : "avalitiera2spear",
+  "itemName" : "avalitier6mspear",
   "price" : 160,
   "level" : 6,
   "maxStack" : 1,
   "rarity" : "legendary",
-  "description" : "VL6 Icicle",
-  "shortdescription" : "VL6 Icicle",
+  "description" : "VL7 Icicle",
+  "shortdescription" : "VL7 Icicle",
   "tooltipKind" : "sword",
   "weaponType" : "Spear",
   "twoHanded" : true,
   "itemTags" : ["weapon","melee","spear"],
 
-  "inventoryIcon" : "avalitiera2spear.png",
+  "inventoryIcon" : "avalitier6mspear.png",
 
   "animation" : "/items/active/weapons/melee/spear/spear.animation",
   "animationParts" : {
     "handle" : "",
-    "blade": "/items/active/weapons/melee/tiered/spear/avali/avalitiera2spear.png"
+    "blade": "/items/active/weapons/melee/tiered/spear/avali/avalitier6mspear.png"
   },
   "animationCustom" : {
     "sounds" : {
@@ -88,7 +88,7 @@
     }
   },
 
-  "palette" : "/items/active/weapons/colors/tier6melee.weaponcolors",
+  "palette" : "/items/active/weapons/colors/tier7melee.weaponcolors",
 
   "altAbilityType" : "spearspin",
 

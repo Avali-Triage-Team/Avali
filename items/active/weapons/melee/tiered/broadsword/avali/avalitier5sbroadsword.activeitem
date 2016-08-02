@@ -1,19 +1,19 @@
 {
-  "itemName" : "avalitiera2broadsword",
+  "itemName" : "avalitier5sbroadsword",
   "price" : 160,
-  "level" : 6,
+  "level" : 5,
   "maxStack" : 1,
-  "rarity" : "legendary",
+  "rarity" : "rare",
   "description" : "The 'Dire Shard' longblade is a rather impractical weapon, nonetheless the heavier variants can allegedly cleave a tank in two.",
-  "shortdescription" : "VB-XLA2 Dire Shard",
+  "shortdescription" : "VB-XLS1 Dire Shard",
   "tooltipKind" : "sword",
   "weaponType" : "Broadsword",
   "twoHanded" : true,
   "itemTags" : ["weapon","melee","broadsword"],
-  "inventoryIcon" : "avalitiera2broadsword.png",
+  "inventoryIcon" : "avalitier5sbroadsword.png",
   "animation" : "/items/active/weapons/melee/broadsword/combobroadsword.animation",
   "animationParts" : {
-    "blade" : "/items/active/weapons/melee/tiered/broadsword/avali/avalitiera2broadsword.png",
+    "blade" : "/items/active/weapons/melee/tiered/broadsword/avali/avalitier5mbroadsword.png",
     "handle" : "",
     "swoosh" : "/swoosh/avalibswordswoosh/avalibswordswoosh.png"
   }, 
@@ -48,7 +48,7 @@
     }
   },
   "baseWeaponRotation" : 10,
-  "palette" : "/items/active/weapons/colors/tier6melee.weaponcolors",
-  "altAbilityType" : "spinslash",
+  "palette" : "/items/active/weapons/colors/tier8melee.weaponcolors",
+  "altAbilityType" : "parry",
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

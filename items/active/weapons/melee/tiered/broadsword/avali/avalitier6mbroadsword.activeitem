@@ -1,19 +1,19 @@
 {
-  "itemName" : "avalitierm1broadsword",
+  "itemName" : "avalitier6mbroadsword",
   "price" : 160,
-  "level" : 5,
+  "level" : 6,
   "maxStack" : 1,
-  "rarity" : "rare",
+  "rarity" : "legendary",
   "description" : "The 'Dire Shard' longblade is a rather impractical weapon, nonetheless the heavier variants can allegedly cleave a tank in two.",
-  "shortdescription" : "VB-XLM1 Dire Shard",
+  "shortdescription" : "VB-XLM2 Dire Shard",
   "tooltipKind" : "sword",
   "weaponType" : "Broadsword",
   "twoHanded" : true,
   "itemTags" : ["weapon","melee","broadsword"],
-  "inventoryIcon" : "avalitierm1broadsword.png",
+  "inventoryIcon" : "avalitier6mbroadsword.png",
   "animation" : "/items/active/weapons/melee/broadsword/combobroadsword.animation",
   "animationParts" : {
-    "blade" : "/items/active/weapons/melee/tiered/broadsword/avali/avalitierm1broadsword.png",
+    "blade" : "/items/active/weapons/melee/tiered/broadsword/avali/avalitier6mbroadsword.png",
     "handle" : "",
     "swoosh" : "/swoosh/avalibswordswoosh/avalibswordswoosh.png"
   }, 
@@ -48,39 +48,7 @@
     }
   },
   "baseWeaponRotation" : 10,
-  "stances" : {
-    "idle" : {
-      "armRotation" : -90,
-      "weaponRotation" : -10,
-      "allowRotate" : false,
-      "allowFlip" : true
-    },
-    "windup" : {
-      "duration" : 0.1,
-      "armRotation" : 90,
-      "weaponRotation" : -10,
-      "twoHanded" : true,
-      "allowRotate" : false,
-      "allowFlip" : true
-    },
-    "preslash" : {
-      "duration" : 0.025,
-      "armRotation" : 55,
-      "weaponRotation" : -45,
-      "twoHanded" : true,
-      "allowRotate" : false,
-      "allowFlip" : false
-    },
-    "fire" : {
-      "duration" : 0.4,
-      "armRotation" : -45,
-      "weaponRotation" : -55,
-      "twoHanded" : true,
-      "allowRotate" : false,
-      "allowFlip" : false
-    }
-  },
-  "palette" : "/items/active/weapons/colors/tier9melee.weaponcolors",
-  "altAbilityType" : "spinslash",
+  "palette" : "/items/active/weapons/colors/tier7melee.weaponcolors",
+  "altAbilityType" : "bladecharge",
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

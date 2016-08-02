@@ -3,6 +3,6 @@
     { "item" : "refinedferozium", "count" : 16 },
     { "item" : "solariumstar", "count" : 16 }
   ],
-  "output" : { "item" : "avalitierm2hammer", "count" : 1 },
+  "output" : { "item" : "avalitier6mhammer", "count" : 1 },
   "groups" : [ "craftingmanipulator", "weapons", "all" ]
 }

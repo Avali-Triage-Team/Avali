@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "avalitiera1shortsword", "count" : 1 },
+    { "item" : "avalitier5ashortsword", "count" : 1 },
     { "item" : "aerogel", "count" : 1 }  
   ],
   "output" : { "item" : "avalitier5shortswordhanging", "count" : 1 },

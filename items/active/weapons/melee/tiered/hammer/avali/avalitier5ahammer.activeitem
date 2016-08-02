@@ -1,19 +1,19 @@
 {
-  "itemName" : "avalitierm1hammer",
+  "itemName" : "avalitier5ahammer",
   "price" : 160,
   "level" : 5,
   "maxStack" : 1,
   "rarity" : "rare",
   "description" : "The glacier-type 'skeleton key' is used for breaking down doors, or sometimes walls, with it's on board rocket motor and guidance fins.",
-  "shortdescription" : "SK9 Glacier",
+  "shortdescription" : "SKA1 Glacier",
   "tooltipKind" : "sword",
   "weaponType" : "Hammer",
   "twoHanded" : true,
   "itemTags" : ["weapon","melee","hammer"],
-  "inventoryIcon" : "avalitierm1hammer.png",
+  "inventoryIcon" : "avalitier5ahammer.png",
   "animation" : "/items/active/weapons/melee/hammer/hammer.animation",
   "animationParts" : {
-    "handle" : "/items/active/weapons/melee/tiered/hammer/avali/avalitierm1hammer.png",
+    "handle" : "/items/active/weapons/melee/tiered/hammer/avali/avalitier5ahammer.png",
     "blade" : ""
   },
   "animationCustom" : {
@@ -82,7 +82,8 @@
     "smashMomentum" : [0, -45]
   },
   "baseWeaponRotation" : 10,
-  "palette" : "/items/active/weapons/colors/tier9melee.weaponcolors",
-  "altAbilitySource" : "/items/active/weapons/melee/altabilities/hammer/shockwave/physicalshockwave.altability",
+  
+  "palette" : "/items/active/weapons/colors/tier5melee.weaponcolors",
+  "altAbilityType" : "groundslam",
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

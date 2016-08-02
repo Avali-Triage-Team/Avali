@@ -1,5 +1,5 @@
 {
-  "itemName" : "avalitiers2broadsword",
+  "itemName" : "avalitier6sbroadsword",
   "price" : 160,
   "level" : 6,
   "maxStack" : 1,
@@ -10,10 +10,10 @@
   "weaponType" : "Broadsword",
   "twoHanded" : true,
   "itemTags" : ["weapon","melee","broadsword"],
-  "inventoryIcon" : "avalitiers2broadsword.png",
+  "inventoryIcon" : "avalitier6sbroadsword.png",
   "animation" : "/items/active/weapons/melee/broadsword/combobroadsword.animation",
   "animationParts" : {
-    "blade" : "/items/active/weapons/melee/tiered/broadsword/avali/avalitiers2broadsword.png",
+    "blade" : "/items/active/weapons/melee/tiered/broadsword/avali/avalitier6sbroadsword.png",
     "handle" : "",
     "swoosh" : "/swoosh/avalibswordswoosh/avalibswordswoosh.png"
   }, 
@@ -49,6 +49,6 @@
   },
   "baseWeaponRotation" : 10,
   "palette" : "/items/active/weapons/colors/tier10melee.weaponcolors",
-  "altAbilityType" : "spinslash",
+  "altAbilityType" : "parry",
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

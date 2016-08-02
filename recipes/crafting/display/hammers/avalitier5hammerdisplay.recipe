@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "avalitiera1hammer", "count" : 1 },
+    { "item" : "avalitier5ahammer", "count" : 1 },
     { "item" : "aerogel", "count" : 1 }  
   ],
   "output" : { "item" : "avalitier5hammerdisplay", "count" : 1 },

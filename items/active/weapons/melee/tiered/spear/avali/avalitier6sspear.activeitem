@@ -1,5 +1,5 @@
 {
-  "itemName" : "avalitiers2spear",
+  "itemName" : "avalitier6sspear",
   "price" : 160,
   "level" : 6,
   "maxStack" : 1,
@@ -11,12 +11,12 @@
   "twoHanded" : true,
   "itemTags" : ["weapon","melee","spear"],
 
-  "inventoryIcon" : "avalitiers2spear.png",
+  "inventoryIcon" : "avalitier6sspear.png",
 
   "animation" : "/items/active/weapons/melee/spear/spear.animation",
   "animationParts" : {
     "handle" : "",
-    "blade": "/items/active/weapons/melee/tiered/spear/avali/avalitiers2spear.png"
+    "blade": "/items/active/weapons/melee/tiered/spear/avali/avalitier6sspear.png"
   },
   "animationCustom" : {
     "sounds" : {
@@ -38,8 +38,8 @@
       "statusEffects" : [ ],
       "knockbackMode" : "aim",
       "knockback" : 30,
-"timeoutGroup" : "primary",
-       "stances" : {
+      "timeoutGroup" : "primary",
+      "stances" : {
     "idle" : {
       "armRotation" : -90,
       "weaponRotation" : 0,
@@ -90,7 +90,7 @@
 
   "palette" : "/items/active/weapons/colors/tier10melee.weaponcolors",
 
-  "altAbilityType" : "spearspin",
+  "altAbilityType" : "flurry",
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

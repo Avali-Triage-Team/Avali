@@ -83,6 +83,6 @@
   },
   "baseWeaponRotation" : 10,
   "palette" : "/items/active/weapons/colors/tier2melee.weaponcolors",
-  "altAbilityType" : "physicalshockwave",
+  "altAbilityType" : "uppercut",
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

@@ -3,6 +3,6 @@
     { "item" : "solariumstar", "count" : 8 },
     { "item" : "refinedviolium", "count" : 8}
   ],
-  "output" : { "item" : "avalitiers2dagger", "count" : 1 },
+  "output" : { "item" : "avalitier6sdagger", "count" : 1 },
   "groups" : [ "craftingseparator", "weapons", "all" ]
 }

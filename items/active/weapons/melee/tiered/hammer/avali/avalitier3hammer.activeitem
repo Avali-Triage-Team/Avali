@@ -84,6 +84,6 @@
   "baseWeaponRotation" : 10,
   
   "palette" : "/items/active/weapons/colors/tier3melee.weaponcolors",
-  "altAbilityType" : "groundslam",
+  "altAbilityType" : "uppercut",
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

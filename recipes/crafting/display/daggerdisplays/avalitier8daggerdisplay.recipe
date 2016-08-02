@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "avalitiers1dagger", "count" : 1 },
+    { "item" : "avalitier5sdagger", "count" : 1 },
     { "item" : "aerogel", "count" : 1 }  ,
     { "item" : "campcanvas", "count" : 1 } 
   ],
