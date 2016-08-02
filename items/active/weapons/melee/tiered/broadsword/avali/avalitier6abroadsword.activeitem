@@ -39,7 +39,7 @@
   "primaryAbilityType" : "broadswordcombo",
   "primaryAbility"  : {
     "fireTime" : 0.83,
-    "baseDps" : 11.25,
+    "baseDps" : 11.5,
     "damageConfig" : {
       "damageSourceKind" : "broadsword",
       "knockback" : 20,
@@ -49,6 +49,6 @@
   },
   "baseWeaponRotation" : 10,
   "palette" : "/items/active/weapons/colors/tier6melee.weaponcolors",
-  "altAbilityType" : "superspinslash",
+  "altAbilityType" : "spinslash",
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

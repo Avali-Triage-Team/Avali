@@ -32,14 +32,14 @@
 
   "elementalType" : "electric",
 
-  "primaryAbility" : {
+  "primaryAbility" : { 
     "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
     "class" : "GunFire",
-    "fireTime" : 0.10,
-    "baseDps" : 7,
-    "energyUsage" : 27.0,
-    "projectileCount" : 1,
-    "inaccuracy" : 0.04,
+    "fireTime" : 0.09,
+    "baseDps" : 6,
+    "energyUsage" : 12.5.0,
+    "projectileCount" : 3,
+    "inaccuracy" : 0.015,
     "stances" : {
       "idle" : {
         "armRotation" : 0,
@@ -77,7 +77,8 @@
   },
 
 
-  "altAbilityType" : "explosiveburst",
+  "altAbilityType" : "spray",
+
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

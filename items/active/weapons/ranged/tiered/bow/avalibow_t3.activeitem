@@ -13,7 +13,7 @@
 
   "radioMessagesOnPickup" : [ "pickupbow" ],
 
-  "level" : 3,
+  "level" : 4,
 
   "animation" : "/items/active/weapons/bow/bow.animation",
   "animationParts" : {

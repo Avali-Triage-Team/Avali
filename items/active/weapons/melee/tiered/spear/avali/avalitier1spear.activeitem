@@ -32,7 +32,7 @@
   "primaryAbilityType" : "spearstab",
   "primaryAbility" : {
     "fireTime" : 0.9,
-    "baseDps" : 11.11,
+    "baseDps" : 10.5,
     "damageConfig" : {
       "damageSourceKind" : "spear",
       "statusEffects" : [ ],
@@ -90,7 +90,7 @@
 
   "palette" : "/items/active/weapons/colors/tier1melee.weaponcolors",
 
-  "altAbilityType" : "spearspin",
+  "altAbilityType" : "parry",
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }
