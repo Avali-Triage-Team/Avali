@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "durasteelbar", "count" : 1 },
+    { "item" : "aerogel", "count" : 5 }
+  ],
+  "output" : { "item" : "aerogelrail", "count" : 20 },
+  "duration" : 1.0,
+  "groups" : [ "rail" ]
+}

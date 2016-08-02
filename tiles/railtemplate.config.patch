@@ -1,0 +1,36 @@
+[
+  {
+    "op": "add",
+    "path": "/rules/IsRail/entries/-",
+    "value": {
+      "type": "EqualsId",
+      "id": 12525
+    }
+  },
+  {
+    "op": "add",
+    "path": "/rules/IsRail/entries/-",
+    "value": {
+      "type": "EqualsId",
+      "id": 12524
+    }
+  },
+  {
+    "op": "add",
+    "path": "/rules/NotRail/entries/-",
+    "value": {
+      "type": "EqualsId",
+      "id": 12525,
+      "inverse": true
+    }
+  },
+  {
+    "op": "add",
+    "path": "/rules/NotRail/entries/-",
+    "value": {
+      "type": "EqualsId",
+      "id": 12524,
+      "inverse": true
+    }
+  }
+]

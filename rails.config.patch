@@ -1,0 +1,18 @@
+[
+  {
+    "op": "add",
+    "path": "/aerogelrail",
+    "value": {
+      "friction": 1,
+      "speedLimit": 60
+    }
+  },
+  {
+    "op": "add",
+    "path": "/aerogelcompositerail",
+    "value": {
+      "friction": 1,
+      "speedLimit": 60
+    }
+  }
+]

@@ -208,6 +208,8 @@
       { "item" : "avaliutilitylight6" },
       { "item" : "avaliutilitylight7" },
       { "item" : "avaliutilitylight8" },
+      { "item" : "aerogelcompositerail" },
+      { "item" : "aerogelrail" },
       { "item" : "aerogelrailplatform" }
     ]
   },

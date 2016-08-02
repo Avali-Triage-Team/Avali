@@ -1,0 +1,15 @@
+{
+  "itemName" : "aerogelcompositerail",
+  "price" : 0,
+  "category" : "rail",
+  "rarity" : "Common",
+  "inventoryIcon" : "aerogelcompositerail.png",
+  "description" : "A strong reinforced rail.",
+  "shortdescription" : "Aero-Graphite Rail",
+  "glitchdescription" : "Pleased. The material this rail is made from makes it very strong.",
+  "florandescription" : "Shiny rails.",
+  "novakiddescription" : "Some sturdy lookin' rails, gettin' the itch to ride 'em.",
+
+
+  "materialId" : 12525
+}

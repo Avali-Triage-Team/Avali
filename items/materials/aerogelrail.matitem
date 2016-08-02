@@ -1,0 +1,15 @@
+{
+  "itemName" : "aerogelrail",
+  "price" : 0,
+  "category" : "rail",
+  "rarity" : "Common",
+  "inventoryIcon" : "aerogelrail.png",
+  "description" : "A strong reinforced rail.",
+  "shortdescription" : "Aerogel Rail",
+  "glitchdescription" : "Pleased. The material this rail is made from makes it very strong.",
+  "florandescription" : "Shiny glassy rails. Isss it sssafe?",
+  "novakiddescription" : "Some sturdy lookin' rails, gettin' the itch to ride 'em.",
+
+
+  "materialId" : 12524
+}
