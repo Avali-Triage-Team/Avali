@@ -1,9 +1,0 @@
-{
-  "input" : [
-    { "item" : "avalitier10dagger", "count" : 1 },
-    { "item" : "aerogel", "count" : 1 }  ,
-    { "item" : "campcanvas", "count" : 1 } 
-  ],
-  "output" : { "item" : "avalitier10daggerdisplay", "count" : 1 },
-  "groups" : [ "objects", "avalidisplayapparatus", "all" ]
-}

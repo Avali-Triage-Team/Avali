@@ -3,5 +3,5 @@
     { "item" : "money", "count" : 100 }  
   ],
   "output" : { "item" : "avalidisplayapparatus", "count" : 1 },
-  "groups" : [ "decoration", "avalilathe", "all" ]
+  "groups" : [ "craftingstations", "avalilathe", "all" ]
 }

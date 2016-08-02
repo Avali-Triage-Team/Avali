@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "refinedaegisalt", "count" : 16 }
-  ],
-  "output" : { "item" : "avalitier9broadsword", "count" : 1 },
-  "groups" : [ "craftingmanipulator", "weapons", "all" ]
-}

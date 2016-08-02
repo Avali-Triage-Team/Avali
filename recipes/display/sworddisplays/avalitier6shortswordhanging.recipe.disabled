@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "avalitier6shortsword", "count" : 1 },
-    { "item" : "aerogel", "count" : 1 }  
-  ],
-  "output" : { "item" : "avalitier6shortswordhanging", "count" : 1 },
-  "groups" : [ "objects", "avalidisplayapparatus", "all" ]
-}
