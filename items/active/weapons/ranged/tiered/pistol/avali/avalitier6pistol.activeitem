@@ -1,6 +1,6 @@
 {
   "itemName" : "avalitier6pistol",
-  "price" : 300,
+  "price" : 2300,
   "inventoryIcon" : "avalipistol.png",
   "maxStack" : 1,
   "rarity" : "legendary",
@@ -32,14 +32,14 @@
 
   "elementalType" : "physical",
 
-  "primaryAbility" : {
+ "primaryAbility" : {
     "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
     "class" : "GunFire",
     "fireTime" : 1.0,
-    "baseDps" : 4.5,
-    "energyUsage" : 13.5,
+    "baseDps" : 6.25,
+    "energyUsage" : 18.75,
     "projectileCount" : 1,
-    "inaccuracy" : 0.025,
+"inaccuracy" : 0.025,
       "stances" : {
     "idle" : {
       "armRotation" : 0,

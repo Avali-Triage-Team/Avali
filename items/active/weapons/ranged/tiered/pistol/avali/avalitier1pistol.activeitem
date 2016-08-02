@@ -1,6 +1,6 @@
 {
   "itemName" : "avalitier1pistol",
-  "price" : 100,
+  "price" : 640,
   "inventoryIcon" : "avalipistol.png",
   "maxStack" : 1,
   "rarity" : "common",
@@ -36,8 +36,8 @@
     "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
     "class" : "GunFire",
     "fireTime" : 1.0,
-    "baseDps" : 4.5,
-    "energyUsage" : 13.5,
+    "baseDps" : 6.25,
+    "energyUsage" : 18.75,
     "projectileCount" : 1,
 "inaccuracy" : 0.025,
       "stances" : {

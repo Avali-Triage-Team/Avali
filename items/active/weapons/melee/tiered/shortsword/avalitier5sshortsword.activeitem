@@ -43,7 +43,7 @@
   "primaryAbilityType": "shortswordcombo",
   "primaryAbility": {
     "fireTime": 0.625,
-    "baseDps": 10.125
+    "baseDps": 8.5
   },
   "baseWeaponRotation" : 20,
   "palette" : "/items/active/weapons/colors/tier8melee.weaponcolors",

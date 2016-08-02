@@ -36,9 +36,9 @@
     "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
     "class" : "GunFire",
     "fireTime" : 1.8,
-    "baseDps" : 2,
-    "energyUsage" : 18.0,
-    "inaccuracy" : 0.01,
+    "baseDps" : 8.5,
+    "energyUsage" : 25.5,
+    "inaccuracy" : 0.008,
     "stances" : {
       "idle" : {
         "armRotation" : 0,
@@ -77,6 +77,7 @@
   },
 
   "altAbilityType" : "grenadelauncher",
+
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

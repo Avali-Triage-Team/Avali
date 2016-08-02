@@ -39,7 +39,7 @@
   "primaryAbilityType" : "broadswordcombo",
   "primaryAbility"  : {
     "fireTime" : 0.83,
-    "baseDps" : 11.25,
+    "baseDps" : 11.5,
     "damageConfig" : {
       "damageSourceKind" : "broadsword",
       
