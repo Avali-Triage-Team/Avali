@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "solariumstar", "count" : 12 },
-    { "item" : "refienedaegisalt", "count" : 12 }
+    { "item" : "refinedaegisalt", "count" : 12 }
   ],
   "output" : { "item" : "avalitier6ashortsword", "count" : 1 },
   "groups" : [ "craftingaccelerator", "weapons", "all" ]

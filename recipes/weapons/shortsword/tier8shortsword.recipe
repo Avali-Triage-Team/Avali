@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "refienedviolium", "count" : 12 }
+    { "item" : "refinedviolium", "count" : 12 }
   ],
   "output" : { "item" : "avalitier5sshortsword", "count" : 1 },
   "groups" : [ "craftingseparator", "weapons", "all" ]
