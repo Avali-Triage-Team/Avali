@@ -5,8 +5,8 @@
   "price" : 300,
   "rarity" : "Rare",
   "category" : "chestarmour",
-  "description" : "Rubium armoured plates inserted into Avali armour. Equip these in your armour slots, and place your clothing or armour in the vanity slots.",
-  "shortdescription" : "Rubium Vest Insert",
+  "description" : "Ferozium armoured plates inserted into Avali armour. Equip these in your armour slots, and place your clothing or armour in the vanity slots.",
+  "shortdescription" : "Ferozium Vest Insert",
   "tooltipKind" : "armor",
 
   "maleFrames" : {
@@ -48,8 +48,8 @@
   "itemTags" : [ "tier5armour" ],
 
   "colorOptions" : [
-    /* RED */
-    { "ffca8a" : "f4988c", "e0975c" : "d93a3a", "a85636" : "932625", "6f2919" : "601119" },
+    // TEAL
+    { "ffca8a" : "a8e6e2", "e0975c" : "4facb2", "a85636" : "30636c", "6f2919" : "233c43" },
     /* BLACK */
     { "ffca8a" : "838383", "e0975c" : "555555", "a85636" : "383838", "6f2919" : "151515" },
     /* GREY */

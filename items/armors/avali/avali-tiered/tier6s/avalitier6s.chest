@@ -5,8 +5,8 @@
   "price" : 400,
   "rarity" : "Legendary",
   "category" : "chestarmour",
-  "description" : "Impervium armoured plates inserted into Avali armour. Equip these in your armour slots, and place your clothing or armour in the vanity slots.",
-  "shortdescription" : "Impervium Vest Insert",
+  "description" : "Solarium-infused Violium armoured plates inserted into Avali armour. Equip these in your armour slots, and place your clothing or armour in the vanity slots.",
+  "shortdescription" : "Sol-Violium Vest Insert",
   "tooltipKind" : "armor",
 
   "maleFrames" : {
@@ -26,7 +26,7 @@
     {
       "levelFunction" : "manipulatorArmorLevelPowerMultiplierMultiplier",
       "stat" : "powerMultiplier",
-      "baseMultiplier" : 1.25
+      "baseMultiplier" : 1.2
     },
     {
       "levelFunction" : "manipulatorArmorLevelProtectionMultiplier",
@@ -41,7 +41,7 @@
     {
       "levelFunction" : "manipulatorArmorLevelMaxHealthMultiplier",
       "stat" : "maxHealth",
-      "amount" : 5
+      "amount" : 10
     }
   ],
   

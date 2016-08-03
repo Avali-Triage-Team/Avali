@@ -5,8 +5,8 @@
   "price" : 400,
   "rarity" : "Legendary",
   "category" : "headarmour",
-  "description" : "Impervium armoured plates inserted into Avali armour. Equip these in your armour slots, and place your clothing or armour in the vanity slots.",
-  "shortdescription" : "Impervium Helmet Insert",
+  "description" : "Solarium-infused Violium armoured plates inserted into Avali armour. Equip these in your armour slots, and place your clothing or armour in the vanity slots.",
+  "shortdescription" : "Sol-Violium Helmet Insert",
   "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
@@ -18,7 +18,7 @@
     {
       "levelFunction" : "manipulatorArmorLevelPowerMultiplierMultiplier",
       "stat" : "powerMultiplier",
-      "baseMultiplier" : 1.15
+      "baseMultiplier" : 1.1
     },
     {
       "levelFunction" : "manipulatorArmorLevelProtectionMultiplier",
@@ -33,7 +33,7 @@
     {
       "levelFunction" : "manipulatorArmorLevelMaxHealthMultiplier",
       "stat" : "maxHealth",
-      "amount" : 3
+      "amount" : 6
     }
   ],
 
