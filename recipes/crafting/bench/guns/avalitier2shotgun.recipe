@@ -3,6 +3,6 @@
     { "item" : "tungstenbar", "count" : 15 },
   { "item" : "money", "count" : 200 }
   ],
-  "output" : { "item" : "avalitier2shotgun", "count" : 1 },
+  "output" : { "item" : "avalishotgun", "data" : { "level" : 2, "shortdescription" : "QRC Type-2" }, "count" : 1 },
   "groups" : [ "avalibench", "weapons", "all" ]
 }

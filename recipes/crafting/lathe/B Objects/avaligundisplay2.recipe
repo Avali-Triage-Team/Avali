@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "avalitier1sniper", "count" : 1 },
+    { "item" : "avalisniper", "data" : { "level" : 1, "shortdescription" : "FM1 Firelance" }, "count" : 1 },
     { "item" : "aerogel", "count" : 1 }  
   ],
   "output" : { "item" : "avaligundisplay2", "count" : 1 },

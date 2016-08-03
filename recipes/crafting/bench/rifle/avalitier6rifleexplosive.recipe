@@ -1,9 +1,0 @@
-{
-  "input" : [
-    { "item" : "avalitoken", "count" : 1 },
-  { "item" : "avalitier6rifle", "count" : 1 },
-  { "item" : "money", "count" : 250}
-  ],
-  "output" : { "item" : "avalitier6rifleexplosive", "count" : 1 },
-  "groups" : [ "avalibench", "weapons", "all" ]
-}

@@ -3,6 +3,6 @@
     { "item" : "titaniumbar", "count" : 8 },
   { "item" : "money", "count" : 100}
  ],
-  "output" : { "item" : "avalitier3pistol", "count" : 1 },
+  "output" : { "item" : "avalipistol", "data" : { "level" : 3, "shortdescription" : "PD3 Frostbite" }, "count" : 1 },
   "groups" : [ "avalibench", "weapons", "all" ]
 }

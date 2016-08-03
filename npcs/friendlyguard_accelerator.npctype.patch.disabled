@@ -10,9 +10,9 @@
         ],
         "chest": [ { "name": "avaliguardtier5achest", "data" : { "colorIndex" : [7] } } ],
         "legs": [  { "name": "avaliarmor3pants", "data" : { "colorIndex" : [7] } } ],
-        "primary": [ { "name": "avalitier5rifle" } ],
+        "primary": [ { "name": "avalirifle", "data" : { "level" : 5, "shortdescription" : "AR5 Blizzard" } } ],
         "sheathedprimary": [ { "name": "avalitier5spear" } ],
-        "alt": [ { "name": "avalitier5minigun" } ]
+        "alt": [ { "name": "avalishotgun", "data" : { "level" : 5, "shortdescription" : "MG5 Hailstorm" } } ]
       } ] ],
       [6, [ {
         "head" : [ 
@@ -22,9 +22,9 @@
         ],
         "chest": [ { "name": "avaliguardtier6achest", "data" : { "colorIndex" : [7] } } ],
         "legs": [  { "name": "avaliarmor3pants", "data" : { "colorIndex" : [7] } } ],
-        "primary": [ { "name": "avalitier6minigun" } ],
+        "primary": [ { "name": "avaliminigun", "data" : { "level" : 6 } } ],
         "sheathedprimary": [ { "name": "avalitier1broadsword" } ],
-        "alt": [ { "name": "avalitier6shotgun" } ]
+        "alt": [ { "name": "avalishotgun" }, "data" : { "level" : 6 } ]
       } ] ]
     ]
   }

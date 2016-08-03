@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "avalitier1pistol", "count" : 1 },
+    { "item" : "avalipistol", "data" : { "level" : 1, "shortdescription" : "PD1 Frostbite" }, "count" : 1 },
     { "item" : "aerogel", "count" : 1 }  
   ],
   "output" : { "item" : "avaligundisplay4", "count" : 1 },

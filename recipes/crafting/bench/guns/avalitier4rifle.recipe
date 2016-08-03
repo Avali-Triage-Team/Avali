@@ -3,6 +3,6 @@
     { "item" : "durasteelbar", "count" : 12 },
   { "item" : "money", "count" : 200 }
   ],
-  "output" : { "item" : "avalitier4rifle", "count" : 1 },
+  "output" : { "item" : "avalirifle", "data" : { "level" : 4, "shortdescription" : "AR4 Blizzard", "rarity" : "Uncommon" }, "count" : 1 },
   "groups" : [ "avalibench", "weapons", "all" ]
 }

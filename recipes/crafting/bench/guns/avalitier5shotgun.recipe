@@ -2,6 +2,6 @@
   "input" : [
     { "item" : "refinedaegisalt", "count" : 15 }
   ],
-  "output" : { "item" : "avalitier5shotgun", "count" : 1 },
+  "output" : { "item" : "avalishotgun", "data" : { "level" : 5, "shortdescription" : "QRC Type-5", "rarity" : "Rare" }, "count" : 1 },
   "groups" : [ "avalibench", "weapons", "all" ]
 }

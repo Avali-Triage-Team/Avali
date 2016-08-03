@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "avalitier1minigun", "count" : 1 },
+    { "item" : "avaliminigun", "data" : { "level" : 1, "shortdescription" : "MG1 Hailstorm" }, "count" : 1 },
     { "item" : "aerogel", "count" : 1 }  
   ],
   "output" : { "item" : "avaligundisplay3", "count" : 1 },

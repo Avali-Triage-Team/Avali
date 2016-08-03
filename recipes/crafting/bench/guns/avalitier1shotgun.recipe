@@ -3,6 +3,6 @@
     { "item" : "ironbar", "count" : 15 },
   { "item" : "money", "count" : 200 }
   ],
-  "output" : { "item" : "avalitier1shotgun", "count" : 1 },
+  "output" : { "item" : "avalishotgun", "data" : { "level" : 1, "shortdescription" : "QRC Type-1" }, "count" : 1 },
   "groups" : [ "avalibench", "weapons", "all" ]
 }

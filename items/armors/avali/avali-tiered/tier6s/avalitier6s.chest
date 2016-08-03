@@ -26,7 +26,7 @@
     {
       "levelFunction" : "manipulatorArmorLevelPowerMultiplierMultiplier",
       "stat" : "powerMultiplier",
-      "baseMultiplier" : 1.2
+      "baseMultiplier" : 1.20833333333
     },
     {
       "levelFunction" : "manipulatorArmorLevelProtectionMultiplier",

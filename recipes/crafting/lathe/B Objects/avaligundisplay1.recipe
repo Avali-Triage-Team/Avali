@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "avalitier1rifle", "count" : 1 },
+    { "item" : "avalirifle", "data" : { "level" : 1, "shortdescription" : "AR1 Blizzard" }, "count" : 1 },
     { "item" : "aerogel", "count" : 1 }  
   ],
   "output" : { "item" : "avaligundisplay1", "count" : 1 },

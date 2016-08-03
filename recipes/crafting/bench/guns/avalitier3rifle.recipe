@@ -3,6 +3,6 @@
     { "item" : "titaniumbar", "count" : 12 },
   { "item" : "money", "count" : 200 }
   ],
-  "output" : { "item" : "avalitier3rifle", "count" : 1 },
+  "output" : { "item" : "avalirifle", "data" : { "level" : 3, "shortdescription" : "AR3 Blizzard" }, "count" : 1 },
   "groups" : [ "avalibench", "weapons", "all" ]
 }

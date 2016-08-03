@@ -10,7 +10,7 @@
         ],
         "chest": [ { "name": "avaliguardtier5schest", "data" : { "colorIndex" : [9] } } ],
         "legs": [  { "name": "avaliarmor3pants", "data" : { "colorIndex" : [9] } } ],
-        "primary": [ { "name": "avalitier6shotgun" } ],
+        "primary": [ { "name": "avalishotgun", "data" : { "level" : 6, "shortdescription" : "QRC Type-6" } } ],
         "sheathedprimary": [ { "name": "avalitier1shortsword" } ],
         "alt": [ { "name": "avalitier4barrier" } ]
       } ] ],
@@ -22,7 +22,7 @@
         ],
         "chest": [ { "name": "avaliguardtier6schest", "data" : { "colorIndex" : [9] } } ],
         "legs": [  { "name": "avaliarmor3pants", "data" : { "colorIndex" : [9] } } ],
-        "primary": [ { "name": "avalitier6shotgun" } ],
+        "primary": [ { "name": "avalishotgun", "data" : { "level" : 6, "shortdescription" : "QRC Type-6" } } ],
         "sheathedprimary": [ { "name": "avalitier1shortsword" } ],
         "alt": [ { "name": "avalitier4barrier" } ]
       } ] ]

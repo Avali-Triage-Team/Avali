@@ -3,6 +3,6 @@
     { "item" : "durasteelbar", "count" : 15 },
   { "item" : "money", "count" : 200 }
   ],
-  "output" : { "item" : "avalitier4shotgun", "count" : 1 },
+  "output" : { "item" : "avalishotgun", "data" : { "level" : 4, "shortdescription" : "QRC Type-4", "rarity" : "Uncommon" }, "count" : 1 },
   "groups" : [ "avalibench", "weapons", "all" ]
 }

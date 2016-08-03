@@ -3,6 +3,6 @@
     { "item" : "refinedaegisalt", "count" : 8 },
     { "item" : "solariumstar", "count" : 8 }
   ],
-  "output" : { "item" : "avalitier6pistol", "count" : 1 },
+  "output" : { "item" : "avalipistol", "data" : { "level" : 6, "shortdescription" : "PD6 Frostbite", "rarity" : "Legendary" }, "count" : 1 },
   "groups" : [ "avalibench", "weapons", "all" ]
 }

@@ -3,6 +3,6 @@
     { "item" : "ironbar", "count" : 18 },
   { "item" : "money", "count" : 250}
   ],
-  "output" : { "item" : "avalitier1sniper", "count" : 1 },
+  "output" : { "item" : "avalisniper", "data" : { "level" : 1, "shortdescription" : "FM1 Firelance" }, "count" : 1 },
   "groups" : [ "avalibench", "weapons", "all" ]
 }

@@ -3,6 +3,6 @@
     { "item" : "durasteelbar", "count" : 16 },
   { "item" : "money", "count" : 150}
   ],
-  "output" : { "item" : "avalitier4minigun", "count" : 1 },
+  "output" : { "item" : "avaliminigun", "data" : { "level" : 4, "shortdescription" : "MG4 Hailstorm", "rarity" : "Uncommon" }, "count" : 1 },
   "groups" : [ "avalibench", "weapons", "all" ]
 }

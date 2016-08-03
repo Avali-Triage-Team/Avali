@@ -3,6 +3,6 @@
     { "item" : "tungstenbar", "count" : 8 },
   { "item" : "money", "count" : 100}
   ],
-  "output" : { "item" : "avalitier2pistol", "count" : 1 },
+  "output" : { "item" : "avalipistol", "data" : { "level" : 2, "shortdescription" : "PD2 Frostbite" }, "count" : 1 },
   "groups" : [ "avalibench", "weapons", "all" ]
 }

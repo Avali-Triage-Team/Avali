@@ -3,6 +3,6 @@
     { "item" : "ironbar", "count" : 8 },
   { "item" : "money", "count" : 100 }
   ],
-  "output" : { "item" : "avalitier1pistol", "count" : 1 },
+  "output" : { "item" : "avalipistol", "data" : { "level" : 1, "shortdescription" : "PD1 Frostbite" }, "count" : 1 },
   "groups" : [ "avalibench", "weapons", "all" ]
 }

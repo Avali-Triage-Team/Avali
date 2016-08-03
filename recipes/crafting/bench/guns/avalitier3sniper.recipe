@@ -3,6 +3,6 @@
     { "item" : "titaniumbar", "count" : 18 },
   { "item" : "money", "count" : 250}
   ],
-  "output" : { "item" : "avalitier3sniper", "count" : 1 },
+  "output" : { "item" : "avalisniper", "data" : { "level" : 3, "shortdescription" : "FM3 Firelance" }, "count" : 1 },
   "groups" : [ "avalibench", "weapons", "all" ]
 }

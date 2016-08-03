@@ -3,6 +3,6 @@
     { "item" : "refinedaegisalt", "count" : 20 },
     { "item" : "solariumstar", "count" : 20 }
   ],
-  "output" : { "item" : "avalitier6shotgun", "count" : 1 },
+  "output" : { "item" : "avalishotgun", "data" : { "level" : 6, "shortdescription" : "QRC Type-6", "rarity" : "Legendary" }, "count" : 1 },
   "groups" : [ "avalibench", "weapons", "all" ]
 }
