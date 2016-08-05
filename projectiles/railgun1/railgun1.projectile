@@ -5,7 +5,7 @@
   "frameNumber" : 1,
   "damageKindImage" : "icon.png",
   "pointLight" : true,
-  "lightColor" : [255, 200, 120],
+  "lightColor" : [125, 100, 60],
   "actionOnReap" : [
     {
       "action" : "config",
