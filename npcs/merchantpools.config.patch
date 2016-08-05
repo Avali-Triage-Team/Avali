@@ -3,46 +3,46 @@
     "path" : "/avaliguns",
     "value" : [
       [ 0, [
-        { "item": { "name": "avalipistol", "data" : { "level" : 1 } }, "rarity" : 0.1 },
-        { "item": { "name": "avalirifle", "data" : { "level" : 1 } }, "rarity" : 0.1 },
-        { "item": { "name": "avalisniper", "data" : { "level" : 1 } }, "rarity" : 0.1 },
-        { "item": { "name": "avaliminigun", "data" : { "level" : 1 } }, "rarity" : 0.1 },
-        { "item": { "name": "avalishotgun", "data" : { "level" : 1 } }, "rarity" : 0.1 }
+        { "item": { "name": "avalipistol" }, "rarity" : 0.1 },
+        { "item": { "name": "avalirifle" }, "rarity" : 0.1 },
+        { "item": { "name": "avalisniper" }, "rarity" : 0.1 },
+        { "item": { "name": "avaliminigun" }, "rarity" : 0.1 },
+        { "item": { "name": "avalishotgun" }, "rarity" : 0.1 }
       ] ],
       [ 2, [
-        { "item": { "name": "avalipistol", "data" : { "level" : 2 } }, "rarity" : 0.1 },
-        { "item": { "name": "avalirifle", "data" : { "level" : 2 } }, "rarity" : 0.1 },
-        { "item": { "name": "avalisniper", "data" : { "level" : 2 } }, "rarity" : 0.1 },
-        { "item": { "name": "avaliminigun", "data" : { "level" : 2 } }, "rarity" : 0.1 },
-        { "item": { "name": "avalishotgun", "data" : { "level" : 2 } }, "rarity" : 0.1 }
+        { "item": { "name": "avalipistol", "data" : { "level" : 2, "shortdescription" : "PD2 Frostbite" } }, "rarity" : 0.1 },
+        { "item": { "name": "avalirifle", "data" : { "level" : 2, "shortdescription" : "AR2 Blizzard" } }, "rarity" : 0.1 },
+        { "item": { "name": "avalisniper", "data" : { "level" : 2, "shortdescription" : "FM2 Firelance" } }, "rarity" : 0.1 },
+        { "item": { "name": "avaliminigun", "data" : { "level" : 2, "shortdescription" : "MG2 Hailstorm" } }, "rarity" : 0.1 },
+        { "item": { "name": "avalishotgun", "data" : { "level" : 2, "shortdescription" : "QRC Type-2" } }, "rarity" : 0.1 }
       ] ],
       [ 3, [
-        { "item": { "name": "avalipistol", "data" : { "level" : 3 } }, "rarity" : 0.1 },
-        { "item": { "name": "avalirifle", "data" : { "level" : 3 } }, "rarity" : 0.1 },
-        { "item": { "name": "avalisniper", "data" : { "level" : 3 } }, "rarity" : 0.1 },
-        { "item": { "name": "avaliminigun", "data" : { "level" : 3 } }, "rarity" : 0.1 },
-        { "item": { "name": "avalishotgun", "data" : { "level" : 3 } }, "rarity" : 0.1 }
+        { "item": { "name": "avalipistol", "data" : { "level" : 3, "shortdescription" : "PD3 Frostbite" } }, "rarity" : 0.1 },
+        { "item": { "name": "avalirifle", "data" : { "level" : 3, "shortdescription" : "AR3 Blizzard" } }, "rarity" : 0.1 },
+        { "item": { "name": "avalisniper", "data" : { "level" : 3, "shortdescription" : "FM3 Firelance" } }, "rarity" : 0.1 },
+        { "item": { "name": "avaliminigun", "data" : { "level" : 3, "shortdescription" : "MG3 Hailstorm" } }, "rarity" : 0.1 },
+        { "item": { "name": "avalishotgun", "data" : { "level" : 3, "shortdescription" : "QRC Type-3" } }, "rarity" : 0.1 }
       ] ],  
       [ 4, [
-        { "item": { "name": "avalipistol", "data" : { "level" : 4 } }, "rarity" : 0.1 },
-        { "item": { "name": "avalirifle", "data" : { "level" : 4 } }, "rarity" : 0.1 },
-        { "item": { "name": "avalisniper", "data" : { "level" : 4 } }, "rarity" : 0.1 },
-        { "item": { "name": "avaliminigun", "data" : { "level" : 4 } }, "rarity" : 0.1 },
-        { "item": { "name": "avalishotgun", "data" : { "level" : 4 } }, "rarity" : 0.1 }
+        { "item": { "name": "avalipistol", "data" : { "level" : 4, "shortdescription" : "PD4 Frostbite", "rarity" : "Uncommon" } }, "rarity" : 0.1 },
+        { "item": { "name": "avalirifle", "data" : { "level" : 4, "shortdescription" : "AR4 Blizzard", "rarity" : "Uncommon" } }, "rarity" : 0.1 },
+        { "item": { "name": "avalisniper", "data" : { "level" : 4, "shortdescription" : "FM4 Firelance", "rarity" : "Uncommon" } }, "rarity" : 0.1 },
+        { "item": { "name": "avaliminigun", "data" : { "level" : 4, "shortdescription" : "MG4 Hailstorm", "rarity" : "Uncommon" } }, "rarity" : 0.1 },
+        { "item": { "name": "avalishotgun", "data" : { "level" : 4, "shortdescription" : "QRC Type-4", "rarity" : "Uncommon" } }, "rarity" : 0.1 }
       ] ],  
       [ 5, [
-        { "item": { "name": "avalipistol", "data" : { "level" : 5 } }, "rarity" : 0.1 },
-        { "item": { "name": "avalirifle", "data" : { "level" : 5 } }, "rarity" : 0.1 },
-        { "item": { "name": "avalisniper", "data" : { "level" : 5 } }, "rarity" : 0.1 },
-        { "item": { "name": "avaliminigun", "data" : { "level" : 5 } }, "rarity" : 0.1 },
-        { "item": { "name": "avalishotgun", "data" : { "level" : 5 } }, "rarity" : 0.1 }
+        { "item": { "name": "avalipistol", "data" : { "level" : 5, "shortdescription" : "PD5 Frostbite", "rarity" : "Rare" } }, "rarity" : 0.1 },
+        { "item": { "name": "avalirifle", "data" : { "level" : 5, "shortdescription" : "AR5 Blizzard", "rarity" : "Rare" } }, "rarity" : 0.1 },
+        { "item": { "name": "avalisniper", "data" : { "level" : 5, "shortdescription" : "FM5 Firelance", "rarity" : "Rare" } }, "rarity" : 0.1 },
+        { "item": { "name": "avaliminigun", "data" : { "level" : 5, "shortdescription" : "MG5 Hailstorm", "rarity" : "Rare" } }, "rarity" : 0.1 },
+        { "item": { "name": "avalishotgun", "data" : { "level" : 5, "shortdescription" : "QRC Type-5", "rarity" : "Rare" } }, "rarity" : 0.1 }
       ] ],  
       [ 6, [
-        { "item": { "name": "avalipistol", "data" : { "level" : 6 } }, "rarity" : 0.1 },
-        { "item": { "name": "avalirifle", "data" : { "level" : 6 } }, "rarity" : 0.1 },
-        { "item": { "name": "avalisniper", "data" : { "level" : 6 } }, "rarity" : 0.1 },
-        { "item": { "name": "avaliminigun", "data" : { "level" : 6 } }, "rarity" : 0.1 },
-        { "item": { "name": "avalishotgun", "data" : { "level" : 6 } }, "rarity" : 0.1 }
+        { "item": { "name": "avalipistol", "data" : { "level" : 6, "shortdescription" : "PD6 Frostbite", "rarity" : "Legendary" } }, "rarity" : 0.1 },
+        { "item": { "name": "avalirifle", "data" : { "level" : 6, "shortdescription" : "AR6 Blizzard", "rarity" : "Legendary" } }, "rarity" : 0.1 },
+        { "item": { "name": "avalisniper", "data" : { "level" : 6, "shortdescription" : "FM6 Firelance", "rarity" : "Legendary" } }, "rarity" : 0.1 },
+        { "item": { "name": "avaliminigun", "data" : { "level" : 6, "shortdescription" : "MG6 Hailstorm", "rarity" : "Legendary" } }, "rarity" : 0.1 },
+        { "item": { "name": "avalishotgun", "data" : { "level" : 6, "shortdescription" : "QRC Type-6", "rarity" : "Legendary" } }, "rarity" : 0.1 }
       ] ]
     ]
   },

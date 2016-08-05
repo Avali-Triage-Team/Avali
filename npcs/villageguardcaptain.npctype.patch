@@ -42,7 +42,7 @@
         "head": [ { "name": "avaliarmor5head", "data" : { "colorIndex" : [3] } } ],
         "chest": [ { "name": "avaliguardtier3chest", "data" : { "colorIndex" : [3] } } ],
         "legs": [  { "name": "avaliarmor3pants", "data" : { "colorIndex" : [3] } } ],
-        "primary": [ { "name": "avalitier3minigin" } ],
+        "primary": [ { "name": "avaliminigun", "data" : { "level" : 3, "shortdescription" : "MG3 Hailstorm" } } ],
         "sheathedprimary": [ { "name": "avalitier3spear" } ]
       } ] ]
     ]

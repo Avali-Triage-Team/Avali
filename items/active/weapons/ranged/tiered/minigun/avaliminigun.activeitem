@@ -77,7 +77,7 @@
   },
 
 
-  "altAbilityType" : "spray",
+  "altAbilityType" : "burstshot",
 
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"

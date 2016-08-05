@@ -17,7 +17,7 @@
     "butt" : "",
     "middle" : "avalisniper.png",
     "barrel" : "",
-    "muzzleFlash" : "/animations/snipermuzzle/snipermuzzle.png"
+    "muzzleFlash" : ""
   },
   "animationCustom" : {
     "sounds" : {
