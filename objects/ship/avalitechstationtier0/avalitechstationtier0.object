@@ -1,12 +1,17 @@
 {
   "objectName" : "avalitechstationTier0",
   "colonyTags" : ["avali"],
-  "rarity" : "Common",
   "printable" : false,
+  "rarity" : "Common",
 
   "interactAction" : "OpenAiInterface",
 
   "category" : "decorative",
+
+  "description" : "Ship-based Artificial Intelligence Lattice, or S.A.I.L for short.",
+  "shortdescription" : "S.A.I.L",
+  "race" : "avali",
+  
   "lightColor" : [128, 77, 77],
   "lightPosition" : [-1, 0],
   
@@ -14,16 +19,13 @@
   "flickerStrength" : 0.05,
   "flickerTiming" : 8,
 
-  "description" : "A tech station. For creating awesome tech!",
-  "shortdescription" : "Tech Station",
-  "race" : "avali",
-
-  "apexDescription" : "A tech station. Useful.",
-  "avianDescription" : "I can use this tech station to make things, when it's not off.",
-  "floranDescription" : "Floran create magic bang bangs!",
-  "glitchDescription" : "Admiration. An extremely advanced tech station.",
-  "humanDescription" : "A tech station. I can create awesome stuff here!",
-  "hylotlDescription" : "This tech station looks decent enough.",
+  "apexDescription" : "When it's working, I can talk to SAIL through this console.",
+  "avianDescription" : "Rebooting this station should enable me to talk to SAIL.",
+  "avaliDescription" : "This tech station would allow me to communicate with SAIL, if it were rebooted.",
+  "floranDescription" : "Floran fix thisss panel to wake ship up!",
+  "glitchDescription" : "Distressed. I first need to reboot this station to communicate with SAIL.",
+  "humanDescription" : "If I can reboot this station SAIL should come back online!",
+  "hylotlDescription" : "This console will allow me to communicate with SAIL. I need to reboot it first.",
   "novakidDescription" : "Time to reboot this station so I can talk to SAIL.",
 
   "inventoryIcon" : "avalitechstationTier0icon.png",

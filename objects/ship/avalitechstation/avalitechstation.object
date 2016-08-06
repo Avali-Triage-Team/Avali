@@ -1,25 +1,27 @@
 {
   "objectName" : "avalitechstation",
   "colonyTags" : ["avali"],
-  "rarity" : "Common",
   "printable" : false,
+  "rarity" : "Common",
 
   "interactAction" : "OpenAiInterface",
 
   "category" : "decorative",
+
+  "description" : "Ship-based Artificial Intelligence Lattice, or S.A.I.L for short.",
+  "shortdescription" : "S.A.I.L",
+  "race" : "avali",
+
   "lightColor" : [102, 61, 61],
   "lightPosition" : [-1, 0],
 
-  "description" : "This tech station allows me to communicate with S.A.I.L and enable tech!",
-  "shortdescription" : "Tech Station",
-  "race" : "avali",
-
-  "apexDescription" : "A tech station. I can enable tech and talk to S.A.I.L through this.",
-  "avianDescription" : "I can use this station to enable tech and talk to S.A.I.L.",
-  "floranDescription" : "Floran use thisss for magiccc and talk to sshhip S.A.I.L!",
-  "glitchDescription" : "Informative. This tech station allows me to choose tech and talk to S.A.I.L.",
-  "humanDescription" : "A tech station. Allows me to communicate with S.A.I.L and enable tech!",
-  "hylotlDescription" : "This tech station enables tech and allows me to communicate with S.A.I.L.",
+  "apexDescription" : "I can talk to SAIL through this console.",
+  "avianDescription" : "I can use this station to talk to SAIL.",
+  "avaliDescription" : "This tech station allows me to communicate with SAIL.",
+  "floranDescription" : "Floran use thisss magic panel to talk to SAIL!",
+  "glitchDescription" : "Happy. This station allows me to talk to SAIL.",
+  "humanDescription" : "This station allows me to communicate with SAIL.",
+  "hylotlDescription" : "This console allows me to communicate with SAIL.",
   "novakidDescription" : "This here station let's me talk with SAIL.",
 
   "inventoryIcon" : "apexrecordplayericon.png",
@@ -35,8 +37,7 @@
 
     }
   ],
-  
-  "turnInQuests" : [ "gaterepair" ],
+
   "offeredQuests" : [ "gaterepair" ],
 
   "animation" : "/objects/ship/techstation.animation",
