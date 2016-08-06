@@ -28,7 +28,7 @@
   "hylotlDescription" : "This console will allow me to communicate with SAIL. I need to reboot it first.",
   "novakidDescription" : "Time to reboot this station so I can talk to SAIL.",
 
-  "inventoryIcon" : "aavalitechstationTier0icon.png",
+  "inventoryIcon" : "avalitechstationTier0icon.png",
   "orientations" : [
     {
       "imageLayers" : [ { "image" : "avalitechstationTier0.png:<color>.<frame>", "fullbright" : true }, { "image" : "avalitechstationlitTier0.png:<color>.<frame>" } ],
