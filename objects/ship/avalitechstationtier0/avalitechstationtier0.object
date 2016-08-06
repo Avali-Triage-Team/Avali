@@ -12,7 +12,7 @@
   "shortdescription" : "S.A.I.L",
   "race" : "avali",
   
-  "lightColor" : [77, 111, 128],
+  "lightColor" : [128, 77, 77],
   "lightPosition" : [-1, 0],
   
   "flickerDistance" : 1.0,
