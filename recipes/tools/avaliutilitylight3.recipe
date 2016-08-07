@@ -9,5 +9,5 @@
     "item" : "avaliutilitylight3",
     "count" : 1
   },
-  "groups" : [ "craftingfarm2", "survival" ]
+  "groups" : [ "craftingfarm", "survival" ]
 }

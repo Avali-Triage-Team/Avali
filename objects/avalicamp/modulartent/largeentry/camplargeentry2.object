@@ -6,7 +6,7 @@
   "shortdescription" : "Tent Entrance",
   "race" : "generic",
   "category" : "decorative",
-  "printable" : false,
+  "printable" : true,
 
   "apexDescription" : "What a crude structure.",
   "avianDescription" : "Reminds me of a market on Avos.",

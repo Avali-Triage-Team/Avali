@@ -8,8 +8,7 @@
   "race" : "avali",
   "category" : "furniture",
   "price" : 18,
-  "printable" : false,
-  "retainObjectParametersInItem" : true,
+  "printable" : true,
   
   "apexDescription" : "Not the most practical furnishings.",
   "avianDescription" : "It beats straw bedding...",

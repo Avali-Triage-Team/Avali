@@ -5,7 +5,7 @@
   
   "category" : "door",
   "price" : 8,
-  "printable" : false,
+  "printable" : true,
   
   "description" : "A canvas curtain.",
   "shortdescription" : "Tent Door",

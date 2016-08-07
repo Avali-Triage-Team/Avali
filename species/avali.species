@@ -3,7 +3,7 @@
    "charCreationTooltip" : {
       "title" : "Avali",
       "subTitle" : "A",
-      "description" : "A race of highly intelligent four-earred, diminutive, fluffy, nomadic, space-raptors. They are known to be great hunters and singers."
+      "description" : "A race of highly intelligentm four-eared, diminutive, fluffy nomadic space-raptors. They are known to be great hunters and singers, and are also very adorable."
   },
 
   "nameGen" : [ "/species/avalinamegen.config:names", "/species/avalinamegen.config:names" ],

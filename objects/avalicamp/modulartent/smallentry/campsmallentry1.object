@@ -5,9 +5,8 @@
   "shortdescription" : "Decorative Awning",
   "race" : "generic",
   "category" : "decorative",
-  "printable" : false,
+  "printable" : true,
   "price" : 4,
-  "retainObjectParametersInItem" : true,
   
   "apexDescription" : "What a crude structure.",
   "avianDescription" : "Reminds me of a market on Avos.",

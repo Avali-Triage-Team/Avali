@@ -6,9 +6,8 @@
   "shortdescription" : "Decorative Topsheet",
   "race" : "generic",
   "category" : "decorative",
-  "printable" : false,
-  "price" : 10,
-  "retainObjectParametersInItem" : true, 
+  "printable" : true,
+  "price" : 10, 
 
   "apexDescription" : "What a crude structure.",
   "avianDescription" : "Reminds me of a market on Avos",

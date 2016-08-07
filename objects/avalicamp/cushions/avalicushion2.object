@@ -4,11 +4,10 @@
   "rarity" : "Common",
   "category" : "furniture",
   "price" : 11,
-  "printable" : false,
+  "printable" : true,
   "description" : "I wonder if the avali use their own down to fill these?",
   "shortdescription" : "Pillow",
   "race" : "avali",
-  "retainObjectParametersInItem" : true,
   
   "objectType" : "loungeable",
   "sitFlipDirection" : true,

@@ -8,5 +8,5 @@
     "item" : "avalihoe",
     "count" : 1
   },
-  "groups" : [ "craftingfarm2", "farming" ]
+  "groups" : [ "craftingfarm", "farming" ]
 }
