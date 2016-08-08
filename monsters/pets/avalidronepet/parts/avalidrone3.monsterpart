@@ -1,0 +1,9 @@
+{
+  "name" : "avalidrone3",
+  "category" : "avalidronepet",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "avalidrone3.png"
+  }
+}
