@@ -179,6 +179,8 @@
       { "item" : "camplargeentry2" },
       { "item" : "camplargewall1" },
       { "item" : "camplargewall2" },
+      { "item" : "camptapestry1" },
+      { "item" : "camptapestry2" },
       { "item" : "campslope1" },
       { "item" : "campslope2" },
       { "item" : "campsmallentry1" },

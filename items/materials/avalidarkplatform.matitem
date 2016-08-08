@@ -1,5 +1,6 @@
 {
   "itemName" : "avalidarkplatform",
+  "price" : 10,
   "rarity" : "Common",
   "inventoryIcon" : "avalidarkplatform.png",
   "description" : "Metal, darkly.",

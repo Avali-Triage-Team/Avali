@@ -1,5 +1,6 @@
 {
   "itemName" : "avalicable",
+  "price" : 10,
   "rarity" : "Common",
   "inventoryIcon" : "avalicable.png",
   "description" : "A little bit of metal.",

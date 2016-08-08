@@ -1,6 +1,6 @@
 {
   "itemName" : "aerogelcompositerail",
-  "price" : 0,
+  "price" : 10,
   "category" : "rail",
   "rarity" : "Common",
   "inventoryIcon" : "aerogelcompositerail.png",

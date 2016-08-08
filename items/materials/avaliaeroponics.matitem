@@ -1,5 +1,6 @@
 {
   "itemName" : "avaliaeroponics",
+  "price" : 10,
   "rarity" : "Common",
   "inventoryIcon" : "avaliaeroponics.png",
   "description" : "These tubes transport a water-rich nutrient aerosol for growing plants indoors.",

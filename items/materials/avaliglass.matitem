@@ -1,6 +1,6 @@
 {
   "itemName" : "avaliglass",
-  "price" : 0,
+  "price" : 10,
   "category" : "block",
   "rarity" : "Common",
   "inventoryIcon" : "avaliglass.png",

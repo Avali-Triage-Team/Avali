@@ -1,5 +1,6 @@
 {
   "itemName" : "avalichits",
+  "price" : 10,
   "rarity" : "Common",
   "inventoryIcon" : "avalichits.png",
   "description" : "Physical storage for physical backups",

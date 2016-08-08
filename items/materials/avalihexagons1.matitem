@@ -1,5 +1,6 @@
 {
   "itemName" : "avalihexagons1",
+  "price" : 10,
   "rarity" : "Common",
   "inventoryIcon" : "avalihexagons1.png",
   "description" : "Plating like a Glitch Hive.",

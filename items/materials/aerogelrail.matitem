@@ -1,6 +1,6 @@
 {
   "itemName" : "aerogelrail",
-  "price" : 0,
+  "price" : 10,
   "category" : "rail",
   "rarity" : "Common",
   "inventoryIcon" : "aerogelrail.png",

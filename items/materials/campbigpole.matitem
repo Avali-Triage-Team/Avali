@@ -1,5 +1,6 @@
 {
   "itemName" : "campbigpole",
+  "price" : 10,
   "rarity" : "Common",
   "inventoryIcon" : "campbigpole.png",
   "description" : "A heavyweight tent support.",
