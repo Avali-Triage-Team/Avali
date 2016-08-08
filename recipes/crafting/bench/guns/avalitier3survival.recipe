@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "titaniumbar", "count" : 10 },
+  { "item" : "money", "count" : 150}
+  ],
+  "output" : { "item" : "avalisurvival", "data" : { "level" : 3, "shortdescription" : "AD3 Sleet" }, "count" : 1 },
+  "groups" : [ "avalibench", "weapons", "all" ]
+}
