@@ -21,7 +21,7 @@
   "orientations" : [
     {
       "dualImage" : "avalitable3.png:<color>",
-      "imagePosition" : [0, 0],
+      "imagePosition" : [-16, 0],
       "frames" : 1,
       "animationCycle" : 0.5,
 
