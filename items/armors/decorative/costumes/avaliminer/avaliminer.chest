@@ -3,7 +3,7 @@
   "price" : 0,
   "inventoryIcon" : "icons.png:chest",
   "maxStack" : 1,
-  "rarity" : "Common",
+  "rarity" : "Uncommon",
   "category" : "chestwear",
   "description" : "That was surprisingly easy to re-fit...and it'll be unsurprisingly difficult to fix. But who cares?",
   "shortdescription" : "High-Vis Jacket (Avali)",
