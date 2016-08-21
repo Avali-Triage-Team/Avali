@@ -20,11 +20,11 @@
   "orientations" : [
     {
       "dualImage" : "avalitier5daggerdisplay.png:<color>",
-      "imagePosition" : [0, 0],
+      "imagePosition" : [0, 2],
       "frames" : 1,
       "animationCycle" : 0.5,
 
-      "spaceScan" : 0.1,
+      "spaceScan" : 0.2,
       "anchors" : [ "background" ]
 
     }

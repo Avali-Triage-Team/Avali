@@ -20,7 +20,7 @@
   "orientations" : [
     {
       "dualImage" : "avalitier5daggerhanging.png:<color>",
-      "imagePosition" : [0, 0],
+      "imagePosition" : [0, 2],
       "frames" : 1,
       "animationCycle" : 0.5,
 
