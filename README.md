@@ -8,11 +8,11 @@ Download most recent release's ZIP file from  https://github.com/Avali-Triage-Te
 
 >mods
 
->-avali 
+>>-avali 
 
->|-avali.modinfo 
+>>|-avali.modinfo 
 
->|-various folders and files 
+>>|-various folders and files 
 
 # Always remember to delete the previous verison before installing any new one!
 
