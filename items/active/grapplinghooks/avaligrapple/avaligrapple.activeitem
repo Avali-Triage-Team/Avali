@@ -12,12 +12,13 @@
   "twoHanded" : false,
 
   "scripts" : ["/items/active/grapplinghooks/grapplinghook.lua"],
-  "animationScripts" : ["/items/effects/roperender.lua"],
+  "animationScripts" : ["/items/active/effects/renderrope.lua"],
 
   "animation" : "grapplinghook.animation",
 
   "fireOffset" : [0, 0.3],
   "ropeOffset" : [0.75, 0.3],
+  "ropeVisualOffset" : [0.75, 0.3],
 
   "consumeOnUse" : false,
 
