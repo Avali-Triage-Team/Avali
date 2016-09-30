@@ -1,9 +1,9 @@
 {
   "input" : [
-    { "item" : "mediummetal", "count" : 5 },
+    { "item" : "mediummetal", "count" : 1 },
 	{ "item" : "graphene", "count" : 5 }
   ],
-  "output" : { "item" : "avalitiles", "count" : 10 },
+  "output" : { "item" : "avalitiles", "count" : 50 },
   "groups" : [ "materials", "avalilathe", "all" ],
   "duration" : 0.1
 }

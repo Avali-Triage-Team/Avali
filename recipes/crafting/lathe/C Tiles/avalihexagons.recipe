@@ -1,8 +1,8 @@
 {
   "input" : [
-    { "item" : "graphene", "count" : 10 }
+    { "item" : "graphene", "count" : 5 }
   ],
-  "output" : { "item" : "avalihexagons1", "count" : 20 },
+  "output" : { "item" : "avalihexagons1", "count" : 10 },
   "groups" : [ "materials", "avalilathe", "all" ],
   "duration" : 0.1
 }

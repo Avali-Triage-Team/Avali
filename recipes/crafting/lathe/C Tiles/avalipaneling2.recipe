@@ -1,9 +1,9 @@
 {
   "input" : [
-    { "item" : "mediummetal", "count" : 5 },
+    { "item" : "tungstenbar", "count" : 1 },
   { "item" : "graphene", "count" : 5 }
   ],
-  "output" : { "item" : "avalipaneling2", "count" : 10 },
+  "output" : { "item" : "avalipaneling2", "count" : 50 },
   "groups" : [ "materials", "avalilathe", "all" ],
   "duration" : 0.1
 }
