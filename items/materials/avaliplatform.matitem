@@ -8,5 +8,7 @@
   "glitchdescription" : "Statement. A small bit of metal.",
   "florandescription" : "Sssteel.",
 
-  "materialId" : 12520
+  "materialId" : 12520,
+  
+  "learnBlueprintsOnPickup" : [ "avaliplatform" ]
 }

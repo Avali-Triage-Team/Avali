@@ -6,5 +6,7 @@
   "description" : "Plain paneling, because sometimes less is more.",
   "shortdescription" : "Plain Panels",
 
-  "materialId" : 12504
+  "materialId" : 12504,
+  
+  "learnBlueprintsOnPickup" : [ "avaliplain" ]
 }
