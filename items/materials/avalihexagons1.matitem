@@ -1,9 +1,12 @@
 {
   "itemName" : "avalihexagons1",
+  "price" : 10,
   "rarity" : "Common",
   "inventoryIcon" : "avalihexagons1.png",
   "description" : "Plating like a Glitch Hive.",
   "shortdescription" : "Hexagonal Plating",
 
-  "materialId" : 12511
+  "materialId" : 12511,
+  
+  "learnBlueprintsOnPickup" : [ "avalihexagons1" ]
 }

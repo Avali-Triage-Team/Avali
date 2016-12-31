@@ -1,9 +1,12 @@
 {
   "itemName" : "campbigpole",
+  "price" : 10,
   "rarity" : "Common",
   "inventoryIcon" : "campbigpole.png",
   "description" : "A heavyweight tent support.",
   "shortdescription" : "Big Tent Pole",
   "printable" : true,
-  "materialId" : 12514
+  "materialId" : 12514,
+  
+  "learnBlueprintsOnPickup" : [ "campbigpole" ]
 }

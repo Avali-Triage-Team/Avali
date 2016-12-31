@@ -1,6 +1,6 @@
 {
   "itemName" : "aerogelcompositerail",
-  "price" : 0,
+  "price" : 10,
   "category" : "rail",
   "rarity" : "Common",
   "inventoryIcon" : "aerogelcompositerail.png",
@@ -11,5 +11,7 @@
   "novakiddescription" : "Some sturdy lookin' rails, gettin' the itch to ride 'em.",
 
 
-  "materialId" : 12525
+  "materialId" : 12525,
+  
+  "learnBlueprintsOnPickup" : [ "aerogelcompositerail" ]
 }
