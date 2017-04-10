@@ -1,0 +1,46 @@
+{
+  "objectName" : "avalichamber1",
+  "colonyTags" : [ "avali", "avalicamp" ], 
+  "printable" : true,
+  "rarity" : "Common",
+  "description" : "Cheat the creepy-crawlies by sleeping in a box.",
+  "shortdescription" : "Sleep Chamber",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 25, 
+  
+  "apexDescription" : "I've slept in a few of these on resistance ships, no room for luxury",
+  "avianDescription" : "A suspended nest, what interesting idea!",
+  "floranDescription" : "Hehe, bed tries flee from floran when sitting on it.",
+  "glitchDescription" : "Concern. Bed displays low structural integrity.",
+  "humanDescription" : "I'd love to set this up between a couple palm trees on a tropical world.",
+  "hylotlDescription" : "I wouldn't be caught dead in a bed like that.",
+  "avaliDescription" : "I guess it'll do.", 
+
+  "inventoryIcon" : "avalichamber1icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "avalichamber1.png:<color>",
+
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+	   "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : true,
+  "sitPosition" : [-10, 9],
+  "sitOrientation" : "lay",
+  "sitAngle" : 90,
+  "sitCoverImage" : "/objects/bed/bed1/avalichamber1cover.png",
+  "sitEmote" : "sleep",
+  "sitStatusEffects" : [
+    "bed1"
+  ],
+  "sitEffectEmitters" : [ "sleepbubbles" ]
+}

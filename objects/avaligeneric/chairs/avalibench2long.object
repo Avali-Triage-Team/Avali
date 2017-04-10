@@ -1,0 +1,62 @@
+{
+  "objectName" : "avalibench2long",
+  "colonyTags" : [ "avali", "avalicamp" ], 
+  "printable" : false,
+  "rarity" : "uncommon",
+  "description" : "A nice bench to rest on.",
+  "shortdescription" : "Avali Bench 2",
+  "race" : "avali",
+  "category" : "furniture",
+  "price" : 76,
+
+  "apexDescription" : "It's just a bench.",
+  "avianDescription" : "It's just a bench.",
+  "floranDescription" : "Thissss bench is ssssoft. Floran like ssssoft.",
+  "glitchDescription" : "Bored. This bench is rather generic.",
+  "humanDescription" : "I have got to get me one of these!",
+  "hylotlDescription" : "It feels like I'm sitting on a normal bench",
+  "avaliDescription" : "I could just curl up and fall asleep on it...",
+
+  "inventoryIcon" : "avalibench2longicon.png",
+  "orientations" : [
+    {
+      "image" : "avalibench2long.png:<color>",
+      "direction" : "left",
+      "flipImages" : true,
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "sitPositions" : [
+	  [-4, 19],
+	  [-20, 19],
+	  [-30, 19]
+	  ],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    },
+    {
+      "image" : "avalibench2long.png:<color>",
+      "direction" : "right",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "sitPositions" : [
+	  [4, 19],
+	  [20, 19],
+	  [30, 19]
+	  ],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false
+
+}
