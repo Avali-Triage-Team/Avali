@@ -12,7 +12,7 @@
           { "name" : "avaliguardtier1chest", "data" : { "colorIndex" : [3] } },
           { "name" : "avaliguardtier2chest", "data" : { "colorIndex" : [3] } },
           { "name" : "avaliguardtier3chest", "data" : { "colorIndex" : [3] } }
-        ]
+        ],
         "legs" : [
           { "name" : "avaliarmor1pants", "data" : { "colorIndex" : [3] } },
           { "name" : "avaliarmor2pants", "data" : { "colorIndex" : [3] } },
