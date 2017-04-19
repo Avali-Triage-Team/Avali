@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "refinedaegisalt", "count" : 8 },
-    { "item" : "solariumstar", "count" : 8 }
-  ],
-  "output" : { "item" : "avalisurvival", "data" : { "level" : 6, "shortdescription" : "AD6 Sleet", "rarity" : "Legendary" }, "count" : 1 },
-  "groups" : [ "avalibench", "weapons", "all" ]
-}

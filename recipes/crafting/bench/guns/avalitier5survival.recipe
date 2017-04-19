@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "refinedaegisalt", "count" : 8 }
-  ],
-  "output" : { "item" : "avalisurvival", "data" : { "level" : 5, "shortdescription" : "AD5 Sleet", "rarity" : "Rare" }, "count" : 1 },
-  "groups" : [ "avalibench", "weapons", "all" ]
-}

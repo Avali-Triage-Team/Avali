@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "durasteelbar", "count" : 10 },
-  { "item" : "money", "count" : 150}
-  ],
-  "output" : { "item" : "avalisurvival", "data" : { "level" : 4, "shortdescription" : "AD4 Sleet", "rarity" : "Uncommon" }, "count" : 1 },
-  "groups" : [ "avalibench", "weapons", "all" ]
-}

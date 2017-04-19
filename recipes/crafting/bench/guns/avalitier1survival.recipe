@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "ironbar", "count" : 10 },
-  { "item" : "money", "count" : 150}
-  ],
-  "output" : { "item" : "avalisurvival", "data" : { "level" : 1, "shortdescription" : "AD1 Sleet" }, "count" : 1 },
-  "groups" : [ "avalibench", "weapons", "all" ]
-}
