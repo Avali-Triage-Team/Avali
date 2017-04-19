@@ -6,5 +6,7 @@
   "description" : "These tubes transport a water-rich nutrient aerosol for growing plants indoors.",
   "shortdescription" : "Aeroponics Tubes",
   "printable" : true,
-  "materialId" : 12509
+  "materialId" : 12509,
+  
+  "learnBlueprintsOnPickup" : [ "avaliaeroponics" ]
 }
