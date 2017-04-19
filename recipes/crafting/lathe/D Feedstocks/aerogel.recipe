@@ -1,8 +1,8 @@
 {
   "input" : [
-    { "item" : "graphene", "count" : 1 }
+    { "item" : "graphene", "count" : 5 }
   ],
-  "output" : { "item" : "aerogel", "count" : 1 },
+  "output" : { "item" : "aerogel", "count" : 5 },
   "duration" : 0.1,
   "groups" : [ "ingredients", "avalilathe", "all"]
 }

@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "mediummetal", "count" : 6  },
+    { "item" : "aerogel", "count" : 10  },
+	{ "item" : "purpledye", "count" : 1  },
+    { "item" : "ironblock", "count" : 3  }  
+  ],
+  "output" : { "item" : "avalisample5", "count" : 1 },
+  "duration" : 0.1,
+  "groups" : [ "decoration", "avalilathe", "all" ]
+}

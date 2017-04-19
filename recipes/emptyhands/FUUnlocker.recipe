@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "graphene", "count" : 10 }
+  ],
+  "output" : {
+    "item" : "FUUnlocker",
+    "count" : 1
+  },
+  "groups" : [ "plain", "objects", "all" ]
+}

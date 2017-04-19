@@ -3,7 +3,7 @@
   "price" : 0,
   "inventoryIcon" : "icons.png:head",
   "maxStack" : 1,
-  "rarity" : "Common",
+  "rarity" : "Uncommon",
   "category" : "headwear",
   "description" : "There's an engineering saying: ''incompatibility doesn't exist''. Well...",
   "shortdescription" : "Miner's Helmet (Avali)",

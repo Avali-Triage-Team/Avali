@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "avalipistol", "count" : 1 },
+    { "item" : "aerogel", "count" : 1 }  
+  ],
+  "output" : { "item" : "avaligundisplay4", "count" : 1 },
+  "groups" : [ "objects", "avalilathe", "all" ]
+}

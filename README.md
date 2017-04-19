@@ -4,15 +4,15 @@ Avali mod with community additions
 Please report issues promptly, using the Issues button at the top of the page. 
 
 # Installation instructions
-Download most recent release's ZIP file from https://github.com/Fevix/Avali/releases and extract into Starbound/giraffe_storage/mods. folders should look like this: 
+Download most recent release's ZIP file from  https://github.com/Avali-Triage-Team/Avali/archive/Triage.zip and extract into Starbound/mods. Your folders should look like this: 
 
-mods 
+>mods
 
--avali 
+>>avali 
 
-|-avali.modinfo 
+>>>avali.modinfo 
 
-|-various folders and files 
+>>>various folders and files 
 
 # Always remember to delete the previous verison before installing any new one!
 

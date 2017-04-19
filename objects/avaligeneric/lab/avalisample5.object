@@ -1,0 +1,34 @@
+{
+  "objectName" : "avalisample5",
+  "colonyTags" : [ "avali", "avalicamp", "science" ], 
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 35,
+  "printable" : false,
+  "description" : "The crystal seems to hold some sort of high importance.",
+  "shortdescription" : "Sync Sample",
+  "race" : "avali",
+
+  "apexDescription" : "I've never seen a crystal with these capabilities.",
+  "avianDescription" : "I wonder what this could be. It doesn't look like our crystals",
+  "floranDescription" : "Shiny rock...",
+  "glitchDescription" : "Joking. It appears to be the new iCrystal.",
+  "humanDescription" : "I kinda want to hang it up on my rearview mirror.",
+  "hylotlDescription" : "This seems a bit expensive.",
+  "avaliDescription" : "This is a rare chunk of sync crystal.", 
+
+  "inventoryIcon" : "avalisample5.png",
+  "orientations" : [
+    {
+      "dualImage" : "avalisample5.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}
+

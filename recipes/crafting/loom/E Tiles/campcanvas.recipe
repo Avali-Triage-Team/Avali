@@ -4,5 +4,6 @@
     { "item" : "plantfibre", "count" : 3 }
   ],
   "output" : { "item" : "campcanvas", "count" : 10 },
+  "duration" : 0.25,
   "groups" : [ "materials", "avaliloom", "all" ]
 }

@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "AvaliBow_t4", "count" : 1 },
-    { "item" : "aerogel", "count" : 1 }	
-  ],
-  "output" : { "item" : "AvaliBowDisplay01_tier4", "count" : 1 },
-  "groups" : [ "objects", "avalidisplayapparatus", "all" ]
-}

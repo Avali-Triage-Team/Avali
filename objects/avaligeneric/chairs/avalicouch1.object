@@ -1,0 +1,60 @@
+{
+  "objectName" : "avalicouch1",
+  "colonyTags" : [ "avali", "avalicamp" ], 
+  "printable" : false,
+  "rarity" : "uncommon",
+  "description" : "A modified maglev chair that had its magnets removed and seat extended.",
+  "shortdescription" : "Avali Double Couch",
+  "race" : "avali",
+  "category" : "furniture",
+  "price" : 76,
+
+  "apexDescription" : "My technology doesn’t get scrambled on this compared to the maglev chair.",
+  "avianDescription" : "If I tear it up a little bit, it could make a pretty sturdy nest.",
+  "floranDescription" : "Floran doess not like ssurface, too ssquishy!",
+  "glitchDescription" : ""Delighted. My posterior does not stick to the seat anymore.",
+  "humanDescription" : "I have got to get me one of these!",
+  "hylotlDescription" : "It feels like I'm sitting on a normal couch",
+  "avaliDescription" : "I could just curl up and fall asleep on it...",
+
+  "inventoryIcon" : "avalicouch1icon.png",
+  "orientations" : [
+    {
+      "image" : "avalicouch1.png:<color>",
+      "direction" : "left",
+      "flipImages" : true,
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "sitPositions" : [
+	  [-4, 19],
+	  [-14, 19]
+	  ],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    },
+    {
+      "image" : "avalicouch1.png:<color>",
+      "direction" : "right",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "sitPositions" : [
+	  [4, 19],
+	  [14, 19]
+	  ],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false
+
+}
