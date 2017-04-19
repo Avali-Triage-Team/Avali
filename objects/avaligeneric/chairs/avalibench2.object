@@ -9,12 +9,12 @@
   "category" : "furniture",
   "price" : 76,
 
-  "apexDescription" : "It's just a bench.",
-  "avianDescription" : "It's just a bench.",
+  "apexDescription" : "It’s little… I’m afraid to sit on it.",
+  "avianDescription" : "I just need to move the pillows and it’ll be a nest.",
   "floranDescription" : "Thissss bench is ssssoft. Floran like ssssoft.",
-  "glitchDescription" : "Bored. This bench is rather generic.",
-  "humanDescription" : "I have got to get me one of these!",
-  "hylotlDescription" : "It feels like I'm sitting on a normal bench",
+  "glitchDescription" : "Happy. It's almost cute.",
+  "humanDescription" : "I have got to get me one of these... or two!",
+  "hylotlDescription" : "It feels a little low to the ground.",
   "avaliDescription" : "I could just curl up and fall asleep on it...",
 
   "inventoryIcon" : "avalibench2icon.png",

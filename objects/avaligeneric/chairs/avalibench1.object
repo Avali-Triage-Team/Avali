@@ -3,7 +3,7 @@
   "colonyTags" : [ "avali", "avalicamp" ], 
   "printable" : false,
   "rarity" : "uncommon",
-  "description" : "A nice bench to rest on.",
+  "description" : "A nice little bench to sit on.",
   "shortdescription" : "Avali Bench",
   "race" : "avali",
   "category" : "furniture",
@@ -11,7 +11,7 @@
 
   "apexDescription" : "It's just a little bench.",
   "avianDescription" : "It's just a little bench.",
-  "floranDescription" : "Thissss bench is ssssoft. Floran like ssssoft.",
+  "floranDescription" : "Thissss bench is TINY.",
   "glitchDescription" : "Bored. This doesn't even use alloys.",
   "humanDescription" : "I have got to get me one of these!",
   "hylotlDescription" : "It feels like I'm sitting on a normal stool.",

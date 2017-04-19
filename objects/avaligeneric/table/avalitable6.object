@@ -5,7 +5,7 @@
   "category" : "furniture",
   "price" : 50,
   "printable" : false,
-  "description" : "A stationary table, or, possibly a shelf. The possibilities are moderate.",
+  "description" : "A stationary shelf. The possibilities are still moderate.",
   "shortdescription" : "Aerogel Shelf",
   "race" : "avali",
 
@@ -13,8 +13,8 @@
   "avianDescription" : "Is it a shelf, is a table, who can judge?",
   "floranDescription" : "Thisss bed is sssstupid, it'sss hard as a table top.",
   "glitchDescription" : "Observation. This shelf is grossly over-engineered.",
-  "humanDescription" : "Looks more like a gurney than a table. Why is Avali stuff always so, functional?",
-  "hylotlDescription" : "I wouldn't keep a moth-eaten book on this unit.",
+  "humanDescription" : "This would look nice by my fireplace, maybe?",
+  "hylotlDescription" : "Looks fragile, like glass.",
   "avaliDescription" : "It's a shelf... or maybe a table. Honestly it's just something to place your shinies on.", 
 
   "inventoryIcon" : "avalitable6icon.png",
