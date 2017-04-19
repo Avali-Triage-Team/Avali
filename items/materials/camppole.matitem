@@ -6,5 +6,7 @@
   "description" : "A lightweight tent support.",
   "shortdescription" : "Nanofibre Pole",
   "printable" : true,
-  "materialId" : 12513
+  "materialId" : 12513,
+  
+  "learnBlueprintsOnPickup" : [ "camppole" ]
 }

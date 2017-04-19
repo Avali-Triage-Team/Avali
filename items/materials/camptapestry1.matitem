@@ -6,5 +6,7 @@
   "description" : "A luxurious soft fabric for wall hangings or carpets",
   "shortdescription" : "Soft Tapestry",
   "printable" : true,
-  "materialId" : 12516
+  "materialId" : 12516,
+  
+  "learnBlueprintsOnPickup" : [ "camptapestry1" ]
 }

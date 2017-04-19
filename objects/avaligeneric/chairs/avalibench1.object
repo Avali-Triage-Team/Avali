@@ -1,0 +1,58 @@
+{
+  "objectName" : "avalibench1",
+  "colonyTags" : [ "avali", "avalicamp" ], 
+  "printable" : false,
+  "rarity" : "uncommon",
+  "description" : "A nice little bench to sit on.",
+  "shortdescription" : "Avali Bench",
+  "race" : "avali",
+  "category" : "furniture",
+  "price" : 76,
+
+  "apexDescription" : "It's just a little bench.",
+  "avianDescription" : "It's just a little bench.",
+  "floranDescription" : "Thissss bench is TINY.",
+  "glitchDescription" : "Bored. This doesn't even use alloys.",
+  "humanDescription" : "I have got to get me one of these!",
+  "hylotlDescription" : "It feels like I'm sitting on a normal stool.",
+  "avaliDescription" : "Comfy for all fluff butts...",
+
+  "inventoryIcon" : "avalibench1icon.png",
+  "orientations" : [
+    {
+      "image" : "avalibench1.png:<color>",
+      "direction" : "left",
+      "flipImages" : true,
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "sitPositions" : [
+	  [-1, 19]
+	  ],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    },
+    {
+      "image" : "avalibench1.png:<color>",
+      "direction" : "right",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "sitPositions" : [
+	  [1, 19]
+	  ],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false
+
+}
