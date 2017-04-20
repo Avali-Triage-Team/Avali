@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "mediummetal", "count" : 6  },
+    { "item" : "camptapestry1", "count" : 4  },
+    { "item" : "ironblock", "count" : 3  }  
+  ],
+  "output" : { "item" : "avalibench2", "count" : 1 },
+  "duration" : 0.1,
+  "groups" : [ "decoration", "avalilathe", "all" ]
+}

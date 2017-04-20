@@ -6,5 +6,7 @@
   "description" : "Physical storage for physical backups",
   "shortdescription" : "Data Storage",
 
-  "materialId" : 12502
+  "materialId" : 12502,
+  
+  "learnBlueprintsOnPickup" : [ "avalichits" ]
 }

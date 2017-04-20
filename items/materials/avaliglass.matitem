@@ -7,5 +7,7 @@
   "shortdescription" : "Avali Glass",
   "description" : "These tubes transport a nutrient aerosol for growing plants indoors.",
 
-  "materialId" : 12501
+  "materialId" : 12501,
+  
+  "learnBlueprintsOnPickup" : [ "avaliglass" ]
 }

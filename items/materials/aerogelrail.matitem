@@ -11,5 +11,7 @@
   "novakiddescription" : "Some sturdy lookin' rails, gettin' the itch to ride 'em.",
 
 
-  "materialId" : 12524
+  "materialId" : 12524,
+  
+  "learnBlueprintsOnPickup" : [ "aerogelrail" ]
 }

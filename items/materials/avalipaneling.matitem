@@ -6,5 +6,7 @@
   "description" : "Light and airy panels.",
   "shortdescription" : "Horizontal Panels",
 
-  "materialId" : 12508
+  "materialId" : 12508,
+  
+  "learnBlueprintsOnPickup" : [ "avalipaneling" ]
 }
