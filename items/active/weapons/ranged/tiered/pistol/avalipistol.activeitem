@@ -8,7 +8,7 @@
   "shortdescription" : "PD1 Frostbite",
   "level" : 1,
   "tooltipKind" : "gun",
-  "weaponType" : "Pistol",
+  "category" : "pistol",
   "itemTags" : ["weapon","ranged","pistol"],
   "twoHanded" : false,
   
