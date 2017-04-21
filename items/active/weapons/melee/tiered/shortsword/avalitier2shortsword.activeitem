@@ -43,5 +43,7 @@
   },
   "baseWeaponRotation" : 10,
   "palette" : "/items/active/weapons/colors/tier2melee.weaponcolors",
+  "critChance" : 2, 
+  "critBonus" : 8, 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }
