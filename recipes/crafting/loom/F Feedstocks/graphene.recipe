@@ -3,5 +3,5 @@
     { "item" : "coalore", "count" : 1 }
   ],
   "output" : { "item" : "avaligraphene", "count" : 10 },
-  "groups" : [ "other", "avaliloom", "all"]
+  "groups" : [ "other", "ingredients", "avaliloom", "avalilathe", "all"]
 }
