@@ -1,7 +1,7 @@
 {
   "input" : [
   { "item" : "aerogel", "count" : 10 },
-  { "item" : "graphene", "count" : 15 },
+  { "item" : "avaligraphene", "count" : 15 },
   { "item" : "ironbar", "count" : 5 },
   { "item" : "money", "count" : 250}
   ],

@@ -1,9 +1,9 @@
 {
-  "itemName" : "graphene",
+  "itemName" : "avaligraphene",
   "rarity" : "Common",
   "inventoryIcon" : "graphene.png",
-  "description" : "Impossibly thin yet strong carbon, used as a feedstock for carbon nanotubes.",
-  "shortdescription" : "Graphene",
+  "description" : "Graphene that's been woven specially for use in Avali crafting stations",
+  "shortdescription" : "Woven Graphene",
   "learnBlueprintsOnPickup" : [],
   "itemTags" : [ "reagent" ]
 }
