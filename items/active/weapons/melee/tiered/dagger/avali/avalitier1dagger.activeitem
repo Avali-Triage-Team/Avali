@@ -101,5 +101,7 @@
     "/sfx/melee/swing_dagger.ogg"
   ],
   "palette" : "/items/active/weapons/colors/tier1melee.weaponcolors",
+  "critChance" : 2, 
+  "critBonus" : 8, 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }
