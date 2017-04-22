@@ -1,33 +1,35 @@
 {
-  "itemName": "avalitier5sdagger",
-  "price": 100,
-  "level": 5,
-  "maxStack": 1,
-  "rarity": "rare",
-  "description": "Stalkers and martial artists take great pride in their dexterous acrobatic use of hand-to-hand fighting weapons.",
-  "shortdescription": "HHS1 Frost",
-  "tooltipKind": "sword",
-  "category": "dagger",
-  "inventoryIcon": "avalitier5sdagger.png",
-  "animation": "/items/active/weapons/melee/dagger/dagger.animation",
-  "animationParts": {
-    "handle": "",
-    "blade": "avalitier5sdagger.png"
+  "itemName" : "avalitier5sdagger",
+  "price" : 100,
+  "level" : 5,
+  "maxStack" : 1,
+  "rarity" : "rare",
+  "description" : "Stalkers and martial artists take great pride in their dexterous acrobatic use of hand-to-hand fighting weapons.",
+  "shortdescription" : "HHS1 Frost",
+  "tooltipKind" : "sword",
+  "category" : "dagger",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","melee","dagger"],
+  "inventoryIcon" : "avalitier5sdagger.png",
+  "animation" : "/items/active/weapons/melee/dagger/dagger.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "avalitier5sdagger.png"
   },
-  "animationCustom": {
-    "animatedParts": {
-      "parts": {
-        "blade": {
-          "properties": {
-            "offset": [
+  "animationCustom" : {
+    "animatedParts" : {
+      "parts" : {
+        "blade" : {
+          "properties" : {
+            "offset" : [
               0.375,
               2.25
             ]
           }
         },
-        "swoosh": {
-          "properties": {
-            "offset": [
+        "swoosh" : {
+          "properties" : {
+            "offset" : [
               1.6875,
               -0.1875
             ]
@@ -35,69 +37,71 @@
         }
       }
     },
-    "sounds": {
-      "fire": [
+    "sounds" : {
+      "fire" : [
         "/sfx/melee/swing_dagger.ogg"
       ]
     }
   },
-  "scripts": [
+  "scripts" : [
     "/items/active/weapons/melee/meleeweapon.lua"
   ],
-  "elementalType": "physical",
-  "aimOffset": 0,
-  "primaryAbility": {
-    "scripts": [
+  "elementalType" : "physical",
+  "aimOffset" : 0,
+  "primaryAbility" : {
+    "scripts" : [
       "/items/active/weapons/melee/meleeslash.lua"
     ],
-    "class": "MeleeSlash",
-    "fireTime": 0.333,
-    "baseDps": 10,
-    "damageConfig": {
-      "damageSourceKind": "dagger",
-      "statusEffects": [],
-      "knockbackMode": "aim",
-      "knockback": 10,
-      "timeoutGroup": "primary"
+    "class" : "MeleeSlash",
+    "fireTime" : 0.333,
+    "baseDps" : 10,
+    "damageConfig" : {
+      "damageSourceKind" : "dagger",
+      "statusEffects" : [],
+      "knockbackMode" : "aim",
+      "knockback" : 10,
+      "timeoutGroup" : "primary"
     },
-    "stances": {
-      "idle": {
-        "armRotation": -90,
-        "weaponRotation": 30,
-        "weaponOffset": [
+    "stances" : {
+      "idle" : {
+        "armRotation" : -90,
+        "weaponRotation" : 30,
+        "weaponOffset" : [
           0,
           0
         ],
-        "allowFlip": true,
-        "allowRotate": true
+        "allowFlip" : true,
+        "allowRotate" : true
       },
-      "windup": {
-        "duration": 0.05,
-        "armRotation": 0,
-        "weaponRotation": 90,
-        "weaponOffset": [
+      "windup" : {
+        "duration" : 0.05,
+        "armRotation" : 0,
+        "weaponRotation" : 90,
+        "weaponOffset" : [
           0,
           0
         ],
-        "allowFlip": true,
-        "allowRotate": false
+        "allowFlip" : true,
+        "allowRotate" : false
       },
-      "fire": {
-        "duration": 0.4,
-        "armRotation": -60,
-        "weaponRotation": 30,
-        "weaponOffset": [
+      "fire" : {
+        "duration" : 0.4,
+        "armRotation" : -60,
+        "weaponRotation" : 30,
+        "weaponOffset" : [
           0,
           0
         ],
-        "allowFlip": true,
-        "allowRotate": false
+        "allowFlip" : true,
+        "allowRotate" : false
       }
     }
   },
-  "fireSounds": [
+  "fireSounds" : [
     "/sfx/melee/swing_dagger.ogg"
   ],
   "palette" : "/items/active/weapons/colors/tier8melee.weaponcolors",
-  "builder": "/items/buildscripts/buildunrandweapon.lua"
+  "critChance" : 2, 
+  "critBonus" : 8, 
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

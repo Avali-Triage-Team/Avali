@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "darkwoodmaterial", "count" : 10 },
-  { "item" : "graphene", "count" : 5 }
+  { "item" : "avaligraphene", "count" : 5 }
   ],
   "output" : { "item" : "campbigpole", "count" : 10 },
   "duration" : 0.25,

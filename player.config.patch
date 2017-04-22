@@ -5,7 +5,7 @@
   { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "maskpants" } },
   { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "maskback" } },
   { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "maskchest" } },
-  { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "graphene" } },
+  { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "avaligraphene" } },
   { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "avalicushion1" } },
   { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "avalicushion2" } },
   { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "campdoor" } },

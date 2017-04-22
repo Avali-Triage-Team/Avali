@@ -50,5 +50,7 @@
   "baseWeaponRotation" : 10,
   "palette" : "/items/active/weapons/colors/tier10melee.weaponcolors",
   "altAbilityType" : "parry",
+  "critChance" : 2, 
+  "critBonus" : 8, 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }
