@@ -6,5 +6,7 @@
   "description" : "Metal, darkly.",
   "shortdescription" : "Dark Metal Panels",
 
-  "materialId" : 12506
+  "materialId" : 12506,
+  
+  "learnBlueprintsOnPickup" : [ "avalidarkmetal2" ]
 }

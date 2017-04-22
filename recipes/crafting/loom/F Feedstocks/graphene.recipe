@@ -2,6 +2,6 @@
   "input" : [
     { "item" : "coalore", "count" : 1 }
   ],
-  "output" : { "item" : "graphene", "count" : 10 },
+  "output" : { "item" : "avaligraphene", "count" : 10 },
   "groups" : [ "other", "avaliloom", "all"]
 }

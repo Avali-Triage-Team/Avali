@@ -6,5 +6,7 @@
   "description" : "Polymer panels used to protect and hide sensitive electronics.",
   "shortdescription" : "Tech Panel",
 
-  "materialId" : 12519
+  "materialId" : 12519,
+  
+  "learnBlueprintsOnPickup" : [ "avalitechplatforms" ]
 }

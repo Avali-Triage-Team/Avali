@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "mediummetal", "count" : 6  },
+    { "item" : "aerogel", "count" : 25  },
+    { "item" : "ironblock", "count" : 10  }  
+  ],
+  "output" : { "item" : "avalichamber1", "count" : 1 },
+  "duration" : 0.1,
+  "groups" : [ "decoration", "avalilathe", "all" ]
+}

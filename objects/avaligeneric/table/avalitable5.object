@@ -1,0 +1,35 @@
+{
+  "objectName" : "avalitable5",
+  "colonyTags" : [ "avali", "avalicamp", "commerce" ], 
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 20,
+  "printable" : false,
+  "description" : "An aerogel topped table.",
+  "shortdescription" : "Avali Dark Table",
+  "race" : "avali",
+
+  "apexDescription" : "This is nothing like the standardised desks the Miniknog supply us with.",
+  "avianDescription" : "A dark metal and aerogel table. Nothing special.",
+  "floranDescription" : "Thisss bed is sssstupid, it'sss hard as a table top.",
+  "glitchDescription" : "Michievious. If I hit the aerogel hard enough... will it break?",
+  "humanDescription" : "I feel like this thing is just... one giant orange tablet.",
+  "hylotlDescription" : "I do not feel as if the color scheme is normal.",
+  "avaliDescription" : "It's a table, not much to say about it really.", 
+
+  "inventoryIcon" : "avalitable5icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "avalitable5.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+    "collision" : "platform"
+
+    }
+  ]
+}
+

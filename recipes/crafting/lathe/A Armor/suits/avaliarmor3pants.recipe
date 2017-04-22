@@ -2,7 +2,7 @@
   "input" : [
     { "item" : "tungstenbar", "count" : 10  },
     { "item" : "fabric", "count" : 5  },
-    { "item" : "graphene", "count" : 5  },
+    { "item" : "avaligraphene", "count" : 5  },
     { "item" : "siliconboard", "count" : 1  }  
   ],
   "output" : { "item" : "avaliarmor3pants", "count" : 1 },

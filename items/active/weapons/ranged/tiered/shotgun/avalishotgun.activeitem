@@ -8,7 +8,7 @@
   "shortdescription" : "QRC Type-1",
   "level" : 1,
   "tooltipKind" : "gun",
-  "weaponType" : "Shotgun",
+  "category" : "shotgun",
   "itemTags" : ["weapon","ranged","shotgun"],
   "twoHanded" : true,
   
@@ -79,5 +79,7 @@
 
   "altAbilityType" : "burstshot",
 
+  "critChance" : 2, 
+  "critBonus" : 8, 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

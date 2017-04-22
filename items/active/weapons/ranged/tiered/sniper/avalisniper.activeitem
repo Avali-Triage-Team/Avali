@@ -8,7 +8,7 @@
   "shortdescription" : "AM1 Firelance",
   "level" : 1,
   "tooltipKind" : "gun",
-  "weaponType" : "Sniper Rifle",
+  "category" : "sniperRifle",
   "itemTags" : ["weapon","ranged","rifle"],
   "twoHanded" : true,
   
@@ -79,5 +79,7 @@
   "altAbilityType" : "grenadelauncher",
 
 
+  "critChance" : 2, 
+  "critBonus" : 8, 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

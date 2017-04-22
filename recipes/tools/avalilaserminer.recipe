@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "money", "count" : 500 },
-    { "item" : "graphene", "count" : 20 }
+    { "item" : "avaligraphene", "count" : 20 }
 
   ],
   "output" : {

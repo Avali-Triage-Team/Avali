@@ -1,45 +1,49 @@
 {
-  "itemName": "avalitier3shortsword",
-  "price": 150,
-  "level": 3,
-  "maxStack": 1,
-  "rarity": "uncommon",
-  "description": "The 'Shard' class vibroblade is more popular among colonists, martial arts enthusiasts and comic-book nerds than actual soldiers and hunters.",
-  "shortdescription": "VB3 Shard",
-  "tooltipKind": "sword",
-  "category": "shortsword",
-  "inventoryIcon": "avalitier3shortsword.png",
-  "animation": "/items/active/weapons/melee/shortsword/comboshortsword.animation",
-  "animationParts": {
-    "handle": "",
-    "blade": "avalitier3shortsword.png"
+  "itemName" : "avalitier3shortsword",
+  "price" : 150,
+  "level" : 3,
+  "maxStack" : 1,
+  "rarity" : "uncommon",
+  "description" : "The 'Shard' class vibroblade is more popular among colonists, martial arts enthusiasts and comic-book nerds than actual soldiers and hunters.",
+  "shortdescription" : "VB3 Shard",
+  "tooltipKind" : "sword",
+  "category" : "shortsword",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","melee","shortsword"],
+  "inventoryIcon" : "avalitier3shortsword.png",
+  "animation" : "/items/active/weapons/melee/shortsword/comboshortsword.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "avalitier3shortsword.png"
   },
-  "animationCustom": {
-    "animatedParts": {
-      "parts": {
-        "blade": {
-          "properties": {
-            "offset": [ 0, -0.25 ]
+  "animationCustom" : {
+    "animatedParts" : {
+      "parts" : {
+        "blade" : {
+          "properties" : {
+            "offset" : [ 0, -0.25 ]
           }
         },
-        "swoosh": {
-          "properties": {
-            "offset": [ 2.75, -2 ]
+        "swoosh" : {
+          "properties" : {
+            "offset" : [ 2.75, -2 ]
           }
         }
       }
     }
   },
-  "scripts": [
+  "scripts" : [
     "/items/active/weapons/melee/meleeweapon.lua"
   ],
-  "elementalType": "physical",
-  "primaryAbilityType": "shortswordcombo",
-  "primaryAbility": {
-    "fireTime": 0.625,
-    "baseDps": 7.5
+  "elementalType" : "physical",
+  "primaryAbilityType" : "shortswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.625,
+    "baseDps" : 7.5
   },
   "baseWeaponRotation" : 10,
   "palette" : "/items/active/weapons/colors/tier3melee.weaponcolors",
-  "builder": "/items/buildscripts/buildunrandweapon.lua"
+  "critChance" : 2, 
+  "critBonus" : 8, 
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

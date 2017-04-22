@@ -6,5 +6,7 @@
   "description" : "An embroidered trim, ideal for wall hangings or providing some style",
   "shortdescription" : "Fabric Trim",
   "printable" : true,
-  "materialId" : 12517
+  "materialId" : 12517,
+  
+  "learnBlueprintsOnPickup" : [ "camptapestry2" ]
 }

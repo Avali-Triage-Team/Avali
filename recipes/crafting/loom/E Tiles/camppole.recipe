@@ -1,8 +1,9 @@
 {
   "input" : [
-    { "item" : "campcanvas", "count" : 1 },
-  { "item" : "darkwoodmaterial", "count" : 1 }
+    { "item" : "campcanvas", "count" : 10 },
+  { "item" : "darkwoodmaterial", "count" : 10 }
   ],
-  "output" : { "item" : "camppole", "count" : 1 },
+  "output" : { "item" : "camppole", "count" : 10 },
+  "duration" : 0.25,
   "groups" : [ "materials", "avaliloom", "all" ]
 }

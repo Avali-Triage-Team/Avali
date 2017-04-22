@@ -82,5 +82,7 @@
   },
   "palette" : "/items/active/weapons/colors/tier9melee.weaponcolors",
   "altAbilityType" : "bladecharge",
+  "critChance" : 2, 
+  "critBonus" : 8, 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

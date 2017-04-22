@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "graphene", "count" : 10 }
+    { "item" : "avaligraphene", "count" : 10 }
   ],
   "output" : {
     "item" : "FUUnlocker",

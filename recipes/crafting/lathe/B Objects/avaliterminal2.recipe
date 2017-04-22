@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "mediummetal", "count" : 1  },
-    { "item" : "graphene", "count" : 3  },
+    { "item" : "avaligraphene", "count" : 3  },
     { "item" : "siliconboard", "count" : 1  }  
   ],
   "output" : { "item" : "avaliterminal2", "count" : 1 },
