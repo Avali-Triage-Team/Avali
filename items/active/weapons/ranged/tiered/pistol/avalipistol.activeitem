@@ -8,7 +8,7 @@
   "shortdescription" : "PD1 Frostbite",
   "level" : 1,
   "tooltipKind" : "gun",
-  "weaponType" : "Pistol",
+  "category" : "pistol",
   "itemTags" : ["weapon","ranged","pistol"],
   "twoHanded" : false,
   
@@ -77,5 +77,7 @@
     }
   },
 
+  "critChance" : 2, 
+  "critBonus" : 8, 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

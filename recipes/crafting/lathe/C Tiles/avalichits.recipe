@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "graphene", "count" : 1 },
+    { "item" : "avaligraphene", "count" : 1 },
 	{ "item" : "aerogel", "count" : 2 }
   ],
   "output" : { "item" : "avalichits", "count" : 5 },

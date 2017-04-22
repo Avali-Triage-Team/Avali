@@ -8,7 +8,7 @@
   "shortdescription" : "AR1 Blizzard",
   "level" : 1,
   "tooltipKind" : "gun",
-  "weaponType" : "Assault Rifle",
+  "category" : "assaultRifle",
   "itemTags" : ["weapon","ranged","assaultrifle"],
   "twoHanded" : true,
   
@@ -79,5 +79,7 @@
 
   "altAbilityType" : "flashlight",
 
+  "critChance" : 2, 
+  "critBonus" : 8, 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

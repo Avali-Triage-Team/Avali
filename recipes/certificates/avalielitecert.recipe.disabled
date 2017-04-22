@@ -3,7 +3,7 @@
     { "item" : "diamond", "count" : 5 },
     { "item" : "money", "count" : 2500 },
   { "item" : "aerogel", "count" : 10 },
-  { "item" : "graphene", "count" : 10},
+  { "item" : "avaligraphene", "count" : 10},
   { "item" : "avalitoken", "count" : 1}
   ],
   "output" : { "item" : "avalielitecert", "count" : 1 },

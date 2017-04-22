@@ -2,7 +2,7 @@
   "input" : [
     { "item" : "tungstenbar", "count" : 8  },
     { "item" : "fabric", "count" : 5  },
-    { "item" : "graphene", "count" : 5  }
+    { "item" : "avaligraphene", "count" : 5  }
   ],
   "output" : { "item" : "avaliarmor2pants", "count" : 1 },
   "groups" : [ "armors", "avalilathe", "all" ]
