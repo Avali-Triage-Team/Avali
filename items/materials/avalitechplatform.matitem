@@ -8,5 +8,5 @@
 
   "materialId" : 12519,
   
-  "learnBlueprintsOnPickup" : [ "avalitechplatforms" ]
+  "learnBlueprintsOnPickup" : [ "avalitechplatform" ]
 }
