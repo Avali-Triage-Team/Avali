@@ -44,7 +44,7 @@
   "animation" : "/objects/ship/techstation.animation",
   "scripts" : [ "/objects/spawner/techstation.lua" ],
   "scriptDelta" : 20,
-  "shipPetType" : "petcat",
+  "shipPetType" : "avalidronepet",
   "spawnOffset" : [2, -1],
 
   "chatPortrait" : "/ai/portraits/avaliportrait.png:yell.1",

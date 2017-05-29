@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "mediummetal", "count" : 12  },
+    { "item" : "aerogel", "count" : 5  },
+    { "item" : "siliconboard", "count" : 1  }    
+  ],
+  "output" : { "item" : "avalipethouse", "count" : 1 },
+  "duration" : 0.1,
+  "groups" : [ "storage", "avalilathe", "all" ]
+}
