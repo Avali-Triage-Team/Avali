@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "coalore", "count" : 1 }
-  ],
-  "output" : { "item" : "avaligraphene", "count" : 10 },
-  "groups" : [ "ingredients", "avalilathe", "all"],
-  "duration" : 0.1
-}

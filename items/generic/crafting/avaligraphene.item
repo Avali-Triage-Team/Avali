@@ -1,7 +1,7 @@
 {
   "itemName" : "avaligraphene",
   "rarity" : "Common",
-  "inventoryIcon" : "graphene.png",
+  "inventoryIcon" : "avaligraphene.png",
   "description" : "Graphene that's been woven specially for use in Avali crafting stations",
   "shortdescription" : "Woven Graphene",
   "learnBlueprintsOnPickup" : [],
