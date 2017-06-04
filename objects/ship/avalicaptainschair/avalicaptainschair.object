@@ -11,13 +11,13 @@
   "race" : "avali",
   "category" : "furniture",
 
-  "apexDescription" : "Ahh freedom...",
-  "avianDescription" : "Bless my beak, such a comfortable captain's chair.",
-  "floranDescription" : "SSsmells of Apex butt.",
-  "glitchDescription" : "Anticipation. Where to next?",
-  "humanDescription" : "A pretty cool chair.",
-  "hylotlDescription" : "Elegant.",
-  "novakidDescription" : "The Captain's chair. The guy who sits here decides where the ship goes.",
+  "apexDescription" : "Ahh... Sweet freedom. I can use the ship's navigator from this chair.",
+  "avianDescription" : "The Captain's chair. That's me! I can use the ship's navigator from this chair.",
+  "floranDescription" : "Best chair on ship. Floran can sit here to ussse navigator and fly ship!",
+  "glitchDescription" : "Excited. Sitting on the Captain's chair allows me to fly this ship. Where to next?",
+  "humanDescription" : "The Captain's chair. The person sitting here decides where the ship goes!",
+  "hylotlDescription" : "Sitting on the Captain's chair allows me to fly this ship.",
+  "novakidDescription" : "The Captain's chair. The guy who sits here decides where the ship goes! That's me!",
 
   "inventoryIcon" : "captainschairicon.png",
   "orientations" : [
@@ -46,9 +46,8 @@
     }
   ],
 
-  "interactAction" : "openCockpitInterface",
+  "interactAction" : "ScriptPane",
+  "interactData" : "/interface/cockpit/cockpit.config",
 
-  "sitFlipDirection" : false,
-  "soundEffect" : "/sfx/objects/shipengine.ogg",
-  "soundEffectRadius" : 1000
+  "sitFlipDirection" : false
 }
