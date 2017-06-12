@@ -9,9 +9,9 @@
   "footstepSound" : "/sfx/blocks/footstep_girder.ogg",
   "category": "supports",
   "health" : 4,
-  "glitchDescription" : "Pleased. The material this rail is made from makes it very strong.",
+  "glitchDescription" : "Concerned. This rail appears to be made from colored glass.",
   "floranDescription" : "Shiny glassy rails. Isss it sssafe?",
-  "novakidDescription" : "Some sturdy lookin' rails, gettin' the itch to ride 'em.",
+  "novakidDescription" : "Some fancy-looking glass rails. Will they even hold me?",
 
   "renderTemplate" : "/tiles/railtemplate.config",
   "renderParameters" : {
