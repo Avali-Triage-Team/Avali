@@ -1,0 +1,13 @@
+{
+  "itemName" : "avalislopedtechpanel",
+  "rarity" : "Common",
+  "category" : "block",
+  "price" : 10,
+  "inventoryIcon" : "avalislopedtechpanel.png",
+  "description" : "Trusty tech panels, hiding your expensive electronics since 2807. Now they go diagonal too!",
+  "shortdescription" : "Sloped Tech Panels",
+
+  "materialId" : 12526,
+  
+  "learnBlueprintsOnPickup" : [ "avalislopedtechpanel" ]
+}

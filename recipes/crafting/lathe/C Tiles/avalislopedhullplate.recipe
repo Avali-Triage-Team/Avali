@@ -1,0 +1,9 @@
+{
+  "input" : [
+   { "item" : "avaliplain", "count" : 50 },
+   { "item" : "avaligraphene", "count" : 5 }
+  ],
+  "output" : { "item" : "avalislopedhullplate", "count" : 50 },
+  "groups"  : [ "materials", "avalilathe", "all" ],
+  "duration" : 0.25
+}

@@ -1,0 +1,22 @@
+{
+  "materialId" : 12528,
+  "materialName" : "avalislopedinsetpanel",
+  "particleColor" : [11, 98, 90, 255],
+  "itemDrop" : "avalislopedinsetpanel",
+
+  "description" : "Bright inset panels with slopes. Boring description is boring",
+  "shortdescription" : "Sloped Inset Panel",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "health" : 16,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/slopedmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "avalislopedinsetpanel.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 4998
+  }
+}

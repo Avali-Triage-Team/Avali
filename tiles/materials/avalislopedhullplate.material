@@ -1,0 +1,22 @@
+{
+  "materialId" : 12531,
+  "materialName" : "avalislopedhullplate",
+  "particleColor" : [11, 98, 90, 255],
+  "itemDrop" : "avalislopedhullplate",
+
+  "description" : "Plain panels, because less is more! But sloped, cause MORE is more!",
+  "shortdescription" : "Sloped Plain Panel",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "health" : 16,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/slopedmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "avalislopedhullplate.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 4998
+  }
+}

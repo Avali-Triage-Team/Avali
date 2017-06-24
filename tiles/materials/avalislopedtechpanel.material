@@ -1,0 +1,22 @@
+{
+  "materialId" : 12526,
+  "materialName" : "avalislopedtechpanel",
+  "particleColor" : [11, 98, 90, 255],
+  "itemDrop" : "avalislopedtechpanel",
+
+  "description" : "Tech panels, with clopes, so your wires can run every which way!",
+  "shortdescription" : "Sloped Tech Panel",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "health" : 16,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/slopedmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "avalislopedtechpanel.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 4998
+  }
+}
