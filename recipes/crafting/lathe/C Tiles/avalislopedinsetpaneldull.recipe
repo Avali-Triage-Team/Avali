@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "avaligraphene", "count" : 10 },
+    { "item" : "ironbar", "count" : 1 }
+  ],
+  "output" : { "item" : "avalislopedinsetpaneldull", "count" : 20 },
+  "groups"  : [ "materials", "avalilathe", "all" ],
+  "duration" : 0.25
+}

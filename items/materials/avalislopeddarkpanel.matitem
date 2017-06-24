@@ -1,0 +1,13 @@
+{
+  "itemName" : "avalislopeddarkpanel",
+  "rarity" : "Common",
+  "category" : "block",
+  "price" : 10,
+  "inventoryIcon" : "avalislopeddarkpanel.png",
+  "description" : "Dark and spooky! Okay, maybe not spooky, but they way these are sloped unnerves you slightly.",
+  "shortdescription" : "Sloped Dark Panels",
+
+  "materialId" : 12530,
+  
+  "learnBlueprintsOnPickup" : [ "avalislopeddarkpanel" ]
+}

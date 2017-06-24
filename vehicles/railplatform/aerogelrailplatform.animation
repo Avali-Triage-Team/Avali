@@ -2,12 +2,22 @@
   "animatedParts" : {
     "stateTypes" : {
       "rail" : {
-        "default" : "onRail",
+        "default" : "off",
         "states" : {
-          "onRail" : {
+          "off" : {
+            "properties" : {
+              "immediateSound" : "/sfx/objects/steel_elevator_hit.ogg",
+              "immediateSoundRangeMultiplier" : 0.5
+            }
+          },
+          "on" : {
             "frames" : 8,
             "cycle" : 0.4,
-            "mode" : "loop"
+            "mode" : "loop",
+            "properties" : {
+              "persistentSound" : "/sfx/tech/composite_platform_loop.ogg",
+              "persistentSoundRangeMultiplier" : 0.5
+            }
           }
         }
       }
@@ -24,9 +34,14 @@
 
         "partStates" : {
           "rail" : {
-            "onRail" : {
+            "on" : {
               "properties" : {
                 "image" : "<partImage>:onRail.<frame>"
+              }
+            },
+            "off" : {
+              "properties" : {
+                "image" : "<partImage>:offRail"
               }
             }
           }
@@ -41,9 +56,14 @@
 
         "partStates" : {
           "rail" : {
-            "onRail" : {
+            "on" : {
               "properties" : {
                 "image" : "<partImage>:onRail.<frame>"
+              }
+            },
+            "off" : {
+              "properties" : {
+                "image" : "<partImage>:offRail"
               }
             }
           }

@@ -1,0 +1,9 @@
+{
+  "input" : [
+   { "item" : "avaliglass", "count" : 20 },
+   { "item" : "aerogel", "count" : 1 }
+  ],
+  "output" : { "item" : "avalislopedaerogelglass", "count" : 20 },
+  "groups"  : [ "materials", "avalilathe", "all" ],
+  "duration" : 0.25
+}

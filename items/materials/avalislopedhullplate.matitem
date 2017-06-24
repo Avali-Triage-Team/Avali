@@ -1,0 +1,13 @@
+{
+  "itemName" : "avalislopedhullplate",
+  "rarity" : "Common",
+  "category" : "block",
+  "price" : 10,
+  "inventoryIcon" : "avalislopedhullplate.png",
+  "description" : "Plain paneling, because sometimes less is more. Now with slopes, because MORE is more!",
+  "shortdescription" : "Sloped Plain Panels",
+
+  "materialId" : 12531,
+  
+  "learnBlueprintsOnPickup" : [ "avalislopedhullplate" ]
+}

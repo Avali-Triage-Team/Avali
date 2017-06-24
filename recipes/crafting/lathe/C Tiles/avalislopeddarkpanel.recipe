@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "avalidarkmetal2", "count" : 20 },
+    { "item" : "ironblock", "count" : 1 }
+  ],
+  "output" : { "item" : "avalislopeddarkpanel", "count" : 20 },
+  "groups"  : [ "materials", "avalilathe", "all" ],
+  "duration" : 0.25
+}

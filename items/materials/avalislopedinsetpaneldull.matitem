@@ -1,0 +1,13 @@
+{
+  "itemName" : "avalislopedinsetpaneldull",
+  "rarity" : "Common",
+  "category" : "block",
+  "price" : 10,
+  "inventoryIcon" : "avalislopedinsetpaneldull.png",
+  "description" : "Dull-colored inset panels with slopes!",
+  "shortdescription" : "Dull Sloped Inset Panels",
+
+  "materialId" : 12529,
+  
+  "learnBlueprintsOnPickup" : [ "avalislopedinsetpaneldull" ]
+}

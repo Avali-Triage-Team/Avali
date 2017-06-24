@@ -1,0 +1,22 @@
+{
+  "materialId" : 12529,
+  "materialName" : "avalislopedinsetpaneldull",
+  "particleColor" : [11, 98, 90, 255],
+  "itemDrop" : "avalislopedinsetpaneldull",
+
+  "description" : "Excitingly dull inset panels! They don't hold much color.",
+  "shortdescription" : "Dull Sloped Inset Panel",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "health" : 16,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/slopedmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "avalislopedinsetpaneldull.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 4998
+  }
+}

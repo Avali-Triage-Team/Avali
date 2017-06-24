@@ -6,6 +6,7 @@
   },
 
   "aliases" : {
-    "default" : "onRail.1"
+    "default" : "onRail.1",
+    "offRail" : "onRail.4"
   }
 }
