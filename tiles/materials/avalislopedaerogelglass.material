@@ -14,7 +14,6 @@
   "renderParameters" : {
     "texture" : "avalislopedaerogelglass.png",
     "variants" : 1,
-    "variants" : 5,
     "lightTransparent" : false,
     "occludesBelow" : false,
     "multiColored" : true,
