@@ -30,7 +30,7 @@
   "glitchDescription" : "Dubious. I doubt this device gets hot enough to properly melt microcheese until rust-brown.",
   "humanDescription" : "I should probably read the instructions before trying to dry my cat in this thing.",
   "hylotlDescription" : "I'm beginning to suspect that for all their flaws, the Avali may have promise as culinarians.",
-  "avaliDescription" : "We breathe methane--our stoves have to pump oxygen which then burns with the methane in the air.", // Isn't it hydrogen that they breathe? I'd change it if not for the fact that pure hydrogen and oxygen burns at 3200 celsius.
+  "avaliDescription" : "Our stoves pump oxygen which then burns with the methane in the air.", // Isn't it hydrogen that they breathe? I'd change it if not for the fact that pure hydrogen and oxygen burns at 3200 celsius. // They can breathe hydrogen but still have a methane-rich atmosphere. We have a similar scenario with oxygen and nitrogen.
   
   "inventoryIcon" : "avalikitchenstoveicon.png",
   "orientations" : [
