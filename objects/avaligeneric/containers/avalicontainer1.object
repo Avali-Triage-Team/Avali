@@ -8,7 +8,7 @@
 
   "category" : "storage",
   "price" : 154,
-  "description" : "A big storage crate for storing big things",
+  "description" : "A big storage crate for storing big things.",
   "shortdescription" : "Cargo Crate",
   "race" : "generic",
   "retainObjectParametersInItem" : true, 
