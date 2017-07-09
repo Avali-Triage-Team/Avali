@@ -6,7 +6,7 @@
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
   "inventoryIcon" : "avalinoodle.png",
-  "description" : "Sweet noodles made from Piru frond flour, a staple of Avali students.",
+  "description" : "Sweet noodles made from piru frond flour, a staple of Avali students.",
   "shortdescription" : "Piru Noodle",
   "handPosition" : [-7, 7],
   "itemAgingScripts" : ["/scripts/items/rotting.lua"],

@@ -8,7 +8,7 @@
 
   "category" : "storage",
   "price" : 154,
-  "description" : "A big storage crate, for storing big things",
+  "description" : "A big storage crate for storing big things",
   "shortdescription" : "Cargo Crate",
   "race" : "generic",
   "retainObjectParametersInItem" : true, 
@@ -18,8 +18,8 @@
   "floranDescription" : "Avali houssses are sssturdy and sssmall.",
   "glitchDescription" : "Uncertainty. I am unsure if this is a robotic transport or a container.",
   "humanDescription" : "What's in the box? Can I afford to not find out?",
-  "hylotlDescription" : "A cargo container, looks like the sort of thing a barge might carry.",
-  "avaliDescription" : "The crate has its own electronic manifest. It reads the RFID tags of the items inside and automatically generates an inventory, it can even pass the location of an object to my HUD.",
+  "hylotlDescription" : "A cargo container; looks like the sort of thing a barge might carry.",
+  "avaliDescription" : "The crate has its own electronic manifest. It reads the RFID tags of the items inside and automatically generates an inventory. It can even pass the location of an object to my HUD.",
 
   "inventoryIcon" : "avalicontainer1icon.png",
   "orientations" : [

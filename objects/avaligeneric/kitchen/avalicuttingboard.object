@@ -10,7 +10,7 @@
     "config" : "/interface/windowconfig/craftingfood.config",
     "filter" : [ "craftingfood", "kitchen" ]
   },
-  "description" : "This workstation has everything; cutting board, knife sharpening, waste disposal and tap!",
+  "description" : "This workstation has everything: cutting board, knife sharpener, waste disposal and tap!",
   "shortdescription" : "^orange;Culinary Station^white;",
   "race" : "generic",
 

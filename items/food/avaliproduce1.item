@@ -4,7 +4,7 @@
   "category" : "cookingIngredient",
   "rarity" : "Common",
   "inventoryIcon" : "avaliproduce1.png",
-  "description" : "The fruiting body of a subterranean slime mold... delicious, I guess?",
+  "description" : "The fruiting body of a subterranean slime mould... delicious, I guess?",
   "shortdescription" : "Kiri Fruit",
   "handPosition" : [7, 0],
   "learnBlueprintsOnPickup" : []

@@ -5,7 +5,7 @@
   "maxStack" : 1,
   "rarity" : "Rare",
   "tooltipKind" : "tool",
-  "description" : "Pickaxes are so last millennium! Lasers are the future. This one comes equipped with an avali focusing lens and improved lifetime",
+  "description" : "Pickaxes are so last millennium! Lasers are the future. This one comes equipped with an Avali focusing lens and improved lifetime",
   "shortdescription" : "Avali Laser Mining Tool",
   "largeImage" : "avalilaserminerbig.png",
   "image" : "avalilaserminer.png:{frame}",

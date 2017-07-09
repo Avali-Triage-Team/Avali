@@ -4,7 +4,7 @@
   "price" : 50,
   "rarity" : "Rare",
   "maxStack" : 1,
-  "description" : "A bright light that never gets hot! This one admits a ^red;red ^white;glow.",
+  "description" : "A bright light that never gets hot! This one emits a ^red;red ^white;glow.",
   "shortdescription" : "Avali Utility light",
   "largeImage" : "avaliutilitylight3.png",
   "tooltipKind" : "tool",

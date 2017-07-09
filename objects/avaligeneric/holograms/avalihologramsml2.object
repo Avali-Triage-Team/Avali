@@ -3,7 +3,7 @@
   "colonyTags" : [ "avali", "avalicamp", "electronic" ], 
   "rarity" : "Common",
   "printable" : false,
-  "description" : "Small window with a moving bar graph",
+  "description" : "A small window with a moving bar graph.",
   "shortdescription" : "Hologram, Bars",
   "race" : "avali",
   "category" : "decorative",
@@ -11,11 +11,11 @@
   "retainObjectParametersInItem" : true, 
 
   "apexDescription" : "Hmm, these bars are moving in distinct but irregular pulses. This could be problematic.",
-  "avianDescription" : "There's something familiar about the rhythm of the bars movement, but I can't put my feathers on it.",
-  "floranDescription" : "<Stomps out a sweet beat in time with the bars>",
-  "glitchDescription" : "Analysis. Whatever this display is linked to is likely malfunctioning, the output is highly irregular.",
-  "humanDescription" : "I best not touch, this looks incredibly important.",
-  "hylotlDescription" : "I'm going to leave that to the professionals, this looks serious.",
+  "avianDescription" : "There's something familiar about the rhythm of the bars' movement, but I can't put my feathers on it.",
+  "floranDescription" : "*stomps out a beat in time with the bars*",
+  "glitchDescription" : "Analysis. Whatever this display is linked to is likely malfunctioning; the output is highly irregular.",
+  "humanDescription" : "I'd best not touch; this looks incredibly important.",
+  "hylotlDescription" : "I'm going to leave that to the professionals; this looks serious.",
   "avaliDescription" : "Huh... someone left their music player switched on but muted in this MFD pane...",
 
   "lightColors" : {

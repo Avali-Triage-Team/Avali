@@ -8,7 +8,7 @@
     "filter" : [ "avalisewing" ]
   },
   "printable" : true,
-  "description" : "Is it a 3D printer? Is it a loom? No, it's... well, both basically.",
+  "description" : "Is it a 3D printer? Is it a loom? No, it's... well, both, basically.",
   "shortdescription" : "Avali Sewing Station",
   "race" : "avali",
   "category" : "crafting",

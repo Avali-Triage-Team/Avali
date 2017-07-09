@@ -42,7 +42,7 @@
     "value":{  
       "default":[  
         "Does anything catch your eyes?",
-        "What you wish to buy? If you wish to buy...",
+        "What do you wish to buy? If you wish to buy...",
         "I got everything that can help you in anything."
       ]
     }
@@ -128,7 +128,7 @@
     "value":{  
       "default":[  
         "The damage to my store is causing much concern to me...",
-        "I would appreciate if you could repair the damages to my home.",
+        "I would appreciate if you could repair the damage to my home.",
         "Hmm, there appears to be a broken wall in my home. Can you fix it?"
       ]
     }
@@ -140,7 +140,7 @@
       "default":[  
         "Why is someone else attempting to move into my store?",
         "Did you put my shop up for rent? This must be a mistake...",
-        "There is another deed in my shop - Surely this isn't intentional."
+        "There is another deed in my shop. Surely this isn't intentional."
       ]
     }
   },
