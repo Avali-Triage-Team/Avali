@@ -4,7 +4,7 @@
   "category" : "cookingIngredient",
   "rarity" : "Common",
   "inventoryIcon" : "avaliproduce3.png",
-  "description" : "A long, fibrous frond from a Piru barnacle.",
+  "description" : "A long, fibrous frond from a piru barnacle.",
   "shortdescription" : "Piru Frond",
   "handPosition" : [7, 0],
   "learnBlueprintsOnPickup" : [ "avaliflour" ]

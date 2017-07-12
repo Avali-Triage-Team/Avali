@@ -6,7 +6,7 @@
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
   "inventoryIcon" : "avalinoodle2.png",
-  "description" : "Spicy meat noodles with a rich Kiri sauce.",
+  "description" : "Spicy meat noodles with a rich kiri sauce.",
   "shortdescription" : "Kiri Curry",
   "handPosition" : [0, 4],
   "itemAgingScripts" : ["/scripts/items/rotting.lua"],

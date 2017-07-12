@@ -4,7 +4,7 @@
   "maxStack" : 1,
   "price" : 10,
   "rarity" : "Common",
-  "description" : "^green;Avali, Back Slot. ^white; Because flowing scarves are the best scarves",
+  "description" : "^green;Avali, Back Slot. ^white; Because flowing scarves are the best scarves.",
   "shortdescription" : "Flowing Scarf",
 
   "maleFrames" : "back.png",

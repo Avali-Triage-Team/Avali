@@ -17,7 +17,7 @@
   "glitchDescription" : "Suspicion. I think this door is watching me...",
   "humanDescription" : "Open sesame?",
   "hylotlDescription" : "Could they have made this any more of an abomination of portal technology?",
-  "avaliDescription" : "The locking mechanism is accessed via augmented reality, non-avali can't normally open a door like this.",
+  "avaliDescription" : "The locking mechanism is accessed via augmented reality; non-Avali can't normally open a door like this.",
 
   "inventoryIcon" : "avalitechdooricon.png",
   "orientations" : [

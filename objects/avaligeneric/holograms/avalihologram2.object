@@ -10,13 +10,13 @@
   "price" : 50,
   "retainObjectParametersInItem" : true, 
 
-  "apexDescription" : "A fairly basic sine wave form, I can't read what it says it about it.",
+  "apexDescription" : "A fairly basic sine wave form, I can't read what it says about it.",
   "avianDescription" : "A screen without a screen, that's interesting...",
-  "floranDescription" : "<Watches the wave form, bobbing their head with the motion>",
+  "floranDescription" : "*watches the wave form, bobbing their head with the motion*",
   "glitchDescription" : "Recollective. y(t) = A sin (kx - omega t)",
   "humanDescription" : "Some kind of wave form, could be anything.",
   "hylotlDescription" : "I prefer to use hologram technology for decorative purposes instead of labour.",
-  "avaliDescription" : "Some kind of waveform analysis, not too sure of the source, the filename is just a jumble of numbers.",
+  "avaliDescription" : "Some kind of waveform analysis, not too sure of the source; the filename is just a jumble of numbers.",
 
   "lightColors" : {
     "default" :  [100, 60, 16],

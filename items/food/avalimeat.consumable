@@ -9,7 +9,7 @@
   "description" : "Chunks of seasoned jerky, popular with hunters and explorers.",
   "shortdescription" : "Spicy Jerky",
   "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "rottingMultiplier" : 1.0,
+  "rottingMultiplier" : 5.0,
   "foodValue" : 35,
   "maxStack" : 1,
   "blockingEffects" : [ "wellfed" ],

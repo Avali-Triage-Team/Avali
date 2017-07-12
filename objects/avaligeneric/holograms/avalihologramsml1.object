@@ -3,7 +3,7 @@
   "colonyTags" : [ "avali", "avalicamp", "electronic" ], 
   "rarity" : "Common",
   "printable" : false,
-  "description" : "Small window with text in it.",
+  "description" : "A small window with text in it.",
   "shortdescription" : "Hologram, Text Window",
   "race" : "avali",
   "category" : "decorative",

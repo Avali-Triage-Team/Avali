@@ -14,7 +14,7 @@ Download most recent release's ZIP file from  https://github.com/Avali-Triage-Te
 
 >>>various folders and files 
 
-# Always remember to delete the previous verison before installing any new one!
+# Always remember to delete the previous version before installing any new one!
 
 # Making a feature suggestion
 If you have the know-how to code everything yourself, feel free to make a Fork, make your changes, then make a Pull Request. Chances are I'll take a glance over what you added then just plop it in.
@@ -31,7 +31,7 @@ Please test your additions before you make the pull request.
 
 5: Fill in a title and a summary for the commit, then click "Commit to master" at the bottom.
 
-6: Return to this page and click the green button near the top that looks like two arrows pointing at the ends of eachother.
+6: Return to this page and click the green button near the top that looks like two arrows pointing at the ends of each other.
 
 7: "Base fork" should be this repository (Fevix/Avali), and the Branch should be Master. Head fork should be your own fork (Yourname/Avali), and under most circumstances the "compare" field should be 'Master' as well (Unless you made a branch of your own and would like to submit the pull request from that branch, in which case select the name of that branch from the dropdown menu.)
 

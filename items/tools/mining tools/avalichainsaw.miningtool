@@ -5,7 +5,7 @@
   "price" : 250,
   "rarity" : "uncommon",
   "tooltipKind" : "tool",
-  "description" : "The Avali answer to clear-cutting...trees do not stand a chance.",
+  "description" : "The Avali answer to clear-cutting... trees do not stand a chance.",
   "shortdescription" : "Chainsaw",
   "largeImage" : "avalichainsawbig.png",
   "image" : "avalichainsaw.png:{frame}",

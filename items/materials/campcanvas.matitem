@@ -3,7 +3,7 @@
   "price" : 10,
   "rarity" : "Common",
   "inventoryIcon" : "campcanvas.png",
-  "description" : "Ultra light yet ultra strong. Avali tents can stop bullets!",
+  "description" : "Ultra-light yet ultra-strong, Avali tents can stop bullets!",
   "shortdescription" : "Nanocanvas",
   "printable" : true,
   "materialId" : 12515,

@@ -5,7 +5,7 @@
   "price" : 10,
   "rarity" : "Common",
   "category" : "headwear",
-  "description" : "^green;Avali, Head Slot. ^white; A nice thick wooly scarf, this one sports a neat chequered pattern",
+  "description" : "^green;Avali, Head Slot. ^white; A nice thick wooly scarf, this one sports a neat chequered pattern.",
   "shortdescription" : "Chequered Scarf",
   "tooltipKind" : "armor",
 
