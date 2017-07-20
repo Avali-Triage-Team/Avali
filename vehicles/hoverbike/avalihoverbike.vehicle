@@ -76,7 +76,7 @@
   "jumpVelocity" : 40,
   "jumpTimeout" : 0.25,
 
-  //Health and damage
+
   "protection" : 50,
   "maxHealth" : 1000,
 
@@ -104,7 +104,7 @@
   "terrainCollisionDamage" : 10,
 
 
-  //Damage visual effects
+
   "smokeParticleHealthThreshold" : 0.5,
   "smokeRateAtZeroHealth" : 500,
 
@@ -118,7 +118,7 @@
 
 
 
-  //Sound effects
+
   "engineDamageSoundThreshold" : 0.40,
 
   "intermittentDamageSoundThreshold" : 0.33,
