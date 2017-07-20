@@ -2,4 +2,3 @@
 **/*.png
 *.lua
 **/*.lua
-node_modules/**/*
