@@ -1,3 +1,1 @@
-[
-{ "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : ["avalihoverbikecontroller", 1] } }
-]
+[{"op":"add","path":"/avaliDescription","value":"This human has a respected and reputable reputation. I'm sure of it! (No I'm not.)"}]
