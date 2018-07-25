@@ -1,4 +1,6 @@
 language: node_js
 node_js: node
-install: npm install -g jsonlint-cli
-script: jsonlint-cli *.* **/*.*
+install: npm install -g jsonlint-cli jsmin
+script:
+  - find . -type f ! -path "*/\.*" $(printf "! -wholename %s " $(cat .jsonlintignore)) -print0 | xargs -0 -I{} bash -c 'result=$(jsmin -l 1 --overwrite "{}" 2>&1)|| (printf "\nerror in {}$result"; exit 1)'
+  - jsonlint-cli *.* **/*.*
