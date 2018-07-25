@@ -4,3 +4,9 @@
 **/*.lua
 *.md
 **/*.md
+*.ogg
+**.*.ogg
+*.txt
+**/*.txt
+*.disabled
+**/*.disabled
