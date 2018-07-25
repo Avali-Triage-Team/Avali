@@ -9,13 +9,15 @@
   "description" : "A Neural Uplink Scanner, fancy.",
   "shortdescription" : "Neural Uplink Upgrade",
   "race" : "generic",
+/*
   "apexDescription" : "Does the Miniknog watch us through this?",
   "avianDescription" : "It seems to detect when I'm near it.",
   "floranDescription" : "Sssstabby timesss?",
   "glitchDescription" : "Statement. A proximity scanner.",
   "humanDescription" : "I don't like the way this looks.",
   "hylotlDescription" : "Is Avali technolgy always this basic?",
-  "avaliDescription" : "Beep, Beep, Boop.",
+  "avaliDescription" : "Beep, Beep, Boop."
+*/
   "inventoryIcon" : "uplinkscannericon.png",
   "orientations" : [
     {
@@ -40,7 +42,7 @@
   "animationPosition" : [0, 0],
 
   "outputNodes" : [ [0, 0] ],
-
+  
   "interactive" : false,
 
   "detectDuration" : 3,
