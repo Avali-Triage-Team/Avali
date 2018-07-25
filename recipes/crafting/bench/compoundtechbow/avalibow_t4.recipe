@@ -1,7 +1,7 @@
 {
   "input" : [
-
-
+    // { "item" : "avalitoken", "count" : 1 },
+  // { "item" : "circuitboard", "count" : 1 },
   { "item" : "aerogel", "count" : 25 },
   { "item" : "avaligraphene", "count" : 35 },
   { "item" : "refinedaegisalt", "count" : 10 },
