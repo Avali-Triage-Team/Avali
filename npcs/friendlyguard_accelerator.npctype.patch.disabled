@@ -1,0 +1,31 @@
+[
+  { "op" : "add",
+    "path" : "/items/avali",
+    "value" : 
+    [ [5, [ {
+        "head" : [ 
+          { "name" : "avaliarmor4head", "data" : { "colorIndex" : [7] } },
+          { "name" : "avaliarmor5head", "data" : { "colorIndex" : [7] } },
+          { "name" : "avaliarmor6head", "data" : { "colorIndex" : [7] } }
+        ],
+        "chest": [ { "name": "avaliguardtier5achest", "data" : { "colorIndex" : [7] } } ],
+        "legs": [  { "name": "avaliarmor3pants", "data" : { "colorIndex" : [7] } } ],
+        "primary": [ { "name": "avalirifle", "data" : { "level" : 5, "shortdescription" : "AR5 Blizzard" } } ],
+        "sheathedprimary": [ { "name": "avalitier5aspear" } ],
+        "alt": [ { "name": "avalishotgun", "data" : { "level" : 5, "shortdescription" : "MG5 Hailstorm" } } ]
+      } ] ],
+      [6, [ {
+        "head" : [ 
+          { "name" : "avaliarmor4head", "data" : { "colorIndex" : [7] } },
+          { "name" : "avaliarmor5head", "data" : { "colorIndex" : [7] } },
+          { "name" : "avaliarmor6head", "data" : { "colorIndex" : [7] } }
+        ],
+        "chest": [ { "name": "avaliguardtier6achest", "data" : { "colorIndex" : [7] } } ],
+        "legs": [  { "name": "avaliarmor3pants", "data" : { "colorIndex" : [7] } } ],
+        "primary": [ { "name": "avaliminigun", "data" : { "level" : 6 } } ],
+        "sheathedprimary": [ { "name": "avalitier1broadsword" } ],
+        "alt": [ { "name": "avalishotgun" }, "data" : { "level" : 6 } ]
+      } ] ]
+    ]
+  }
+]
