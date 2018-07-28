@@ -4,7 +4,7 @@
   "printable" : false,
   "rarity" : "Common",
   "objectType" : "teleporter",
-  "category" : "decorative",
+  "category" : "teleportMarker",
   "price" : 70,
 
   "description" : "A holoprojector with the tri-feather emblem of the Avali.",
