@@ -8,5 +8,5 @@
     "item" : "flagavali",
     "count" : 1
   },
-  "groups" : [ "plain", "objects", "all" ]
+  "groups" : [ "plain", "all" ]
 }
