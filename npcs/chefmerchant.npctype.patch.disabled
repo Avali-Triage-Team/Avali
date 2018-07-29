@@ -1,0 +1,18 @@
+[
+  { "op": "add",
+    "path": "/items/avali",
+    "value": 
+    [ [0, [ {
+        "head": [
+          "chefhead"
+        ],
+        "legs": [
+          "avaliscientistpants"
+        ],
+        "sheathedprimary": [
+          { "name": "commondagger" }
+        ]
+      } ] ]
+    ]
+  }
+]

@@ -1,7 +1,7 @@
 {
   "input" : [
-
-
+    // { "item" : "avalitoken", "count" : 1 },
+  // { "item" : "circuitboard", "count" : 1 },
   { "item" : "aerogel", "count" : 20 },
   { "item" : "avaligraphene", "count" : 30 },
   { "item" : "durasteelbar", "count" : 10 },

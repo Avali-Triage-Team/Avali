@@ -1,0 +1,31 @@
+[
+  { "op" : "add",
+    "path" : "/items/avali",
+    "value" : [
+      [5, [ {
+        "head" : [ 
+          { "name" : "avaliarmor4head", "data" : { "colorIndex" : [9] } },
+          { "name" : "avaliarmor5head", "data" : { "colorIndex" : [9] } },
+          { "name" : "avaliarmor6head", "data" : { "colorIndex" : [9] } }
+        ],
+        "chest": [ { "name": "avaliguardtier5schest", "data" : { "colorIndex" : [9] } } ],
+        "legs": [  { "name": "avaliarmor3pants", "data" : { "colorIndex" : [9] } } ],
+        "primary": [ { "name": "avalishotgun", "data" : { "level" : 6, "shortdescription" : "QRC Type-6" } } ],
+        "sheathedprimary": [ { "name": "avalitier1shortsword" } ],
+        "alt": [ { "name": "avalitier4barrier" } ]
+      } ] ],
+      [6, [ {
+        "head" : [ 
+          { "name" : "avaliarmor4head", "data" : { "colorIndex" : [9] } },
+          { "name" : "avaliarmor5head", "data" : { "colorIndex" : [9] } },
+          { "name" : "avaliarmor6head", "data" : { "colorIndex" : [9] } }
+        ],
+        "chest": [ { "name": "avaliguardtier6schest", "data" : { "colorIndex" : [9] } } ],
+        "legs": [  { "name": "avaliarmor3pants", "data" : { "colorIndex" : [9] } } ],
+        "primary": [ { "name": "avalishotgun", "data" : { "level" : 6, "shortdescription" : "QRC Type-6" } } ],
+        "sheathedprimary": [ { "name": "avalitier1shortsword" } ],
+        "alt": [ { "name": "avalitier4barrier" } ]
+      } ] ]
+    ]
+  }
+]

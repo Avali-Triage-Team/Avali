@@ -47,6 +47,51 @@
       ]
     }
   },
+  /*{
+    "op":"add",
+    "path":"/helpme/avali",
+    "value":{
+      "default":[
+      "Time to flee!",
+      "Help! I'm being attacked!",
+      "I'm under attack!"
+      ]
+    }
+  },
+  {
+    "op":"add",
+    "path":"/helpthem/avali",
+    "value":{
+      "default":[
+      "Help! They're being attacked!",
+      "Someone help them!"
+      ]
+    }
+  },
+  {
+    "op":"add",
+    "path":"/encourage/avali",
+    "value":{
+      "default":[
+      "Get 'em!",
+      "Avenge me!",
+      "Stick 'em once for me!",
+      "Don't let 'em get away!"
+      ]
+    }
+  },
+  {
+    "op":"add",
+    "path":"/safe/avali",
+    "value":{
+      "default":[
+      "I think I got away.",
+      "Phew!",
+      "A close call!",
+      "That was close..."
+      ]
+    }
+  },*/
   {
     "op":"add",
     "path":"/tout/avali",

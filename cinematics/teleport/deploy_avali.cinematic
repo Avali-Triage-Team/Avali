@@ -105,7 +105,7 @@
      "startTime" : 0.0,
      "loopTime" : 1.0
     },
-
+// lower layer
     {
       "drawables" : [
         {

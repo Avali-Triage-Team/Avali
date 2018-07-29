@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "avalitoken", "count" : 1 },
+  { "item" : "avalirifle", "data" : { "level" : 2, "shortdescription" : "AR2 Blizzard" }, "count" : 1 },
+  { "item" : "money", "count" : 250}
+  ],
+  "output" : { "item" : "avalitier2rifleexplosive", "count" : 1 },
+  "groups" : [ "avalibench", "weapons", "all" ]
+}
