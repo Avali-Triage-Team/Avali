@@ -1,6 +1,6 @@
 {
   "objectName" : "avalikitchenstove",
-  "colonyTags" : [ "avali", "avalicamp", "cooking" ], 
+  "colonyTags" : [ "avali", "avalicamp", "cooking" ],
   "printable" : false,
   "rarity" : "Uncommon",
   "category" : "crafting",
@@ -8,7 +8,7 @@
   "description" : "It's a combination gas-fan-microwave-oven-stove!",
   "shortdescription" : "^orange;Avali Cooker^white;",
   "race" : "avali",
-  
+
   "maximumLiquidLevel" : 0.2,
   "lightColor" : [64, 64, 64],
 
@@ -23,16 +23,16 @@
       }
     }
   },
-  
+
   "apexDescription" : "Interesting, the gas rings on this pump oxygen, not methane.",
   "avianDescription" : "It's got a way to properly cook almost anything here!",
   "floranDescription" : "Floran put wood in box, then heats 'till it bursssts into flame. Campfire for sssstupidss.",
   "glitchDescription" : "Dubious. I doubt this device gets hot enough to properly melt microcheese until rust-brown.",
   "humanDescription" : "I should probably read the instructions before trying to dry my cat in this thing.",
   "hylotlDescription" : "I'm beginning to suspect that for all their flaws, the Avali may have promise as culinarians.",
-  "avaliDescription" : "Our stoves pump oxygen which then burns with the methane in the air.", // Isn't it hydrogen that they breathe? I'd change it if not for the fact that pure hydrogen and oxygen burns at 3200 celsius. 
-  // They can breathe hydrogen but still have a methane-rich atmosphere. We have a similar scenario with oxygen and nitrogen. In any case, I just edited that part out.
-  
+  "avaliDescription" : "Our stoves pump oxygen which then burns with the methane in the air.",
+
+
   "inventoryIcon" : "avalikitchenstoveicon.png",
   "orientations" : [
     {
