@@ -6,7 +6,5 @@
 **/*.md
 *.ogg
 **.*.ogg
-*.txt
-**/*.txt
 *.disabled
 **/*.disabled
