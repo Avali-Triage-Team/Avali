@@ -9,7 +9,6 @@
   "description" : "A Neural Uplink Scanner, fancy.",
   "shortdescription" : "Neural Uplink Upgrade",
   "race" : "generic",
-/*
   "apexDescription" : "Does the Miniknog watch us through this?",
   "avianDescription" : "It seems to detect when I'm near it.",
   "floranDescription" : "Sssstabby timesss?",
@@ -17,7 +16,6 @@
   "humanDescription" : "I don't like the way this looks.",
   "hylotlDescription" : "Is Avali technolgy always this basic?",
   "avaliDescription" : "Beep, Beep, Boop."
-*/
   "inventoryIcon" : "uplinkscannericon.png",
   "orientations" : [
     {
