@@ -15,7 +15,7 @@
   "glitchDescription" : "Statement. A proximity scanner.",
   "humanDescription" : "I don't like the way this looks.",
   "hylotlDescription" : "Is Avali technolgy always this basic?",
-  "avaliDescription" : "Beep, Beep, Boop."
+  "avaliDescription" : "Beep, Beep, Boop.",
   "inventoryIcon" : "uplinkscannericon.png",
   "orientations" : [
     {
