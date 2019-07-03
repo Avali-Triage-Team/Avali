@@ -5,7 +5,7 @@
   "rarity" : "Common",
   "inventoryIcon" : "avaliglass.png",
   "shortdescription" : "Avali Glass",
-  "description" : "These tubes transport a nutrient aerosol for growing plants indoors.",
+  "description" : "This used to be aerogel. Now it's glass. Magic? No, SCIENCE.",
 
   "materialId" : 12501,
   
