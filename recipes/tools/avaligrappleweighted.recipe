@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "durasteelbar", "count" : 20 },
+    { "item" : "ironbar", "count" : 1 },
+    { "item" : "climbingrope", "count" : 4 },
+    { "item" : "aerogel", "count" : 10 },
+    { "item" : "avaligraphene", "count" : 10},
+    { "item" : "smallbattery", "count" : 4 }
+  ],
+  "output" : { "item" : "avaligrapple", "count" : 1 },
+  "groups" : [ "craftingfarm2", "survival" ]
+}
