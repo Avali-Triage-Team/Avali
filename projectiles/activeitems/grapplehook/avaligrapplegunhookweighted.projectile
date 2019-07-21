@@ -1,6 +1,6 @@
 {
-  "projectileName" : "avaligrapplehook",
-  "image" : "avaligrapplegunharpoon.png",
+  "projectileName" : "avaligrapplehookweighted",
+  "image" : "avaligrapplegunhook.png",
   "animationCycle" : 1.0,
   "frameNumber" : 1,
   "pointLight" : false,
@@ -8,12 +8,12 @@
   "actionOnReap" : [ ],
   "statusEffects" : [ ],
   "power" : 0.0,
-  "speed" : 100,
+  "speed" : 80,
   "damageKind" : "default",
-  "physics" : "grapplehook",
+  "physics" : "ballisticgrapplehook",
   "bounces" : -1,
   "piercing" : true,
-  "timeToLive" : 5,
+  "timeToLive" : 10,
 
   "onlyHitTerrain" : true,
 

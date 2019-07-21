@@ -1,0 +1,43 @@
+{
+  "itemName" : "avaligrappleweighted",
+  "price" : 3000,
+  "inventoryIcon" : "avaligrapplehookicon.png",
+  "rarity" : "Legendary",
+  "maxStack" : 1,
+  "description" : "An Avali grappling hook that's a lot more down to earth..",
+  "shortdescription" : "Avali Weighted Grappling Hook",
+  "largeImage" : "avaligrapplehookbig.png",
+  "category" : "Tool",
+  "fireTime" : 0,
+  "twoHanded" : false,
+
+  "scripts" : ["/items/active/grapplinghooks/grapplinghook.lua"],
+  "animationScripts" : ["/items/active/effects/renderrope.lua"],
+
+  "animation" : "grapplinghook.animation",
+
+  "fireOffset" : [0, 0.3],
+  "ropeOffset" : [0.75, 0.3],
+  "ropeVisualOffset" : [0.75, 0.3],
+
+  "consumeOnUse" : false,
+
+  "projectileType" : "avaligrapplehookweighted",
+  "projectileParameters" : {
+    "speed" : 50,
+    "timeToLive" : 5
+  },
+
+  "ropeWidth" : 1.0,
+  "ropeColor" : [120, 80, 30, 255],
+
+  "reelInDistance" : 3.5,
+  "reelOutLength" : 50,
+  "breakLength" : 60,
+  "minSwingDistance" : 1.5,
+
+  "reelSpeed" : 15,
+  "controlForce" : 1000,
+
+  "groundLagTime" : 0.2
+}
