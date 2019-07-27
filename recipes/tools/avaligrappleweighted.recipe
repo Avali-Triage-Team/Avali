@@ -7,6 +7,6 @@
     { "item" : "avaligraphene", "count" : 10},
     { "item" : "smallbattery", "count" : 4 }
   ],
-  "output" : { "item" : "avaligrapple", "count" : 1 },
+  "output" : { "item" : "avaligrappleweighted", "count" : 1 },
   "groups" : [ "craftingfarm2", "survival" ]
 }
