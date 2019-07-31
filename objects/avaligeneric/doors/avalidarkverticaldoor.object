@@ -22,7 +22,7 @@
     "scripts" : [ "/objects/wired/door/door.lua" ],
   "scriptDelta" : 5,
 
-  "animation" : "/objects/wired/door/door.animation",
+  "animation" : "/objects/wired/door/avali-coloreddoor.animation",
   "animationCustom" : {
     "sounds" : {
       "open" : {
@@ -41,7 +41,7 @@
   
   "orientations" : [
     {
-      "image" : "avalidarkverticaldoor.png:default",
+      "image" : "avalidarkverticaldoor.png:<color>.default",
       "imagePosition" : [-16, 0],
       "renderLayer" : "Object+5",
       "animationPosition" : [-16, 0],
@@ -52,7 +52,7 @@
       "anchors" : [ "left", "right" ]
     },
     {
-      "image" : "avalidarkverticaldoor.png:default",
+      "image" : "avalidarkverticaldoor.png:<color>.default",
       "imagePosition" : [-16, 0],
       "renderLayer" : "Object+5",
       "animationPosition" : [-16, 0],
@@ -64,5 +64,7 @@
   ],
 
   "inputNodes" : [ [-2, 0] ],
-  "outputNodes" : [ [2, 0] ]
+  "outputNodes" : [ [2, 0] ],
+
+  "retainObjectParametersInItem": true
 }

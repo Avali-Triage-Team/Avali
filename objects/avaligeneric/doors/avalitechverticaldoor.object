@@ -22,7 +22,7 @@
     "scripts" : [ "/objects/wired/door/door.lua" ],
   "scriptDelta" : 5,
 
-  "animation" : "/objects/wired/door/door.animation",
+  "animation" : "/objects/wired/door/avali-coloreddoor.animation",
   "animationCustom" : {
     "sounds" : {
       "open" : {
@@ -41,10 +41,10 @@
   
   "orientations" : [
     {
-      "image" : "avalitechverticaldoor.png:default",
-      "imagePosition" : [-16, -6],
+      "image" : "avalitechverticaldoor.png:<color>.default",
+      "imagePosition" : [-16, -8],
       "renderLayer" : "Object+5",
-      "animationPosition" : [-16, -6],
+      "animationPosition" : [-16, -8],
       "flipImages" : true,
       "direction" : "left",
 
@@ -52,17 +52,21 @@
       "anchors" : [ "left", "right" ]
     },
     {
-      "image" : "avalitechverticaldoor.png:default",
-      "imagePosition" : [-16, -6],
+      "image" : "avalitechverticaldoor.png:<color>.default",
+      "imagePosition" : [-16, -8],
       "renderLayer" : "Object+5",
-      "animationPosition" : [-16, -6],
+      "animationPosition" : [-16, -8],
       "direction" : "right",
 
-      "spaceScan" : 0.1,
+      "spaces": [ [-2,  0], [-1,  0], [0,  0], [1,  0], [2,  0],
+                  [-1, -1], [-1, -1], [0, -1], [1, -1], [2, -1] ],
+
       "anchors" : [ "left", "right" ]
     }
   ],
 
   "inputNodes" : [ [-2, 0] ],
-  "outputNodes" : [ [2, -1] ]
+  "outputNodes" : [ [2, -1] ],
+
+  "retainObjectParametersInItem": true
 }
