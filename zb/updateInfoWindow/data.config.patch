@@ -1,0 +1,12 @@
+[
+    [
+        {
+            "op": "add",
+            "path": "/Avali",
+            "value": {
+                "image" : "/zb/updateInfoWindow/avali.png",
+                "file" : "/_AvaliVersioning.config"
+            }
+        }
+    ]
+]
