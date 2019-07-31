@@ -22,7 +22,7 @@
   "inventoryIcon" : "campdooricon.png",
   "orientations" : [
     {
-      "dualImage" : "campdoor.png:default",
+      "dualImage" : "campdoor.png:<color>.default",
       "imagePosition" : [-8, 0],
 
       "spaceScan" : 0.1,
@@ -33,7 +33,7 @@
   "scripts" : [ "/objects/wired/door/door.lua" ],
   "scriptDelta" : 5,
 
-  "animation" : "/objects/wired/door/door.animation",
+  "animation" : "/objects/wired/door/avali-coloreddoor.animation",
   "animationCustom" : {
     "sounds" : {
       "open" : {
@@ -51,6 +51,8 @@
   },
   "animationPosition" : [-8, 0],
 
-  "inputNodes" : [ [-1, 4] ],
-  "outputNodes" : [ [1, 0] ]
+  "inputNodes" : [ [0, 4] ],
+  "outputNodes" : [ [0, 0] ],
+
+  "retainObjectParametersInItem": true
 }
