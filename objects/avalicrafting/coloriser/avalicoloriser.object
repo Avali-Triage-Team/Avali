@@ -1,0 +1,42 @@
+{
+  "objectName" : "avalicoloriser",
+  "colonyTags" : [ "avali", "avalicamp", "crafting" ],
+  "rarity" : "Common",
+  "printable" : true,
+  "description" : "A specialised, hybrid coloriser used for bulk coloring.",
+  "shortdescription" : "^orange;Avali Coloriser^white;",
+  "race" : "avali",
+  "category" : "crafting",
+  "price" : 250,
+
+  "apexDescription" : "After inspection I conclude this contraption paints furniture.",
+  "avianDescription" : "What pretty colors this machine has!",
+  "floranDescription" : "Floaty brick colorful.",
+  "glitchDescription" : "Observation. By using a mixture of prefabricated nano paint this painter is 900% more efficient.",
+  "humanDescription" : "Well, the Avali certainly need a choice of colors...",
+  "hylotlDescription" : "I see that this machine paints, I wonder if it can match our art.",
+  "avaliDescription" : "Whereas a a paint brush lays paint on an object, a coloriser uses nanites to lay pigment on an object.",
+  "novakidDescription" : "How intriguing, seems like a type of automated painter.",
+
+  "inventoryIcon" : "avalicolorisericon.png",
+  "orientations" : [
+    {
+      "dualImage" : "avalicoloriser.png:<frame>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 6,
+      "animationCycle" : 0.8,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+  "objectType" : "container",
+  "slotCount" : 1,
+  "uiConfig" : "/interface/objectcrafting/avali_coloriser/avali_coloriser.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600,
+
+  "learnBlueprintsOnPickup" : [ "avalicoloriser" ]
+}

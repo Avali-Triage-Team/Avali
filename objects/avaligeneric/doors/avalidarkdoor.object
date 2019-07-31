@@ -22,7 +22,7 @@
   "inventoryIcon" : "avalidarkdooricon.png",
   "orientations" : [
     {
-      "dualImage" : "avalidarkdoor.png:default",
+      "dualImage" : "avalidarkdoor.png:<color>.default",
       "imagePosition" : [0, 0],
 
       "spaceScan" : 0.1,
@@ -33,7 +33,7 @@
   "scripts" : [ "/objects/wired/door/door.lua" ],
   "scriptDelta" : 5,
 
-  "animation" : "/objects/wired/door/door.animation",
+  "animation" : "/objects/wired/door/avali-coloreddoor.animation",
   "animationCustom" : {
     "sounds" : {
       "open" : {
@@ -52,5 +52,7 @@
   "animationPosition" : [0, 0],
 
   "inputNodes" : [ [-1, 4] ],
-  "outputNodes" : [ [1, 0] ]
+  "outputNodes" : [ [1, 0] ],
+
+  "retainObjectParametersInItem": true
 }
