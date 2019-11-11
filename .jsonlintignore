@@ -8,3 +8,4 @@
 **.*.ogg
 *.disabled
 **/*.disabled
+*.config
