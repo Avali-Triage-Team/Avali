@@ -1,6 +1,7 @@
 {
   "objectName" : "avalikitchenstove",
   "colonyTags" : [ "avali", "avalicamp", "cooking" ],
+  "itemTags" : ["coloriser"],
   "printable" : false,
   "rarity" : "Uncommon",
   "category" : "crafting",

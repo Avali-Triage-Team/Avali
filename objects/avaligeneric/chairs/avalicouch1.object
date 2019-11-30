@@ -1,6 +1,7 @@
 {
   "objectName" : "avalicouch1",
-  "colonyTags" : [ "avali", "avalicamp" ], 
+  "colonyTags" : [ "avali", "avalicamp" ],
+  "itemTags" : ["coloriser"],
   "printable" : false,
   "rarity" : "uncommon",
   "description" : "A modified maglev chair that had its magnets removed and seat extended.",

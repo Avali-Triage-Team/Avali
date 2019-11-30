@@ -1,6 +1,7 @@
 {
   "objectName" : "avalistriplight",
   "colonyTags" : [ "avali", "avalicamp", "light" ],
+  "itemTags" : ["coloriser"],
   "rarity" : "Common",
   "category" : "light",
   "price" : 60,

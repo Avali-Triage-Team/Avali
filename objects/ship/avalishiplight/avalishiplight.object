@@ -1,6 +1,7 @@
 {
   "objectName" : "avalishiplight",
   "colonyTags" : ["avali", "light"],
+  "itemTags" : ["coloriser"],
   "rarity" : "Common",
   "category" : "light",
   "lightColors" : {

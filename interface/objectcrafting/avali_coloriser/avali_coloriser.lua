@@ -2,6 +2,7 @@ require "/scripts/util.lua"
 require "/scripts/interp.lua"
 
 function init()
+    self.itemTag = config.getParameter("itemTag")
 	colorInfo = root.assetJson("/interface/objectcrafting/avali_coloriser/avali_colors.config").colorInfo
     count = 1
 	colorAmount = colorAmount()
@@ -54,8 +55,24 @@ end
 
 function colorise()
   itemOld = world.containerItemAt(pane.containerEntityId(),0)
-  world.containerTakeAt(pane.containerEntityId(),0)
-  world.containerAddItems(pane.containerEntityId(), {name = itemOld.name, count = itemOld.count, parameters = getNewParameters()})
+
+  local rootItemConfig = root.itemConfig(itemOld)
+  local itemConfig = rootItemConfig.config
+
+  if hasValue(itemConfig .itemTags, self.itemTag) or hasValue(itemOld.itemTags, self.itemTag) then
+    world.containerTakeAt(pane.containerEntityId(),0)
+    world.containerAddItems(pane.containerEntityId(), {name = itemOld.name, count = itemOld.count, parameters = getNewParameters()})
+  end
+end
+
+function hasValue(tab, val)
+    if type(tab) ~= "table" then return false end
+    for index, value in ipairs(tab) do
+        if value == val then
+            return true
+        end
+    end
+    return false
 end
 
 function getNewParameters()

@@ -1,9 +1,10 @@
 {
   "objectName" : "avalibottles",
-  "colonyTags" : [ "avali", "avalicamp", "pretty" ], 
+  "colonyTags" : [ "avali", "avalicamp", "pretty" ],
+  "itemTags" : ["coloriser"],
   "rarity" : "Common",
   "category" : "furniture",
-  "retainObjectParametersInItem" : true, 
+  "retainObjectParametersInItem" : true,
   "printable" : false,
   "description" : "Its contents smell strongly of ammonia... and alcohol.",
   "shortdescription" : "Avali Bottle Case",
@@ -15,7 +16,7 @@
   "glitchDescription" : "Analysis. Over 90% ammonia with trace impurities, including alcohols.",
   "humanDescription" : "I wonder why the Avali keep their cleaning products in the food cabinet?",
   "hylotlDescription" : "The Avali design aesthetic is wonderful, but their wine smells like poison!",
-  "avaliDescription" : "Mmm! Chateau Avalon, 2 years old... that was a good year. More the merrier.", 
+  "avaliDescription" : "Mmm! Chateau Avalon, 2 years old... that was a good year. More the merrier.",
 
   "inventoryIcon" : "avalibottlesicon.png",
   "orientations" : [

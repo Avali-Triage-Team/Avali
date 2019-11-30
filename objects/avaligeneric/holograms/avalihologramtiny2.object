@@ -1,6 +1,7 @@
 {
   "objectName" : "avalihologramtiny2",
   "colonyTags" : [ "avali", "avalicamp", "electronic" ],
+  "itemTags" : ["coloriser"],
   "rarity" : "Common",
   "printable" : false,
   "description" : "A tiny hologram flashes an alert prompt.",

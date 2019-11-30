@@ -1,6 +1,7 @@
 {
   "objectName" : "avalihologram2",
   "colonyTags" : [ "avali", "avalicamp", "electronic" ],
+  "itemTags" : ["coloriser"],
   "rarity" : "Common",
   "printable" : false,
   "description" : "Seems to be some kind of waveform analysis software.",

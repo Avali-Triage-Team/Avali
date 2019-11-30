@@ -1,21 +1,22 @@
 {
   "objectName" : "campsmallwall1",
   "colonyTags" : [ "avali", "avalicamp" ],
+  "itemTags" : ["coloriser"],
   "rarity" : "Common",
   "description" : "A small, decorative tent sheet.",
   "shortdescription" : "Decorative Sheet",
   "race" : "generic",
   "category" : "decorative",
   "printable" : true,
-  "price" : 4, 
-  
+  "price" : 4,
+
   "apexDescription" : "What a crude structure.",
   "avianDescription" : "Reminds me of a market on Avos.",
   "floranDescription" : "Funny material, what plant isss it from?",
   "glitchDescription" : "Observation. A sheet of tightly-woven carbon nanofibre weave.",
   "humanDescription" : "But what is camping without marshmallows?",
   "hylotlDescription" : "Such primitive lifeforms!",
-  "avaliDescription" : "Most of our tents are assembled piecemeal from carbon nanofibre sheets and poles.", 
+  "avaliDescription" : "Most of our tents are assembled piecemeal from carbon nanofibre sheets and poles.",
 
   "inventoryIcon" : "campsmallwall1icon.png",
   "orientations" : [

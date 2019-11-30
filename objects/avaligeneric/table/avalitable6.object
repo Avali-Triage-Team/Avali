@@ -1,6 +1,7 @@
 {
   "objectName" : "avalitable6",
-  "colonyTags" : [ "avali", "avalicamp", "commerce" ], 
+  "colonyTags" : [ "avali", "avalicamp", "commerce" ],
+  "itemTags" : ["coloriser"],
   "rarity" : "Common",
   "category" : "furniture",
   "price" : 50,
@@ -15,7 +16,7 @@
   "glitchDescription" : "Observation. This shelf is grossly over-engineered.",
   "humanDescription" : "This would look nice by my fireplace, maybe?",
   "hylotlDescription" : "Looks fragile, like glass.",
-  "avaliDescription" : "It's a shelf... or maybe a table. Honestly it's just something to place your shinies on.", 
+  "avaliDescription" : "It's a shelf... or maybe a table. Honestly it's just something to place your shinies on.",
 
   "inventoryIcon" : "avalitable6icon.png",
   "orientations" : [

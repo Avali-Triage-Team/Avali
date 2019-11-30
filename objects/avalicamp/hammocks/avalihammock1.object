@@ -1,21 +1,22 @@
 {
   "objectName" : "avalihammock1",
-  "colonyTags" : [ "avali", "avalicamp" ], 
+  "colonyTags" : [ "avali", "avalicamp" ],
+  "itemTags" : ["coloriser"],
   "printable" : true,
   "rarity" : "Common",
   "description" : "Cheat the creepy-crawlies by sleeping suspended in the air.",
   "shortdescription" : "Hammock",
   "race" : "generic",
   "category" : "furniture",
-  "price" : 25, 
-  
+  "price" : 25,
+
   "apexDescription" : "I've slept in a few of these on resistance ships, no room for luxury",
   "avianDescription" : "A suspended nest, what an interesting idea!",
   "floranDescription" : "Hehe, bed tries to flee from floran when sitting on it.",
   "glitchDescription" : "Concern. Bed displays low structural integrity.",
   "humanDescription" : "I'd love to set this up between a couple palm trees on a tropical world.",
   "hylotlDescription" : "I wouldn't be caught dead in a bed like that.",
-  "avaliDescription" : "I guess it'll do. I would rather have a proper pile of bedding to spread out on.", 
+  "avaliDescription" : "I guess it'll do. I would rather have a proper pile of bedding to spread out on.",
 
   "inventoryIcon" : "avalihammock1icon.png",
   "orientations" : [
@@ -41,5 +42,6 @@
   "sitStatusEffects" : [
     "bed1"
   ],
-  "sitEffectEmitters" : [ "sleepbubbles" ]
+  "sitEffectEmitters" : [ "sleepbubbles" ],
+  "retainObjectParametersInItem": true
 }

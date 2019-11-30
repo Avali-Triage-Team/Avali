@@ -1,6 +1,7 @@
 {
   "objectName" : "avalichair1",
-  "colonyTags" : [ "avali", "avalicamp" ], 
+  "colonyTags" : [ "avali", "avalicamp" ],
+  "itemTags" : ["coloriser"],
   "printable" : false,
   "rarity" : "uncommon",
   "description" : "Best not sit on it if you're carrying magnetic media.",

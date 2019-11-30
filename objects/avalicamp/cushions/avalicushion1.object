@@ -1,15 +1,16 @@
 {
   "objectName" : "avalicushion1",
   "colonyTags" : [ "avali", "avalicamp" ],
+  "itemTags" : ["coloriser"],
   "rarity" : "Common",
- 
+
   "description" : "A luxurious cushion.",
   "shortdescription" : "Cushion",
   "race" : "avali",
   "category" : "furniture",
   "price" : 18,
   "printable" : true,
-  
+
   "apexDescription" : "Not the most practical furnishings.",
   "avianDescription" : "It beats straw bedding...",
   "floranDescription" : "Sssssssssssssoft.",
@@ -17,7 +18,7 @@
   "humanDescription" : "Truly, Avali civilisation is beyond reproach; they have beanie chairs!",
   "hylotlDescription" : "What exquisite material!",
   "avaliDescription" : "Lie on them, sleep on them, pile them up, make a fort out of them... cushions, the building blocks of furniture!",
-  
+
   "inventoryIcon" : "avalicushion1icon.png",
   "orientations" : [
     {

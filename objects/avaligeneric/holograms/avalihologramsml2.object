@@ -1,6 +1,7 @@
 {
   "objectName" : "avalihologramsml2",
   "colonyTags" : [ "avali", "avalicamp", "electronic" ],
+  "itemTags" : ["coloriser"],
   "rarity" : "Common",
   "printable" : false,
   "description" : "A small window with a moving bar graph.",

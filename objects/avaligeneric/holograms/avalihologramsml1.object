@@ -1,6 +1,7 @@
 {
   "objectName" : "avalihologramsml1",
   "colonyTags" : [ "avali", "avalicamp", "electronic" ],
+  "itemTags" : ["coloriser"],
   "rarity" : "Common",
   "printable" : false,
   "description" : "A small window with text in it.",

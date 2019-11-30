@@ -1,6 +1,7 @@
 {
   "objectName" : "avalibench2long",
-  "colonyTags" : [ "avali", "avalicamp" ], 
+  "colonyTags" : [ "avali", "avalicamp" ],
+  "itemTags" : ["coloriser"],
   "printable" : false,
   "rarity" : "uncommon",
   "description" : "A nice bench to rest on.",

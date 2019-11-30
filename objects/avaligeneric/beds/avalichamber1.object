@@ -1,21 +1,22 @@
 {
   "objectName" : "avalichamber1",
-  "colonyTags" : [ "avali", "avalicamp" ], 
+  "colonyTags" : [ "avali", "avalicamp" ],
+  "itemTags" : ["coloriser"],
   "printable" : true,
   "rarity" : "Common",
   "description" : "Cheat the creepy-crawlies by sleeping in a box.",
   "shortdescription" : "Sleep Chamber",
   "race" : "generic",
   "category" : "furniture",
-  "price" : 25, 
-  
+  "price" : 25,
+
   "apexDescription" : "These seem to be similar to the Protectorate’s bed.",
   "avianDescription" : "A nest in a box? That doesn’t sound… comfy.",
   "floranDescription" : "Hehe, bed is like little fortressssss.",
   "glitchDescription" : "Concern. Bed might lock up and trap me.",
   "humanDescription" : "I’m getting some serious deja vu from this bed...",
   "hylotlDescription" : "I wouldn't be caught dead in a bed like that.",
-  "avaliDescription" : "I guess it'll do.", 
+  "avaliDescription" : "I guess it'll do.",
 
   "inventoryIcon" : "avalichamber1icon.png",
   "orientations" : [

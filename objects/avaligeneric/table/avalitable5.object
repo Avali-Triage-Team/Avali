@@ -1,6 +1,7 @@
 {
   "objectName" : "avalitable5",
-  "colonyTags" : [ "avali", "avalicamp", "commerce" ], 
+  "colonyTags" : [ "avali", "avalicamp", "commerce" ],
+  "itemTags" : ["coloriser"],
   "rarity" : "Common",
   "category" : "furniture",
   "price" : 20,
@@ -15,7 +16,7 @@
   "glitchDescription" : "Michievious. If I hit the aerogel hard enough... will it break?",
   "humanDescription" : "I feel like this thing is just... one giant orange tablet.",
   "hylotlDescription" : "I do not feel as if the color scheme is normal.",
-  "avaliDescription" : "It's a table, not much to say about it really.", 
+  "avaliDescription" : "It's a table, not much to say about it really.",
 
   "inventoryIcon" : "avalitable5icon.png",
   "orientations" : [
