@@ -1,0 +1,10 @@
+{
+  "itemName" : "avalismallbattery",
+  "price" : 5,
+  "rarity" : "Common",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "avalismallbattery.png",
+  "description" : "Despite the technology used, this battery is not rechargeable.",
+  "shortdescription" : "Disposable Battery",
+  "itemTags" : [ "reagent" ]
+}

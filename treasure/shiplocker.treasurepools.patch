@@ -5,5 +5,10 @@
     "value": [[0, {
       "fill" : [{ "pool": "starterTreasure" }]
     }]]
+  },
+  {
+    "op" : "add",
+    "path" : "/avaliStarterTreasure/0/1/fill/-",
+    "value" : { "item" : ["avalismallbattery", 10] }
   }
 ]
