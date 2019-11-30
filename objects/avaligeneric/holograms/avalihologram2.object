@@ -1,6 +1,6 @@
 {
   "objectName" : "avalihologram2",
-  "colonyTags" : [ "avali", "avalicamp", "electronic" ], 
+  "colonyTags" : [ "avali", "avalicamp", "electronic" ],
   "rarity" : "Common",
   "printable" : false,
   "description" : "Seems to be some kind of waveform analysis software.",
@@ -8,7 +8,7 @@
   "race" : "avali",
   "category" : "decorative",
   "price" : 50,
-  "retainObjectParametersInItem" : true, 
+  "retainObjectParametersInItem" : true,
 
   "apexDescription" : "A fairly basic sine wave form, I can't read what it says about it.",
   "avianDescription" : "A screen without a screen, that's interesting...",
@@ -25,13 +25,13 @@
     "green" : [0, 128, 96],
     "yellow" : [128, 128, 64],
     "orange" : [100, 60, 16],
-    "pink" : [128, 128, 16],
+    "purple" : [64, 16, 128],
     "black" : [32, 32, 32],
     "white" : [128, 128, 128]
-  },  
+  },
   "flickerDistance" : 0.05,
   "flickerStrength" : 0.05,
-  
+
   "inventoryIcon" : "avalihologramicon.png",
   "orientations" : [
     {

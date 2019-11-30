@@ -10,7 +10,7 @@
       [ "green.0", "green.1", "green.2", "green.3", "green.4", "green.5" ],
       [ "yellow.0", "yellow.1", "yellow.2", "yellow.3", "yellow.4", "yellow.5" ],
       [ "orange.0", "orange.1", "orange.2", "orange.3", "orange.4", "orange.5" ],
-      [ "pink.0", "pink.1", "pink.2", "pink.3", "pink.4", "pink.5" ],
+      [ "purple.0", "purple.1", "purple.2", "purple.3", "purple.4", "purple.5" ],
       [ "black.0", "black.1", "black.2", "black.3", "black.4", "black.5" ],
       [ "white.0", "white.1", "white.2", "white.3", "white.4", "white.5"]
     ]
@@ -22,9 +22,9 @@
     "green.default" : "green.0",
     "yellow.default" : "yellow.0",
     "orange.default" : "orange.0",
-    "pink.default" : "pink.0",
+    "purple.default" : "purple.0",
     "black.default" : "black.0",
-    "white.default" : "white.0"  
+    "white.default" : "white.0"
   }
 
 }

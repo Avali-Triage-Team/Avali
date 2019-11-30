@@ -10,7 +10,7 @@
       [ "green" ],
       [ "yellow" ],
       [ "orange" ],
-      [ "pink" ],
+      [ "purple" ],
       [ "black" ],
       [ "white" ]
     ]
@@ -23,7 +23,7 @@
     "green.off" : "green",
     "yellow.off" : "yellow",
     "orange.off" : "orange",
-    "pink.off" : "pink",
+    "purple.off" : "purple",
     "black.off" : "black",
     "white.off" : "white",
 
@@ -33,7 +33,7 @@
     "green.on" : "green",
     "yellow.on" : "yellow",
     "orange.on" : "orange",
-    "pink.on" : "pink",
+    "purple.on" : "purple",
     "black.on" : "black",
     "white.on" : "white"
   }

@@ -10,7 +10,7 @@
       [ "green.closed", "green.halfLeft", "green.left", "", "green.halfRight", "green.right" ],
       [ "yellow.closed", "yellow.halfLeft", "yellow.left", "", "yellow.halfRight", "yellow.right" ],
       [ "orange.closed", "orange.halfLeft", "orange.left", "", "orange.halfRight", "orange.right" ],
-      [ "pink.closed", "pink.halfLeft", "pink.left", "", "pink.halfRight", "pink.right" ],
+      [ "purple.closed", "purple.halfLeft", "purple.left", "", "purple.halfRight", "purple.right" ],
       [ "black.closed", "black.halfLeft", "black.left", "", "black.halfRight", "black.right" ],
       [ "white.closed", "white.halfLeft", "white.left", "", "white.halfRight", "white.right" ]
     ]
@@ -77,15 +77,15 @@
     "orange.openRight.1" : "orange.halfRight",
     "orange.openRight.2" : "orange.right",
 
-    "pink.default" : "pink.closed",
-    "pink.closeLeft.1" : "pink.halfLeft",
-    "pink.closeLeft.2" : "pink.closed",
-    "pink.closeRight.1" : "pink.halfRight",
-    "pink.closeRight.2" : "pink.closed",
-    "pink.openLeft.1" : "pink.halfLeft",
-    "pink.openLeft.2" : "pink.left",
-    "pink.openRight.1" : "pink.halfRight",
-    "pink.openRight.2" : "pink.right",
+    "purple.default" : "purple.closed",
+    "purple.closeLeft.1" : "purple.halfLeft",
+    "purple.closeLeft.2" : "purple.closed",
+    "purple.closeRight.1" : "purple.halfRight",
+    "purple.closeRight.2" : "purple.closed",
+    "purple.openLeft.1" : "purple.halfLeft",
+    "purple.openLeft.2" : "purple.left",
+    "purple.openRight.1" : "purple.halfRight",
+    "purple.openRight.2" : "purple.right",
 
     "black.default" : "black.closed",
     "black.closeLeft.1" : "black.halfLeft",
