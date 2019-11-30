@@ -182,7 +182,8 @@
       { "item" : "avaliutilitylight8" },
       { "item" : "aerogelcompositerail" },
       { "item" : "aerogelrail" },
-      { "item" : "aerogelrailplatform" }
+      { "item" : "aerogelrailplatform" },
+      { "item" : "avalismallbattery" }
     ]
   },
 
