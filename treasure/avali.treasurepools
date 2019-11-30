@@ -62,6 +62,14 @@
         [0.2, 2]
       ]
     } ]
+  ],
+  "avaliPetRetrofitTreasure" : [
+    [0, {
+      "fill" : [
+        {"item" : ["avalismallbattery", 10]},
+        {"item" : "avalipetchargingstation" }
+      ]
+    }]
   ]
 }
 

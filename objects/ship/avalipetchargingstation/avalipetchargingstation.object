@@ -1,0 +1,65 @@
+{
+  "objectName" : "avalipetchargingstation",
+  "colonyTags" : ["misc"],
+  "rarity" : "Common",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+
+  "category" : "storage",
+  "price" : 50,
+  "description" : "This charging station can hot swap or recharge cleaning drone batteries.",
+  "shortdescription" : "Cleaning Drone Charger",
+  "race" : "generic",
+  "printable" : false,
+  "health" : 1.5,
+
+  "apexDescription" : "The Miniknog charge some of their drones with stations like this.",
+  "avianDescription" : "This charges a cleaning drone, but I wonder how long its battery lasts?",
+  "floranDescription" : "Floran thinkss this is strange way to feed petss.",
+  "glitchDescription" : "Enticed. Does this recharge that small cleaning robot?",
+  "humanDescription" : "There were vacuums with chargers like this on Earth, but not as fancy.",
+  "hylotlDescription" : "Some of these might not be a bad addition to underwater Hylotl cities.",
+  "novakidDescription" : "What strange pet uses this here thing?",
+
+  "inventoryIcon" : "avalipetchargingstationicon.png",
+  "orientations" : [
+    {
+      "image" : "avalipetchargingstation.png:<color>.<key>",
+      "imagePosition" : [0, 0],
+      "animationPosition" : [12, 4],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaces" : [ [0, 0], [1, 0], [2, 0] ],
+      "anchors" : [ "bottom" ],
+      "directions" : ["right"]
+    },
+    {
+      "image" : "avalipetchargingstation.png:<color>.<key>",
+      "imagePosition" : [0, 0],
+      "animationPosition" : [12, 4],
+      "direction" : "right",
+
+      "spaces" : [ [0, 0], [1, 0], [2, 0] ],
+      "anchors" : [ "bottom" ],
+      "directions" : ["right"]
+    }
+  ],
+
+  "animation" : "avalipetchargingstation.animation",
+  "animationParts" : {
+    "foodbowl" : "avalipetchargingstation.png"
+  },
+
+  "scripts" : [
+    "avalipetchargingstation.lua"
+  ],
+  "scriptDelta" : 5,
+
+  "openSounds" : [ "/sfx/objects/chest_small_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/chest_small_close.ogg" ],
+  "slotCount" : 1,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

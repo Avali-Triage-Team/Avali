@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "avaligraphene", "count" : 10 },
+    { "item" : "copperbar", "count" : 1 }
+  ],
+  "output" : { "item" : "avalismallbattery", "count" : 10 },
+  "duration" : 0.1,
+  "groups" : [ "ingredients", "avalilathe", "all"]
+}

@@ -1,0 +1,24 @@
+{
+  "itemName" : "avalipetstartingbag",
+  "price" : 0,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "category" : "mysteriousReward",
+  "description" : "Retrofit your ship for your new cleaning drone.",
+  "shortdescription" : "Cleaning Drone Install Kit",
+  "twoHanded" : true,
+
+  "inventoryIcon" : "avalipetstartingbagicon.png",
+  "animation" : "avalipetstartingbag.animation",
+  "animationCustom" : {},
+  "scripts" : ["avalipetstartingbag.lua"],
+
+  "fireTime" : 2.0,
+  "fireOffset" : [1.0, 0.0],
+
+  "treasure" : {
+    "pool" : "avaliPetRetrofitTreasure",
+    "level" : 1
+  }
+}

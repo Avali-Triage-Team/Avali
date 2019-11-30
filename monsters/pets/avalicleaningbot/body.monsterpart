@@ -1,0 +1,9 @@
+{
+  "name" : "body",
+  "category" : "avalicleaningbot",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "avalicleaningbot.png"
+  }
+}

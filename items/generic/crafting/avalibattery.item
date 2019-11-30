@@ -1,0 +1,10 @@
+{
+  "itemName" : "avalibattery",
+  "price" : 500,
+  "rarity" : "Rare",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "avalibattery.png",
+  "description" : "This ionic battery holds a significant amount of power when fully charged.",
+  "shortdescription" : "Ionic Battery",
+  "itemTags" : [ "reagent" ]
+}

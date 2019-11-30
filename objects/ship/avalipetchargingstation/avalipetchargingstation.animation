@@ -1,0 +1,48 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "bowl" : {
+        "priority" : 0,
+        "default" : "empty",
+        "states" : {
+          "empty" : {
+            "frames" : 1
+          },
+          "full" : {
+            "frames" : 1
+          },
+          "infinite" : {
+            "frames" : 1
+          }
+        }
+      }
+    },
+
+    "parts" : {
+      "foodbowl" : {
+        "properties" : {
+          "centered" : true
+        },
+        "partStates" : {
+          "bowl" : {
+            "empty" : {
+              "properties" : {
+                "image" : "<partImage>:empty"
+              }
+            },
+            "full" : {
+              "properties" : {
+                "image" : "<partImage>:full"
+              }
+            },
+            "infinite" : {
+              "properties" : {
+                "image" : "<partImage>:infinite"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
