@@ -84,7 +84,6 @@ function getNewParameters()
   if item then
     shortDescriptionNew = item.config.shortdescription .. " (" .. info.name .. ")"
     newParameters = util.mergeTable(newParameters, {shortdescription = shortDescriptionNew})
-    sb.logInfo("true 3")
   end
   colorNew = info.value
   newParameters = util.mergeTable(newParameters, {color = colorNew})
