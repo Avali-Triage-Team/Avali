@@ -24,5 +24,6 @@
   { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "campsmallwall1" } },
   { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "campsmallwall2" } },
   { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "avaliribbon1" } },
-  { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "avaliribbon2" } }
+  { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "avaliribbon2" } },
+  { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "avaliribbon3" } }
 ]
