@@ -1,22 +1,22 @@
 [
-  { "op": "add",
-    "path": "/items/avali",
-    "value": [
+  { "op" : "add",
+    "path" : "/items/avali",
+    "value" : [
       [ 0, [ {
-        "back": [
+        "back" : [
           "avalihat2back"
         ],
-        "head": [
+        "head" : [
           "avalihat2"
         ],
-        "chest": [
+        "chest" : [
           "avaliracial1chest"
         ],
-        "legs": [
+        "legs" : [
           "avaliracial1pants"
         ],
-        "sheathedprimary": [
-          [ { "name": "commondagger" } ]
+        "sheathedprimary" : [
+          [ { "name" : "commondagger" } ]
         ]
       } ] ]
     ]

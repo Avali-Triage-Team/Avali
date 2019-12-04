@@ -11,9 +11,9 @@
   "items" : {
     "default" : [
       [0, [ {
-        "head": [ { "name": "avalidragoonhead", "data" : { "colorIndex" : [1] } } ],
-        "chest": [ { "name": "avaliguardtier1chest", "data" : { "colorIndex" : [1] } } ],
-        "legs": [ { "name": "avaliarmor3pants", "data" : { "colorIndex" : [1] } } ],
+        "head" : [ { "name" : "avalidragoonhead", "data" : { "colorIndex" : [1] } } ],
+        "chest" : [ { "name" : "avaliguardtier1chest", "data" : { "colorIndex" : [1] } } ],
+        "legs" : [ { "name" : "avaliarmor3pants", "data" : { "colorIndex" : [1] } } ],
         "primary" : [ 
           { "name" : "commonspear" }
         ]
