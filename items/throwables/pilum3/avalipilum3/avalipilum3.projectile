@@ -20,5 +20,5 @@
   "emitters" : [ "daggerblue" ],
   "statusEffects" : [
     "weakpoison"
-    ]
+  ]
 }
