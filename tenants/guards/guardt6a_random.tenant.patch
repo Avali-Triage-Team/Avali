@@ -1,3 +1,7 @@
 [
-  { "op": "add", "path": "/tenants/0/species/-", "value": "avali" }
+  {
+    "op" : "add",
+    "path" : "/tenants/0/species/-",
+    "value" : "avali"
+  }
 ]

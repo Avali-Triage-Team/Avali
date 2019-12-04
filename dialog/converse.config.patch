@@ -1,16 +1,16 @@
 [  
   {  
-    "op":"add",
-    "path":"/converse/avali",
-    "value":{  
-      "default":[  
+    "op" : "add",
+    "path" : "/converse/avali",
+    "value" : {  
+      "default" : [  
         "Hello.",
         "Hi. I'm <selfname>. Who're you?",
         "Like it around?",
         "You came this far to visit our settlement?",
         "*hums to self*"
       ],
-      "apex":[  
+      "apex" : [  
         "Hello, Apex.",
         "How goes the rebellion?",
         "Are you a Miniknog spy?",
@@ -19,7 +19,7 @@
         "That's a lot of fur, are you from a non-CHZ world too?",
         "A shame the Miniknog censor the media, you'd make good use of a Nexus system."
       ],
-      "avian":[  
+      "avian" : [  
         "Hello, Avian.",
         "If you speak to a geneticist we could give you wings too, you know.",
         "Are you grounded, or... the other ones?",
@@ -29,7 +29,7 @@
         "Want to trade crest feathers as a souvenir?",
         "Religion? No, the Oracle isn't our god..."
       ],
-      "floran":[  
+      "floran" : [  
         "Hello, Floran.",
         "...Er, just to remind you, we're inedible.",
         "What do you mean, we smell like Miracle-Gro?",
@@ -38,7 +38,7 @@
         "Why do Florans need to hunt for meat if you can photosynthesise?",
         "Mind explaining to me what 'drysap' is?"
       ],
-      "human":[  
+      "human" : [  
         "Hello... oh, a human.",
         "I thought something smelled bad.",
         "I understand, it wasn't your fault. But some of my kin might not be so understanding.",
@@ -48,7 +48,7 @@
         "What's the weather like on Earth lately, violent with a chance of tentacles?",
         "Now where'd I put my tiny violin..."
       ],
-      "hylotl":[  
+      "hylotl" : [  
         "Hello, Hylotl.",
         "Can I interest you in some tapestries?",
         "I hear the Hylotl civilisation has some amazing music and culture, want to share some with us?",
@@ -56,7 +56,7 @@
         "Is it true Hylotl breed through amplexus?",
         "No, my feathers are not for trade!"
       ],
-      "avali":[  
+      "avali" : [  
         "Find anything interesting out there?",
         "Hello, hunter.",
         "Did you catch that news flash for the local network?",
@@ -68,7 +68,7 @@
         "My pack's come up with a new routine, wanna watch later?",
         "Can I get your opinion on this song I'm writi- wait, where are you going?"
       ],
-      "glitch":[  
+      "glitch" : [  
         "Hello, Glitch.",
         "Friendly. Greetings! I've been studying your mode of speech.",
         "Do you mind if I have a look at your neural architecture?",
@@ -79,9 +79,9 @@
     }
   },
   {  
-    "op":"add",
-    "path":"/converse/apex/avali",
-    "value":[  
+    "op" : "add",
+    "path" : "/converse/apex/avali",
+    "value" : [  
       "Greetings, my plumed pal.",
       "Please don't distract me, they'll dock my pay or worse.",
       "No offence, but the smell is sort've distracting.",
@@ -96,9 +96,9 @@
     ]
   },
   {  
-    "op":"add",
-    "path":"/converse/floran/avali",
-    "value":[  
+    "op" : "add",
+    "path" : "/converse/floran/avali",
+    "value" : [  
       "Not sssstab, yet.",
       "Not-bird-men make good fertilissser, watch yourself.",
       "Are you edible?",
@@ -116,9 +116,9 @@
     ]
   },
   {  
-    "op":"add",
-    "path":"/converse/human/avali",
-    "value":[  
+    "op" : "add",
+    "path" : "/converse/human/avali",
+    "value" : [  
       "You're not welcome here, turkey.",
       "If you overlook the treaty so will I, so watch it...",
       "Ugh, savages.",
@@ -136,9 +136,9 @@
     ]
   },
   {  
-    "op":"add",
-    "path":"/converse/glitch/avali",
-    "value":[  
+    "op" : "add",
+    "path" : "/converse/glitch/avali",
+    "value" : [  
       "Cordial. Well met.",
       "Cordial. Greetings alien.",
       "Bothered. Please refrain from moulting your feathers in public.",
@@ -156,9 +156,9 @@
     ]
   },
   {  
-    "op":"add",
-    "path":"/converse/hylotl/avali",
-    "value":[  
+    "op" : "add",
+    "path" : "/converse/hylotl/avali",
+    "value" : [  
       "Always a pleasure to meet a more sophisticated race.",
       "Welcome, traveller. Please marvel at our exquisite building designs.",
       "I don't blame you for coming here, it must be a far cry from your tent-hovel.",
@@ -177,9 +177,9 @@
     ]
   },
   {  
-    "op":"add",
-    "path":"/converse/avian/avali",
-    "value":[  
+    "op" : "add",
+    "path" : "/converse/avian/avali",
+    "value" : [  
       "Greetings Avali, welcome to our settlement!",
       "Your wings! Are you an emissary of Kluex?",
       "I bring you the song of our people! *squawks loudly* Why are you cowering, I thought you liked music?",

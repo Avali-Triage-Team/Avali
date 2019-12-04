@@ -1,5 +1,7 @@
 [
-  { "op" : "add"
-  ,"path" : "/speciesOrdering/-"
-  ,"value" : "avali" }
+  {
+    "op" : "add",
+    "path" : "/speciesOrdering/-",
+    "value" : "avali"
+  }
 ]

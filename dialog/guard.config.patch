@@ -1,9 +1,9 @@
 [  
   {  
-    "op":"add",
-    "path":"/hail/avali",
-    "value":{  
-      "default":[  
+    "op" : "add",
+    "path" : "/hail/avali",
+    "value" : {  
+      "default" : [  
         "Hi there, stranger!",
         "*hums to themself*",
         "Welcome to our town, traveller.",

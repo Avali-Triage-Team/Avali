@@ -16,9 +16,9 @@
       "type": "chefmerchant",
       "overrides": {
         "damageTeamType" : "friendly"
-       }
-     }
-   ],
+      }
+    }
+  ],
 
   "rent": {
     "periodRange": [900.0, 1800.0],

@@ -1,11 +1,11 @@
 [
   {
-    "op": "add",
-    "path": "/species/avali",
-    "value": {
-      "aiFrames": "avaliai.png",
-      "portraitFrames": "portraits/avaliportrait.png",
-      "staticFrames": "staticavali.png"
+    "op" : "add",
+    "path" : "/species/avali",
+    "value" : {
+      "aiFrames" : "avaliai.png",
+      "portraitFrames" : "portraits/avaliportrait.png",
+      "staticFrames" : "staticavali.png"
     }
   }
 ]

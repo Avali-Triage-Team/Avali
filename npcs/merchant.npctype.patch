@@ -1,9 +1,11 @@
 [
-  { "op" : "add", 
+  {
+    "op" : "add", 
     "path" : "/scriptConfig/merchant/categories/avali", 
     "value" : [ "basicmerchant", "randomguns", "randomswords", "avaliguns", "avaliingredients", "musicalinstruments" ] 
   },
-  { "op" : "add",
+  {
+    "op" : "add",
     "path" : "/items/avali",
     "value" : 
     [ [0, [ {

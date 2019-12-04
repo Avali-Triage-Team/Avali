@@ -10,7 +10,8 @@
     "commerce" : 8
   },
 
-  "tenants" : [{
+  "tenants" : [
+    {
       "spawn" : "npc",
       "species" : "avali",
       "type" : "merchant",

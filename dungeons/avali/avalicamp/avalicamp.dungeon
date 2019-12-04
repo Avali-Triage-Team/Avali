@@ -1,40 +1,40 @@
 {
-  "metadata": {
-    "name": "avalicamp",
-    "species": "dummy",
-    "rules": [],
-    "maxRadius": 2000,
-    "maxParts": 100,
-    "anchor": [
+  "metadata" : {
+    "name" : "avalicamp",
+    "species" : "dummy",
+    "rules" : [],
+    "maxRadius" : 2000,
+    "maxParts" : 100,
+    "anchor" : [
       "core1"
     ],
-    "gravity": 80
+    "gravity" : 80
   },
-  "tiles": [
+  "tiles" : [
     {
-      "value": [
+      "value" : [
         255,
         0,
         220,
         255
       ],
-      "comment": "magic pinkppp, a no-op value",
-      "connector": false
+      "comment" : "magic pinkppp, a no-op value",
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         0,
         0,
         0,
         255
       ],
-      "comment": "anchor, must contain air",
-      "brush": [
+      "comment" : "anchor, must contain air",
+      "brush" : [
         [
           "clear"
         ]
       ],
-      "rules": [
+      "rules" : [
         [
           "worldGenMustContainAirBackground"
         ],
@@ -42,25 +42,25 @@
           "allowOverdrawing"
         ]
       ],
-      "connector": false
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         255,
         255,
         255,
         255
       ],
-      "comment": "anchor, must contain solid",
-      "brush": [
+      "comment" : "anchor, must contain solid",
+      "brush" : [
         [
           "surface",
           {
-            "variant": 0
+            "variant" : 0
           }
         ]
       ],
-      "rules": [
+      "rules" : [
         [
           "worldGenMustContainSolidBackground"
         ],
@@ -68,107 +68,107 @@
           "allowOverdrawing"
         ]
       ],
-      "connector": false
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         0,
         38,
         255,
         255
       ],
-      "comment": "bright blue, entrance coupler",
-      "connector": true
+      "comment" : "bright blue, entrance coupler",
+      "connector" : true
     },
     {
-      "value": [
+      "value" : [
         0,
         255,
         186,
         255
       ],
-      "comment": "bright aqua, alternate coupler",
-      "connector": true
+      "comment" : "bright aqua, alternate coupler",
+      "connector" : true
     },
     {
-      "value": [
+      "value" : [
         168,
         255,
         0,
         255
       ],
-      "comment": "bright green, alternate coupler #2",
-      "connector": true
+      "comment" : "bright green, alternate coupler #2",
+      "connector" : true
     },
     {
-      "value": [
+      "value" : [
         255,
         168,
         0,
         255
       ],
-      "comment": "bright orange, alternate coupler #3",
-      "connector": true
+      "comment" : "bright orange, alternate coupler #3",
+      "connector" : true
     },
     {
-      "value": [
+      "value" : [
         32,
         32,
         32,
         255
       ],
-      "comment": "Empty hole",
-      "brush": [
+      "comment" : "Empty hole",
+      "brush" : [
         [
           "clear"
         ]
       ],
-      "connector": false
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         128,
         128,
         128,
         255
       ],
-      "comment": "Biome tile brush",
-      "brush": [
+      "comment" : "Biome tile brush",
+      "brush" : [
         [
           "surface"
         ]
       ],
-      "rules": [
+      "rules" : [
         [
           "allowOverdrawing"
         ]
       ],
-      "connector": false
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         100,
         100,
         100,
         255
       ],
-      "comment": "Biome tile brush non-overwritable",
-      "brush": [
+      "comment" : "Biome tile brush non-overwritable",
+      "brush" : [
         [
           "surface"
         ]
       ],
-      "connector": false
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         200,
         200,
         200,
         255
       ],
-      "comment": "Biome tile background brush",
-      "brush": [
+      "comment" : "Biome tile background brush",
+      "brush" : [
         [
           "clear"
         ],
@@ -176,17 +176,17 @@
           "surfacebackground"
         ]
       ],
-      "connector": false
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         54,
         63,
         105,
         255
       ],
-      "comment": "water pool foreground",
-      "brush": [
+      "comment" : "water pool foreground",
+      "brush" : [
         [
           "clear"
         ],
@@ -195,57 +195,57 @@
           "water"
         ]
       ],
-      "connector": false
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         26,
         77,
         0,
         255
       ],
-      "comment": "biome tree",
-      "brush": [
+      "comment" : "biome tree",
+      "brush" : [
         [
           "biometree"
         ]
       ],
-      "rules": [
+      "rules" : [
         [
           "allowOverdrawing"
         ]
       ],
-      "connector": false
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         34,
         102,
         0,
         255
       ],
-      "comment": "biome flora",
-      "brush": [
+      "comment" : "biome flora",
+      "brush" : [
         [
           "biomeitems"
         ]
       ],
-      "rules": [
+      "rules" : [
         [
           "allowOverdrawing"
         ]
       ],
-      "connector": false
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         100,
         120,
         120,
         255
       ],
-      "comment": "apex panels, background",
-      "brush": [
+      "comment" : "apex panels, background",
+      "brush" : [
         [
           "clear"
         ],
@@ -254,18 +254,18 @@
           "apexshipwall"
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         160,
         180,
         180,
         255
       ],
-      "comment": "apex panels, foreground",
-      "brush": [
+      "comment" : "apex panels, foreground",
+      "brush" : [
         [
           "clear"
         ],
@@ -278,18 +278,18 @@
           "apexshipwall"
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         80,
         80,
         100,
         255
       ],
-      "comment": "steel, background",
-      "brush": [
+      "comment" : "steel, background",
+      "brush" : [
         [
           "clear"
         ],
@@ -298,18 +298,18 @@
           "pressurizedsteel"
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         120,
         120,
         160,
         255
       ],
-      "comment": "steel, foreground",
-      "brush": [
+      "comment" : "steel, foreground",
+      "brush" : [
         [
           "clear"
         ],
@@ -322,18 +322,18 @@
           "pressurizedsteel"
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         185,
         205,
         205,
         255
       ],
-      "comment": "apex platform",
-      "brush": [
+      "comment" : "apex platform",
+      "brush" : [
         [
           "clear"
         ],
@@ -342,18 +342,18 @@
           "modernplatform"
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         30,
         40,
         40,
         255
       ],
-      "comment": "apex beam, background",
-      "brush": [
+      "comment" : "apex beam, background",
+      "brush" : [
         [
           "clear"
         ],
@@ -362,18 +362,18 @@
           "apexshipdetails"
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         40,
         50,
         50,
         255
       ],
-      "comment": "apex beam, foreground",
-      "brush": [
+      "comment" : "apex beam, foreground",
+      "brush" : [
         [
           "clear"
         ],
@@ -386,18 +386,18 @@
           "apexshipdetails"
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         45,
         55,
         55,
         255
       ],
-      "comment": "apex support, background",
-      "brush": [
+      "comment" : "apex support, background",
+      "brush" : [
         [
           "clear"
         ],
@@ -406,18 +406,18 @@
           "apexshipsupport"
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         65,
         75,
         75,
         255
       ],
-      "comment": "apex support, foreground",
-      "brush": [
+      "comment" : "apex support, foreground",
+      "brush" : [
         [
           "clear"
         ],
@@ -430,18 +430,18 @@
           "apexshipsupport"
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         100,
         200,
         100,
         255
       ],
-      "comment": "leaves, background",
-      "brush": [
+      "comment" : "leaves, background",
+      "brush" : [
         [
           "clear"
         ],
@@ -450,18 +450,18 @@
           "plantmatter"
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         150,
         250,
         150,
         255
       ],
-      "comment": "leaves, foreground",
-      "brush": [
+      "comment" : "leaves, foreground",
+      "brush" : [
         [
           "clear"
         ],
@@ -474,18 +474,18 @@
           "plantmatter"
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         100,
         200,
         150,
         255
       ],
-      "comment": "vine, background",
-      "brush": [
+      "comment" : "vine, background",
+      "brush" : [
         [
           "clear"
         ],
@@ -494,18 +494,18 @@
           "vine"
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         150,
         250,
         200,
         255
       ],
-      "comment": "vine, foreground",
-      "brush": [
+      "comment" : "vine, foreground",
+      "brush" : [
         [
           "clear"
         ],
@@ -518,18 +518,18 @@
           "vine"
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         2,
         68,
         15,
         255
       ],
-      "comment": "bones, foreground",
-      "brush": [
+      "comment" : "bones, foreground",
+      "brush" : [
         [
           "clear"
         ],
@@ -542,18 +542,18 @@
           "bonematerial"
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         0,
         48,
         0,
         255
       ],
-      "comment": "bones, background",
-      "brush": [
+      "comment" : "bones, background",
+      "brush" : [
         [
           "clear"
         ],
@@ -562,18 +562,18 @@
           "bonematerial"
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         200,
         200,
         150,
         255
       ],
-      "comment": "glass, background",
-      "brush": [
+      "comment" : "glass, background",
+      "brush" : [
         [
           "clear"
         ],
@@ -582,18 +582,18 @@
           "glass"
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         220,
         220,
         180,
         255
       ],
-      "comment": "glass, foreground",
-      "brush": [
+      "comment" : "glass, foreground",
+      "brush" : [
         [
           "clear"
         ],
@@ -606,18 +606,18 @@
           "glass"
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         128,
         110,
         128,
         255
       ],
-      "comment": "nanocanvas, background",
-      "brush": [
+      "comment" : "nanocanvas, background",
+      "brush" : [
         [
           "clear"
         ],
@@ -626,18 +626,18 @@
           "campcanvas"
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         180,
         120,
         180,
         255
       ],
-      "comment": "nanocanvas, foreground",
-      "brush": [
+      "comment" : "nanocanvas, foreground",
+      "brush" : [
         [
           "clear"
         ],
@@ -650,18 +650,18 @@
           "campcanvas"
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         200,
         150,
         30,
         255
       ],
-      "comment": "trim, background",
-      "brush": [
+      "comment" : "trim, background",
+      "brush" : [
         [
           "clear"
         ],
@@ -670,18 +670,18 @@
           "camptapestry2"
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         250,
         190,
         80,
         255
       ],
-      "comment": "trim, foreground",
-      "brush": [
+      "comment" : "trim, foreground",
+      "brush" : [
         [
           "clear"
         ],
@@ -694,18 +694,18 @@
           "camptapestry2"
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         200,
         120,
         0,
         255
       ],
-      "comment": "tapestry, background",
-      "brush": [
+      "comment" : "tapestry, background",
+      "brush" : [
         [
           "clear"
         ],
@@ -714,18 +714,18 @@
           "camptapestry1"
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         250,
         120,
         0,
         255
       ],
-      "comment": "tapestry, foreground",
-      "brush": [
+      "comment" : "tapestry, foreground",
+      "brush" : [
         [
           "clear"
         ],
@@ -738,18 +738,18 @@
           "camptapestry1"
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         80,
         80,
         90,
         255
       ],
-      "comment": "pole, background",
-      "brush": [
+      "comment" : "pole, background",
+      "brush" : [
         [
           "clear"
         ],
@@ -758,18 +758,18 @@
           "camppole"
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         110,
         110,
         120,
         255
       ],
-      "comment": "pole, foreground",
-      "brush": [
+      "comment" : "pole, foreground",
+      "brush" : [
         [
           "clear"
         ],
@@ -782,18 +782,18 @@
           "camppole"
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         64,
         60,
         20,
         255
       ],
-      "comment": "main pole, background",
-      "brush": [
+      "comment" : "main pole, background",
+      "brush" : [
         [
           "clear"
         ],
@@ -802,18 +802,18 @@
           "campbigpole"
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         214,
         81,
         157,
         255
       ],
-      "comment": "main pole, foreground",
-      "brush": [
+      "comment" : "main pole, foreground",
+      "brush" : [
         [
           "clear"
         ],
@@ -826,18 +826,18 @@
           "campbigpole"
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         220,
         64,
         0,
         255
       ],
-      "comment": "avali stairs",
-      "brush": [
+      "comment" : "avali stairs",
+      "brush" : [
         [
           "clear"
         ],
@@ -846,18 +846,18 @@
           "avalistairs"
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         160,
         155,
         160,
         255
       ],
-      "comment": "avali techpanel, background",
-      "brush": [
+      "comment" : "avali techpanel, background",
+      "brush" : [
         [
           "clear"
         ],
@@ -866,18 +866,18 @@
           "avalitechpanel"
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         210,
         205,
         210,
         255
       ],
-      "comment": "avali techpanel, foreground",
-      "brush": [
+      "comment" : "avali techpanel, foreground",
+      "brush" : [
         [
           "clear"
         ],
@@ -890,18 +890,18 @@
           "avalitechpanel"
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         59,
         77,
         205,
         255
       ],
-      "comment": "avali plainpanel, background",
-      "brush": [
+      "comment" : "avali plainpanel, background",
+      "brush" : [
         [
           "clear"
         ],
@@ -910,18 +910,18 @@
           "avaliplain"
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         69,
         77,
         205,
         255
       ],
-      "comment": "avali plainpanel, foreground",
-      "brush": [
+      "comment" : "avali plainpanel, foreground",
+      "brush" : [
         [
           "clear"
         ],
@@ -934,18 +934,18 @@
           "avaliplain"
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         111,
         173,
         8,
         255
       ],
-      "comment": "avali horizontalpanels, background",
-      "brush": [
+      "comment" : "avali horizontalpanels, background",
+      "brush" : [
         [
           "clear"
         ],
@@ -954,18 +954,18 @@
           "avalipaneling"
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         121,
         183,
         8,
         255
       ],
-      "comment": "avali horizontalpanels, foreground",
-      "brush": [
+      "comment" : "avali horizontalpanels, foreground",
+      "brush" : [
         [
           "clear"
         ],
@@ -978,18 +978,18 @@
           "avalipaneling"
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         77,
         118,
         136,
         255
       ],
-      "comment": "avali verticalpanels, background",
-      "brush": [
+      "comment" : "avali verticalpanels, background",
+      "brush" : [
         [
           "clear"
         ],
@@ -998,18 +998,18 @@
           "avalipaneling2"
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         54,
         38,
         137,
         255
       ],
-      "comment": "avali verticalpanels, foreground",
-      "brush": [
+      "comment" : "avali verticalpanels, foreground",
+      "brush" : [
         [
           "clear"
         ],
@@ -1022,18 +1022,18 @@
           "avalipaneling2"
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         187,
         47,
         134,
         255
       ],
-      "comment": "avali compositetiles, background",
-      "brush": [
+      "comment" : "avali compositetiles, background",
+      "brush" : [
         [
           "clear"
         ],
@@ -1042,18 +1042,18 @@
           "avalitiles"
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         197,
         57,
         134,
         255
       ],
-      "comment": "avali compositetiles, foreground",
-      "brush": [
+      "comment" : "avali compositetiles, foreground",
+      "brush" : [
         [
           "clear"
         ],
@@ -1066,18 +1066,18 @@
           "avalitiles"
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         250,
         205,
         85,
         255
       ],
-      "comment": "aeroponics",
-      "brush": [
+      "comment" : "aeroponics",
+      "brush" : [
         [
           "clear"
         ],
@@ -1087,18 +1087,18 @@
           "avalitilled"
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         55,
         14,
         206,
         255
       ],
-      "comment": "aeroponics, no roots",
-      "brush": [
+      "comment" : "aeroponics, no roots",
+      "brush" : [
         [
           "clear"
         ],
@@ -1107,18 +1107,18 @@
           "avaliaeroponics"
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         64,
         48,
         12,
         255
       ],
-      "comment": "display, background",
-      "brush": [
+      "comment" : "display, background",
+      "brush" : [
         [
           "clear"
         ],
@@ -1127,18 +1127,18 @@
           "avalidisplay"
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         72,
         58,
         20,
         255
       ],
-      "comment": "display, foreground",
-      "brush": [
+      "comment" : "display, foreground",
+      "brush" : [
         [
           "clear"
         ],
@@ -1147,18 +1147,18 @@
           "avalidisplay"
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         3,
         70,
         132,
         255
       ],
-      "comment": "avali datachits, background",
-      "brush": [
+      "comment" : "avali datachits, background",
+      "brush" : [
         [
           "clear"
         ],
@@ -1167,18 +1167,18 @@
           "avalichits"
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         3,
         80,
         132,
         255
       ],
-      "comment": "avali datachits, foreground",
-      "brush": [
+      "comment" : "avali datachits, foreground",
+      "brush" : [
         [
           "clear"
         ],
@@ -1191,18 +1191,18 @@
           "avalichits"
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         38,
         32,
         20,
         255
       ],
-      "comment": "dark support, background",
-      "brush": [
+      "comment" : "dark support, background",
+      "brush" : [
         [
           "clear"
         ],
@@ -1211,18 +1211,18 @@
           "avalidarkmetal"
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         48,
         32,
         20,
         255
       ],
-      "comment": "dark support, foreground",
-      "brush": [
+      "comment" : "dark support, foreground",
+      "brush" : [
         [
           "clear"
         ],
@@ -1235,18 +1235,18 @@
           "avalidarkmetal"
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         25,
         20,
         16,
         255
       ],
-      "comment": "dark panels, background",
-      "brush": [
+      "comment" : "dark panels, background",
+      "brush" : [
         [
           "clear"
         ],
@@ -1255,18 +1255,18 @@
           "avalidarkmetal2"
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         32,
         24,
         16,
         255
       ],
-      "comment": "dark panels, foreground",
-      "brush": [
+      "comment" : "dark panels, foreground",
+      "brush" : [
         [
           "clear"
         ],
@@ -1279,18 +1279,18 @@
           "avalidarkmetal2"
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         36,
         18,
         9,
         255
       ],
-      "comment": "dark beam, background",
-      "brush": [
+      "comment" : "dark beam, background",
+      "brush" : [
         [
           "clear"
         ],
@@ -1299,18 +1299,18 @@
           "avalidarkmetal3"
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         42,
         24,
         12,
         255
       ],
-      "comment": "dark beam, foreground",
-      "brush": [
+      "comment" : "dark beam, foreground",
+      "brush" : [
         [
           "clear"
         ],
@@ -1323,18 +1323,18 @@
           "avalidarkmetal3"
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         240,
         218,
         102,
         255
       ],
-      "comment": "avali hexagons, background",
-      "brush": [
+      "comment" : "avali hexagons, background",
+      "brush" : [
         [
           "clear"
         ],
@@ -1343,18 +1343,18 @@
           "avalihexagons"
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         250,
         218,
         102,
         255
       ],
-      "comment": "avali hexagons, foreground",
-      "brush": [
+      "comment" : "avali hexagons, foreground",
+      "brush" : [
         [
           "clear"
         ],
@@ -1367,18 +1367,18 @@
           "avalihexagons"
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         232,
         222,
         32,
         255
       ],
-      "comment": "avali glass, background",
-      "brush": [
+      "comment" : "avali glass, background",
+      "brush" : [
         [
           "clear"
         ],
@@ -1387,18 +1387,18 @@
           "avaliglass"
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         252,
         200,
         32,
         255
       ],
-      "comment": "avali glass, foreground",
-      "brush": [
+      "comment" : "avali glass, foreground",
+      "brush" : [
         [
           "clear"
         ],
@@ -1411,18 +1411,18 @@
           "avaliglass"
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         252,
         232,
         32,
         255
       ],
-      "comment": "avali glass, foreground ONLY",
-      "brush": [
+      "comment" : "avali glass, foreground ONLY",
+      "brush" : [
         [
           "clear"
         ],
@@ -1431,18 +1431,18 @@
           "avaliglass"
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         177,
         7,
         87,
         255
       ],
-      "comment": "canvas slope, left",
-      "brush": [
+      "comment" : "canvas slope, left",
+      "brush" : [
         [
           "clear"
         ],
@@ -1450,22 +1450,22 @@
           "object",
           "campslope2",
           {
-            "direction": "left"
+            "direction" : "left"
           }
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         76,
         246,
         23,
         255
       ],
-      "comment": "canvas slope, right",
-      "brush": [
+      "comment" : "canvas slope, right",
+      "brush" : [
         [
           "clear"
         ],
@@ -1473,22 +1473,22 @@
           "object",
           "campslope2",
           {
-            "direction": "right"
+            "direction" : "right"
           }
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         144,
         237,
         193,
         255
       ],
-      "comment": "fancy slope, left",
-      "brush": [
+      "comment" : "fancy slope, left",
+      "brush" : [
         [
           "clear"
         ],
@@ -1496,22 +1496,22 @@
           "object",
           "campslope1",
           {
-            "direction": "left"
+            "direction" : "left"
           }
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         239,
         130,
         102,
         255
       ],
-      "comment": "fancy slope, right",
-      "brush": [
+      "comment" : "fancy slope, right",
+      "brush" : [
         [
           "clear"
         ],
@@ -1519,22 +1519,22 @@
           "object",
           "campslope1",
           {
-            "direction": "right"
+            "direction" : "right"
           }
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         42,
         106,
         151,
         255
       ],
-      "comment": "canvas corner, left",
-      "brush": [
+      "comment" : "canvas corner, left",
+      "brush" : [
         [
           "clear"
         ],
@@ -1542,22 +1542,22 @@
           "object",
           "campsmallwall2",
           {
-            "direction": "left"
+            "direction" : "left"
           }
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         52,
         33,
         242,
         255
       ],
-      "comment": "canvas corner, right",
-      "brush": [
+      "comment" : "canvas corner, right",
+      "brush" : [
         [
           "clear"
         ],
@@ -1565,22 +1565,22 @@
           "object",
           "campsmallwall2",
           {
-            "direction": "right"
+            "direction" : "right"
           }
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         197,
         179,
         150,
         255
       ],
-      "comment": "fancy corner, left",
-      "brush": [
+      "comment" : "fancy corner, left",
+      "brush" : [
         [
           "clear"
         ],
@@ -1588,22 +1588,22 @@
           "object",
           "campsmallwall1",
           {
-            "direction": "left"
+            "direction" : "left"
           }
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         69,
         112,
         193,
         255
       ],
-      "comment": "fancy corner, right",
-      "brush": [
+      "comment" : "fancy corner, right",
+      "brush" : [
         [
           "clear"
         ],
@@ -1611,22 +1611,22 @@
           "object",
           "campsmallwall1",
           {
-            "direction": "right"
+            "direction" : "right"
           }
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         17,
         199,
         228,
         255
       ],
-      "comment": "canvas awning, left",
-      "brush": [
+      "comment" : "canvas awning, left",
+      "brush" : [
         [
           "clear"
         ],
@@ -1634,22 +1634,22 @@
           "object",
           "campsmallentry2",
           {
-            "direction": "left"
+            "direction" : "left"
           }
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         25,
         211,
         67,
         255
       ],
-      "comment": "canvas awning, right",
-      "brush": [
+      "comment" : "canvas awning, right",
+      "brush" : [
         [
           "clear"
         ],
@@ -1657,22 +1657,22 @@
           "object",
           "campsmallentry2",
           {
-            "direction": "right"
+            "direction" : "right"
           }
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         18,
         237,
         56,
         255
       ],
-      "comment": "fancy awning, left",
-      "brush": [
+      "comment" : "fancy awning, left",
+      "brush" : [
         [
           "clear"
         ],
@@ -1680,22 +1680,22 @@
           "object",
           "campsmallentry1",
           {
-            "direction": "left"
+            "direction" : "left"
           }
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         215,
         244,
         70,
         255
       ],
-      "comment": "fancy awning, right",
-      "brush": [
+      "comment" : "fancy awning, right",
+      "brush" : [
         [
           "clear"
         ],
@@ -1703,22 +1703,22 @@
           "object",
           "campsmallentry1",
           {
-            "direction": "right"
+            "direction" : "right"
           }
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         227,
         175,
         33,
         255
       ],
-      "comment": "canvas entrance, left",
-      "brush": [
+      "comment" : "canvas entrance, left",
+      "brush" : [
         [
           "clear"
         ],
@@ -1726,22 +1726,22 @@
           "object",
           "camplargeentry2",
           {
-            "direction": "left"
+            "direction" : "left"
           }
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         144,
         213,
         121,
         255
       ],
-      "comment": "canvas entrance, right",
-      "brush": [
+      "comment" : "canvas entrance, right",
+      "brush" : [
         [
           "clear"
         ],
@@ -1749,22 +1749,22 @@
           "object",
           "camplargeentry2",
           {
-            "direction": "right"
+            "direction" : "right"
           }
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         209,
         191,
         130,
         255
       ],
-      "comment": "fancy entrance, left",
-      "brush": [
+      "comment" : "fancy entrance, left",
+      "brush" : [
         [
           "clear"
         ],
@@ -1772,22 +1772,22 @@
           "object",
           "camplargeentry1",
           {
-            "direction": "left"
+            "direction" : "left"
           }
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         149,
         45,
         249,
         255
       ],
-      "comment": "fancy entrance, right",
-      "brush": [
+      "comment" : "fancy entrance, right",
+      "brush" : [
         [
           "clear"
         ],
@@ -1795,22 +1795,22 @@
           "object",
           "camplargeentry1",
           {
-            "direction": "right"
+            "direction" : "right"
           }
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         50,
         84,
         71,
         255
       ],
-      "comment": "canvas sheet, left",
-      "brush": [
+      "comment" : "canvas sheet, left",
+      "brush" : [
         [
           "clear"
         ],
@@ -1818,22 +1818,22 @@
           "object",
           "camplargewall2",
           {
-            "direction": "left"
+            "direction" : "left"
           }
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         167,
         81,
         55,
         255
       ],
-      "comment": "canvas sheet, right",
-      "brush": [
+      "comment" : "canvas sheet, right",
+      "brush" : [
         [
           "clear"
         ],
@@ -1841,22 +1841,22 @@
           "object",
           "camplargewall2",
           {
-            "direction": "right"
+            "direction" : "right"
           }
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         90,
         85,
         186,
         255
       ],
-      "comment": "fancy sheet, left",
-      "brush": [
+      "comment" : "fancy sheet, left",
+      "brush" : [
         [
           "clear"
         ],
@@ -1864,22 +1864,22 @@
           "object",
           "camplargewall1",
           {
-            "direction": "left"
+            "direction" : "left"
           }
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         231,
         50,
         95,
         255
       ],
-      "comment": "fancy sheet, right",
-      "brush": [
+      "comment" : "fancy sheet, right",
+      "brush" : [
         [
           "clear"
         ],
@@ -1887,22 +1887,22 @@
           "object",
           "camplargewall1",
           {
-            "direction": "right"
+            "direction" : "right"
           }
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         151,
         54,
         24,
         255
       ],
-      "comment": "cushion, left",
-      "brush": [
+      "comment" : "cushion, left",
+      "brush" : [
         [
           "clear"
         ],
@@ -1910,22 +1910,22 @@
           "object",
           "avalicushion1",
           {
-            "direction": "left"
+            "direction" : "left"
           }
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         184,
         89,
         62,
         255
       ],
-      "comment": "cushion, right",
-      "brush": [
+      "comment" : "cushion, right",
+      "brush" : [
         [
           "clear"
         ],
@@ -1933,22 +1933,22 @@
           "object",
           "avalicushion1",
           {
-            "direction": "right"
+            "direction" : "right"
           }
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         152,
         109,
         175,
         255
       ],
-      "comment": "pillow, left",
-      "brush": [
+      "comment" : "pillow, left",
+      "brush" : [
         [
           "clear"
         ],
@@ -1956,22 +1956,22 @@
           "object",
           "avalicushion2",
           {
-            "direction": "left"
+            "direction" : "left"
           }
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         198,
         154,
         106,
         255
       ],
-      "comment": "pillow, right",
-      "brush": [
+      "comment" : "pillow, right",
+      "brush" : [
         [
           "clear"
         ],
@@ -1979,22 +1979,22 @@
           "object",
           "avalicushion2",
           {
-            "direction": "right"
+            "direction" : "right"
           }
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         111,
         143,
         41,
         255
       ],
-      "comment": "crystal bowl",
-      "brush": [
+      "comment" : "crystal bowl",
+      "brush" : [
         [
           "clear"
         ],
@@ -2003,18 +2003,18 @@
           "avalicrystal1"
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         153,
         217,
         243,
         255
       ],
-      "comment": "dreamcatcher",
-      "brush": [
+      "comment" : "dreamcatcher",
+      "brush" : [
         [
           "clear"
         ],
@@ -2023,18 +2023,18 @@
           "avalidreamcatcher1"
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         106,
         117,
         171,
         255
       ],
-      "comment": "bottle",
-      "brush": [
+      "comment" : "bottle",
+      "brush" : [
         [
           "clear"
         ],
@@ -2043,18 +2043,18 @@
           "avalibottle1"
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         215,
         134,
         236,
         255
       ],
-      "comment": "fountain",
-      "brush": [
+      "comment" : "fountain",
+      "brush" : [
         [
           "clear"
         ],
@@ -2063,18 +2063,18 @@
           "fountain1"
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         85,
         112,
         49,
         255
       ],
-      "comment": "display, rifle",
-      "brush": [
+      "comment" : "display, rifle",
+      "brush" : [
         [
           "clear"
         ],
@@ -2082,22 +2082,22 @@
           "object",
           "avaligundisplay1",
           {
-            "direction": "right"
+            "direction" : "right"
           }
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         164,
         7,
         235,
         255
       ],
-      "comment": "display, sniper",
-      "brush": [
+      "comment" : "display, sniper",
+      "brush" : [
         [
           "clear"
         ],
@@ -2105,22 +2105,22 @@
           "object",
           "avaligundisplay2",
           {
-            "direction": "right"
+            "direction" : "right"
           }
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         219,
         215,
         54,
         255
       ],
-      "comment": "display, spear",
-      "brush": [
+      "comment" : "display, spear",
+      "brush" : [
         [
           "clear"
         ],
@@ -2128,22 +2128,22 @@
           "object",
           "avaliweapondisplay1",
           {
-            "direction": "right"
+            "direction" : "right"
           }
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         106,
         251,
         224,
         255
       ],
-      "comment": "terminal, command chair, left",
-      "brush": [
+      "comment" : "terminal, command chair, left",
+      "brush" : [
         [
           "clear"
         ],
@@ -2151,22 +2151,22 @@
           "object",
           "avaliterminal1",
           {
-            "direction": "left"
+            "direction" : "left"
           }
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         249,
         253,
         84,
         255
       ],
-      "comment": "terminal, command chair, right",
-      "brush": [
+      "comment" : "terminal, command chair, right",
+      "brush" : [
         [
           "clear"
         ],
@@ -2174,22 +2174,22 @@
           "object",
           "avaliterminal1",
           {
-            "direction": "right"
+            "direction" : "right"
           }
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         64,
         72,
         88,
         255
       ],
-      "comment": "terminal, console, left",
-      "brush": [
+      "comment" : "terminal, console, left",
+      "brush" : [
         [
           "clear"
         ],
@@ -2197,22 +2197,22 @@
           "object",
           "avaliterminal2",
           {
-            "direction": "left"
+            "direction" : "left"
           }
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         137,
         9,
         199,
         255
       ],
-      "comment": "terminal, console, right",
-      "brush": [
+      "comment" : "terminal, console, right",
+      "brush" : [
         [
           "clear"
         ],
@@ -2220,22 +2220,22 @@
           "object",
           "avaliterminal2",
           {
-            "direction": "right"
+            "direction" : "right"
           }
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         18,
         195,
         5,
         255
       ],
-      "comment": "terminal, codex",
-      "brush": [
+      "comment" : "terminal, codex",
+      "brush" : [
         [
           "clear"
         ],
@@ -2243,26 +2243,26 @@
           "object",
           "avaliterminal3",
           {
-            "parameters": {
-              "treasurePools": [
+            "parameters" : {
+              "treasurePools" : [
                 "avaliCodexLoot"
               ]
             }
           }
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         102,
         4,
         59,
         255
       ],
-      "comment": "avaliemblem, small",
-      "brush": [
+      "comment" : "avaliemblem, small",
+      "brush" : [
         [
           "clear"
         ],
@@ -2271,18 +2271,18 @@
           "avaliemblem"
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         94,
         203,
         145,
         255
       ],
-      "comment": "ribbon, tapestrystyle",
-      "brush": [
+      "comment" : "ribbon, tapestrystyle",
+      "brush" : [
         [
           "clear"
         ],
@@ -2290,22 +2290,22 @@
           "object",
           "avaliribbon2",
           {
-            "direction": "right"
+            "direction" : "right"
           }
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         94,
         194,
         177,
         255
       ],
-      "comment": "ribbon, trimstyle",
-      "brush": [
+      "comment" : "ribbon, trimstyle",
+      "brush" : [
         [
           "clear"
         ],
@@ -2313,22 +2313,22 @@
           "object",
           "avaliribbon1",
           {
-            "direction": "right"
+            "direction" : "right"
           }
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         244,
         20,
         177,
         255
       ],
-      "comment": "door, canvas, right",
-      "brush": [
+      "comment" : "door, canvas, right",
+      "brush" : [
         [
           "clear"
         ],
@@ -2336,22 +2336,22 @@
           "object",
           "campdoor",
           {
-            "direction": "right"
+            "direction" : "right"
           }
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         102,
         220,
         146,
         255
       ],
-      "comment": "door, canvas, left",
-      "brush": [
+      "comment" : "door, canvas, left",
+      "brush" : [
         [
           "clear"
         ],
@@ -2360,18 +2360,18 @@
           "campdoor"
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         179,
         126,
         30,
         255
       ],
-      "comment": "door, tech",
-      "brush": [
+      "comment" : "door, tech",
+      "brush" : [
         [
           "clear"
         ],
@@ -2380,18 +2380,18 @@
           "avalitechdoor"
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         72,
         179,
         85,
         255
       ],
-      "comment": "cylinder, basic loot",
-      "brush": [
+      "comment" : "cylinder, basic loot",
+      "brush" : [
         [
           "clear"
         ],
@@ -2399,26 +2399,26 @@
           "object",
           "avalichest1",
           {
-            "parameters": {
-              "treasurePools": [
+            "parameters" : {
+              "treasurePools" : [
                 "avaliTemporaryLoot"
               ]
             }
           }
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         110,
         35,
         49,
         255
       ],
-      "comment": "footlocker, left, basic loot",
-      "brush": [
+      "comment" : "footlocker, left, basic loot",
+      "brush" : [
         [
           "clear"
         ],
@@ -2426,27 +2426,27 @@
           "object",
           "avalichest2",
           {
-            "direction": "left",
-            "parameters": {
-              "treasurePools": [
+            "direction" : "left",
+            "parameters" : {
+              "treasurePools" : [
                 "avaliTemporaryLoot"
               ]
             }
           }
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         58,
         104,
         15,
         255
       ],
-      "comment": "footlocker, right, basic loot",
-      "brush": [
+      "comment" : "footlocker, right, basic loot",
+      "brush" : [
         [
           "clear"
         ],
@@ -2454,27 +2454,27 @@
           "object",
           "avalichest2",
           {
-            "direction": "right",
-            "parameters": {
-              "treasurePools": [
+            "direction" : "right",
+            "parameters" : {
+              "treasurePools" : [
                 "avaliTemporaryLoot"
               ]
             }
           }
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         170,
         44,
         69,
         255
       ],
-      "comment": "crate, left, basic loot",
-      "brush": [
+      "comment" : "crate, left, basic loot",
+      "brush" : [
         [
           "clear"
         ],
@@ -2482,27 +2482,27 @@
           "object",
           "bunkercrate",
           {
-            "direction": "left",
-            "parameters": {
-              "treasurePools": [
+            "direction" : "left",
+            "parameters" : {
+              "treasurePools" : [
                 "avaliTemporaryLoot"
               ]
             }
           }
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         56,
         149,
         33,
         255
       ],
-      "comment": "crate, right, basic loot",
-      "brush": [
+      "comment" : "crate, right, basic loot",
+      "brush" : [
         [
           "clear"
         ],
@@ -2510,27 +2510,27 @@
           "object",
           "bunkercrate",
           {
-            "direction": "right",
-            "parameters": {
-              "treasurePools": [
+            "direction" : "right",
+            "parameters" : {
+              "treasurePools" : [
                 "avaliTemporaryLoot"
               ]
             }
           }
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         92,
         179,
         85,
         255
       ],
-      "comment": "cylinder, encounter loot",
-      "brush": [
+      "comment" : "cylinder, encounter loot",
+      "brush" : [
         [
           "clear"
         ],
@@ -2538,26 +2538,26 @@
           "object",
           "avalichest1",
           {
-            "parameters": {
-              "treasurePools": [
+            "parameters" : {
+              "treasurePools" : [
                 "avaliEncounterLoot"
               ]
             }
           }
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         130,
         35,
         49,
         255
       ],
-      "comment": "footlocker, left, encounter loot",
-      "brush": [
+      "comment" : "footlocker, left, encounter loot",
+      "brush" : [
         [
           "clear"
         ],
@@ -2565,27 +2565,27 @@
           "object",
           "avalichest2",
           {
-            "direction": "left",
-            "parameters": {
-              "treasurePools": [
+            "direction" : "left",
+            "parameters" : {
+              "treasurePools" : [
                 "avaliEncounterLoot"
               ]
             }
           }
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         78,
         104,
         15,
         255
       ],
-      "comment": "footlocker, right, encounter loot",
-      "brush": [
+      "comment" : "footlocker, right, encounter loot",
+      "brush" : [
         [
           "clear"
         ],
@@ -2593,27 +2593,27 @@
           "object",
           "avalichest2",
           {
-            "direction": "right",
-            "parameters": {
-              "treasurePools": [
+            "direction" : "right",
+            "parameters" : {
+              "treasurePools" : [
                 "avaliEncounterLoot"
               ]
             }
           }
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         27,
         33,
         245,
         255
       ],
-      "comment": "striplight, directional",
-      "brush": [
+      "comment" : "striplight, directional",
+      "brush" : [
         [
           "clear"
         ],
@@ -2622,18 +2622,18 @@
           "avalistriplight"
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         1,
         95,
         209,
         255
       ],
-      "comment": "light, small strip",
-      "brush": [
+      "comment" : "light, small strip",
+      "brush" : [
         [
           "clear"
         ],
@@ -2642,18 +2642,18 @@
           "apexshiplight"
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         136,
         68,
         38,
         255
       ],
-      "comment": "light, spotlight",
-      "brush": [
+      "comment" : "light, spotlight",
+      "brush" : [
         [
           "clear"
         ],
@@ -2662,18 +2662,18 @@
           "eventlight"
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         16,
         217,
         61,
         255
       ],
-      "comment": "light, spotlight",
-      "brush": [
+      "comment" : "light, spotlight",
+      "brush" : [
         [
           "clear"
         ],
@@ -2682,18 +2682,18 @@
           "prisonfloodlight"
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         255,
         2,
         25,
         255
       ],
-      "comment": "crop type 1",
-      "brush": [
+      "comment" : "crop type 1",
+      "brush" : [
         [
           "clear"
         ],
@@ -2701,24 +2701,24 @@
           "object",
           "avaliplant1",
           {
-            "direction": "right",
-            "parameters": {
-              "startingStage": 2
+            "direction" : "right",
+            "parameters" : {
+              "startingStage" : 2
             }
           }
         ]
       ],
-      "connector": false
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         255,
         2,
         17,
         255
       ],
-      "comment": "crop type 2",
-      "brush": [
+      "comment" : "crop type 2",
+      "brush" : [
         [
           "clear"
         ],
@@ -2726,24 +2726,24 @@
           "object",
           "avaliplant2",
           {
-            "direction": "right",
-            "parameters": {
-              "startingStage": 2
+            "direction" : "right",
+            "parameters" : {
+              "startingStage" : 2
             }
           }
         ]
       ],
-      "connector": false
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         255,
         2,
         8,
         255
       ],
-      "comment": "crop type 3",
-      "brush": [
+      "comment" : "crop type 3",
+      "brush" : [
         [
           "clear"
         ],
@@ -2751,24 +2751,24 @@
           "object",
           "avaliplant3",
           {
-            "direction": "right",
-            "parameters": {
-              "startingStage": 2
+            "direction" : "right",
+            "parameters" : {
+              "startingStage" : 2
             }
           }
         ]
       ],
-      "connector": false
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         62,
         196,
         230,
         255
       ],
-      "comment": "floodlight, left",
-      "brush": [
+      "comment" : "floodlight, left",
+      "brush" : [
         [
           "clear"
         ],
@@ -2776,22 +2776,22 @@
           "object",
           "floodlights",
           {
-            "direction": "left"
+            "direction" : "left"
           }
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         193,
         66,
         86,
         255
       ],
-      "comment": "avali lightblock",
-      "brush": [
+      "comment" : "avali lightblock",
+      "brush" : [
         [
           "clear"
         ],
@@ -2800,18 +2800,18 @@
           "avalilightblock"
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         35,
         248,
         212,
         255
       ],
-      "comment": "table, basic, left",
-      "brush": [
+      "comment" : "table, basic, left",
+      "brush" : [
         [
           "clear"
         ],
@@ -2819,22 +2819,22 @@
           "object",
           "avalitable1",
           {
-            "direction": "left"
+            "direction" : "left"
           }
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         165,
         116,
         232,
         255
       ],
-      "comment": "table, drawer, left",
-      "brush": [
+      "comment" : "table, drawer, left",
+      "brush" : [
         [
           "clear"
         ],
@@ -2842,22 +2842,22 @@
           "object",
           "avalitable2",
           {
-            "direction": "left"
+            "direction" : "left"
           }
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         219,
         103,
         196,
         255
       ],
-      "comment": "table, aerogel, left",
-      "brush": [
+      "comment" : "table, aerogel, left",
+      "brush" : [
         [
           "clear"
         ],
@@ -2865,22 +2865,22 @@
           "object",
           "avalitable3",
           {
-            "direction": "left"
+            "direction" : "left"
           }
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         168,
         130,
         17,
         255
       ],
-      "comment": "table, basic, right",
-      "brush": [
+      "comment" : "table, basic, right",
+      "brush" : [
         [
           "clear"
         ],
@@ -2888,22 +2888,22 @@
           "object",
           "avalitable1",
           {
-            "direction": "right"
+            "direction" : "right"
           }
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         241,
         68,
         128,
         255
       ],
-      "comment": "table, drawer, right",
-      "brush": [
+      "comment" : "table, drawer, right",
+      "brush" : [
         [
           "clear"
         ],
@@ -2911,22 +2911,22 @@
           "object",
           "avalitable2",
           {
-            "direction": "right"
+            "direction" : "right"
           }
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         70,
         58,
         21,
         255
       ],
-      "comment": "table, aerogel, right",
-      "brush": [
+      "comment" : "table, aerogel, right",
+      "brush" : [
         [
           "clear"
         ],
@@ -2934,22 +2934,22 @@
           "object",
           "avalitable3",
           {
-            "direction": "right"
+            "direction" : "right"
           }
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         181,
         181,
         181,
         255
       ],
-      "comment": "pipe fence",
-      "brush": [
+      "comment" : "pipe fence",
+      "brush" : [
         [
           "clear"
         ],
@@ -2958,18 +2958,18 @@
           "prisonpipefence"
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         253,
         64,
         201,
         255
       ],
-      "comment": "glass fence",
-      "brush": [
+      "comment" : "glass fence",
+      "brush" : [
         [
           "clear"
         ],
@@ -2978,18 +2978,18 @@
           "glasspanel"
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         92,
         248,
         63,
         255
       ],
-      "comment": "bench, weapon modification",
-      "brush": [
+      "comment" : "bench, weapon modification",
+      "brush" : [
         [
           "clear"
         ],
@@ -2998,18 +2998,18 @@
           "avalibench"
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         207,
         123,
         45,
         255
       ],
-      "comment": "nanolathe",
-      "brush": [
+      "comment" : "nanolathe",
+      "brush" : [
         [
           "clear"
         ],
@@ -3018,18 +3018,18 @@
           "avalilathe"
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         148,
         199,
         120,
         255
       ],
-      "comment": "stove",
-      "brush": [
+      "comment" : "stove",
+      "brush" : [
         [
           "clear"
         ],
@@ -3038,18 +3038,18 @@
           "nanostove"
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         167,
         129,
         89,
         255
       ],
-      "comment": "nanoloom",
-      "brush": [
+      "comment" : "nanoloom",
+      "brush" : [
         [
           "clear"
         ],
@@ -3058,18 +3058,18 @@
           "avaliloom"
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         202,
         175,
         206,
         255
       ],
-      "comment": "hologram, big 1",
-      "brush": [
+      "comment" : "hologram, big 1",
+      "brush" : [
         [
           "clear"
         ],
@@ -3078,18 +3078,18 @@
           "avalihologram1"
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         17,
         21,
         4,
         255
       ],
-      "comment": "hologram, big 2",
-      "brush": [
+      "comment" : "hologram, big 2",
+      "brush" : [
         [
           "clear"
         ],
@@ -3098,18 +3098,18 @@
           "avalihologram2"
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         23,
         126,
         101,
         255
       ],
-      "comment": "hologram, small 1",
-      "brush": [
+      "comment" : "hologram, small 1",
+      "brush" : [
         [
           "clear"
         ],
@@ -3118,18 +3118,18 @@
           "avalihologramsml1"
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         111,
         175,
         141,
         255
       ],
-      "comment": "hologram, small 2",
-      "brush": [
+      "comment" : "hologram, small 2",
+      "brush" : [
         [
           "clear"
         ],
@@ -3138,18 +3138,18 @@
           "avalihologramsml2"
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         188,
         14,
         207,
         255
       ],
-      "comment": "hologram, small 3",
-      "brush": [
+      "comment" : "hologram, small 3",
+      "brush" : [
         [
           "clear"
         ],
@@ -3158,18 +3158,18 @@
           "avalihologramsml3"
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         247,
         96,
         234,
         255
       ],
-      "comment": "hologram, tiny 1",
-      "brush": [
+      "comment" : "hologram, tiny 1",
+      "brush" : [
         [
           "clear"
         ],
@@ -3178,18 +3178,18 @@
           "avalihologramtiny1"
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         220,
         46,
         219,
         255
       ],
-      "comment": "hologram, tiny 2",
-      "brush": [
+      "comment" : "hologram, tiny 2",
+      "brush" : [
         [
           "clear"
         ],
@@ -3198,18 +3198,18 @@
           "avalihologramtiny2"
         ]
       ],
-      "rules": [],
-      "connector": false
+      "rules" : [],
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         119,
         182,
         124,
         255
       ],
-      "comment": "bandittent1 facing left",
-      "brush": [
+      "comment" : "bandittent1 facing left",
+      "brush" : [
         [
           "clear"
         ],
@@ -3217,21 +3217,21 @@
           "object",
           "bandittent1",
           {
-            "direction": "left"
+            "direction" : "left"
           }
         ]
       ],
-      "connector": false
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         80,
         149,
         91,
         255
       ],
-      "comment": "bandittent1 facing right",
-      "brush": [
+      "comment" : "bandittent1 facing right",
+      "brush" : [
         [
           "clear"
         ],
@@ -3239,21 +3239,21 @@
           "object",
           "bandittent1",
           {
-            "direction": "right"
+            "direction" : "right"
           }
         ]
       ],
-      "connector": false
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         123,
         181,
         118,
         255
       ],
-      "comment": "bandittent2 facing left",
-      "brush": [
+      "comment" : "bandittent2 facing left",
+      "brush" : [
         [
           "clear"
         ],
@@ -3261,21 +3261,21 @@
           "object",
           "bandittent2",
           {
-            "direction": "left"
+            "direction" : "left"
           }
         ]
       ],
-      "connector": false
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         80,
         148,
         80,
         255
       ],
-      "comment": "bandittent2 facing right",
-      "brush": [
+      "comment" : "bandittent2 facing right",
+      "brush" : [
         [
           "clear"
         ],
@@ -3283,21 +3283,21 @@
           "object",
           "bandittent2",
           {
-            "direction": "right"
+            "direction" : "right"
           }
         ]
       ],
-      "connector": false
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         253,
         143,
         77,
         255
       ],
-      "comment": "campfire",
-      "brush": [
+      "comment" : "campfire",
+      "brush" : [
         [
           "clear"
         ],
@@ -3306,328 +3306,328 @@
           "campfire"
         ]
       ],
-      "connector": false
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         255,
         180,
         24,
         255
       ],
-      "comment": "avali villager npc",
-      "brush": [
+      "comment" : "avali villager npc",
+      "brush" : [
         [
           "npc",
           {
-            "kind": "npc",
-            "species": "avali",
-            "typeName": "villager"
+            "kind" : "npc",
+            "species" : "avali",
+            "typeName" : "villager"
           }
         ]
       ],
-      "connector": false
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         255,
         180,
         56,
         255
       ],
-      "comment": "avali guard npc",
-      "brush": [
+      "comment" : "avali guard npc",
+      "brush" : [
         [
           "npc",
           {
-            "kind": "npc",
-            "species": "avali",
-            "typeName": "villageguard"
+            "kind" : "npc",
+            "species" : "avali",
+            "typeName" : "villageguard"
           }
         ]
       ],
-      "connector": false
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         165,
         166,
         121,
         255
       ],
-      "comment": "avali guard captain npc",
-      "brush": [
+      "comment" : "avali guard captain npc",
+      "brush" : [
         [
           "npc",
           {
-            "kind": "npc",
-            "species": "avali",
-            "typeName": "villageguardcaptain"
+            "kind" : "npc",
+            "species" : "avali",
+            "typeName" : "villageguardcaptain"
           }
         ]
       ],
-      "connector": false
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         175,
         0,
         0,
         255
       ],
-      "comment": "avali weapon merchant npc",
-      "brush": [
+      "comment" : "avali weapon merchant npc",
+      "brush" : [
         [
           "npc",
           {
-            "kind": "npc",
-            "species": "avali",
-            "typeName": "merchant",
-            "parameters": {
-              "scriptConfig": {
-                "noticePlayersRadius": 20.0,
-                "merchant": {
-                  "storeRadius": 2,
-                  "categories": {
-                    "default": [
+            "kind" : "npc",
+            "species" : "avali",
+            "typeName" : "merchant",
+            "parameters" : {
+              "scriptConfig" : {
+                "noticePlayersRadius" : 20.0,
+                "merchant" : {
+                  "storeRadius" : 2,
+                  "categories" : {
+                    "default" : [
                       "avaliguns",
                       "randomguns",
                       "randomswords"
                     ]
                   },
-                  "priceVarianceRange": [
+                  "priceVarianceRange" : [
                     0.8,
                     1.2
                   ],
-                  "numItems": 9
+                  "numItems" : 9
                 },
-                "sit": {
-                  "searchRadius": 8
+                "sit" : {
+                  "searchRadius" : 8
                 }
               }
             }
           }
         ]
       ],
-      "connector": false
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         255,
         180,
         16,
         255
       ],
-      "comment": "avali general merchant npc",
-      "brush": [
+      "comment" : "avali general merchant npc",
+      "brush" : [
         [
           "npc",
           {
-            "kind": "npc",
-            "species": "avali",
-            "typeName": "merchant",
-            "parameters": {
-              "scriptConfig": {
-                "noticePlayersRadius": 20.0,
-                "merchant": {
-                  "storeRadius": 2,
-                  "categories": {
-                    "default": [
+            "kind" : "npc",
+            "species" : "avali",
+            "typeName" : "merchant",
+            "parameters" : {
+              "scriptConfig" : {
+                "noticePlayersRadius" : 20.0,
+                "merchant" : {
+                  "storeRadius" : 2,
+                  "categories" : {
+                    "default" : [
                       "basicmerchant",
                       "musicalinstruments"
                     ]
                   },
-                  "priceVarianceRange": [
+                  "priceVarianceRange" : [
                     0.8,
                     1.2
                   ],
-                  "numItems": 9
+                  "numItems" : 9
                 },
-                "sit": {
-                  "searchRadius": 8
+                "sit" : {
+                  "searchRadius" : 8
                 }
               }
             }
           }
         ]
       ],
-      "connector": false
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         255,
         180,
         8,
         255
       ],
-      "comment": "avali food merchant npc",
-      "brush": [
+      "comment" : "avali food merchant npc",
+      "brush" : [
         [
           "npc",
           {
-            "kind": "npc",
-            "species": "avali",
-            "typeName": "merchant",
-            "parameters": {
-              "scriptConfig": {
-                "noticePlayersRadius": 20.0,
-                "merchant": {
-                  "storeRadius": 2,
-                  "categories": {
-                    "default": [
+            "kind" : "npc",
+            "species" : "avali",
+            "typeName" : "merchant",
+            "parameters" : {
+              "scriptConfig" : {
+                "noticePlayersRadius" : 20.0,
+                "merchant" : {
+                  "storeRadius" : 2,
+                  "categories" : {
+                    "default" : [
                       "avaliingredients"
                     ]
                   },
-                  "priceVarianceRange": [
+                  "priceVarianceRange" : [
                     0.8,
                     1.2
                   ],
-                  "numItems": 9
+                  "numItems" : 9
                 },
-                "sit": {
-                  "searchRadius": 8
+                "sit" : {
+                  "searchRadius" : 8
                 }
               }
             }
           }
         ]
       ],
-      "connector": false
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         255,
         180,
         40,
         255
       ],
-      "comment": "avali hermit npc",
-      "brush": [
+      "comment" : "avali hermit npc",
+      "brush" : [
         [
           "npc",
           {
-            "kind": "npc",
-            "species": "avali",
-            "typeName": "crazyhermit"
+            "kind" : "npc",
+            "species" : "avali",
+            "typeName" : "crazyhermit"
           }
         ]
       ],
-      "connector": false
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         255,
         180,
         48,
         255
       ],
-      "comment": "avali hunter npc",
-      "brush": [
+      "comment" : "avali hunter npc",
+      "brush" : [
         [
           "npc",
           {
-            "kind": "npc",
-            "species": "avali",
-            "typeName": "wildhunter"
+            "kind" : "npc",
+            "species" : "avali",
+            "typeName" : "wildhunter"
           }
         ]
       ],
-      "connector": false
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         100,
         30,
         0,
         255
       ],
-      "comment": "avali dragoon",
-      "brush": [
+      "comment" : "avali dragoon",
+      "brush" : [
         [
           "npc",
           {
-            "kind": "npc",
-            "species": "avali",
-            "typeName": "avalidragoon"
+            "kind" : "npc",
+            "species" : "avali",
+            "typeName" : "avalidragoon"
           }
         ]
       ],
-      "connector": false
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         100,
         20,
         0,
         255
       ],
-      "comment": "avali bandit",
-      "brush": [
+      "comment" : "avali bandit",
+      "brush" : [
         [
           "npc",
           {
-            "kind": "npc",
-            "species": "avali",
-            "typeName": "avalibandit"
+            "kind" : "npc",
+            "species" : "avali",
+            "typeName" : "avalibandit"
           }
         ]
       ],
-      "connector": false
+      "connector" : false
     },
     {
-      "value": [
+      "value" : [
         100,
         10,
         0,
         255
       ],
-      "comment": "avali caravan merchant",
-      "brush": [
+      "comment" : "avali caravan merchant",
+      "brush" : [
         [
           "npc",
           {
-            "kind": "npc",
-            "species": "avali",
-            "typeName": "merchant",
-            "parameters": {
-              "scriptConfig": {
-                "noticePlayersRadius": 20.0,
-                "merchant": {
-                  "storeRadius": -1,
-                  "categories": {
-                    "default": [
+            "kind" : "npc",
+            "species" : "avali",
+            "typeName" : "merchant",
+            "parameters" : {
+              "scriptConfig" : {
+                "noticePlayersRadius" : 20.0,
+                "merchant" : {
+                  "storeRadius" : -1,
+                  "categories" : {
+                    "default" : [
                       "basicmerchant",
                       "randomguns",
                       "randomswords"
                     ]
                   },
-                  "priceVarianceRange": [
+                  "priceVarianceRange" : [
                     0.8,
                     1.2
                   ],
-                  "numItems": 9
+                  "numItems" : 9
                 },
-                "sit": {
-                  "searchRadius": 8
+                "sit" : {
+                  "searchRadius" : 8
                 }
               }
             }
           }
         ]
       ],
-      "connector": false
+      "connector" : false
     }
   ],
-  "parts": [
+  "parts" : [
     {
-      "def": [
+      "def" : [
         "image",
         [
           "core1.png",
           "core1a.png"
         ]
       ],
-      "rules": [
+      "rules" : [
         [
           "doNotConnectToPart",
           [
@@ -3644,17 +3644,17 @@
           ]
         ]
       ],
-      "name": "core1"
+      "name" : "core1"
     },
     {
-      "def": [
+      "def" : [
         "image",
         [
           "tent1.png",
           "tent1a.png"
         ]
       ],
-      "rules": [
+      "rules" : [
         [
           "doNotConnectToPart",
           [
@@ -3668,17 +3668,17 @@
           ]
         ]
       ],
-      "name": "tent1"
+      "name" : "tent1"
     },
     {
-      "def": [
+      "def" : [
         "image",
         [
           "tent2.png",
           "tent2a.png"
         ]
       ],
-      "rules": [
+      "rules" : [
         [
           "doNotConnectToPart",
           [
@@ -3692,17 +3692,17 @@
           ]
         ]
       ],
-      "name": "tent2"
+      "name" : "tent2"
     },
     {
-      "def": [
+      "def" : [
         "image",
         [
           "tent3.png",
           "tent3a.png"
         ]
       ],
-      "rules": [
+      "rules" : [
         [
           "doNotConnectToPart",
           [
@@ -3716,17 +3716,17 @@
           ]
         ]
       ],
-      "name": "tent3"
+      "name" : "tent3"
     },
     {
-      "def": [
+      "def" : [
         "image",
         [
           "civic1.png",
           "civic1a.png"
         ]
       ],
-      "rules": [
+      "rules" : [
         [
           "doNotConnectToPart",
           [
@@ -3741,17 +3741,17 @@
           ]
         ]
       ],
-      "name": "civic1"
+      "name" : "civic1"
     },
     {
-      "def": [
+      "def" : [
         "image",
         [
           "civic2.png",
           "civic2a.png"
         ]
       ],
-      "rules": [
+      "rules" : [
         [
           "doNotConnectToPart",
           [
@@ -3766,17 +3766,17 @@
           ]
         ]
       ],
-      "name": "civic2"
+      "name" : "civic2"
     },
     {
-      "def": [
+      "def" : [
         "image",
         [
           "civic3.png",
           "civic3a.png"
         ]
       ],
-      "rules": [
+      "rules" : [
         [
           "doNotConnectToPart",
           [
@@ -3791,17 +3791,17 @@
           ]
         ]
       ],
-      "name": "civic3"
+      "name" : "civic3"
     },
     {
-      "def": [
+      "def" : [
         "image",
         [
           "edgeL1.png",
           "edgeL1a.png"
         ]
       ],
-      "rules": [
+      "rules" : [
         [
           "ignorePartMaximumRule"
         ],
@@ -3826,18 +3826,18 @@
           ]
         ]
       ],
-      "chance": 0.0,
-      "name": "edgeL1"
+      "chance" : 0.0,
+      "name" : "edgeL1"
     },
     {
-      "def": [
+      "def" : [
         "image",
         [
           "edgeL2.png",
           "edgeL2a.png"
         ]
       ],
-      "rules": [
+      "rules" : [
         [
           "ignorePartMaximumRule"
         ],
@@ -3862,18 +3862,18 @@
           ]
         ]
       ],
-      "chance": 0.0,
-      "name": "edgeL2"
+      "chance" : 0.0,
+      "name" : "edgeL2"
     },
     {
-      "def": [
+      "def" : [
         "image",
         [
           "edgeR1.png",
           "edgeR1a.png"
         ]
       ],
-      "rules": [
+      "rules" : [
         [
           "ignorePartMaximumRule"
         ],
@@ -3898,18 +3898,18 @@
           ]
         ]
       ],
-      "chance": 0.0,
-      "name": "edgeR1"
+      "chance" : 0.0,
+      "name" : "edgeR1"
     },
     {
-      "def": [
+      "def" : [
         "image",
         [
           "edgeR2.png",
           "edgeR2a.png"
         ]
       ],
-      "rules": [
+      "rules" : [
         [
           "ignorePartMaximumRule"
         ],
@@ -3934,8 +3934,8 @@
           ]
         ]
       ],
-      "chance": 0.0,
-      "name": "edgeR2"
+      "chance" : 0.0,
+      "name" : "edgeR2"
     }
   ]
 }
