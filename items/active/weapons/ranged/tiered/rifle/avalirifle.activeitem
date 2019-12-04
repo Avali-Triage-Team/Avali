@@ -40,7 +40,7 @@
     "energyUsage" : 31.0,
     "projectileCount" : 1,
     "inaccuracy" : 0.02,
-      "stances" : {
+    "stances" : {
       "idle" : {
         "armRotation" : 0,
         "weaponRotation" : 0,

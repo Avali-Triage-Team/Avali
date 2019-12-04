@@ -76,9 +76,7 @@
     }
   },
 
-
   "altAbilityType" : "burstshot",
-
 
   "critChance" : 2, 
   "critBonus" : 8, 

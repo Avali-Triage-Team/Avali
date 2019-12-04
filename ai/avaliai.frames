@@ -1,15 +1,15 @@
 {
-   "frameGrid":{
-      "size":[90, 94],
-      "dimensions":[9, 4],
-      "names":[
+   "frameGrid" : {
+      "size" : [90, 94],
+      "dimensions" : [9, 4],
+      "names" : [
         [null, "idle", null, "blink", null, null],
         [null, "talk.0", "talk.1", null, "yell.0", "yell.1"],
         [null, "refuse.0", "refuse.1", "refuse.2", "refuse.3", "refuse.4", "refuse.5", "refuse.6", "refuse.7"],
         [null, "unique.0", "unique.1", "unique.2", "unique.3", "unique.4", "unique.5", "unique.6", "unique.7"]
       ]
    },
-   "aliases":{
+   "aliases" : {
       "idle.0":"idle",
       "idle.1":"idle",
       "idle.2":"idle",
