@@ -4,7 +4,7 @@
   "inventoryIcon" : "avalielitecert.png",
   "price" : 500,
   "image" : "avalielitecert.png",
-  "description" : "An avali elite certificate. Grants access to the most advanced avali weaponry",
+  "description" : "An avali elite certificate. Grants access to the P-X Hail.",
   "shortdescription" : "AEC",
   "learnBlueprintsOnPickup" : [ "avalitier3pilum" ]
 }
