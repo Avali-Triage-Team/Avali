@@ -1,16 +1,16 @@
 [
-  { "op": "add",
-    "path": "/items/avali",
-    "value": [
+  { "op" : "add",
+    "path" : "/items/avali",
+    "value" : [
       [ 0, [ {
-        "head": [
+        "head" : [
           { "name" : "avaliscientisthead", "parameters" : { "colorIndex" : [4] } }
         ],
-        "legs": [
+        "legs" : [
           { "name" : "avaliscientistpants", "parameters" : { "colorIndex" : [2] } }
         ],
-        "sheathedprimary": [
-          [ { "name": "commonplasmapistol" } ]
+        "sheathedprimary" : [
+          [ { "name" : "commonplasmapistol" } ]
         ]
       } ] ]
     ]

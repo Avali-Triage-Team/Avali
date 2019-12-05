@@ -10,7 +10,8 @@
     "tier8" : 12
   },
 
-  "tenants" : [{
+  "tenants" : [
+    {
       "spawn" : "npc",
       "species" : "avali",
       "level" : 5,

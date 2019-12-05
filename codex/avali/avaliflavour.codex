@@ -8,9 +8,8 @@
 
     "<todo> - Blurb about how your character intercepted a transmission from a tech cult splinter cell planning to unschackle the Oracle AI"
 
-
-    ],
-    "itemConfig" : {
+  ],
+  "itemConfig" : {
     "rarity" : "common",
     "price" : 25
 	}

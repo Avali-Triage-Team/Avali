@@ -1,9 +1,9 @@
 [
   {
-    "op":"add",
-    "path":"/merchantStart/avali",
-    "value":{
-      "default":[
+    "op" : "add",
+    "path" : "/merchantStart/avali",
+    "value" : {
+      "default" : [
         "Come, stay a while.",
         "Would you like to browse our supplies?",
         "We only accept pixels.",
@@ -13,10 +13,10 @@
     }
   },
   {
-    "op":"add",
-    "path":"/merchantEnd/avali",
-    "value":{
-      "default":[
+    "op" : "add",
+    "path" : "/merchantEnd/avali",
+    "value" : {
+      "default" : [
         "Come again soon!",
         "Our pleasure!",
         "Don't hesitate to come by again.",
@@ -26,10 +26,10 @@
     }
   },
   {
-    "op":"add",
-    "path":"/follow/avali",
-    "value":{
-      "default":[
+    "op" : "add",
+    "path" : "/follow/avali",
+    "value" : {
+      "default" : [
         "Follow me to my store, please.",
         "The best prices around, just if you please to come with me.",
         "I can show the merchandise in my store."
@@ -37,10 +37,10 @@
     }
   },
   {
-    "op":"add",
-    "path":"/welcome/avali",
-    "value":{
-      "default":[
+    "op" : "add",
+    "path" : "/welcome/avali",
+    "value" : {
+      "default" :[
         "Does anything catch your eyes?",
         "What do you wish to buy? If you wish to buy...",
         "I got everything that can help you in anything."
@@ -48,10 +48,10 @@
     }
   },
   /*{
-    "op":"add",
-    "path":"/helpme/avali",
-    "value":{
-      "default":[
+    "op" : "add",
+    "path" :"/helpme/avali",
+    "value" : {
+      "default" : [
       "Time to flee!",
       "Help! I'm being attacked!",
       "I'm under attack!"
@@ -59,20 +59,20 @@
     }
   },
   {
-    "op":"add",
-    "path":"/helpthem/avali",
-    "value":{
-      "default":[
+    "op" : "add",
+    "path" : "/helpthem/avali",
+    "value" : {
+      "default" : [
       "Help! They're being attacked!",
       "Someone help them!"
       ]
     }
   },
   {
-    "op":"add",
-    "path":"/encourage/avali",
-    "value":{
-      "default":[
+    "op" : "add",
+    "path" : "/encourage/avali",
+    "value" : {
+      "default" : [
       "Get 'em!",
       "Avenge me!",
       "Stick 'em once for me!",
@@ -81,10 +81,10 @@
     }
   },
   {
-    "op":"add",
-    "path":"/safe/avali",
-    "value":{
-      "default":[
+    "op" : "add",
+    "path" : "/safe/avali",
+    "value" : {
+      "default" : [
       "I think I got away.",
       "Phew!",
       "A close call!",
@@ -93,16 +93,16 @@
     }
   },*/
   {
-    "op":"add",
-    "path":"/tout/avali",
-    "value":{
-      "default":[
+    "op" : "add",
+    "path" : "/tout/avali",
+    "value" : {
+      "default" : [
         "I got the best goods!",
         "If you can't find it here... it's not for sale here.",
         "Best deals around!",
         "Interested in brand new goods?"
       ],
-      "avali":[
+      "avali" : [
         "I got the best goods!",
         "If you can't find it here... it's not for sale here.",
         "Interested in brand new goods?",
@@ -112,10 +112,10 @@
     }
   },
   {
-    "op":"add",
-    "path":"/tagCriteria/avali",
-    "value":{
-      "default":[
+    "op" : "add",
+    "path" : "/tagCriteria/avali",
+    "value" : {
+      "default" : [
         "The arrangement of my store is not the same...",
         "Something is unsettlingly different in here.",
         "Can you restore my store to its original arrangement for me?"
@@ -123,10 +123,10 @@
     }
   },
   {
-    "op":"add",
-    "path":"/enclosedArea/avali",
-    "value":{
-      "default":[
+    "op" : "add",
+    "path" : "/enclosedArea/avali",
+    "value" : {
+      "default" : [
         "The damage to my store is causing much concern to me...",
         "I would appreciate if you could repair the damage to my home.",
         "Hmm, there appears to be a broken wall in my home. Can you fix it?"
@@ -134,10 +134,10 @@
     }
   },
   {
-    "op":"add",
-    "path":"/otherDeed/avali",
-    "value":{
-      "default":[
+    "op" : "add",
+    "path" : "/otherDeed/avali",
+    "value" : {
+      "default" : [
         "Why is someone else attempting to move into my store?",
         "Did you put my shop up for rent? This must be a mistake...",
         "There is another deed in my shop. Surely this isn't intentional."
@@ -145,10 +145,10 @@
     }
   },
   {
-    "op":"add",
-    "path":"/severe/avali",
-    "value":{
-      "default":[
+    "op" : "add",
+    "path" : "/severe/avali",
+    "value" : {
+      "default" : [
         "This has gone too far, I am greatly discontent with these conditions.",
         "I don't wish to work in these conditions.",
         "Why is my store in the state that it is in?!"
@@ -156,10 +156,10 @@
     }
   },
   {
-    "op":"add",
-    "path":"/final/avali",
-    "value":{
-      "default":[
+    "op" : "add",
+    "path" : "/final/avali",
+    "value" : {
+      "default" : [
         "A merchant like myself deserves better. Enough is enough.",
         "It is time I found a better shop.",
         "This store is not how it was when I moved in. It's time I left to find another."
@@ -167,10 +167,10 @@
     }
   },
   {
-    "op":"add",
-    "path":"/beacon/avali",
-    "value":{
-      "default":[
+    "op" : "add",
+    "path" : "/beacon/avali",
+    "value" : {
+      "default" : [
         "Did you wish to do business?",
         "Hello again, friend! Do you have need of me?",
         "I am always glad to see a friendly face."
@@ -178,10 +178,10 @@
     }
   },
   {
-    "op":"add",
-    "path":"/rent/avali",
-    "value":{
-      "default":[
+    "op" : "add",
+    "path" : "/rent/avali",
+    "value" : {
+      "default" : [
         "Here is a token of my gratitude for your help.",
         "I have brought you a gift.",
         "I hope this offering brings you happiness."

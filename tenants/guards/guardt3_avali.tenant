@@ -10,7 +10,8 @@
     "tier3" : 12
   },
 
-  "tenants" : [{
+  "tenants" : [
+    {
       "spawn" : "npc",
       "species" : "avali",
       "level" : 3,

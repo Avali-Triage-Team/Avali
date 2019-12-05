@@ -1,8 +1,8 @@
 [  
   {  
-    "op":"add",
-    "path":"/hail/floran/avali",
-    "value":[  
+    "op" : "add",
+    "path" : "/hail/floran/avali",
+    "value" : [  
       "Hoom, fluffy?",
       "Hoom, fluffy. Plesta cantara.",
       "Hoom? Scratchy mesti cuddle?",

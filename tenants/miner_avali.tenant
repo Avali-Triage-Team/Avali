@@ -9,7 +9,8 @@
     "mining" : 12
   },
   
-  "tenants" : [{
+  "tenants" : [
+    {
       "spawn" : "npc",
       "species" : "avali",
       "type" : "friendlyminer",

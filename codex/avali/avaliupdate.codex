@@ -22,8 +22,8 @@
     
     "It was, disappointingly, not a lot. A few chips to install in our nanolooms, enabling them to make normal cloth and a few bits of clothing that didn't fit very well, and some rifles that, if anything, seemed worse than the ones we already had. It was hardly worth all the work it would take to clean this mess up."
 
-    ],
-    "itemConfig" : {
+  ],
+  "itemConfig" : {
     "rarity" : "common",
     "price" : 25
 	}

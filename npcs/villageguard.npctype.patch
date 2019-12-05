@@ -1,69 +1,70 @@
 [
-  { "op": "add",
-    "path": "/items/avali",
-    "value": [
+  {
+    "op" : "add",
+    "path" : "/items/avali",
+    "value" : [
       [ 0, [ {
         "head" : [ 
           { "name" : "avaliarmor1head", "data" : { "colorIndex" : [3] } },
           { "name" : "avaliarmor2head", "data" : { "colorIndex" : [3] } }
         ],
-        "chest": [ { "name": "avaliguardtier1chest", "data" : { "colorIndex" : [3] } } ],
+        "chest" : [ { "name" : "avaliguardtier1chest", "data" : { "colorIndex" : [3] } } ],
         "legs" : [
           { "name" : "avaliarmor1pants", "data" : { "colorIndex" : [3] } },
           { "name" : "avaliarmor2pants", "data" : { "colorIndex" : [3] } }
         ],
-        "primary": [ { "name": "avalipistol", "data" : { "level" : 1, "shortdescription" : "PD1 Frostbite" } } ],
-        "sheathedprimary": [ { "name": "avalitier1dagger" } ]
+        "primary" : [ { "name" : "avalipistol", "data" : { "level" : 1, "shortdescription" : "PD1 Frostbite" } } ],
+        "sheathedprimary" : [ { "name" : "avalitier1dagger" } ]
       },
       {
-        "head": [ { "name": "avaliarmor3head", "data" : { "colorIndex" : [3] } } ],
-        "chest": [ { "name": "avaliguardtier1chest", "data" : { "colorIndex" : [3] } } ],
-        "legs": [  { "name": "avaliarmor3pants", "data" : { "colorIndex" : [3] } } ],
-        "primary": [ { "name": "avalirifle", "data" : { "level" : 1, "shortdescription" : "AR1 Blizzard" } } ],
-        "sheathedprimary": [ { "name": "avalitier1shortsword" } ],
-        "alt": [ { "name": "avalitier1barrier" } ]
+        "head" : [ { "name" : "avaliarmor3head", "data" : { "colorIndex" : [3] } } ],
+        "chest" : [ { "name" : "avaliguardtier1chest", "data" : { "colorIndex" : [3] } } ],
+        "legs" : [  { "name" : "avaliarmor3pants", "data" : { "colorIndex" : [3] } } ],
+        "primary" : [ { "name" : "avalirifle", "data" : { "level" : 1, "shortdescription" : "AR1 Blizzard" } } ],
+        "sheathedprimary" : [ { "name" : "avalitier1shortsword" } ],
+        "alt" : [ { "name" : "avalitier1barrier" } ]
       } ] ],
       [ 2, [ {
         "head" : [ 
           { "name" : "avaliarmor1head", "data" : { "colorIndex" : [3] } },
           { "name" : "avaliarmor2head", "data" : { "colorIndex" : [3] } }
         ],
-        "chest": [ { "name": "avaliguardtier2chest", "data" : { "colorIndex" : [3] } } ],
+        "chest" : [ { "name" : "avaliguardtier2chest", "data" : { "colorIndex" : [3] } } ],
         "legs" : [
           { "name" : "avaliarmor1pants", "data" : { "colorIndex" : [3] } },
           { "name" : "avaliarmor2pants", "data" : { "colorIndex" : [3] } }
         ],
-        "primary": [ { "name": "avalipistol", "data" : { "level" : 2, "shortdescription" : "PD2 Frostbite" } } ],
-        "sheathedprimary": [ { "name": "avalitier2dagger" } ]
+        "primary" : [ { "name" : "avalipistol", "data" : { "level" : 2, "shortdescription" : "PD2 Frostbite" } } ],
+        "sheathedprimary" : [ { "name" : "avalitier2dagger" } ]
       },
       {
-        "head": [ { "name": "avaliarmor3head", "data" : { "colorIndex" : [3] } } ],
-        "chest": [ { "name": "avaliguardtier2chest", "data" : { "colorIndex" : [3] } } ],
-        "legs": [  { "name": "avaliarmor3pants", "data" : { "colorIndex" : [3] } } ],
-        "primary": [ { "name": "avalirifle", "data" : { "level" : 2, "shortdescription" : "AR2 Blizzard" } } ],
-        "sheathedprimary": [ { "name": "avalitier2shortsword" } ],
-        "alt": [ { "name": "avalitier2barrier" } ]
+        "head" : [ { "name" : "avaliarmor3head", "data" : { "colorIndex" : [3] } } ],
+        "chest" : [ { "name" : "avaliguardtier2chest", "data" : { "colorIndex" : [3] } } ],
+        "legs" : [  { "name" : "avaliarmor3pants", "data" : { "colorIndex" : [3] } } ],
+        "primary" : [ { "name" : "avalirifle", "data" : { "level" : 2, "shortdescription" : "AR2 Blizzard" } } ],
+        "sheathedprimary" : [ { "name" : "avalitier2shortsword" } ],
+        "alt" : [ { "name" : "avalitier2barrier" } ]
       } ] ],
       [3, [ {
         "head" : [ 
           { "name" : "avaliarmor1head", "data" : { "colorIndex" : [3] } },
           { "name" : "avaliarmor2head", "data" : { "colorIndex" : [3] } }
         ],
-        "chest": [ { "name": "avaliguardtier3chest", "data" : { "colorIndex" : [3] } } ],
+        "chest" : [ { "name" : "avaliguardtier3chest", "data" : { "colorIndex" : [3] } } ],
         "legs" : [
           { "name" : "avaliarmor1pants", "data" : { "colorIndex" : [3] } },
           { "name" : "avaliarmor2pants", "data" : { "colorIndex" : [3] } }
         ],
-        "primary": [ { "name": "avalipistol", "data" : { "level" : 3, "shortdescription" : "PD3 Frostbite" } } ],
-        "sheathedprimary": [ { "name": "avalitier3dagger" } ]
+        "primary" : [ { "name" : "avalipistol", "data" : { "level" : 3, "shortdescription" : "PD3 Frostbite" } } ],
+        "sheathedprimary" : [ { "name" : "avalitier3dagger" } ]
       },
       {
-        "head": [ { "name": "avaliarmor3head", "data" : { "colorIndex" : [3] } } ],
-        "chest": [ { "name": "avaliguardtier3chest", "data" : { "colorIndex" : [3] } } ],
-        "legs": [  { "name": "avaliarmor3pants", "data" : { "colorIndex" : [3] } } ],
-        "primary": [ { "name": "avalirifle", "data" : { "level" : 3, "shortdescription" : "AR3 Blizzard" } } ],
-        "sheathedprimary": [ { "name": "avalitier3shortsword" } ],
-        "alt": [ { "name": "avalitier3barrier" } ]
+        "head" : [ { "name" : "avaliarmor3head", "data" : { "colorIndex" : [3] } } ],
+        "chest" : [ { "name" : "avaliguardtier3chest", "data" : { "colorIndex" : [3] } } ],
+        "legs" : [  { "name" : "avaliarmor3pants", "data" : { "colorIndex" : [3] } } ],
+        "primary" : [ { "name" : "avalirifle", "data" : { "level" : 3, "shortdescription" : "AR3 Blizzard" } } ],
+        "sheathedprimary" : [ { "name" : "avalitier3shortsword" } ],
+        "alt" : [ { "name" : "avalitier3barrier" } ]
       } ] ]
     ]
   }

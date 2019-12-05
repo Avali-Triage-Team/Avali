@@ -3,7 +3,7 @@
     [1, {
         "pool" : [
           {"weight" : 0.80, "pool" : "money"},
-          {"weight" : 0.20, "item" : [ "avalitoken", 1 ]}
+          {"weight" : 0.20, "item" : ["avalitoken", 1]}
         ],
         "poolRounds" : [
           [0.20, 0],
@@ -11,65 +11,64 @@
         ],
         "levelVariance" : [0, 0],
         "allowDuplication" : false
-      } ]
+    }]
   ],
   "avaliEncounterLoot" : [
     [0, {
         "fill" : [
-          {"item" : [ "avalitoken", 1]}
+          {"item" : ["avalitoken", 1]}
          ],
         "levelVariance" : [0, 0],
         "allowDuplication" : false
-    } ]
+    }]
   ],
   "avaliCodexLoot" : [
     [1, {
         "pool" : [
-          {"weight" : 0.36, "item" : [ "money", 10]},
-          {"weight" : 0.26, "item" : [ "money", 25]},
-          {"weight" : 0.20, "item" : [ "money", 50]},
-          {"weight" : 0.18, "item" : [ "money", 100 ]}
+          {"weight" : 0.36, "item" : ["money", 10]},
+          {"weight" : 0.26, "item" : ["money", 25]},
+          {"weight" : 0.20, "item" : ["money", 50]},
+          {"weight" : 0.18, "item" : ["money", 100]}
         ],
         "poolRounds" : [
           [1.0, 1]
         ],
         "levelVariance" : [0, 0],
         "allowDuplication" : false
-      } ]
+    }]
   ],
   "dragoontreasure" : [
-    [ 0, {
+    [0, {
       "pool" : [
-              { "weight" : 0.60, "pool" : "money" },
-              { "weight" : 0.20, "item" : [ "avalidragoonhead", 1 ] },
-              { "weight" : 0.20, "item" : [ "avalitoken", 1 ] }
+              {"weight" : 0.60, "pool" : "money"},
+              {"weight" : 0.20, "item" : ["avalidragoonhead", 1]},
+              {"weight" : 0.20, "item" : ["avalitoken", 1]}
       ],
       "poolRounds" : [
         [0.8, 1],
         [0.2, 2]
       ]
-    } ]
+    }]
   ],
   "avalibanditTreasure" : [
-    [ 0, {
+    [0, {
       "pool" : [
-              { "weight" : 0.60, "pool" : "money" },
-              { "weight" : 0.20, "item" : [ "avalieyemask", 1 ] },
-              { "weight" : 0.20, "item" : [ "avalitoken", 1 ] }
+              {"weight" : 0.60, "pool" : "money"},
+              {"weight" : 0.20, "item" : ["avalieyemask", 1]},
+              {"weight" : 0.20, "item" : ["avalitoken", 1]}
       ],
       "poolRounds" : [
         [0.8, 1],
         [0.2, 2]
       ]
-    } ]
+    }]
   ],
   "avaliPetRetrofitTreasure" : [
     [0, {
       "fill" : [
         {"item" : ["avalismallbattery", 10]},
-        {"item" : "avalipetchargingstation" }
+        {"item" : "avalipetchargingstation"}
       ]
     }]
   ]
 }
-

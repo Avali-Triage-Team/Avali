@@ -21,7 +21,7 @@
               "timeToLive" : 0.3,
               "layer" : "middle"
             },
-      
+
             {
               "type" : "animated",
               "animation" : "/animations/aerotech/spalling1.animation",
@@ -39,7 +39,7 @@
                 "timeToLive" : 0
               }
             },  
-      
+
             {
               "type" : "ember",
               "size" : 1.0,
@@ -123,7 +123,7 @@
                 "timeToLive" : 0
               }
             },
-      
+
             {
               "type" : "animated",
               "animation" : "/animations/aerotech/blooddrop.animation",
@@ -253,7 +253,7 @@
               "timeToLive" : 0.3,
               "layer" : "middle"
             },
-      
+
             {
               "type" : "animated",
               "animation" : "/animations/aerotech/spalling1.animation",
@@ -271,7 +271,7 @@
                 "timeToLive" : 0
               }
             },  
-      
+
             {
               "type" : "ember",
               "size" : 1.0,
@@ -355,7 +355,7 @@
                 "timeToLive" : 0
               }
             },
-      
+
             {
               "type" : "animated",
               "animation" : "/animations/aerotech/blooddrop.animation",
@@ -473,7 +473,6 @@
         "particles" : [
           [
 
-        
             {
               "type" : "animated",
               "animation" : "/animations/aerotech/spalling1.animation",
@@ -491,7 +490,7 @@
                 "timeToLive" : 0
               }
             },  
-      
+
             {
               "type" : "ember",
               "size" : 1.0,
@@ -582,7 +581,7 @@
         "sounds" : [ "/sfx/melee/kill_robotic1.ogg", "/sfx/melee/kill_robotic2.ogg" ],
         "particles" : [
           [
-      
+
             {
               "type" : "animated",
               "animation" : "/animations/aerotech/spalling1.animation",
@@ -600,7 +599,7 @@
                 "timeToLive" : 0
               }
             },  
-      
+
             {
               "type" : "ember",
               "size" : 1.0,
@@ -684,8 +683,8 @@
                 "timeToLive" : 0
               }
             }
-      ]
-    ]
+          ]
+        ]
       }
     }
   }

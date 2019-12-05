@@ -1,9 +1,9 @@
 [
   {
-    "op": "add",
-    "path": "/helpme/avali",
-    "value": {
-      "default": [
+    "op" : "add",
+    "path" : "/helpme/avali",
+    "value" : {
+      "default" : [
         "I need an assist!",
         "Back me up!",
         "Requesting drone support!",
@@ -12,10 +12,10 @@
     }
   },
   {
-    "op": "add",
-    "path": "/safe/avali",
-    "value": {
-      "default": [
+    "op" : "add",
+    "path" : "/safe/avali",
+    "value" : {
+      "default" : [
         "That ruffled my feathers a little.",
         "What an ordeal.",
         "Well, at least I'm safe now.",

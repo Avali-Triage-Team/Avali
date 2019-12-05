@@ -1,0 +1,10 @@
+{
+  "itemName" : "avalielitecert",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "avalielitecert.png",
+  "price" : 500,
+  "image" : "avalielitecert.png",
+  "description" : "An avali elite certificate. Grants access to the P-X Hail.",
+  "shortdescription" : "AEC",
+  "learnBlueprintsOnPickup" : [ "avalitier3pilum" ]
+}

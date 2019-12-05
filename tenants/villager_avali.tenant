@@ -8,7 +8,8 @@
     "avali" : 6
   },
   
-  "tenants" : [{
+  "tenants" : [
+    {
       "spawn" : "npc",
       "species" : "avali",
       "type" : "villager",
