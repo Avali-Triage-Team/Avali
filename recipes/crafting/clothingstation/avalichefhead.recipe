@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "chefhead", "count" : 1 },
+    { "item" : "money", "count" : 100 }
+  ],
+  "output" : {
+    "item" : "avalichefhead",
+    "count" : 1
+  },
+  "groups" : [ "avalisewing" ]
+}
