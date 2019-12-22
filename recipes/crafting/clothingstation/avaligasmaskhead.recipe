@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "gasmaskhead", "count" : 1 },
+    { "item" : "money", "count" : 100 }
+  ],
+  "output" : {
+    "item" : "avaligasmaskhead",
+    "count" : 1
+  },
+  "groups" : [ "avalisewing" ]
+}
