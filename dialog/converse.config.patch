@@ -342,6 +342,26 @@
   },
   {  
     "op" : "add",
+    "path" : "/converse/ningen/avali",
+    "value" : [  
+      "You're not welcome here, turkey.",
+      "If you overlook the treaty so will I, so watch it...",
+      "Ugh, savages.",
+      "Keep your distance, turkey.",
+      "Keep walking...",
+      "Ugh, you smell like a walking bowl of disinfectant.",
+      "Oh no, the invasion's begun!",
+      "I'm sorry for what my ancestors did, please don't judge us all for that.",
+      "Oh hello, turkey... er, raptor.",
+      "Why do you raptors make me feel so uneasy?",
+      "Please don't come too close, I think I might be allergic.",
+      "Here turkey turkey~",
+      "So how do you feel about Thanksgiving? Umm, never mind.",
+      "Nice feathers. Can I stroke them?"
+    ]
+  },
+  {  
+    "op" : "add",
     "path" : "/converse/glitch/avali",
     "value" : [  
       "Cordial. Well met.",
@@ -534,7 +554,8 @@
       "Please don't eat me.",
       "'Trainers' haven't been a thing for hundreds of years.",
       "Please stop blaming humans for everything... Please?",
-      "I appreciate your concern, but 'trainer' days are long gone."
+      "I appreciate your concern, but the 'trainer' days are long gone.",
+      "Nice feathers."
     ]
   },
   {  
@@ -543,10 +564,44 @@
     "value" : [  
       "Yo, 'vali!",
       "Do yourself a favor, NEVER look up 'Avali NSFW' on the human internet.",
-      "After that last trip on the 'net, I will never see a 'vali the same way...",
+      "After that last trip on the 'net, I will never see a 'vali the same way ever again.",
       "Got any good games over on the Nexus?"
     ]
   },
   // (Felins already have their own converse lines for Avali.)
-  
+ {  
+    "op" : "add",
+    "path" : "/converse/lucario/avali",
+    "value" : [  
+      "Greetings, Avali.",
+      "Your aura is marred by ancient grudges. Do not let them cloud your judgement.",
+      "There were more than humans on Earth. Remember this the next time you make a 'small violin' joke.",
+      "Your plumage is wonderful.",
+      "You advance technogically, yet your mindsets stay focused on the past. You must move past it.",
+      "So do you brush your feathers.... or?...",
+      "Is your bone structure light? Ours is made of metal.",
+      "I am not a prey to hunt.",
+      "Past hatreds, justified or not, must be cast aside if one is to advance themselves.",
+      "If I hear one more joke about small violins and tentacles... Sorry, I almost lost my temper there."
+    ]
+  },
+ {  
+    "op" : "add",
+    "path" : "/converse/kitsune/avali",
+    "value" : [  
+      "Hello, Avali.",
+      "You do know there were more than humans living on Earth, right?",
+      "I like your plumage.",
+      "Aww, how cute!",
+      "If I hear you say 'small violin' and 'Earth' in the same sentence, so help me..."
+    ]
+  },
+ {  
+    "op" : "add",
+    "path" : "/converse/spiritguardian/avali",
+    "value" : [  
+      "Hello, Avali.",
+      "If you hear a yellow demon in your head, tell him I said hi."
+    ]
+  }
 ]
