@@ -119,7 +119,7 @@
         "Humans are bad. Penguins... are worse.",
         "Flap off.",
         "Your kind makes us all look bad.",
-        "Been killing any helpless standees or coloniests lately?",
+        "Been killing any helpless standees or colonists lately?",
         "Tell Dreadwing he can go fluff himself.",
         "We don't need your scum here. Shoo.",
         "Begone, pirate."
@@ -277,6 +277,24 @@
         "Kupo, Moogle.",
         "Kupo! ... What's that mean, anyway?",
         "Well aren't you just a cute little... cute thing!"
+      ],
+      "saturn" : [  
+        "Greetings, Saturnian.",
+	"Wow, you guys can do magic?! Wish I knew how that worked.",
+	"I wish we had magic like you. Would have made beating our 'benefactors' a breeze!",
+	"Magic is just technology we don't understand... So how do you do it?",
+	"Pretty wings.",
+	"So what's the difference between you, and a Thaumoth? Never understood that.",
+	"Can you conjure up your own packmates, or how does that work?"
+      ],
+      "saturn2" : [  
+        "Greetings, Thaumoth.",
+	"Wow, you guys can do magic?! Wish I knew how that worked.",
+	"I wish we had magic like you. Would have made beating our 'benefactors' a breeze!",
+	"Magic is just technology we don't understand... So how do you do it?",
+	"Pretty wings.",
+	"So what's the difference between you, and a Saturnian? Never understood that.",
+	"Can you conjure up your own packmates, or how does that work?"
       ],
       "spiritguardian" : [  
         "If you hear from a yellow demon, tell him I said hi."
@@ -594,6 +612,28 @@
       "I like your plumage.",
       "Aww, how cute!",
       "If I hear you say 'small violin' and 'Earth' in the same sentence, so help me..."
+    ]
+  },
+ {  
+    "op" : "add",
+    "path" : "/converse/saturn/avali",
+    "value" : [  
+      "Hello, Avali.",
+      "You have beautiful wings.",
+      "I like your plumage.",
+      "Aww, how cute! (squeaking)",
+      "Might I borrow a feather? I need it for a spell I'm working on..."
+    ]
+  },
+ {  
+    "op" : "add",
+    "path" : "/converse/saturn2/avali",
+    "value" : [  
+      "Hello, Avali.",
+      "You have beautiful wings.",
+      "I like your plumage.",
+      "Aww, how cute! (squeaking)",
+      "Might I borrow a feather? I need it for a spell I'm working on..."
     ]
   },
  {  
