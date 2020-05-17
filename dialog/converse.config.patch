@@ -143,7 +143,7 @@
         "There are better ways to get radiation protection, just saying.",
         "Talk about Isolation Madness.",
         "I didn't think the Novakids were capable of THIS!",
-        "Can I borrow your glow for just a moment? ... There. Thanks!",
+        "Can I borrow your glow for just a moment? ... There. Thanks!"
       ],
       "smolavali" : [  
         "A purist, I see? There's no shame in that.",
@@ -445,7 +445,7 @@
       "Hey howdy hey, 'vali!",
       "Well ain't you just a purty-lookin' thing?"
     ]
-  }
+  },
   {  
     "op" : "add",
     "path" : "/converse/fenerox/avali",
@@ -505,31 +505,13 @@
       "I assure you, we have nothing to do with these 'precursors' you speak of.",
       "If you find any Earth refugees, be nice to them. We don't tolerate discrimination.",
       "We're going to have to ask you to stop with the 'tiny violin' jokes when speaking to human refugees.",
-      "Are you sure these 'benefactors' were human? It doesn't match up with any historical records.",
-      "Missing your pack? You can find refuge here.",
-      "I trust there will be no discrimination issues while you are here, yes?",
-      "These 'benefactors' sound like terrible people. You have our sympathies.",
-      "We are not these 'benefactors' you speak of. We do not tolerate slavery.",
-      "This 'USCM' you speak of has no power here.",
-		  "Have your leaders considered joining the Alliance?"
-    ]
-  },
-  {  
-    "op" : "add",
-    "path" : "/converse/aegi/avali",
-    "value" : [  
-      "Greetings, Avali.",
-      "Here to join the Alliance? You'll want to speak t- hey, where are you going?",
-      "I assure you, we have nothing to do with these 'precursors' you speak of.",
-      "If you find any Earth refugees, be nice to them. We don't tolerate discrimination.",
-      "We're going to have to ask you to stop with the 'tiny violin' jokes when speaking to human refugees.",
       "Are you sure these 'benefactors' were human? It doesn't match up with our historical records.",
       "Missing your pack? You can find refuge here.",
       "I trust there will be no discrimination issues while you are here, yes?",
       "These 'benefactors' sound like terrible people. You have our sympathies.",
       "We are not these 'benefactors' you speak of. We do not tolerate slavery.",
       "This 'USCM' you speak of has no power here.",
-		  "Have your leaders considered joining the Alliance?"
+"Have your leaders considered joining the Alliance?"
     ]
   },
   {  
