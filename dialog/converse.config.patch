@@ -238,17 +238,6 @@
         "... So that's what that means. I wish I didn't ask.",
         "Just a reminder that I'm not edible. Ammonia and all that."
       ],  
-      "felin" : [  
-        "Hello, Felin.",
-        "So I hear you're good hunters. Let's put that to the test sometime.",
-        "What's that smell, did you... oh no.",
-        "Is it true that your kind has 53 words to describe mating rituals?",
-        "... I'd... rather not.",
-        "If I let you hug me, will you pur?",
-        "Do you have a cellphone on you? I came across a felin scrawl the other day and I don't know what it means.",
-        "... So that's what that means. I wish I didn't ask.",
-        "Just a reminder that I'm not edible. Ammonia and all that."
-      ],  
       "lamia" : [  
         "Hello, ugh hu- Wait wait wait, sorry! L-Lamia, right?",
         "For a split second, I thought you were a human... Please don't eat me.",
@@ -297,7 +286,7 @@
 	"Can you conjure up your own packmates, or how does that work?"
       ],
       "spiritguardian" : [  
-        "If you hear from a yellow demon, tell him I said hi."
+        "If you hear a yellow demon in your head, tell him I said hi."
       ]  
     }
   },
