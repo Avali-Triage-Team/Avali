@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "tungstenbar", "count" : 1 },
+	{ "item" : "avaligraphene", "count" : 5 }
+  ],
+  "output" : { "item" : "avalitechplatform", "count" : 50 },
+  "groups" : [ "materials", "avalilathe", "all" ],
+  "duration" : 0.1
+}
