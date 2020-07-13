@@ -1,0 +1,50 @@
+{
+  "margin" : 0,
+  "name" : "avali_support",
+  "properties" : {
+  },
+  "spacing" : 0,
+  "tilecount" : 4,
+  "tileheight" : 8,
+  "tileproperties" : {
+    "0" : {
+      "//description" : "A strong reinforced rail.",
+      "//name" : "aerogelcompositerail",
+      "//shortdescription" : "Aero-graphene Rail",
+      "material" : "aerogelcompositerail"
+    },
+    "1" : {
+      "//description" : "A strong reinforced rail.",
+      "//name" : "aerogelrail",
+      "//shortdescription" : "Aerogel Rail",
+      "material" : "aerogelrail"
+    },
+    "2" : {
+      "//description" : "A little bit of metal.",
+      "//name" : "avaliplatform",
+      "//shortdescription" : "Avali Platform",
+      "material" : "avaliplatform"
+    },
+    "3" : {
+      "//description" : "A little bit of metal.",
+      "//name" : "avalistairs",
+      "//shortdescription" : "Avali Stair Platform",
+      "material" : "avalistairs"
+    }
+  },
+  "tiles" : {
+    "0" : {
+      "image" : "support\/aerogelcompositerail.png"
+    },
+    "1" : {
+      "image" : "support\/aerogelrail.png"
+    },
+    "2" : {
+      "image" : "support\/avaliplatform.png"
+    },
+    "3" : {
+      "image" : "support\/avalistairs.png"
+    }
+  },
+  "tilewidth" : 8
+}

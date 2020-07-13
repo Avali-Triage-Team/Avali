@@ -13,7 +13,7 @@
     {
       "spawn": "npc",
       "species": "avali",
-      "type": "chefmerchant",
+      "type": "avalichefmerchant",
       "overrides": {
         "damageTeamType" : "friendly"
       }

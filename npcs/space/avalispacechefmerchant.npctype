@@ -1,0 +1,75 @@
+{
+	"type": "avalispacechefmerchant",
+	"baseType": "chefmerchant",
+	"scriptConfig": {
+		"questGenerator": {
+			"enableParticipation": false
+		},
+		"merchant": {
+			"categories": {
+				"avali": [
+					"avalichef"
+				]
+			}
+		},
+		"dialog": {
+			"merchant": {
+				"start": {
+					"avali": {
+						"default": [
+							"Hungry? I've got some good food from Avalon!"
+						],
+						"avali": [
+							"Homesick? I've got just the thing: Avalonian comfort food!"
+						],
+						"apex": [
+							"Sorry, I don't have any bananas."
+						],
+						"avian": [
+							"This stuff might be a little spicy for you, just saying."
+						],
+						"floran": [
+							"This meat might be a bit more spicy than you're used to, just a heads up."
+						],
+						"glitch": [
+							"No robotic food here. You're free to try whatever else I have, though."
+						],
+						"human": [
+							"Just a heads up: this stuff is really spicy."
+						],
+						"hylotl": [
+							"Just a heads up: this stuff is really spicy."
+						],
+						"novakid": [
+							"Just a heads up: this stuff is really spicy... but you should be fine."
+						]
+					}
+				}
+			}
+		}
+	},
+	"items": {
+		"override": [
+			[
+				0,
+				[{
+					"head": [
+						"chefhead"
+					],
+					"chest": [{
+						"name": "avaliset1cchest",
+						"parameters": {
+							"colorIndex": 3
+						}
+					}],
+					"legs": [{
+						"name": "avaliset3pants",
+						"parameters": {
+							"colorIndex": 3
+						}
+					}]
+				}]
+			]
+		]
+	}
+}

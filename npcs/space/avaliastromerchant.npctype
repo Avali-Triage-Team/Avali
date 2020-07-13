@@ -1,0 +1,46 @@
+{
+  "type" : "avaliastromerchant",
+  "baseType" : "merchant",
+
+  "scriptConfig" : {
+    "questGenerator" : { "pools" : [], "enableParticipation" : false },
+
+    "merchant" : {
+      "waitTime" : 10,
+      "storeRadius" : -1,
+      "categories" : {
+        "override" : [ "avaliastromerchant" ]
+      },
+      "buyFactorRange" : [ 0.7, 1.5 ],
+      "sellFactorRange" : [ 0.2, 0.2 ],
+      "numItems" : 25,
+      "paneLayoutOverride" : {
+        "windowtitle" : {
+          "title" : "  Avali Merchant",
+          "subtitle" : "  Sells Avali and Astro furniture!"
+        }
+      }
+    }
+  },
+  
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "avaliarmor1head", "parameters" : { "colorIndex" : [0] } }
+            ],
+            "chest" : [
+              { "name" : "avaliset1bchest", "parameters" : { "colorIndex" : [0] } }
+            ],
+            "legs" : [
+              { "name" : "avaliset1bpants", "parameters" : { "colorIndex" : [0] } }
+            ],
+            "back" : [
+              { "name" : "simplecapeback", "parameters" : { "colorIndex" : [5] } }
+            ]
+          }
+        ] ]
+    ]
+  }
+}

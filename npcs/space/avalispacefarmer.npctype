@@ -1,0 +1,53 @@
+{
+  "type" : "avalispacefarmer",
+  "baseType" : "guard",
+
+  "scriptConfig" : {
+    "behaviorConfig" : {
+      "greetingChance" : 0
+    },
+    "questGenerator" : {
+      "enableParticipation" : false
+    },
+
+    "dialog" : {
+      "converse" : "/dialog/shipcrew.config:converse"
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+"chest" : [
+          { "name" : "avaliset1chest", "data" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11] } },
+          { "name" : "avaliset1bchest", "data" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11] } },
+          { "name" : "avaliset1cchest", "data" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11] } },
+          { "name" : "avaliset5chest", "data" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11] } },
+          { "name" : "avaliset5bchest", "data" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11] } },
+          { "name" : "avaliset5cchest", "data" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11] } },
+          { "name" : "avaliracial1chest", "data" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11] } },
+          { "name" : "avaliracial2chest", "data" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11] } }
+        ],
+        "legs" : [
+          { "name" : "avaliracial1pants", "data" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11] } },
+          { "name" : "avaliracial2pants", "data" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11] } },
+          { "name" : "avaliset1pants", "data" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11] } },
+          { "name" : "avaliset5pants", "data" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11] } },
+          { "name" : "avaliset1bpants", "data" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11] } },
+          { "name" : "avaliset5bpants", "data" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11] } },
+          { "name" : "avaliset1cpants", "data" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11] } },
+          { "name" : "avaliset5cpants", "data" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11] } }
+        ],
+        "head" : [
+          { "name" : "avaliracial1head", "data" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11] } },
+          { "name" : "avaliracial2head", "data" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11] } }
+		],
+        "primary" : [
+		  "avalihoe"
+        ]
+          }
+        ] ]
+    ]
+  }
+}

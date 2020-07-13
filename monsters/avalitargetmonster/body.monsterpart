@@ -1,0 +1,9 @@
+{
+  "name" : "avalitargetmonster",
+  "category" : "avalitargetmonster",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "avalitargetmonster.png"
+  }
+}

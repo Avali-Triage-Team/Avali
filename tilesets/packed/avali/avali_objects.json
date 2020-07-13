@@ -1,0 +1,653 @@
+{ "margin":0,
+ "name":"avali_objects",
+ "properties":
+    {},
+ "spacing":0,
+ "tilecount":71,
+ "tileheight":256,
+  "tileproperties" : {
+      "0" : {
+          "object" : "aerostatsail1",
+          "imagePositionX" : "-64",
+          "imagePositionY" : "-64"
+      },
+      "1" : {
+          "object" : "aerostatsail2",
+          "imagePositionX" : "-128",
+          "imagePositionY" : "-128"
+      },   
+      "2" : {
+          "object" : "aerostatsail3",
+          "imagePositionX" : "-64",
+          "imagePositionY" : "-64"
+      },
+      "3" : {
+          "object" : "aerostatsail4",
+          "imagePositionX" : "-128",
+          "imagePositionY" : "-128"
+      },
+      "4" : {
+          "object" : "avalicushion1",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "0"
+      },
+      "5" : {
+          "object" : "avalicushion2",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "0"
+      },
+      "6" : {
+          "object" : "avalihammock1",
+          "imagePositionX" : "-24",
+          "imagePositionY" : "0"
+      },  
+      "7" : {
+          "object" : "avalihammock2",
+          "imagePositionX" : "0",
+          "imagePositionY" : "0"
+      },
+      "8" : {
+          "object" : "bandittent1",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "0"
+      },    
+      "9" : {
+          "object" : "bandittent2",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "0"
+      },  
+      "10" : {
+          "object" : "campdoor",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "0"
+      },  
+      "11" : {
+          "object" : "camplargeentry1",
+          "imagePositionX" : "-40",
+          "imagePositionY" : "0"
+      },
+      "12" : {
+          "object" : "camplargeentry2",
+          "imagePositionX" : "-40",
+          "imagePositionY" : "0"
+      },    
+      "13" : {
+          "object" : "camplargewall1",
+          "imagePositionX" : "-40",
+          "imagePositionY" : "0"
+      },
+      "14" : {
+          "object" : "camplargewall2",
+          "imagePositionX" : "-40",
+          "imagePositionY" : "0"
+      }, 
+      "15" : {
+          "object" : "campslope1",
+          "imagePositionX" : "-88",
+          "imagePositionY" : "0"
+      },          
+      "16" : {
+          "object" : "campslope2",
+          "imagePositionX" : "-88",
+          "imagePositionY" : "0"
+      },
+      "17" : {
+          "object" : "campsmallentry1",
+          "imagePositionX" : "-40",
+          "imagePositionY" : "0"
+      }, 
+      "18" : {
+          "object" : "campsmallentry2",
+          "imagePositionX" : "-40",
+          "imagePositionY" : "0"
+      },  
+      "19" : {
+          "object" : "campsmallwall1",
+          "imagePositionX" : "-40",
+          "imagePositionY" : "0"
+      }, 
+      "20" : {
+          "object" : "campsmallwall2",
+          "imagePositionX" : "-40",
+          "imagePositionY" : "0"
+      },  
+      "21" : {
+          "object" : "avalichair1",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "0"
+      },        
+      "22" : {
+          "object" : "avalichair2",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "0"
+      },
+      "23" : {
+          "object" : "avalichest1",
+          "imagePositionX" : "0",
+          "imagePositionY" : "0"
+      },        
+      "24" : {
+          "object" : "avalichest2",
+          "imagePositionX" : "0",
+          "imagePositionY" : "0"
+      }, 
+      "25" : {
+          "object" : "avalicontainer1",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "0"
+      },        
+      "26" : {
+          "object" : "avalicontainer2",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "0"
+      },   
+      "27" : {
+          "object" : "avalistoragelocker",
+          "imagePositionX" : "-16",
+          "imagePositionY" : "-8"
+      },
+      "28" : {
+          "object" : "avalidreamcatcher1",
+          "imagePositionX" : "0",
+          "imagePositionY" : "0"
+      },  
+      "29" : {
+          "object" : "avalicrystal1",
+          "imagePositionX" : "",
+          "imagePositionY" : "0 "
+      }, 
+      "30" : {
+          "object" : "avalibottle1",
+          "imagePositionX" : "0",
+          "imagePositionY" : "0"
+      }, 
+      "31" : {
+          "object" : "avalidarkdoor",
+          "imagePositionX" : "0",
+          "imagePositionY" : "0"
+      },
+      "32" : {
+          "object" : "avalidarkverticaldoor",
+          "imagePositionX" : "-16",
+          "imagePositionY" : "0"
+      },       
+      "33" : {
+          "object" : "avalitechdoor",
+          "imagePositionX" : "-8",
+          "imagePositionY" : "0"
+      }, 
+      "34" : {
+          "object" : "avalitechverticaldoor",
+          "imagePositionX" : "-16",
+          "imagePositionY" : "0"
+      },     
+      "35" : {
+          "object" : "avalihologram1",
+          "imagePositionX" : "0",
+          "imagePositionY" : "0"
+      },  
+      "36" : {
+          "object" : "avalihologram2",
+          "imagePositionX" : "0",
+          "imagePositionY" : "0"
+      },     
+      "37" : {
+          "object" : "avalihologramsml1",
+          "imagePositionX" : "0",
+          "imagePositionY" : "0"
+      },
+      "38" : {
+          "object" : "avalihologramsml2",
+          "imagePositionX" : "0",
+          "imagePositionY" : "0"
+      },      
+      "39" : {
+          "object" : "avalihologramsml3",
+          "imagePositionX" : "0",
+          "imagePositionY" : "0"
+      },      
+      "40" : {
+          "object" : "avalihologramtiny1",
+          "imagePositionX" : "0",
+          "imagePositionY" : "0"
+      },      
+      "41" : {
+          "object" : "avalihologramtiny2",
+          "imagePositionX" : "0",
+          "imagePositionY" : "0"
+      },      
+      "42" : {
+          "object" : "avalicuttingboard",
+          "imagePositionX" : "0",
+          "imagePositionY" : "0"
+      },        
+      "43" : {
+          "object" : "avalikitchencupboard",
+          "imagePositionX" : "0",
+          "imagePositionY" : "0"
+      },
+      "44" : {
+          "object" : "avalikitchendrawers",
+          "imagePositionX" : "0",
+          "imagePositionY" : "0"
+      }, 
+      "45" : {
+          "object" : "avalikitchenfridge",
+          "imagePositionX" : "0",
+          "imagePositionY" : "0"
+      }, 
+      "46" : {
+          "object" : "avalikitchenstove",
+          "imagePositionX" : "0",
+          "imagePositionY" : "0"
+      },  
+      "47" : {
+          "object" : "avalisample1",
+          "imagePositionX" : "0",
+          "imagePositionY" : "0"
+      },  
+      "48" : {
+          "object" : "avalisample2",
+          "imagePositionX" : "0",
+          "imagePositionY" : "0"
+      },  
+      "49" : {
+          "object" : "avalisample3",
+          "imagePositionX" : "0",
+          "imagePositionY" : "0"
+      },  
+      "50" : {
+          "object" : "avaliaerogellight",
+          "imagePositionX" : "0",
+          "imagePositionY" : "0"
+      }, 
+      "51" : {
+          "object" : "avalilightblock",
+          "imagePositionX" : "0",
+          "imagePositionY" : "0"
+      },          
+      "52" : {
+          "object" : "avalistriplight",
+          "imagePositionX" : "0",
+          "imagePositionY" : "0"
+      },  
+      "53" : {
+          "object" : "avalistriplight2",
+          "imagePositionX" : "0",
+          "imagePositionY" : "0"
+      },    
+      "54" : {
+          "object" : "avalitable1",
+          "imagePositionX" : "0",
+          "imagePositionY" : "0"
+      },        
+      "55" : {
+          "object" : "avalitable2",
+          "imagePositionX" : "0",
+          "imagePositionY" : "0"
+      },        
+      "56" : {
+          "object" : "avalitable3",
+          "imagePositionX" : "0",
+          "imagePositionY" : "0"
+      },        
+      "57" : {
+          "object" : "avalitable4",
+          "imagePositionX" : "0",
+          "imagePositionY" : "0"
+      }, 
+      "58" : {
+          "object" : "avaliterminal1",
+          "imagePositionX" : "-16",
+          "imagePositionY" : "0"
+      },  
+      "59" : {
+          "object" : "avaliterminal2",
+          "imagePositionX" : "-16",
+          "imagePositionY" : "0"
+      },   
+      "60" : {
+          "object" : "avaliterminal3",
+          "imagePositionX" : "0",
+          "imagePositionY" : "0"
+      },   
+      "61" : {
+          "object" : "avaliemblem",
+          "imagePositionX" : "0",
+          "imagePositionY" : "0"
+      },   
+      "62" : {
+          "object" : "avaliemblembig",
+          "imagePositionX" : "0",
+          "imagePositionY" : "0"
+      },   
+      "63" : {
+          "object" : "avalichamber1",
+          "imagePositionX" : "-24",
+          "imagePositionY" : "0"
+      },   
+      "64" : {
+          "object" : "avalibottle1",
+          "imagePositionX" : "0",
+          "imagePositionY" : "0"
+      },   
+      "65" : {
+          "object" : "avalicrystal1",
+          "imagePositionX" : "0",
+          "imagePositionY" : "0"
+      },   
+      "66" : {
+          "object" : "avaliweapondisplay1",
+          "imagePositionX" : "0",
+          "imagePositionY" : "0"
+      },   
+      "67" : {
+          "object" : "avaligundisplay1",
+          "imagePositionX" : "0",
+          "imagePositionY" : "0"
+      },   
+      "68" : {
+          "object" : "avaligundisplay2",
+          "imagePositionX" : "0",
+          "imagePositionY" : "0"
+      },   
+      "69" : {
+          "object" : "avaligundisplay3",
+          "imagePositionX" : "0",
+          "imagePositionY" : "0"
+      },   
+      "70" : {
+          "object" : "avaligundisplay4",
+          "imagePositionX" : "0",
+          "imagePositionY" : "0"
+      }
+    },
+ "tiles":
+    {
+     "0":
+        {
+         "image":"objects\/aerostatsail1.png"
+        },   
+     "1":
+        {
+         "image":"objects\/aerostatsail2.png"
+        },           
+      "2":
+        {
+         "image":"objects\/aerostatsail3.png"
+        },       
+     "3":
+        {
+         "image":"objects\/aerostatsail4.png"
+        },
+     "4":
+        {
+         "image":"objects\/avalicushion1.png"
+        },      
+     "5":
+        {
+         "image":"objects\/avalicushion2.png"
+        },           
+     "6":
+        {
+         "image":"objects\/avalihammock1.png"
+        },    
+     "7":
+        {
+         "image":"objects\/avalihammock2.png"
+        },            
+     "8":
+        {
+         "image":"objects\/bandittent1.png"
+        },          
+     "9":
+        {
+         "image":"objects\/bandittent2.png"
+        },          
+     "10":
+        {
+         "image":"objects\/campdoor.png"
+        }, 
+     "11":
+        {
+         "image":"objects\/camplargeentry1.png"
+        }, 
+     "12":
+        {
+         "image":"objects\/camplargeentry2.png"
+        },       
+     "13":
+        {
+         "image":"objects\/camplargewall1.png"
+        },       
+     "14":
+        {
+         "image":"objects\/camplargewall2.png"
+        },       
+     "15":
+        {
+         "image":"objects\/campslope1.png"
+        },       
+     "16":
+        {
+         "image":"objects\/campslope2.png"
+        },       
+     "17":
+        {
+         "image":"objects\/campsmallentry1.png"
+        },       
+     "18":
+        {
+         "image":"objects\/campsmallentry2.png"
+        },            
+     "19":
+        {
+         "image":"objects\/campsmallwall1.png"
+        },          
+     "20":
+        {
+         "image":"objects\/campsmallwall2.png"
+        },          
+     "21":
+        {
+         "image":"objects\/avalichair1.png"
+        },    
+     "22":
+        {
+         "image":"objects\/avalichair2.png"
+        },  
+     "23":
+        {
+         "image":"objects\/avalichest1.png"
+        },            
+     "24":
+        {
+         "image":"objects\/avalichest2.png"
+        },            
+     "25":
+        {
+         "image":"objects\/avalicontainer1.png"
+        },    
+     "26":
+        {
+         "image":"objects\/avalicontainer2.png"
+        },   
+     "27":
+        {
+         "image":"objects\/avalistoragelocker.png"
+        }, 
+     "28":
+        {
+         "image":"objects\/avalidreamcatcher1.png"
+        }, 
+     "29":
+        {
+         "image":"objects\/avalicrystal1.png"
+        }, 
+     "30":
+        {
+         "image":"objects\/avalibottle1.png"
+        },         
+     "31":
+        {
+         "image":"objects\/avalidarkdoor.png"
+        }, 
+     "32":
+        {
+         "image":"objects\/avalidarkverticaldoor.png"
+        },  
+     "33":
+        {
+         "image":"objects\/avalitechdoor.png"
+        },         
+     "34":
+        {
+         "image":"objects\/avalitechverticaldoor.png"
+        },         
+     "35":
+        {
+         "image":"objects\/avalihologram1.png"
+        }, 
+     "36":
+        {
+         "image":"objects\/avalihologram2.png"
+        },
+     "37":
+        {
+         "image":"objects\/avalihologramsml1.png"
+        },    
+     "38":
+        {
+         "image":"objects\/avalihologramsml2.png"
+        },   
+     "39":
+        {
+         "image":"objects\/avalihologramsml3.png"
+        }, 
+     "40":
+        {
+         "image":"objects\/avalihologramtiny1.png"
+        }, 
+     "41":
+        {
+         "image":"objects\/avalihologramtiny2.png"
+        },
+      "42":
+        {
+         "image":"objects\/avalicuttingboard.png"
+        },      
+      "43":
+        {
+         "image":"objects\/avalikitchencupboard.png"
+        },       
+      "44":
+        {
+         "image":"objects\/avalikitchendrawers.png"
+        }, 
+      "45":
+        {
+         "image":"objects\/avalikitchenfridge.png"
+        },    
+      "46":
+        {
+         "image":"objects\/avalikitchenstove.png"
+        },  
+      "47":
+        {
+         "image":"objects\/avalisample1.png"
+        }, 
+      "48":
+        {
+         "image":"objects\/avalisample1.png"
+        }, 
+      "49":
+        {
+         "image":"objects\/avalisample3.png"
+        },    
+      "50":
+        {
+         "image":"objects\/avaliaerogellight.png"
+        },         
+      "51":
+        {
+         "image":"objects\/avalilightblock.png"
+        },         
+      "52":
+        {
+         "image":"objects\/avalistriplight.png"
+        },         
+      "53":
+        {
+         "image":"objects\/avalistriplight2.png"
+        },   
+      "54":
+        {
+         "image":"objects\/avalitable1.png"
+        },         
+      "55":
+        {
+         "image":"objects\/avalitable2.png"
+        },         
+      "56":
+        {
+         "image":"objects\/avalitable3.png"
+        }, 
+      "57":
+        {
+         "image":"objects\/avalitable4.png"
+        },         
+      "58":
+        {
+         "image":"objects\/avaliterminal1.png"
+        }, 
+      "59":
+        {
+         "image":"objects\/avaliterminal2.png"
+        }, 
+      "60":
+        {
+         "image":"objects\/avaliterminal3.png"
+        }, 
+      "61":
+        {
+         "image":"objects\/avaliemblem.png"
+        }, 
+      "62":
+        {
+         "image":"objects\/avaliemblembig.png"
+        }, 
+      "63":
+        {
+         "image":"objects\/avalichamber1.png"
+        }, 
+      "64":
+        {
+         "image":"objects\/avalibottle1.png"
+        }, 
+      "65":
+        {
+         "image":"objects\/avalicrystal1.png"
+        }, 
+      "66":
+        {
+         "image":"objects\/avaliweapondisplay1.png"
+        }, 
+      "67":
+        {
+         "image":"objects\/avaligundisplay1.png"
+        }, 
+      "68":
+        {
+         "image":"objects\/avaligundisplay2.png"
+        }, 
+      "69":
+        {
+         "image":"objects\/avaligundisplay3.png"
+        }, 
+      "70":
+        {
+         "image":"objects\/avaligundisplay4.png"
+        }
+    },
+ "tilewidth":285
+}      

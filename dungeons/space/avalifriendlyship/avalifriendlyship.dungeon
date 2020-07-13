@@ -1,0 +1,224 @@
+{
+  "metadata" : {
+    "name" : "avalifriendlyship",
+    "species" : "generic",
+    "rules" : [
+    ],
+    "anchor" : [ "shell" ],
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 3,
+    "protected" : true
+},
+
+  "parts" : [
+
+    // SAFE ZONE
+    {
+      "name" : "safe-empty-left",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "/dungeons/space/hazards/safe-empty-left.json" ],
+      "chance" : 0,
+      "markDungeonId" : false
+    },
+	
+    //Shell
+	
+    {
+      "name" : "shell",
+      "rules" : [
+		[ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "shell.json" ],
+      "chance" : 0
+    },
+  
+	//Entry Room
+    {
+      "name" : "entryroom1a",
+      "rules" : [
+		[ "maxSpawnCount", [1] ],
+		[ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "entryroom1a.json" ],
+      "chance" : 0
+    },
+    {
+      "name" : "entryroom1b",
+      "rules" : [
+		[ "maxSpawnCount", [1] ],
+		[ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "entryroom1b.json" ],
+      "chance" : 0
+    },
+	    {
+      "name" : "entryroom1c",
+      "rules" : [
+		[ "maxSpawnCount", [1] ],
+		[ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "entryroom1c.json" ],
+      "chance" : 0
+    },
+	
+	// Large Room
+	
+	// Engine Room
+	{
+      "name" : "largeroom1a",
+      "rules" : [
+		[ "maxSpawnCount", [1] ],
+		[ "ignorePartMaximumRule" ],
+        [ "doNotCombineWith", [ "largeroom1c" ] ]
+      ],
+      "def" : [ "tmx", "largeroom1a.json" ],
+      "chance" : 0
+    },
+	// Farm room
+	{
+      "name" : "largeroom1b",
+      "rules" : [
+		[ "maxSpawnCount", [1] ],
+		[ "ignorePartMaximumRule" ],
+        [ "doNotCombineWith", [ "largeroom1d", "largeroom1e", "largeroom1f" ] ]
+      ],
+      "def" : [ "tmx", "largeroom1b.json" ],
+      "chance" : 0
+    },
+	// Comms room
+	{
+      "name" : "largeroom1c",
+      "rules" : [
+		[ "maxSpawnCount", [1] ],
+		[ "ignorePartMaximumRule" ],
+        [ "doNotCombineWith", [  "largeroom1a" ] ]
+      ],
+      "def" : [ "tmx", "largeroom1c.json" ],
+      "chance" : 0
+    },
+	// Zoo
+	{
+      "name" : "largeroom1d",
+      "rules" : [
+		[ "maxSpawnCount", [1] ],
+		[ "ignorePartMaximumRule" ],
+        [ "doNotCombineWith", [ "largeroom1b", "largeroom1e", "largeroom1f" ] ]
+      ],
+      "def" : [ "tmx", "largeroom1d.json" ],
+      "chance" : 0
+    },
+	// Armory/Gun Range
+	{
+      "name" : "largeroom1e",
+      "rules" : [
+		[ "maxSpawnCount", [1] ],
+		[ "ignorePartMaximumRule" ],
+        [ "doNotCombineWith", [ "largeroom1b", "largeroom1d", "smallerroom1g", "largeroom1f" ] ]
+      ],
+      "def" : [ "tmx", "largeroom1e.json" ],
+      "chance" : 0
+    },
+	// Drone Repair Room
+	{
+      "name" : "largeroom1f",
+      "rules" : [
+		[ "maxSpawnCount", [1] ],
+		[ "ignorePartMaximumRule" ],
+        [ "doNotCombineWith", [ "largeroom1b", "largeroom1d", "largeroom1e" ] ]
+      ],
+      "def" : [ "tmx", "largeroom1f.json" ],
+      "chance" : 0
+    },
+	
+	// Small Rooms
+	
+	{
+      "name" : "smallerroom1a",
+      "rules" : [
+		[ "maxSpawnCount", [1] ],
+		[ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "smallerroom1a.json" ],
+      "chance" : 0
+    },
+	{
+      "name" : "smallerroom1b",
+      "rules" : [
+		[ "maxSpawnCount", [1] ],
+		[ "ignorePartMaximumRule" ],
+        [ "doNotCombineWith", [ "smallerroom1c", "smallerroom1e" ] ]
+      ],
+      "def" : [ "tmx", "smallerroom1b.json" ],
+      "chance" : 0
+    },
+	{
+      "name" : "smallerroom1c",
+      "rules" : [
+		[ "maxSpawnCount", [1] ],
+		[ "ignorePartMaximumRule" ],
+        [ "doNotCombineWith", [ "smallerroom1b", "smallerroom1e" ] ]
+      ],
+      "def" : [ "tmx", "smallerroom1c.json" ],
+      "chance" : 0
+    },
+	{
+      "name" : "smallerroom1d",
+      "rules" : [
+		[ "maxSpawnCount", [1] ],
+		[ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "smallerroom1d.json" ],
+      "chance" : 0
+    },
+	{
+      "name" : "smallerroom1e",
+      "rules" : [
+		[ "maxSpawnCount", [1] ],
+		[ "ignorePartMaximumRule" ],
+        [ "doNotCombineWith", [ "smallerroom1b", "smallerroom1c" ] ]
+      ],
+      "def" : [ "tmx", "smallerroom1e.json" ],
+      "chance" : 0
+    },
+	{
+      "name" : "smallerroom1f",
+      "rules" : [
+		[ "maxSpawnCount", [1] ],
+		[ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "smallerroom1f.json" ],
+      "chance" : 0
+    },
+	{
+      "name" : "smallerroom1g",
+      "rules" : [
+		[ "maxSpawnCount", [1] ],
+		[ "ignorePartMaximumRule" ],
+        [ "doNotCombineWith", [ "largeroom1e" ] ]
+      ],
+      "def" : [ "tmx", "smallerroom1g.json" ],
+      "chance" : 0
+    },
+	{
+      "name" : "smallerroom1h",
+      "rules" : [
+		[ "maxSpawnCount", [1] ],
+		[ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "smallerroom1h.json" ],
+      "chance" : 0
+    },
+	{
+      "name" : "smallerroom1i",
+      "rules" : [
+		[ "maxSpawnCount", [1] ],
+		[ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "smallerroom1i.json" ],
+      "chance" : 0
+    }
+  ]
+}
