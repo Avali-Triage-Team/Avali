@@ -1,0 +1,151 @@
+{
+  "type": "avalispaceguard",
+  "baseType": "guard",
+  "levelVariance": [
+    1,
+    4
+  ],
+  "scriptConfig" : {
+    "behaviorConfig" : {
+      "greetingChance" : 0
+    },
+    "questGenerator" : {
+      "enableParticipation" : false
+    },
+
+    "dialog" : {
+      "converse" : "/dialog/spaceconverse.config:converse"
+    }
+  },
+  "items": {
+    "avali": [
+      [
+        0,
+        [
+          {
+            "head": [
+              {
+                "name": "avaliarmor1head",
+                "data": {
+                  "colorIndex": [
+                    3
+                  ]
+                }
+              },
+              {
+                "name": "avaliarmor2head",
+                "data": {
+                  "colorIndex": [
+                    3
+                  ]
+                }
+              },
+              {
+                "name": "avaliarmor3head",
+                "data": {
+                  "colorIndex": [
+                    3
+                  ]
+                }
+              }
+            ],
+            "chest": [
+              {
+                "name": "avaliguardtier1chest",
+                "data": {
+                  "colorIndex": [
+                    3
+                  ]
+                }
+              },
+              {
+                "name": "avaliguardtier2chest",
+                "data": {
+                  "colorIndex": [
+                    3
+                  ]
+                }
+              },
+              {
+                "name": "avaliguardtier3chest",
+                "data": {
+                  "colorIndex": [
+                    3
+                  ]
+                }
+              }
+            ],
+            "legs": [
+              {
+                "name": "avaliarmor1pants",
+                "data": {
+                  "colorIndex": [
+                    3
+                  ]
+                }
+              },
+              {
+                "name": "avaliarmor2pants",
+                "data": {
+                  "colorIndex": [
+                    3
+                  ]
+                }
+              },
+              {
+                "name": "avaliarmor3pants",
+                "data": {
+                  "colorIndex": [
+                    3
+                  ]
+                }
+              }
+            ],
+            "primary": [
+              {
+                "name": "avaliminigun",
+                "data": {
+                  "level": 4
+                }
+              },
+              {
+                "name": "avalirifle",
+                "data": {
+                  "level": 4
+                }
+              },
+              {
+                "name": "avalishotgun",
+                "data": {
+                  "level": 4
+                }
+              },
+              {
+                "name": "avalipistol",
+                "data": {
+                  "level": 4
+                }
+              }
+            ],
+            "sheathedprimary": [
+              {
+                "name": "avalitier4shortsword"
+              }
+            ],
+            "alt": [
+              {
+                "name": "avalipistol",
+                "data": {
+                  "level": 4
+                }
+              },
+              {
+                "name": "avalitier4barrier"
+              }
+            ]
+          }
+        ]
+      ]
+    ]
+  }
+}

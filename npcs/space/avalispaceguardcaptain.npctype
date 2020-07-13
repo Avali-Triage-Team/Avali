@@ -1,0 +1,319 @@
+{
+  "type": "avalispaceguardcaptain",
+  "baseType": "avalispaceguard",
+  "levelVariance": [
+    6,
+    6
+  ],
+  "items": {
+    "avali": [
+      [
+        0,
+        [
+          {
+            "head": [
+              {
+                "name": "avaliarmor5head",
+                "data": {
+                  "colorIndex": [
+                    3
+                  ]
+                }
+              }
+            ],
+            "chest": [
+              {
+                "name": "avaliguardtier1chest",
+                "data": {
+                  "colorIndex": [
+                    3
+                  ]
+                }
+              }
+            ],
+            "legs": [
+              {
+                "name": "avaliarmor3pants",
+                "data": {
+                  "colorIndex": [
+                    3
+                  ]
+                }
+              }
+            ],
+            "primary": [
+              {
+                "name": "avalishotgun",
+                "data": {
+                  "level": 1,
+                  "shortdescription": "QRC Type-1"
+                }
+              }
+            ],
+            "sheathedprimary": [
+              {
+                "name": "avalitier1hammer"
+              }
+            ]
+          },
+          {
+            "head": [
+              {
+                "name": "avaliarmor5head",
+                "data": {
+                  "colorIndex": [
+                    3
+                  ]
+                }
+              }
+            ],
+            "chest": [
+              {
+                "name": "avaliguardtier1chest",
+                "data": {
+                  "colorIndex": [
+                    3
+                  ]
+                }
+              }
+            ],
+            "legs": [
+              {
+                "name": "avaliarmor3pants",
+                "data": {
+                  "colorIndex": [
+                    3
+                  ]
+                }
+              }
+            ],
+            "primary": [
+              {
+                "name": "avaliminigun",
+                "data": {
+                  "level": 1,
+                  "shortdescription": "MG1 Hailstorm"
+                }
+              }
+            ],
+            "sheathedprimary": [
+              {
+                "name": "avalitier1spear"
+              }
+            ]
+          }
+        ]
+      ],
+      [
+        2,
+        [
+          {
+            "head": [
+              {
+                "name": "avaliarmor5head",
+                "data": {
+                  "colorIndex": [
+                    3
+                  ]
+                }
+              }
+            ],
+            "chest": [
+              {
+                "name": "avaliguardtier2chest",
+                "data": {
+                  "colorIndex": [
+                    3
+                  ]
+                }
+              }
+            ],
+            "legs": [
+              {
+                "name": "avaliarmor3pants",
+                "data": {
+                  "colorIndex": [
+                    3
+                  ]
+                }
+              }
+            ],
+            "primary": [
+              {
+                "name": "avalishotgun",
+                "data": {
+                  "level": 2,
+                  "shortdescription": "QRC Type-2"
+                }
+              }
+            ],
+            "sheathedprimary": [
+              {
+                "name": "avalitier2hammer"
+              }
+            ]
+          },
+          {
+            "head": [
+              {
+                "name": "avaliarmor5head",
+                "data": {
+                  "colorIndex": [
+                    3
+                  ]
+                }
+              }
+            ],
+            "chest": [
+              {
+                "name": "avaliguardtier2chest",
+                "data": {
+                  "colorIndex": [
+                    3
+                  ]
+                }
+              }
+            ],
+            "legs": [
+              {
+                "name": "avaliarmor3pants",
+                "data": {
+                  "colorIndex": [
+                    3
+                  ]
+                }
+              }
+            ],
+            "primary": [
+              {
+                "name": "avaliminigun",
+                "data": {
+                  "level": 2,
+                  "shortdescription": "MG2 Hailstorm"
+                }
+              }
+            ],
+            "sheathedprimary": [
+              {
+                "name": "avalitier2spear"
+              }
+            ]
+          }
+        ]
+      ],
+      [
+        3,
+        [
+          {
+            "head": [
+              {
+                "name": "avaliarmor5head",
+                "data": {
+                  "colorIndex": [
+                    3
+                  ]
+                }
+              }
+            ],
+            "chest": [
+              {
+                "name": "avaliguardtier3chest",
+                "data": {
+                  "colorIndex": [
+                    3
+                  ]
+                }
+              }
+            ],
+            "legs": [
+              {
+                "name": "avaliarmor3pants",
+                "data": {
+                  "colorIndex": [
+                    3
+                  ]
+                }
+              }
+            ],
+            "primary": [
+              {
+                "name": "avalishotgun",
+                "data": {
+                  "level": 3,
+                  "shortdescription": "QRC Type-3"
+                }
+              }
+            ],
+            "sheathedprimary": [
+              {
+                "name": "avalitier3hammer"
+              }
+            ]
+          },
+          {
+            "head": [
+              {
+                "name": "avaliarmor5head",
+                "data": {
+                  "colorIndex": [
+                    3
+                  ]
+                }
+              }
+            ],
+            "chest": [
+              {
+                "name": "avaliguardtier3chest",
+                "data": {
+                  "colorIndex": [
+                    3
+                  ]
+                }
+              }
+            ],
+            "legs": [
+              {
+                "name": "avaliarmor3pants",
+                "data": {
+                  "colorIndex": [
+                    3
+                  ]
+                }
+              }
+            ],
+            "primary": [
+              {
+                "name": "avaliminigun",
+                "data": {
+                  "level": 3,
+                  "shortdescription": "MG3 Hailstorm"
+                }
+              }
+            ],
+            "sheathedprimary": [
+              {
+                "name": "avalitier3spear"
+              }
+            ]
+          }
+        ]
+      ]
+    ]
+  },
+  "statusControllerSettings": {
+    "stats": {
+      "maxHealth": {
+        "baseValue": 130
+      },
+      "powerMultiplier": {
+        "baseValue": 1
+      },
+      "protection": {
+        "baseValue": 1
+      },
+      "healthRegen": {
+        "baseValue": 0
+      }
+    }
+  }
+}

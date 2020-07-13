@@ -1,0 +1,17 @@
+{
+  "type" : "avaliresearchscientist",
+  "baseType" : "researchscientist",
+  
+
+  "items" : {
+    "override" : [
+		[0, [
+          {
+            "head" : [ { "name" : "avaliscientisthead", "parameters" : { "colorIndex" : [0] } } ],
+            "chest" : [ { "name" : "avaliscientistchest", "parameters" : { "colorIndex" : [0] } } ],
+            "legs" : [ { "name" : "avaliscientistpants", "parameters" : { "colorIndex" : [0] } } ]
+          }
+        ] ]
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "type" : "avalispaceengineer",
+  "baseType" : "guard",
+
+  "scriptConfig" : {
+    "behaviorConfig" : {
+      "greetingChance" : 0
+    },
+    "questGenerator" : {
+      "enableParticipation" : false
+    },
+
+    "dialog" : {
+      "converse" : "/dialog/shipcrew.config:converse"
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [ { "name" : "minerhead", "parameters" : { "colorIndex" : 0 } } ],
+            "chest" : [ { "name" : "avaliset1cchest", "parameters" : { "colorIndex" : 8 } } ],
+            "legs" : [ { "name" : "avaliset1cpants", "parameters" : { "colorIndex" : 8 } } ],
+            "primary" : [
+              "npcwrench"
+            ]
+          }
+        ] ]
+    ]
+  }
+}

@@ -1,0 +1,380 @@
+[
+  {
+    "op": "add",
+    "path": "/converse/human",
+    "value": {
+      "avali": [
+        "You're not welcom- Oh? You're not ADF? Nevermind, then.",
+        "Why is it that your ADF guys are uptight racists, while you AEF guys are so chill?",
+        "Is it true that they stick the packs they don't like in the AEF, just to get rid of them?",
+        "I visited an Avali settlement the other day. They were such... jerks!",
+        "... Why are you looking at me like that?",
+        "If you say 'small violin', so help me...",
+        "Nice feathers, can I stroke them?",
+        "Are you AEF? Okay good, that means you're probably decent.",
+        "I'm... not interested. Sorry."
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/converse/ningen",
+    "value": {
+      "avali": [
+        "You're not welcom- Oh? You're not ADF? Nevermind, then.",
+        "Why is it that your ADF guys are uptight racists, while you AEF guys are so chill?",
+        "Is it true that they stick the packs they don't like in the AEF, just to get rid of them?",
+        "I visited an Avali settlement the other day. They were such... jerks!",
+        "... Why are you looking at me like that?",
+        "If you say 'small violin', so help me...",
+        "Nice feathers, can I stroke them?",
+        "Are you AEF? Okay good, that means you're probably decent.",
+        "I'm... not interested. Sorry."
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/converse/avali",
+    "value": {
+      "avali": [
+        "Missing your pack? Poor thing.",
+        "Find anything interesting out there?",
+        "Hello, hunter.",
+        "Are you AEF too? Or are you freelance?",
+        "I hope you're not ADF. ... Erm, not that I have anything against the ADF. No sir!",
+        "I wish the ADF were not such tightwads.",
+        "Seen any cute aliens out here?",
+        "Would it kill the ADF to losen up a bit?",
+        "No, they certainly don't stick all of the 'weirdoes' in the AEF. Why would you think that?",
+        "I don't think the ADF fully appreciates the dangers out here.",
+        "Did you catch that news flash for the local network?",
+        "Hmm? Sorry, I was checking my messages.",
+        "I'm developing a new sim if you want to help me test it.",
+        "Got any interesting tales from your travels?",
+        "Kill anything big lately?",
+        "My pack's come up with a new routine, wanna watch later?",
+        "Can I get your opinion on this song I'm writi- wait, where are you going?"
+      ],
+      "default": [
+        "Hello.",
+        "Hi. I'm <selfname>. Who're you?",
+        "Like it around?",
+        "You came this far to visit our ship?",
+        "*hums to self*",
+        "Welcome to... Space! Are you new here?",
+        "Hey, what's the weather outside like? It's still night-time, right?",
+        "Is it night-time outside? Haha, just kidding. It's always night in space!",
+        "You'd think that living offworld would get lonely, but... Well, you'd be right, actually.",
+        "Do you ever get scared that you'll fall into the infinite, empty void of space by accident? I know I do!",
+        "One day, our pack will have their own ship! Captain <selfname> has a nice ring to it, don't you think?",
+        "''What's with the causal dress?'' You ask? Well, when you have augments, you don't need weird suits.",
+        "One day our shall explore the cosmos instead of hanging about here... Oh wait, we already are.",
+        "The great thing about living in space is that there's always room. Infinite room, in fact.",
+        "In space, no one can hear you... Complain that you're bored.",
+        "Hey there! My name is <selfname>. I've been here a while, to say the least.",
+        "You know, it's really hard to maintain a sleep cycle when there's no days or nights.",
+        "Sometimes I miss planetary life.",
+        "Why do they always put the weirdoes in the AEF?!",
+        "Tip for the wise: don't go near the ADF. They're... kind of jerks."
+      ],
+      "apex": [
+        "Hello, Apex.",
+        "How goes the rebellion?",
+        "I've had bananas before. They're... meh.",
+        "I hope you're not miniknog. Encounters with them... never end well.",
+        "That's a lot of fur, are you from a non-CHZ world too?",
+        "A shame the Miniknog censor the media, you'd make good use of a Nexus system.",
+        "Are you running from the Miniknog? I don't blame you.",
+        "Don't worry, we won't tell the Miniknog you were here."
+      ],
+      "floran": [
+        "Hello, Floran.",
+        "Oh hey, a Floran. How about that?",
+        "No stabbing on the ship allowed.",
+        "What do you mean, we smell like Miracle-Gro?",
+        "Why do Florans need to hunt for meat if you can photosynthesise?",
+        "Mind explaining to me what 'drysap' is? We've been traveling around a while, and we still don't know."
+      ],
+      "human": [
+        "Hello... oh hey, a human.",
+        "I understand, it wasn't your fault.",
+        "I'm pretty much convinced that it was the apex that were our malefactors, not you. Huh, maybe that's why I'm here...",
+        "Luckily for you, most of us AEF types are much more tolerant of humans than most of our kin.",
+        "There are a lot of ... weirdos with... weird opinions about humans here in the AEF. Just a heads up.",
+        "So much for the Protectorate. Darn shame.",
+        "There was actually talk on Avlon about joining the Protectorate. Real shame.",
+        "Don't worry, we're AEF, not ADF. No small violin jokes here.",
+        "What happened on Earth is no laughing matter. I wish those ADF tightwads would wake up and realize that.",
+        "People like you are the reason our pack joined the AEF instead of the ADF.",
+        "Hey, do you think I'm cute, human? Why do I ask? Erm... no reason.",
+        "Wanna hang out later?"
+      ],
+      "ningen": [
+        "Hello... oh hey, a human.",
+        "I understand, it wasn't your fault.",
+        "I'm pretty much convinced that it was the apex that were our malefactors, not you. Huh, maybe that's why I'm here...",
+        "Luckily for you, most of us AEF types are much more tolerant of humans than most of our kin.",
+        "There are a lot of ... weirdos with... weird opinions about humans here in the AEF. Just a heads up.",
+        "So much for the Protectorate. Darn shame.",
+        "There was actually talk on Avlon about joining the Protectorate. Real shame.",
+        "Don't worry, we're AEF, not ADF. No small violin jokes here.",
+        "Hey, do you think I'm cute, human? Why do I ask? Erm... no reason.",
+        "Wanna hang out later?"
+      ],
+      "hylotl": [
+        "Hello, Hylotl.",
+        "Can I interest you in some tapestries?",
+        "I hear the Hylotl civilisation has some amazing music and culture, want to share some with us?",
+        "We've seen a few Hylotl cities. At least, the surface ones. Quite beautiful.",
+        "Is it true Hylotl breed through amplexus?",
+        "No, my feathers are not for trade!",
+        "Wanna hook up and make music later?"
+      ],
+      "glitch": [
+        "Hello, Glitch.",
+        "I had a friend that tried to mimic Glitch speech patterns. He got a black eye on account of it.",
+        "A Glitch in space? That's... odd. Not unheard of, but still odd.",
+        "Do you mind if I have a look at your neural architecture?",
+        "If Glitch are able to self reproduce and upgrade, why haven't you undergone singularity yet?",
+        "Have you thought about getting a tune up from the drone techs?",
+        "Is that a tin can used in your construction?"
+      ],
+      "novakid": [
+        "Hello, Novakid.",
+        "Howdy partner!",
+        "How big is your train?",
+        "How does your kind manage FTL? Do you even know?",
+        "Sometimes I wish I could glow in the dark. Most of the time, not.",
+        "Not too close! I'd rather not have my feathers singed.",
+        "So you have no eyes... or ears... or mouth... how does that work? Can you hear me? Hello?",
+        "Can I borrow your glow for just a moment? ... There. Thanks, buckaroo!",
+        "Can you play guitar? I'd love to hear an old cowboy song right about now."
+      ],
+      "fenerox": [
+        "Hello, Fenerox.",
+        "A fenerox in space? Are you human-raised or something? No offense if you are, of course.",
+        "Left the Savannah to see the wider universe, eh?",
+        "Know any good savannah tunes?"
+      ],
+      "penguin": [
+        "Ugh, a penguin.",
+        "Must not judge... must not judge...",
+        "I won't lie. I don't like penguins.",
+        "I hope you're not up to piracy around here.",
+        "The AEF is more tolerant of other races than the ADF... but even that has limits.",
+        "Tell Dreadwing he can go fluff himself."
+      ],
+      "novali": [
+        "Hello... umm... Hunter?",
+        "Wh-What are you?!",
+        "I... I won't judge.",
+        "Wow, what's your story?",
+        "Do I even want to know?",
+        "Are you some sort of experiment? ... Poor thing.",
+        "That must have been one hot night.",
+        "Well, you can glow now. I suppose that's something.",
+        "Is this a new augmentation fad or something? If so, I want in.",
+        "If the Miniknog or USCM did this, we can hide you.",
+        "Was this some sort of wager or something?",
+        "Wow, you're really hot now.",
+        "So is your blood still ammonia? Or is it gas now? How do you... even work?",
+        "Talk about Isolation Madness.",
+        "I didn't think the Novakids were capable of THIS!",
+        "Can I borrow your glow for just a moment? ... There. Thanks!"
+      ],
+      "smolavali": [
+        "Oh great. A purist.",
+        "We joined the AEF to get away from the purists.",
+        "If you're going to preach about purism, don't bother, we don't want to hear it.",
+        "I see the 'pure as possible' fad is still going strong on Avalon. Unfortunately.",
+        "If you need a bigger body, I have one in the back somewhere.",
+        "Little tip: You might want to pick up a bigger body. Things are dangerous around out here.",
+        "Easy to forget just how far we spacers have come from our core-bound kin.",
+        "Augmentation has sure come a long way. Easy to forget that untill you see it.",
+        "What? Er... oh. There you are. Didn't see you down there.",
+        "Find anything interesting out there?",
+        "Hello, little hunter.",
+        "Did you catch that news flash for the local network?",
+        "Hmm? Sorry, I was checking my messages.",
+        "I'm developing a new sim if you want to help me test it.",
+        "Are you in the right tent? ...Am I?",
+        "Got any interesting tales from your travels?",
+        "Kill anything big lately?",
+        "My pack's come up with a new routine, wanna watch later?",
+        "Can I get your opinion on this song I'm writi- wait, where are you going?"
+      ],
+      "aegi": [
+        "Oh hey, a human with pointy ears!",
+        "That reminds me, we should drop by Elithia on the way back...",
+        "Wait, so you guys were human, a long time ago? Does that mean...",
+        "I wish Avalon would join the Alliance. Would make our job so much easier.",
+        "I wish Avalon would join the Alliance. Fat chance of that, sadly. Thanks, ADF!",
+        "(Whispers) If our pack wanted to join the Alliance, who would we talk to?",
+        "I heard there's talks on Avalon about us joining the Alliance. Knowing the tightwads back home, I don't have much hope of it though.",
+        "So with the Protectorate gone, I guess the Alliance is the big guy around, now?",
+        "If we join the Alliance, do we have to give up our drones and the Oracle? ... No? Okay good.",
+        "I hear you guys like drones too. We should see which ones are better!",
+        "Hey, do you think I'm cute, Aegi? Why do I ask? Erm... no reason.",
+        "Wanna hang out later?"
+      ],
+      "avikan": [
+        "Hello, Avikan.",
+        "I can't imagine living in the desert.",
+        "Two nomadic species from opposite end planets meeting together? Space travel have come far.",
+        "Wow, and I thought our 'benefactors' were nasty. Sorry for your loss.",
+        "These 'Thell' sound a lot like our 'benefactors'. You don't think...",
+        "We need to drop by the Nomada again sometime.",
+        "Sorry to hear about your homeworld.",
+        "We'd help with the Thell... if the Illuminate didn't INSIST on isolationism. Bleh."
+      ],
+      "trink": [
+        "Hello, Trink.",
+        "So, you've actually achived singularity? Wow.",
+        "Why is everything of yours so... Green?",
+        "For a moment, I thought you were a Glitch. I always get you two confused.",
+        "Do you mind if I have a look at your neural architecture?",
+        "By the way, our generator is making this weird nose. Mind having a look?"
+      ],
+      "eevee": [
+        "Hello, Eevee!",
+        "Let's go, Eevee!",
+        "It saddens me to realize that there are still Avali who think trainers are a thing.",
+        "I won't lie... You're pretty cute.",
+        "So back in the day, you could change bodies... without a augment pod? I would have loved to see that.",
+        "You say human children used to capture your kind and then make them fight for money? Good thing they grew out of that... I hope.",
+        "Nice coat. Can I pet it?"
+      ],
+      "familiar": [
+        "Hello, weird... glowing... plushie thing. Ah, a Familiar!",
+        "Is that a USB drive, or are you just happy to see me?",
+        "So you can go into cyberspace, without a neural jack? How does that even work?",
+        "Do they have any interesting... you know what... on the human Nexus?",
+        "Leave my augments alone, please.",
+        "So is traveling through cyberspace like traveling through space?",
+        "So you glow in the dark? That's cool! ... Well, some of the time, anyway.",
+        "'Mario?' Isn't that an ancient human game or something?",
+        "Please stop speaking in human 'leet speak'. It's really annoying.",
+        "Nice colors.",
+        "Can I borrow your glow for just a bit? ... There. Thanks!"
+      ],
+      "felin": [
+        "Hello, Felin.",
+        "So I hear you're good hunters. Let's put that to the test sometime.",
+        "What's that smell, did you... oh.",
+        "Is it true that your kind has 53 words to describe mating rituals?",
+        "... I'd... rather not. At least, not now.",
+        "If I let you hug me, will you pur?",
+        "Do you have a cellphone on you? I came across a felin scrawl the other day and I don't know what it means.",
+        "... So that's what that means. I wish I didn't ask.",
+        "Wanna hook up later?",
+        "Just a reminder that I'm not edible. Ammonia and all that."
+      ],
+      "lucario": [
+        "Hello, Lucario.",
+        "Don't worry, I know humans don't have trainers anymore.",
+        "You look cool.",
+        "Can I... pet you?",
+        "You're not a human-loyalist, are you? Otherwise, there might be ... problems.",
+        "You say human children used to capture your kind and then make them fight for money? Good thing they grew out of that... I hope.",
+        "Can you see my aura? What color is it?",
+        "You can see my aura right? I hope my color is blue!"
+      ],
+      "kitsune": [
+        "Hello... Oh a human... with fox ears and tail? Ah! A Kitsune!",
+        "The ears and tail really add to it, you know?",
+        "I thought you were a human. My bad.",
+        "Where did I put that spanner? No, I wasn't going to make a violin joke.",
+        "Sorry about what happened to Earth- Oh, you're Hylotl-raised? My bad. Still, though...",
+        "I know I shouldn't really judge, but... Oh wait, I don't anyway.",
+        "No, you can't have a h- Oh. Second thought, yes, yes you can."
+      ],
+      "moogle": [
+        "Kupo, Moogle.",
+        "Kupo! ... What's that mean, anyway?",
+        "Well aren't you just a cute little... cute thing!"
+      ],
+      "saturn": [
+        "Greetings, Saturnian.",
+        "Wow, you guys can do magic?! Wish I knew how that worked.",
+        "I wish we had magic like you. Would have made beating our 'benefactors' a breeze!",
+        "Magic is just technology we don't understand... So how do you do it?",
+        "Could you conjure me up an extra wrench? Mine went missing.",
+        "Pretty wings.",
+        "So what's the difference between you, and a Thaumoth? Never understood that.",
+        "Can you conjure up your own packmates, or how does that work?"
+      ],
+      "saturn2": [
+        "Greetings, Thaumoth.",
+        "Wow, you guys can do magic?! Wish I knew how that worked.",
+        "I wish we had magic like you. Would have made beating our 'benefactors' a breeze!",
+        "Magic is just technology we don't understand... So how do you do it?",
+        "Could you conjure me up an extra wrench? Mine went missing.",
+        "Pretty wings.",
+        "So what's the difference between you, and a Saturnian? Never understood that.",
+        "Can you conjure up your own packmates, or how does that work?"
+      ],
+      "spiritguardian": [
+        "If you hear a yellow demon in your head, tell him I said hi."
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/converse/apex/avali",
+    "value": [
+      "Greetings, my plumed pal.",
+      "Would you care for a banana? I suppose not."
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/converse/hylotl/avali",
+    "value": [
+      "Always a pleasure to meet a more sophisticated race.",
+      "You should learn from us, and use the knowledge to help civilise your own people.",
+      "I say, your feathers looks exquisite, can I take them off you?",
+      "Greetings, my Avali friend.",
+      "Would you like to learn about our architecture?",
+      "Have you and your kind improved your art lately?",
+      "I... I'll admit. The feathers look good on you."
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/converse/floran/avali",
+    "value": [
+      "Floran not sssstab. Issss pacifist.",
+      "Floran not sssstab raptor friend.",
+      "Raptor friend body feels funny."
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/converse/glitch/avali",
+    "value": [
+      "Cordial. Well met, Avali.",
+      "Bothered. Please refrain from moulting your feathers in here. It is a pain to clean out of the ducts.",
+      "Delighted. What wonderous plumage, may I obtain some?",
+      "Confused. What is the difference between ADF and AEF?"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/converse/avian/avali",
+    "value": [
+      "Greetings Avali, welcome to our ship!",
+      "I wish my feathers were that long...",
+      "Sometimes I envy you Avalis, not being chained to religion.",
+      "You're not so bad, aren't you?"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/converse/novakid/avali",
+    "value": [
+      "Hey howdy hey, 'vali!",
+      "Well ain't you just a purty-lookin' thing?"
+    ]
+  }
+]
