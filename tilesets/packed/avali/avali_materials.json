@@ -4,7 +4,7 @@
   "properties" : {
   },
   "spacing" : 0,
-  "tilecount" : 24,
+  "tilecount" : 25,
   "tileheight" : 8,
   "tileproperties" : {
     "0" : {
@@ -109,6 +109,12 @@
       "//shortdescription" : "Avali Trim",
       "material" : "camptapestry2"
     },
+    "24" : {
+      "//description" : "Energy shit",
+      "//name" : "avalienergybackground",
+      "//shortdescription" : "Polygon Panel",
+      "material" : "avalienergybackground"
+    },
     "3" : {
       "//description" : "A little bit of metal.",
       "//name" : "avalidarkmetal2",
@@ -203,6 +209,9 @@
     },
     "23" : {
       "image" : "materials\/camptapestry2.png"
+    },
+    "24" : {
+      "image" : "materials\/slopedpolygon2.png"
     },
     "3" : {
       "image" : "materials\/avalidarkmetal2.png"

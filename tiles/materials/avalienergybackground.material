@@ -1,0 +1,22 @@
+{
+  "materialId" : 12532,
+  "materialName" : "avalienergybackground",
+  "particleColor" : [109, 99, 48, 255],
+  // "itemDrop" : "avalienergybackground",
+  "description" : "Energy Field. Keeps the air in.",
+  "shortdescription" : "Energy Field Panel",
+  "novakidDescription" : "Nice lookin' window with wooden panes.",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "health" : 24,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "avalienergybackground.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : true,
+    "zLevel" : 500
+  }
+}
