@@ -1,0 +1,40 @@
+{
+  "margin": 0,
+  "name": "avali_harvestables",
+  "properties": {},
+  "spacing": 0,
+  "tilecount": 3,
+  "tileheight": 24,
+  "tileproperties": {
+    "0": {
+      "imagePositionX": "0",
+      "imagePositionY": "0",
+      "object": "avaliplant1",
+      "tilesetDirection": "right"
+    },
+    "1": {
+      "imagePositionX": "0",
+      "imagePositionY": "0",
+      "object": "avaliplant2",
+      "tilesetDirection": "right"
+    },
+    "2": {
+      "imagePositionX": "0",
+      "imagePositionY": "0",
+      "object": "avaliplant3",
+      "tilesetDirection": "right"
+    }
+  },
+  "tiles": {
+    "0": {
+      "image": "farmables/avaliplant1.png"
+    },
+    "1": {
+      "image": "farmables/avaliplant2.png"
+    },
+    "2": {
+      "image": "farmables/avaliplant3.png"
+    }
+  },
+  "tilewidth": 16
+}

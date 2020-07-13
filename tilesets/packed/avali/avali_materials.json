@@ -1,0 +1,230 @@
+{
+  "margin" : 0,
+  "name" : "avali_materials",
+  "properties" : {
+  },
+  "spacing" : 0,
+  "tilecount" : 24,
+  "tileheight" : 8,
+  "tileproperties" : {
+    "0" : {
+      "//description" : "These tubes transport a water-rich nutrient aerosol for growing plants indoors.",
+      "//name" : "avaliaeroponics",
+      "//shortdescription" : "Aeroponics Tubes",
+      "material" : "avaliaeroponics"
+    },
+    "1" : {
+      "//description" : "Physical storage for physical backups",
+      "//name" : "avalichits",
+      "//shortdescription" : "Data Storage",
+      "material" : "avalichits"
+    },
+    "10" : {
+      "//description" : "Plain paneling, because sometimes less is more.",
+      "//name" : "avaliplain",
+      "//shortdescription" : "Plain Panels",
+      "material" : "avaliplain"
+    },
+    "11" : {
+      "//description" : "Now your aerogel glass can go the same directions as a Queen in chess... What's chess?",
+      "//name" : "avalislopedaerogelglass",
+      "//shortdescription" : "Sloped Aerogel Glass",
+      "material" : "avalislopedaerogelglass"
+    },
+    "12" : {
+      "//description" : "Dark and spooky! Okay, maybe not spooky, but they way these are sloped unnerves you slightly.",
+      "//name" : "avalislopeddarkpanel",
+      "//shortdescription" : "Sloped Dark Panels",
+      "material" : "avalislopeddarkpanel"
+    },
+    "13" : {
+      "//description" : "Plain paneling, because sometimes less is more. Now with slopes, because MORE is more!",
+      "//name" : "avalislopedhullplate",
+      "//shortdescription" : "Sloped Plain Panels",
+      "material" : "avalislopedhullplate"
+    },
+    "14" : {
+      "//description" : "Vibrantly colored inset panels, sloped to perfection",
+      "//name" : "avalislopedinsetpanel",
+      "//shortdescription" : "Sloped Inset Panels",
+      "material" : "avalislopedinsetpanel"
+    },
+    "15" : {
+      "//description" : "Dull-colored inset panels with slopes!",
+      "//name" : "avalislopedinsetpaneldull",
+      "//shortdescription" : "Dull Sloped Inset Panels",
+      "material" : "avalislopedinsetpaneldull"
+    },
+    "16" : {
+      "//description" : "Tech panels, with clopes, so your wires can run every which way!",
+      "//name" : "avalislopedtechpanel",
+      "//shortdescription" : "Sloped Tech Panel",
+      "material" : "avalislopedtechpanel"
+    },
+    "17" : {
+      "//description" : "Polymer panels used to hide and protect electronics.",
+      "//name" : "avalitechpanel",
+      "//shortdescription" : "Tech Panels",
+      "material" : "avalitechpanel"
+    },
+    "18" : {
+      "//description" : "Easy wipe-clean tiles... perfect for places prone to mess.",
+      "//name" : "Composite Tiles",
+      "//shortdescription" : "fart",
+      "material" : "avalitiles"
+    },
+    "19" : {
+      "//description" : "poop",
+      "//name" : "A really immovable stick in the mud.",
+      "//shortdescription" : "Big Tent Pole",
+      "material" : "campbigpole"
+    },
+    "2" : {
+      "//description" : "A little bit of metal.",
+      "//name" : "avalidarkmetal",
+      "//shortdescription" : "Dark Metal Support",
+      "material" : "avalidarkmetal"
+    },
+    "20" : {
+      "//description" : "Avali tent fabric can stop bullets!",
+      "//name" : "campcanvas",
+      "//shortdescription" : "Tent Fabric",
+      "material" : "campcanvas"
+    },
+    "21" : {
+      "//description" : "A literal stick in the mud.",
+      "//name" : "camppole",
+      "//shortdescription" : "Tent Pole",
+      "material" : "camppole"
+    },
+    "22" : {
+      "//description" : "A soft, decorative tapestry",
+      "//name" : "camptapestry1",
+      "//shortdescription" : "Avali Tapestry",
+      "material" : "camptapestry1"
+    },
+    "23" : {
+      "//description" : "A soft, decorative trim material.",
+      "//name" : "camptapestry2",
+      "//shortdescription" : "Avali Trim",
+      "material" : "camptapestry2"
+    },
+    "3" : {
+      "//description" : "A little bit of metal.",
+      "//name" : "avalidarkmetal2",
+      "//shortdescription" : "Dark Metal Support",
+      "material" : "avalidarkmetal2"
+    },
+    "4" : {
+      "//description" : "A little bit of metal.",
+      "//name" : "avalidarkmetal3",
+      "//shortdescription" : "Dark Metal Support",
+      "material" : "avalidarkmetal3"
+    },
+    "5" : {
+      "//description" : "These LED displays are a thin adhesive film that can be stuck on any surface.",
+      "//name" : "avalidisplay",
+      "//shortdescription" : "LED Display",
+      "material" : "avalidisplay"
+    },
+    "6" : {
+      "//description" : "These tubes transport a nutrient aerosol for growing plants indoors.",
+      "//name" : "avaliglass",
+      "//shortdescription" : "Avali Glass",
+      "material" : "avaliglass"
+    },
+    "7" : {
+      "//description" : "It's like a Glitch beehive!",
+      "//name" : "avalihexagons1",
+      "//shortdescription" : "Dark Metal Hexagons",
+      "material" : "avalihexagons1"
+    },
+    "8" : {
+      "//description" : "Light and airy panels.",
+      "//name" : "avalipaneling",
+      "//shortdescription" : "Horizontal Panels",
+      "material" : "avalipaneling"
+    },
+    "9" : {
+      "//description" : "Light and airy panels.",
+      "//name" : "avalipaneling2",
+      "//shortdescription" : "Vertical Panels",
+      "material" : "avalipaneling2"
+    }
+  },
+  "tiles" : {
+    "0" : {
+      "image" : "materials\/avaliaeroponics.png"
+    },
+    "1" : {
+      "image" : "materials\/avalichits.png"
+    },
+    "10" : {
+      "image" : "materials\/avaliplain.png"
+    },
+    "11" : {
+      "image" : "materials\/avalislopedaerogelglass.png"
+    },
+    "12" : {
+      "image" : "materials\/avalislopeddarkpanel.png"
+    },
+    "13" : {
+      "image" : "materials\/avalislopedhullplate.png"
+    },
+    "14" : {
+      "image" : "materials\/avalislopedinsetpanel.png"
+    },
+    "15" : {
+      "image" : "materials\/avalislopedinsetpaneldull.png"
+    },
+    "16" : {
+      "image" : "materials\/avalislopedtechpanel.png"
+    },
+    "17" : {
+      "image" : "materials\/avalitechpanel.png"
+    },
+    "18" : {
+      "image" : "materials\/avalitiles.png"
+    },
+    "19" : {
+      "image" : "materials\/campbigpole.png"
+    },
+    "2" : {
+      "image" : "materials\/avalidarkmetal.png"
+    },
+    "20" : {
+      "image" : "materials\/campcanvas.png"
+    },
+    "21" : {
+      "image" : "materials\/camppole.png"
+    },
+    "22" : {
+      "image" : "materials\/camptapestry1.png"
+    },
+    "23" : {
+      "image" : "materials\/camptapestry2.png"
+    },
+    "3" : {
+      "image" : "materials\/avalidarkmetal2.png"
+    },
+    "4" : {
+      "image" : "materials\/avalidarkmetal3.png"
+    },
+    "5" : {
+      "image" : "materials\/avalidisplay.png"
+    },
+    "6" : {
+      "image" : "materials\/avaliglass.png"
+    },
+    "7" : {
+      "image" : "materials\/avalihexagons1.png"
+    },
+    "8" : {
+      "image" : "materials\/avalipaneling.png"
+    },
+    "9" : {
+      "image" : "materials\/avalipaneling2.png"
+    }
+  },
+  "tilewidth" : 8
+}
