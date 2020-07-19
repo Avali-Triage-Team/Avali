@@ -5,6 +5,7 @@
     "path": "/avalifriendlyship",
     "value": {
 		"warpAction" : "InstanceWorld:avalifriendlyship",
+        "threatLevel": 1,
 		"skyParameters" : {
 			"seed" : 0,
 			"horizonClouds" : false,
