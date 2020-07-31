@@ -8,5 +8,6 @@
 
   "materialId" : 12503,
   
-  "learnBlueprintsOnPickup" : [ "avalidisplay" ]
+  "learnBlueprintsOnPickup" : [ "avalidisplay" ],
+  "category":"block"
 }

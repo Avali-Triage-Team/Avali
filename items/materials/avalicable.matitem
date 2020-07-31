@@ -10,5 +10,6 @@
 
   "materialId" : 12521,
   
-  "learnBlueprintsOnPickup" : [ "avalicable" ]
+  "learnBlueprintsOnPickup" : [ "avalicable" ],
+  "category":"block"
 }

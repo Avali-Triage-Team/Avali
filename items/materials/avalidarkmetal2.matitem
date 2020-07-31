@@ -8,5 +8,6 @@
 
   "materialId" : 12506,
   
-  "learnBlueprintsOnPickup" : [ "avalidarkmetal2" ]
+  "learnBlueprintsOnPickup" : [ "avalidarkmetal2" ],
+  "category":"block"
 }

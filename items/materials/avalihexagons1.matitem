@@ -8,5 +8,6 @@
 
   "materialId" : 12511,
   
-  "learnBlueprintsOnPickup" : [ "avalihexagons1" ]
+  "learnBlueprintsOnPickup" : [ "avalihexagons1" ],
+  "category":"block"
 }

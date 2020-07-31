@@ -8,5 +8,6 @@
 
   "materialId" : 12502,
   
-  "learnBlueprintsOnPickup" : [ "avalichits" ]
+  "learnBlueprintsOnPickup" : [ "avalichits" ],
+  "category":"block"
 }

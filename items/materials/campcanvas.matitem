@@ -8,5 +8,6 @@
   "printable" : true,
   "materialId" : 12515,
   
-  "learnBlueprintsOnPickup" : [ "campcanvas" ]
+  "learnBlueprintsOnPickup" : [ "campcanvas" ],
+  "category":"block"
 }

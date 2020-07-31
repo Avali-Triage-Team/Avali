@@ -8,5 +8,6 @@
   "printable" : true,
   "materialId" : 12517,
   
-  "learnBlueprintsOnPickup" : [ "camptapestry2" ]
+  "learnBlueprintsOnPickup" : [ "camptapestry2" ],
+  "category":"block"
 }

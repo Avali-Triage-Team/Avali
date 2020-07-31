@@ -8,5 +8,6 @@
   "printable" : true,
   "materialId" : 12513,
   
-  "learnBlueprintsOnPickup" : [ "camppole" ]
+  "learnBlueprintsOnPickup" : [ "camppole" ],
+  "category":"block"
 }
