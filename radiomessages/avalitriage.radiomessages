@@ -1,0 +1,8 @@
+{
+  "needfuavalitriagepatch" : {
+    "type" : "quest",
+    "text" : "You appear to be running Avali Triage and Frackin Universe without their patch. You will be continually reminded of this until you get it.",
+    "portraitImage" : "yell.<frame>",
+    "textSpeed" : 90
+  }
+}
