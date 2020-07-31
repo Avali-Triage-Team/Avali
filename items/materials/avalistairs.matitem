@@ -10,5 +10,6 @@
 
   "materialId" : 12522,
   
-  "learnBlueprintsOnPickup" : [ "avalistairs" ]
+  "learnBlueprintsOnPickup" : [ "avalistairs" ],
+  "category":"block"
 }

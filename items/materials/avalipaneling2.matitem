@@ -8,5 +8,6 @@
 
   "materialId" : 12523,
   
-  "learnBlueprintsOnPickup" : [ "avalipaneling2" ]
+  "learnBlueprintsOnPickup" : [ "avalipaneling2" ],
+  "category":"block"
 }

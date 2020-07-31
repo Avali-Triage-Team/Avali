@@ -8,5 +8,6 @@
 
   "materialId" : 12519,
   
-  "learnBlueprintsOnPickup" : [ "avalitechplatform" ]
+  "learnBlueprintsOnPickup" : [ "avalitechplatform" ],
+  "category":"block"
 }

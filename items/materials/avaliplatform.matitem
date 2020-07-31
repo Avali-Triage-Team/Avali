@@ -10,5 +10,6 @@
 
   "materialId" : 12520,
   
-  "learnBlueprintsOnPickup" : [ "avaliplatform" ]
+  "learnBlueprintsOnPickup" : [ "avaliplatform" ],
+  "category":"block"
 }

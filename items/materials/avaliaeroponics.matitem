@@ -8,5 +8,6 @@
   "printable" : true,
   "materialId" : 12509,
   
-  "learnBlueprintsOnPickup" : [ "avaliaeroponics" ]
+  "learnBlueprintsOnPickup" : [ "avaliaeroponics" ],
+  "category":"block"
 }

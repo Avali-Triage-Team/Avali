@@ -8,5 +8,6 @@
   "printable" : true,
   "materialId" : 12514,
   
-  "learnBlueprintsOnPickup" : [ "campbigpole" ]
+  "learnBlueprintsOnPickup" : [ "campbigpole" ],
+  "category":"block"
 }
