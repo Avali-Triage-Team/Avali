@@ -2,7 +2,7 @@
   "author" : "Fevix",
   "description" : "Avali race mod for Starbound 1.4\nThe cutest predators this side of the universe rift \nWe now have a Discord chat, come on in! No account needed! https://discord.gg/uppXW2k \n[h1][b]If you have issues, please go to https://github.com/Fevix/Avali/issues and post a new issue describing the problem. Include your starbound.log file located at \"/steamapps/common/Starbound/storage/starbound.log\". \n[i]I CANNOT FIX YOUR ISSUE WITHOUT THIS FILE.[/i][/b][/h1]\n\n(Requires a character extender to be able to select as a race. You can ignore this line if you dont plan on playing as an Avali. The mod states it requires XBawks, but it does not. Any race extender will allow you to play as an avali.)\n\nOriginal mod made by RyuujinnZERO on Starbound Forums: http://community.playstarbound.com/resources/avali-race-mod.998/ \nUpdated, maintained, and redistributed with permission.",
   "friendlyName" : "Avali (Triage) Race Mod",
-  "includes" : ["ztarbound", "FrackinUniverse"],
+  "includes" : ["ztarbound"],
   "link" : "steam://url/CommunityFilePage/729558042",
   "name" : "Avali",
   "steamContentId" : "729558042",
