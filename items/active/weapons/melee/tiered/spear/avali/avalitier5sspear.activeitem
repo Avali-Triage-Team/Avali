@@ -8,6 +8,7 @@
   "shortdescription" : "VL8 Icicle",
   "tooltipKind" : "sword",
   "weaponType" : "Spear",
+  "category" : "spear",
   "twoHanded" : true,
   "itemTags" : ["weapon","melee","spear"],
 

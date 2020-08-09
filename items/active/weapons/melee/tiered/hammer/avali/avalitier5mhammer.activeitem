@@ -9,6 +9,7 @@
   "tooltipKind" : "sword",
   "weaponType" : "Hammer",
   "twoHanded" : true,
+  "category" : "hammer",
   "itemTags" : ["weapon","melee","hammer"],
   "inventoryIcon" : "avalitier5mhammer.png",
   "animation" : "/items/active/weapons/melee/hammer/hammer.animation",
