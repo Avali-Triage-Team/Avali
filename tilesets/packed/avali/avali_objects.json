@@ -3,7 +3,7 @@
  "properties":
     {},
  "spacing":0,
- "tilecount":71,
+ "tilecount":76,
  "tileheight":256,
   "tileproperties" : {
       "0" : {
@@ -153,8 +153,8 @@
       },  
       "29" : {
           "object" : "avalicrystal1",
-          "imagePositionX" : "",
-          "imagePositionY" : "0 "
+          "imagePositionX" : "0",
+          "imagePositionY" : "0"
       }, 
       "30" : {
           "object" : "avalibottle1",
@@ -272,7 +272,7 @@
           "imagePositionY" : "0"
       },  
       "53" : {
-          "object" : "avalistriplight2",
+          "object" : "avalistriplight",
           "imagePositionX" : "0",
           "imagePositionY" : "0"
       },    
@@ -332,7 +332,7 @@
           "imagePositionY" : "0"
       },   
       "65" : {
-          "object" : "avalicrystal1",
+          "object" : "avalibottles",
           "imagePositionX" : "0",
           "imagePositionY" : "0"
       },   
@@ -358,6 +358,31 @@
       },   
       "70" : {
           "object" : "avaligundisplay4",
+          "imagePositionX" : "0",
+          "imagePositionY" : "0"
+      },   
+      "71" : {
+          "object" : "avaliribbon1",
+          "imagePositionX" : "0",
+          "imagePositionY" : "0"
+      },   
+      "72" : {
+          "object" : "avaliribbon2",
+          "imagePositionX" : "0",
+          "imagePositionY" : "0"
+      },   
+      "73" : {
+          "object" : "avaliribbon3",
+          "imagePositionX" : "0",
+          "imagePositionY" : "0"
+      },   
+      "74" : {
+          "object" : "avalitable5",
+          "imagePositionX" : "0",
+          "imagePositionY" : "0"
+      },   
+      "75" : {
+          "object" : "avalitable6",
           "imagePositionX" : "0",
           "imagePositionY" : "0"
       }
@@ -626,7 +651,7 @@
         }, 
       "65":
         {
-         "image":"objects\/avalicrystal1.png"
+         "image":"objects\/avalibottles.png"
         }, 
       "66":
         {
@@ -647,6 +672,26 @@
       "70":
         {
          "image":"objects\/avaligundisplay4.png"
+        }, 
+      "71":
+        {
+         "image":"objects\/avaliribbon1.png"
+        }, 
+      "72":
+        {
+         "image":"objects\/avaliribbon2.png"
+        }, 
+      "73":
+        {
+         "image":"objects\/avaliribbon3.png"
+        }, 
+      "74":
+        {
+         "image":"objects\/avalitable5.png"
+        },  
+      "75":
+        {
+         "image":"objects\/avalitable6.png"
         }
     },
  "tilewidth":285

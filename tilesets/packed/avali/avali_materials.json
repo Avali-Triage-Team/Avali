@@ -4,7 +4,7 @@
   "properties" : {
   },
   "spacing" : 0,
-  "tilecount" : 25,
+  "tilecount" : 26,
   "tileheight" : 8,
   "tileproperties" : {
     "0" : {
@@ -114,7 +114,12 @@
       "//name" : "avalienergybackground",
       "//shortdescription" : "Polygon Panel",
       "material" : "avalienergybackground"
-    },
+    }, 
+    "25" : {
+        "object" : "avalisolidlightblock",
+        "imagePositionX" : "-8",
+        "imagePositionY" : "0"
+    },       
     "3" : {
       "//description" : "A little bit of metal.",
       "//name" : "avalidarkmetal2",
@@ -212,6 +217,9 @@
     },
     "24" : {
       "image" : "materials\/slopedpolygon2.png"
+    },
+    "25" : {
+      "image":"objects\/avalilightblock.png"
     },
     "3" : {
       "image" : "materials\/avalidarkmetal2.png"
