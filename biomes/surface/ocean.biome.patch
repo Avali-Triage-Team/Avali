@@ -1,0 +1,12 @@
+[
+	{"op" : "add", "path" : "/surfacePlaceables/items/-", "value" : {
+		"mode" : "ocean",
+		"priority" : 1,
+		"variants" : 1,
+		"distribution" : "/biomes/distributions.config:layer2Chests",
+		//"distribution" : "/biomes/distributions.config:everywhere",
+		"type" : "microdungeon",
+		"microdungeons" : [ "avali_ocean" ]
+		}
+	}
+]
