@@ -9,6 +9,7 @@
   "level" : 1,
   "tooltipKind" : "gun",
   "weaponType" : "Minigun",
+  "category" : "assaultRifle",
   "itemTags" : ["weapon","ranged","minigun"],
   "twoHanded" : true,
   

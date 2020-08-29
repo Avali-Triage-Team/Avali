@@ -9,6 +9,7 @@
   "tooltipKind" : "sword",
   "weaponType" : "Broadsword",
   "twoHanded" : true,
+  "category" : "broadsword",
   "itemTags" : ["weapon","melee","broadsword"],
   "inventoryIcon" : "avalitier4broadsword.png",
   "animation" : "/items/active/weapons/melee/broadsword/combobroadsword.animation",

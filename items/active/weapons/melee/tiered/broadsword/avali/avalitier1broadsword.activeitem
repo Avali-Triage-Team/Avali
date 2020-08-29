@@ -8,6 +8,7 @@
   "shortdescription" : "VB-XL1 Dire Shard",
   "tooltipKind" : "sword",
   "weaponType" : "Broadsword",
+  "category" : "broadsword",
   "twoHanded" : true,
   "itemTags" : ["weapon","melee","broadsword"],
   "inventoryIcon" : "avalitier1broadsword.png",

@@ -9,6 +9,7 @@
   "tooltipKind" : "sword",
   "weaponType" : "Spear",
   "twoHanded" : true,
+  "category" : "spear",
   "itemTags" : ["weapon","melee","spear"],
 
   "inventoryIcon" : "avalitier5aspear.png",

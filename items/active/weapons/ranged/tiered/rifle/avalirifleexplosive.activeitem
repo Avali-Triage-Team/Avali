@@ -9,6 +9,7 @@
   "level" : 1,
   "tooltipKind" : "gun",
   "weaponType" : "Assault Rifle",
+  "category" : "assaultRifle",
   "itemTags" : ["weapon","ranged","assaultrifle"],
   "twoHanded" : true,
   
