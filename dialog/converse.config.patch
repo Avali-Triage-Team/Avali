@@ -286,6 +286,9 @@
         ],
         "spiritguardian": [
           "If you hear a yellow demon in your head, tell him I said hi."
+        ],
+        "spirittree": [
+          "If you hear a yellow demon in your head, tell him I said hi."
         ]
       }
     },
@@ -655,6 +658,20 @@
     {
       "op": "add",
       "path": "/converse/spiritguardian/avali",
+      "value": [
+        "Hello, Avali.",
+        "If you hear a yellow demon in your head, tell him I said hi."
+      ]
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/spirittree"
+    },
+    {
+      "op": "add",
+      "path": "/converse/spirittree/avali",
       "value": [
         "Hello, Avali.",
         "If you hear a yellow demon in your head, tell him I said hi."
