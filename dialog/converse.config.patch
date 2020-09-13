@@ -1,83 +1,457 @@
-[  
-  {  
-    "op" : "add",
-    "path" : "/converse/avali",
-    "value" : {  
-      "default" : [  
-        "Hello.",
-        "Hi. I'm <selfname>. Who're you?",
-        "Like it around?",
-        "You came this far to visit our settlement?",
-        "*hums to self*"
-      ],
-      "apex" : [  
-        "Hello, Apex.",
-        "How goes the rebellion?",
-        "Are you a Miniknog spy?",
-        "What's a banana?",
-        "Is it true Apex actually clone their dead?",
-        "That's a lot of fur, are you from a non-CHZ world too?",
-        "A shame the Miniknog censor the media, you'd make good use of a Nexus system.",
-        "(Whispers) I know it was you guys. Hash-tag ApexAvalonTruth!"
-      ],
-      "avian" : [  
-        "Hello, Avian.",
-        "If you speak to a geneticist we could give you wings too, you know.",
-        "Are you grounded, or... the other ones?",
-        "How come your feathers are so much less interesting than ours?",
-        "How do you tell your males and females apart? You have the same markings.",
-        "Do you have any good songs to share from Avos?",
-        "Want to trade crest feathers as a souvenir?",
-        "Religion? No, the Oracle isn't our god..."
-      ],
-      "floran" : [  
-        "Hello, Floran.",
-        "...Er, just to remind you, we're inedible.",
-        "What do you mean, we smell like Miracle-Gro?",
-        "No, that's not for stabbi- WHOA, ok, apparently it can also be used for stabbing. Learn something new every day.",
-        "Want to join us on a hunt later? We heard Florans are amazing hunters.",
-        "Why do Florans need to hunt for meat if you can photosynthesise?",
-        "Mind explaining to me what 'drysap' is?"
-      ],
-      "human" : [  
-        "Hello... oh, a human.",
-        "I thought something smelled bad.",
-        "I understand, it wasn't your fault. But some of my kin might not be so understanding.",
-        "(Whispers) Between you and me, I think it was the Apex. Don't tell anyone else I said that though.",
-        "You have Durasteel gonads coming here, human.",
-        "So, are you still into bombarding fledgling races on first contact?",
-        "What's the weather like on Earth lately, violent with a chance of tentacles?",
-        "So much for the Protectorate.",
-        "And to think there was talk about us joining the Protectorate. Good thing that fell through.",
-        "Now where'd I put my tiny violin...",
-        "No, you cannot have a hug. Buzz off.",
-        "We're watching you, scum.",
-        "I'm not sure what's worse: humans trying to kill us, or humans trying to lewd us."
-      ],
-      "ningen" : [  
-        "Hello... oh, a human.",
-        "I thought something smelled bad.",
-        "I understand, it wasn't your fault. But some of my kin might not be so understanding.",
-        "(Whispers) Between you and me, I think it was the Apex. Don't tell anyone else I said that though.",
-        "You have Durasteel gonads coming here, human.",
-        "So, are you still into bombarding fledgling races on first contact?",
-        "What's the weather like on Earth lately, violent with a chance of tentacles?",
-        "So much for the Protectorate.",
-        "And to think there was talk about joining the Protectorate. Good thing that fell through.",
-        "Now where'd I put my tiny violin...",
-        "No, you cannot have a hug. Buzz off.",
-        "We're watching you, scum.",
-        "I'm not sure what's worse: humans trying to kill us, or humans trying to lewd us."
-      ],
-      "hylotl" : [  
-        "Hello, Hylotl.",
-        "Can I interest you in some tapestries?",
-        "I hear the Hylotl civilisation has some amazing music and culture, want to share some with us?",
-        "If Hylotl cities are aquatic, does that mean you don't have water features in your gardens?",
-        "Is it true Hylotl breed through amplexus?",
-        "No, my feathers are not for trade!"
-      ],
-      "avali" : [  
+[
+  [
+    {
+      "op": "add",
+      "path": "/converse/avali",
+      "value": {
+        "default": [
+          "Hello.",
+          "Hi. I'm <selfname>. Who're you?",
+          "Like it around?",
+          "You came this far to visit our settlement?",
+          "*hums to self*"
+        ],
+        "apex": [
+          "Hello, Apex.",
+          "How goes the rebellion?",
+          "Are you a Miniknog spy?",
+          "What's a banana?",
+          "Is it true Apex actually clone their dead?",
+          "That's a lot of fur, are you from a non-CHZ world too?",
+          "A shame the Miniknog censor the media, you'd make good use of a Nexus system.",
+          "(Whispers) I know it was you guys. Hash-tag ApexAvalonTruth!"
+        ],
+        "avian": [
+          "Hello, Avian.",
+          "If you speak to a geneticist we could give you wings too, you know.",
+          "Are you grounded, or... the other ones?",
+          "How come your feathers are so much less interesting than ours?",
+          "How do you tell your males and females apart? You have the same markings.",
+          "Do you have any good songs to share from Avos?",
+          "Want to trade crest feathers as a souvenir?",
+          "Religion? No, the Oracle isn't our god..."
+        ],
+        "floran": [
+          "Hello, Floran.",
+          "...Er, just to remind you, we're inedible.",
+          "What do you mean, we smell like Miracle-Gro?",
+          "No, that's not for stabbi- WHOA, ok, apparently it can also be used for stabbing. Learn something new every day.",
+          "Want to join us on a hunt later? We heard Florans are amazing hunters.",
+          "Why do Florans need to hunt for meat if you can photosynthesise?",
+          "Mind explaining to me what 'drysap' is?"
+        ],
+        "human": [
+          "Hello... oh, a human.",
+          "I thought something smelled bad.",
+          "I understand, it wasn't your fault. But some of my kin might not be so understanding.",
+          "(Whispers) Between you and me, I think it was the Apex. Don't tell anyone else I said that though.",
+          "You have Durasteel gonads coming here, human.",
+          "So, are you still into bombarding fledgling races on first contact?",
+          "What's the weather like on Earth lately, violent with a chance of tentacles?",
+          "So much for the Protectorate.",
+          "And to think there was talk about us joining the Protectorate. Good thing that fell through.",
+          "Now where'd I put my tiny violin...",
+          "No, you cannot have a hug. Buzz off.",
+          "We're watching you, scum.",
+          "I'm not sure what's worse: humans trying to kill us, or humans trying to lewd us."
+        ],
+        "ningen": [
+          "Hello... oh, a human.",
+          "I thought something smelled bad.",
+          "I understand, it wasn't your fault. But some of my kin might not be so understanding.",
+          "(Whispers) Between you and me, I think it was the Apex. Don't tell anyone else I said that though.",
+          "You have Durasteel gonads coming here, human.",
+          "So, are you still into bombarding fledgling races on first contact?",
+          "What's the weather like on Earth lately, violent with a chance of tentacles?",
+          "So much for the Protectorate.",
+          "And to think there was talk about joining the Protectorate. Good thing that fell through.",
+          "Now where'd I put my tiny violin...",
+          "No, you cannot have a hug. Buzz off.",
+          "We're watching you, scum.",
+          "I'm not sure what's worse: humans trying to kill us, or humans trying to lewd us."
+        ],
+        "hylotl": [
+          "Hello, Hylotl.",
+          "Can I interest you in some tapestries?",
+          "I hear the Hylotl civilisation has some amazing music and culture, want to share some with us?",
+          "If Hylotl cities are aquatic, does that mean you don't have water features in your gardens?",
+          "Is it true Hylotl breed through amplexus?",
+          "No, my feathers are not for trade!"
+        ],
+        "avali": [
+          "Find anything interesting out there?",
+          "Hello, hunter.",
+          "Did you catch that news flash for the local network?",
+          "Hmm? Sorry, I was checking my messages.",
+          "I'm developing a new sim if you want to help me test it.",
+          "Are you in the right tent? ...Am I?",
+          "Got any interesting tales from your travels?",
+          "Kill anything big lately?",
+          "My pack's come up with a new routine, wanna watch later?",
+          "Can I get your opinion on this song I'm writi- wait, where are you going?"
+        ],
+        "glitch": [
+          "Hello, Glitch.",
+          "Friendly. Greetings! I've been studying your mode of speech.",
+          "Do you mind if I have a look at your neural architecture?",
+          "If Glitch are able to self reproduce and upgrade, why haven't you undergone singularity yet?",
+          "Have you thought about getting a tune up from the drone techs?",
+          "Is that a tin can used in your construction?"
+        ],
+        "novakid": [
+          "Hello, Novakid.",
+          "Howdy partner!",
+          "Sometimes I wish I could glow in the dark. Most of the time, not.",
+          "Not too close! I'd rather not have my feathers singed.",
+          "So you have no eyes... or ears... or mouth... how does that work? Can you hear me? Hello?",
+          "Can I borrow your glow for just a moment? ... There. Thanks, buckaroo!",
+          "Can you play guitar? I'd love to hear an old cowboy song right about now."
+        ],
+        "fenerox": [
+          "Hello, Fenerox.",
+          "Me Avali. Talk right? Very Awkward. Friends now?",
+          "Want to join us on a hunt later? Er... Join hunt? Much yes?",
+          "If you need help getting uplifted... er, sorry. That's forbidden. Sorry.",
+          "Left the Savannah to see the wider universe, eh?"
+        ],
+        "penguin": [
+          "Ugh, a penguin.",
+          "There's only one thing worse than a human... and it's right here.",
+          "Humans are bad. Penguins... are worse.",
+          "Flap off.",
+          "Your kind makes us all look bad.",
+          "Been killing any helpless standees or colonists lately?",
+          "Tell Dreadwing he can go fluff himself.",
+          "We don't need your scum here. Shoo.",
+          "Begone, pirate."
+        ],
+        "novali": [
+          "Hello... umm... Hunter?",
+          "Wh-What are you?!",
+          "I... I won't judge.",
+          "Okay, it's offical: augmentation has now gone too far... No offense.",
+          "Who did this to you?! The Miniknog? The USCM? They'll pay, we swear it!",
+          "Are you some sort of experiment? ... Poor thing.",
+          "Poor thing.",
+          "What's Avalon up to this time?!",
+          "Well, you can glow now. I suppose that's something.",
+          "Is this a new augmentation fad or something?",
+          "I've heard of replacement bodies, but this is ridiculous!!",
+          "If the Miniknog or USCM did this, we can hide you.",
+          "I hope this is some sort of intoxicated wager. If not...",
+          "So is your blood still ammonia? Or is it gas now? How do you... even work?",
+          "There are better ways to get radiation protection, just saying.",
+          "Talk about Isolation Madness.",
+          "I didn't think the Novakids were capable of THIS!",
+          "Can I borrow your glow for just a moment? ... There. Thanks!"
+        ],
+        "smolavali": [
+          "A purist, I see? There's no shame in that.",
+          "Still have your original body, I see?",
+          "I see the 'pure as possible' fad is still going strong on Avalon.",
+          "If you need a bigger body, I have one in the back somewhere.",
+          "Little tip: You might want to pick up a bigger body. Things are dangerous around out here.",
+          "Wow, I've forgotten just how much we colonists have changed from our Avalonian kin.",
+          "Augmentation has sure come a long way. Easy to forget that untill you see it.",
+          "What? Er... oh. There you are. Didn't see you down there, friend.",
+          "Find anything interesting out there?",
+          "Hello, little hunter.",
+          "Did you catch that news flash for the local network?",
+          "Hmm? Sorry, I was checking my messages.",
+          "I'm developing a new sim if you want to help me test it.",
+          "Are you in the right tent? ...Am I?",
+          "Got any interesting tales from your travels?",
+          "Kill anything big lately?",
+          "My pack's come up with a new routine, wanna watch later?",
+          "Can I get your opinion on this song I'm writi- wait, where are you going?"
+        ],
+        "aegi": [
+          "Hello... oh, a human... with pointy ears.",
+          "Wait, so you guys were human, a long time ago? Does that mean...",
+          "Sorry, we're not interested in joining the Alliance.",
+          "(Whispers) If our pack wanted to join the Alliance, who would we talk to?",
+          "I heard there's talks on Avalon about us joining the Alliance... is that true?",
+          "So with the Protectorate gone, I guess the Alliance is the big guy around, now?",
+          "If it's not one human-based organization, it's another.",
+          "You have Durasteel gon- Oh, sorry, thought you were something else for a moment.",
+          "Now where'd I put my- pointed ears? Sorry, I thought you were a human.",
+          "If we join the Alliance, do we have to give up our drones and the Oracle? ... No? Okay good.",
+          "I hear you guys like drones too. We should see which ones are better!"
+        ],
+        "avikan": [
+          "Hello, Avikan.",
+          "I can't imagine living in the desert.",
+          "Two nomadic species from opposite end planets meeting together? Augments have come far.",
+          "Wow, and I thought our 'benefactors' were nasty. Sorry for your loss.",
+          "These 'Thell' sound a lot like our 'benefactors'. You don't think...",
+          "I'd love to see the Nomada someday.",
+          "Sorry to hear about your homeworld.",
+          "Wow, and I thought we had a rough first contact. Sorry about that.",
+          "At least your benefactors didn't try to slaughter you... Oh, sorry. That was cold."
+        ],
+        "akkimari": [
+          "Hello, Akkimari.",
+          "I've always wondered what would happen if we lost the Nexus or Oracle... Now I know.",
+          "No scavenging around here, please."
+        ],
+        "droden": [
+          "This is why we keep the Oracle shackled."
+        ],
+        "trink": [
+          "Hello, Trink.",
+          "So, you've actually achived singularity? Wow.",
+          "Why is everything of yours so... Green?",
+          "For a moment, I thought you were a Glitch. I always get you two confused.",
+          "Do you mind if I have a look at your neural architecture?",
+          "By the way, my drone is making this weird nose. Mind having a look?"
+        ],
+        "eevee": [
+          "Hello, Eevee!",
+          "Are you running away from your human trainer? ... We can help hide you.",
+          "You're safe here. We won't let the human 'trainers' find you here.",
+          "Only thing worse than Humans are their dogs.",
+          "So back in the day, you could change bodies... without a augment pod? I would have loved to see that.",
+          "You say human children used to capture your kind and then make them fight for money? Human cruelty knows no bounds!",
+          "Your safe here, Eevee. We shoot slavers, or 'trainers'.",
+          "Nice coat. Can I pet it?"
+        ],
+        "familiar": [
+          "Hello, weird... glowing... plushie thing. Ah, a Familiar!",
+          "So you can go into cyberspace, without a neural jack? How does that even work?",
+          "You've been in the human's Nexus knockoff, right? What do they think of Avali? ... Do I want to know?",
+          "Leave my augments alone, please.",
+          "So you glow in the dark? That's cool! ... Well, some of the time, anyway.",
+          "For the last time, I don't know what 'Mario' is, and don't want to.",
+          "Please stop speaking in human 'leet speak'. It's really annoying.",
+          "And people say we have weird colors.",
+          "Can I borrow your glow for just a bit? ... There. Thanks!"
+        ],
+        "felin": [
+          "Hello, Felin.",
+          "So I hear you're good hunters. Let's put that to the test sometime.",
+          "What's that smell, did you... oh no.",
+          "Is it true that your kind has 53 words to describe mating rituals?",
+          "... I'd... rather not.",
+          "If I let you hug me, will you pur?",
+          "Do you have a cellphone on you? I came across a felin scrawl the other day and I don't know what it means.",
+          "... So that's what that means. I wish I didn't ask.",
+          "Just a reminder that I'm not edible. Ammonia and all that."
+        ],
+        "lamia": [
+          "Hello, ugh hu- Wait wait wait, sorry! L-Lamia, right?",
+          "For a split second, I thought you were a human... Please don't eat me.",
+          "I'm not good to eat."
+        ],
+        "lucario": [
+          "Hello, Lucario.",
+          "Are you running away from your human trainer? ... We can help hide you.",
+          "You're safe here. We won't let the human 'trainers' find you here.",
+          "Only thing worse than Humans are their dogs.",
+          "You're not a human-loyalist, are you? Otherwise, there might be ... problems.",
+          "You say human children used to capture your kind and then make them fight for money? Human cruelty knows no bounds!",
+          "Your safe here, Lucario. We shoot slavers, or 'trainers'.",
+          "Can you see my aura? What color is it?"
+        ],
+        "kitsune": [
+          "Hello... Oh a human... with fox ears and tail? Ah! A Kitsune!",
+          "I thought you were a human. My bad.",
+          "You have Durasteel gon- Oh, sorry, thought you were something else for a moment.",
+          "Where did I put- Oh, sorry. Didn't see the ears and tail.",
+          "So how's Earth these days? ... Oh? You're Hylotl-raised? My bad.",
+          "I know I shouldn't really judge, but you look too much like a human.",
+          "No, you can't have a h- Oh. Second thought, yes, yes you can."
+        ],
+        "moogle": [
+          "Kupo, Moogle.",
+          "Kupo! ... What's that mean, anyway?",
+          "Well aren't you just a cute little... cute thing!"
+        ],
+        "saturn": [
+          "Greetings, Saturnian.",
+          "Wow, you guys can do magic?! Wish I knew how that worked.",
+          "I wish we had magic like you. Would have made beating our 'benefactors' a breeze!",
+          "Magic is just technology we don't understand... So how do you do it?",
+          "Pretty wings.",
+          "So what's the difference between you, and a Thaumoth? Never understood that.",
+          "Can you conjure up your own packmates, or how does that work?"
+        ],
+        "saturn2": [
+          "Greetings, Thaumoth.",
+          "Wow, you guys can do magic?! Wish I knew how that worked.",
+          "I wish we had magic like you. Would have made beating our 'benefactors' a breeze!",
+          "Magic is just technology we don't understand... So how do you do it?",
+          "Pretty wings.",
+          "So what's the difference between you, and a Saturnian? Never understood that.",
+          "Can you conjure up your own packmates, or how does that work?"
+        ],
+        "spiritguardian": [
+          "If you hear a yellow demon in your head, tell him I said hi."
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/converse/apex/avali",
+      "value": [
+        "Greetings, my plumed pal.",
+        "Please don't distract me, they'll dock my pay or worse.",
+        "No offence, but the smell is sort've distracting.",
+        "The vivisection lab is downstairs on the left.",
+        "Are you crazy, the Miniknog will come for you being here!",
+        "Perhaps you could assist me, Avali.",
+        "Do not come too close to me...",
+        "Would you care for a banana? I suppose not.",
+        "Could you build me a tent, Avali?",
+        "Don't sneak too much, raptor. Miniknog is watching.",
+        "I don't suppose you would hunt a Miniknog guard for me?"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/converse/floran/avali",
+      "value": [
+        "Not sssstab, yet.",
+        "Not-bird-men make good fertilissser, watch yourself.",
+        "Are you edible?",
+        "Floran hear of Nexusss, is it like Floran collective?",
+        "Do you like hunting too?",
+        "We make music with bone, is that how bird-raptorsss do it too?",
+        "Raptor friend.",
+        "Floran not sssstab raptor friend.",
+        "Floran fight raptor, but play it sssafe.",
+        "Raptor friend great hunter, like floran.",
+        "Floran pet raptor friend. Pet pet pet.",
+        "Screeeeee! Floran ssspeak raptor. Or not.",
+        "Raptor friend body feels funny.",
+        "Raptor friend look ssscary. Floran not impressed."
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/converse/human/avali",
+      "value": [
+        "You're not welcome here, turkey.",
+        "If you overlook the treaty so will I, so watch it...",
+        "Ugh, savages.",
+        "Keep your distance, turkey.",
+        "Keep walking...",
+        "Ugh, you smell like a walking bowl of disinfectant.",
+        "Oh no, the invasion's begun!",
+        "I'm sorry for what my ancestors did, please don't judge us all for that.",
+        "Oh hello, turkey... er, raptor.",
+        "Why do you raptors make me feel so uneasy?",
+        "Please don't come too close, I think I might be allergic.",
+        "Here turkey turkey~",
+        "So how do you feel about Thanksgiving? Umm, never mind.",
+        "Nice feathers. Can I stroke them?"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/converse/glitch/avali",
+      "value": [
+        "Cordial. Well met.",
+        "Cordial. Greetings alien.",
+        "Bothered. Please refrain from moulting your feathers in public.",
+        "Absent-Minded. Please return to the chicken pen.",
+        "Curt. This is a no-hunting area, it is unlikely anything here is edible for your kind.",
+        "Disgusted. Olfactory sensors detect elevated ammonia levels. Simply put, you smell.",
+        "Delighted. What wonderous plumage, may I obtain some?",
+        "Curious. Are you related to the Avian?",
+        "Flirtatious. I have some objects of value if you want.",
+        "Frightened. Please do not grin at me like that.",
+        "Careful. May I stroke your feathers?",
+        "Teasing. Here bird-thing.",
+        "Annoyed. You smell of fish.",
+        "Curious. Why the propensity towards hunting?"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/converse/hylotl/avali",
+      "value": [
+        "Always a pleasure to meet a more sophisticated race.",
+        "Welcome, traveller. Please marvel at our exquisite building designs.",
+        "I don't blame you for coming here, it must be a far cry from your tent-hovel.",
+        "You should learn from us, and use the knowledge to help civilise your own people.",
+        "Is it true the Avali still eat meat?",
+        "*pinches nose* Whelcum to our hnumble abod-*gag* it's no good, the smell!",
+        "I say, your feathers looks exquisite, can I take them off you?",
+        "Ah, a Hunter. I do hope I'm not a target.",
+        "Greetings, my Avali friend.",
+        "Would you like to learn about our architecture?",
+        "Have you and your kind improved your art lately?",
+        "I... I'll admit. The feathers look good on you.",
+        "What is it, Hunter?",
+        "I saw a floran the other day. How can you stand them?",
+        "Good day to you, Hunter."
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/converse/avian/avali",
+      "value": [
+        "Greetings Avali, welcome to our settlement!",
+        "Your wings! Are you an emissary of Kluex?",
+        "I bring you the song of our people! *squawks loudly* Why are you cowering, I thought you liked music?",
+        "I wish my feathers were that long...",
+        "First rule of the grounded, you don't talk about the grounded.",
+        "Is it true your race sleeps on the floor instead of in a nest? How strange.",
+        "Greetings, Hunter.",
+        "Please don't hurt me.",
+        "I have a great idea for a tent if you want it.",
+        "Wouldn't you rather chase some prey?",
+        "You're not so bad, aren't you?",
+        "How do you feel about religion, Hunter?",
+        "Teeth!"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/converse/novakid/avali",
+      "value": [
+        "Hey howdy hey, 'vali!",
+        "Well ain't you just a purty-lookin' thing?"
+      ]
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/ningen"
+    },
+    {
+      "op": "add",
+      "path": "/converse/ningen/avali",
+      "value": [
+        "You're not welcome here, turkey.",
+        "If you overlook the treaty so will I, so watch it...",
+        "Ugh, savages.",
+        "Keep your distance, turkey.",
+        "Keep walking...",
+        "Ugh, you smell like a walking bowl of disinfectant.",
+        "Oh no, the invasion's begun!",
+        "I'm sorry for what my ancestors did, please don't judge us all for that.",
+        "Oh hello, turkey... er, raptor.",
+        "Why do you raptors make me feel so uneasy?",
+        "Please don't come too close, I think I might be allergic.",
+        "Here turkey turkey~",
+        "So how do you feel about Thanksgiving? Umm, never mind.",
+        "Nice feathers. Can I stroke them?"
+      ]
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/novali"
+    },
+    {
+      "op": "add",
+      "path": "/converse/novali/avali",
+      "value": [
+        "...For the last time, we are NOT an experiment gone wrong!",
+        "No, the Miniknog and UCSM didn't make us. Thank you for your concern.",
         "Find anything interesting out there?",
         "Hello, hunter.",
         "Did you catch that news flash for the local network?",
@@ -88,74 +462,23 @@
         "Kill anything big lately?",
         "My pack's come up with a new routine, wanna watch later?",
         "Can I get your opinion on this song I'm writi- wait, where are you going?"
-      ],
-      "glitch" : [  
-        "Hello, Glitch.",
-        "Friendly. Greetings! I've been studying your mode of speech.",
-        "Do you mind if I have a look at your neural architecture?",
-        "If Glitch are able to self reproduce and upgrade, why haven't you undergone singularity yet?",
-        "Have you thought about getting a tune up from the drone techs?",
-        "Is that a tin can used in your construction?"
-      ],
-      "novakid" : [  
-        "Hello, Novakid.",
-        "Howdy partner!",
-        "Sometimes I wish I could glow in the dark. Most of the time, not.",
-        "Not too close! I'd rather not have my feathers singed.",
-        "So you have no eyes... or ears... or mouth... how does that work? Can you hear me? Hello?",
-        "Can I borrow your glow for just a moment? ... There. Thanks, buckaroo!",
-        "Can you play guitar? I'd love to hear an old cowboy song right about now."
-      ],
-      "fenerox" : [  
-        "Hello, Fenerox.",
-        "Me Avali. Talk right? Very Awkward. Friends now?",
-        "Want to join us on a hunt later? Er... Join hunt? Much yes?",
-        "If you need help getting uplifted... er, sorry. That's forbidden. Sorry.",
-        "Left the Savannah to see the wider universe, eh?"
-      ],
-      "penguin" : [  
-        "Ugh, a penguin.",
-        "There's only one thing worse than a human... and it's right here.",
-        "Humans are bad. Penguins... are worse.",
-        "Flap off.",
-        "Your kind makes us all look bad.",
-        "Been killing any helpless standees or colonists lately?",
-        "Tell Dreadwing he can go fluff himself.",
-        "We don't need your scum here. Shoo.",
-        "Begone, pirate."
-      ],
-      //Avali Offshoots
-      "novali" : [  
-        "Hello... umm... Hunter?",
-        "Wh-What are you?!",
-        "I... I won't judge.",
-        "Okay, it's offical: augmentation has now gone too far... No offense.",
-        "Who did this to you?! The Miniknog? The USCM? They'll pay, we swear it!",
-        "Are you some sort of experiment? ... Poor thing.",
-        "Poor thing.",
-        "What's Avalon up to this time?!",
-        "Well, you can glow now. I suppose that's something.",
-        "Is this a new augmentation fad or something?",
-        "I've heard of replacement bodies, but this is ridiculous!!",
-        "If the Miniknog or USCM did this, we can hide you.",
-        "I hope this is some sort of intoxicated wager. If not...",
-        "So is your blood still ammonia? Or is it gas now? How do you... even work?",
-        "There are better ways to get radiation protection, just saying.",
-        "Talk about Isolation Madness.",
-        "I didn't think the Novakids were capable of THIS!",
-        "Can I borrow your glow for just a moment? ... There. Thanks!"
-      ],
-      "smolavali" : [  
-        "A purist, I see? There's no shame in that.",
-        "Still have your original body, I see?",
-        "I see the 'pure as possible' fad is still going strong on Avalon.",
-        "If you need a bigger body, I have one in the back somewhere.",
-        "Little tip: You might want to pick up a bigger body. Things are dangerous around out here.",
-        "Wow, I've forgotten just how much we colonists have changed from our Avalonian kin.",
-        "Augmentation has sure come a long way. Easy to forget that untill you see it.",
-        "What? Er... oh. There you are. Didn't see you down there, friend.",
+      ]
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/smolvali"
+    },
+    {
+      "op": "add",
+      "path": "/converse/smolvali/avali",
+      "value": [
+        "I forget just how big the colonists are!",
+        "How are you so big? Oh, right. Augments.",
+        "I still don't know why full body replacement is such a fad out there.",
         "Find anything interesting out there?",
-        "Hello, little hunter.",
+        "Hello, hunter.",
         "Did you catch that news flash for the local network?",
         "Hmm? Sorry, I was checking my messages.",
         "I'm developing a new sim if you want to help me test it.",
@@ -164,455 +487,178 @@
         "Kill anything big lately?",
         "My pack's come up with a new routine, wanna watch later?",
         "Can I get your opinion on this song I'm writi- wait, where are you going?"
-      ],
-      //Other races. Not doing all of them of course, just a few of the more popular ones.      
-      "aegi" : [  
-        "Hello... oh, a human... with pointy ears.",
-        "Wait, so you guys were human, a long time ago? Does that mean...",
-        "Sorry, we're not interested in joining the Alliance.",
-        "(Whispers) If our pack wanted to join the Alliance, who would we talk to?",
-        "I heard there's talks on Avalon about us joining the Alliance... is that true?",
-        "So with the Protectorate gone, I guess the Alliance is the big guy around, now?",
-        "If it's not one human-based organization, it's another.",
-        "You have Durasteel gon- Oh, sorry, thought you were something else for a moment.",
-        "Now where'd I put my- pointed ears? Sorry, I thought you were a human.",
-        "If we join the Alliance, do we have to give up our drones and the Oracle? ... No? Okay good.",
-        "I hear you guys like drones too. We should see which ones are better!"
-      ],     
-      "avikan" : [  
-        "Hello, Avikan.",
-        "I can't imagine living in the desert.",
-        "Two nomadic species from opposite end planets meeting together? Augments have come far.",
-        "Wow, and I thought our 'benefactors' were nasty. Sorry for your loss.",
-        "These 'Thell' sound a lot like our 'benefactors'. You don't think...",
-        "I'd love to see the Nomada someday.",
-        "Sorry to hear about your homeworld.",
-        "Wow, and I thought we had a rough first contact. Sorry about that.",
-        "At least your benefactors didn't try to slaughter you... Oh, sorry. That was cold."
-      ],   
-      "akkimari" : [  
-        "Hello, Akkimari.",
-        "I've always wondered what would happen if we lost the Nexus or Oracle... Now I know.",
-        "No scavenging around here, please."
-      ],   
-      "droden" : [  
-        "This is why we keep the Oracle shackled."
-      ], 
-      "trink" : [  
-        "Hello, Trink.",
-        "So, you've actually achived singularity? Wow.",
-        "Why is everything of yours so... Green?",
-        "For a moment, I thought you were a Glitch. I always get you two confused.",
-        "Do you mind if I have a look at your neural architecture?",
-        "By the way, my drone is making this weird nose. Mind having a look?"
-      ],
-      "eevee" : [  
-        "Hello, Eevee!",
-        "Are you running away from your human trainer? ... We can help hide you.",
-        "You're safe here. We won't let the human 'trainers' find you here.",
-        "Only thing worse than Humans are their dogs.",
-        "So back in the day, you could change bodies... without a augment pod? I would have loved to see that.",
-        "You say human children used to capture your kind and then make them fight for money? Human cruelty knows no bounds!",
-        "Your safe here, Eevee. We shoot slavers, or 'trainers'.",
-        "Nice coat. Can I pet it?"
-      ],
-      "familiar" : [  
-        "Hello, weird... glowing... plushie thing. Ah, a Familiar!",
-        "So you can go into cyberspace, without a neural jack? How does that even work?",
-        "You've been in the human's Nexus knockoff, right? What do they think of Avali? ... Do I want to know?",
-        "Leave my augments alone, please.",
-        "So you glow in the dark? That's cool! ... Well, some of the time, anyway.",
-        "For the last time, I don't know what 'Mario' is, and don't want to.",
-        "Please stop speaking in human 'leet speak'. It's really annoying.",
-        "And people say we have weird colors.",
-        "Can I borrow your glow for just a bit? ... There. Thanks!"
-      ],
-      "felin" : [  
-        "Hello, Felin.",
-        "So I hear you're good hunters. Let's put that to the test sometime.",
-        "What's that smell, did you... oh no.",
-        "Is it true that your kind has 53 words to describe mating rituals?",
-        "... I'd... rather not.",
-        "If I let you hug me, will you pur?",
-        "Do you have a cellphone on you? I came across a felin scrawl the other day and I don't know what it means.",
-        "... So that's what that means. I wish I didn't ask.",
-        "Just a reminder that I'm not edible. Ammonia and all that."
-      ],  
-      "lamia" : [  
-        "Hello, ugh hu- Wait wait wait, sorry! L-Lamia, right?",
-        "For a split second, I thought you were a human... Please don't eat me.",
-        "I'm not good to eat."
-      ],
-      "lucario" : [  
-        "Hello, Lucario.",
-        "Are you running away from your human trainer? ... We can help hide you.",
-        "You're safe here. We won't let the human 'trainers' find you here.",
-        "Only thing worse than Humans are their dogs.",
-        "You're not a human-loyalist, are you? Otherwise, there might be ... problems.",
-        "You say human children used to capture your kind and then make them fight for money? Human cruelty knows no bounds!",
-        "Your safe here, Lucario. We shoot slavers, or 'trainers'.",
-        "Can you see my aura? What color is it?"
-      ],
-      "kitsune" : [  
-        "Hello... Oh a human... with fox ears and tail? Ah! A Kitsune!",
-        "I thought you were a human. My bad.",
-        "You have Durasteel gon- Oh, sorry, thought you were something else for a moment.",
-        "Where did I put- Oh, sorry. Didn't see the ears and tail.",
-        "So how's Earth these days? ... Oh? You're Hylotl-raised? My bad.",
-        "I know I shouldn't really judge, but you look too much like a human.",
-        "No, you can't have a h- Oh. Second thought, yes, yes you can."
-      ],
-      "moogle" : [  
-        "Kupo, Moogle.",
-        "Kupo! ... What's that mean, anyway?",
-        "Well aren't you just a cute little... cute thing!"
-      ],
-      "saturn" : [  
-        "Greetings, Saturnian.",
-	"Wow, you guys can do magic?! Wish I knew how that worked.",
-	"I wish we had magic like you. Would have made beating our 'benefactors' a breeze!",
-	"Magic is just technology we don't understand... So how do you do it?",
-	"Pretty wings.",
-	"So what's the difference between you, and a Thaumoth? Never understood that.",
-	"Can you conjure up your own packmates, or how does that work?"
-      ],
-      "saturn2" : [  
-        "Greetings, Thaumoth.",
-	"Wow, you guys can do magic?! Wish I knew how that worked.",
-	"I wish we had magic like you. Would have made beating our 'benefactors' a breeze!",
-	"Magic is just technology we don't understand... So how do you do it?",
-	"Pretty wings.",
-	"So what's the difference between you, and a Saturnian? Never understood that.",
-	"Can you conjure up your own packmates, or how does that work?"
-      ],
-      "spiritguardian" : [  
-        "If you hear a yellow demon in your head, tell him I said hi."
-      ]  
+      ]
     }
-  },
-  {  
-    "op" : "add",
-    "path" : "/converse/apex/avali",
-    "value" : [  
-      "Greetings, my plumed pal.",
-      "Please don't distract me, they'll dock my pay or worse.",
-      "No offence, but the smell is sort've distracting.",
-      "The vivisection lab is downstairs on the left.",
-      "Are you crazy, the Miniknog will come for you being here!",
-      "Perhaps you could assist me, Avali.",
-      "Do not come too close to me...",
-      "Would you care for a banana? I suppose not.",
-      "Could you build me a tent, Avali?",
-      "Don't sneak too much, raptor. Miniknog is watching.",
-      "I don't suppose you would hunt a Miniknog guard for me?"
-    ]
-  },
-  {  
-    "op" : "add",
-    "path" : "/converse/floran/avali",
-    "value" : [  
-      "Not sssstab, yet.",
-      "Not-bird-men make good fertilissser, watch yourself.",
-      "Are you edible?",
-      "Floran hear of Nexusss, is it like Floran collective?",
-      "Do you like hunting too?",
-      "We make music with bone, is that how bird-raptorsss do it too?",
-      "Raptor friend.",
-      "Floran not sssstab raptor friend.",
-      "Floran fight raptor, but play it sssafe.",
-      "Raptor friend great hunter, like floran.",
-      "Floran pet raptor friend. Pet pet pet.",
-      "Screeeeee! Floran ssspeak raptor. Or not.",
-      "Raptor friend body feels funny.",
-      "Raptor friend look ssscary. Floran not impressed."
-    ]
-  },
-  {  
-    "op" : "add",
-    "path" : "/converse/human/avali",
-    "value" : [  
-      "You're not welcome here, turkey.",
-      "If you overlook the treaty so will I, so watch it...",
-      "Ugh, savages.",
-      "Keep your distance, turkey.",
-      "Keep walking...",
-      "Ugh, you smell like a walking bowl of disinfectant.",
-      "Oh no, the invasion's begun!",
-      "I'm sorry for what my ancestors did, please don't judge us all for that.",
-      "Oh hello, turkey... er, raptor.",
-      "Why do you raptors make me feel so uneasy?",
-      "Please don't come too close, I think I might be allergic.",
-      "Here turkey turkey~",
-      "So how do you feel about Thanksgiving? Umm, never mind.",
-      "Nice feathers. Can I stroke them?"
-    ]
-  },
-  {  
-    "op" : "add",
-    "path" : "/converse/ningen/avali",
-    "value" : [  
-      "You're not welcome here, turkey.",
-      "If you overlook the treaty so will I, so watch it...",
-      "Ugh, savages.",
-      "Keep your distance, turkey.",
-      "Keep walking...",
-      "Ugh, you smell like a walking bowl of disinfectant.",
-      "Oh no, the invasion's begun!",
-      "I'm sorry for what my ancestors did, please don't judge us all for that.",
-      "Oh hello, turkey... er, raptor.",
-      "Why do you raptors make me feel so uneasy?",
-      "Please don't come too close, I think I might be allergic.",
-      "Here turkey turkey~",
-      "So how do you feel about Thanksgiving? Umm, never mind.",
-      "Nice feathers. Can I stroke them?"
-    ]
-  },
-  {  
-    "op" : "add",
-    "path" : "/converse/glitch/avali",
-    "value" : [  
-      "Cordial. Well met.",
-      "Cordial. Greetings alien.",
-      "Bothered. Please refrain from moulting your feathers in public.",
-      "Absent-Minded. Please return to the chicken pen.",
-      "Curt. This is a no-hunting area, it is unlikely anything here is edible for your kind.",
-      "Disgusted. Olfactory sensors detect elevated ammonia levels. Simply put, you smell.",
-      "Delighted. What wonderous plumage, may I obtain some?",
-      "Curious. Are you related to the Avian?",
-      "Flirtatious. I have some objects of value if you want.",
-      "Frightened. Please do not grin at me like that.",
-      "Careful. May I stroke your feathers?",
-      "Teasing. Here bird-thing.",
-      "Annoyed. You smell of fish.",
-      "Curious. Why the propensity towards hunting?"
-    ]
-  },
-  {  
-    "op" : "add",
-    "path" : "/converse/hylotl/avali",
-    "value" : [  
-      "Always a pleasure to meet a more sophisticated race.",
-      "Welcome, traveller. Please marvel at our exquisite building designs.",
-      "I don't blame you for coming here, it must be a far cry from your tent-hovel.",
-      "You should learn from us, and use the knowledge to help civilise your own people.",
-      "Is it true the Avali still eat meat?",
-      "*pinches nose* Whelcum to our hnumble abod-*gag* it's no good, the smell!",
-      "I say, your feathers looks exquisite, can I take them off you?",
-      "Ah, a Hunter. I do hope I'm not a target.",
-      "Greetings, my Avali friend.",
-      "Would you like to learn about our architecture?",
-      "Have you and your kind improved your art lately?",
-      "I... I'll admit. The feathers look good on you.",
-      "What is it, Hunter?",
-      "I saw a floran the other day. How can you stand them?",
-      "Good day to you, Hunter."
-    ]
-  },
-  {  
-    "op" : "add",
-    "path" : "/converse/avian/avali",
-    "value" : [  
-      "Greetings Avali, welcome to our settlement!",
-      "Your wings! Are you an emissary of Kluex?",
-      "I bring you the song of our people! *squawks loudly* Why are you cowering, I thought you liked music?",
-      "I wish my feathers were that long...",
-      "First rule of the grounded, you don't talk about the grounded.",
-      "Is it true your race sleeps on the floor instead of in a nest? How strange.",
-      "Greetings, Hunter.",
-      "Please don't hurt me.",
-      "I have a great idea for a tent if you want it.",
-      "Wouldn't you rather chase some prey?",
-      "You're not so bad, aren't you?",
-      "How do you feel about religion, Hunter?",
-      "Teeth!"
-    ]
-  },
-  {  
-    "op" : "add",
-    "path" : "/converse/novakid/avali",
-    "value" : [  
-      "Hey howdy hey, 'vali!",
-      "Well ain't you just a purty-lookin' thing?"
-    ]
-  },
-  {  
-    "op" : "add",
-    "path" : "/converse/fenerox/avali",
-    "value" : [  
-      "Fluffy bird. Not bird? Fenerox confused.",
-      "Smells funny.",
-      "Fluffy thing. Want hug! Why not?",
-      "Fluffy thing. Not Fenerox. Being polite.",
-      "Feathers pretty. Is cute. Fenerox like."
-    ]
-  },
-  // Avali offshoots
-  {  
-    "op" : "add",
-    "path" : "/converse/novali/avali",
-    "value" : [  
-      "...For the last time, we are NOT an experiment gone wrong!",
-      "No, the Miniknog and UCSM didn't make us. Thank you for your concern.",
-      "Find anything interesting out there?",
-      "Hello, hunter.",
-      "Did you catch that news flash for the local network?",
-      "Hmm? Sorry, I was checking my messages.",
-      "I'm developing a new sim if you want to help me test it.",
-      "Are you in the right tent? ...Am I?",
-      "Got any interesting tales from your travels?",
-      "Kill anything big lately?",
-      "My pack's come up with a new routine, wanna watch later?",
-      "Can I get your opinion on this song I'm writi- wait, where are you going?"
-    ]
-  },
-  {  
-    "op" : "add",
-    "path" : "/converse/smolvali/avali",
-    "value" : [  
-      "I forget just how big the colonists are!",
-      "How are you so big? Oh, right. Augments.",
-      "I still don't know why full body replacement is such a fad out there.",
-      "Find anything interesting out there?",
-      "Hello, hunter.",
-      "Did you catch that news flash for the local network?",
-      "Hmm? Sorry, I was checking my messages.",
-      "I'm developing a new sim if you want to help me test it.",
-      "Are you in the right tent? ...Am I?",
-      "Got any interesting tales from your travels?",
-      "Kill anything big lately?",
-      "My pack's come up with a new routine, wanna watch later?",
-      "Can I get your opinion on this song I'm writi- wait, where are you going?"
-    ]
-  },
-  // Other races.
-  {  
-    "op" : "add",
-    "path" : "/converse/aegi/avali",
-    "value" : [  
-      "Greetings, Avali.",
-      "Here to join the Alliance? You'll want to speak t- hey, where are you going?",
-      "I assure you, we have nothing to do with these 'precursors' you speak of.",
-      "If you find any Earth refugees, be nice to them. We don't tolerate discrimination.",
-      "We're going to have to ask you to stop with the 'tiny violin' jokes when speaking to human refugees.",
-      "Are you sure these 'benefactors' were human? It doesn't match up with our historical records.",
-      "Missing your pack? You can find refuge here.",
-      "I trust there will be no discrimination issues while you are here, yes?",
-      "These 'benefactors' sound like terrible people. You have our sympathies.",
-      "We are not these 'benefactors' you speak of. We do not tolerate slavery.",
-      "This 'USCM' you speak of has no power here.",
-"Have your leaders considered joining the Alliance?"
-    ]
-  },
-  {  
-    "op" : "add",
-    "path" : "/converse/avakin/avali",
-    "value" : [  
-      "Greetings, Avali.",
-      "We know what a war of extermination feels like. You have our sympathies.",
-      "Are you sure these 'benefactors' weren't the Thell? Sounds like them.",
-      "At least you got to keep your homeplanet. We had to flee ours.",
-      "A fellow nomad! Vas Vha'leih.",
-      "Living on an ice world sounds like living in a desert... but colder.",
-      "Have any tips for kicking an invader off your homeworld? We're still working on that.",
-      "Missing your pack? You can find refuge here.",
-      "Beware the Thell. They make your 'benefactors' look like childen."
-    ]
-  },
-  {  
-    "op" : "add",
-    "path" : "/converse/trink/avali",
-    "value" : [  
-      "Hello, Avali.",
-      "Scanning augments. 84% efficency. Non-optimal. I suggest a tune-up.",
-      "This 'Oracle' sounds like The Circuit.",
-      "You should join the Alliance. Cooperation in these times is logical.",
-      "I'm sorry you do not have good relations with your benefactors as we do.",
-      "You need not fear singularity. We are proof of that.",
-      "This continued hatred for humans is illogical.",
-      "Your technology is interesting to me. Crude, but interesting.",
-      "Comparing description of 'benefactors' against entity 'Thell'. 70% match.",
-      "Your feathers are intruiging.",
-      "We both come from cold worlds. Perhaps I shall visit Avalon some time."
-    ]
-  },
-  {  
-    "op" : "add",
-    "path" : "/converse/eevee/avali",
-    "value" : [  
-      "Hello, Avali.",
-      "Please don't eat me.",
-      "'Trainers' haven't been a thing for hundreds of years.",
-      "Please stop blaming humans for everything... Please?",
-      "I appreciate your concern, but the 'trainer' days are long gone.",
-      "Nice feathers."
-    ]
-  },
-  {  
-    "op" : "add",
-    "path" : "/converse/familiar/avali",
-    "value" : [  
-      "Yo, 'vali!",
-      "Do yourself a favor, NEVER look up 'Avali NSFW' on the human internet.",
-      "After that last trip on the 'net, I will never see a 'vali the same way ever again.",
-      "Got any good games over on the Nexus?"
-    ]
-  },
-  // (Felins already have their own converse lines for Avali.)
- {  
-    "op" : "add",
-    "path" : "/converse/lucario/avali",
-    "value" : [  
-      "Greetings, Avali.",
-      "Your aura is marred by ancient grudges. Do not let them cloud your judgement.",
-      "There were more than humans on Earth. Remember this the next time you make a 'small violin' joke.",
-      "Your plumage is wonderful.",
-      "You advance technogically, yet your mindsets stay focused on the past. You must move past it.",
-      "So do you brush your feathers.... or?...",
-      "Is your bone structure light? Ours is made of metal.",
-      "I am not a prey to hunt.",
-      "Past hatreds, justified or not, must be cast aside if one is to advance themselves.",
-      "If I hear one more joke about small violins and tentacles... Sorry, I almost lost my temper there."
-    ]
-  },
- {  
-    "op" : "add",
-    "path" : "/converse/kitsune/avali",
-    "value" : [  
-      "Hello, Avali.",
-      "You do know there were more than humans living on Earth, right?",
-      "I like your plumage.",
-      "Aww, how cute!",
-      "If I hear you say 'small violin' and 'Earth' in the same sentence, so help me..."
-    ]
-  },
- {  
-    "op" : "add",
-    "path" : "/converse/saturn/avali",
-    "value" : [  
-      "Hello, Avali.",
-      "You have beautiful wings.",
-      "I like your plumage.",
-      "Aww, how cute! (squeaking)",
-      "Might I borrow a feather? I need it for a spell I'm working on..."
-    ]
-  },
- {  
-    "op" : "add",
-    "path" : "/converse/saturn2/avali",
-    "value" : [  
-      "Hello, Avali.",
-      "You have beautiful wings.",
-      "I like your plumage.",
-      "Aww, how cute! (squeaking)",
-      "Might I borrow a feather? I need it for a spell I'm working on..."
-    ]
-  },
- {  
-    "op" : "add",
-    "path" : "/converse/spiritguardian/avali",
-    "value" : [  
-      "Hello, Avali.",
-      "If you hear a yellow demon in your head, tell him I said hi."
-    ]
-  }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/aegi"
+    },
+    {
+      "op": "add",
+      "path": "/converse/aegi/avali",
+      "value": [
+        "Greetings, Avali.",
+        "Here to join the Alliance? You'll want to speak t- hey, where are you going?",
+        "I assure you, we have nothing to do with these 'precursors' you speak of.",
+        "If you find any Earth refugees, be nice to them. We don't tolerate discrimination.",
+        "We're going to have to ask you to stop with the 'tiny violin' jokes when speaking to human refugees.",
+        "Are you sure these 'benefactors' were human? It doesn't match up with our historical records.",
+        "Missing your pack? You can find refuge here.",
+        "I trust there will be no discrimination issues while you are here, yes?",
+        "These 'benefactors' sound like terrible people. You have our sympathies.",
+        "We are not these 'benefactors' you speak of. We do not tolerate slavery.",
+        "This 'USCM' you speak of has no power here.",
+        "Have your leaders considered joining the Alliance?"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/converse/avakin/avali",
+      "value": [
+        "Greetings, Avali.",
+        "We know what a war of extermination feels like. You have our sympathies.",
+        "Are you sure these 'benefactors' weren't the Thell? Sounds like them.",
+        "At least you got to keep your homeplanet. We had to flee ours.",
+        "A fellow nomad! Vas Vha'leih.",
+        "Living on an ice world sounds like living in a desert... but colder.",
+        "Have any tips for kicking an invader off your homeworld? We're still working on that.",
+        "Missing your pack? You can find refuge here.",
+        "Beware the Thell. They make your 'benefactors' look like childen."
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/converse/trink/avali",
+      "value": [
+        "Hello, Avali.",
+        "Scanning augments. 84% efficency. Non-optimal. I suggest a tune-up.",
+        "This 'Oracle' sounds like The Circuit.",
+        "You should join the Alliance. Cooperation in these times is logical.",
+        "I'm sorry you do not have good relations with your benefactors as we do.",
+        "You need not fear singularity. We are proof of that.",
+        "This continued hatred for humans is illogical.",
+        "Your technology is interesting to me. Crude, but interesting.",
+        "Comparing description of 'benefactors' against entity 'Thell'. 70% match.",
+        "Your feathers are intruiging.",
+        "We both come from cold worlds. Perhaps I shall visit Avalon some time."
+      ]
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/eevee"
+    },
+    {
+      "op": "add",
+      "path": "/converse/eevee/avali",
+      "value": [
+        "Hello, Avali.",
+        "Please don't eat me.",
+        "'Trainers' haven't been a thing for hundreds of years.",
+        "Please stop blaming humans for everything... Please?",
+        "I appreciate your concern, but the 'trainer' days are long gone.",
+        "Nice feathers."
+      ]
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/familiar"
+    },
+    {
+      "op": "add",
+      "path": "/converse/familiar/avali",
+      "value": [
+        "Yo, 'vali!",
+        "Do yourself a favor, NEVER look up 'Avali NSFW' on the human internet.",
+        "After that last trip on the 'net, I will never see a 'vali the same way ever again.",
+        "Got any good games over on the Nexus?"
+      ]
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/lucario"
+    },
+    {
+      "op": "add",
+      "path": "/converse/lucario/avali",
+      "value": [
+        "Greetings, Avali.",
+        "Your aura is marred by ancient grudges. Do not let them cloud your judgement.",
+        "There were more than humans on Earth. Remember this the next time you make a 'small violin' joke.",
+        "Your plumage is wonderful.",
+        "You advance technogically, yet your mindsets stay focused on the past. You must move past it.",
+        "So do you brush your feathers.... or?...",
+        "Is your bone structure light? Ours is made of metal.",
+        "I am not a prey to hunt.",
+        "Past hatreds, justified or not, must be cast aside if one is to advance themselves.",
+        "If I hear one more joke about small violins and tentacles... Sorry, I almost lost my temper there."
+      ]
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/kitsune"
+    },
+    {
+      "op": "add",
+      "path": "/converse/kitsune/avali",
+      "value": [
+        "Hello, Avali.",
+        "You do know there were more than humans living on Earth, right?",
+        "I like your plumage.",
+        "Aww, how cute!",
+        "If I hear you say 'small violin' and 'Earth' in the same sentence, so help me..."
+      ]
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/saturn"
+    },
+    {
+      "op": "add",
+      "path": "/converse/saturn/avali",
+      "value": [
+        "Hello, Avali.",
+        "You have beautiful wings.",
+        "I like your plumage.",
+        "Aww, how cute! (squeaking)",
+        "Might I borrow a feather? I need it for a spell I'm working on..."
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/converse/saturn2/avali",
+      "value": [
+        "Hello, Avali.",
+        "You have beautiful wings.",
+        "I like your plumage.",
+        "Aww, how cute! (squeaking)",
+        "Might I borrow a feather? I need it for a spell I'm working on..."
+      ]
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/spiritguardian"
+    },
+    {
+      "op": "add",
+      "path": "/converse/spiritguardian/avali",
+      "value": [
+        "Hello, Avali.",
+        "If you hear a yellow demon in your head, tell him I said hi."
+      ]
+    }
+  ]
 ]
