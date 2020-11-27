@@ -1,3 +1,4 @@
+--Modified version of vanilla pet action
 inspectAction = {
 }
 

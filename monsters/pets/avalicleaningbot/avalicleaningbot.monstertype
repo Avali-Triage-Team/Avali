@@ -23,12 +23,12 @@
       "/monsters/pets/wanderState.lua",
 
       "/monsters/pets/avaliPetBehavior.lua",
-      "/monsters/pets/actions/followAction.lua",
+      "/monsters/pets/avaliactions/followAction.lua",
       "/monsters/pets/avaliactions/inspectAction.lua",
       "/monsters/pets/avaliactions/eatAction.lua",
-      "/monsters/pets/actions/sleepAction.lua",
-      "/monsters/pets/actions/begAction.lua",
-      "/monsters/pets/actions/pounceAction.lua",
+      "/monsters/pets/avaliactions/sleepAction.lua",
+      "/monsters/pets/avaliactions/begAction.lua",
+      "/monsters/pets/avaliactions/pounceAction.lua",
       "/monsters/pets/avaliactions/starvingAction.lua"
     ],
 
@@ -125,7 +125,7 @@
       "airForce" : 50.0
     },
 
-    "bodyMaterialKind" : "organic",
+    "bodyMaterialKind" : "robotic",
 
     "knockoutTime" : 0.3,
     "knockoutEffect" : "blink",
@@ -142,7 +142,7 @@
 
     "statusSettings" : {
       "statusProperties" : {
-        "targetMaterialKind" : "organic"
+        "targetMaterialKind" : "robotic"
       },
 
       "appliesEnvironmentStatusEffects" : false,

@@ -1,3 +1,4 @@
+--Modified version of cut vanilla pet action
 starvingAction = {}
 
 function starvingAction.enterWith(args)
@@ -15,7 +16,7 @@ function starvingAction.update(dt, stateData)
   stateData.timer = stateData.timer - dt
 
   if stateData.timer < 1 and not stateData.didEmote then
-    emote("sad")
+    emote("lowpower")
     stateData.didEmote = true
   elseif stateData.timer < 0 then
     return true, config.getParameter("actionParams.starving.cooldown", 3)

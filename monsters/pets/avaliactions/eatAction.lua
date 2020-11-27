@@ -1,3 +1,4 @@
+--Modified version of vanilla pet action
 eatAction = {
 }
 
@@ -102,11 +103,11 @@ function eatAction.consumeFromObject(stateData)
   local item = world.containerItemAt(stateData.targetId, 0)
   if item then
     if foodLiking and item.name == "avalibattery" and world.containerConsumeAt(stateData.targetId, 0, 0) then
-        emote("avalirecharged")
+        emote("recharged")
         status.modifyResource("hunger", -30)
         return true
       elseif foodLiking and world.containerConsumeAt(stateData.targetId, 0, 1) then
-        emote("avalirecharged")
+        emote("recharged")
         status.modifyResource("hunger", -40)
         return true
       end
