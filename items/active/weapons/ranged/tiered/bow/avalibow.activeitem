@@ -4,7 +4,7 @@
   "inventoryIcon" : "avalibowicon.png",
   "maxStack" : 1,
   "rarity" : "Common",
-  "tooltipKind" : "bow",
+  "tooltipKind" : "avalichituibow",
   "category" : "bow",
   "description" : "A bow created utilizing Avali technology. It's unclear who designed it, since the Avali have never used bows.",
   "shortdescription" : "CB1 Lancer",

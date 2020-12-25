@@ -7,7 +7,7 @@
   "description" : "An anti-materiel rifle more frequently used for hunting armoured vehicles than wildlife.",
   "shortdescription" : "AM1 Firelance",
   "level" : 1,
-  "tooltipKind" : "gun",
+  "tooltipKind" : "avalichitsnipui",
   "category" : "sniperRifle",
   "itemTags" : ["weapon","ranged","rifle"],
   "twoHanded" : true,

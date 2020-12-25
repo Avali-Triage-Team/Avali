@@ -1,0 +1,157 @@
+{
+   //Made by Dilrax from RenTek for Avali Triage, contact me if you need help editing.
+   //Edit header, body and Footer images if you need to expand visual zones
+   //Edit code below for just stat text, item shortdescription and category code is not here.
+   //set an item to "tooltipKind" : "avalichitui", to use this UI
+   
+  "background" : {
+    "type" : "background",
+    "fileHeader" : "/interface/tooltips/avalichituiheader.png",
+    "fileBody" : "/interface/tooltips/avalichituibody2.png",
+    "fileFooter" : "/interface/tooltips/avalichituifooter2.png"
+  },
+  //===================== LEVEL LABELS =====================
+  "levelTitleLabel" : {
+    "type" : "label",
+    "position" : [110, 127],
+    "hAnchor" : "right",
+    "value" : "lvl"
+  },
+  "levelLabel" : {
+    "type" : "label",
+    "position" : [120, 127],
+    "hAnchor" : "right"
+  },
+  //=================== END LEVEL LABELS ===================
+  "moneyIcon" : {
+    "type" : "image",
+    "position" : [88, 14],
+    "file" : "/interface/money.png"
+  },
+  "priceLabel" : {
+    "type" : "label",
+    "position" : [101, 14],
+    "hAnchor" : "left",
+    "value" : "tree"
+  },
+  "altAbilityLabel" : {
+    "type" : "label",
+    "position" : [120, 32],
+    "hAnchor" : "right",
+    "centered" : true,
+    "wrapWidth" : 126
+  },
+  "speedTitleLabel" : {
+    "type" : "label",
+    "position" : [20, 59],
+    "hAnchor" : "left",
+    "value" : "Rate of Fire:"
+  },
+  "speedLabel" : {
+    "type" : "label",
+    "position" : [118, 59],
+    "hAnchor" : "right",
+    "wrapWidth" : 126
+  },
+  "damagePerShotTitleLabel" : {
+    "type" : "label",
+    "position" : [20, 68],
+    "hAnchor" : "left",
+    "value" : "Damage (DPS):"
+  },
+  "damagePerShotLabel" : {
+    "type" : "label",
+    "position" : [118, 68],
+    "hAnchor" : "right",
+    "wrapWidth" : 126
+  },
+  "energyPerShotTitleLabel" : {
+    "type" : "label",
+    "position" : [20, 50],
+    "hAnchor" : "left",
+    "value" : "Energy Cost:"
+  },
+  "energyPerShotLabel" : {
+    "type" : "label",
+    "position" : [118, 50],
+    "hAnchor" : "right",
+    "wrapWidth" : 126
+  },
+  "handednessLabel" : {
+    "type" : "label",
+    "position" : [90, 140],
+    "hAnchor" : "right",
+    "centered" : true,
+    "wrapWidth" : 126
+  },
+  "rarityLabel" : {
+    "type" : "label",
+    "position" : [20, 14],
+    "hAnchor" : "left",
+    "centered" : true,
+    "wrapWidth" : 126
+  },
+  "damageKindImage" : {
+    "type" : "image",
+    "position" : [112, 97],
+    "file" : "",
+    "centered" : true,
+    "maxSize" : [16, 16],
+    "minSize" : [16, 16]
+  },
+  "objectImage" : {
+    "type" : "image",
+    "position" : [55, 105],
+    "file" : "",
+    "centered" : true,
+    "maxSize" : [60, 25],
+    "minSize" : [60, 25]
+  },
+  //===================== ADDITIONAL LABELS =====================
+  //to use these additional labels you will need a custom buildscript with the following.
+  //config.tooltipFields.manufacturerLabel = configParameter("manufacturer")
+  //config.tooltipFields.fakedamagePerShotLabel = configParameter("fakedps")
+  //config.tooltipFields.fakechargeTimeLabel = configParameter("fakecharge")
+  //config.tooltipFields.fakeenergyPerShotLabel = configParameter("fakeeps")
+  //config.tooltipFields.fakeenergyLabel = configParameter("fakeenergy")
+  
+  //Custom field, Manufacturer Label, for items made by differant in-lore groups
+  "manufacturerLabel" : {
+    "type" : "label",
+    "position" : [120, 115],
+    "hAnchor" : "right",
+    "centered" : true,
+    "wrapWidth" : 126
+  },
+  //False Stat Labels, remove the original stat from above and edit value below to give false/custom info
+  //Custom field, false DPS Label
+  "fakedamagePerShotLabel" : {
+    "type" : "label",
+    "position" : [130, 77],
+    "hAnchor" : "right",
+    "centered" : true,
+    "value" : ""
+  },
+	//Custom field, False Charge Label
+  "fakechargeTimeLabel" : {
+    "type" : "label",
+    "position" : [130, 68],
+    "hAnchor" : "right",
+    "value" : ""
+  },
+	//Custom field, False EPS Label
+   "fakeenergyPerShotLabel" : {
+    "type" : "label",
+    "position" : [130, 59],
+    "hAnchor" : "right",
+    "value" : ""
+  },
+    //Custom field, False energy Label
+  "fakeenergyLabel" : {
+    "type" : "label",
+    "position" : [130, 89],
+    "hAnchor" : "right",
+    "centered" : true,
+    "wrapWidth" : 126
+  }
+}

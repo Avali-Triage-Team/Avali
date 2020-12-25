@@ -7,7 +7,7 @@
   "description" : "The standard Avali infantry weapon.",
   "shortdescription" : "AR1-HE Blizzard",
   "level" : 1,
-  "tooltipKind" : "gun",
+  "tooltipKind" : "avalichitui",
   "weaponType" : "Assault Rifle",
   "category" : "assaultRifle",
   "itemTags" : ["weapon","ranged","assaultrifle"],

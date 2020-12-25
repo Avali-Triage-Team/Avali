@@ -6,7 +6,7 @@
   "rarity" : "legendary",
   "description" : "The glacier-type 'skeleton key' is used for breaking down doors, or sometimes walls, with it's on board rocket motor and guidance fins.",
   "shortdescription" : "SKM2 Glacier",
-  "tooltipKind" : "sword",
+  "tooltipKind" : "avalichituimelee",
   "weaponType" : "Hammer",
   "twoHanded" : true,
   "category" : "hammer",

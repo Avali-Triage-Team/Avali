@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "VL3 Icicle",
   "shortdescription" : "VL3 Icicle",
-  "tooltipKind" : "sword",
+  "tooltipKind" : "avalichituimelee",
   "weaponType" : "Spear",
   "twoHanded" : true,
   "category" : "spear",
