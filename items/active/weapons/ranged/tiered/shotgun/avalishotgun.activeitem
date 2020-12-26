@@ -7,7 +7,7 @@
   "description" : "An avali shotgun!",
   "shortdescription" : "QRC Type-1",
   "level" : 1,
-  "tooltipKind" : "gun",
+  "tooltipKind" : "avalichitui",
   "category" : "shotgun",
   "itemTags" : ["weapon","ranged","shotgun"],
   "twoHanded" : true,

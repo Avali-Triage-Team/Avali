@@ -7,7 +7,7 @@
   "description" : "The primary Avali suppressive fire and support weapon.",
   "shortdescription" : "MG1 Hailstorm",
   "level" : 1,
-  "tooltipKind" : "gun",
+  "tooltipKind" : "avalichitui",
   "weaponType" : "Minigun",
   "category" : "assaultRifle",
   "itemTags" : ["weapon","ranged","minigun"],

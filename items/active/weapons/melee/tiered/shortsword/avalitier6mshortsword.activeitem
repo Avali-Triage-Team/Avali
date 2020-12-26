@@ -6,7 +6,7 @@
   "rarity" : "legendary",
   "description" : "The 'Shard' class vibroblade is more popular among colonists, martial arts enthusiasts and comic-book nerds than actual soldiers and hunters.",
   "shortdescription" : "VBM2 Shard",
-  "tooltipKind" : "sword",
+  "tooltipKind" : "avalichituimelee",
   "category" : "shortsword",
   "twoHanded" : false,
   "itemTags" : ["weapon","melee","shortsword"],

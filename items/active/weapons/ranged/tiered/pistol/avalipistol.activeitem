@@ -7,7 +7,7 @@
   "description" : "The basic Avali military grade sidearm.",
   "shortdescription" : "PD1 Frostbite",
   "level" : 1,
-  "tooltipKind" : "gun",
+  "tooltipKind" : "avalichitui",
   "category" : "pistol",
   "itemTags" : ["weapon","ranged","pistol"],
   "twoHanded" : false,

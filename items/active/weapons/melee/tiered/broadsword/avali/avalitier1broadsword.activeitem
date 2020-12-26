@@ -6,7 +6,7 @@
   "rarity" : "common",
   "description" : "The 'Dire Shard' longblade is a rather impractical weapon, nonetheless the heavier variants can allegedly cleave a tank in two.",
   "shortdescription" : "VB-XL1 Dire Shard",
-  "tooltipKind" : "sword",
+  "tooltipKind" : "avalichituimelee",
   "weaponType" : "Broadsword",
   "category" : "broadsword",
   "twoHanded" : true,

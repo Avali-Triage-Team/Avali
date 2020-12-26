@@ -6,7 +6,7 @@
   "rarity" : "rare",
   "description" : "Stalkers and martial artists take great pride in their dexterous acrobatic use of hand-to-hand fighting weapons.",
   "shortdescription" : "HHM1 Frost",
-  "tooltipKind" : "sword",
+  "tooltipKind" : "avalichituimelee",
   "category" : "dagger",
   "twoHanded" : false,
   "itemTags" : ["weapon","melee","dagger"],
