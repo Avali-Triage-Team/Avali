@@ -29,7 +29,7 @@
     "fireTime" : 1.3,
     "baseDps" : 11.5,
     "damageConfig" : {
-      "damageSourceKind" : "hammer",
+      "damageSourceKind" : "aerotech",
       "statusEffects" : [ ],
       "knockbackMode" : "facing",
        "stances" : {
