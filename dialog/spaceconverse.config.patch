@@ -1,4 +1,5 @@
 [
+  { "op": "copy", "from": "/converse/default", "path": "/converse/human" }
   {
     "op": "add",
     "path": "/converse/human",
