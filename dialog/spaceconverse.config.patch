@@ -2,9 +2,8 @@
   { "op": "copy", "from": "/converse/default", "path": "/converse/human" },
   {
     "op": "add",
-    "path": "/converse/human",
-    "value": {
-      "avali": [
+    "path": "/converse/human/avali",
+    "value": [
         "You're not welcom- Oh? You're not ADF? Nevermind, then.",
         "Why is it that your ADF guys are uptight racists, while you AEF guys are so chill?",
         "Is it true that they stick the packs they don't like in the AEF, just to get rid of them?",
@@ -15,7 +14,6 @@
         "Are you AEF? Okay good, that means you're probably decent.",
         "I'm... not interested. Sorry."
       ]
-    }
   },
   {
     "op": "add",
