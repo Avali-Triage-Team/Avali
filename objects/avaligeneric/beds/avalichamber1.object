@@ -1,6 +1,6 @@
 {
   "objectName" : "avalichamber1",
-  "colonyTags" : [ "avali", "avalicamp" ],
+  "colonyTags" : [ "avali", "avalicamp", "bed" ],
   "itemTags" : ["coloriser"],
   "printable" : true,
   "rarity" : "Common",
