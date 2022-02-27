@@ -1,8 +1,8 @@
 {
   "input" : [
     { "item" : "avaligraphene", "count" : 6 },
-    { "item" : "avalitier1pilum", "count" : 3 }
+    { "item" : "avalitier1pilum", "count" : 25 }
   ],
-  "output" : { "item" : "avalitier2pilum", "count" : 3 },
+  "output" : { "item" : "avalitier2pilum", "count" : 25 },
   "groups" : [ "craftinganvil", "consumables", "all" ]
 }

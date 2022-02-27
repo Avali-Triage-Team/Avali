@@ -1,10 +1,10 @@
 {
   "input" : [
-    { "item" : "avalitier2pilum", "count" : 3 },
-    { "item" : "refinedaegisalt", "count" : 3 },
-    { "item" : "solariumstar", "count" : 3 },
+    { "item" : "avalitier2pilum", "count" : 25 },
+    { "item" : "refinedaegisalt", "count" : 1 },
+    { "item" : "solariumstar", "count" : 1 },
     { "item" : "money", "count" : 1000 }
   ],
-  "output" : { "item" : "avalitier3pilum", "count" : 3 },
+  "output" : { "item" : "avalitier3pilum", "count" : 25 },
   "groups" : [ "craftinganvil", "consumables", "all" ]
 }
