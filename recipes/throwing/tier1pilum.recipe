@@ -1,8 +1,8 @@
 {
   "input" : [
-    { "item" : "ironbar", "count" : 6 },
-    { "item" : "aerogel", "count" : 3 }
+    { "item" : "ironbar", "count" : 1 },
+    { "item" : "aerogel", "count" : 1 }
   ],
-  "output" : { "item" : "avalitier1pilum", "count" : 3 },
+  "output" : { "item" : "avalitier1pilum", "count" : 25 },
   "groups" : [ "craftinganvil", "consumables", "all" ]
 }
