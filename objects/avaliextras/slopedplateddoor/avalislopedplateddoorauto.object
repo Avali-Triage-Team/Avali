@@ -1,0 +1,71 @@
+{
+  "objectName" : "avalislopedplateddoorauto",
+  "colonyTags" : ["avali","door"],
+  "itemTags" : ["coloriser"],
+  "rarity" : "Common",
+
+  "category" : "door",
+  "price" : 125,
+  "printable" : true,
+  "description" : "A door made to stop the strongest weapons. Opens Automatically.",
+  "shortdescription" : "Sloped Plated Door, Auto",
+  "race" : "avali",
+  "retainObjectParametersInItem": true,
+
+  "apexDescription" : "I can't think of many things that could break through a door this big. Or strong.",
+  "avianDescription" : "This door is nothing like any I've ever seen.",
+  "floranDescription" : "Ssswish! Door ssslides up and down!",
+  "glitchDescription" : "Awed. I can not even begin to guess what this door is made of.",
+  "humanDescription" : "Quite a silly looking door, isn't it?",
+  "hylotlDescription" : "Minimalistic, yet what does it mean for it to be at an angle like this?",
+  "novakidDescription" : "Can't lean against a door like this.",
+  "avaliDescription" : "Even though it's diagonal, it still can hold up against fire and bullets as well as our other doors.",
+
+  "inventoryIcon" : "avalislopedplateddooricon.png",
+  "orientations" : [
+    {
+      "image" : "avalislopedplateddoor.png:<color>.default",
+      "direction" : "left",
+      "flipImages" : true,
+      "imagePosition" : [-16, 0],
+      "renderLayer" : "Object+5",
+      "spaceScan" : 0.1,
+      "fgAnchors" : [ [-2, -1], [-1, -1], [4, 6], [5, 6] ],
+      "animationPosition" : [-16, 0]
+    },
+    {
+      "image" : "avalislopedplateddoor.png:<color>.default",
+      "direction" : "right",
+      "imagePosition" : [-40, 0],
+      "renderLayer" : "Object+5",
+      "spaceScan" : 0.1,
+      "fgAnchors" : [ [-5, 6], [-4, 6], [1, -1], [2, -1] ],
+      "animationPosition" : [-40, 0]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+  
+  "sensorConfig" : {},
+
+  "animation" : "/objects/wired/door/avali-coloreddoor.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "open" : {
+        "pool" : [ "/sfx/objects/apexcooldoor_open.ogg" ],
+        "rangeMultiplier" : 0.5
+      },
+      "close" : {
+        "pool" : [ "/sfx/objects/apexcooldoor_close.ogg" ],
+        "rangeMultiplier" : 0.5
+      }
+    }
+  },
+  "animationParts" : {
+    "door" : "avalislopedplateddoor.png"
+  },
+
+  "inputNodes" : [ [0, 2] ],
+  "outputNodes" : [ [0, 0] ]
+}

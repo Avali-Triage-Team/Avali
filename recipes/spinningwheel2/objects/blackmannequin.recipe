@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 100 }
+  ],
+  "output" : {
+    "item" : "blackmannequin",
+  "count" : 1
+  },
+  "groups" : [ "craftingwheel2", "ingredients" ]
+}

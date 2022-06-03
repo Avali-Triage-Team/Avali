@@ -26,7 +26,23 @@
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "avaliribbon1" } },
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "avaliribbon2" } },
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "avaliribbon3" } },
-  
-  
-  { "op": "add", "path": "/deploymentConfig/scripts/-", "value": "/scripts/fuavalipatchcheck.lua" }
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "avalistationtram" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "avalihalfribbon1" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "avalihalfribbon2" } },  
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "avalibottomribbon1" } },  
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "avalibottomribbon2" } },  
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "avalibottomhalfribbon1" } },  
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "avalibottomhalfribbon2" } },  
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "avalitornribbon1" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "avalitornribbon2" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "avalibottomtornribbon1" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "avalibottomtornribbon2" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "avaliwindchime1" } },  
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "avaliwindchime2" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "avalidronespawner"} },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "avalisittinghologram1" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "avalisittinghologram2" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "aerogelmannequin" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "blackmannequin" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "whitemannequin" } }
 ]

@@ -1,0 +1,37 @@
+{
+  "objectName" : "avalisideplateddoor",
+  "colonyTags" : [ "avali"], 
+  "itemTags" : ["coloriser"],
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 100,
+  "printable" : true,
+  "description" : "An plated door. This one is decorative and not functional. Only to be placed in the background.",
+  "shortdescription" : "Plated Door - Side",
+  "race" : "avali",
+  
+  "retainObjectParametersInItem": true,
+
+  "apexDescription" : "What classified technologies do they hide behind this I wonder",
+  "avianDescription" : "I can't tell if this is a wall or a door; where's the buttons?",
+  "floranDescription" : "A sturdy door isss no good, if the walls are made of canvas.",
+  "glitchDescription" : "Suspicion. I think this door is watching me...",
+  "humanDescription" : "Open sesame?",
+  "hylotlDescription" : "Could they have made this any more of an abomination of portal technology?",
+  "avaliDescription" : "The locking mechanism is accessed via augmented reality; non-Avali can't normally open a door like this. Actually, not even I can open this door, hehe.",
+
+  "inventoryIcon" : "avalisideplateddooricon.png",
+  "orientations" : [
+    {
+      "dualImage" : "avalisideplateddoor.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}
+

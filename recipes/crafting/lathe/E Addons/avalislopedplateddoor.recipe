@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "mediummetal", "count" : 6  },
+    { "item" : "siliconboard", "count" : 1  }  
+  ],
+  "output" : { "item" : "avalislopedplateddoor", "count" : 1 },
+  "duration" : 0.1,
+  "groups" : [ "doors", "avalilathe", "all" ]
+}

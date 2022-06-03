@@ -1,0 +1,61 @@
+{
+  "objectName" : "avalilargeplateddoorauto",
+  "colonyTags" : ["avali","door"],
+  "itemTags" : ["coloriser"],
+  "rarity" : "Common",
+
+  "category" : "door",
+  "price" : 175,
+  "printable" : true,
+  "description" : "Doesn't look that light or portable, does it? Opens Automatically.",
+  "shortdescription" : "Large Plated Door, Auto",
+  "race" : "avali",
+  "retainObjectParametersInItem": true,
+
+  "apexDescription" : "A very impressive door that could shield against any kind of atack..",
+  "avianDescription" : "I don't think I can fathom a weapon that could pierce through a door this impressive..",
+  "floranDescription" : "Floran does not know what thisss door isss made of...",
+  "glitchDescription" : "Bewildered. What kind of castle would have a door like this?",
+  "humanDescription" : "I feel like someone might be compensating with a door this big.",
+  "hylotlDescription" : "I must admit, evan I am pretty impressed.",
+  "novakidDescription" : "This door looks pretty reliable.",
+  "avaliDescription" : "Doors of this size are usually made for special purpose. Like for keeping valuables or hazardous materials safe.",
+
+  "inventoryIcon" : "avalilargeplateddooricon.png",
+  "orientations" : [
+    {
+      "dualImage" : "avalilargeplateddoor.png:<color>.default",
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+  
+  "sensorConfig" : {},
+
+  "animation" : "/objects/wired/door/avali-coloreddoor.animation",
+  
+  "animationCustom" : {
+    "sounds" : {
+      "open" : {
+        "pool" : [ "/sfx/objects/apexcooldoor_open.ogg" ],
+        "rangeMultiplier" : 0.5
+      },
+      "close" : {
+        "pool" : [ "/sfx/objects/apexcooldoor_close.ogg" ],
+        "rangeMultiplier" : 0.5
+      }
+    }
+  },
+
+  "animationParts" : {
+    "door" : "avalilargeplateddoor.png"
+  },
+
+  "inputNodes" : [ [-1, 7] ],
+  "outputNodes" : [ [1, 0] ]
+}

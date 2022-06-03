@@ -1,0 +1,74 @@
+{
+  "objectName" : "avalilargeinterlockinghatch",
+  "colonyTags" : ["avali","door"],
+  "itemTags" : ["coloriser"],
+  "rarity" : "Common",
+
+  "category" : "door",
+  "price" : 175,
+  "printable" : true,
+  "description" : "A large interlocking door flipped on its side.",
+  "shortdescription" : "Large Interlocking Hatch",
+  "race" : "avali",
+  "retainObjectParametersInItem": true,
+
+  "apexDescription" : "I don't trust large doors that open like this.",
+  "avianDescription" : "Reminds me of some tomb's traps.",
+  "floranDescription" : "Perfect place for Floran to hide.",
+  "glitchDescription" : "Cautious. Could this hatch lead to an oubliette?",
+  "humanDescription" : "Sure hope this door doesn't open while I'm on top of it.",
+  "hylotlDescription" : "Quite a large door. Hope it doesn't fall on its own weight.",
+  "novakidDescription" : "A careless person could easily skip right over this door and never see it..",
+  "avaliDescription" : "Doors like these are rare to find in our colonies, they might be used to store vehicles or to stockpile resources.",
+
+  "inventoryIcon" : "avalilargeinterlockinghatchicon.png",
+  "orientations" : [
+    {
+      "image" : "avalilargeinterlockinghatch.png:<color>.default",
+      "imagePosition" : [-16, -8],
+      "renderLayer" : "Object+5",
+      "flipImages" : true,
+      "direction" : "left",
+      
+      "animationPosition" : [-16, -8],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left", "right" ]
+    },
+    {
+      "image" : "avalilargeinterlockinghatch.png:<color>.default",
+      "imagePosition" : [-16, -8],
+      "renderLayer" : "Object+5",
+      "direction" : "right",
+      
+      "animationPosition" : [-16, -8],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left", "right" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/avali-coloreddoor.animation",
+  
+  "animationCustom" : {
+    "sounds" : {
+      "open" : {
+        "pool" : [ "/sfx/objects/apexcooldoor_open.ogg" ],
+        "rangeMultiplier" : 0.5
+      },
+      "close" : {
+        "pool" : [ "/sfx/objects/apexcooldoor_close.ogg" ],
+        "rangeMultiplier" : 0.5
+      }
+    }
+  },
+  "animationParts" : {
+    "door" : "avalilargeinterlockinghatch.png"
+  },
+
+  "inputNodes" : [ [-3, 1] ],
+  "outputNodes" : [ [4, -1] ]
+}

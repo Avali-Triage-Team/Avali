@@ -1,0 +1,69 @@
+{
+  "objectName" : "avalislopedinterlockingdoor",
+  "colonyTags" : ["avali","door"],
+  "itemTags" : ["coloriser"],  
+  "rarity" : "Common",
+
+  "category" : "door",
+  "price" : 125,
+  "printable" : true,
+  "description" : "A large and industrial sloped door.",
+  "shortdescription" : "Sloped Interlocking Door",
+  "race" : "avali",
+  "retainObjectParametersInItem": true,
+
+  "apexDescription" : "I wonder what secrets could be behind a door a massive as this?",
+  "avianDescription" : "Whatever is behind this door must be well worth protecting.",
+  "floranDescription" : "Floran can hide meat behind big ssstrong door.",
+  "glitchDescription" : "Frightened. What a deep dark color for a door!",
+  "humanDescription" : "It might be a bit fun to try using this door as a ramp to drive off of.",
+  "hylotlDescription" : "Three small doors make up one big door. It seems someone took notes from our own aesthetic...",
+  "novakidDescription" : "This door is more secure than any safe.",
+  "avaliDescription" : "Not the typical style of door you'd see very often. We usually use these doors for very specific reasons as it isn't really portable. Still doesn't keep the snow from piling up though.",
+
+  "inventoryIcon" : "avalislopedinterlockingdooricon.png",
+  "orientations" : [
+    {
+      "image" : "avalislopedinterlockingdoor.png:<color>.default",
+      "direction" : "left",
+      "flipImages" : true,
+      "imagePosition" : [-16, 0],
+      "renderLayer" : "Object+5",
+      "spaceScan" : 0.1,
+      "fgAnchors" : [ [-2, -1], [-1, -1], [4, 6], [5, 6] ],
+      "animationPosition" : [-16, 0]
+    },
+    {
+      "image" : "avalislopedinterlockingdoor.png:<color>.default",
+      "direction" : "right",
+      "imagePosition" : [-40, 0],
+      "renderLayer" : "Object+5",
+      "spaceScan" : 0.1,
+      "fgAnchors" : [ [-5, 6], [-4, 6], [1, -1], [2, -1] ],
+      "animationPosition" : [-40, 0]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/avali-coloreddoor.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "open" : {
+        "pool" : [ "/sfx/objects/apexcooldoor_open.ogg" ],
+        "rangeMultiplier" : 0.5
+      },
+      "close" : {
+        "pool" : [ "/sfx/objects/apexcooldoor_close.ogg" ],
+        "rangeMultiplier" : 0.5
+      }
+    }
+  },
+  "animationParts" : {
+    "door" : "avalislopedinterlockingdoor.png"
+  },
+
+  "inputNodes" : [ [0, 2] ],
+  "outputNodes" : [ [0, 0] ]
+}

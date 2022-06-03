@@ -1,0 +1,70 @@
+{
+  "objectName" : "avalilargeplatedhatch",
+  "colonyTags" : ["avali","door"],
+  "itemTags" : ["coloriser"],
+  "rarity" : "Common",
+
+  "category" : "door",
+  "price" : 175,
+  "printable" : true,
+  "description" : "Doesn't look that light or portable, does it?",
+  "shortdescription" : "Large Plated Hatch",
+  "race" : "avali",
+  
+  "retainObjectParametersInItem": true,
+
+  "apexDescription" : "A whole ship could probably crash on this door and keep it intact!.",
+  "avianDescription" : "I don't see this hatch buckling under any weight any time soon.",
+  "floranDescription" : "Door feelsss too cold for Floran",
+  "glitchDescription" : "Curious. Why would anyone need a door this powerful?",
+  "humanDescription" : "This hatch is a tripping hazard.",
+  "hylotlDescription" : "I feel that this door could keep the preasure of the ocean at bay.",
+  "novakidDescription" : "This door's about as bright as some stars.",
+  "avaliDescription" : "We usually reserve these doors for our ships or permanent settlements. They're usually required when we use them, otherwise we'd choose the smaller varient.",
+  
+  "inventoryIcon" : "avalilargeplatedhatchicon.png",
+  "orientations" : [
+    {
+      "image" : "avalilargeplatedhatch.png:<color>.default",
+      "imagePosition" : [0, 0],
+      "flipImages" : true,
+      "direction" : "left",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left","right"]
+    },
+    {
+      "image" : "avalilargeplatedhatch.png:<color>.default",
+      "imagePosition" : [0, 0],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left","right"]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/avali-coloreddoor.animation",
+  
+  "animationCustom" : {
+    "sounds" : {
+      "open" : {
+        "pool" : [ "/sfx/objects/apexcooldoor_open.ogg" ],
+        "rangeMultiplier" : 0.5
+      },
+      "close" : {
+        "pool" : [ "/sfx/objects/apexcooldoor_close.ogg" ],
+        "rangeMultiplier" : 0.5
+      }
+    }
+  },
+
+  "animationParts" : {
+    "door" : "avalilargeplatedhatch.png"
+  },
+
+  "inputNodes" : [ [-1, 7] ],
+  "outputNodes" : [ [1, 0] ]
+}

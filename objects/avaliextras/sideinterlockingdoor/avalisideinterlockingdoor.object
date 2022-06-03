@@ -1,0 +1,37 @@
+{
+  "objectName" : "avalisideinterlockingdoor",
+  "colonyTags" : [ "avali"], 
+  "itemTags" : ["coloriser"],
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 100,
+  "printable" : true,
+  "description" : "An interlocking door. This one is decorative and not functional. Only to be placed in the background.",
+  "shortdescription" : "Interlocking Door - Side",
+  "race" : "avali",
+  
+  "retainObjectParametersInItem": true,
+
+  "apexDescription" : "Functional yet effective.",
+  "avianDescription" : "This looks a little ominous to me.",
+  "floranDescription" : "Dark metal door, what dark metal secretssss does it keep from floran?",
+  "glitchDescription" : "Bored. It is a door, how bored I must be examining this.",
+  "humanDescription" : "Why do the other races make their doors so needlessly complex?",
+  "hylotlDescription" : "...Apparently, yes. They can make even greater abominations.",
+  "avaliDescription" : "This door might look boring to the naked eye, but augmented reality will spice things up greatly. Too bad it doesn't actually work.",
+
+  "inventoryIcon" : "avalisideinterlockingdooricon.png",
+  "orientations" : [
+    {
+      "dualImage" : "avalisideinterlockingdoor.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}
+

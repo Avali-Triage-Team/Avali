@@ -1,0 +1,28 @@
+{
+  "itemName" : "avalidronespawner",
+  "rarity" : "Common",
+  "category" : "throwableItem",
+  "inventoryIcon" : "avalidronespawner.png",
+  "image" : "avalidronespawner.png",
+  "shortdescription" : "Avali Drone Assembler",
+  "description" : "Throw this pod on the ground and have a capture pod ready to claim your newly assembled drone!",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "avalidronespawner",
+  "projectileConfig" : {
+    "speed" : 25,
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item.ogg" ]
+      }
+    ]
+  }
+}
