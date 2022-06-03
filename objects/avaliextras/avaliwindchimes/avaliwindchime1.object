@@ -1,0 +1,70 @@
+{
+  "objectName" : "avaliwindchime1",
+  "colonyTags" : ["pretty", "avali","avalicamp"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 85,
+  
+  "itemTags" : ["coloriser"], 
+  "description" : "Hanging aerogel fashioned into a wind chime.",
+  "shortdescription" : "Wind Chime, Aerogel",
+  "race" : "avali",
+  "retainObjectParametersInItem" : true,  
+
+  "apexDescription" : "An interesting windchime.",
+  "avianDescription" : "What a lovely sound!",
+  "floranDescription" : "Chime isss very light. Maybe Floran take?",
+  "glitchDescription" : "Content. This could actually be a nice place to rest.",
+  "humanDescription" : "Who would've guessed that the Avali could make such nice sounds.",
+  "hylotlDescription" : "Ah. It's a shame it wasn't made by hand.",
+  "novakidDescription" : "This chime really ain't my style.",
+  "avaliDescription" : "The aerogel can be printed and shaped to produce the perfect sounds the creator of this chime desires.",
+
+  "inventoryIcon" : "avaliwindchime1icon.png",
+  "orientations" : [
+    {
+      "image" : "avaliwindchime1.png:<color>.<frame>",
+      "flipImages" : true,
+      "imagePosition" : [-8, -16],
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ],
+      "direction" : "left",
+      "lightPosition" : [0, -2],
+      "beamAngle" : 225,
+      "frames" : 10,
+      "animationCycle" : 2
+    },
+    {
+      "image" : "avaliwindchime1.png:<color>.<frame>",
+      "imagePosition" : [-8, -16],
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ],
+      "direction" : "right",
+      "lightPosition" : [0, -2],
+      "beamAngle" : 315,
+      "frames" : 10,
+      "animationCycle" : 2
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/windchimes1.ogg" ,
+
+  "scripts" : [ "/scripts/npcToyObject.lua" ],
+  "npcToy" : {
+    "influence" : [
+      "windchime",
+      "windchimeSound"
+    ],
+    "defaultReactions" : {
+      "windchime" : [
+        [1.0, "wave"]
+      ],
+      "windchimeSound" : [
+        [1.0, "smile"],
+        [1.0, "neutral"]
+      ]
+    },
+    "maxNpcs" : 1
+  }
+
+}

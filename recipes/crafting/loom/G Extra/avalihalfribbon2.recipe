@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "camptapestry1", "count" : 4 }
+  ],
+  "output" : { "item" : "avalihalfribbon2", "count" : 1 },
+  "groups" : [ "object", "avaliloom", "all" ]
+}

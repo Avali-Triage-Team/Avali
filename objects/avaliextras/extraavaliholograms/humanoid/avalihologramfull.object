@@ -1,0 +1,81 @@
+{
+  "objectName" : "avalihologramfull",
+  "colonyTags" : ["ava;i", "avalicamp", "electronic"],
+  "itemTags" : ["coloriser"], 
+  "rarity" : "Uncommon",
+  "category" : "decorative",
+  "price" : 250,
+  "retainObjectParametersInItem" : true,    
+
+  "lightColors" : {
+    "default" :  [100, 60, 16],
+    "red" : [128, 16, 16],
+    "blue" : [16, 32, 128],
+    "green" : [0, 128, 96],
+    "yellow" : [128, 128, 64],
+    "orange" : [100, 60, 16],
+    "purple" : [120, 0, 200],
+    "black" : [32, 32, 32],
+    "white" : [128, 128, 128]
+  },  
+
+  "flickerPeriod" : 0.4,
+  "flickerMinIntensity" : 0.4,
+  "flickerMaxIntensity" : 0.35,
+  "flickerPeriodVariance" : 0,
+  "flickerIntensityVariance" : 0,
+  
+  "description" : "A full body hologram of an Avali.",
+  "shortdescription" : "Hologram, Avali",
+  "race" : "avali",
+
+  "apexDescription" : "Can this alien see me too?.",
+  "avianDescription" : "This hologram is as bright as the sun.",
+  "floranDescription" : "Ghost raptor!",
+  "glitchDescription" : "Neutral. It appear that this hologram is being used for communication.",
+  "humanDescription" : "Doubt this one would be happy to me.",
+  "hylotlDescription" : "SSo the Avali are not all primative.",
+  "novakidDescription" : "I don't think I'd show up that well on a holographic stream.",
+  "avaliDescription" : "When we need to communicate over long distance, we use holographic feeds like these.",
+
+  "inventoryIcon" : "avalihologramfullicon.png",
+  "orientations" : [
+    {
+      "image" : "avalihologramfull.png:<color>.<frame>",
+      
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "avalihologramfull.png:<color>.<frame>",
+
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  // "soundEffect" : "/sfx/objects/tv_static.ogg",
+
+  "animation" : "avalihologramfull.animation",
+  "animationParts" : {
+    "bg" : "avalihologramfull.png",
+    "fg" : "avalihologramfulllit.png"
+  },
+  "animationCustom" : {
+  "sounds" : {
+    "on" : [ "/sfx/objects/console_generic_switchon.ogg" ],
+    "off" : [ "/sfx/objects/console_generic_switchoff.ogg" ]
+  }
+  },
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inputNodes" : [ [0, 0] ],
+
+  "interactive" : true
+}

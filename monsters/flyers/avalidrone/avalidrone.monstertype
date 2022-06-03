@@ -1,0 +1,266 @@
+{
+  "type" : "avalidrone",
+  "shortdescription" : "Avali Drone",
+  "description" : "A small drone made for personnel protection",
+
+  "categories" : [ "avalidrone" ],
+  "parts" : [ "body" ],
+
+  "animation" : "avalidrone.animation",
+
+  "dropPools" : [ { "default" : "scandroidTreasure", "bow" : "scandroidHunting" } ],
+
+  "baseParameters" : {
+    "scripts" : [
+      "/monsters/monster.lua"
+    ],
+
+    "behavior" : "monster",
+
+    "seeThroughLiquid" : false,
+    "behaviorConfig" : {
+      "damageOnTouch" : true,
+
+      "targetQueryRange" : 40,
+      "targetOnDamage" : true,
+      "keepTargetInSight" : true,
+      "keepTargetInRange" : 75,
+      "swoopVelocity":30,
+      "targetOutOfSightTime" : 5.0,
+
+      "hurtWaitForGround" : false,
+
+      "foundTargetActions" : [
+        {
+          "name" : "action-animate",
+          "parameters" : {
+            "stateType" : "body",
+            "state" : "aggro",
+            "animationTime" : 0.1
+          }
+        }
+      ],
+
+      "fleeActions" : [ ],
+
+      "hostileActions" : [
+       {
+          "name" : "action-fire",
+          "cooldown" : 0.5,
+          "parameters" : {
+            "requireLineOfSight" : true,
+            "maximumRange" : 30,
+            "minimumRange" : 1,
+            "windupStopForce" : 50,
+            "windupState" : "fire",
+            "windupTime" : 0.5,
+
+            "projectileType" : "piercingbullet",
+            "projectileParameters" : {
+              "speed" : 100
+            },
+            "fireOffset" : [0.0, -1.75],
+            "aimAtTarget" : true,
+            "onGround" : false,
+            "fireState" : "",
+            "fireSound" : "fire",
+
+            "winddownState" : "",
+            "winddownTime" : 0.1
+          }
+        }
+      ],
+
+      "periodicActions" : [
+       ],
+
+      "approachActions" : [
+        {
+          "name" : "approach-fly", 
+          "parameters" : {
+			"targetOffset" : [0,5],
+			"minRange" : 6,
+			"maxRange" : 10
+			}
+        }
+      ],
+
+      "followActions" : [
+        {
+          "name" : "approach-teleport",
+          "parameters" : {
+          }
+        },
+        {
+          "name" : "approach-fly", 
+          "parameters" : {
+			"targetOffset" : [0,5],
+			"minRange" : 5,
+			"maxRange" : 15,
+			"flyspeed" : 20
+			}
+        }
+      ],
+
+      "wanderActions" : [
+        {
+          "name" : "wander-fly",
+          "cooldown":[5,20],
+          "parameters" : {
+            "wanderTime" : [10,40],
+            "groundDistance" : 12,
+            "ceilingDistance" : 8,
+            "xVelocity" : 8,
+            "yVelocity" : 12
+          }
+        },
+        {
+          "name":"land-fly",
+          "parameters":{
+            "flySpeed":8, 
+            "flyControlForce":25, 
+            "landCheckDistance":40, 
+            "idleTime":40
+            }
+         }
+      ],
+
+      "concurrentActions" : [
+        {
+          "name" : "action-globaltag",
+          "parameters" : {
+            "tagName" : "aggro",
+            "tag" : ""
+          }
+        }
+      ],
+
+      "concurrentHostileActions" : [
+        {
+          "name" : "action-globaltag",
+          "parameters" : {
+            "tagName" : "aggro",
+            "tag" : "aggro"
+          }
+        }
+      ]
+    },
+
+    "touchDamage" : {
+      "poly" : [ [0.625, 0.9375], [1.125, 0.4375], [1.125, -1.4375], [0.625, -1.9375], [-0.625, -1.9375], [-1.125, -1.4375], [-1.125, 0.4375], [-0.625, 0.9375] ],
+      "damage" : 15,
+
+      "teamType" : "enemy",
+      "damageSourceKind" : "lash",
+      "knockback" : 20,
+      "statusEffects" : [ ]
+    },
+
+    "metaBoundBox" : [-16, -16, 16, 16],
+    "scale" : 1.0,
+
+    "movementSettings" : {
+      "collisionPoly" : [ [0.625, 0.9375], [1.125, 0.4375], [1.125, -1.6375], [0.625, -2.1375], [-0.625, -2.1375], [-1.125, -1.6375], [-1.125, 0.4375], [-0.625, 0.9375] ],
+
+      "mass" : 0.5,
+      "walkSpeed" : 10,
+      "runSpeed" : 20,
+      "gravityEnabled" : false,
+
+      "airFriction" : 4,
+      "airForce" : 40,
+      "flySpeed" : 35
+    },
+
+    "bodyMaterialKind" : "robotic",
+
+    "knockoutTime" : 0.3,
+    "knockoutAnimationStates" : {
+      "damage" : "stunned"
+    },
+    "deathParticles" : "deathPoof",
+    "knockoutEffect" : "",
+
+    "statusSettings" : {
+      "statusProperties" : {
+        "targetMaterialKind" : "robotic"
+      },
+
+      "appliesEnvironmentStatusEffects" : false,
+      "appliesWeatherStatusEffects" : true,
+      "minimumLiquidStatusEffectPercentage" : 0.1,
+
+      "primaryScriptSources" : [
+        "/stats/monster_primary.lua"
+      ],
+      "primaryScriptDelta" : 5,
+
+      "stats" : {
+        "knockbackStunTime" : {
+          "baseValue" : 0.5
+        },
+        "knockbackThreshold" : {
+          "baseValue" : 9
+        },
+        "maxHealth" : {
+          "baseValue" : 75
+        },
+        "protection" : {
+          "baseValue" : 0.5
+        },
+        "healthRegen" : {
+          "baseValue" : 0.05
+        },
+        "powerMultiplier" : {
+          "baseValue" : 1.0
+        },
+        "physicalResistance" : {
+          "baseValue" : 0.5
+        },
+        "fireResistance" : {
+          "baseValue" : 0.5
+        },
+        "fireStatusImmunity" : {
+          "baseValue" : 0.0
+        },
+        "iceResistance" : {
+          "baseValue" : 0.5
+        },
+        "iceStatusImmunity" : {
+          "baseValue" : 0.0
+        },
+        "electricResistance" : {
+          "baseValue" : 0.5
+        },
+        "electricStatusImmunity" : {
+          "baseValue" : 0.0
+        },
+        "poisonResistance" : {
+          "baseValue" : 0.5
+        },
+        "poisonStatusImmunity" : {
+          "baseValue" : 1.0
+        }
+      },
+
+      "resources" : {
+        "stunned" : {
+          "deltaValue" : -1.0,
+          "initialValue" : 0.0
+        },
+        "health" : {
+          "maxStat" : "maxHealth",
+          "deltaStat" : "healthRegen",
+          "defaultPercentage" : 100
+        }
+      }
+    },
+
+    "mouthOffset" : [0, 0],
+    "feetOffset" : [0, -8],
+    "capturable" : true,
+    "captureHealthFraction" : 1.0,
+    "nametagColor" : [255, 180, 0]
+    //"captureCollectables" : { "monsters" : "scandroid" }
+  }
+}

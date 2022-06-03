@@ -1,0 +1,70 @@
+{
+  "objectName" : "avaliweaponhologram",
+  "colonyTags" : ["avali", "avalicamp","electronic"],
+  "itemTags" : ["coloriser"],    
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 20,
+  "retainObjectParametersInItem" : true,    
+
+  "lightColors" : {
+    "default" :  [100, 60, 16],
+    "red" : [128, 16, 16],
+    "blue" : [16, 32, 128],
+    "green" : [0, 128, 96],
+    "yellow" : [128, 128, 64],
+    "orange" : [100, 60, 16],
+    "purple" : [120, 0, 200],
+    "black" : [32, 32, 32],
+    "white" : [128, 128, 128]
+  },  
+  "flickerDistance" : 0.02,
+  "flickerStrength" : 0.02,
+  
+  "description" : "Some sort of hologram depicting a weapon and some information with it.",
+  "shortdescription" : "Hologram, Weapon",
+  "race" : "avali",
+
+  "apexDescription" : "Looks like this sign depicts both the location of a firing range and information about what type of weapon is being used.",
+  "avianDescription" : "Stargazers practice their archery every day.",
+  "floranDescription" : "Wordsss move very fast! Blinky lightsss!",
+  "glitchDescription" : "Proud. I bet I could hold my own at a shooting range!",
+  "humanDescription" : "Ugh, let's see... 'Warning: Range may exceed 180 decibels in volume. Always wear your ear protection and--' -yawn- blah blah blah.",
+  "hylotlDescription" : "A weapon is only as great as its master.",
+  "novakidDescription" : "A firing range, huh? Good thing I always keep my big iron on my hip.",
+  "avaliDescription" : "This hologram directs to the firing range, and also broadcasts what weapons are being used and when ear protetion is required.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "avaliweaponhologram.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 6,
+      "animvationCycle" : 1.0,
+      
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1
+    },
+    {
+      "image" : "avaliweaponhologram.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+	  "frames" : 6,
+	  "animationCycle" : 1.0,
+
+      "direction" : "right",
+
+      "spaceScan" : 0.1
+    }
+  ],
+
+  // "soundEffect" : "/sfx/objects/tv_static.ogg",
+
+//  "scripts" : [ "/objects/wired/light/light.lua" ],
+//  "scriptDelta" : 60,
+
+//  "inputNodes" : [ [0, 0] ],
+
+  "interactive" : false
+}

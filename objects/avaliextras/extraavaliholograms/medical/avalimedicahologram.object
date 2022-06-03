@@ -1,0 +1,62 @@
+{
+  "objectName" : "avalimedicalhologram",
+  "colonyTags" : ["avali", "avalicamp", "electronic"],
+  "itemTags" : ["coloriser"],  
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 20,
+  "description" : "A hologram depicting medical practice of some form.",
+  "shortdescription" : "Hologram, Medical",
+  "race" : "avali",
+  "retainObjectParametersInItem" : true,  
+
+  "lightColors" : {
+    "default" :  [100, 60, 16],
+    "red" : [128, 16, 16],
+    "blue" : [16, 32, 128],
+    "green" : [0, 128, 96],
+    "yellow" : [128, 128, 64],
+    "orange" : [100, 60, 16],
+    "purple" : [120, 0, 200],
+    "black" : [32, 32, 32],
+    "white" : [128, 128, 128]
+  },  
+  "flickerDistance" : 0.02,
+  "flickerStrength" : 0.02,
+  
+
+  "apexDescription" : "I've always heard that the Avali have such long lifespans of living thanks to their medicine.",
+  "avianDescription" : "I wonder if Avali can get bird flu too?",
+  "floranDescription" : "Floran hasss sssent many to doctor.",
+  "glitchDescription" : "Attentive. A good place to keep in mind in case I get hurt.",
+  "humanDescription" : "Thankfully I typically carry medicine on me at all times.",
+  "hylotlDescription" : "Helping others in need is one of life's greatest virtues.",
+  "novakidDescription" : "Now I'd be surprised if these folks could perform medicine on me.",
+  "avaliDescription" : "While our medical nanites can solve most issues, it's always good to have a medic nearby at all times.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "avalimedicalhologram.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+            
+      "direction" : "left",
+      "flipImages" : true,
+      
+      "spaceScan" : 0.1
+    },
+    {
+      "image" : "avalimedicalhologram.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,   
+      "animationCycle" : 1.0,       
+        
+      "direction" : "right",
+
+
+      "spaceScan" : 0.1
+    }
+  ]
+}

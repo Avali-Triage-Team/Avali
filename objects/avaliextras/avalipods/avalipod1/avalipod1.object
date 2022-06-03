@@ -1,0 +1,86 @@
+{
+  "objectName" : "avalipod1",
+  "colonyTags" : ["avali", "avalicamp", "light"],
+  "itemTags" : ["coloriser"],   
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 165,
+  "retainObjectParametersInItem" : true,    
+  "lightColors" : {
+    "default" :  [100, 60, 16],
+    "red" : [128, 16, 16],
+    "blue" : [16, 32, 128],
+    "green" : [0, 128, 96],
+    "yellow" : [128, 128, 64],
+    "orange" : [100, 60, 16],
+    "purple" : [120, 0, 200],
+    "black" : [32, 32, 32],
+    "white" : [128, 128, 128]
+  },  
+
+  "flickerPeriod" : 2,
+  "flickerMinIntensity" : 0.15,
+  "flickerMaxIntensity" : 0.2,
+  "flickerPeriodVariance" : 0,
+  "flickerIntensityVariance" : 0,
+  
+  "description" : "A pod filled with an Avali undergoing augmentation.",
+  "shortdescription" : "Avali Augmentation Pod",
+  "race" : "avali",
+
+  "apexDescription" : "I--I can't look.",
+  "avianDescription" : "I wonder... could this machine give us wings?",
+  "floranDescription" : "Meat is inside tube.",
+  "glitchDescription" : "Curious. Does every Avali undergo this process?",
+  "humanDescription" : "I've never heard of pickled turkey before.",
+  "hylotlDescription" : "It appears this avali is almost meditating.",
+  "novakidDescription" : "Just lookin' at this gives me the creeps.",
+  "avaliDescription" : "This pod can augment an Avali all by itself without the need of a doctor. Of course, we usually have one on site.",
+
+  "inventoryIcon" : "avalipod1icon.png",
+  "orientations" : [
+    {
+      "image" : "avalipod1.png:<color>.<frame>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      
+      "direction" : "left",
+      "flipImages" : true,
+      "animationPosition" : [-16, 0],
+      "lightPosition" : [0, 3],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "avalipod1.png:<color>.<frame>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      
+      "direction" : "right",
+      "animationPosition" : [-16, 0],
+      "lightPosition" : [0, 3],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/apexpod.ogg",
+
+  "animation" : "/objects/wired/light/lighttogglebgfullbright.animation",
+  "animationParts" : {
+    "bg" : "avalipod1.png",
+    "fg" : "avalipod1lit.png"
+  },
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+  
+  "interactive" : false,
+
+  "inputNodes" : [ [0, 0] ]
+
+}

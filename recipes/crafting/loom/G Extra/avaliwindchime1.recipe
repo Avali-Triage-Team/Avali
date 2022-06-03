@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "avaligraphene", "count" : 10 },
+  { "item" : "aerogel", "count" : 5 }
+  ],
+  "output" : { "item" : "avaliwindchime1", "count" : 1 },
+  "duration" : 0.25,
+  "groups" : [ "object", "avaliloom", "all" ]
+}

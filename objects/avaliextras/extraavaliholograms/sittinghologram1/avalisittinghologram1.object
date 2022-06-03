@@ -1,0 +1,81 @@
+{
+  "objectName" : "avalisittinghologram1",
+  "colonyTags" : ["avali", "avalicamp", "electronic"],
+  "itemTags" : ["coloriser"], 
+  "rarity" : "Rare",
+  "category" : "decorative",
+  "price" : 250,
+  "retainObjectParametersInItem" : true,    
+
+  "lightColors" : {
+    "default" :  [100, 60, 16],
+    "red" : [128, 16, 16],
+    "blue" : [16, 32, 128],
+    "green" : [0, 128, 96],
+    "yellow" : [128, 128, 64],
+    "orange" : [100, 60, 16],
+    "purple" : [120, 0, 200],
+    "black" : [32, 32, 32],
+    "white" : [128, 128, 128]
+  },  
+
+  "flickerPeriod" : 0.4,
+  "flickerMinIntensity" : 0.4,
+  "flickerMaxIntensity" : 0.35,
+  "flickerPeriodVariance" : 0,
+  "flickerIntensityVariance" : 0,
+  
+  "description" : "A hologram of a sitting Avali.",
+  "shortdescription" : "Hologram, Sitting Avali 1",
+  "race" : "avali",
+
+  "apexDescription" : "Such convienient technology.",
+  "avianDescription" : "This Avali sits like a priest on their throne.",
+  "floranDescription" : "Floran sssneaksss up on raptor!",
+  "glitchDescription" : "Awe. I hope I didn't just stumble into an important meeting",
+  "humanDescription" : "Huh. Wonder what the turkeys get up to.",
+  "hylotlDescription" : "The beauty of language could be lost when not being spoken face to face.",
+  "novakidDescription" : "This Avali is as bright as me.",
+  "avaliDescription" : "For important meetings, we can always use holograms like these so we can still participate.",
+
+  "inventoryIcon" : "avalisittinghologram1icon.png",
+  "orientations" : [
+    {
+      "image" : "avalisittinghologram1.png:<color>.<frame>",
+      
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "avalisittinghologram1.png:<color>.<frame>",
+
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  // "soundEffect" : "/sfx/objects/tv_static.ogg",
+
+  "animation" : "avalisittinghologram1.animation",
+  "animationParts" : {
+    "bg" : "avalisittinghologram1.png",
+    "fg" : "avalisittinghologram1lit.png"
+  },
+  "animationCustom" : {
+  "sounds" : {
+    "on" : [ "/sfx/objects/console_generic_switchon.ogg" ],
+    "off" : [ "/sfx/objects/console_generic_switchoff.ogg" ]
+  }
+  },
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inputNodes" : [ [0, 0] ],
+
+  "interactive" : true
+}

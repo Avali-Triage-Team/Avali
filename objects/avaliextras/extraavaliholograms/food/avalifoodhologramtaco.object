@@ -1,0 +1,61 @@
+{
+  "objectName" : "avalifoodhologramtaco",
+  "colonyTags" : ["avali", "avalicamp", "electronic"],
+  "itemTags" : ["coloriser"],  
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 20,
+  "retainObjectParametersInItem" : true,    
+
+  "lightColors" : {
+    "default" :  [100, 60, 16],
+    "red" : [128, 16, 16],
+    "blue" : [16, 32, 128],
+    "green" : [0, 128, 96],
+    "yellow" : [128, 128, 64],
+    "orange" : [100, 60, 16],
+    "purple" : [120, 0, 200],
+    "black" : [32, 32, 32],
+    "white" : [128, 128, 128]
+  },  
+  "flickerDistance" : 0.02,
+  "flickerStrength" : 0.02,
+  
+  "description" : "A hologram of an Avalonian taco and a menu.",
+  "shortdescription" : "Hologram, Food - Taco",
+  "race" : "avali",
+
+  "apexDescription" : "The miniknog would never give its citizens such variety to food.",
+  "avianDescription" : "Not sure if my beak would really be able to bite on their food.",
+  "floranDescription" : "Floran isss hungry.",
+  "glitchDescription" : "Disinterested. They probably don't serve anything I like.",
+  "humanDescription" : "I've lost my appetite.",
+  "hylotlDescription" : "The Hylotl consider ourselves artists of cuisine. I can see that the Avali don't.",
+  "novakidDescription" : "Uh, maybe I can try a bite?",
+  "avaliDescription" : "Tacos are being served today!? I gotta have some!",
+
+  "inventoryIcon" : "taco.png",
+  "orientations" : [
+    {
+      "image" : "avalifoodhologramtaco.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 6,
+      "animvationCycle" : 1.0,
+      
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1
+    },
+    {
+      "image" : "avalifoodhologramtaco.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+	  "frames" : 6,
+	  "animationCycle" : 1.0,
+
+      "direction" : "right",
+
+      "spaceScan" : 0.1
+    }
+  ]
+}

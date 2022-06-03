@@ -1,0 +1,76 @@
+{
+  "objectName" : "avalipodempty",
+  "colonyTags" : ["avali", "avalicamp", "light"],
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 165,
+  "description" : "A vacant pod.",
+  "shortdescription" : "Avali Augment Pod - Empty",
+  "race" : "avali",
+  "itemTags" : ["coloriser"],   
+  "retainObjectParametersInItem" : true,    
+  "lightColors" : {
+    "default" :  [100, 60, 16],
+    "red" : [128, 16, 16],
+    "blue" : [16, 32, 128],
+    "green" : [0, 128, 96],
+    "yellow" : [128, 128, 64],
+    "orange" : [100, 60, 16],
+    "purple" : [120, 0, 200],
+    "black" : [32, 32, 32],
+    "white" : [128, 128, 128]
+  },    
+
+  "flickerPeriod" : 2,
+  "flickerMinIntensity" : 0.8,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0,
+  "flickerIntensityVariance" : 0,
+
+
+  "apexDescription" : "Are the Avali mad!? Why would anyone willingly go inside this atrocity?",
+  "avianDescription" : "The Stargazers would find such science blasphemous.",
+  "floranDescription" : "Tube sssmellss bad.",
+  "glitchDescription" : "Informed. So this is how the Avali may live on planets similar to ours.",
+  "humanDescription" : "What's this filled with? A life-time supply of house cleaner?",
+  "hylotlDescription" : "Thankfully for us Hylotl, we have no need to augment our bodies.",
+  "novakidDescription" : "Nothin' good could come from something like this.",
+  "avaliDescription" : "Practically every Avali undergoes augmentation at some point. At least enough to help make our biology less... volatile.",
+ 
+ 
+  "objectType" : "loungeable",
+  "sitCoverImage" : "/objects/avaliextras/avalipods/avalipodempty/avalipodemptycover.png",
+  "sitFlipDirection" : false,
+  "sitOrientation" : "lay",
+  "sitAngle" : 0,
+  "sitEmote" : "sleep",
+  "sitStatusEffects" : [
+    "nude",
+    "bed1"
+  ],
+	
+  "inventoryIcon" : "avalipodemptyicon.png",
+  "orientations" : [
+    {
+      "image" : "avalipodempty.png:<color>",
+      "imagePosition" : [0, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "sitPosition" : [-8, 32],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "avalipodempty.png:<color>",
+      "imagePosition" : [0, 0],
+      "direction" : "right",
+
+      "sitPosition" : [24, 32],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

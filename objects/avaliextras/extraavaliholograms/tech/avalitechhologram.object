@@ -1,0 +1,70 @@
+{
+  "objectName" : "avalitechhologram",
+  "colonyTags" : ["avali","electronic"],
+  "itemTags" : ["coloriser"],    
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 20,
+  "retainObjectParametersInItem" : true,    
+
+  "lightColors" : {
+    "default" :  [100, 60, 16],
+    "red" : [128, 16, 16],
+    "blue" : [16, 32, 128],
+    "green" : [0, 128, 96],
+    "yellow" : [128, 128, 64],
+    "orange" : [100, 60, 16],
+    "purple" : [120, 0, 200],
+    "black" : [32, 32, 32],
+    "white" : [128, 128, 128]
+  },  
+  "flickerDistance" : 0.02,
+  "flickerStrength" : 0.02,
+  
+  "description" : "A hologram warning of the proximity of an electronics production.",
+  "shortdescription" : "Hologram, Production",
+  "race" : "avali",
+
+  "apexDescription" : "It could do me well to see what the Avali can produce.",
+  "avianDescription" : "I wonder... Do the Avali know about Avolite crystals?",
+  "floranDescription" : "Floran tried a glitch once. Tasssted grossss.",
+  "glitchDescription" : "Anxious. I don't know why, but I feel nervous around here.",
+  "humanDescription" : "Gotta admit that they know their way around technology.",
+  "hylotlDescription" : "Their aesthetic may not be refined, but the Avali excel at electronics.",
+  "novakidDescription" : "Electronics productiong? Well, I guess I can go have a look-see.",
+  "avaliDescription" : "This hologram directs the user to the location where we produce our technology.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "avalitechhologram.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 6,
+      "animvationCycle" : 1.0,
+      
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1
+    },
+    {
+      "image" : "avalitechhologram.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+	  "frames" : 6,
+	  "animationCycle" : 1.0,
+
+      "direction" : "right",
+
+      "spaceScan" : 0.1
+    }
+  ],
+
+  // "soundEffect" : "/sfx/objects/tv_static.ogg",
+
+//  "scripts" : [ "/objects/wired/light/light.lua" ],
+//  "scriptDelta" : 60,
+
+//  "inputNodes" : [ [0, 0] ],
+
+  "interactive" : false
+}

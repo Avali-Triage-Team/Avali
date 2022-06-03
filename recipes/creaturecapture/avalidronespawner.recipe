@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "durasteelbar", "count" : 30 },
+    { "item" : "wire", "count" : 20 },
+    { "item" : "battery", "count" : 5 },
+    { "item" : "siliconboard", "count" : 10 }
+  ],
+  "output" : {
+    "item" : "avalidronespawner",
+    "count" : 1
+  },
+  "groups" : [ "capturestation", "all" ]
+}

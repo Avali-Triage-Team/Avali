@@ -1,0 +1,61 @@
+{
+  "objectName" : "avalimechhologram",
+  "colonyTags" : ["avali","electronic"],
+  "itemTags" : ["coloriser"],    
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 20,
+  "retainObjectParametersInItem" : true,    
+
+  "lightColors" : {
+    "default" :  [100, 60, 16],
+    "red" : [128, 16, 16],
+    "blue" : [16, 32, 128],
+    "green" : [0, 128, 96],
+    "yellow" : [128, 128, 64],
+    "orange" : [100, 60, 16],
+    "purple" : [120, 0, 200],
+    "black" : [32, 32, 32],
+    "white" : [128, 128, 128]
+  },  
+  "flickerDistance" : 0.02,
+  "flickerStrength" : 0.02,
+  
+  "description" : "This hologram signifies the location of a mech bay or hangar.",
+  "shortdescription" : "Hologram, Mech",
+  "race" : "avali",
+
+  "apexDescription" : "It looks a place to keep a mech, if I have brought one..",
+  "avianDescription" : "This hologram says that a mech bay is nearby.",
+  "floranDescription" : "Floran likesss flying in giant mech!",
+  "glitchDescription" : "Neutral. I can find all things about mechs here.",
+  "humanDescription" : "Can't the Avali just use the normal mech bays like the rest of us?",
+  "hylotlDescription" : "A mech always has a variety of uses.",
+  "novakidDescription" : "Ah. A mech bay. I hope I can return back to the stars soon.",
+  "avaliDescription" : "This hologram really comes in handy since it can tell pilots where open docking spots are.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "avalimechhologram.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 6,
+      "animvationCycle" : 1.0,
+      
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1
+    },
+    {
+      "image" : "avalimechhologram.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+	  "frames" : 6,
+	  "animationCycle" : 1.0,
+
+      "direction" : "right",
+
+      "spaceScan" : 0.1
+    }
+  ]
+}

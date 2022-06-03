@@ -1,0 +1,30 @@
+{
+  "projectileName" : "avalidronespawner",
+  "image" : "avalidronespawner.png",  
+  "frameNumber" : 1,
+  "animationCycle" : 0.25,
+  "physics" : "grenadenobounce",
+  "timeToLive" : 3,
+  "bounces": -1,    
+  "damageKindImage" : "icon.png",
+  "lightColor" : [255, 180, 0],
+  "emitters" : [ "capturepodorange" ],  
+  "actionOnReap" : [
+	{
+      "action" : "config",
+      "file" : "/projectiles/explosions/avalidronespawnerexplosion/avalidronespawnerexplosion.config"
+    },
+    {
+      "action" : "spawnmonster",
+      "type" : "avalidrone",
+	  "offset" : [0,4],
+      "arguments" : {
+        "aggressive" : false
+      }
+    }
+  ],
+  "power" : 0,
+  "speed" : 50,
+  "damageType" : "NoDamage",
+  "damageKind" : "default"
+}

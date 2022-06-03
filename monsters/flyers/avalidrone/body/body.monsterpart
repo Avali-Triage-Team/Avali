@@ -1,0 +1,10 @@
+{
+  "name" : "avalidrone",
+  "category" : "avalidrone",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "avalidrone.png",
+    "bodynobright" : "avalidronebright.png"
+  }
+}

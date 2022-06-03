@@ -1,0 +1,38 @@
+{
+  "frameGrid" : {
+    "size" : [32, 40],
+    "dimensions" : [3, 9],
+    "names" : [ 
+		[ "default.1", "default.2", "default.off" ],
+		[ "red.1", "red.2", "red.off" ],
+		[ "blue.1", "blue.2", "blue.off" ],
+		[ "green.1", "green.2", "green.off" ],
+		[ "yellow.1", "yellow.2", "yellow.off" ],
+		[ "orange.1", "orange.2", "orange.off" ],
+		[ "purple.1", "purple.2", "purple.off" ],
+		[ "black.1", "black.2", "black.off" ],
+		[ "white.1", "white.2", "white.off" ]
+		]
+  },
+
+  "aliases" : {
+    "default.default" : "default.1",
+    "default.on" : "default.1",
+    "red.default" : "red.1",
+    "red.on" : "red.1",
+    "blue.default" : "blue.1",
+    "blue.on" : "blue.1",
+    "green.default" : "green.1",
+    "green.on" : "green.1",
+    "yellow.default" : "yellow.1",
+    "yellow.on" : "yellow.1",
+    "orange.default" : "orange.1",
+    "orange.on" : "orange.1",
+    "purple.default" : "purple.1",
+    "purple.on" : "purple.1",
+    "black.default" : "black.1",
+    "black.on" : "black.1",
+    "white.default" : "white.1",
+    "white.on" : "white.1"
+  }
+}

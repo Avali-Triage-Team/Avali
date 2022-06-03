@@ -1,0 +1,11 @@
+{
+  "projectileName" : "avalidronespawnerexplosion",
+  "image" : "avalidronespawnerexplosion.png",
+  "animationCycle" : 0.2,
+  "frameNumber" : 4,
+  "speed" : 0,
+  "power" : 0,
+  "animationLoops" : false,
+  "flippable" : true,
+  "damageKind" : "noDamage"
+}

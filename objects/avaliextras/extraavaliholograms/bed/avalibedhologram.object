@@ -1,0 +1,61 @@
+{
+  "objectName" : "avalibedhologram",
+  "colonyTags" : ["avali", "avalicamp", "electronic"],
+  "itemTags" : ["coloriser"],  
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 20,
+  "retainObjectParametersInItem" : true,    
+
+  "lightColors" : {
+    "default" :  [100, 60, 16],
+    "red" : [128, 16, 16],
+    "blue" : [16, 32, 128],
+    "green" : [0, 128, 96],
+    "yellow" : [128, 128, 64],
+    "orange" : [100, 60, 16],
+    "purple" : [120, 0, 200],
+    "black" : [32, 32, 32],
+    "white" : [128, 128, 128]
+  },  
+  "flickerDistance" : 0.02,
+  "flickerStrength" : 0.02,
+  
+  "description" : "A hologram of a hammack and the galactic time.",
+  "shortdescription" : "Hologram, Barracks",
+  "race" : "avali",
+
+  "apexDescription" : "I could probably go for a nap, definitely not the worst place I've slept.",
+  "avianDescription" : "Looks like the Avali make their own version of nests.",
+  "floranDescription" : "Floran hasss no time to sssleep!",
+  "glitchDescription" : "Trusting. This could be a safe place to sleep.",
+  "humanDescription" : "Well, maybe if I'm in the camping mood, I'd sleep here.",
+  "hylotlDescription" : "No one could ever replicate the beauty of a Hylotl bed.",
+  "novakidDescription" : "Not a bad place to kick up the boots and take a nap.",
+  "avaliDescription" : "Us Avali can program in a personal alarm with this hologram to wake up at specific times.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "avalibedhologram.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 6,
+      "animvationCycle" : 1.0,
+      
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1
+    },
+    {
+      "image" : "avalibedhologram.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+	  "frames" : 6,
+	  "animationCycle" : 1.0,
+
+      "direction" : "right",
+
+      "spaceScan" : 0.1
+    }
+  ]
+}

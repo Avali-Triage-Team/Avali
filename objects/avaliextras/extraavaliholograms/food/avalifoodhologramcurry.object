@@ -1,0 +1,61 @@
+{
+  "objectName" : "avalifoodhologramcurry",
+  "colonyTags" : ["avali", "avalicamp", "electronic"],
+  "itemTags" : ["coloriser"],  
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 20,
+  "retainObjectParametersInItem" : true,    
+
+  "lightColors" : {
+    "default" :  [100, 60, 16],
+    "red" : [128, 16, 16],
+    "blue" : [16, 32, 128],
+    "green" : [0, 128, 96],
+    "yellow" : [128, 128, 64],
+    "orange" : [100, 60, 16],
+    "purple" : [120, 0, 200],
+    "black" : [32, 32, 32],
+    "white" : [128, 128, 128]
+  },  
+  "flickerDistance" : 0.02,
+  "flickerStrength" : 0.02,
+  
+  "description" : "A hologram of Avalonian Curry and a menu.",
+  "shortdescription" : "Hologram, Food - Curry",
+  "race" : "avali",
+
+  "apexDescription" : "Even their bowls of soup and curry is much more rich than ours.",
+  "avianDescription" : "I could probably eat it, but I don't think I could actually digest it and live.",
+  "floranDescription" : "Floran doesss not want that to eat.",
+  "glitchDescription" : "Comforted. Looks like a bowl of soup of some sort.",
+  "humanDescription" : "I think I might still have some food on me, I'll eat that instead.",
+  "hylotlDescription" : "This does not even compare to our own curry.",
+  "novakidDescription" : "Think I'll pass eating that.",
+  "avaliDescription" : "Whew! A bowl of curry could fill me up for the whole day.",
+
+  "inventoryIcon" : "curry.png",
+  "orientations" : [
+    {
+      "image" : "avalifoodhologramcurry.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 6,
+      "animvationCycle" : 1.0,
+      
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1
+    },
+    {
+      "image" : "avalifoodhologramcurry.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+	  "frames" : 6,
+	  "animationCycle" : 1.0,
+
+      "direction" : "right",
+
+      "spaceScan" : 0.1
+    }
+  ]
+}
