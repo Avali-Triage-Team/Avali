@@ -9,7 +9,7 @@
   "description" : "Its contents smell strongly of ammonia... maybe it's floor cleaner?",
   "shortdescription" : "Avali Bottle",
   "race" : "avali",
-
+  "price" : 20,
   "apexDescription" : "It smells like ammonia, perhaps some kind of floor cleaner?",
   "avianDescription" : "Ugh, it smells like an Avian defecated in this bottle.",
   "floranDescription" : "Floran thinkssss this is Miracle-Gro.",
