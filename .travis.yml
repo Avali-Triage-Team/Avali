@@ -1,5 +1,5 @@
 language: node_js
-node_js: node
+node_js: -17
 install: npm install -g jsonlint-cli jsmin
 script:
   # Here is how the monster of a command below works
