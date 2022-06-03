@@ -38,6 +38,5 @@
     "speed" : 20
   },
 
-  "popItem" : "aerogelrailplatform",
-  "popOnInteract" : true
+  "popItem" : "aerogelrailplatform"
 }
