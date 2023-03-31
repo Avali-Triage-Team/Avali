@@ -12,6 +12,7 @@
   "edgeTrigger" : true,
   "windupTime" : 0.0,
   "cooldown" : 0.4,
+  "learnBlueprintsOnPickup" : [ "avalitier3pilum" ],
   "projectileType" : "avalipilum2",
   "projectileConfig" : {
     "speed" : 60,
