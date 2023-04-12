@@ -631,10 +631,15 @@
       "op": "add",
       "path": "/converse/saturn/avali",
       "value": [
+        "Hello traveler. Uh... Have you been working with ammonia recently?",
+        "Aerogel sounds like a useful material. Do you know of any books that detail how to make it?",
+        "Huh? Are you an Avali? You are much taller than my guide book said you would be.",
+        "You are really fluffy and feathery. Are you warm-blooded as well?",
+        "You're really different from the other species I usually see around here. You must have traveled far.",
         "Hello, Avali.",
         "You have beautiful wings.",
         "I like your plumage.",
-        "Aww, how cute! (squeaking)",
+        "Aww, how cute! Squeak!",
         "Might I borrow a feather? I need it for a spell I'm working on..."
       ]
     },
@@ -642,10 +647,15 @@
       "op": "add",
       "path": "/converse/saturn2/avali",
       "value": [
+        "Hello traveler. Uh... Have you been working with ammonia recently?",
+        "Do you know of any books I could read about the strange plants from your homeworld?",
+        "Huh? Are you an Avali? You are much taller than my guide book said you would be.",
+        "Your species has been known to modify itself quite a bit. Did your species modify other species from your world as well?",
+        "Aeroponics is an interesting approach to gardening.",
         "Hello, Avali.",
         "You have beautiful wings.",
         "I like your plumage.",
-        "Aww, how cute! (squeaking)",
+        "Aww, how cute! Squeak!",
         "Might I borrow a feather? I need it for a spell I'm working on..."
       ]
     }
