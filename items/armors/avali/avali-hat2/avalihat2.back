@@ -1,6 +1,6 @@
 {
   "itemName" : "avalihat2back",
-  "inventoryIcon" : "icons.png:3",
+  "inventoryIcon" : "icons.png:back",
   "maxStack" : 1,
   "price" : 10,
   "rarity" : "Common",
