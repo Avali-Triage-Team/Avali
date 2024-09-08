@@ -19,7 +19,7 @@
           "Is it true Apex actually clone their dead?",
           "That's a lot of fur, are you from a non-CHZ world too?",
           "A shame the Miniknog censor the media, you'd make good use of a Nexus system.",
-          "(Whispers) I know it was you guys. Hash-tag ApexAvalonTruth!"
+          "Big Ape can suck a banana."
         ],
         "avian": [
           "Hello, Avian.",
@@ -40,35 +40,63 @@
           "Why do Florans need to hunt for meat if you can photosynthesise?",
           "Mind explaining to me what 'drysap' is?"
         ],
+        "gic_realisticfloran": [
+          "Hello, Floran.",
+          "...Er, just to remind you, we're inedible.",
+          "What do you mean, we smell like Miracle-Gro?",
+          "No, that's not for stabbi- WHOA, ok, apparently it can also be used for stabbing. Learn something new every day.",
+          "Want to join us on a hunt later? We heard Florans are amazing hunters.",
+          "Why do Florans need to hunt for meat if you can photosynthesise?",
+          "Mind explaining to me what 'drysap' is?",
+          "'Floran Liberation Front?' Or was it 'Floran Liberation Army?' I'm so confused...",
+          "What in the fluff is the 'Floran Liberation Front?'",
+          "The Avali Illuminate does not reconize this 'Floran Liberation Front.'",
+          "A wandering refugee? Welcome.",
+          "Let's hope this Floran civil war doesn't come here."
+        ],
         "human": [
-          "Hello... oh, a human.",
-          "I thought something smelled bad.",
-          "I understand, it wasn't your fault. But some of my kin might not be so understanding.",
-          "(Whispers) Between you and me, I think it was the Apex. Don't tell anyone else I said that though.",
-          "You have Durasteel gonads coming here, human.",
-          "So, are you still into bombarding fledgling races on first contact?",
-          "What's the weather like on Earth lately, violent with a chance of tentacles?",
-          "So much for the Protectorate.",
-          "And to think there was talk about us joining the Protectorate. Good thing that fell through.",
-          "Now where'd I put my tiny violin...",
-          "No, you cannot have a hug. Buzz off.",
-          "We're watching you, scum.",
-          "I'm not sure what's worse: humans trying to kill us, or humans trying to lewd us."
+          "Hello human.",
+          "Play me the song of your people.",
+          "I just felt the oddest urge to insult you for no reason. I don't know why. I apologise.",
+          "You must have gonads of Durasteel to have survived the Earth's destruction. My hat's off to you... wherever it is.",
+          "I took human history class back in Kresh. It was interesting... and a bit disturbing.",
+          "So, is the USCM still a thing, or???",
+          "Poor thing, need a hug?",
+          "And to think there was talk about us joining the Protectorate.",
+          "Now where'd I put my violin? I was going to play you a song to cheer you up.",
+          "I heard about Earth. Need a hug?",
+          "*Watches you intently*",
+          "I heard there were humans with... strange thoughts about us. Is that true?"
         ],
         "ningen": [
-          "Hello... oh, a human.",
-          "I thought something smelled bad.",
-          "I understand, it wasn't your fault. But some of my kin might not be so understanding.",
-          "(Whispers) Between you and me, I think it was the Apex. Don't tell anyone else I said that though.",
-          "You have Durasteel gonads coming here, human.",
-          "So, are you still into bombarding fledgling races on first contact?",
-          "What's the weather like on Earth lately, violent with a chance of tentacles?",
-          "So much for the Protectorate.",
-          "And to think there was talk about joining the Protectorate. Good thing that fell through.",
-          "Now where'd I put my tiny violin...",
-          "No, you cannot have a hug. Buzz off.",
-          "We're watching you, scum.",
-          "I'm not sure what's worse: humans trying to kill us, or humans trying to lewd us."
+          "Hello human.",
+          "Play me the song of your people.",
+          "I just felt the oddest urge to insult you for no reason. I don't know why. I apologise.",
+          "You must have gonads of Durasteel to have survived the Earth's destruction. My hat's off to you... wherever it is.",
+          "I took human history class back in Kresh. It was interesting... and a bit disturbing.",
+          "So, is the USCM still a thing, or???",
+          "Poor thing, need a hug?",
+          "And to think there was talk about us joining the Protectorate.",
+          "Now where'd I put my violin? I was going to play you a song to cheer you up.",
+          "I heard about Earth. Need a hug?",
+          "*Watches you intently*",
+          "I heard there were humans with... strange thoughts about us. Is that true?"
+        ],
+        "gic_realistichuman": [
+          "Hello human.",
+          "Play me the song of your people.",
+          "I just felt the oddest urge to insult you for no reason. I don't know why. I apologise.",
+          "You must have gonads of Durasteel to have survived the Earth's destruction. My hat's off to you... wherever it is.",
+          "I took human history class back in Kresh. It was interesting... and a bit disturbing.",
+          "So, is the USCM still a thing, or???",
+          "Poor thing, need a hug?",
+          "And to think there was talk about us joining the Protectorate.",
+          "Now where'd I put my violin? I was going to play you a song to cheer you up.",
+          "I heard about Earth. Need a hug?",
+          "*Watches you intently*",
+          "I heard there were humans with... strange thoughts about us. Is that true?",
+          "How goes the war? Not that I'm cheering any side...",
+          "Friendly reminder: this is a neutral zone. Leave your factionalism and nationalism outside."
         ],
         "hylotl": [
           "Hello, Hylotl.",
@@ -98,6 +126,17 @@
           "Have you thought about getting a tune up from the drone techs?",
           "Is that a tin can used in your construction?"
         ],
+        "gic_realisticglitch": [
+          "Hello, Glitch.",
+          "Friendly. Greetings! I've been studying your mode of speech.",
+          "Do you mind if I have a look at your neural architecture?",
+          "If Glitch are able to self reproduce and upgrade, why haven't you undergone singularity yet?",
+          "Have you thought about getting a tune up from the drone techs?",
+          "Is that a tin can used in your construction?",
+          "I heard there was some sort of war going on between you guys. Is that true?",
+          "Free Thinker or Gestalt? Actually, don't answer that.",
+          "Friendly reminder: No crusading allowed on the premesis."
+        ],
         "novakid": [
           "Hello, Novakid.",
           "Howdy partner!",
@@ -106,6 +145,17 @@
           "So you have no eyes... or ears... or mouth... how does that work? Can you hear me? Hello?",
           "Can I borrow your glow for just a moment? ... There. Thanks, buckaroo!",
           "Can you play guitar? I'd love to hear an old cowboy song right about now."
+        ],
+        "gic_realisticnovakid": [
+          "Hello, Novakid.",
+          "Howdy partner!",
+          "Sometimes I wish I could glow in the dark. Most of the time, not.",
+          "Not too close! I'd rather not have my feathers singed.",
+          "So you have no eyes... or ears... or mouth... how does that work? Can you hear me? Hello?",
+          "Can I borrow your glow for just a moment? ... There. Thanks, buckaroo!",
+          "Can you play guitar? I'd love to hear an old cowboy song right about now.",
+          "Where's the brand?",
+          "An unbranded? Don't they explode? I'dlovetostayandchatbutIhavetodothingsnothererightnowbye!"
         ],
         "fenerox": [
           "Hello, Fenerox.",
@@ -116,11 +166,10 @@
         ],
         "penguin": [
           "Ugh, a penguin.",
-          "There's only one thing worse than a human... and it's right here.",
-          "Humans are bad. Penguins... are worse.",
+          "This is not a freeforall. No piracy allowed here.",
           "Flap off.",
           "Your kind makes us all look bad.",
-          "Been killing any helpless standees or colonists lately?",
+          "Been killing any helpless strandees or colonists lately?",
           "Tell Dreadwing he can go fluff himself.",
           "We don't need your scum here. Shoo.",
           "Begone, pirate."
@@ -167,14 +216,13 @@
         ],
         "aegi": [
           "Hello... oh, a human... with pointy ears.",
-          "Wait, so you guys were human, a long time ago? Does that mean...",
+          "Wait, so you guys were human, a long time ago?",
           "Sorry, we're not interested in joining the Alliance.",
           "(Whispers) If our pack wanted to join the Alliance, who would we talk to?",
           "I heard there's talks on Avalon about us joining the Alliance... is that true?",
           "So with the Protectorate gone, I guess the Alliance is the big guy around, now?",
           "If it's not one human-based organization, it's another.",
-          "You have Durasteel gon- Oh, sorry, thought you were something else for a moment.",
-          "Now where'd I put my- pointed ears? Sorry, I thought you were a human.",
+          "Now where'd I put my- pointed ears? Sorry, I thought you were a human. Want to hear my song anyway?",
           "If we join the Alliance, do we have to give up our drones and the Oracle? ... No? Okay good.",
           "I hear you guys like drones too. We should see which ones are better!"
         ],
@@ -206,13 +254,12 @@
           "By the way, my drone is making this weird nose. Mind having a look?"
         ],
         "eevee": [
-          "Hello, Eevee!",
-          "Are you running away from your human trainer? ... We can help hide you.",
-          "You're safe here. We won't let the human 'trainers' find you here.",
-          "Only thing worse than Humans are their dogs.",
+          "Trainers aren't a thing anymore, right?",
+          "Were you on Earth too, or not?",
+          "Hi, puppy!",
           "So back in the day, you could change bodies... without a augment pod? I would have loved to see that.",
-          "You say human children used to capture your kind and then make them fight for money? Human cruelty knows no bounds!",
-          "Your safe here, Eevee. We shoot slavers, or 'trainers'.",
+          "You say human children used to capture your kind and then make them fight for money? I hope that's not a thing anymore.",
+          "Don't worry, we don't have pokeballs here.",
           "Nice coat. Can I pet it?"
         ],
         "familiar": [
@@ -238,28 +285,28 @@
           "Just a reminder that I'm not edible. Ammonia and all that."
         ],
         "lamia": [
-          "Hello, ugh hu- Wait wait wait, sorry! L-Lamia, right?",
+          "Woah I thought you were a human there for a minute.",
           "For a split second, I thought you were a human... Please don't eat me.",
           "I'm not good to eat."
         ],
         "lucario": [
           "Hello, Lucario.",
-          "Are you running away from your human trainer? ... We can help hide you.",
-          "You're safe here. We won't let the human 'trainers' find you here.",
-          "Only thing worse than Humans are their dogs.",
-          "You're not a human-loyalist, are you? Otherwise, there might be ... problems.",
-          "You say human children used to capture your kind and then make them fight for money? Human cruelty knows no bounds!",
-          "Your safe here, Lucario. We shoot slavers, or 'trainers'.",
+          "Trainers aren't a thing anymore, right?",
+          "So were you on Earth too, or not?",
+          "Nice puppy...",
+          "YWe're going to be friends, right?",
+          "You say human children used to capture your kind and then make them fight for money?  I'm glad that's not a thing anymore!",
+          "Need a hug, 'Cario?",
           "Can you see my aura? What color is it?"
         ],
         "kitsune": [
           "Hello... Oh a human... with fox ears and tail? Ah! A Kitsune!",
           "I thought you were a human. My bad.",
-          "You have Durasteel gon- Oh, sorry, thought you were something else for a moment.",
-          "Where did I put- Oh, sorry. Didn't see the ears and tail.",
-          "So how's Earth these days? ... Oh? You're Hylotl-raised? My bad.",
-          "I know I shouldn't really judge, but you look too much like a human.",
-          "No, you can't have a h- Oh. Second thought, yes, yes you can."
+          "Were you there on Earth? If so, you have my condolences.",
+          "Where did I put- Oh, sorry. Didn't see the ears and tail. I can play the song anyway, if you want.",
+          "Sorry about Earth... Oh? You're Hylotl-raised? My bad.",
+          "Why do so many things look like humans? Er, not that anything's wrong with that...",
+          "Want a hug?"
         ],
         "moogle": [
           "Kupo, Moogle.",
@@ -333,19 +380,19 @@
       "op": "add",
       "path": "/converse/human/avali",
       "value": [
-        "You're not welcome here, turkey.",
-        "If you overlook the treaty so will I, so watch it...",
-        "Ugh, savages.",
-        "Keep your distance, turkey.",
-        "Keep walking...",
-        "Ugh, you smell like a walking bowl of disinfectant.",
-        "Oh no, the invasion's begun!",
-        "I'm sorry for what my ancestors did, please don't judge us all for that.",
-        "Oh hello, turkey... er, raptor.",
-        "Why do you raptors make me feel so uneasy?",
+        "Hello Avali.",
+        "Are you cold enough?",
+        "I had the strangest feeling you were going to insult me. I have no idea why...",
+        "Can I hug you? No? Awww...",
+        "Must resist hugging you... must resist hugging you...",
+        "Ugh, you smell like ... Wait, no, it's me. Nevermind.",
+        "Oh no, the invasion of fluffyness has begun!",
+        "We humans don't have the best of pasts, please don't judge us all for that.",
+        "Oh hello, raptor.",
+        "Half of me is uneasy around you, and half of me wants to hug you.",
         "Please don't come too close, I think I might be allergic.",
-        "Here turkey turkey~",
-        "So how do you feel about Thanksgiving? Umm, never mind.",
+        "A little tip: don't look up ''Avali'' on the internet. Why? Erm, no reason...",
+        "So how do you feel about- Hey, where are you going?!",
         "Nice feathers. Can I stroke them?"
       ]
     },
@@ -427,19 +474,19 @@
       "op": "add",
       "path": "/converse/ningen/avali",
       "value": [
-        "You're not welcome here, turkey.",
-        "If you overlook the treaty so will I, so watch it...",
-        "Ugh, savages.",
-        "Keep your distance, turkey.",
-        "Keep walking...",
-        "Ugh, you smell like a walking bowl of disinfectant.",
-        "Oh no, the invasion's begun!",
-        "I'm sorry for what my ancestors did, please don't judge us all for that.",
-        "Oh hello, turkey... er, raptor.",
-        "Why do you raptors make me feel so uneasy?",
+        "Hello Avali.",
+        "Are you cold enough?",
+        "I had the strangest feeling you were going to insult me. I have no idea why...",
+        "Can I hug you? No? Awww...",
+        "Must resist hugging you... must resist hugging you...",
+        "Ugh, you smell like ... Wait, no, it's me. Nevermind.",
+        "Oh no, the invasion of fluffyness has begun!",
+        "We humans don't have the best of pasts, please don't judge us all for that.",
+        "Oh hello, raptor.",
+        "Half of me is uneasy around you, and half of me wants to hug you.",
         "Please don't come too close, I think I might be allergic.",
-        "Here turkey turkey~",
-        "So how do you feel about Thanksgiving? Umm, never mind.",
+        "A little tip: don't look up ''Avali'' on the internet. Why? Erm, no reason...",
+        "So how do you feel about- Hey, where are you going?!",
         "Nice feathers. Can I stroke them?"
       ]
     }
@@ -504,15 +551,15 @@
       "value": [
         "Greetings, Avali.",
         "Here to join the Alliance? You'll want to speak t- hey, where are you going?",
-        "I assure you, we have nothing to do with these 'precursors' you speak of.",
-        "If you find any Earth refugees, be nice to them. We don't tolerate discrimination.",
-        "We're going to have to ask you to stop with the 'tiny violin' jokes when speaking to human refugees.",
-        "Are you sure these 'benefactors' were human? It doesn't match up with our historical records.",
+        "Your people have forgotten their past? A shame, I would have loved to hear about it.",
+        "If you find any Earth refugees, please be kind to them. They need the sympathy.",
+        "We must ask you to stop with the violins. The offer is appreciated, but it can be quite distruptive.",
+        "You say you have mysterious benefactors but don't recall what they looked like? Perhaps they were Cent? Yours would not be the first.",
         "Missing your pack? You can find refuge here.",
         "I trust there will be no discrimination issues while you are here, yes?",
-        "These 'benefactors' sound like terrible people. You have our sympathies.",
-        "We are not these 'benefactors' you speak of. We do not tolerate slavery.",
-        "This 'USCM' you speak of has no power here.",
+        "If your benefactors are the Centens, beware the Thell.",
+        "I hope your Illuminate will assist us with our slavery-erradication efforts.",
+        "I am error.",
         "Have your leaders considered joining the Alliance?"
       ]
     },
@@ -521,14 +568,14 @@
       "path": "/converse/avikan/avali",
       "value": [
         "Greetings, Avali.",
-        "We know what a war of extermination feels like. You have our sympathies.",
-        "Are you sure these 'benefactors' weren't the Thell? Sounds like them.",
-        "At least you got to keep your homeplanet. We had to flee ours.",
+        "I hope you never find out what a war of extermination feels like.",
+        "Are you sure these 'benefactors' weren't the Centens? Sure sounds like them.",
+        "We had to flee our home planet.",
         "A fellow nomad! Vas Vha'leih.",
         "Living on an ice world sounds like living in a desert... but colder.",
-        "Have any tips for kicking an invader off your homeworld? We're still working on that.",
+        "Can the Illuminate help us kick the Thell off our homeworld? We would be in their debt if they did.",
         "Missing your pack? You can find refuge here.",
-        "Beware the Thell. They make your 'benefactors' look like childen."
+        "Beware the Thell, avali"
       ]
     },
     {
@@ -539,11 +586,11 @@
         "Scanning augments. 84% efficency. Non-optimal. I suggest a tune-up.",
         "This 'Oracle' sounds like The Circuit.",
         "You should join the Alliance. Cooperation in these times is logical.",
-        "I'm sorry you do not have good relations with your benefactors as we do.",
+        "We wish you the best in hopes of finding your Benefactors.",
         "You need not fear singularity. We are proof of that.",
-        "This continued hatred for humans is illogical.",
+        "I have the illogical urge to wrap my arms around you. I do not know why.",
         "Your technology is interesting to me. Crude, but interesting.",
-        "Comparing description of 'benefactors' against entity 'Thell'. 70% match.",
+        "Comparing description of 'benefactors' against entity 'Centens'. 70% match.",
         "Your feathers are intruiging.",
         "We both come from cold worlds. Perhaps I shall visit Avalon some time."
       ]
@@ -560,8 +607,7 @@
       "value": [
         "Hello, Avali.",
         "Please don't eat me.",
-        "'Trainers' haven't been a thing for hundreds of years.",
-        "Please stop blaming humans for everything... Please?",
+        "*Hugs you* Thanks, I needed that.",
         "I appreciate your concern, but the 'trainer' days are long gone.",
         "Nice feathers."
       ]
@@ -593,15 +639,14 @@
       "path": "/converse/lucario/avali",
       "value": [
         "Greetings, Avali.",
-        "Your aura is marred by ancient grudges. Do not let them cloud your judgement.",
-        "There were more than humans on Earth. Remember this the next time you make a 'small violin' joke.",
+        "Your aura reveals caution, and curiosity.",
+        "I do not wish for a song. Although, I appreciate the thought.",
         "Your plumage is wonderful.",
         "You advance technogically, yet your mindsets stay focused on the past. You must move past it.",
         "So do you brush your feathers.... or?...",
         "Is your bone structure light? Ours is made of metal.",
         "I am not a prey to hunt.",
-        "Past hatreds, justified or not, must be cast aside if one is to advance themselves.",
-        "If I hear one more joke about small violins and tentacles... Sorry, I almost lost my temper there."
+        "This 'Ruin' creature is a threat to the universe. We must all unite to fight it."
       ]
     }
   ],
@@ -615,10 +660,10 @@
       "path": "/converse/kitsune/avali",
       "value": [
         "Hello, Avali.",
-        "You do know there were more than humans living on Earth, right?",
+        "No I wasn't living on Earth. Thanks fo ryour concern, though!",
         "I like your plumage.",
         "Aww, how cute!",
-        "If I hear you say 'small violin' and 'Earth' in the same sentence, so help me..."
+        "No, I don't need a song. Thanks, though."
       ]
     }
   ],
