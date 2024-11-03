@@ -24,7 +24,7 @@
         "legs" : [  { "name" : "avaliarmor3pants", "data" : { "colorIndex" : [7] } } ],
         "primary" : [ { "name" : "avaliminigun", "data" : { "level" : 6 } } ],
         "sheathedprimary" : [ { "name" : "avalitier1broadsword" } ],
-        "alt" : [ { "name" : "avalishotgun" }, "data" : { "level" : 6 } ]
+        "alt" : [ { "name" : "avalishotgun" , "data" : { "level" : 6 } } ]
       } ] ]
     ]
   }
